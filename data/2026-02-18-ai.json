@@ -1,0 +1,125 @@
+{
+  "date": "2026-02-18",
+  "articles": [
+    {
+      "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+      "summary": "智谱AI发布GLM-5模型，包含186位作者的大规模研究。从Vibe Coding演进至Agentic Engineering，为开源AI模型带来新突破。",
+      "url": "https://huggingface.co/papers/2602.15763",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook",
+      "summary": "研究AI智能体社会中社交行为是否会自然涌现的论文，通过Moltbook案例进行深入分析。",
+      "url": "https://huggingface.co/papers/2602.14299",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+      "summary": "耶鲁大学等机构发布ResearchGym，用于在真实世界AI研究任务中评估语言模型智能体性能。",
+      "url": "https://huggingface.co/papers/2602.15112",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models",
+      "summary": "探索多模态模型中理解与生成之间的优化困境，提出新的优化策略。",
+      "url": "https://huggingface.co/papers/2602.15772",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Moonshot AI Releases Open-Weight Kimi K2.5 Model with Vision and Agent Swarm Capabilities",
+      "summary": "月之暗面发布Kimi K2.5开源权重多模态大语言模型，具备视觉理解和智能体集群能力，在编码任务上表现卓越。",
+      "url": "https://www.infoq.com/news/2026/02/kimi-k25-swarm/",
+      "category": "AI",
+      "published_date": "2026-02-17",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "OpenClaw Founder Peter Steinberger Joins OpenAI",
+      "summary": "OpenClaw创始人Peter Steinberger加入OpenAI，Sam Altman确认其将主导下一代个人智能体开发。OpenClaw在90天内获得190K+ GitHub stars，成为史上第21大星标项目。",
+      "url": "https://www.thetoolnerd.com/p/openclaw-founder-joins-openai-what-next-with-openclaw",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "MIT-Licensed GLM5 Brings Open Source Parity To Closed AI Giants",
+      "summary": "智谱AI发布的GLM-5采用MIT许可证，为开源AI模型与闭源巨头竞争提供新选择。",
+      "url": "https://www.opensourceforu.com/2026/02/mit-licensed-glm5-brings-open-source-parity-to-closed-ai-giants/",
+      "category": "AI",
+      "published_date": "2026-02-17",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Ant Makes Frontier AI Public With Ling-2.5-1T And Ring-2.5-1T Release",
+      "summary": "蚂蚁集团发布Ling-2.5-1T和Ring-2.5-1T前沿AI模型，向公众开放使用。",
+      "url": "https://www.opensourceforu.com/2026/02/ant-makes-frontier-ai-public-with-ling-2-5-1t-and-ring-2-5-1t-release/",
+      "category": "AI",
+      "published_date": "2026-02-17",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "GitHub Previews Agentic Workflows as Part of Continuous AI Concept",
+      "summary": "GitHub Next与微软研究院联合开发Agentic Workflows，AI智能体可在GitHub Actions中自动运行，具有沙箱执行和安全输出功能。",
+      "url": "https://www.theregister.com/2026/02/17/github_previews_agentic_workflows/",
+      "category": "AI",
+      "published_date": "2026-02-17",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "ClinAlign: Scaling Healthcare Alignment from Clinician Preference",
+      "summary": "从临床医生偏好角度扩展医疗对齐的新方法研究，提升医疗AI的安全性和有效性。",
+      "url": "https://huggingface.co/papers/2602.09653",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens",
+      "summary": "通过抑制罕见虚假token来稳定LLM强化学习的新方法，提升训练稳定性。",
+      "url": "https://huggingface.co/papers/2602.15620",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "OpenAI Introduces Frontier for Enterprise AI",
+      "summary": "OpenAI推出Frontier企业AI解决方案，已有超过100万家企业使用。案例显示某制造商将生产优化从6周缩短至1天，全球投资公司通过智能体释放90%销售时间。",
+      "url": "https://openai.com/index/introducing-openai-frontier/",
+      "category": "AI",
+      "published_date": "2026-02-05",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Visual Persuasion: What Influences Decisions of Vision-Language Models?",
+      "summary": "研究视觉语言模型决策受影响因素的论文，探索视觉说服机制。",
+      "url": "https://huggingface.co/papers/2602.15278",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
+      "summary": "重新审视柏拉图表征假设，从亚里士多德视角提出新见解。",
+      "url": "https://huggingface.co/papers/2602.14486",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+      "summary": "规定性缩放研究揭示语言模型能力的演进规律，为模型发展提供理论指导。",
+      "url": "https://huggingface.co/papers/2602.15327",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    }
+  ]
+}
