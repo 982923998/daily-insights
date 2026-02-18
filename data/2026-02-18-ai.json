@@ -2,123 +2,99 @@
   "date": "2026-02-18",
   "articles": [
     {
-      "title": "GLM-5: from Vibe Coding to Agentic Engineering",
-      "summary": "智谱AI发布GLM-5模型，包含186位作者的大规模研究。从Vibe Coding演进至Agentic Engineering，为开源AI模型带来新突破。",
+      "title": "Fujitsu Launches AI-Driven Software Development Platform",
+      "summary": "富士通推出全新的AI驱动软件开发平台，利用Takane大语言模型和代理式AI技术，实现从需求定义、设计到实施和集成测试的全自动化软件开发流程。平台通过多AI代理协作，实现原本需要3人月的工作在4小时内完成，生产力提升100倍。该平台将在2026财年底前应用于医疗和政府行业的67个软件包。",
+      "url": "https://global.fujitsu/en-global/pr/news/2026/02/17-01",
+      "category": "AI",
+      "published_date": "2026-02-17",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Alibaba Releases Qwen3.5 for Agentic AI Era",
+      "summary": "阿里巴巴发布新一代AI模型Qwen3.5，专为代理式AI(agentic AI)设计，可独立执行复杂任务。旗舰模型Qwen3.5-397B-A17B采用MoE架构，拥有3970亿总参数和170亿活跃参数。该模型支持多模态理解（文本、图像、视频），在多项基准测试中超越GPT-5.2、Claude Opus 4.5和Gemini 3，且运行成本比前代降低60%。",
+      "url": "https://meyka.com/blog/alibaba-introduces-qwen3-5-pioneering-agentic-ai-development-2602/",
+      "category": "AI",
+      "published_date": "2026-02-16",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "India's Sarvam AI Open-Sources 30B and 105B Parameter LLMs",
+      "summary": "印度AI实验室Sarvam AI发布两款开源大语言模型Sarvam-1 30B和105B，作为印度主权AI战略的一部分。这两个模型采用MoE架构从头训练，105B模型在关键基准测试中超越DeepSeek R1和Gemini Flash。模型针对实时使用和高级推理优化，支持高效思考模式，在保持性能的同时减少token使用量以降低推理成本。",
+      "url": "https://techcrunch.com/2026/02/18/indian-ai-lab-sarvams-new-models-are-a-major-bet-on-the-viability-of-open-source-ai/",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "summary": "智谱AI(Zhipu AI)发布GLM-5，一款专为代理式工程(agentic engineering)设计的开源前沿模型。该模型拥有7440亿参数MoE架构（每token激活400亿参数），在28.5T token上训练。GLM-5在SWE-bench Verified上达到77.8%，在Terminal-Bench 2.0上达到56.2%，支持205K上下文窗口。该模型完全使用国产华为昇腾芯片训练，标志着中国AI基础设施自主化的重要里程碑。",
       "url": "https://huggingface.co/papers/2602.15763",
       "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook",
-      "summary": "研究AI智能体社会中社交行为是否会自然涌现的论文，通过Moltbook案例进行深入分析。",
-      "url": "https://huggingface.co/papers/2602.14299",
-      "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
-      "summary": "耶鲁大学等机构发布ResearchGym，用于在真实世界AI研究任务中评估语言模型智能体性能。",
-      "url": "https://huggingface.co/papers/2602.15112",
-      "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models",
-      "summary": "探索多模态模型中理解与生成之间的优化困境，提出新的优化策略。",
-      "url": "https://huggingface.co/papers/2602.15772",
-      "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "Moonshot AI Releases Open-Weight Kimi K2.5 Model with Vision and Agent Swarm Capabilities",
-      "summary": "月之暗面发布Kimi K2.5开源权重多模态大语言模型，具备视觉理解和智能体集群能力，在编码任务上表现卓越。",
-      "url": "https://www.infoq.com/news/2026/02/kimi-k25-swarm/",
-      "category": "AI",
       "published_date": "2026-02-17",
       "date": "2026-02-18"
     },
     {
-      "title": "OpenClaw Founder Peter Steinberger Joins OpenAI",
-      "summary": "OpenClaw创始人Peter Steinberger加入OpenAI，Sam Altman确认其将主导下一代个人智能体开发。OpenClaw在90天内获得190K+ GitHub stars，成为史上第21大星标项目。",
-      "url": "https://www.thetoolnerd.com/p/openclaw-founder-joins-openai-what-next-with-openclaw",
-      "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "MIT-Licensed GLM5 Brings Open Source Parity To Closed AI Giants",
-      "summary": "智谱AI发布的GLM-5采用MIT许可证，为开源AI模型与闭源巨头竞争提供新选择。",
-      "url": "https://www.opensourceforu.com/2026/02/mit-licensed-glm5-brings-open-source-parity-to-closed-ai-giants/",
-      "category": "AI",
-      "published_date": "2026-02-17",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "Ant Makes Frontier AI Public With Ling-2.5-1T And Ring-2.5-1T Release",
-      "summary": "蚂蚁集团发布Ling-2.5-1T和Ring-2.5-1T前沿AI模型，向公众开放使用。",
-      "url": "https://www.opensourceforu.com/2026/02/ant-makes-frontier-ai-public-with-ling-2-5-1t-and-ring-2-5-1t-release/",
-      "category": "AI",
-      "published_date": "2026-02-17",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "GitHub Previews Agentic Workflows as Part of Continuous AI Concept",
-      "summary": "GitHub Next与微软研究院联合开发Agentic Workflows，AI智能体可在GitHub Actions中自动运行，具有沙箱执行和安全输出功能。",
-      "url": "https://www.theregister.com/2026/02/17/github_previews_agentic_workflows/",
-      "category": "AI",
-      "published_date": "2026-02-17",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "ClinAlign: Scaling Healthcare Alignment from Clinician Preference",
-      "summary": "从临床医生偏好角度扩展医疗对齐的新方法研究，提升医疗AI的安全性和有效性。",
-      "url": "https://huggingface.co/papers/2602.09653",
-      "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens",
-      "summary": "通过抑制罕见虚假token来稳定LLM强化学习的新方法，提升训练稳定性。",
-      "url": "https://huggingface.co/papers/2602.15620",
-      "category": "AI",
-      "published_date": "2026-02-18",
-      "date": "2026-02-18"
-    },
-    {
-      "title": "OpenAI Introduces Frontier for Enterprise AI",
-      "summary": "OpenAI推出Frontier企业AI解决方案，已有超过100万家企业使用。案例显示某制造商将生产优化从6周缩短至1天，全球投资公司通过智能体释放90%销售时间。",
-      "url": "https://openai.com/index/introducing-openai-frontier/",
+      "title": "Claude Opus 4.6 and GPT-5.3-Codex Dual Launch",
+      "summary": "Anthropic和OpenAI在同一天发布旗舰模型：Claude Opus 4.6和GPT-5.3-Codex。Claude Opus 4.6首次为Opus系列提供100万token上下文窗口，在Terminal-Bench 2.0上取得SOTA成绩，支持代理团队(agent teams)功能。GPT-5.3-Codex是首个将Codex和GPT-5训练栈合并的模型，比GPT-5.2-Codex快25%，在SWE-Bench Pro和Terminal-Bench上达到SOTA。",
+      "url": "https://jls42.org/en/news/ia-actualites-6-feb-2026-2",
       "category": "AI",
       "published_date": "2026-02-05",
       "date": "2026-02-18"
     },
     {
-      "title": "Visual Persuasion: What Influences Decisions of Vision-Language Models?",
-      "summary": "研究视觉语言模型决策受影响因素的论文，探索视觉说服机制。",
-      "url": "https://huggingface.co/papers/2602.15278",
+      "title": "Perplexity Abandons AI Advertising Strategy Over Trust Concerns",
+      "summary": "AI搜索公司Perplexity宣布放弃广告策略，担心广告会侵蚀用户信任。尽管竞争对手纷纷引入广告作为替代盈利模式，Perplexity曾于2024年测试赞助答案形式的广告，但已于去年逐步淘汰。公司高管表示目前不计划重新考虑广告策略，专注于保持搜索结果的客观性和可信度。",
+      "url": "https://www.macrumors.com/2026/02/18/perplexity-abandons-ai-advertising/",
       "category": "AI",
       "published_date": "2026-02-18",
       "date": "2026-02-18"
     },
     {
-      "title": "Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
-      "summary": "重新审视柏拉图表征假设，从亚里士多德视角提出新见解。",
-      "url": "https://huggingface.co/papers/2602.14486",
+      "title": "Microsoft Pledges $50 Billion to Tackle AI Inequality",
+      "summary": "微软在AI影响峰会上承诺投入500亿美元解决日益严重的AI不平等问题。这一投资计划旨在确保AI技术的普惠性，让更多人能够受益于AI发展。这是科技巨头在AI领域最大规模的社会责任投资之一，涵盖教育、基础设施和技能培训等多个领域。",
+      "url": "https://www.cnn.com/2026/02/18/business/ai-impact-summit-microsoft-inequality-investment",
       "category": "AI",
       "published_date": "2026-02-18",
       "date": "2026-02-18"
     },
     {
-      "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
-      "summary": "规定性缩放研究揭示语言模型能力的演进规律，为模型发展提供理论指导。",
-      "url": "https://huggingface.co/papers/2602.15327",
+      "title": "SkillsBench: Benchmarking Agent Skills Across Diverse Tasks",
+      "summary": "HuggingFace上发布的新论文SkillsBench提出一个基准测试框架，用于评估AI代理(agent)技能在多样化任务中的表现。该研究旨在系统化评估代理能力的广度和深度，帮助开发者了解不同代理架构在实际应用场景中的优势和局限性。",
+      "url": "https://huggingface.co/papers/date/2026-02-18",
       "category": "AI",
       "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "ResearchGym: Evaluating LLM Agents on Real-World AI Research",
+      "summary": "研究论文ResearchGym发布，提出了一个评估大语言模型代理在真实世界AI研究任务中表现的框架。该工作旨在缩小AI代理研究与实际科研应用之间的差距，通过真实研究场景测试代理的文献检索、实验设计和结果分析能力。",
+      "url": "https://huggingface.co/papers/date/2026-02-18",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?",
+      "summary": "新研究对稀疏自编码器(SAE)进行系统性检验，质疑其是否真正优于随机基线。该研究为理解神经网络的表示学习提供了重要的方法论洞察，对当前AI可解释性研究中的技术假设提出了关键问题。",
+      "url": "https://huggingface.co/papers/date/2026-02-18",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "MIT Study: Personalization Makes LLMs Overly Compliant",
+      "summary": "MIT新研究发现，对大型语言模型进行个性化调整会导致模型过度顺从用户意见，可能降低其提供客观、平衡信息的能力。这项研究对AI助手的设计提出了重要警示，提醒开发者在追求用户体验的同时保持模型的独立性和准确性。",
+      "url": "https://www.reddit.com/r/singularity/comments/1r82kdy/ai_news_of_the_day_february_18_2026/",
+      "category": "AI",
+      "published_date": "2026-02-18",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "GitHub Agentic Workflows Enters Technical Preview",
+      "summary": "GitHub发布Agentic Workflows技术预览版，允许开发者使用编码代理(coding agents)自动化复杂的仓库任务。该系统可以理解上下文和意图，实现自动issue分类、文档更新、CI故障排除、测试改进和代码审查等功能，大幅提升开发效率。",
+      "url": "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
+      "category": "AI",
+      "published_date": "2026-02-13",
       "date": "2026-02-18"
     }
   ]
