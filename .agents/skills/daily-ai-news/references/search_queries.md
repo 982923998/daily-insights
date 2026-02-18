@@ -118,7 +118,50 @@ arXiv "implementation" OR "code released" AI model after:[yesterday]
 
 ## 三、🗣️ Twitter/X 技术圈讨论
 
-### 技术博主新项目发布
+### 3.1 重点大佬账号定向搜索（优先执行）
+
+每次先搜索以下具体账号，再做泛搜。搜索格式：`site:twitter.com/[username] after:[yesterday]` 或 `"@[username]" AI after:[yesterday]`
+
+**研究者 / 科学家**：
+```
+site:twitter.com/karpathy after:[yesterday]
+```
+```
+site:twitter.com/ylecun after:[yesterday]
+```
+```
+site:twitter.com/drjimfan after:[yesterday]
+```
+```
+site:twitter.com/emollick AI after:[yesterday]
+```
+
+**开发者 / 从业者**：
+```
+site:twitter.com/simonw AI OR LLM after:[yesterday]
+```
+```
+site:twitter.com/swyx AI after:[yesterday]
+```
+```
+site:twitter.com/goodside after:[yesterday]
+```
+
+**AI 公司官方账号**（优先查看是否有新发布）：
+```
+site:twitter.com/AnthropicAI after:[yesterday]
+```
+```
+site:twitter.com/OpenAI after:[yesterday]
+```
+```
+site:twitter.com/huggingface after:[yesterday]
+```
+```
+site:twitter.com/MistralAI after:[yesterday]
+```
+
+### 3.2 技术博主泛搜（补充）
 
 ```
 site:twitter.com OR site:x.com "just released" OR "new project" AI after:[yesterday]
@@ -128,7 +171,7 @@ site:twitter.com OR site:x.com "just released" OR "new project" AI after:[yester
 "twitter" OR "x.com" developer "open source" AI project after:[yesterday]
 ```
 
-### 工具/模型实测讨论
+### 3.3 工具/模型实测讨论
 
 ```
 site:twitter.com OR site:x.com AI tool "tested" OR "tried" OR "benchmark" after:[yesterday]
@@ -138,7 +181,7 @@ site:twitter.com OR site:x.com AI tool "tested" OR "tried" OR "benchmark" after:
 "twitter" "AI" "demo" OR "playground" new after:[yesterday]
 ```
 
-### 技术争论与热点
+### 3.4 技术争论与热点
 
 ```
 site:twitter.com OR site:x.com AI researcher "vs" OR "compared" OR "better than" after:[yesterday]
@@ -148,7 +191,21 @@ site:twitter.com OR site:x.com AI researcher "vs" OR "compared" OR "better than"
 "twitter" OR "x.com" "AI" "hot take" OR "unpopular opinion" OR "thread" after:[yesterday]
 ```
 
-### 论文讨论
+### 3.5 好玩的技术实验 / 趣味分享
+
+```
+site:twitter.com OR site:x.com AI "fun" OR "trick" OR "hack" OR "interesting" demo after:[yesterday]
+```
+
+```
+"twitter" "LLM" "prompt" trick OR experiment OR surprising after:[yesterday]
+```
+
+```
+site:twitter.com OR site:x.com "vibe coding" OR "AI agent" experiment after:[yesterday]
+```
+
+### 3.6 论文讨论
 
 ```
 site:twitter.com OR site:x.com arXiv paper "interesting" OR "breakthrough" after:[yesterday]
@@ -160,7 +217,37 @@ site:twitter.com OR site:x.com arXiv paper "interesting" OR "breakthrough" after
 
 ---
 
-## 四、通用 AI 新闻补充
+## 四、🚨 主要 AI 公司模型发布（每次必查，防漏）
+
+**这组搜索必须执行**，是防止漏抓 Claude/GPT/Gemini 等重大发布的关键。
+
+```
+"Anthropic" OR "Claude" release OR announcement after:[yesterday]
+```
+
+```
+"OpenAI" OR "GPT" OR "o3" OR "o4" release OR announcement after:[yesterday]
+```
+
+```
+"Google AI" OR "Gemini" OR "DeepMind" release OR announcement after:[yesterday]
+```
+
+```
+"Meta AI" OR "LLaMA" release OR open source after:[yesterday]
+```
+
+```
+"Mistral AI" OR "Mistral" model release after:[yesterday]
+```
+
+```
+"xAI" OR "Grok" release OR update after:[yesterday]
+```
+
+---
+
+## 五、通用 AI 新闻补充
 
 ### 快速通用搜索
 
@@ -172,27 +259,9 @@ site:twitter.com OR site:x.com arXiv paper "interesting" OR "breakthrough" after
 "latest AI developments" OR "AI advancement" after:[yesterday]
 ```
 
-### 主要模型更新
-
-```
-"OpenAI announcement" OR "GPT update" OR "ChatGPT news" after:[yesterday]
-```
-
-```
-"Google AI announcement" OR "Gemini update" after:[yesterday]
-```
-
-```
-"Anthropic news" OR "Claude update" after:[yesterday]
-```
-
-```
-"Meta AI" OR "LLaMA update" after:[yesterday]
-```
-
 ---
 
-## 五、已移除的查询类别（不再使用）
+## 六、已移除的查询类别（不再使用）
 
 以下类别已从日常搜索中移除：
 
@@ -206,14 +275,17 @@ site:twitter.com OR site:x.com arXiv paper "interesting" OR "breakthrough" after
 
 ## 推荐查询组合
 
-### 标准日报（5条查询）
+### 标准日报（8条查询）
 
 ```
 Query 1 [工具]: "open source AI" OR "new AI tool" OR "just released" GitHub after:[yesterday]
 Query 2 [HF论文]: site:huggingface.co/papers trending OR "huggingface papers" popular after:[yesterday]
 Query 3 [arXiv]: arXiv "cs.AI" OR "cs.LG" OR "cs.CL" paper after:[yesterday]
-Query 4 [Twitter工具]: site:twitter.com OR site:x.com "just released" OR "new project" AI after:[yesterday]
-Query 5 [Twitter讨论]: site:twitter.com OR site:x.com AI tool "tested" OR "tried" after:[yesterday]
+Query 4 [大佬账号-研究者]: site:twitter.com/karpathy OR site:twitter.com/ylecun OR site:twitter.com/emollick after:[yesterday]
+Query 5 [大佬账号-开发者]: site:twitter.com/simonw OR site:twitter.com/swyx OR site:twitter.com/goodside after:[yesterday]
+Query 6 [公司账号]: site:twitter.com/AnthropicAI OR site:twitter.com/OpenAI OR site:twitter.com/huggingface after:[yesterday]
+Query 7 [公司发布]: "Anthropic" OR "Claude" OR "OpenAI" OR "Gemini" OR "LLaMA" release after:[yesterday]
+Query 8 [Twitter泛搜]: site:twitter.com OR site:x.com AI "just released" OR "tested" OR "interesting" after:[yesterday]
 ```
 
 ### 聚焦工具（3条查询）

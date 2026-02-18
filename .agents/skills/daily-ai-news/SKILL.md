@@ -24,8 +24,11 @@ Activate this skill when the user:
 ```
 Phase 1: Information Gathering
   ├─ Hugging Face: Trending Papers + Trending Spaces (MANDATORY)
-  ├─ Twitter/X: Tech Bloggers深度讨论 (MANDATORY)
   ├─ GitHub Trending (MANDATORY)
+  ├─ Twitter/X: 大佬账号定向监控 + 技术圈讨论 (MANDATORY)
+  │   ├─ 重点账号: @karpathy @ylecun @simonw @AnthropicAI @OpenAI 等
+  │   └─ 泛搜: 工具实测、好玩分享、论文讨论
+  ├─ 主要 AI 公司发布专项搜索 (MANDATORY，防漏 Claude/GPT/Gemini 发布)
   └─ Web search (AI news sites + arXiv)
       ↓
 Phase 2: Content Filtering
@@ -55,33 +58,65 @@ Phase 4: Output Formatting
 - 重点: 热门 Demo Spaces，特别是新发布的工具类 Space
 - 关注: likes 数量、是否可直接使用
 
-### Step 1.2: 【必须】抓取 GitHub Trending
+### Step 1.2: 【必须】抓取 GitHub Trending 日榜前3
 
 使用 `mcp__web_reader__webReader` 抓取：
 
 **GitHub Trending (AI相关)**:
 - URL: https://github.com/trending?since=daily&spoken_language_code=
-- 重点: star 增长最快的 AI/ML 仓库
-- 筛选: 与 LLM、AI、ML、深度学习相关的项目
+- **重点**: 只取日榜 star 增长最快的前3个 AI/ML 仓库，必须收录
+- **筛选条件**: 与 LLM、AI、ML、深度学习相关；若前3中有非 AI 项目，顺延取下一个 AI 项目补足3条
+- **必须记录**: 仓库名、star 数、今日新增 star 数、一句话描述
 
-### Step 1.3: 【必须】搜索 Twitter/X 技术圈动态
+### Step 1.3: 【必须】监控 Twitter/X 大佬账号 + 技术讨论
 
-使用 `WebSearch` 搜索技术博主的讨论（非官方新闻稿）：
+使用 `WebSearch` 分两步执行，不可跳过：
 
-**关键技术博主话题搜索**：
+**第一步：定向搜索重点账号**（每次必执行，防漏第一手发布）
+
+研究者 / 科学家账号：
 ```
-site:twitter.com OR site:x.com "new model" OR "just released" OR "open source" AI after:[yesterday]
+site:twitter.com/karpathy after:[yesterday]
+site:twitter.com/ylecun after:[yesterday]
+site:twitter.com/emollick AI after:[yesterday]
+```
+
+开发者 / 从业者账号：
+```
+site:twitter.com/simonw AI OR LLM after:[yesterday]
+site:twitter.com/goodside after:[yesterday]
+```
+
+AI 公司官方账号（**最重要**，防止漏抓 Claude/GPT/Gemini 发布）：
+```
+site:twitter.com/AnthropicAI after:[yesterday]
+site:twitter.com/OpenAI after:[yesterday]
+site:twitter.com/huggingface after:[yesterday]
+site:twitter.com/MistralAI after:[yesterday]
+```
+
+**第二步：泛搜技术圈讨论 + 好玩分享**
+
+```
+site:twitter.com OR site:x.com "just released" OR "new project" AI after:[yesterday]
 ```
 
 ```
-"twitter" OR "x.com" AI tool released "GitHub" OR "demo" after:[yesterday]
+site:twitter.com OR site:x.com AI "fun" OR "trick" OR "interesting" demo after:[yesterday]
 ```
 
-**重点关注的技术博主类型**（通过搜索发现）：
-- 发布新开源项目的研究员和开发者
-- 分享技术实测结果的从业者
-- 讨论新论文实现细节的社区成员
-- 非官方媒体、非PR稿的第一手体验
+```
+"twitter" OR "x.com" AI tool "tested" OR "tried" OR "benchmark" after:[yesterday]
+```
+
+**重点关注内容**：
+- 研究员/开发者发布新开源项目（第一手）
+- 从业者分享技术实测结果和 benchmark
+- 好玩的 LLM 实验、prompt 技巧、有趣的 demo
+- 技术圈对新论文/工具的集体讨论
+- 非官方媒体的第一手体验反馈
+
+完整账号列表见 `references/news_sources.md` 中"Twitter/X 重点大佬账号"部分。
 
 ### Step 1.4: 抓取主要 AI 新闻站点
 
@@ -94,7 +129,23 @@ site:twitter.com OR site:x.com "new model" OR "just released" OR "open source" A
 
 ### Step 1.5: 执行 Web 搜索补充
 
-使用 `WebSearch` 补充搜索（调整日期动态插入）：
+**【必须】主要 AI 公司发布专项搜索**（防漏 Claude/GPT/Gemini 等重大发布）：
+
+```
+"Anthropic" OR "Claude" release OR announcement after:[yesterday]
+```
+
+```
+"OpenAI" OR "GPT" OR "ChatGPT" release OR update after:[yesterday]
+```
+
+```
+"Google AI" OR "Gemini" OR "DeepMind" release after:[yesterday]
+```
+
+```
+"Meta AI" OR "LLaMA" OR "Mistral" release after:[yesterday]
+```
 
 **工具与开源项目**：
 ```
@@ -134,6 +185,7 @@ AI developer community "new project" OR "just shipped" OR "released today" after
 ### 过滤标准（Remove，硬性排除）
 
 - ❌ **融资/收购新闻**：任何融资轮次、并购、投资相关内容
+- ❌ **合作/战略协议**：企业间合作声明、战略合作协议（如"X公司与Y公司达成合作"），除非含有实质性技术发布
 - ❌ **政策/法规新闻**：AI 监管、政府政策、伦理讨论（宏观层面）
 - ❌ **市场分析**：行业分析报告、市场规模预测
 - ❌ **PR 通稿**：官方公关稿件（除非包含实质性技术内容）
