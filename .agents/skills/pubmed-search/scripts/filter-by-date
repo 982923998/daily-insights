@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# PubMed Date Filter CLI wrapper
+# Reads search JSON from stdin, filters by publication date via PubMed E-utilities.
+#
+# Usage:
+#   scripts/search "autism" 20 | scripts/filter-by-date
+#   scripts/search "autism" 20 | scripts/filter-by-date 7
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+node "${SCRIPT_DIR}/filter-by-date.mjs" "$@"
