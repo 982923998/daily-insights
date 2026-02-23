@@ -1,0 +1,185 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "Claude in PowerPoint - Anthropic Launches AI-Powered Slide Creation",
+      "summary": "Anthropic has launched Claude in PowerPoint, a Microsoft 365 add-in that embeds its Claude AI assistant directly inside PowerPoint for AI-powered slide creation and editing.",
+      "url": "https://www.ghacks.net/2026/02/23/anthropic-launches-claude-inside-powerpoint-for-ai-powered-slide-creation-and-editing/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "OpenAI Developing Smart Speaker, Glasses, and Lamp",
+      "summary": "OpenAI is reportedly developing its own hardware lineup including a smart speaker (potentially with camera), glasses, and lamp, as the company expands beyond software into physical AI devices.",
+      "url": "https://www.lowyat.net/2026/383831/openai-develop-smart-speaker-glasses-lamp/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "GPT-5.3 'Garlic' A/B Test Goes Live",
+      "summary": "Users are being pulled into A/B tests for what appears to be GPT-5.3 (codenamed 'Garlic'), suggesting the release is very close.",
+      "url": "https://www.youtube.com/watch?v=vy6wr7KzuWA",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Claude Code Security - Anthropic Unveils Vulnerability Scanning",
+      "summary": "Anthropic released Claude Code Security, a new capability that scans codebases for security vulnerabilities and suggests targeted software patches for human review.",
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-20",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Google Gemini 3.1 Pro Launched",
+      "summary": "Google has launched Gemini 3.1 Pro, making it available across developer, enterprise, and consumer platforms. The release introduces expanded access to Gemini's advanced reasoning capabilities.",
+      "url": "https://www.verdict.co.uk/news/google-launches-gemini-3-1-pro/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-20",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "OpenClaw 2026.2.21 Released - Adds Gemini 3.1 Support",
+      "summary": "OpenClaw released v2026.2.21 with new models including Google Gemini 3.1 Pro support, and added Volcano Engine (Doubao) and BytePlus providers.",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.21",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-21",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "summary": "Z.ai released GLM-5, an open-source model focused on agentic engineering. The project has gained 1311 stars on GitHub.",
+      "url": "https://github.com/zai-org/GLM-5",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-09",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "LobsterAI - Your 24/7 All-Scenario AI Agent",
+      "summary": "NetEase YouDAO released LobsterAI, a 24/7 all-scenario AI agent that gets work done. The project has 1117 stars on GitHub.",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-12",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "PiCO-LM: Run 1-Billion Parameter LLM on $10 Board",
+      "summary": "RightNow-AI released PiCO-LM, enabling running a 1-billion parameter LLM on a $10 board with 256MB RAM. 93 stars on GitHub.",
+      "url": "https://github.com/RightNow-AI/picolm",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-19",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Agent Captcha - CAPTCHA That Only Agents Can Pass",
+      "summary": "A creative project that proves AI agents can sign a guestbook - the opposite of traditional CAPTCHAs. 22 stars, created Feb 23, 2026.",
+      "url": "https://github.com/Dhravya/agent-captcha",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Llama 3.1 70B on Single RTX 3090 via NVMe-to-GPU",
+      "summary": "A technique to run Llama 3.1 70B model on a single RTX 3090 by bypassing CPU using NVMe-to-GPU direct transfer. 381 points on Hacker News.",
+      "url": "https://github.com/xaskasdf/ntransformer",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Local-First Linux MicroVMs for macOS",
+      "summary": "Show HN project enabling local-first Linux MicroVMs for macOS. 188 points on Hacker News.",
+      "url": "https://shuru.run",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "WARN Firehose - Every US Layoff Notice in One Searchable Database",
+      "summary": "A searchable database of all US WARN layoff notices. 125 points on Hacker News.",
+      "url": "https://warnfirehose.com",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "AI Timeline - 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+      "summary": "An interactive timeline showing the evolution of 171 LLMs from the original Transformer to GPT-5.3. 12 points on Hacker News.",
+      "url": "https://llm-timeline.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Treni - Single-Binary GPU Runtime for Uncertainty-Aware Agents",
+      "summary": "Treni is a single-binary GPU runtime for uncertainty-aware agents with 5ms Time To First Token. 2 points on Hacker News.",
+      "url": "https://treni-docs.pages.dev/docs/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Claude Code Toolkit - Separates Execution from Intelligence Layers",
+      "summary": "An open-source toolkit for Claude Code that cleanly separates execution from intelligence layers.",
+      "url": "https://www.reddit.com/r/AIAssisted/comments/1rc6ayb/open_source_claude_code_toolkit_separates/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Vet - Open-Source Tool to Review Coding Agents Work",
+      "summary": "Vet is an open-source tool from Imbue that reviews coding agents work, helping identify when agents hit walls and need assistance.",
+      "url": "https://www.reddit.com/r/codex/comments/1rc8ssk/we_built_vet_an_opensource_tool_that_reviews_your/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "OpenClaw 2026.2.15 Update - New Features and Improvements",
+      "summary": "The newest OpenClaw release delivers useful upgrades for running AI agents on chat platforms, with improved Telegram support showing replies.",
+      "url": "https://www.reddit.com/r/aicuriosity/comments/1r6536z/openclaw_2026215_update_major_features_and/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-16",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Claude Sonnet 4.6 Released in GitHub Copilot",
+      "summary": "Claude Sonnet 4.6 is now generally available in GitHub Copilot, offering improved coding capabilities.",
+      "url": "https://www.reddit.com/r/GithubCopilot/comments/1r7doim/claude_sonnet_46_released/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-17",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Google DeepMind Lyria 3 - Music Generation AI Model",
+      "summary": "Google DeepMind released Lyria 3, an advanced music generation AI model that turns photos and text into custom tracks with included lyrics and vocals.",
+      "url": "https://www.reddit.com/r/machinelearningnews/comments/1r8ec10/google_deepmind_releases_lyria_3_an_advanced/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-16",
+      "date": "2026-02-23"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "The hippocampus: myth, memory and magnetic resonance imaging.",
+      "summary": "The hippocampi are complex, convoluted regions of archicortex in the temporal lobes of the brain critical to explicit memory function. Over time our view of the structural anatomy of this region has evolved, yet how this relates to underlying functions remains poorly understood. Advances in functional neuroimaging and general anaesthetic pharmacology provide the potential for new insights into the mechanisms of this ancient structure. Twenty-five healthy volunteers were sedated with a target-controlled infusion of propofol to two sedation levels. Structural and resting-state BOLD fMRI was performed. Results showed baseline hippocampal functional connectivity patterns were retained during sedation and recovery. Despite a progressive decrease in memory performance across sedation levels, there was a multiphasic pattern of functional connectivity changes between sedation levels and reciprocal changes during the recovery phase.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41725555/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "The role of the orbitofrontal cortex in smoking cue-reactivity in onset phase of smoking behaviour, a fMRI study in adolescents.",
+      "summary": "Adults with tobacco use disorder show increased activity patterns in frontostriatal regions compared to non-smokers when viewing smoking-related cues. Smoking mostly starts during adolescence. This fMRI study examined whether regular (N=32) and experimental (N=54) smoking adolescents differed from controls (N=47) during an active smoking cue-reactivity task. Results showed no differences in whole brain analyses. ROI analyses showed higher smoking cue-related activity in the left orbitofrontal cortex (OFC) in regular smoking adolescents compared to controls. These results suggest that OFC reactivity to smoking cues could be one of the first signs of the development of tobacco use disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41725393/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    }
+  ]
+}

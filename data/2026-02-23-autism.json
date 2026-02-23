@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "Altered Brain Structure in an ATRX-Deficient Mouse Model of Autism Spectrum Disorder.",
+      "summary": "Mutations in the ATRX gene are a primary cause of alpha-thalassemia intellectual disability X-linked (ATRX) syndrome, which is characterized by intellectual disability, autism, and a range of brain structural abnormalities, including microcephaly. We previously showed that mice with conditional ATRX ablation in forebrain excitatory neurons display deficits in fear memory and autism-related behaviors, with some effects exhibiting sexual dimorphism. In this study, we used high-resolution magnetic resonance imaging (MRI) to systematically characterize brain structural changes associated with these behavioral abnormalities. Whole-brain analysis revealed male-specific microcephaly, while subregional analysis identified significant reductions in hippocampal structures and increased volume of the caudal cortex in mutant animals of both sexes. We also identified structural alterations in regions retaining ATRX expression, such as the thalamus, midbrain, cerebellum, and several fiber tracts. These findings suggest that ATRX loss disrupts the coordinated development of interconnected brain regions. Overall, our results implicate impaired cortico-thalamic-cerebellar connectivity as a potential neural substrate underlying the autistic-like behaviors observed in this mouse model, providing new insights into the neurobiological basis of ATR-X syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41724591/",
+      "category": "Autism",
+      "source": "pubmed",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Autism-Related Phenotypes in a Heterozygous Scn2a(R854Q) Mouse Model and Their Partial Rescue via a Potassium Channel Opener.",
+      "summary": "The voltage-gated sodium channel NaV1.2, encoded by the SCN2A gene, is frequently implicated in neurodevelopmental and neurological disorders, including developmental and epileptic encephalopathy (DEE) and autism spectrum disorder (ASD). Genotype-phenotype studies show that NaV1.2 mutations with mixed gain- (GoF) and loss-of-function (LoF) effects are associated with the most severe clinical outcomes. The R853Q mutation in the second gating charge of Domain II reduces current density by 50-60% and was initially classified as a LoF mutation, suggesting reduced neuronal firing. However, this does not fully explain its recurrent association with DEE and severe ASD. Our recent findings indicate that R853Q induces a gating pore current (Igp) in the resting state, introducing a GoF component that may increase cortical neuronal excitability. This mixed GoF/LoF effect may underlie the strong clinical phenotypes observed in patients carrying this mutation. To explore this, we generated a mouse model carrying the orthologous R854Q mutation. Behavioral analyses revealed that heterozygous NaV1.2(R854Q) mice exhibit ASD-like phenotypes, including impaired social interaction and social novelty, repetitive rearing, and increased risk-taking behaviors. In silico modeling suggests that, in cortical neurons, the net effect of the R854Q mutation is a reduction in neuronal excitability due to decreased sodium conductance, although Igp alone increases excitability and partially offsets this reduction. Notably, acute administration of retigabine, a potassium channel opener, rescues specific ASD-related phenotypes, possibly by restoring decreased firing through reduction of slow sodium inactivation. Comparative analysis with Scn2a knockout models, which show similar current reduction, highlights the unique severity of R854Q, suggesting a role of Igp in modulating neurobehavioral outcomes and informing potential therapeutic strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41724236/",
+      "category": "Autism",
+      "source": "pubmed",
+      "published_date": "2026-02-20",
+      "date": "2026-02-23"
+    }
+  ]
+}

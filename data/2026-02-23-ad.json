@@ -1,0 +1,14 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "Microstructural alterations of the amygdala in neurodegenerative and neuroinflammatory disorders: insights from diffusion tensor imaging.",
+      "summary": "Diffusion tensor imaging (DTI) is a valuable method for evaluating microstructural changes in the amygdala associated with neurodegenerative and neuroinflammatory disorders. This systematic review examines amygdala microstructural alterations in Alzheimer's disease (AD), Parkinson's disease (PD), amyotrophic lateral sclerosis (ALS), dementia with Lewy bodies (DLB), and multiple sclerosis (MS) using DTI metrics. Across disorders, elevated mean diffusivity (MD) emerged as the most consistent finding, present in 100% of AD patients. Reduced fractional anisotropy (FA) was the second most frequent alteration, with 36.6% of AD patients showing decreased FA. These DTI-based microstructural changes often preceded volumetric atrophy and correlated with clinical severity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41720758/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    }
+  ]
+}

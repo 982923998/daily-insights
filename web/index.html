@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Insights | AI & Autism Research</title>
-    
+    <title>Daily Insights | Research Hub</title>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-    
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- React & ReactDOM -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    
+
     <!-- Babel -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
@@ -32,29 +32,14 @@
                         sans: ['Outfit', 'sans-serif'],
                         serif: ['Playfair Display', 'serif'],
                     },
-                    colors: {
-                        slate: {
-                            850: '#151b2e',
-                        },
-                        brand: {
-                            ai: '#6366f1', // Indigo
-                            autism: '#14b8a6', // Teal
-                        }
-                    },
                     animation: {
                         'fade-in': 'fadeIn 0.6s ease-out forwards',
                         'slide-up': 'slideUp 0.6s ease-out forwards',
                         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                     },
                     keyframes: {
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        },
-                        slideUp: {
-                            '0%': { opacity: '0', transform: 'translateY(20px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        }
+                        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        slideUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
                     }
                 }
             }
@@ -66,254 +51,161 @@
             .glass-panel {
                 @apply bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl border border-white/40 dark:border-slate-700/40 shadow-sm;
             }
-            .glass-panel-hover {
-                @apply hover:bg-white/90 hover:dark:bg-slate-800/90 transition-all duration-300;
-            }
             .card-hover {
-                @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-ai/10 dark:hover:shadow-brand-ai/20;
+                @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
             }
         }
-        
         body {
-            @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 min-h-screen transition-colors duration-500 selection:bg-brand-ai/30;
+            @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 min-h-screen transition-colors duration-500;
         }
-
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            @apply bg-transparent;
-        }
-        ::-webkit-scrollbar-thumb {
-            @apply bg-slate-300 dark:bg-slate-700 rounded-full border-4 border-transparent bg-clip-content;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            @apply bg-slate-400 dark:bg-slate-600;
-        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { @apply bg-transparent; }
+        ::-webkit-scrollbar-thumb { @apply bg-slate-300 dark:bg-slate-700 rounded-full border-4 border-transparent bg-clip-content; }
+        ::-webkit-scrollbar-thumb:hover { @apply bg-slate-400 dark:bg-slate-600; }
     </style>
 </head>
 <body>
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useEffect, useMemo } = React;
+        const { useState, useEffect, useMemo, useCallback } = React;
 
-        // --- Icons Wrapper ---
-        const Icon = ({ name, size = 20, className = "" }) => {
-            // We use a ref to make sure we only initialize once per mount if needed, 
-            // but simply calling createIcons in a generic useEffect is easier for this scale.
-            return <i data-lucide={name} width={size} height={size} className={className}></i>;
+        // --- Constants for AI source grouping ---
+        const SOURCE_ORDER = [
+            'GitHub Trending', 'HN Show HN', 'AI for Science',
+            'HuggingFace Spaces', 'Product Hunt', 'Major Release',
+            'Twitter/X', 'Reddit',
+        ];
+        const SOURCE_ICONS = {
+            'GitHub Trending':    'github',
+            'HN Show HN':         'flame',
+            'AI for Science':     'microscope',
+            'HuggingFace Spaces': 'box',
+            'Product Hunt':       'rocket',
+            'Major Release':      'zap',
+            'Twitter/X':          'twitter',
+            'Reddit':             'message-circle',
         };
 
-        // --- Components ---
-
-        const LogConsole = ({ activeMode, onClose, onComplete }) => {
-            const [logs, setLogs] = useState([]);
-            const [status, setStatus] = useState('idle'); // idle, connecting, streaming, done, error
-            const logsEndRef = React.useRef(null);
-            
-            // Auto-scroll to bottom
-            useEffect(() => {
-                logsEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-            }, [logs]);
-
-            useEffect(() => {
-                if (!activeMode) {
-                    setLogs([]);
-                    setStatus('idle');
-                    return;
-                }
-
-                setStatus('connecting');
-                setLogs([`> Initializing ${activeMode.toUpperCase()} data fetch sequence...`]);
-
-                const eventSource = new EventSource(`/api/events?mode=${activeMode}`);
-                let hasReceivedMessage = false;
-
-                const firstLogTimeout = setTimeout(() => {
-                    if (!hasReceivedMessage) {
-                        setLogs(prev => [...prev, `> [TIMEOUT] No log stream in 30s. Please retry.`]);
-                        setStatus('error');
-                        eventSource.close();
-                    }
-                }, 30000);
-
-                eventSource.onopen = () => {
-                    setStatus('streaming');
-                    setLogs(prev => [...prev, `> [CONNECTED] Log stream opened.`]);
-                };
-
-                eventSource.onmessage = (event) => {
-                    try {
-                        hasReceivedMessage = true;
-                        clearTimeout(firstLogTimeout);
-
-                        const data = JSON.parse(event.data);
-
-                        if (data.status === 'done') {
-                            setLogs(prev => [...prev, `> [SUCCESS] Data fetch complete.`]);
-                            setStatus('done');
-                            eventSource.close();
-                            if (onComplete) onComplete();
-                        } else if (data.log) {
-                            // Strip ANSI codes if present (simple regex)
-                            const cleanLog = data.log.replace(/\x1b\[[0-9;]*m/g, '');
-                            setLogs(prev => [...prev, `> ${cleanLog}`]);
-                            setStatus('streaming');
-                        }
-                    } catch (e) {
-                        console.error("Parse error", e);
-                    }
-                };
-
-                eventSource.onerror = (err) => {
-                    clearTimeout(firstLogTimeout);
-                    console.error("EventSource failed:", err);
-                    setLogs(prev => [...prev, `> [ERROR] Connection lost.`]);
-                    setStatus('error');
-                    eventSource.close();
-                };
-
-                return () => {
-                    clearTimeout(firstLogTimeout);
-                    eventSource.close();
-                };
-            }, [activeMode, onComplete]);
-
-            if (!activeMode) return null;
-
-            return (
-                <div className="fixed bottom-4 right-4 z-50 w-full max-w-lg shadow-2xl animate-slide-up">
-                    <div className="bg-slate-900 rounded-lg border border-slate-700 overflow-hidden font-mono text-xs md:text-sm">
-                        {/* Header */}
-                        <div className="bg-slate-800 px-4 py-2 flex items-center justify-between border-b border-slate-700">
-                            <div className="flex items-center gap-2">
-                                <div className={`w-2 h-2 rounded-full ${status === 'streaming' ? 'bg-green-500 animate-pulse' : status === 'done' ? 'bg-blue-500' : status === 'error' ? 'bg-red-500' : 'bg-yellow-500'}`}></div>
-                                <span className="text-slate-300 font-semibold">
-                                    {activeMode === 'ai' ? 'AI_RESEARCH_Protocol' : 'ASD_RESEARCH_Protocol'}
-                                </span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <button onClick={onClose} className="text-slate-400 hover:text-white transition-colors">
-                                    <Icon name="x" size={16} />
-                                </button>
-                            </div>
-                        </div>
-                        
-                        {/* Console Body */}
-                        <div className="h-64 overflow-y-auto p-4 bg-slate-950 text-green-400/90 space-y-1 scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-transparent">
-                            {logs.map((log, i) => (
-                                <div key={i} className="break-words leading-relaxed opacity-90 hover:opacity-100 transition-opacity">
-                                    {log}
-                                </div>
-                            ))}
-                            {status === 'connecting' && (
-                                <div className="animate-pulse">Connecting to satellite feed...</div>
-                            )}
-                            <div ref={logsEndRef} />
-                        </div>
-                    </div>
-                </div>
-            );
+        // Convert hex color to rgba string
+        const hexToRgba = (hex, alpha) => {
+            if (!hex || !hex.startsWith('#')) return `rgba(99,102,241,${alpha})`;
+            const r = parseInt(hex.slice(1, 3), 16);
+            const g = parseInt(hex.slice(3, 5), 16);
+            const b = parseInt(hex.slice(5, 7), 16);
+            return `rgba(${r},${g},${b},${alpha})`;
         };
 
-        const FetchButton = ({ mode, onFetchRequest, disabled }) => {
-            const isAI = mode === 'ai';
-            
-            const colorClass = isAI ? 'text-brand-ai hover:bg-brand-ai/10' : 'text-brand-autism hover:bg-brand-autism/10';
-            const iconName = isAI ? 'download' : 'refresh-cw';
-            const label = isAI ? 'Fetch AI News' : 'Fetch Autism News';
-            
-            return (
-                <button 
-                    onClick={() => onFetchRequest(mode)}
-                    disabled={disabled}
-                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${colorClass} disabled:opacity-50 disabled:cursor-not-allowed disabled:grayscale`}
-                    title={label}
-                >
-                    <Icon name={iconName} size={16} />
-                    <span className="hidden md:inline">{label}</span>
-                </button>
-            );
-        };
-
-        const Header = ({ currentDate, onDateChange, onFetchRequest, isFetching }) => (
-            <header className="pt-12 pb-8 px-6 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-6 animate-fade-in">
-                <div>
-                    <div className="flex items-center gap-2 mb-2">
-                        <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest bg-slate-900 text-white dark:bg-white dark:text-slate-900">
-                            Daily Briefing
-                        </span>
-                        <span className="text-xs font-mono text-slate-400">{new Date().toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                    </div>
-                    <h1 className="font-serif text-5xl md:text-6xl font-bold text-slate-900 dark:text-white tracking-tight leading-none">
-                        Research<span className="text-brand-ai">.</span>Hub
-                    </h1>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                    <div className="glass-panel p-1 rounded-xl flex items-center gap-1">
-                        <FetchButton mode="ai" onFetchRequest={onFetchRequest} disabled={isFetching} />
-                        <div className="w-px h-4 bg-slate-200 dark:bg-slate-700"></div>
-                        <FetchButton mode="autism" onFetchRequest={onFetchRequest} disabled={isFetching} />
-                    </div>
-
-                    <div className="flex items-center gap-3 glass-panel px-4 py-2 rounded-xl transition-all hover:border-brand-ai/30">
-                        <Icon name="calendar" className="text-brand-ai" />
-                        <input 
-                            type="date" 
-                            value={currentDate}
-                            onChange={(e) => onDateChange(e.target.value)}
-                            className="bg-transparent border-none focus:ring-0 text-slate-700 dark:text-slate-200 font-medium cursor-pointer font-mono text-sm"
-                        />
-                    </div>
-                </div>
-            </header>
+        // --- Icon Wrapper ---
+        const Icon = ({ name, size = 20, className = "" }) => (
+            <i data-lucide={name} width={size} height={size} className={className}></i>
         );
 
-        const DomainSwitcher = ({ activeDomain, setActiveDomain, favCount }) => {
+        // --- Sidebar ---
+        const Sidebar = ({ domains, activeDomain, setActiveDomain, favCount, currentDate, onDateChange }) => {
             const tabs = [
-                { key: 'all', icon: 'layout', label: 'All' },
-                { key: 'ai', icon: 'cpu', label: 'AI' },
-                { key: 'autism', icon: 'activity', label: 'Autism' },
-                { key: 'saved', icon: 'bookmark', label: `Saved${favCount > 0 ? ` (${favCount})` : ''}` },
+                { key: 'all', icon: 'layout', label: 'All', color: null },
+                ...domains.map(d => ({ key: d.id, icon: d.icon || 'layers', label: d.label, color: d.color })),
+                { key: 'saved', icon: 'bookmark', label: `Saved${favCount > 0 ? ` (${favCount})` : ''}`, color: '#f59e0b' },
             ];
-            const activeIdx = tabs.findIndex(t => t.key === activeDomain);
 
             return (
-                <div className="flex justify-center mb-8 animate-fade-in" style={{ animationDelay: '100ms' }}>
-                    <div className="glass-panel p-1.5 rounded-2xl flex relative bg-slate-100/50 dark:bg-slate-800/50">
-                        {/* Sliding Background */}
-                        <div
-                            className="absolute inset-y-1.5 bg-white dark:bg-slate-700 rounded-xl shadow-sm transition-all duration-500"
-                            style={{ width: 'calc(25% - 6px)', left: '6px', transform: `translateX(${activeIdx * 100}%)` }}
-                        ></div>
+                <aside className="w-56 shrink-0 h-screen sticky top-0 flex flex-col border-r border-slate-200/60 dark:border-slate-700/40 bg-white/60 dark:bg-slate-900/60 backdrop-blur-xl">
+                    {/* Logo */}
+                    <div className="px-5 pt-6 pb-4">
+                        <h1 className="font-serif text-2xl font-bold text-slate-900 dark:text-white tracking-tight leading-none">
+                            Research<span style={{ color: domains[0]?.color || '#6366f1' }}>.</span>Hub
+                        </h1>
+                        <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mt-1">Daily Briefing</p>
+                    </div>
 
-                        {tabs.map(({ key, icon, label }) => {
+                    {/* Date picker */}
+                    <div className="px-3 mb-4">
+                        <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/40">
+                            <Icon name="calendar" size={14} className="text-slate-400" />
+                            <input
+                                type="date"
+                                value={currentDate}
+                                onChange={(e) => onDateChange(e.target.value)}
+                                className="bg-transparent border-none focus:ring-0 text-slate-700 dark:text-slate-200 font-medium cursor-pointer font-mono text-xs w-full"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Nav tabs */}
+                    <nav className="flex-1 overflow-y-auto px-3 space-y-0.5">
+                        {tabs.map(({ key, icon, label, color }) => {
                             const isActive = activeDomain === key;
-                            const colorClass = isActive
-                                ? key === 'ai' ? 'text-brand-ai' : key === 'autism' ? 'text-brand-autism' : key === 'saved' ? 'text-amber-400' : 'text-slate-900 dark:text-white'
-                                : 'text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200';
                             return (
                                 <button
                                     key={key}
                                     onClick={() => setActiveDomain(key)}
-                                    className={`relative z-10 flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-bold transition-colors duration-300 w-32 justify-center ${colorClass}`}
+                                    style={isActive && color ? {
+                                        backgroundColor: hexToRgba(color, 0.08),
+                                        borderLeftColor: color,
+                                        color: color,
+                                    } : {}}
+                                    className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 border-l-[3px] ${
+                                        isActive
+                                            ? (color ? 'border-l-current' : 'bg-slate-100 dark:bg-slate-800 border-l-slate-900 dark:border-l-white text-slate-900 dark:text-white')
+                                            : 'border-l-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800/50'
+                                    }`}
                                 >
-                                    <Icon name={icon} size={18} />
-                                    {label}
+                                    <Icon name={icon} size={16} />
+                                    <span className="truncate">{label}</span>
                                 </button>
                             );
                         })}
+                    </nav>
+
+                    {/* Footer */}
+                    <div className="px-5 py-4 border-t border-slate-200/60 dark:border-slate-700/40">
+                        <p className="text-[10px] text-slate-400 font-mono">
+                            {new Date().toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })}
+                        </p>
                     </div>
+                </aside>
+            );
+        };
+
+        // --- SourceFilterBar (AI subcategory filter) ---
+        const SourceFilterBar = ({ availableSources, selectedSources, onToggle, onSelectAll, accentColor }) => {
+            const allSelected = selectedSources.size === 0;
+            return (
+                <div className="flex flex-wrap gap-2 mb-6 animate-fade-in" style={{ animationDelay: '150ms' }}>
+                    <button
+                        onClick={onSelectAll}
+                        style={allSelected ? { backgroundColor: hexToRgba(accentColor, 1), color: '#fff', boxShadow: `0 4px 14px ${hexToRgba(accentColor, 0.3)}` } : {}}
+                        className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
+                            allSelected ? '' : 'glass-panel text-slate-500 dark:text-slate-400'
+                        }`}
+                    >
+                        All
+                    </button>
+                    {availableSources.map(source => {
+                        const isActive = selectedSources.has(source);
+                        return (
+                            <button
+                                key={source}
+                                onClick={() => onToggle(source)}
+                                style={isActive ? { backgroundColor: hexToRgba(accentColor, 1), color: '#fff', boxShadow: `0 4px 14px ${hexToRgba(accentColor, 0.3)}` } : {}}
+                                className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
+                                    isActive ? '' : 'glass-panel text-slate-500 dark:text-slate-400'
+                                }`}
+                            >
+                                <Icon name={SOURCE_ICONS[source] || 'layers'} size={14} />
+                                {source}
+                            </button>
+                        );
+                    })}
                 </div>
             );
         };
 
+        // --- SearchBar ---
         const SearchBar = ({ searchQuery, setSearchQuery }) => (
-            <div className="relative max-w-xl mx-auto mb-12 group animate-fade-in" style={{ animationDelay: '200ms' }}>
-                <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-slate-400 group-focus-within:text-brand-ai transition-colors">
+            <div className="relative max-w-xl mb-8 group animate-fade-in" style={{ animationDelay: '200ms' }}>
+                <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-slate-400 transition-colors">
                     <Icon name="search" size={20} />
                 </div>
                 <input
@@ -321,28 +213,35 @@
                     placeholder="Search articles..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-12 pr-6 py-4 glass-panel rounded-2xl bg-white/50 dark:bg-slate-800/50 border-transparent focus:border-brand-ai/30 focus:ring-4 focus:ring-brand-ai/10 text-slate-700 dark:text-slate-200 placeholder-slate-400 text-base font-medium transition-all shadow-sm hover:shadow-md focus:shadow-xl"
+                    className="w-full pl-12 pr-6 py-3.5 glass-panel rounded-2xl bg-white/50 dark:bg-slate-800/50 border-transparent focus:ring-4 focus:ring-slate-200/50 dark:focus:ring-slate-700/50 text-slate-700 dark:text-slate-200 placeholder-slate-400 text-base font-medium transition-all shadow-sm hover:shadow-md"
                 />
             </div>
         );
 
-        const NewsCard = ({ article, index, isFavorited, onToggleFavorite }) => {
-            const isAI = article.category === 'AI';
-            const accentColor = isAI ? 'text-brand-ai' : 'text-brand-autism';
-            const accentBg = isAI ? 'bg-brand-ai' : 'bg-brand-autism';
-            const accentBorder = isAI ? 'border-brand-ai' : 'border-brand-autism';
+        // --- NewsCard ---
+        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1' }) => {
+            const source = article.subcategory || article.source || 'Research';
 
             return (
                 <article
                     className="group glass-panel rounded-3xl p-8 flex flex-col h-full card-hover animate-slide-up relative overflow-hidden"
-                    style={{ animationDelay: `${index * 100}ms` }}
+                    style={{ animationDelay: `${index * 60}ms` }}
                 >
-                    {/* Decorative gradient blob */}
-                    <div className={`absolute -top-24 -right-24 w-64 h-64 bg-gradient-to-br ${isAI ? 'from-brand-ai/10' : 'from-brand-autism/10'} to-transparent rounded-full blur-3xl transition-opacity group-hover:opacity-100 opacity-0`}></div>
+                    <div
+                        className="absolute -top-24 -right-24 w-64 h-64 rounded-full blur-3xl transition-opacity group-hover:opacity-100 opacity-0"
+                        style={{ background: `radial-gradient(circle, ${hexToRgba(color, 0.12)}, transparent)` }}
+                    ></div>
 
                     <div className="flex justify-between items-start mb-6 relative z-10">
-                        <span className={`px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-widest border ${isAI ? 'bg-brand-ai/5 border-brand-ai/20 text-brand-ai' : 'bg-brand-autism/5 border-brand-autism/20 text-brand-autism'}`}>
-                            {article.subcategory || article.source || (isAI ? 'Tech Update' : 'Medical Research')}
+                        <span
+                            className="px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-widest border"
+                            style={{
+                                backgroundColor: hexToRgba(color, 0.06),
+                                borderColor: hexToRgba(color, 0.2),
+                                color: color,
+                            }}
+                        >
+                            {source}
                         </span>
                         <div className="flex items-center gap-1">
                             <button
@@ -357,40 +256,36 @@
                             </a>
                         </div>
                     </div>
-                    
-                    <h3 className="font-serif text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-100 mb-4 leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-slate-800 group-hover:to-slate-600 dark:group-hover:from-white dark:group-hover:to-slate-300 transition-all relative z-10">
+
+                    <h3 className="font-serif text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-100 mb-4 leading-tight relative z-10">
                         {article.title}
                     </h3>
-                    
+
                     <div className="flex items-center gap-3 mb-6 text-xs font-mono text-slate-400 relative z-10 border-b border-slate-100 dark:border-slate-800 pb-6 w-full">
                         <span className="flex items-center gap-1.5">
                             <Icon name="globe" size={14} />
-                            {article.source || 'Unknown Source'}
+                            {article.source || article.subcategory || 'Unknown Source'}
                         </span>
-                        <span className="text-slate-300">•</span>
+                        <span className="text-slate-300">&bull;</span>
                         <span className="flex items-center gap-1.5">
                             <Icon name="calendar" size={14} />
-                            发布 {article.published_date || '—'}
-                        </span>
-                        <span className="text-slate-300">•</span>
-                        <span className="flex items-center gap-1.5">
-                            <Icon name="clock" size={14} />
-                            抓取 {article.date || '—'}
+                            {article.published_date || '\u2014'}
                         </span>
                     </div>
 
                     <p className="text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8 flex-grow line-clamp-4 relative z-10 font-light">
                         {article.summary}
                     </p>
-                    
+
                     <div className="mt-auto relative z-10">
-                        <a 
-                            href={article.url} 
-                            target="_blank" 
+                        <a
+                            href={article.url}
+                            target="_blank"
                             rel="noopener noreferrer"
-                            className={`inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest ${accentColor} hover:opacity-80 transition-opacity group/link`}
+                            style={{ color: color }}
+                            className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest hover:opacity-80 transition-opacity group/link"
                         >
-                            Read Full Analysis
+                            Read Full Article
                             <Icon name="arrow-right" size={16} className="transition-transform group-hover/link:translate-x-1" />
                         </a>
                     </div>
@@ -398,28 +293,47 @@
             );
         };
 
+        // --- ArticleGroup (AI view: grouped by subcategory) ---
+        const ArticleGroup = ({ source, articles, isFavorite, onToggleFavorite, color }) => (
+            <section className="mb-12">
+                <div className="flex items-center gap-3 mb-5">
+                    <div className="p-1.5 rounded-lg" style={{ backgroundColor: hexToRgba(color, 0.1) }}>
+                        <Icon name={SOURCE_ICONS[source] || 'layers'} size={16} style={{ color }} className="" />
+                    </div>
+                    <h2 className="font-bold text-slate-800 dark:text-slate-100 text-lg tracking-tight">{source}</h2>
+                    <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700/50"></div>
+                    <span className="text-xs font-mono text-slate-400 glass-panel px-2.5 py-1 rounded-full">{articles.length}</span>
+                </div>
+                <div className="flex flex-col gap-4">
+                    {articles.map((article, idx) => (
+                        <NewsCard
+                            key={`${article.url}-${idx}`}
+                            article={article}
+                            index={idx}
+                            isFavorited={isFavorite(article.url)}
+                            onToggleFavorite={onToggleFavorite}
+                            color={color}
+                        />
+                    ))}
+                </div>
+            </section>
+        );
 
+        // --- EmptyState ---
         const EmptyState = ({ message, type = 'empty' }) => (
-            <div className="flex flex-col items-center justify-center py-20 text-center animate-fade-in glass-panel rounded-3xl mx-4 md:mx-auto max-w-2xl">
+            <div className="flex flex-col items-center justify-center py-20 text-center animate-fade-in glass-panel rounded-3xl max-w-2xl">
                 <div className={`p-6 rounded-full mb-6 ${type === 'error' ? 'bg-red-50 text-red-500 dark:bg-red-900/20' : 'bg-slate-50 text-slate-400 dark:bg-slate-800'}`}>
-                    <Icon 
-                        name={type === 'error' ? 'alert-octagon' : 'inbox'} 
-                        size={48} 
-                    />
+                    <Icon name={type === 'error' ? 'alert-octagon' : 'inbox'} size={48} />
                 </div>
                 <h3 className="text-2xl font-serif font-bold text-slate-800 dark:text-slate-200 mb-3">
                     {type === 'error' ? 'Data Unavailable' : 'No Results Found'}
                 </h3>
-                <p className="text-slate-500 max-w-md mx-auto leading-relaxed">
-                    {message}
-                </p>
+                <p className="text-slate-500 max-w-md mx-auto leading-relaxed">{message}</p>
             </div>
         );
 
-        // --- Main App ---
-
+        // --- App ---
         const App = () => {
-            // Get today's date in YYYY-MM-DD format based on local time
             const today = new Date().toLocaleDateString('en-CA');
             const [currentDate, setCurrentDate] = useState(today);
             const [refreshTrigger, setRefreshTrigger] = useState(0);
@@ -428,12 +342,13 @@
             const [articles, setArticles] = useState([]);
             const [loading, setLoading] = useState(true);
             const [error, setError] = useState(null);
+            const [selectedSources, setSelectedSources] = useState(new Set());
+            const [domains, setDomains] = useState([]);
+            const [domainsLoaded, setDomainsLoaded] = useState(false);
 
-            // Favorites: stored as array of article objects in localStorage
             const [favorites, setFavorites] = useState(() => {
-                try {
-                    return JSON.parse(localStorage.getItem('favorites') || '[]');
-                } catch { return []; }
+                try { return JSON.parse(localStorage.getItem('favorites') || '[]'); }
+                catch { return []; }
             });
 
             useEffect(() => {
@@ -441,7 +356,6 @@
             }, [favorites]);
 
             const isFavorite = (url) => favorites.some(f => f.url === url);
-
             const toggleFavorite = (article) => {
                 setFavorites(prev =>
                     prev.some(f => f.url === article.url)
@@ -450,164 +364,233 @@
                 );
             };
 
-            // Console State
-            const [activeTaskMode, setActiveTaskMode] = useState(null);
+            // Build lookup: category → domain, id → domain
+            const domainMap = useMemo(() => {
+                const map = {};
+                domains.forEach(d => {
+                    if (d.id) map[`id:${d.id}`] = d;
+                    if (d.category) map[`cat:${d.category}`] = d;
+                });
+                return map;
+            }, [domains]);
 
-            // Handle Fetch Request
-            const handleFetchRequest = async (mode) => {
-                if (activeTaskMode) return; // Prevent multiple runs
-                
-                // Temporary disabled state handled by checking activeTaskMode? 
-                // No, we need a separate flag or just rely on quick response.
-                // Let's just hope user doesn't double click in 50ms.
-                
-                try {
-                    const res = await fetch('/api/fetch', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ mode })
-                    });
-                    
-                    if (res.ok) {
-                        // Only open console if start succeeded
-                        setActiveTaskMode(mode);
-                    } else {
-                        console.error("Failed to start fetch task");
-                    }
-                } catch (e) {
-                    console.error("Fetch request failed", e);
-                }
-            };
+            const getDomainColor = useCallback((article) => {
+                const byId = domainMap[`id:${article._domainId}`];
+                if (byId) return byId.color || '#6366f1';
+                const byCat = domainMap[`cat:${article.category}`];
+                if (byCat) return byCat.color || '#6366f1';
+                return '#6366f1';
+            }, [domainMap]);
 
-            const handleTaskComplete = () => {
-                const today = new Date().toLocaleDateString('en-CA');
-                setCurrentDate(today);
-                setRefreshTrigger(prev => prev + 1);
-                // We keep the console open so user can see "Done" message
-            };
-
-            const closeConsole = () => {
-                setActiveTaskMode(null);
-            };
-
-            // Fetch Data
+            // Load domains from server
             useEffect(() => {
+                fetch('/api/domains')
+                    .then(r => r.ok ? r.json() : { domains: [] })
+                    .catch(() => ({ domains: [] }))
+                    .then(data => {
+                        setDomains(data.domains || []);
+                        setDomainsLoaded(true);
+                    });
+            }, []);
+
+            // Load articles once domains are ready
+            useEffect(() => {
+                if (!domainsLoaded) return;
                 setLoading(true);
                 setError(null);
-
                 const t = Date.now();
-                const aiPath = `/data/${currentDate}-ai.json?t=${t}`;
-                const autismPath = `/data/${currentDate}-autism.json?t=${t}`;
-
                 const safeFetch = (path) =>
-                    fetch(path)
-                        .then(r => r.ok ? r.json() : null)
-                        .catch(() => null);
+                    fetch(path).then(r => r.ok ? r.json() : null).catch(() => null);
 
-                Promise.all([safeFetch(aiPath), safeFetch(autismPath)])
-                    .then(([aiData, autismData]) => {
-                        const aiArticles = aiData ? (aiData.articles || []) : [];
-                        const autismArticles = autismData ? (autismData.articles || []) : [];
-                        const combined = [...aiArticles, ...autismArticles];
-
-                        if (!aiData && !autismData) {
-                            setError(`Report for ${currentDate} is not available.`);
-                            setArticles([]);
-                        } else {
-                            setArticles(combined);
-                            setError(null);
+                Promise.all(
+                    domains.map(d => safeFetch(`/data/${currentDate}-${d.id}.json?t=${t}`))
+                ).then(results => {
+                    const combined = [];
+                    let anyData = false;
+                    results.forEach((data, i) => {
+                        if (data) {
+                            anyData = true;
+                            (data.articles || []).forEach(a =>
+                                combined.push({ ...a, _domainId: domains[i].id })
+                            );
                         }
-                        setLoading(false);
                     });
-            }, [currentDate, refreshTrigger]);
-
-            // Re-run icons when DOM updates
-            useEffect(() => {
-                lucide.createIcons();
-            });
-
-            // Filter Logic
-            const filteredArticles = useMemo(() => {
-                const source = activeDomain === 'saved' ? favorites : articles;
-                return source.filter(article => {
-                    const categoryMatch = activeDomain === 'all' || activeDomain === 'saved' ||
-                        (activeDomain === 'ai' && article.category === 'AI') ||
-                        (activeDomain === 'autism' && article.category === 'Autism');
-
-                    const searchLower = searchQuery.toLowerCase();
-                    const searchMatch = !searchQuery
-                        ? true
-                        : (article.title || '').toLowerCase().includes(searchLower) ||
-                          (article.summary || '').toLowerCase().includes(searchLower);
-
-                    return categoryMatch && searchMatch;
+                    if (!anyData) {
+                        setError(`Report for ${currentDate} is not available.`);
+                        setArticles([]);
+                    } else {
+                        setArticles(combined);
+                        setError(null);
+                    }
+                    setLoading(false);
                 });
-            }, [activeDomain, articles, favorites, searchQuery]);
+            }, [currentDate, refreshTrigger, domainsLoaded, domains]);
+
+            useEffect(() => { lucide.createIcons(); });
+
+            const toggleSource = (source) => {
+                setSelectedSources(prev => {
+                    const next = new Set(prev);
+                    if (next.has(source)) next.delete(source);
+                    else next.add(source);
+                    return next;
+                });
+            };
+
+            // Active domain's color
+            const activeDomainColor = useMemo(() => {
+                const d = domains.find(x => x.id === activeDomain);
+                return d?.color || '#6366f1';
+            }, [activeDomain, domains]);
+
+            // Grouped articles for AI-style views (subcategory grouping)
+            const { availableSources, groupedArticles } = useMemo(() => {
+                const activeDomainObj = domains.find(d => d.id === activeDomain);
+                if (!activeDomainObj || activeDomainObj.skill !== 'daily-ai-news') {
+                    return { availableSources: [], groupedArticles: {} };
+                }
+
+                const domainArticles = articles.filter(a => a._domainId === activeDomain);
+                const presentSources = new Set(domainArticles.map(a => a.subcategory || a.source).filter(Boolean));
+                const avail = [
+                    ...SOURCE_ORDER.filter(s => presentSources.has(s)),
+                    ...[...presentSources].filter(s => !SOURCE_ORDER.includes(s)),
+                ];
+
+                const q = searchQuery.toLowerCase();
+                const filtered = domainArticles.filter(a => {
+                    const src = a.subcategory || a.source;
+                    const srcMatch = selectedSources.size === 0 || selectedSources.has(src);
+                    const qMatch = !searchQuery ||
+                        (a.title || '').toLowerCase().includes(q) ||
+                        (a.summary || '').toLowerCase().includes(q);
+                    return srcMatch && qMatch;
+                });
+
+                const grouped = {};
+                avail.forEach(src => {
+                    const items = filtered.filter(a => (a.subcategory || a.source) === src);
+                    if (items.length > 0) grouped[src] = items;
+                });
+                const ungrouped = filtered.filter(a => !a.subcategory && !a.source);
+                if (ungrouped.length > 0) grouped['Other'] = ungrouped;
+
+                return { availableSources: avail, groupedArticles: grouped };
+            }, [activeDomain, domains, articles, selectedSources, searchQuery]);
+
+            // Flat filtered articles for non-grouped views
+            const filteredArticles = useMemo(() => {
+                const activeDomainObj = domains.find(d => d.id === activeDomain);
+                if (activeDomainObj?.skill === 'daily-ai-news') return [];
+
+                const source = activeDomain === 'saved' ? favorites : articles;
+                const q = searchQuery.toLowerCase();
+                return source.filter(article => {
+                    if (activeDomain === 'all' || activeDomain === 'saved') return true;
+                    return article._domainId === activeDomain || article.category === activeDomainObj?.category;
+                }).filter(article => {
+                    return !searchQuery ||
+                        (article.title || '').toLowerCase().includes(q) ||
+                        (article.summary || '').toLowerCase().includes(q);
+                });
+            }, [activeDomain, domains, articles, favorites, searchQuery]);
+
+            const activeDomainObj = domains.find(d => d.id === activeDomain);
+            const isGroupedView = activeDomainObj?.skill === 'daily-ai-news';
+            const totalGrouped = Object.values(groupedArticles).reduce((s, a) => s + a.length, 0);
 
             return (
-                <div className={`min-h-screen pb-20 transition-colors duration-500 ${activeDomain === 'ai' ? 'selection:bg-brand-ai/20' : activeDomain === 'autism' ? 'selection:bg-brand-autism/20' : 'selection:bg-slate-200'}`}>
-                    <LogConsole 
-                        activeMode={activeTaskMode} 
-                        onClose={closeConsole} 
-                        onComplete={handleTaskComplete}
+                <div className="flex min-h-screen">
+                    {/* Sidebar */}
+                    <Sidebar
+                        domains={domains}
+                        activeDomain={activeDomain}
+                        setActiveDomain={setActiveDomain}
+                        favCount={favorites.length}
+                        currentDate={currentDate}
+                        onDateChange={setCurrentDate}
                     />
-                    
-                    <Header 
-                        currentDate={currentDate} 
-                        onDateChange={setCurrentDate} 
-                        onFetchRequest={handleFetchRequest}
-                        isFetching={!!activeTaskMode}
-                    />
-                    
-                    <DomainSwitcher activeDomain={activeDomain} setActiveDomain={setActiveDomain} favCount={favorites.length} />
-                    
-                    <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
 
-                    <main className="max-w-7xl mx-auto px-6">
-                        {loading && activeDomain !== 'saved' ? (
-                            <div className="flex flex-col gap-4">
-                                {[1, 2, 3, 4, 5, 6].map(i => (
-                                    <div key={i} className="h-24 rounded-2xl bg-slate-200/50 dark:bg-slate-800/50 animate-pulse"></div>
-                                ))}
+                    {/* Main content */}
+                    <div className="flex-1 min-w-0 overflow-y-auto">
+                        <div className="max-w-5xl mx-auto px-8 py-10">
+                            {/* Page title */}
+                            <div className="mb-8 animate-fade-in">
+                                <h2 className="font-serif text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
+                                    {activeDomain === 'all' ? 'All Articles' :
+                                     activeDomain === 'saved' ? 'Saved Articles' :
+                                     activeDomainObj?.label || activeDomain}
+                                </h2>
+                                <p className="text-sm text-slate-400 mt-1 font-mono">{currentDate}</p>
                             </div>
-                        ) : error && activeDomain !== 'saved' ? (
-                            <EmptyState
-                                type="error"
-                                message={`We couldn't locate the intelligence report for ${currentDate}. Try selecting a different date or run the data fetcher.`}
-                            />
-                        ) : filteredArticles.length === 0 ? (
-                            <EmptyState
-                                message={activeDomain === 'saved' ? '还没有收藏任何文章，点击卡片上的书签图标即可收藏。' : 'No updates found matching your filters.'}
-                            />
-                        ) : (
-                            <div className="flex flex-col gap-4">
-                                {filteredArticles.map((article, idx) => (
-                                    <NewsCard
-                                        key={`${article.url}-${idx}`}
-                                        article={article}
-                                        index={idx}
-                                        isFavorited={isFavorite(article.url)}
-                                        onToggleFavorite={toggleFavorite}
+
+                            <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+
+                            {/* Source filter — only for daily-ai-news domains */}
+                            {isGroupedView && !loading && !error && availableSources.length > 0 && (
+                                <SourceFilterBar
+                                    availableSources={availableSources}
+                                    selectedSources={selectedSources}
+                                    onToggle={toggleSource}
+                                    onSelectAll={() => setSelectedSources(new Set())}
+                                    accentColor={activeDomainColor}
+                                />
+                            )}
+
+                            {/* Articles */}
+                            {loading && activeDomain !== 'saved' ? (
+                                <div className="flex flex-col gap-4">
+                                    {[1, 2, 3, 4, 5, 6].map(i => (
+                                        <div key={i} className="h-24 rounded-2xl bg-slate-200/50 dark:bg-slate-800/50 animate-pulse"></div>
+                                    ))}
+                                </div>
+                            ) : error && activeDomain !== 'saved' ? (
+                                <EmptyState
+                                    type="error"
+                                    message={`No data for ${currentDate}. Try selecting a different date.`}
+                                />
+                            ) : isGroupedView ? (
+                                totalGrouped === 0 ? (
+                                    <EmptyState message="No updates found matching your filters." />
+                                ) : (
+                                    Object.entries(groupedArticles).map(([source, items]) => (
+                                        <ArticleGroup
+                                            key={source}
+                                            source={source}
+                                            articles={items}
+                                            isFavorite={isFavorite}
+                                            onToggleFavorite={toggleFavorite}
+                                            color={activeDomainColor}
+                                        />
+                                    ))
+                                )
+                            ) : (
+                                filteredArticles.length === 0 ? (
+                                    <EmptyState
+                                        message={activeDomain === 'saved' ? '还没有收藏任何文章，点击卡片上的书签图标即可收藏。' : 'No updates found matching your filters.'}
                                     />
-                                ))}
-                            </div>
-                        )}
-                    </main>
-                    
-                    <footer className="mt-24 text-center pb-12 border-t border-slate-200 dark:border-slate-800 max-w-7xl mx-auto pt-8">
-                        <div className="flex justify-center gap-6 mb-4 text-slate-400">
-                            <Icon name="github" size={20} className="hover:text-slate-600 dark:hover:text-slate-200 cursor-pointer transition-colors" />
-                            <Icon name="twitter" size={20} className="hover:text-slate-600 dark:hover:text-slate-200 cursor-pointer transition-colors" />
-                            <Icon name="mail" size={20} className="hover:text-slate-600 dark:hover:text-slate-200 cursor-pointer transition-colors" />
+                                ) : (
+                                    <div className="flex flex-col gap-4">
+                                        {filteredArticles.map((article, idx) => (
+                                            <NewsCard
+                                                key={`${article.url}-${idx}`}
+                                                article={article}
+                                                index={idx}
+                                                isFavorited={isFavorite(article.url)}
+                                                onToggleFavorite={toggleFavorite}
+                                                color={getDomainColor(article)}
+                                            />
+                                        ))}
+                                    </div>
+                                )
+                            )}
                         </div>
-                        <p className="text-slate-500 text-sm font-medium">© {new Date().getFullYear()} Daily Insights Research Hub</p>
-                    </footer>
+                    </div>
                 </div>
             );
         };
 
-        const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(<App />);
+        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
     </script>
 </body>
 </html>
