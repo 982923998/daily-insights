@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "White Matter Matters: A Magnetic Resonance Imaging Study with Clinical Correlates in Primary Brain Calcification.",
+      "summary": "This MRI study of 50 PBC patients and 50 controls describes white matter changes and clinical correlates in primary brain calcification. Two patterns of supratentorial WM changes were observed: leukodystrophic band-like and scattered vascular-like. WM abnormalities were found in 41/50 patients and correlated with cognitive impairment, parkinsonism, and psychiatric disturbances.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41721552/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "published_date": "2026-02-21",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Microstructural alterations of the amygdala in neurodegenerative and neuroinflammatory disorders: insights from diffusion tensor imaging.",
+      "summary": "This systematic review examines amygdala microstructural alterations in Alzheimer's disease, Parkinson's disease, ALS, dementia with Lewy bodies, and multiple sclerosis using DTI metrics. Across disorders, elevated mean diffusivity emerged as the most consistent finding, present in 100% of AD patients. DTI metrics serve as sensitive markers of amygdala pathology across neurodegenerative diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41720758/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-23"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "Safety and feasibility of intravenous fresh adipose-derived mesenchymal stem cells in secondary progressive multiple sclerosis: phase I/IIa clinical results.",
+      "summary": "High-dose fresh AT-MSCs appear safe and well-tolerated in SPMS patients, with promising exploratory clinical benefits. These findings support AT-MSCs as a potential multiple sclerosis therapy. Trial registration Registered with the Iranian Registry of Clinical Trials (Reference: IRCT20091127002778N1 at 2018-01-10).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41725020/",
+      "category": "Depression",
+      "source": "pubmed",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Subtypes of adolescent major depressive disorder characterized by divergent information dynamics in sensory-association cortices.",
+      "summary": "Adolescent major depressive disorder (MDD) involves complex and heterogeneous alterations in brain functional organization. A possible explanation is the disruption of individualized brain maturation during adolescents, which typically transitions from lower-order sensory to higher-order association regions. To test this hypothesis, we analyzed resting-state functional MRI data using advanced matrix decomposition techniques to extract organizational gradients, temporal dynamics, and information.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41724763/",
+      "category": "Depression",
+      "source": "pubmed",
+      "published_date": "2026-02-22",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Shared genetic underpinnings of gray matter volume alterations and metabolic traits in major depressive disorder.",
+      "summary": "Clinical trial number: Not applicable.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41723432/",
+      "category": "Depression",
+      "source": "pubmed",
+      "published_date": "2026-02-21",
+      "date": "2026-02-23"
+    },
+    {
+      "title": "Chronicity moderates the impact of severity on central executive-default mode network functional interactions in depression.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41723265/",
+      "category": "Depression",
+      "source": "pubmed",
+      "published_date": "2026-02-21",
+      "date": "2026-02-23"
+    }
+  ]
+}

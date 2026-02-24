@@ -1,0 +1,95 @@
+{
+  "date": "2026-02-24",
+  "articles": [
+    {
+      "title": "Exploring the interaction of APOE-ε4 and PICALM rs3851179 with dynamic functional connectivity in healthy middle-aged adults at risk for Alzheimer's disease.",
+      "summary": "This study investigates whether dynamic functional connectivity (dFC) dwell-time patterns derived from resting-state fMRI (rs-fMRI) can distinguish Alzheimer's disease (AD) genetic risk profiles, s...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730245/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Delayed cyst formation following ventral intermediate nucleus thalamotomy by Gamma Knife radiosurgery for essential tremor: illustrative case.",
+      "summary": "While deep brain stimulation (DBS) is an effective therapy for essential tremor (ET), Gamma Knife radiosurgery (GKRS) offers a noninvasive alternative for patients who are poor surgical candidates ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730189/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Cranial lateral dermal sinus tract: illustrative case.",
+      "summary": "Dermal sinus tracts (DSTs) are rare congenital anomalies resulting from incomplete closure of the skin and neural tube. While most occur along the spinal midline, cranial DSTs are less common and t...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730185/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
+      "summary": "Normative models are increasingly used to characterize individual-level brain deviations in neuroimaging studies, but their performance depends heavily on the reference sample used for training or ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729967/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Physics-Informed Deep Learning for Shear Wave Speed Estimation in MR Elastography.",
+      "summary": "Magnetic Resonance Elastography (MRE) is a non-invasive imaging technique for mapping biomechanical properties of in vivo tissue, including shear wave speed (SWS), but involves intrinsically slow d...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729656/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "EEG, clinical, and MRI features of status epilepticus associated with mitochondrial diseases.",
+      "summary": "This study aimed to identify specific EEG features of status epilepticus (SE) in patients with mitochondrial diseases and correlate them with clinical and neuroimaging findings. Clinical, EEG, and ...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729327/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Erythropoietin alleviates syndrome-associated intellectual disability and autism-like behavior in Zbtb20-haploinsufficient Primrose syndrome mouse model.",
+      "summary": "Among the known genetic causes of syndromic autism spectrum disorders (ASDs) are transcription factor deficiencies. In this regard, haploinsufficiency of the zinc finger and broad complex, tramtrac...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729076/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Clinical and MRI substrates of Symbol Digit Modalities Test impairment in multiple sclerosis patients with an adult- and late-onset.",
+      "summary": "Multiple sclerosis (MS) onset occurs at diverse ages. Age of onset impact on clinical, brain MRI, and cognitive profiles remains unclear. We investigated the substrates of Symbol Digit Modalities T...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729056/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "The hippocampus: myth, memory and magnetic resonance imaging.",
+      "summary": "The hippocampi are complex, convoluted regions of archicortex in the temporal lobes of the brain critical to explicit memory function. Over time our view of the structural anatomy of this region ha...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41725555/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "The role of the orbitofrontal cortex in smoking cue-reactivity in onset phase of smoking behaviour, a fMRI study in adolescents.",
+      "summary": "Adults with tobacco use disorder (TUD) show increased activity patterns in frontostriatal regions compared to non-smokers when viewing smoking-related cues. Smoking mostly starts during adolescence...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41725393/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    }
+  ]
+}

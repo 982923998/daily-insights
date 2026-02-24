@@ -1,0 +1,14 @@
+{
+  "date": "2026-02-23",
+  "articles": [
+    {
+      "title": "Simultaneous Cerebral Blood Flow and Cerebrovascular Reactivity Obtained From Novel Multi-Band Multi-Echo Pseudo-Continuous Arterial Spin Labeling (M2-PCASL) Sequence: A Test-Retest Reliability Study.",
+      "summary": "This study aimed to assess the reliability of cerebral blood flow (CBF) and cerebrovascular reactivity (CVR) obtained simultaneously from a novel multi-band pseudo-continuous arterial spin labeling (M2-PCASL) sequence with hypercapnic gas challenge. Nine participants underwent test-retest M2-PCASL scans at 3T. Results showed that with smoothing, the M2-PCASL sequence estimated baseline CBF and BOLD CVR with good to excellent reliability (ICC > 0.81) in the whole brain, gray matter, and white matter. The M2-PCASL sequence with hypercapnia reliably estimates baseline CBF and BOLD CVR at improved spatial and temporal resolutions relative to existing methods, enabling noninvasive and comprehensive assessment of cerebrovascular health.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41708496/",
+      "category": "Multi-Echo fMRI",
+      "source": "pubmed",
+      "published_date": "2026-02-18",
+      "date": "2026-02-23"
+    }
+  ]
+}

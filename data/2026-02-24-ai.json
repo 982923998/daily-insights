@@ -1,0 +1,140 @@
+{
+  "date": "2026-02-24",
+  "articles": [
+    {
+      "title": "32M lines of AI code – GED to AGI",
+      "summary": "A Show HN project presenting 32 million lines of AI code as a step towards General AI Development.",
+      "url": "https://news.ycombinator.com/item?id=47131592",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-24",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Attest – Test AI agents with 8-layer graduated assertions",
+      "summary": "A testing framework for AI agents with 8-layer graduated assertions: schema validation, cost/performance constraints, tool call verification, output format, semantic matching, behavior testing, end-to-end validation, and regression testing.",
+      "url": "https://news.ycombinator.com/item?id=47122431",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Plyra-guard – intercepts AI agent tool calls before execution",
+      "summary": "A safety layer that intercepts AI agent tool calls before execution, evaluating them against policies and blocking, logging, or escalating as needed. Supports LangGraph, AutoGen, CrewAI, LangChain, and plain Python.",
+      "url": "https://news.ycombinator.com/item?id=47125127",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "AI-context-bridge – Save AI coding context across tools via Git hooks",
+      "summary": "A tool that saves AI coding context across tools via Git hooks, preventing context loss when rate limits hit.",
+      "url": "https://github.com/himanshuskukla/ai-context-bridge",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "AI agents that control Unity, Godot, and Unreal editors",
+      "summary": "OpenClaw plugins for three major game engines (Unity, Godot, Unreal) that allow AI agents to control the editor directly through native APIs for creating objects, modifying scenes, and running play mode.",
+      "url": "https://news.ycombinator.com/item?id=47121900",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Aru AI – local-first AI assistant with semantic memory in browser SQLite",
+      "summary": "A local-first AI assistant written entirely in Vanilla JS as a PWA with no backend, no telemetry, and no data collection. All data lives in browser SQLite with semantic memory support.",
+      "url": "https://news.ycombinator.com/item?id=47130959",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "AgentReady – Drop-in proxy that cuts LLM token costs 40-60%",
+      "summary": "A drop-in proxy service that reduces LLM token costs by 40-60% through intelligent compression and optimization.",
+      "url": "https://agentready.cloud",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "412 deterministic modules so AI agents stop hallucinating commands",
+      "summary": "A project with 412 deterministic modules that prevents AI agents from hallucinating shell commands by using pre-built modules instead of having the LLM write code.",
+      "url": "https://github.com/flytohub",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Chinese companies distilled Claude to improve own models, Anthropic says",
+      "summary": "Anthropic disclosed that three Chinese companies used Claude to improperly obtain capabilities to improve their own models, following a similar disclosure by OpenAI about DeepSeek.",
+      "url": "https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Gordon: Docker's AI Agent That Understands Your Containers",
+      "summary": "Docker released Gordon, an AI agent purpose-built for Docker with shell access, Docker CLI access, filesystem access, and deep knowledge of Docker best practices. Available in Docker Desktop 4.61.",
+      "url": "https://www.docker.com/blog/gordon-dockers-ai-agent-just-got-an-update/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Microsoft Agent Framework Reaches Release Candidate",
+      "summary": "Microsoft Agent Framework has reached Release Candidate status for both .NET and Python, an important milestone on the road to General Availability.",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-agent-framework-reaches-release-candidate",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-20",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Commotion Launches Enterprise AI Operating System Powered by NVIDIA Nemotron",
+      "summary": "Tata Communications launched Commotion, an Enterprise AI Operating System powered by NVIDIA Nemotron open models to scale productivity for digital workforces.",
+      "url": "https://www.prnewswire.com/news-releases/commotion-launches-enterprise-ai-operating-system-powered-by-nvidia-nemotron-open-models-to-scale-productivity-for-digital-workforces-302694447.html",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Suna – Open Source Generalist AI Agent",
+      "summary": "Suna is an open-source generalist AI agent that runs locally on any OS, connecting to 100+ messaging platforms with autonomous task execution capabilities. Has gained 6,535 stars this week.",
+      "url": "https://github.com/kortix-ai/suna",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-16",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "v0-system-prompts – Full system prompts from top AI agents",
+      "summary": "A collection of full system prompts from v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, and VSCode Agent. Has gained 32,785 stars this week.",
+      "url": "https://github.com/x1xhlol/v0-system-prompts",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-16",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "dia – A TTS model capable of generating ultra-realistic dialogue",
+      "summary": "A TTS model from nari-labs capable of generating ultra-realistic dialogue in one pass. Has gained 11,831 stars this week.",
+      "url": "https://github.com/nari-labs/dia",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-16",
+      "date": "2026-02-24"
+    }
+  ]
+}
