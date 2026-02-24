@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-24",
+  "articles": [
+    {
+      "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
+      "summary": "Neuroimaging studies have consistently revealed neuroanatomical abnormalities in individuals with bipolar disorder (BD), major depressive disorder (MDD), and schizophrenia (SZ). However, it remains unknown whether and to what extent disorder-selective gray matter variations occur in these prominent psychiatric disorders. This study conducted a meta-analysis of 25 years of published voxel-based morphometry (VBM) research to assess the presence of selective and robust neuroanatomical substrates of gray matter variation in BD, MDD, and SZ. The data were analyzed using the Bayes fACtor mOdeliNg algorithm. A total of 1,021 VBM experiments were included, comprising 29,540 patients and 28,177 healthy controls. Primary analyses of psychiatric data revealed strong evidence of gray matter reduction in the right middle temporal gyrus for BD and the posterior dorsal anterior cingulate cortex for SZ (P ≥ 95% selectivity). Taken together, these findings offer a framework that underscores the significance of diagnosis-selective neural substrates in psychopathology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731301/",
+      "category": "Depression",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Takotsubo: a systematic review of the neurological and psychological implications of a broken heart.",
+      "summary": "Takotsubo Syndrome (TTS) presents as an acute heart disease characterized by left ventricular dysfunction. The exact cause is not yet known; however, it is thought that it may be caused by acute emotional or physical events and the subsequent release of catecholamines. This review investigated the presence of psychological and neurological disorders associated with TTS. All studies analyzed demonstrated the presence of psychological disorders, and six also demonstrated the presence of neurological disorders. In particular, associations emerged with psychological disorders such as depression and anxiety. Major neurological disorders identified included migraine, epilepsy, and cerebral hemorrhage. In addition, structural and volumetric brain changes were observed in people with TTS through neuroimaging studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41728841/",
+      "category": "Depression",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    }
+  ]
+}

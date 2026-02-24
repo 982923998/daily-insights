@@ -1,0 +1,50 @@
+{
+  "date": "2026-02-24",
+  "articles": [
+    {
+      "title": "Plasma miRNAs associated with cognitive impairment and brain hypometabolism in individuals with mild cognitive impairment.",
+      "summary": "Detecting practical biomarkers to facilitate early diagnosis of Alzheimer's disease (AD) before the onset of overt symptoms is crucial for clinicians to develop preventive and therapeutic strategies. There is substantial experimental evidence indicating the dysregulation of several microRNA (miRNA) expression levels in AD. They are known to play a crucial role in modulating critical intracellular signaling pathways associated with the core pathophysiological mechanisms of AD. In this cross-sectional study, we investigated the association of blood-based miRNAs as non-invasive, cost-effective biomarkers for the early stages of AD, focusing on their impact on cognitive decline and metabolism.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731425/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
+      "summary": "Conventional functional connectivity of blood oxygenation level-dependent (BOLD) signals varies with Alzheimer's disease (AD) progression. However, it is unable to describe how white matter (WM) is engaged in brain networks. In this study, we introduced a novel communication connectivity metric, which was defined as the triple-wise correlation coefficient between BOLD signals from pairs of gray matter volume and white matter bundles, to investigate the change of signal transition through WM bundles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730850/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Exploring the interaction of APOE-ε4 and PICALM rs3851179 with dynamic functional connectivity in healthy middle-aged adults at risk for Alzheimer's disease.",
+      "summary": "This study investigates whether dynamic functional connectivity (dFC) dwell-time patterns derived from resting-state fMRI (rs-fMRI) can distinguish Alzheimer's disease (AD) genetic risk profiles, specifically the APOE-ε4 (A+) and PICALM rs3851179 (P+) variants, in cognitively healthy, middle-aged adults.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730245/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
+      "summary": "Normative models are increasingly used to characterize individual-level brain deviations in neuroimaging studies, but their performance depends heavily on the reference sample used for training or adaptation. In this study, we systematically investigated how sample size and covariate composition of the reference cohort influence model fit, deviation estimates, and clinical readouts in Alzheimer's disease (AD).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729967/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Sleep disturbances and Alzheimer's disease: a multiscale approach from exposome to neurobiology and precision medicine.",
+      "summary": "Sleep disturbances and Alzheimer's disease (AD) are interconnected public health challenges. However, the underlying mechanisms of their complex relationships remain elusive. Here, we propose a hypothetical integrative, stream-like model outlining how external and internal exposome factors accelerate brain aging, thereby exacerbating circadian dysregulation, orexin-mediated hyperexcitability, metabolic imbalance, and inflammaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729452/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    }
+  ]
+}

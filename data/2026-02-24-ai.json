@@ -135,6 +135,159 @@
       "subcategory": "GitHub Trending",
       "published_date": "2026-02-16",
       "date": "2026-02-24"
+    },
+    {
+      "title": "AI Agents Take Center Stage on GitHub Trending — February 23, 2026",
+      "summary": "AI Agent systems dominated today's GitHub trends. From pentesting to code analysis, autonomous AI tools are redefining traditional development workflows. Over half of trending repos included the 'Agentic' keyword, with systems that make decisions and execute independently becoming the new standard for developer tools.",
+      "url": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-23",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "n8n v2.9.2 Released — Workflow Automation Tool",
+      "summary": "n8n released version 2.9.2 with bug fixes including editor improvements for Chat hub, visual fixes for tools selector, and tag handling corrections. The open-source workflow automation platform continues to be a major player in the AI tooling ecosystem with 176k stars.",
+      "url": "https://github.com/n8n-io/n8n/releases",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "pydantic-ai v1.63.0 Adds Gemini 3.1 Pro Support",
+      "summary": "Pydantic-ai released v1.63.0 with Gemini 3.1 Pro Preview support, logprob support for Gemini, and an args_validator parameter for tools. This GenAI agent framework continues to expand its provider support.",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.63.0",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Open-WebUI v0.8.5 Released with Voice Dictation Shortcut",
+      "summary": "Open-WebUI released v0.8.5 adding voice dictation shortcut (Cmd+Shift+L) and backend config null safety fixes. The popular LLMs web interface continues to improve with 125k stars.",
+      "url": "https://github.com/open-webui/open-webui/releases",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "IronClaw: Open-Source Rust Implementation of OpenClaw",
+      "summary": "IronClaw is an OpenClaw-inspired implementation in Rust focused on privacy and security. With 3,226 stars, it provides an alternative for users seeking a Rust-based autonomous AI assistant.",
+      "url": "https://github.com/nearai/ironclaw",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Google Gemini 3.1 Pro Raises the Bar",
+      "summary": "Google DeepMind released Gemini 3.1 Pro, posting record results across multiple advanced benchmarks. The model tops the charts beating Claude Opus 4.6 and GPT-5.2 on most benchmarks, with 77.1% on ARC-AGI-2.",
+      "url": "https://officechai.com/ai/gemini-3-1-pro-benchmarks/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-19",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Google Bans OpenClaw Users on Antigravity AI Coding Tool",
+      "summary": "Google Antigravity users report their paid Google AI accounts were banned after linking Gemini models via OpenClaw. Following Anthropic's crackdown, Google cites massive increase in malicious usage as reason for restrictions.",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-bans-openclaw-users-on-its-ai-coding-tool-antigravity-says-weve-been-seeing-a-massive-increase-in-malicious-usage/articleshow/128742339.cms",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-24",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "xAI Pentagon Deal: Grok to Power Classified Systems",
+      "summary": "Elon Musk's xAI and Pentagon have reached a deal to deploy Grok in classified systems. This marks a significant milestone for xAI's enterprise adoption and military applications.",
+      "url": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok",
+      "category": "AI",
+      "subcategory": "Twitter/X",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "OpenAI's Stargate Data Center Project Struggles",
+      "summary": "OpenAI's $500 billion Stargate partnership with Oracle and SoftBank has stalled and is not developing any of OpenAI's data centers. The company is exploring individual deals with SoftBank and Oracle to secure computing power.",
+      "url": "https://www.theverge.com/2026/02/23/ai-artificial-intelligence-883098/openais-stargate-struggles",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Claude Sonnet 4.6 Released with Improved Coding and Agent Planning",
+      "summary": "Anthropic released Claude Sonnet 4.6 featuring improved skills in coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Now the default model in claude.ai with 1M context window (beta).",
+      "url": "https://sdtimes.com/ai/this-week-in-ai-updates-claude-sonnet-4-6-gemini-3-1-pro-and-more-february-20-2026/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-20",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Comparing Amazon Q and GitHub Copilot Agentic AI in VS Code",
+      "summary": "Visual Studio Magazine compares Amazon Q Developer with GitHub Copilot Agentic AI in VS Code, examining how agentic AI evolves to handle complex editorial automation beyond just writing code.",
+      "url": "https://visualstudiomagazine.com/articles/2026/02/23/comparing-amazon-q-and-github-copilot-agentic-ai-in-vs-code-tests.aspx",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Show HN: Bt — Plan-first AI Coding Commands for OpenCode",
+      "summary": "A set of commands that enforce a simple discipline: no code gets written until you've reviewed and approved a written plan. Workflow: /bt-research → /bt-plan → /bt-review → /bt-implement.",
+      "url": "https://news.ycombinator.com/item?id=47120231",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Show HN: AI Timeline — 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+      "summary": "Interactive timeline of every major Large Language Model. Filterable by open/closed source, searchable, with 54 organizations tracked.",
+      "url": "https://news.ycombinator.com/item?id=47119871",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Show HN: MarkdownLM — Stop Being the Human Middleware for Your AI Agent",
+      "summary": "A solution to the problem of AI agents treating project rules as suggestions. Built to ensure AI respects architectural decisions and naming conventions across sessions.",
+      "url": "https://news.ycombinator.com/item?id=47124474",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "goose v1.25.0: Sandboxed, Streamlined, and More Secure",
+      "summary": "Goose is an extensible, open source AI agent that enhances software development by automating coding tasks. Runs locally with full access to development environment through MCP.",
+      "url": "https://block.github.io/goose/blog/2026/02/23/goose-v1-25-0",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Coroot: Open-source Observability and APM Tool",
+      "summary": "Coroot is an open-source observability and application performance monitoring tool using eBPF technology to collect telemetry data across systems.",
+      "url": "https://www.helpnetsecurity.com/2026/02/23/coroot-open-source-observability-apm-tool/",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "AI Coding Tools May Be the End of Freemium Utility Apps",
+      "summary": "With the launch of tools like OpenAI's Codex, Anthropic's Claude Agent, and upcoming support in Xcode, the market for single-purpose apps might not survive as AI coding tools automate traditional development.",
+      "url": "https://9to5mac.com/2026/02/23/ai-coding-tools-may-be-the-end-of-freemium-utility-apps/",
+      "category": "AI",
+      "subcategory": "Twitter/X",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
     }
   ]
 }

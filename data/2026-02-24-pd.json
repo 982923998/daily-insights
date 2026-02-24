@@ -1,0 +1,14 @@
+{
+  "date": "2026-02-24",
+  "articles": [
+    {
+      "title": "Multimodal Machine Learning and Deep Learning Approaches for Parkinson's Disease Diagnosis: A Comprehensive Survey.",
+      "summary": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that profoundly affects patients' quality of life. Early and accurate diagnosis is essential for timely intervention and improved outcomes, yet traditional clinical evaluations often fall short. This review examines recent advancements in machine learning (ML) and deep learning (DL) techniques that promise more objective, quantitative, and precise PD diagnosis. By leveraging diverse data sources-including electroencephalogram (EEG) signals, voice recordings, and Magnetic Resonance Imaging (MRI) scans-these techniques offer a comprehensive approach to understanding and diagnosing PD. The review evaluates the effectiveness of specific ML and DL techniques applied to each data source and addresses existing challenges, such as the need for larger and more diverse datasets, model interpretability for clinical adoption, and generalizability across different healthcare settings. Additionally, it discusses promising future directions, including the potential of explainable AI models and multimodal data analysis, to further enhance PD diagnosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729683/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "published_date": "2026-02-23",
+      "date": "2026-02-24"
+    }
+  ]
+}
