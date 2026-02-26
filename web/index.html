@@ -236,7 +236,7 @@
         );
 
         // --- DigestPanel ---
-        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, onJumpToArticle = null }) => {
+        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null }) => {
             if (!digest) return null;
             const stats = digest.stats || {};
             const recommendations = Array.isArray(digest.recommendations) ? digest.recommendations : [];
@@ -334,6 +334,16 @@
                                                             ? 'hover:bg-slate-50 dark:hover:bg-slate-800/60'
                                                             : 'opacity-70'
                                                     }`;
+                                                    const matchedArticle = item.url ? articleByUrl[item.url] : null;
+                                                    const journalName = matchedArticle?.journal || '';
+                                                    const impactFactor = matchedArticle?.impact_factor;
+                                                    const impactFactorYear = matchedArticle?.impact_factor_year;
+                                                    const impactFactorStatus = matchedArticle?.impact_factor_status || '';
+                                                    const impactText = impactFactor !== null && impactFactor !== undefined && impactFactor !== ''
+                                                        ? `IF ${impactFactor}${impactFactorYear ? ` (${impactFactorYear})` : ''}`
+                                                        : (impactFactorStatus || '未查到影响因子');
+                                                    const metaText = journalName ? `${journalName} · ${impactText}` : impactText;
+
                                                     if (!isLinkable) {
                                                         return (
                                                             <div
@@ -341,14 +351,16 @@
                                                                 className={commonClassName}
                                                             >
                                                                 <div className="flex items-center justify-between gap-3 mb-1">
-                                                                    <p className="text-sm font-semibold text-slate-800 dark:text-slate-100 line-clamp-1">
+                                                                    <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">
                                                                         {item.title || 'Untitled'}
                                                                     </p>
                                                                     <span className="text-[10px] font-medium text-slate-400">
                                                                         Card not found
                                                                     </span>
                                                                 </div>
-                                                                <p className="text-xs text-slate-500 line-clamp-2">{item.reason || ''}</p>
+                                                                <p className="text-xs text-slate-700 dark:text-slate-200 px-2.5 py-1.5 rounded-md border border-amber-200/70 dark:border-amber-700/50 bg-amber-50/90 dark:bg-amber-900/25">
+                                                                    {metaText}
+                                                                </p>
                                                             </div>
                                                         );
                                                     }
@@ -360,14 +372,16 @@
                                                             className={commonClassName}
                                                         >
                                                             <div className="flex items-center justify-between gap-3 mb-1">
-                                                                <p className="text-sm font-semibold text-slate-800 dark:text-slate-100 line-clamp-1">
+                                                                <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">
                                                                     {item.title || 'Untitled'}
                                                                 </p>
                                                                 <span className="text-[10px] font-medium text-slate-400">
                                                                     Jump to card
                                                                 </span>
                                                             </div>
-                                                            <p className="text-xs text-slate-500 line-clamp-2">{item.reason || ''}</p>
+                                                            <p className="text-xs text-slate-700 dark:text-slate-200 px-2.5 py-1.5 rounded-md border border-emerald-200/70 dark:border-emerald-700/50 bg-emerald-50/90 dark:bg-emerald-900/25">
+                                                                {metaText}
+                                                            </p>
                                                         </button>
                                                     );
                                                 })
@@ -520,7 +534,7 @@
                         </span>
                     </div>
 
-                    <p className="text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8 flex-grow line-clamp-4 relative z-10 font-light">
+                    <p className="text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8 flex-grow line-clamp-6 relative z-10 font-light">
                         {article.summary}
                     </p>
 
@@ -762,6 +776,16 @@
                 return map;
             }, [articles]);
 
+            const articleByUrl = useMemo(() => {
+                const map = {};
+                articles.forEach(article => {
+                    if (article.url && !map[article.url]) {
+                        map[article.url] = article;
+                    }
+                });
+                return map;
+            }, [articles]);
+
             const jumpToArticle = useCallback((anchorId) => {
                 if (!anchorId) return;
                 setSearchQuery('');
@@ -818,6 +842,7 @@
                                     color={activeDomainColor}
                                     domainLabel={activeDomainObj?.label || activeDomain}
                                     anchorByUrl={anchorByUrl}
+                                    articleByUrl={articleByUrl}
                                     onJumpToArticle={jumpToArticle}
                                 />
                             )}
