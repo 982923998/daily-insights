@@ -13,6 +13,9 @@
 - **收藏夹**：书签收藏感兴趣的文章，持久化存储在浏览器 localStorage
 - **日期切换**：查看历史任意日期的资讯
 - **实时日志**：抓取过程日志通过 SSE 实时推送到界面
+- **Run Digest 推荐面板**：支持 `Jump to card` 快速跳转
+- **期刊/IF 可视化**：推荐项中以两枚高亮标签展示“期刊名”和“IF”
+- **IF 未命中追踪**：自动维护 `data/if_unresolved_journals.json` 便于人工补录
 
 ---
 
@@ -97,6 +100,9 @@ for f in data/2026-*.json; do
 done
 ```
 
+当期刊暂时无法匹配 IF 时，会写入 `data/if_unresolved_journals.json`。  
+后续可手工补全 `journal_impact_factors.json` 后重跑 `enrich_journal.py` 自动消解。
+
 ---
 
 ## 数据格式
@@ -116,6 +122,7 @@ done
       "journal": "期刊名（学术文献）",
       "impact_factor": 12.3,
       "impact_factor_year": 2024,
+      "impact_factor_status": "已收录影响因子 | 尚无影响因子 | 未查到影响因子",
       "published_date": "2026-02-18",
       "date": "2026-02-18"
     }
