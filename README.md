@@ -25,10 +25,13 @@
 ├── scripts/
 │   ├── server.py           # 本地 HTTP 服务器（兼 API）
 │   ├── fetch.sh            # 抓取任务入口
-│   └── fetch_config.sh     # 模型 ID 与 Prompt 模板配置
+│   ├── fetch_config.sh     # 模型 ID 与 Prompt 模板配置
+│   ├── enrich_journal.py   # 补全期刊名 + 同步影响因子注册表
+│   └── generate_digest.py  # 生成摘要与推荐
 ├── data/                   # 抓取结果 JSON，按日期命名
 │   ├── YYYY-MM-DD-ai.json
-│   └── YYYY-MM-DD-autism.json
+│   ├── YYYY-MM-DD-autism.json
+│   └── journal_impact_factors.json  # 手工维护期刊 IF
 └── .agents/
     └── skills/
         ├── pubmed-search/  # PubMed 语义搜索（Valyu API）
@@ -65,6 +68,12 @@ python3 scripts/server.py
 MODEL_ID="opencode/kimi-k2.5-free"   # 或其他 opencode 支持的模型
 ```
 
+如需抓取后自动推送到 GitHub，可在同文件设置：
+
+```bash
+AUTO_GIT_SYNC="1"   # 1=开启自动 git commit/push，0=关闭
+```
+
 ### 3. 抓取资讯
 
 在网页界面点击 `Fetch AI News` / `Fetch Autism News`，或直接命令行运行：
@@ -73,6 +82,19 @@ MODEL_ID="opencode/kimi-k2.5-free"   # 或其他 opencode 支持的模型
 ./scripts/fetch.sh ai       # 抓取 AI 资讯
 ./scripts/fetch.sh autism   # 抓取 Autism 研究
 ./scripts/fetch.sh all      # 两者都抓取
+```
+
+### 4. 手工维护影响因子
+
+学术抓取后，系统会自动把新期刊写入 `data/journal_impact_factors.json`。  
+你只需要手工填写对应条目的 `impact_factor` 与 `if_year`，前端会自动显示。
+
+若你更新了注册表并希望历史数据立即刷新 IF，可执行：
+
+```bash
+for f in data/2026-*.json; do
+  python3 scripts/enrich_journal.py "$f"
+done
 ```
 
 ---
@@ -91,6 +113,9 @@ MODEL_ID="opencode/kimi-k2.5-free"   # 或其他 opencode 支持的模型
       "url": "https://example.com",
       "category": "AI",
       "source": "来源",
+      "journal": "期刊名（学术文献）",
+      "impact_factor": 12.3,
+      "impact_factor_year": 2024,
       "published_date": "2026-02-18",
       "date": "2026-02-18"
     }

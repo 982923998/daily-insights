@@ -4,6 +4,9 @@
 # 可用示例：opencode/kimi-k2.5-free, opencode/glm-5-free,  minimax-m2.5-free, big pickle
 MODEL_ID="opencode/minimax-m2.5-free"
 
+# 抓取完成后自动提交并推送 data/ 到 GitHub（1=开启，0=关闭）
+AUTO_GIT_SYNC="1"
+
 AI_PROMPT_TEMPLATE='请使用 daily-ai-news 技能，检索今日（__TODAY__）AI 资讯。
 检索式中包含今天日期，例如："AI news __TODAY__"。
 
@@ -26,8 +29,8 @@ __DOMAIN_CONFIG_PATH__
 
 完成检索后，用 Write 工具将结果写入 "__DATA_FILE__"：
 - 顶层结构：{"date":"__TODAY__","articles":[...]}
-- 每条文章：title、summary、url、category、source、published_date、date
-- category 固定为 "__CATEGORY__"；published_date 为 YYYY-MM-DD 格式
+- 每条文章：title、summary、url、category、source、journal、published_date、date
+- category 固定为 "__CATEGORY__"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
 - 若文件已存在，先 Read 后合并去重再写入
 - 若当天无文章，写入 {"date":"__TODAY__","articles":[]}
 

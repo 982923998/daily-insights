@@ -11,7 +11,8 @@
       "date": "2026-02-24",
       "journal": "BMC Neurol",
       "journal_issn": "1471-2377",
-      "impact_factor": 2.2
+      "impact_factor": 2.2,
+      "impact_factor_status": "已收录影响因子"
     },
     {
       "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
@@ -23,7 +24,8 @@
       "date": "2026-02-24",
       "journal": "Transl Psychiatry",
       "journal_issn": "2158-3188",
-      "impact_factor": 6.2
+      "impact_factor": 6.2,
+      "impact_factor_status": "已收录影响因子"
     },
     {
       "title": "Exploring the interaction of APOE-ε4 and PICALM rs3851179 with dynamic functional connectivity in healthy middle-aged adults at risk for Alzheimer's disease.",
@@ -34,7 +36,9 @@
       "published_date": "2026-02-23",
       "date": "2026-02-24",
       "journal": "J Neural Eng",
-      "journal_issn": "1741-2552"
+      "journal_issn": "1741-2552",
+      "impact_factor_status": "已收录影响因子",
+      "impact_factor": 3.8
     },
     {
       "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
@@ -45,7 +49,8 @@
       "published_date": "2026-02-23",
       "date": "2026-02-24",
       "journal": "Elife",
-      "journal_issn": "2050-084X"
+      "journal_issn": "2050-084X",
+      "impact_factor_status": "尚无影响因子"
     },
     {
       "title": "Sleep disturbances and Alzheimer's disease: a multiscale approach from exposome to neurobiology and precision medicine.",
@@ -57,7 +62,8 @@
       "date": "2026-02-24",
       "journal": "Geroscience",
       "journal_issn": "2509-2723",
-      "impact_factor": 5.4
+      "impact_factor": 5.4,
+      "impact_factor_status": "已收录影响因子"
     }
   ],
   "digest": {

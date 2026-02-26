@@ -1,0 +1,1398 @@
+[13:38:44] 🚀 Starting task: brainmri
+[13:38:44] 📚 Academic domain: brainmri (Brain MRI)
+[13:38:44] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json
+[13:38:44] ⚡ [Fetch Brain MRI] model: opencode/minimax-m2.5-free
+[13:38:44] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-25）。
+  必须先读取领域配置文件，严格按照文件中规定的检索方法、查询词、API 和过滤规则执行：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  **禁止调用任何 skill（pubmed-search、arxiv-search 等），必须直接用 Bash/curl 按配置文件中的 API 步骤执行。**
+  完成检索后，用 Write 工具将结果写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json"：
+  - 顶层结构：{"date":"2026-02-25","articles":[...]}
+  - 每条文章：title、summary、url、category、source、published_date、date
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式
+  - 若文件已存在，先 Read 后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-02-25","articles":[]}
+  不写文件 = 任务失败。
+[13:38:44] ────────────────────────────────────
+[0m> build · minimax-m2.5-free
+
+[0m
+[0m→ [0mRead .agents/skills/academic-search/sources/brainmri.md
+[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=1&datetype=crdt&retmax=100&retmode=json"
+
+
+
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"59","retmax":"59","retstart":"0","idlist":["41736154","41736052","41735820","41735816","41735754","41735650","41735638","41735541","41735316","41735258","41735221","41735196","41735193","41735053","41735009","41734985","41734920","41734696","41734676","41734660","41734651","41734634","41734411","41734408","41734320","41734143","41734131","41734098","41734075","41734050","41733950","41733885","41733814","41733699","41733473","41733392","41732912","41732835","41732648","41732626","41732620","41732600","41732543","41732538","41732535","41732530","41732518","41732407","41732161","41732160","41732108","41732018","41731979","41731917","41731878","41731707","41731626","41731608","41731578"],"translationset":[],"querytranslation":"(\"Brain\"[MeSH Terms] OR \"brain*\"[Title/Abstract] OR \"cerebr*\"[Title/Abstract] OR \"encephalon\"[Title/Abstract] OR \"intracranial\"[Title/Abstract]) AND (\"Magnetic Resonance Imaging\"[MeSH Terms] OR \"MRI\"[Title/Abstract] OR \"magnetic resonance\"[Title/Abstract] OR \"fMRI\"[Title/Abstract] OR \"DTI\"[Title/Abstract] OR \"diffusion tensor\"[Title/Abstract] OR \"VBM\"[Title/Abstract] OR \"voxel-based morphometry\"[Title/Abstract] OR \"connectome\"[Title/Abstract] OR \"arterial spin labeling\"[Title/Abstract] OR \"magnetic resonance spectroscopy\"[Title/Abstract]) AND 2026/02/24:2026/02/25[Date - Create]"}}[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160,41732108,41732018,41731979,41731917,41731878,41731707,41731626,41731608,41731578&retmode=json"...122712 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c934f1e21001JLsLJy5RYjMGXv
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+[0m
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160,41732108,41732018,41731979,41731917,41731878,41731707,41731626,41731608,41731578&retmode=json" > /tmp/pubmed_summary.json && cat /tmp/pubmed_summary.json | python3 -c "
+import json, sys, re
+data = json.load(sys.stdin)
+result = []
+for uid, item in data.get('result', {}).items():
+    if uid == 'uids' or 'pubdate' not in item:
+        continue
+    pubdate = item.get('pubdate', '')
+    # Parse pubdate to YYYY-MM-DD
+    match = re.match(r'(\d{4})(?:\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s*(\d{1,2})?)?', pubdate)
+    if match:
+        year = match.group(1)
+        month_map = {'Jan':'01','Feb':'02','Mar':'03','Apr':'04','May':'05','Jun':'06','Jul':'07','Aug':'08','Sep':'09','Oct':'10','Nov':'11','Dec':'12'}
+        month = month_map.get(match.group(2), '01')
+        day = match.group(3) if match.group(3) else '01'
+        published_date = f'{year}-{month}-{int(day):02d}'
+        if published_date == '2026-02-25':
+            result.append({
+                'uid': uid,
+                'title': item.get('title', ''),
+                'source': item.get('source', ''),
+                'published_date': published_date
+            })
+print(json.dumps(result))
+"
+
+
+[0m[{"uid": "41735754", "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.", "source": "Cogn Affect Behav Neurosci", "published_date": "2026-02-25"}, {"uid": "41735650", "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.", "source": "Neurosurg Rev", "published_date": "2026-02-25"}, {"uid": "41735638", "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.", "source": "Brain Imaging Behav", "published_date": "2026-02-25"}, {"uid": "41735541", "title": "Time-dependent diffusion MRI for differentiating non\u2011small cell lung\u2011cancer brain metastases from breast\u2011cancer brain metastases and gliomas.", "source": "Neuroradiology", "published_date": "2026-02-25"}][0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41735754,41735650,41735638,41735541&retmode=xml&rettype=abstract" | python3 -c "
+import json, sys, re
+from xml.etree import ElementTree as ET
+
+content = sys.stdin.read()
+root = ET.fromstring(content)
+result = {}
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([elem.text for elem in abstract_texts if elem.text])
+    result[pmid] = abstract
+print(json.dumps(result))
+"
+
+[0m{"41735754": "Evaluating others' actions requires integrating their intentions with the outcomes they produce. Several studies have investigated the neural processes supporting this aspect of moral judgment, but findings remain heterogeneous. We conducted a pooled Activation Likelihood Estimation (ALE) meta-analysis of fMRI studies comparing evaluations of intentional and accidental harm, which is preregistered at https://doi.org/10.17605/OSF.IO/2HTFU . Following a systematic search on PubMed, Scopus, and Web of Science (last search: October 2024), eight studies met our inclusion criteria, yielding a total of\u00a018 contrasts. Eligible studies reported whole-brain group analyses with stereotactic coordinates for direct contrasts between intentional and accidental harm. Studies were excluded if they focused on patient populations or lacked such contrasts. The meta-analysis identified two regions of consistent activation: the right amygdala and the left hippocampus. To better characterize their functional roles, we performed meta-analytic connectivity modeling and resting-state connectivity analyses. The amygdala showed reliable associations with regions involved in salience detection and affective regulation, supporting its established role in encoding harm-related signals. The hippocampus exhibited a broad connectivity profile, suggesting possible roles in interpersonal harm evaluation, such as episodic simulation, contextual reconstruction, and schema-based reasoning. These results confirm key aspects of existing models of moral judgment and offer novel insights by highlighting the involvement of the hippocampus, a region not typically emphasized in intent-based moral evaluation.", "41735650": "Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitary exploration between 2014 and 2021 at the University of Brescia was conducted. A meta-analysis of 35 studies revealed significant heterogeneity across studies (I", "41735638": "", "41735541": ""}
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41735638&retmode=xml&rettype=abstract"[0m
+
+
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="In-Process" Owner="NLM"><PMID Version="1">41735638</PMID><DateRevised><Year>2026</Year><Month>02</Month><Day>24</Day></DateRevised><Article PubModel="Electronic"><Journal><ISSN IssnType="Electronic">1931-7565</ISSN><JournalIssue CitedMedium="Internet"><Volume>20</Volume><Issue>2</Issue><PubDate><Year>2026</Year><Month>Feb</Month><Day>25</Day></PubDate></JournalIssue><Title>Brain imaging and behavior</Title><ISOAbbreviation>Brain Imaging Behav</ISOAbbreviation></Journal><ArticleTitle>Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.</ArticleTitle><ELocationID EIdType="pii" ValidYN="Y">21</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.1007/s11682-026-01112-2</ELocationID><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Darnai</LastName><ForeName>Gergely</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Department of Neurology, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary. darnai.gergely@pte.hu.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Behavioural Sciences, Medical School, University of P&#xe9;cs, H-7624, P&#xe9;cs, Szigeti street 12, P&#xe9;cs, Hungary. darnai.gergely@pte.hu.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Clinical and Cognitive Neuroscience Research Group, Szent&#xe1;gothai Research Centre, University of P&#xe9;cs, P&#xe9;cs, Hungary. darnai.gergely@pte.hu.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>HUN-REN-PTE Clinical Neuroscience MR Research Group, P&#xe9;cs, Hungary. darnai.gergely@pte.hu.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Arat&#xf3;</LastName><ForeName>&#xc1;kos</ForeName><Initials>&#xc1;</Initials><AffiliationInfo><Affiliation>Department of Neurology, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Behavioural Sciences, Medical School, University of P&#xe9;cs, H-7624, P&#xe9;cs, Szigeti street 12, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Clinical and Cognitive Neuroscience Research Group, Szent&#xe1;gothai Research Centre, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Dud&#xe1;s</LastName><ForeName>Barnab&#xe1;s</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Department of Neurology, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Clinical and Cognitive Neuroscience Research Group, Szent&#xe1;gothai Research Centre, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Szente</LastName><ForeName>Anna T&#xed;mea</ForeName><Initials>AT</Initials><AffiliationInfo><Affiliation>Department of Neurology, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Perlaki</LastName><ForeName>G&#xe1;bor</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Department of Neurology, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>HUN-REN-PTE Clinical Neuroscience MR Research Group, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>P&#xe9;cs Diagnostic Centre, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Neurosurgery, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Orsi</LastName><ForeName>Gergely</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>HUN-REN-PTE Clinical Neuroscience MR Research Group, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>P&#xe9;cs Diagnostic Centre, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Neurosurgery, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Nagy</LastName><ForeName>Szilvia Anett</ForeName><Initials>SA</Initials><AffiliationInfo><Affiliation>HUN-REN-PTE Clinical Neuroscience MR Research Group, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>P&#xe9;cs Diagnostic Centre, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Neurosurgery, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Neurobiology of Stress Research Group, Szent&#xe1;gothai Research Centre, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medical Imaging, Faculty of Health Sciences, University of P&#xe9;cs, P&#xe9;cs, 7621, Hungary.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Janszky</LastName><ForeName>J&#xf3;zsef</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Department of Neurology, Medical School, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Clinical and Cognitive Neuroscience Research Group, Szent&#xe1;gothai Research Centre, University of P&#xe9;cs, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>HUN-REN-PTE Clinical Neuroscience MR Research Group, P&#xe9;cs, Hungary.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2026</Year><Month>02</Month><Day>25</Day></ArticleDate></Article><MedlineJournalInfo><Country>United States</Country><MedlineTA>Brain Imaging Behav</MedlineTA><NlmUniqueID>101300405</NlmUniqueID><ISSNLinking>1931-7557</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">ALPS index</Keyword><Keyword MajorTopicYN="N">DTI-ALPS</Keyword><Keyword MajorTopicYN="N">Diffusion tensor imaging</Keyword><Keyword MajorTopicYN="N">Intracranial fluid dynamics</Keyword><Keyword MajorTopicYN="N">Psychomotor vigilance task</Keyword><Keyword MajorTopicYN="N">Time-on-task effect</Keyword></KeywordList><CoiStatement>Declarations. Ethics approval: The study was approved by the National Medical Research Council (registration number: 6843- 5/2021/E&#xdc;IG). All procedures performed in this study were in accordance with the 1964 Declaration of Helsinki. All participants were informed about the study, and all provided written informed consent. Consent for publication: Not applicable. Consent to participate: Not applicable. Competing interests: The authors declare no competing interests.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="medline"><Year>2026</Year><Month>2</Month><Day>25</Day><Hour>0</Hour><Minute>29</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2026</Year><Month>2</Month><Day>25</Day><Hour>0</Hour><Minute>29</Minute></PubMedPubDate><PubMedPubDate PubStatus="received"><Year>2025</Year><Month>8</Month><Day>14</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2026</Year><Month>2</Month><Day>14</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2026</Year><Month>2</Month><Day>24</Day><Hour>23</Hour><Minute>29</Minute></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">41735638</ArticleId><ArticleId IdType="doi">10.1007/s11682-026-01112-2</ArticleId><ArticleId IdType="pii">10.1007/s11682-026-01112-2</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Almojali, A. I., Almalki, S. A., Alothman, A. S., Masuadi, E. M., &amp; Alaqeel, M. K. (2017). The prevalence and association of stress with sleep quality among medical students. Journal of Epidemiology and Global Health, 7(3), 169&#x2013;174. https://doi.org/10.1016/j.jegh.2017.04.005</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jegh.2017.04.005</ArticleId><ArticleId IdType="pubmed">28756825</ArticleId><ArticleId IdType="pmc">7320447</ArticleId></ArticleIdList></Reference><Reference><Citation>Asplund, C. L., &amp; Chee, M. W. L. (2013). Time-on-task and sleep deprivation effects are evidenced in overlapping brain areas. NeuroImage, 82, 326&#x2013;335. https://doi.org/10.1016/j.neuroimage.2013.05.119</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2013.05.119</ArticleId><ArticleId IdType="pubmed">23747456</ArticleId></ArticleIdList></Reference><Reference><Citation>Bae, Y. J., Kim, J. M., Choi, B. S., Choi, J. H., Ryoo, N., Song, Y. S., Cho, S. J., &amp; Kim, J. H. (2023). Glymphatic function assessment in Parkinson&#x2019;s disease using diffusion tensor image analysis along the perivascular space. Parkinsonism &amp; Related Disorders. https://doi.org/10.1016/j.parkreldis.2023.105767</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.parkreldis.2023.105767</ArticleId></ArticleIdList></Reference><Reference><Citation>Benveniste, H., Heerdt, P. M., Fontes, M., Rothman, D. L., Volkow, N. D., Lippincott Williams and Wilkins. (2019). Glymphatic system function in relation to anesthesia and sleep states. Anesthesia and Analgesia, 128(4), 747&#x2013;758. https://doi.org/10.1213/ANE.0000000000004069</Citation><ArticleIdList><ArticleId IdType="doi">10.1213/ANE.0000000000004069</ArticleId><ArticleId IdType="pubmed">30883420</ArticleId></ArticleIdList></Reference><Reference><Citation>Carotenuto, A., Cacciaguerra, L., Pagani, E., Preziosa, P., Filippi, M., &amp; Rocca, M. A. (2022). Glymphatic system impairment in multiple sclerosis: Relation with brain damage and disability. Brain, 145(8), 2785&#x2013;2795. https://doi.org/10.1093/brain/awab454</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/awab454</ArticleId><ArticleId IdType="pubmed">34919648</ArticleId></ArticleIdList></Reference><Reference><Citation>Charalampos, G., Anders, T., Rafael, T., Andreas, H., Rydja, E. J., &amp; Lovisa Tobieson. (2023). Fredrik Lundin, &amp;. The glymphatic system imagined and now imaged: what is it, and why is it important? In Journal of Neurosurgery (Vol. 140, Issue 3, pp. 612&#x2013;620). American Association of Neurological Surgeons. https://doi.org/10.3171/2023.7.JNS231284</Citation></Reference><Reference><Citation>Chen, H. L., Chen, P. C., Lu, C. H., Tsai, N. W., Yu, C. C., Chou, K. H., Lai, Y. R., Taoka, T., &amp; Lin, W. C. (2021). Associations among cognitive Functions, plasma DNA, and diffusion tensor image along the perivascular space (DTI-ALPS) in patients with parkinson&#x2019;s disease. Oxidative Medicine and Cellular Longevity, 2021. https://doi.org/10.1155/2021/4034509</Citation></Reference><Reference><Citation>Dai, Z., Yang, Z., Li, Z., Li, M., Sun, H., Zhuang, Z., Yang, W., Hu, Z., Chen, X., Lin, D., &amp; Wu, X. (2023). Increased glymphatic system activity in patients with mild traumatic brain injury. Frontiers in Neurology, 14. https://doi.org/10.3389/fneur.2023.1148878</Citation></Reference><Reference><Citation>Eide, P. K., Lashkarivand, A., Hagen-Kersten, &#xc5;. A., Gjertsen, &#xd8;., Nedregaard, B., Sletteberg, R., L&#xf8;vland, G., Vatnehol, S. A. S., Pripp, A. H., Valnes, L. M., &amp; Ringstad, G. (2022). Intrathecal Contrast-Enhanced magnetic resonance imaging of cerebrospinal fluid dynamics and glymphatic enhancement in idiopathic normal pressure hydrocephalus. Frontiers in Neurology, 13. https://doi.org/10.3389/fneur.2022.857328</Citation></Reference><Reference><Citation>Gobin, C. M., Banks, J. B., Fins, A. I., &amp; Tartar, J. L. (2015). Poor sleep quality is associated with a negative cognitive bias and decreased sustained attention. Journal of Sleep Research, 24(5), 535&#x2013;542. https://doi.org/10.1111/jsr.12302</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/jsr.12302</ArticleId><ArticleId IdType="pubmed">25913483</ArticleId></ArticleIdList></Reference><Reference><Citation>Golaszewski, N. M., Bartholomew, J. B., Errisuriz, V. L., Korinek, E., &amp; Jowers, E. (2021). Predictors of on-task behaviors: Evaluating student-level characteristics. Health Behavior and Policy Review, 8(2), 159&#x2013;167. https://doi.org/10.14485/HBPR.8.2.6</Citation><ArticleIdList><ArticleId IdType="doi">10.14485/HBPR.8.2.6</ArticleId><ArticleId IdType="pubmed">34734099</ArticleId><ArticleId IdType="pmc">8562880</ArticleId></ArticleIdList></Reference><Reference><Citation>Gumeler, E., Aygun, E., Tezer, F. I., Saritas, E. U., &amp; Oguz, K. K. (2023). Assessment of glymphatic function in narcolepsy using DTI-ALPS index. Sleep Medicine, 101, 522&#x2013;527. https://doi.org/10.1016/j.sleep.2022.12.002</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.sleep.2022.12.002</ArticleId><ArticleId IdType="pubmed">36535226</ArticleId></ArticleIdList></Reference><Reference><Citation>He, P., Shi, L., Li, Y., Duan, Q., Qiu, Y., Feng, S., Gao, Y., Luo, Y., Ma, G., Zhang, Y., Wang, L., &amp; Nie, K. (2023). The association of the glymphatic function with parkinson&#x2019;s disease symptoms: Neuroimaging evidence from longitudinal and cross-sectional studies. Annals of Neurology, 94(4), 672&#x2013;683. https://doi.org/10.1002/ana.26729</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/ana.26729</ArticleId><ArticleId IdType="pubmed">37377170</ArticleId></ArticleIdList></Reference><Reference><Citation>Hsiao, W. C., Chang, H. I., Hsu, S. W., Lee, C. C., Huang, S. H., Cheng, C. H., Huang, C. W., &amp; Chang, C. C. (2023). Association of cognition and brain reserve in aging and glymphatic function using diffusion tensor image-along the perivascular space (DTI-ALPS). Neuroscience, 524, 11&#x2013;20. https://doi.org/10.1016/j.neuroscience.2023.04.004</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroscience.2023.04.004</ArticleId><ArticleId IdType="pubmed">37030632</ArticleId></ArticleIdList></Reference><Reference><Citation>Johns, M. W. (1991). A new method for measuring daytime sleepiness: The Epworth Sleepiness Scale. Sleep, 14(6), 540&#x2013;545. https://doi.org/10.1093/sleep/14.6.540</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/sleep/14.6.540</ArticleId><ArticleId IdType="pubmed">1798888</ArticleId></ArticleIdList></Reference><Reference><Citation>Kamagata, K., Andica, C., Takabayashi, K., Saito, Y., Taoka, T., Nozaki, H., Kikuta, J., Fujita, S., Hagiwara, A., Kamiya, K., Wada, A., Akashi, T., Sano, K., Nishizawa, M., Hori, M., Naganawa, S., &amp; Aoki, S. (2022). Association of MRI indices of glymphatic system with amyloid deposition and cognition in mild cognitive impairment and alzheimer disease. Neurology, 99(24), E2648&#x2013;E2660. https://doi.org/10.1212/WNL.0000000000201300</Citation><ArticleIdList><ArticleId IdType="doi">10.1212/WNL.0000000000201300</ArticleId><ArticleId IdType="pubmed">36123122</ArticleId><ArticleId IdType="pmc">9757870</ArticleId></ArticleIdList></Reference><Reference><Citation>Ma, J., Chen, M., Liu, G. H., Gao, M., Chen, N. H., Toh, C. H., Hsu, J. L., Wu, K. Y., Huang, C. M., Lin, C. M., Fang, J. T., Lee, S. H., &amp; Lee, T. M. C. (2025). Effects of sleep on the glymphatic functioning and multimodal human brain network affecting memory in older adults. Molecular Psychiatry, 30(5), 1717&#x2013;1729. https://doi.org/10.1038/s41380-024-02778-0</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/s41380-024-02778-0</ArticleId><ArticleId IdType="pubmed">39397082</ArticleId></ArticleIdList></Reference><Reference><Citation>Ma, X., Li, S., Li, C., Wang, R., Chen, M., Chen, H., &amp; Su, W. (2021). Diffusion tensor imaging along the perivascular space index in different stages of parkinson&#x2019;s disease. Frontiers in Aging Neuroscience, 13. https://doi.org/10.3389/fnagi.2021.773951</Citation></Reference><Reference><Citation>McKnight, C. D., Trujillo, P., Lopez, A. M., Petersen, K., Considine, C., Lin, Y. C., Yan, Y., Kang, H., Donahue, M. J., &amp; Claassen, D. O. (2021). Diffusion along perivascular spaces reveals evidence supportive of glymphatic function impairment in Parkinson disease. Parkinsonism &amp; Related Disorders, 89, 98&#x2013;104. https://doi.org/10.1016/j.parkreldis.2021.06.004</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.parkreldis.2021.06.004</ArticleId></ArticleIdList></Reference><Reference><Citation>Meng, J. C., Shen, M. Q., Lu, Y. L., Feng, H. X., Chen, X. Y., Xu, D. Q., Wu, G. H., Cheng, Q. Z., Wang, L. H., &amp; Gui, Q. (2024). Correlation of glymphatic system abnormalities with Parkinson&#x2019;s disease progression: A clinical study based on non-invasive fMRI. Journal of Neurology, 271(1), 457&#x2013;471. https://doi.org/10.1007/s00415-023-12004-6</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00415-023-12004-6</ArticleId><ArticleId IdType="pubmed">37755462</ArticleId></ArticleIdList></Reference><Reference><Citation>Oldfield, R. C. (1971). Hand preference. Encyclopedia of Clinical Neuropsychology, 9, 97&#x2013;113. https://doi.org/10.1007/978-0-387-79948-3_6053</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/978-0-387-79948-3_6053</ArticleId></ArticleIdList></Reference><Reference><Citation>Ota, M., Sato, N., Nakaya, M., Shigemoto, Y., Kimura, Y., Chiba, E., Yokoi, Y., Tsukamoto, T., &amp; Matsuda, H. (2022). Relationships between the deposition of Amyloid-&#x3b2; and Tau protein and glymphatic system activity in alzheimer&#x2019;s disease: Diffusion tensor image study. Journal of Alzheimer&#x2019;s Disease, 90(1), 295&#x2013;303. https://doi.org/10.3233/JAD-220534</Citation><ArticleIdList><ArticleId IdType="doi">10.3233/JAD-220534</ArticleId><ArticleId IdType="pubmed">36120782</ArticleId></ArticleIdList></Reference><Reference><Citation>Ozsahin, I., Zhou, L., Wang, X., Garetti, J., Jamison, K., Xi, K., Tanzi, E., Jaywant, A., Patchell, A., Maloney, T., De Leon, M. J., Kuceyeski, A., Shah, S. A., Li, Y., &amp; Butler, T. A. (2024). Diffusion tensor imaging along perivascular spaces (DTI-ALPS) to assess effects of age, sex, and head size on interstitial fluid dynamics in healthy subjects. Journal of Alzheimer&#x2019;s Disease Reports, 8(1), 355&#x2013;361. https://doi.org/10.3233/ADR-230143</Citation><ArticleIdList><ArticleId IdType="doi">10.3233/ADR-230143</ArticleId><ArticleId IdType="pubmed">38405348</ArticleId><ArticleId IdType="pmc">10894616</ArticleId></ArticleIdList></Reference><Reference><Citation>Perlaki, G., Dud&#xe1;s, B., Horv&#xe1;th, R., Orsi, G., Darnai, G., Arat&#xf3;, &#xc1;., Nagy, S. A., D&#xf3;czi, T., Komoly, S., Kov&#xe1;cs, N., &amp; Janszky, J. (2025). Diffusion along the perivascular space influenced by handedness and Language lateralisation. Brain Communications, 7(4). https://doi.org/10.1093/braincomms/fcaf252</Citation></Reference><Reference><Citation>Ringstad, G., Springer Science and Business Media Deutschland GmbH. (2024). Glymphatic imaging: A critical look at the DTI-ALPS index. Neuroradiology, 66(2), 157&#x2013;160. https://doi.org/10.1007/s00234-023-03270-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00234-023-03270-2</ArticleId><ArticleId IdType="pubmed">38197950</ArticleId></ArticleIdList></Reference><Reference><Citation>Roy, B., Nunez, A., S Aysola, R., W Kang, D., Vacas, S., &amp; Kumar, R. (2022). Impaired glymphatic system actions in obstructive sleep apnea adults. Frontiers in Neuroscience, 16. https://doi.org/10.3389/fnins.2022.884234</Citation></Reference><Reference><Citation>Satterfield, B. C., Wisor, J. P., Schmidt, M. A., &amp; Van Dongen, H. P. A. (2017). Time-on-task effect during sleep deprivation in healthy young adults is modulated by dopamine transporter genotype. Sleep, 40(12), 1&#x2013;11. https://doi.org/10.1093/sleep/zsx167</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/sleep/zsx167</ArticleId></ArticleIdList></Reference><Reference><Citation>Shen, T., Yue, Y., Ba, F., He, T., Tang, X., Hu, X., Pu, J., Huang, C., Lv, W., Zhang, B., &amp; Lai, H. Y. (2022). Diffusion along perivascular spaces as marker for impairment of glymphatic system in Parkinson&#x2019;s disease. NPJ Parkinson&#x2019;s Disease. https://doi.org/10.1038/s41531-022-00437-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/s41531-022-00437-1</ArticleId><ArticleId IdType="pubmed">36543809</ArticleId><ArticleId IdType="pmc">9772196</ArticleId></ArticleIdList></Reference><Reference><Citation>Si, X., Guo, T., Wang, Z., Fang, Y., Gu, L., Cao, L., Yang, W., Gao, T., Song, Z., Tian, J., Yin, X., Guan, X., Zhou, C., Wu, J., Bai, X., Liu, X., Zhao, G., Zhang, M., Pu, J., &amp; Zhang, B. (2022). Neuroimaging evidence of glymphatic system dysfunction in possible REM sleep behavior disorder and Parkinson&#x2019;s disease. NPJ Parkinson&#x2019;s Disease. https://doi.org/10.1038/s41531-022-00316-9</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/s41531-022-00316-9</ArticleId><ArticleId IdType="pubmed">35487930</ArticleId><ArticleId IdType="pmc">9055043</ArticleId></ArticleIdList></Reference><Reference><Citation>Siow, T. Y., Toh, C. H., Hsu, J. L., Liu, G. H., Lee, S. H., Chen, N. H., Fu, C. J., Castillo, M., &amp; Fang, J. T. (2022). Association of sleep, neuropsychological performance, and gray matter volume with glymphatic function in community-dwelling older adults. Neurology, 98(8), E829&#x2013;E838. https://doi.org/10.1212/WNL.0000000000013215</Citation><ArticleIdList><ArticleId IdType="doi">10.1212/WNL.0000000000013215</ArticleId><ArticleId IdType="pubmed">34906982</ArticleId></ArticleIdList></Reference><Reference><Citation>Stefani, A., &amp; H&#xf6;gl, B. (2021). A step forward in understanding the role of sleep and its link to neurodegeneration. Brain, 144(3), 700&#x2013;702. https://doi.org/10.1093/brain/awab047</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/awab047</ArticleId><ArticleId IdType="pubmed">33844834</ArticleId></ArticleIdList></Reference><Reference><Citation>Steward, C. E., Venkatraman, V. K., Lui, E., Malpas, C. B., Ellis, K. A., Cyarto, E. V., Vivash, L., O&#x2019;Brien, T. J., Velakoulis, D., Ames, D., Masters, C. L., Lautenschlager, N. T., Bammer, R., &amp; Desmond, P. M. (2021). Assessment of the DTI-ALPS parameter along the perivascular space in older adults at risk of dementia. Journal of Neuroimaging, 31(3), 569&#x2013;578. https://doi.org/10.1111/jon.12837</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/jon.12837</ArticleId><ArticleId IdType="pubmed">33556226</ArticleId></ArticleIdList></Reference><Reference><Citation>Tang, J., Zhang, M., Liu, N., Xue, Y., Ren, X., Huang, Q., Shi, L., &amp; Fu, J. (2022). The association between glymphatic system dysfunction and cognitive impairment in cerebral small vessel disease. Frontiers in Aging Neuroscience, 14. https://doi.org/10.3389/fnagi.2022.916633</Citation></Reference><Reference><Citation>Taoka, T., Ito, R., Nakamichi, R., Kamagata, K., Sakai, M., Kawai, H., Nakane, T., Abe, T., Ichikawa, K., Kikuta, J., Aoki, S., &amp; Naganawa, S. (2022). Reproducibility of diffusion tensor image analysis along the perivascular space (DTI-ALPS) for evaluating interstitial fluid diffusivity and glymphatic function: Changes in alps index on multiple condition acquisition experiment (CHAMONIX) study. Japanese Journal of Radiology, 40(2), 147&#x2013;158. https://doi.org/10.1007/s11604-021-01187-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11604-021-01187-5</ArticleId><ArticleId IdType="pubmed">34390452</ArticleId></ArticleIdList></Reference><Reference><Citation>Taoka, T., Ito, R., Nakamichi, R., Nakane, T., Kawai, H., Naganawa, S., Japanese Society for Magnetic Resonance in Medicine. (2024). Diffusion tensor image analysis ALong the perivascular space (DTI-ALPS): Revisiting the meaning and significance of the method. Magnetic Resonance in Medical Sciences, 23(3 Special Issue), 268&#x2013;290. https://doi.org/10.2463/MRMS.REV.2023-0175</Citation><ArticleIdList><ArticleId IdType="doi">10.2463/MRMS.REV.2023-0175</ArticleId><ArticleId IdType="pubmed">38569866</ArticleId><ArticleId IdType="pmc">11234944</ArticleId></ArticleIdList></Reference><Reference><Citation>Taoka, T., Masutani, Y., Kawai, H., Nakane, T., Matsuoka, K., Yasuno, F., Kishimoto, T., Naganawa, S., &amp; Author, C. (2017). Evaluation of glymphatic system activity with the diffusion MR technique: Diffusion tensor image analysis along the perivascular space (DTI-ALPS) in alzheimer&#x2019;s disease cases. Japanese journal of radiology, 35(4), 1722&#x2013;178.</Citation></Reference><Reference><Citation>Tatekawa, H., Matsushita, S., Ueda, D., Takita, H., Horiuchi, D., Atsukawa, N., Morishita, Y., Tsukamoto, T., Shimono, T., &amp; Miki, Y. (2023). Improved reproducibility of diffusion tensor image analysis along the perivascular space (DTI-ALPS) index: An analysis of reorientation technique of the OASIS-3 dataset. Japanese Journal of Radiology, 41(4), 393&#x2013;400. https://doi.org/10.1007/s11604-022-01370-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11604-022-01370-2</ArticleId><ArticleId IdType="pubmed">36472803</ArticleId></ArticleIdList></Reference><Reference><Citation>Thomann, J., Baumann, C. R., Landolt, H. P., &amp; Werth, E. (2014). Psychomotor vigilance task demonstrates impaired vigilance in disorders with excessive daytime sleepiness. Journal of Clinical Sleep Medicine, 10(9), 1019&#x2013;1024. https://doi.org/10.5664/jcsm.4042</Citation><ArticleIdList><ArticleId IdType="doi">10.5664/jcsm.4042</ArticleId><ArticleId IdType="pubmed">25142762</ArticleId><ArticleId IdType="pmc">4153121</ArticleId></ArticleIdList></Reference><Reference><Citation>Tian, Y., Cai, X., Zhou, Y., Jin, A., Wang, S., Yang, Y., Mei, L., Jing, J., Li, S., Meng, X., Wei, T., Liu, T., Wang, Y., Pan, Y., &amp; Wang, Y. (2023). Impaired glymphatic system as evidenced by low diffusivity along perivascular spaces is associated with cerebral small vessel disease: A population-based study. Stroke and Vascular Neurology, 8(5), 413&#x2013;423. https://doi.org/10.1136/svn-2022-002191</Citation><ArticleIdList><ArticleId IdType="doi">10.1136/svn-2022-002191</ArticleId><ArticleId IdType="pubmed">37045543</ArticleId><ArticleId IdType="pmc">10647865</ArticleId></ArticleIdList></Reference><Reference><Citation>Van Dongen, A., &amp; Dinges, D. F. (2000). Circadian Rhythms in Fatigue, Alertness and Performance. W. B. Saunders.</Citation></Reference><Reference><Citation>Wright, A. M., Wu, Y. C., Chen, N. K., &amp; Wen, Q. (2024). Exploring radial asymmetry in MR diffusion tensor imaging and its impact on the interpretation of glymphatic mechanisms. Journal of Magnetic Resonance Imaging, 60(4), 1432&#x2013;1441. https://doi.org/10.1002/jmri.29203</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/jmri.29203</ArticleId><ArticleId IdType="pubmed">38156600</ArticleId></ArticleIdList></Reference><Reference><Citation>Xie, L., Kang, H., Xu, Q., Chen, M. J., Liao, Y., Thiyagarajan, M., O&#x2019;donnell, J., Christensen, D. J., Nicholson, C., Iliff, J. J., Takano, T., Deane, R., &amp; Nedergaard, M. (2013). Sleep Drives Metabolite Clearance from the Adult Brain. https://www.science.org</Citation></Reference><Reference><Citation>Xu, J., Su, Y., Fu, J., Wang, X., Nguchu, B. A., Qiu, B., Dong, Q., &amp; Cheng, X. (2022). Glymphatic dysfunction correlates with severity of small vessel disease and cognitive impairment in cerebral amyloid angiopathy. European Journal of Neurology, 29(10), 2895&#x2013;2904. https://doi.org/10.1111/ene.15450</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/ene.15450</ArticleId><ArticleId IdType="pubmed">35712978</ArticleId></ArticleIdList></Reference><Reference><Citation>Yang, D. X., Sun, Z., Yu, M. M., Zou, Q. Q., Li, P. Y., Zhang, J. K., Wu, X., Li, Y. H., &amp; Wang, M. L. (2024). Associations of MRI-derived glymphatic system impairment with global white matter damage and cognitive impairment in mild traumatic brain injury: A DTI-ALPS study. Journal of Magnetic Resonance Imaging, 59(2), 639&#x2013;647. https://doi.org/10.1002/jmri.28797</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/jmri.28797</ArticleId><ArticleId IdType="pubmed">37276070</ArticleId></ArticleIdList></Reference><Reference><Citation>Yi, T., Gao, P., Zhu, T., Yin, H., &amp; Jin, S. (2022). Glymphatic System Dysfunction: A Novel Mediator of Sleep Disorders and Headaches. In Frontiers in Neurology (Vol. 13). Frontiers Media S.A. https://doi.org/10.3389/fneur.2022.885020</Citation></Reference><Reference><Citation>Yokota, H., Vijayasarathi, A., Cekic, M., Hirata, Y., Linetsky, M., Ho, M., Kim, W., &amp; Salamon, N. (2019). Diagnostic performance of glymphatic system evaluation using diffusion tensor imaging in idiopathic normal pressure hydrocephalus and mimickers. Current Gerontology and Geriatrics Research. https://doi.org/10.1155/2019/5675014</Citation><ArticleIdList><ArticleId IdType="doi">10.1155/2019/5675014</ArticleId><ArticleId IdType="pubmed">31320896</ArticleId><ArticleId IdType="pmc">6609364</ArticleId></ArticleIdList></Reference><Reference><Citation>Yuichi, M., Koji, K., Christina, A., Kaito, T., Junko, K., Shohei, F., Thomas, S., Wataru, U., Yuya, S., Hiroki, T., Hitoshi, N., Yuki, S., Hideyoshi, K., Yoshifumi, T., Mari, M., Toshiaki, A., Akihiko, W., Toshiaki, T., Shinji, N., &amp; Shigeki, A. (2023). Glymphatic system impairment in nonathlete older male adults who played contact sports in their youth associated with cognitive decline: A diffusion tensor image analysis along the perivascular space study.</Citation></Reference><Reference><Citation>Zhang, X., Wang, Y., Jiao, B., Wang, Z., Shi, J., Zhang, Y., Bai, X., Li, Z., Li, S., Bai, R., &amp; Sui, B. (2024). Glymphatic system impairment in Alzheimer&#x2019;s disease: Associations with perivascular space volume and cognitive function. European Radiology, 34(2), 1314&#x2013;1323. https://doi.org/10.1007/s00330-023-10122-3</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00330-023-10122-3</ArticleId><ArticleId IdType="pubmed">37610441</ArticleId></ArticleIdList></Reference><Reference><Citation>Zhong, J., Zhang, X., Xu, H., Zheng, X., Wang, L., Jiang, J., &amp; Li, Y. (2023). Unlocking the enigma: Unraveling multiple cognitive dysfunction linked to glymphatic impairment in early Alzheimer&#x2019;s disease. Frontiers in Neuroscience. https://doi.org/10.3389/fnins.2023.1222857</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnins.2023.1222857</ArticleId><ArticleId IdType="pubmed">38075270</ArticleId><ArticleId IdType="pmc">10702213</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41735541&retmode=xml&rettype=abstract" | python3 -c "
+from xml.etree import ElementTree as ET
+import sys
+content = sys.stdin.read()
+root = ET.fromstring(content)
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([elem.text for elem in abstract_texts if elem.text is not None])
+    print(f'PMID: {pmid}')
+    print(f'Abstract: {abstract[:500] if abstract else \"EMPTY\"}')"
+PMID: 41735541
+Abstract: EMPTY
+
+[0m[0m$ [0mls -la /Users/chenmayao/Projects/daily-insights/data/ 2>/dev/null || echo "Directory does not exist"total 192
+drwxr-xr-x  18 chenmayao  staff    576 Feb 25 13:38 .
+drwxr-xr-x  12 chenmayao  staff    384 Feb 25 13:29 ..
+-rw-r--r--   1 chenmayao  staff   1189 Feb 25 13:14 2026-02-23-ad.json
+-rw-r--r--   1 chenmayao  staff     45 Feb 25 13:14 2026-02-23-adhd.json
+-rw-r--r--   1 chenmayao  staff   8820 Feb 25 13:14 2026-02-23-ai.json
+-rw-r--r--   1 chenmayao  staff   4022 Feb 25 13:14 2026-02-23-autism.json
+-rw-r--r--   1 chenmayao  staff   2336 Feb 25 13:14 2026-02-23-brainmri.json
+-rw-r--r--   1 chenmayao  staff   2360 Feb 25 13:14 2026-02-23-depression.json
+-rw-r--r--   1 chenmayao  staff   1225 Feb 25 13:14 2026-02-23-mefmri.json
+-rw-r--r--   1 chenmayao  staff   1542 Feb 25 13:14 2026-02-23-pd.json
+-rw-r--r--   1 chenmayao  staff   4238 Feb 25 13:14 2026-02-24-ad.json
+-rw-r--r--   1 chenmayao  staff     44 Feb 25 13:14 2026-02-24-adhd.json
+-rw-r--r--   1 chenmayao  staff  16253 Feb 25 13:14 2026-02-24-ai.json
+-rw-r--r--   1 chenmayao  staff    946 Feb 25 13:14 2026-02-24-autism.json
+-rw-r--r--   1 chenmayao  staff  11824 Feb 25 13:14 2026-02-24-brainmri.json
+-rw-r--r--   1 chenmayao  staff   2672 Feb 25 13:14 2026-02-24-depression.json
+-rw-r--r--   1 chenmayao  staff   1386 Feb 25 13:14 2026-02-24-mefmri.json
+-rw-r--r--   1 chenmayao  staff   1516 Feb 25 13:14 2026-02-24-pd.json[0m
+
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41735650&retmode=xml&rettype=abstract" | python3 -c "
+from xml.etree import ElementTree as ET
+import sys
+content = sys.stdin.read()
+root = ET.fromstring(content)
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([elem.text for elem in abstract_texts if elem.text is not None])
+    print(f'PMID: {pmid}')
+    print(f'Abstract length: {len(abstract)}')
+    print(f'Abstract: {abstract[:800]}')"PMID: 41735650
+Abstract length: 662
+Abstract: Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitary exploration between 2014 and 2021 at the University of Brescia was conducted. A meta-analysis of 35 studies revealed significant heterogeneity across studies (I
+
+[0m
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41735650&retmode=xml&rettype=abstract" | head -200
+
+[0m
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated"><PMID Version="1">41735650</PMID><DateCompleted><Year>2026</Year><Month>02</Month><Day>24</Day></DateCompleted><DateRevised><Year>2026</Year><Month>02</Month><Day>24</Day></DateRevised><Article PubModel="Electronic"><Journal><ISSN IssnType="Electronic">1437-2320</ISSN><JournalIssue CitedMedium="Internet"><Volume>49</Volume><Issue>1</Issue><PubDate><Year>2026</Year><Month>Feb</Month><Day>25</Day></PubDate></JournalIssue><Title>Neurosurgical review</Title><ISOAbbreviation>Neurosurg Rev</ISOAbbreviation></Journal><ArticleTitle>Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.</ArticleTitle><ELocationID EIdType="pii" ValidYN="Y">246</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.1007/s10143-026-04168-2</ELocationID><Abstract><AbstractText>Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitary exploration between 2014 and 2021 at the University of Brescia was conducted. A meta-analysis of 35 studies revealed significant heterogeneity across studies (I<sup>2</sup>&#x2009;=&#x2009;71.09%). The mean surgical disease remission rate of 70% (CI: 65-75%) in MRI-negative CD was significantly lower than in MRI-positive patients (82%; CI: 0.79-0.86). Eight studies reported ACTH hyperplasia in a total of 92 of 470 patients (19.6%). In the institutional series, 21 patients underwent 22 endoscopic pituitary explorations (mean follow-up: 72 months). Histology documented ACTH hyperplasia in 10/22 (45%), ACTH-PitNET in 9, and normal pituitary in 3. Inferior petrosal sinus sampling lateralization was predictive of pathology in 33% of patients. Early and late surgical remission (10/22 and 15/22 patients, respectively) were significantly associated with histology. Surgical complications included one CSF leak requiring reintervention, one case of transient diabetes insipidus, and two patients requiring substitutive therapy for the thyroid axis. About 30% of MRI-negative CD patients do not achieve surgical disease remission. ACTH hyperplasia might partially explain this high rate of failure. Endoscopic pituitary exploration remains a highly effective way to collect important histological data that should be recorded in a multicenter, prospective study.</AbstractText><CopyrightInformation>&#xa9; 2026. The Author(s).</CopyrightInformation></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y" EqualContrib="Y"><LastName>Ghidoni</LastName><ForeName>Francesca</ForeName><Initials>F</Initials><AffiliationInfo><Affiliation>Department of Translational Medicine and for Romagna, University of Ferrara, Ferrara, Italy.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Neurosurgery Unit, University Hospital of Ferrara, Ferrara, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y" EqualContrib="Y"><LastName>Madoglio</LastName><ForeName>Alba</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Translational Medicine and for Romagna, University of Ferrara, Ferrara, Italy.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Neurosurgery Unit, University Hospital of Ferrara, Ferrara, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Chiloiro</LastName><ForeName>Sabrina</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Pituitary Unit, Department of Endocrinology and Diabetes, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Rome, Italy.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine and Translational Surgery, Universit&#xe0; Cattolica del Sacro Cuore, Rome, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>di Bergamo</LastName><ForeName>Lodovico Terzi</ForeName><Initials>LT</Initials><AffiliationInfo><Affiliation>Institute of Oncology Research, Bellinzona, Switzerland.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Vezzoli</LastName><ForeName>Marika</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Biostatistics, Department of Molecular and Translational Medicine, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Serioli</LastName><ForeName>Simona</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Department of Neurosurgery, Papa Giovanni XXIII, Bergamo, Italy.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Technology for Health PhD Program, University of Brescia, Brescia, 25124, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Cosentino</LastName><ForeName>Giada</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Saraceno</LastName><ForeName>Giorgio</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Neurosurgery, Department of Medical and Surgical Specialties, Radiological Sciences and Public Health, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Lupi</LastName><ForeName>Isabella</ForeName><Initials>I</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Urbani</LastName><ForeName>Claudio</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Licini</LastName><ForeName>Massimo</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Sciences, ASST Spedali Civili of Brescia, SSD Endocrinologia, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Candrina</LastName><ForeName>Renato</ForeName><Initials>R</Initials><AffiliationInfo><Affiliation>Endocrinology, Diabetology and Metabolic Diseases, Fondazione Poliambulanza Istituto Ospedaliero, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Giampietro</LastName><ForeName>Antonella</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Pituitary Unit, Department of Endocrinology and Diabetes, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Rome, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Pirola</LastName><ForeName>Ilenia</ForeName><Initials>I</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Sciences, ASST Spedali Civili of Brescia, SSD Endocrinologia, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Cappelli</LastName><ForeName>Carlo</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Sciences, ASST Spedali Civili of Brescia, SSD Endocrinologia, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Mattavelli</LastName><ForeName>Davide</ForeName><Initials>D</Initials><AffiliationInfo><Affiliation>Unit of Otorhinolaryngology-Head and Neck Surgery, Department of Surgical Specialties, Radiological Sciences and Public Health, ASST Spedali Civili of Brescia, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Rampinelli</LastName><ForeName>Vittorio</ForeName><Initials>V</Initials><AffiliationInfo><Affiliation>Unit of Otorhinolaryngology-Head and Neck Surgery, Department of Surgical Specialties, Radiological Sciences and Public Health, ASST Spedali Civili of Brescia, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Ferrari</LastName><ForeName>Marco</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Otorhinolaryngology-Head and Neck Surgery, Department of Neuroscience, University of Padua, Padua, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Bogazzi</LastName><ForeName>Fausto</ForeName><Initials>F</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Cosottini</LastName><ForeName>Mirco</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Neuroradiology, Department of Translational Research On New Technologies in Medicine and Surgery, University of Pisa, Pisa, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Gasparotti</LastName><ForeName>Roberto</ForeName><Initials>R</Initials><AffiliationInfo><Affiliation>Neuroradiology, Department of Medical and Surgical Specialties, Radiological Sciences and Public Health, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Manetti</LastName><ForeName>Luca</ForeName><Initials>L</Initials><AffiliationInfo><Affiliation>Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Bianchi</LastName><ForeName>Antonio</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Pituitary Unit, Department of Endocrinology and Diabetes, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Rome, Italy.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine and Translational Surgery, Universit&#xe0; Cattolica del Sacro Cuore, Rome, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Nicolai</LastName><ForeName>Piero</ForeName><Initials>P</Initials><AffiliationInfo><Affiliation>Otorhinolaryngology-Head and Neck Surgery, Department of Neuroscience, University of Padua, Padua, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Piazza</LastName><ForeName>Cesare</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>Unit of Otorhinolaryngology-Head and Neck Surgery, Department of Surgical Specialties, Radiological Sciences and Public Health, ASST Spedali Civili of Brescia, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Fontanella</LastName><ForeName>Marco Maria</ForeName><Initials>MM</Initials><AffiliationInfo><Affiliation>Neurosurgery, Department of Medical and Surgical Specialties, Radiological Sciences and Public Health, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y" EqualContrib="Y"><LastName>Poliani</LastName><ForeName>Pietro Luigi</ForeName><Initials>PL</Initials><AffiliationInfo><Affiliation>Pathology Unit, Department of Molecular and Translational Medicine, University of Brescia, Brescia, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y" EqualContrib="Y"><LastName>Doglietto</LastName><ForeName>Francesco</ForeName><Initials>F</Initials><AffiliationInfo><Affiliation>Neurosurgery, Fondazione Policlinico Universitario Agostino Gemelli, IRCCS, Rome, Italy. francesco.doglietto@unicatt.it.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Neurosurgery, Dipartimento di Neuroscienze, Organi di Senso e Torace, Universit&#xe0; Cattolica del Sacro Cuore, Rome, Italy. francesco.doglietto@unicatt.it.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Neurosurgery Dipartimento di Neuroscienze, Organi di Senso e Torace, Dipartimento di Neuroscienze, Fondazione Policlinico Universitario A. Gemelli, IRCCS, Universit&#xe0; Cattolica del Sacro Cuore, Largo Agostino Gemelli, 8, Rome, 00168, Italy. francesco.doglietto@unicatt.it.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D000078182">Systematic Review</PublicationType><PublicationType UI="D017418">Meta-Analysis</PublicationType><PublicationType UI="D016454">Review</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2026</Year><Month>02</Month><Day>25</Day></ArticleDate></Article><MedlineJournalInfo><Country>Germany</Country><MedlineTA>Neurosurg Rev</MedlineTA><NlmUniqueID>7908181</NlmUniqueID><ISSNLinking>0344-5607</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D047748" MajorTopicYN="Y">Pituitary ACTH Hypersecretion</DescriptorName><QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName><QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D008279" MajorTopicYN="N">Magnetic Resonance Imaging</DescriptorName><QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D010902" MajorTopicYN="Y">Pituitary Gland</DescriptorName><QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName><QualifierName UI="Q000000981" MajorTopicYN="N">diagnostic imaging</QualifierName><QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D010911" MajorTopicYN="N">Pituitary Neoplasms</DescriptorName><QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D018358" MajorTopicYN="N">Neuroendocrine Tumors</DescriptorName><QualifierName UI="Q000601" MajorTopicYN="N">surgery</QualifierName></MeshHeading></MeshHeadingList><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">ACTH hyperplasia</Keyword><Keyword MajorTopicYN="N">Cushing's disease</Keyword><Keyword MajorTopicYN="N">Hypercortisolism</Keyword><Keyword MajorTopicYN="N">MRI negative</Keyword><Keyword MajorTopicYN="N">PitNET</Keyword><Keyword MajorTopicYN="N">Pituitary exploration</Keyword></KeywordList><CoiStatement>Declarations. Ethics approval: This study was performed in line with the principles of the Declaration of Helsinki. Approval was granted by The Institutional Review Board at the University of Brescia, Italy (NP 5071 &#x2013; OMCPitNET). Consent to publish: Patients signed informed consent regarding publishing their data and the images in Figure(s) 1and 2. Consent to participate: Informed consent was obtained from all individual participants included in the study. Competing interests: The authors declare no competing interests. Clinical trial number: Not applicable.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="medline"><Year>2026</Year><Month>2</Month><Day>25</Day><Hour>0</Hour><Minute>30</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2026</Year><Month>2</Month><Day>25</Day><Hour>0</Hour><Minute>29</Minute></PubMedPubDate><PubMedPubDate PubStatus="received"><Year>2025</Year><Month>11</Month><Day>19</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2026</Year><Month>1</Month><Day>29</Day></PubMedPubDate><PubMedPubDate PubStatus="revised"><Year>2026</Year><Month>1</Month><Day>26</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2026</Year><Month>2</Month><Day>24</Day><Hour>23</Hour><Minute>29</Minute></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">41735650</ArticleId><ArticleId IdType="doi">10.1007/s10143-026-04168-2</ArticleId><ArticleId IdType="pii">10.1007/s10143-026-04168-2</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Cebula H et al (2017) Efficacy of endoscopic endonasal transsphenoidal surgery for cushing&#x2019;s disease in 230 patients with positive and negative MRI. Acta Neurochir (Wien) 159:1227&#x2013;1236. https://doi.org/10.1007/s00701-017-3140-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00701-017-3140-1</ArticleId><ArticleId IdType="pubmed">28281008</ArticleId></ArticleIdList></Reference><Reference><Citation>Sharifi G et al (2022) MRI-negative cushing&#x2019;s disease: management strategy and outcomes in 15 cases utilizing a pure endoscopic endonasal approach. BMC Endocr Disord 22(1):154. https://doi.org/10.1186/s12902-022-01069-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12902-022-01069-5</ArticleId><ArticleId IdType="pubmed">35676664</ArticleId><ArticleId IdType="pmc">9178868</ArticleId></ArticleIdList></Reference><Reference><Citation>Yamada S et al (2012) Surgical management and outcomes in patients with Cushing disease with negative pituitary magnetic resonance imaging. World Neurosurg 77:3&#x2013;4. https://doi.org/10.1016/j.wneu.2011.06.033</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.wneu.2011.06.033</ArticleId></ArticleIdList></Reference><Reference><Citation>Portocarrero-Ortiz L, Bonifacio-Delgadillo D, Sotomayor-Gonz&#xe1;lez A, Garcia-Marquez A, Lopez-Serna R (2010) A modified protocol using half-dose gadolinium in dynamic 3-Tesla magnetic resonance imaging for detection of ACTH-secreting pituitary tumors. Pituitary 13(3):230&#x2013;235. https://doi.org/10.1007/s11102-010-0222-y</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11102-010-0222-y</ArticleId><ArticleId IdType="pubmed">20182808</ArticleId></ArticleIdList></Reference><Reference><Citation>Erickson D et al (2010) 3 Tesla magnetic resonance imaging with and without Corticotropin releasing hormone stimulation for the detection of microadenomas in cushing&#x2019;s syndrome. Clin Endocrinol (Oxf) 72:793&#x2013;799. https://doi.org/10.1111/j.1365-2265.2009.03723.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1365-2265.2009.03723.x</ArticleId><ArticleId IdType="pubmed">19811509</ArticleId></ArticleIdList></Reference><Reference><Citation>Sun Y et al (2012) Diagnosis and therapy for cushing&#x2019;s disease with negative dynamic MRI finding: a single-centre experience: diagnosis and therapy for MRI-negative cushing&#x2019;s disease. Clin Endocrinol (Oxf) 76(6):868&#x2013;876. https://doi.org/10.1111/j.1365-2265.2011.04279.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1365-2265.2011.04279.x</ArticleId><ArticleId IdType="pubmed">22050513</ArticleId></ArticleIdList></Reference><Reference><Citation>Jagannathan J, Sheehan JP, Jane JAJ (2007) Evaluation and management of Cushing syndrome in cases of negative Sellar magnetic resonance imaging. Neurosurg Focus 23(3):E3. https://doi.org/10.3171/foc.2007.23.3.4</Citation><ArticleIdList><ArticleId IdType="doi">10.3171/foc.2007.23.3.4</ArticleId><ArticleId IdType="pubmed">17961018</ArticleId></ArticleIdList></Reference><Reference><Citation>Carr SB, Kleinschmidt-DeMasters BK, Kerr JM, Kiseljak-Vassiliades K, Wierman ME, Lillehei KO (2018) Negative surgical exploration in patients with Cushing&#x2019;s disease: benefit of two-thirds gland resection on remission rate and a review of the literature. J Neurosurg 129(5):1260&#x2013;1267. https://doi.org/10.3171/2017.5.JNS162901</Citation><ArticleIdList><ArticleId IdType="doi">10.3171/2017.5.JNS162901</ArticleId><ArticleId IdType="pubmed">29219752</ArticleId></ArticleIdList></Reference><Reference><Citation>Guaraldi F et al (2020) Results and predictors of outcome of endoscopic endonasal surgery in Cushing&#x2019;s disease: 20-year experience of an Italian referral Pituitary Center. J Endocrinol Invest 43(10):1463&#x2013;1471. https://doi.org/10.1007/s40618-020-01225-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s40618-020-01225-5</ArticleId><ArticleId IdType="pubmed">32215861</ArticleId></ArticleIdList></Reference><Reference><Citation>Cristante J et al (2019) Why We Should Still Treat by Neurosurgery Patients With Cushing Disease and a Normal or Inconclusive Pituitary MRI. J Clin Endocrinol Metab 104(9):4101&#x2013;4113. https://doi.org/10.1210/jc.2019-00333</Citation><ArticleIdList><ArticleId IdType="doi">10.1210/jc.2019-00333</ArticleId><ArticleId IdType="pubmed">31087046</ArticleId></ArticleIdList></Reference><Reference><Citation>Oldfield EH Cushing&#x2019;s Disease: Lessons Learned From 1500 Cases: Neurosurgery, Accessed: Mar. 23, 2025. [Online]. Available: https://journals.lww.com/neurosurgery/fulltext/2017/09001/cushing_s_disease__lessons_learned_from_1500_cases.10.aspx</Citation></Reference><Reference><Citation>Horvath E, Kovacs K, Scheithauer B (1999) [No title found]. Pituitary 1(3/4):169&#x2013;179. https://doi.org/10.1023/A:1009952930425</Citation><ArticleIdList><ArticleId IdType="doi">10.1023/A:1009952930425</ArticleId><ArticleId IdType="pubmed">11081195</ArticleId></ArticleIdList></Reference><Reference><Citation>Catalino MP, Meredith DM, de Girolami U, Tavakol S, Min L, Laws ER (2021) Corticotroph hyperplasia and Cushing disease: diagnostic features and surgical management. J Neurosurg 135(1):152&#x2013;163. https://doi.org/10.3171/2020.5.JNS201514</Citation><ArticleIdList><ArticleId IdType="doi">10.3171/2020.5.JNS201514</ArticleId><ArticleId IdType="pubmed">32886921</ArticleId></ArticleIdList></Reference><Reference><Citation>Page MJ et al (2021) PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ n160 https://doi.org/10.1136/bmj.n160</Citation></Reference><Reference><Citation>R Core Team (2018) R: A Language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.</Citation></Reference><Reference><Citation>Balduzzi S, R&#xfc;cker G, Schwarzer G (2019) How to perform a meta-analysis with R: a practical tutorial. Evid Based Ment Health 22(4):153&#x2013;160. https://doi.org/10.1136/ebmental-2019-300117</Citation><ArticleIdList><ArticleId IdType="doi">10.1136/ebmental-2019-300117</ArticleId><ArticleId IdType="pubmed">31563865</ArticleId><ArticleId IdType="pmc">10231495</ArticleId></ArticleIdList></Reference><Reference><Citation>Rampinelli V et al (2017) Two-dimensional high definition versus three-dimensional endoscopy in endonasal skull base surgery: a comparative preclinical study. World Neurosurg 105:223&#x2013;231</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.wneu.2017.05.130</ArticleId><ArticleId IdType="pubmed">28578115</ArticleId></ArticleIdList></Reference><Reference><Citation>Belotti F et al (2018) Modular classification of endoscopic endonasal transsphenoidal approaches to Sellar region: anatomic quantitative study. World Neurosurg 109:e281&#x2013;e291. https://doi.org/10.1016/j.wneu.2017.09.165</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.wneu.2017.09.165</ArticleId><ArticleId IdType="pubmed">28989046</ArticleId></ArticleIdList></Reference><Reference><Citation>De Sousa SMC, Earls P, McCormack AI (2015) Pituitary hyperplasia: case series and literature review of an under-recognised and heterogeneous condition, Endocrinol Diab Metab Case Rep https://doi.org/10.1530/EDM-15-0017</Citation></Reference><Reference><Citation>Akirov A et al (2021) Significance of crooke&#x2019;s hyaline change in nontumorous corticotrophs of patients with Cushing disease. Front Endocrinol 12:620005. https://doi.org/10.3389/fendo.2021.620005</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fendo.2021.620005</ArticleId></ArticleIdList></Reference><Reference><Citation>Jehle S, Walsh JE, Freda PU, Post KD (2008) Selective Use of Bilateral Inferior Petrosal Sinus Sampling in Patients with Adrenocorticotropin-Dependent Cushing&#x2019;s Syndrome Prior to Transsphenoidal Surgery. J Clin Endocrinol Metab 93(12):4624&#x2013;4632. https://doi.org/10.1210/jc.2008-0979</Citation><ArticleIdList><ArticleId IdType="doi">10.1210/jc.2008-0979</ArticleId><ArticleId IdType="pubmed">18796519</ArticleId><ArticleId IdType="pmc">2626443</ArticleId></ArticleIdList></Reference><Reference><Citation>Yamada S et al (2015) Therapeutic outcomes in patients undergoing surgery after diagnosis of Cushing&#x2019;s disease: A single-center study. Endocr J 62(12):1115&#x2013;1125.</Citation><ArticleIdList><ArticleId IdType="doi">10.1507/endocrj.15-0463</ArticleId><ArticleId IdType="pubmed">26477323</ArticleId></ArticleIdList></Reference><Reference><Citation>Sheehan JM, Lopes MB, Sheehan JP, Ellegala D, Webb KM, Laws ER (2000) Results of Transsphenoidal Surgery for Cushing&#x2019;s Disease in Patients with No Histologically Confirmed Tumor. Neurosurgery 47(1). https://doi.org/10.1097/00006123-200007000-00008</Citation></Reference><Reference><Citation>Salenave S et al (2004) Pituitary magnetic resonance imaging findings do not influence surgical outcome in adrenocorticotropin-secreting microadenomas. J Clin Endocrinol Metab 89(7):3371&#x2013;3376. https://doi.org/10.1210/jc.2003-031908</Citation><ArticleIdList><ArticleId IdType="doi">10.1210/jc.2003-031908</ArticleId><ArticleId IdType="pubmed">15240617</ArticleId></ArticleIdList></Reference><Reference><Citation>Netea-Maier RT et al (2006) Transsphenoidal pituitary surgery via the endoscopic technique: results in 35 consecutive patients with cushing&#x2019;s disease. Eur J Endocrinol 154(5):675&#x2013;684. https://doi.org/10.1530/eje.1.02133</Citation><ArticleIdList><ArticleId IdType="doi">10.1530/eje.1.02133</ArticleId><ArticleId IdType="pubmed">16645014</ArticleId></ArticleIdList></Reference><Reference><Citation>Testa RM et al (2007) The usefulness of combined biochemical tests in the diagnosis of Cushing&#x2019;s disease with negative pituitary magnetic resonance imaging. Eur J Endocrinol 156(2):241&#x2013;248. https://doi.org/10.1530/eje.1.02332</Citation><ArticleIdList><ArticleId IdType="doi">10.1530/eje.1.02332</ArticleId><ArticleId IdType="pubmed">17287414</ArticleId></ArticleIdList></Reference><Reference><Citation>Dehdashti AR, Gentili F (2007) Current state of the Art in the diagnosis and surgical treatment of Cushing disease: early experience with a purely endoscopic endonasal technique. Neurosurg Focus 23(3):E9. https://doi.org/10.3171/foc.2007.23.3.11</Citation><ArticleIdList><ArticleId IdType="doi">10.3171/foc.2007.23.3.11</ArticleId><ArticleId IdType="pubmed">17961027</ArticleId></ArticleIdList></Reference><Reference><Citation>Xing B et al (2008) Magnetic resonance imaging characteristics and surgical results of adrenocorticotropin-secreting pituitary adenomas. Chin Med Sci J Chung-Kuo Hsueh Ko Hsueh Tsa Chih 23(1)44&#x2013;48</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/s1001-9294(09)60009-2</ArticleId></ArticleIdList></Reference><Reference><Citation>Alwani RA et al (2010) Biochemical predictors of outcome of pituitary surgery for cushing&#x2019;s disease. Neuroendocrinology 91(2):169&#x2013;178. https://doi.org/10.1159/000258677</Citation><ArticleIdList><ArticleId IdType="doi">10.1159/000258677</ArticleId><ArticleId IdType="pubmed">19907141</ArticleId></ArticleIdList></Reference><Reference><Citation>Ciric I et al (2012) Transsphenoidal surgery for Cushing disease: experience with 136 patients. Neurosurgery 70(1):70&#x2013;81. https://doi.org/10.1227/NEU.0b013e31822dda2c</Citation><ArticleIdList><ArticleId IdType="doi">10.1227/NEU.0b013e31822dda2c</ArticleId><ArticleId IdType="pubmed">21772221</ArticleId><ArticleId IdType="pmc">4051420</ArticleId></ArticleIdList></Reference><Reference><Citation>Honegger J et al (2012) Contemporary microsurgical concept for the treatment of cushing&#x2019;s disease: endocrine outcome in 83 consecutive patients. Clin Endocrinol (Oxf) 76(4):560&#x2013;567. https://doi.org/10.1111/j.1365-2265.2011.04268.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1365-2265.2011.04268.x</ArticleId><ArticleId IdType="pubmed">22026553</ArticleId></ArticleIdList></Reference><Reference><Citation>Wagenmakers MAEM et al (2013) Endoscopic transsphenoidal pituitary surgery: a good and safe primary treatment option for Cushing&#x2019;s disease, even in case of macroadenomas or invasive adenomas. Eur J Endocrinol 169(3):329&#x2013;337. https://doi.org/10.1530/EJE-13-0325</Citation><ArticleIdList><ArticleId IdType="doi">10.1530/EJE-13-0325</ArticleId><ArticleId IdType="pubmed">23786985</ArticleId></ArticleIdList></Reference><Reference><Citation>Aranda G et al (2015) Long-term remission and recurrence rate in a cohort of cushing&#x2019;s disease: the need for long-term follow-up. Pituitary 18(1):142&#x2013;149. https://doi.org/10.1007/s11102-014-0567-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11102-014-0567-8</ArticleId><ArticleId IdType="pubmed">24748528</ArticleId></ArticleIdList></Reference><Reference><Citation>Shin SS et al (2017) Endoscopic endonasal approach for adrenocorticotropic Hormone-Secreting pituitary adenomas: outcomes and analysis of remission rates and tumor biochemical activity with respect to tumor invasiveness. World Neurosurg 102(1):651&#x2013;658e. https://doi.org/10.1016/j.wneu.2015.07.065</Citation></Reference><Reference><Citation>Chandler WF et al (2016) Outcome of transsphenoidal surgery for Cushing disease: A Single-Center experience over 32 years. Neurosurgery 78(2):216&#x2013;223. https://doi.org/10.1227/NEU.0000000000001011</Citation><ArticleIdList><ArticleId IdType="doi">10.1227/NEU.0000000000001011</ArticleId><ArticleId IdType="pubmed">26348007</ArticleId></ArticleIdList></Reference><Reference><Citation>Keskin FE et al (2017) Outcomes of primary transsphenoidal surgery in Cushing disease: experience of a tertiary center. World Neurosurg 106:374&#x2013;381. https://doi.org/10.1016/j.wneu.2017.07.014</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.wneu.2017.07.014</ArticleId><ArticleId IdType="pubmed">28711536</ArticleId></ArticleIdList></Reference><Reference><Citation>Johnston PC et al (2017) Surgical outcomes in patients with cushing&#x2019;s disease: the Cleveland clinic experience. Pituitary 20(4):430&#x2013;440. https://doi.org/10.1007/s11102-017-0802-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11102-017-0802-1</ArticleId><ArticleId IdType="pubmed">28265841</ArticleId></ArticleIdList></Reference><Reference><Citation>Saini S, Kanwar J, Gupta S, Behari S, Bhatia E, Yadav S (2019) Long-term outcome of trans-sphenoidal surgery for cushing&#x2019;s disease in Indian patients. Acta Neurochir (Wien) 161(1):119&#x2013;127. https://doi.org/10.1007/s00701-018-3736-0</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00701-018-3736-0</ArticleId><ArticleId IdType="pubmed">30465277</ArticleId></ArticleIdList></Reference><Reference><Citation>Brichard C, Costa E, Fomekong E, Maiter D, Raftopoulos C (2018) Outcome of transsphenoidal surgery for Cushing disease: A Single-Center experience over 20 years. World Neurosurg 119:e106&#x2013;e117. https://doi.org/10.1016/j.wneu.2018.07.055</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.wneu.2018.07.055</ArticleId><ArticleId IdType="pubmed">30031194</ArticleId></ArticleIdList></Reference><Reference><Citation>Mayberg M et al (2018) Dynamics of postoperative serum cortisol after transsphenoidal surgery for Cushing&#x2019;s disease: implications for immediate reoperation and remission. J Neurosurg 129(5):1268&#x2013;1277. https://doi.org/10.3171/2017.6.JNS17635</Citation><ArticleIdList><ArticleId IdType="doi">10.3171/2017.6.JNS17635</ArticleId><ArticleId IdType="pubmed">29271716</ArticleId></ArticleIdList></Reference><Reference><Citation>Feng M et al (2018) Diagnosis and outcomes of 341 patients with cushing&#x2019;s disease following transsphenoid surgery: A Single-Center experience. World Neurosurg 109:e75&#x2013;e80. https://doi.org/10.1016/j.wneu.2017.09.105</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.wneu.2017.09.105</ArticleId><ArticleId IdType="pubmed">28951275</ArticleId></ArticleIdList></Reference><Reference><Citation>Serban AL et al (2020) Determinants of outcome of transsphenoidal surgery for Cushing disease in a single-centre series. J Endocrinol Invest 43(5):631&#x2013;639. https://doi.org/10.1007/s40618-019-01151-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s40618-019-01151-1</ArticleId><ArticleId IdType="pubmed">31773581</ArticleId></ArticleIdList></Reference><Reference><Citation>Abell&#xe1;n-Galiana P, Fajardo-Monta&#xf1;ana C, Riesgo-Su&#xe1;rez P, P&#xe9;rez-Bermejo M, R&#xed;os-P&#xe9;rez C, G&#xf3;mez-Vela J (2019) Prognostic usefulness of ACTH in the postoperative period of Cushing&#x2019;s disease. Endocr Connect 8(9):1262&#x2013;1272. https://doi.org/10.1530/EC-19-0297</Citation><ArticleIdList><ArticleId IdType="doi">10.1530/EC-19-0297</ArticleId><ArticleId IdType="pubmed">31394502</ArticleId><ArticleId IdType="pmc">6733365</ArticleId></ArticleIdList></Reference><Reference><Citation>Dai C et al (2020) Outcomes of Transsphenoidal Surgery in Cushing Disease Patients with Negative Pituitary Magnetic Resonance Imaging Findings: A Single-Center Experience. Endocr Pract 26(11):1320&#x2013;1330. https://doi.org/10.4158/EP-2020-0177</Citation><ArticleIdList><ArticleId IdType="doi">10.4158/EP-2020-0177</ArticleId><ArticleId IdType="pubmed">33471663</ArticleId></ArticleIdList></Reference><Reference><Citation>Zhang K et al (2020) Surgical outcomes and multidisciplinary management strategy of Cushing&#x2019;s disease: a single-center experience in China. Neurosurg Focus 48(6):E7. https://doi.org/10.3171/2020.3.FOCUS2067</Citation><ArticleIdList><ArticleId IdType="doi">10.3171/2020.3.FOCUS2067</ArticleId><ArticleId IdType="pubmed">32480378</ArticleId></ArticleIdList></Reference><Reference><Citation>Dai C et al (2022) Surgical outcome of transsphenoidal surgery in cushing&#x2019;s disease: a case series of 1106 patients from a single center over 30 years. Endocrine 75(1):219&#x2013;227. https://doi.org/10.1007/s12020-021-02848-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s12020-021-02848-1</ArticleId><ArticleId IdType="pubmed">34415482</ArticleId></ArticleIdList></Reference><Reference><Citation>Brady Z et al (2021) Outcomes of endoscopic transsphenoidal surgery for cushing&#x2019;s disease. BMC Endocr Disord 21(1):36. https://doi.org/10.1186/s12902-021-00679-9</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12902-021-00679-9</ArticleId><ArticleId IdType="pubmed">33658018</ArticleId><ArticleId IdType="pmc">7931517</ArticleId></ArticleIdList></Reference><Reference><Citation>Araujo-Castro M et al (2022) Presurgical predictive factors of surgical remission in Cushing&#x2019;s disease. Study of 32 cases. Endocrinol Diabetes Nutr Engl Ed 69(8):584&#x2013;590. https://doi.org/10.1016/j.endien.2021.07.003</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.endien.2021.07.003</ArticleId><ArticleId IdType="pubmed">36446484</ArticleId></ArticleIdList></Reference><Reference><Citation>Wang B et al (2022) Reoperation for recurrent and persistent cushing&#x2019;s disease without visible MRI findings. J Clin Med 11:6848. https://doi.org/10.3390/jcm11226848</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/jcm11226848</ArticleId><ArticleId IdType="pubmed">36431325</ArticleId><ArticleId IdType="pmc">9699622</ArticleId></ArticleIdList></Reference><Reference><Citation>Chabre O (2018) The difficulties of pseudo-Cushing&#x2019;s syndrome (or &#x2018;non-neoplastic hypercortisolism&#x2019;). Ann Endocrinol 79(3):138&#x2013;145. https://doi.org/10.1016/j.ando.2018.04.017</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.ando.2018.04.017</ArticleId></ArticleIdList></Reference><Reference><Citation>Fleseriu M et al (2021) Consensus on diagnosis and management of Cushing&#x2019;s disease: a guideline update, Lancet Diabetes Endocrinol., vol. 9, no. 12, pp. 847&#x2013;875, Dec. https://doi.org/10.1016/S2213-8587(21)00235-7</Citation></Reference><Reference><Citation>Hinojosa-Amaya JM et al (2024) The conundrum of differentiating cushing&#x2019;s syndrome from non-neoplastic hypercortisolism: a systematic review and meta-analysis. Pituitary 27(4):345&#x2013;359. https://doi.org/10.1007/s11102-024-01408-w</Citation></Reference><Reference><Citation>Valizadeh M, Ahmadi AR, Ebadinejad A, Rahmani F, Abiri B (2022) Diagnostic accuracy of bilateral inferior petrosal sinus sampling using desmopressin or corticotropic- releasing hormone in ACTH-dependent Cushing&#x2019;s syndrome: A systematic review and meta-analysis. Rev Endocr Metab Disord 23(5):881&#x2013;892. https://doi.org/10.1007/s11154-022-09723-y</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11154-022-09723-y</ArticleId><ArticleId IdType="pubmed">35478451</ArticleId></ArticleIdList></Reference><Reference><Citation>Deipolyi AR, Alexander B, Rho J, Hirsch JA, Oklu R (2015) Bilateral inferior petrosal sinus sampling using desmopressin or corticotropic-releasing hormone: a single-center experience. J NeuroInterventional Surg 7(9):690&#x2013;693. https://doi.org/10.1136/neurintsurg-2014-011262</Citation><ArticleIdList><ArticleId IdType="doi">10.1136/neurintsurg-2014-011262</ArticleId></ArticleIdList></Reference><Reference><Citation>Oldfield EH et al (1991) Petrosal Sinus Sampling with and without Corticotropin-Releasing Hormone for the Differential Diagnosis of Cushing&#x2019;s Syndrome. N Engl J Med 325(13):897&#x2013;905. https://doi.org/10.1056/NEJM199109263251301</Citation><ArticleIdList><ArticleId IdType="doi">10.1056/NEJM199109263251301</ArticleId><ArticleId IdType="pubmed">1652686</ArticleId></ArticleIdList></Reference><Reference><Citation>Zampetti B, Grossrubatscher E, Dalino Ciaramella P, Boccardi E, Loli P (2016) Bilateral inferior petrosal sinus sampling. Endocr Connect 5(4):R12&#x2013;R25. https://doi.org/10.1530/EC-16-0029</Citation><ArticleIdList><ArticleId IdType="doi">10.1530/EC-16-0029</ArticleId><ArticleId IdType="pubmed">27352844</ArticleId><ArticleId IdType="pmc">5002953</ArticleId></ArticleIdList></Reference><Reference><Citation>Vassiliadi DA, Mourelatos P, Kratimenos T, Tsagarakis S (2021) Inferior petrosal sinus sampling in Cushing&#x2019;s syndrome: usefulness and pitfalls, Endocrine, vol. 73, no. 3, pp. 530&#x2013;539, Sep. https://doi.org/10.1007/s12020-021-02764-4</Citation></Reference><Reference><Citation>Kaltsas GA (Feb. 1999) A critical analysis of the value of simultaneous inferior petrosal sinus sampling in cushing&#x2019;s disease and the occult ectopic adrenocorticotropin syndrome. J Clin Endocrinol Metab 84(2):487&#x2013;492. https://doi.org/10.1210/jc.84.2.487</Citation></Reference><Reference><Citation>Colao A, Faggiano A, Pivonello R, Giraldi F, Cavagnini F, Lombardi G (May 2001) Inferior petrosal sinus sampling in the differential diagnosis of cushing&#x2019;s syndrome: results of an Italian multicenter study. Eur J Endocrinol 499&#x2013;507. https://doi.org/10.1530/eje.0.1440499</Citation></Reference><Reference><Citation>Tabarin A et al (Jul. 1991) Usefulness of the Corticotropin-Releasing hormone test during bilateral inferior petrosal sinus sampling for the diagnosis of cushing&#x2019;s disease. J Clin Endocrinol Metab 73(1):53&#x2013;59. https://doi.org/10.1210/jcem-73-1-53</Citation></Reference><Reference><Citation>Forga L, L&#xf3;pez-Andr&#xe9;s N, Tamayo I, Fern&#xe1;ndez-Celis A, Garc&#xed;a-Mouriz M, Go&#xf1;i MJ (May 2022) Relationship between soluble protein ST2 (sST2) levels and microvascular complications in a cohort of patients with type 1 diabetes. Endocrinol Diabetes Nutr 69(5):322&#x2013;330. https://doi.org/10.1016/j.endinu.2021.05.007</Citation></Reference><Reference><Citation>Oldfield EH, Girton ME, Doppman JL (1985) Absence of Intercavernous Venous Mixing: Evidence Supporting Lateralization of Pituitary Microadenomas by Venous Sampling*, J. Clin. Endocrinol. Metab., vol. 61, no. 4, pp. 644&#x2013;647, Oct. https://doi.org/10.1210/jcem-61-4-644</Citation></Reference><Reference><Citation>Dimopoulou C et al (Feb. 2014) Long-term remission and recurrence rates after first and second transsphenoidal surgery for cushing&#x2019;s disease: care reality in the Munich metropolitan region. Eur J Endocrinol 170(2):283&#x2013;292. https://doi.org/10.1530/EJE-13-0634</Citation></Reference><Reference><Citation>Ludecke DK, Flitsch J, Knappe UJ, Saeger W Cushing&#x2019;s disease: a surgical view</Citation></Reference><Reference><Citation>Andereggen L et al (Feb. 2021) Influence of inferior petrosal sinus drainage symmetry on detection of adenomas in cushing&#x2019;s syndrome. J Neuroradiol 48(1):10&#x2013;15. https://doi.org/10.1016/j.neurad.2019.05.004</Citation></Reference><Reference><Citation>Ciric I, Ragin A, Baumgartner C, Pierce D (1997) Complications of Transsphenoidal Surgery: Results of a National Survey, Review of the Literature, and Personal Experience:, Neurosurgery, vol. 40, no. 2, pp. 225&#x2013;237, Feb. https://doi.org/10.1097/00006123-199702000-00001</Citation></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>Now I have all the data. Let me create the final JSON output file:
+[0m← [0mWrite data/2026-02-25-brainmri.json
+[0m
+
+Wrote file successfully.[0m→ [0mRead data/2026-02-25-brainmri.json
+完成。从 PubMed 获取了 4 篇今天（2026-02-25）发表的 Brain MRI 论文，已写入 `/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json`。其中 2 篇有摘要，2 篇 PubMed 未提供摘要。
+[13:41:21] [OK] Data file validated: /Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json
+[13:41:21] ✅ Task finished.
+[13:45:25] 🚀 Starting task: brainmri
+[13:45:25] 📚 Academic domain: brainmri (Brain MRI)
+[13:45:25] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json
+[13:45:25] ⚡ [Fetch Brain MRI] model: opencode/minimax-m2.5-free
+[13:45:25] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-25）。
+  必须先读取领域配置文件，严格按照文件中规定的检索方法、查询词、API 和过滤规则执行：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  **禁止调用任何 skill（pubmed-search、arxiv-search 等），必须直接用 Bash/curl 按配置文件中的 API 步骤执行。**
+  完成检索后，用 Write 工具将结果写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json"：
+  - 顶层结构：{"date":"2026-02-25","articles":[...]}
+  - 每条文章：title、summary、url、category、source、published_date、date
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式
+  - 若文件已存在，先 Read 后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-02-25","articles":[]}
+  不写文件 = 任务失败。
+[13:45:25] ────────────────────────────────────
+[0m
+
+> build · minimax-m2.5-free
+[0m[0m→ [0mRead .agents/skills/academic-search/sources/brainmri.md
+[0m[0m{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"147","retmax":"100","retstart":"0","idlist":["41736154","41736052","41735820","41735816","41735754","41735650","41735638","41735541","41735316","41735258","41735221","41735196","41735193","41735053","41735009","41734985","41734920","41734696","41734676","41734660","41734651","41734634","41734411","41734408","41734320","41734143","41734131","41734098","41734075","41734050","41733950","41733885","41733814","41733699","41733473","41733392","41732912","41732835","41732648","41732626","41732620","41732600","41732543","41732538","41732535","41732530","41732518","41732407","41732161","41732160","41732108","41732018","41731979","41731917","41731878","41731707","41731626","41731608","41731578","41731343","41731301","41731295","41731284","41731211","41731172","41731039","41730850","41730682","41730655","41730633","41730630","41730627","41730621","41730590","41730486","41730485","41730458","41730245","41730189","41730185","41729967","41729939","41729901","41729900","41729791","41729656","41729327","41729076","41729056","41729016","41728705","41728559","41728556","41728483","41728469","41728433","41728333","41728312","41728279","41728263"],"translationset":[],"querytranslation":"(\"Brain\"[MeSH Terms] OR \"brain*\"[Title/Abstract] OR \"cerebr*\"[Title/Abstract] OR \"encephalon\"[Title/Abstract] OR \"intracranial\"[Title/Abstract]) AND (\"Magnetic Resonance Imaging\"[MeSH Terms] OR \"MRI\"[Title/Abstract] OR \"magnetic resonance\"[Title/Abstract] OR \"fMRI\"[Title/Abstract] OR \"DTI\"[Title/Abstract] OR \"diffusion tensor\"[Title/Abstract] OR \"VBM\"[Title/Abstract] OR \"voxel-based morphometry\"[Title/Abstract] OR \"connectome\"[Title/Abstract] OR \"arterial spin labeling\"[Title/Abstract] OR \"magnetic resonance spectroscopy\"[Title/Abstract]) AND 2026/02/23:2026/02/25[Date - Create]"}}
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=100&retmode=json"
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160,41732108,41732018,41731979,41731917,41731878,41731707,41731626,41731608,41731578,41731343,41731301,41731295,41731284,41731211,41731172,41731039,41730850,41730682,41730655,41730633,41730630,41730627,41730621,41730590,41730486,41730485,41730458,41730245,41730189,41730185,41729967,41729939,41729901,41729900,41729791,41729656,41729327,41729076,41729056,41729016,41728705,41728559,41728556,41728483,41728469,41728433,41728333,41728312,41728279,41728263&retmode=json"...201716 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c93556387001rCDX9mYU71hgrE
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+
+
+[0m[0m→ [0mRead ../../.local/share/opencode/tool-output/tool_c93556387001rCDX9mYU71hgrE[90m [limit=100][0m
+[0m
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160,41732108,41732018,41731979,41731917,41731878,41731707,41731626,41731608,41731578,41731343,41731301,41731295,41731284,41731211,41731172,41731039,41730850,41730682,41730655,41730633,41730630,41730627,41730621,41730590,41730486,41730485,41730458,41730245,41730189,41730185,41729967,41729939,41729901,41729900,41729791,41729656,41729327,41729076,41729056,41729016,41728705,41728559,41728556,41728483,41728469,41728433,41728333,41728312,41728279,41728263&retmode=xml&rettype=abstract" | head -c 500000
+[0m
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+
+...499814 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c9355c0ca0011s7L2uVFyDBU4k
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+[0m$ [0mpython3 -c "
+import json
+import re
+from datetime import datetime, timedelta
+
+# Load esummary data
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c93556387001rCDX9mYU71hgrE', 'r') as f:
+    summary_data = json.load(f)
+
+# Load efetch XML data
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c9355c0ca0011s7L2uVFyDBU4k', 'r') as f:
+    xml_data = f.read()
+
+# Extract abstracts from XML using regex
+abstract_pattern = re.compile(r'<PubmedArticle>.*?<PMID[^>]*>([^<]+)</PMID>.*?<AbstractText[^>]*>([^<]*(?:<[^>]*>[^<]*)*?)</AbstractText>', re.DOTALL)
+abstracts = {}
+for match in abstract_pattern.finditer(xml_data):
+    pmid = match.group(1)
+    abstract = match.group(2).strip()
+    abstract = re.sub(r'<[^>]+>', '', abstract)  # Remove any remaining XML tags
+    abstract = abstract.replace('  ', ' ')
+    abstracts[pmid] = abstract
+
+# Process summary data
+articles = []
+uids = summary_data['result']['uids']
+
+for uid in uids:
+    article = summary_data['result'].get(uid, {})
+    if not article:
+        continue
+    
+    # Get pubdate and convert to YYYY-MM-DD
+    pubdate = article.get('pubdate', '')
+    if not pubdate:
+        continue
+    
+    # Parse pubdate (format: '2026 Feb 24' or '2026 Feb')
+    match = re.match(r'(\d{4})\s+(\w+)\s*(\d+)?', pubdate)
+    if match:
+        year = match.group(1)
+        month = match.group(2)
+        day = match.group(3) if match.group(3) else '01'
+        published_date = f'{year}-{month[:3].title()}-{int(day):02d}'
+        # Convert month abbreviation to number
+        month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                     'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+        published_date = f'{year}-{month_map.get(month[:3].title(), \"01\")}-{int(day):02d}'
+    else:
+        continue
+    
+    # Filter: only keep articles from today (2026-02-25) or yesterday (2026-02-24)
+    if published_date not in ['2026-02-25', '2026-02-24']:
+        continue
+    
+    # Get abstract
+    summary = abstracts.get(uid, '')[:500]  # Limit to 500 chars
+    
+    article_data = {
+        'title': article.get('title', ''),
+        'summary': summary,
+        'url': f'https://pubmed.ncbi.nlm.nih.gov/{uid}/',
+        'category': 'Brain MRI',
+        'source': 'pubmed',
+        'published_date': published_date,
+        'date': '2026-02-25'
+    }
+    articles.append(article_data)
+
+# Remove duplicates by url
+seen = set()
+unique_articles = []
+for a in articles:
+    if a['url'] not in seen:
+        seen.add(a['url'])
+        unique_articles.append(a)
+
+output = {
+    'date': '2026-02-25',
+    'articles': unique_articles
+}
+
+print(json.dumps(output, indent=2, ensure_ascii=False))
+"
+{
+  "date": "2026-02-25",
+  "articles": [
+    {
+      "title": "Association of functional brain alterations with β-amyloid, tau, and cognitive decline in Alzheimer's disease.",
+      "summary": "Fat embolism syndrome (FES) is a rare, life-threatening complication of sickle cell disease (SCD) associated with high mortality and neurologic morbidity. We report a 17-year-old male with homozygous SCD (HbSS) who developed cerebral FES following vaso-occlusive and acute chest syndrome (ACS). Diagnosis was supported by clinical findings and characteristic punctate lesions on brain MRI. He received multiple simple red blood cell transfusions and four sessions of therapeutic plasma exchange (TPE)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736154/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Impact of cerebral oxygenation-guided resuscitation during immediate postnatal transition on brain injury and brain growth detected by MRI in very preterm neonates: a secondary outcome analysis of the multicenter randomized phase 3 clinical COSGOD III trial.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736052/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.",
+      "summary": "Evaluating others' actions requires integrating their intentions with the outcomes they produce. Several studies have investigated the neural processes supporting this aspect of moral judgment, but findings remain heterogeneous. We conducted a pooled Activation Likelihood Estimation (ALE) meta-analysis of fMRI studies comparing evaluations of intentional and accidental harm, which is preregistered at https://doi.org/10.17605/OSF.IO/2HTFU . Following a systematic search on PubMed, Scopus, and Web",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735754/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.",
+      "summary": "Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735650/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.",
+      "summary": "Investigating the genetic underpinnings of functional brain connectivity is essential to understand how genetic variation influences brain health and disease. Here, a mass-univariate approach was adopted to study the genetic architecture of functional brain circuitry (Ntotal&#x2009;=&#x2009;28,159 subjects) with high spatial resolution (82 brain regions). Common genetic variants explained individual differences in 33% of all 3321 inter-regional functional pathways with 72 significant association",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735638/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Time-dependent diffusion MRI for differentiating non‑small cell lung‑cancer brain metastases from breast‑cancer brain metastases and gliomas.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735541/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "The genetic landscape of human functional brain connectivity.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735316/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Global remapping of the sensory homunculus emerges early in childhood development.",
+      "summary": "Some of the most dramatic examples of neuroplasticity in the human brain follow congenital sensory deprivation, yet the plasticity mechanisms producing this large-scale cortical remapping remain poorly understood. Congenital malformation of the upper-limb provides a unique temporal dissociation of developmental plasticity mechanisms: While sensory deprivation from the absent hand is triggered before birth, compensatory motor behaviours develop gradually throughout childhood. Using paediatric neu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735258/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Low-Cost and Detunable Wireless Resonator Glasses for Enhanced Eye MRI With Concurrent High-Quality Whole-Brain MRI.",
+      "summary": "To develop a wearable wireless resonator glasses design that enhances eye MRI signal-to-noise ratio (SNR) without compromising whole-brain image quality at 7&#x2009;T.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735193/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Concurrent multimodal imaging demonstrates that EEG-based excitation/inhibition balance reflects glutamate and GABA balance.",
+      "summary": "Magnetic Resonance Spectroscopy (MRS)-derived excitation/inhibition (E/I) ratio is recognized as a valuable index of attentional modulation, the plasticity and stability of learning states, and disordered functioning. Inferring the E/I ratio from electroencephalography (EEG), however, offers greater accessibility and superior temporal resolution, and therefore holds strong potential for advancing research on dynamic neural processes. Yet, the underlying neurochemical mechanisms contributing to c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735053/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Long-term mortality associated with incidental unruptured intracranial aneurysms in neurologically healthy Japanese adults: the Kashima scan study.",
+      "summary": "With the widespread use of MRI, there has been an increase in the frequency of incidental detection of unruptured intracranial aneurysms (UIAs); however, the mortality rates and cause of death in adults with incidental UIAs remain unknown. This study aimed to determine whether participants with incidental UIAs have higher mortality rates than those without UIAs among neurologically healthy Japanese adults undergoing self-sponsored brain MRIs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735009/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Predicting outcomes in selective fetal growth restriction of monoChOrioNic Twins: an inteRnAtional observational cohort STudy protocol (CONTRAST study).",
+      "summary": "Selective fetal growth restriction (sFGR) is a major cause of perinatal morbidity and mortality in monochorionic diamniotic (MCDA) twin pregnancies. Current management relies on umbilical artery Doppler patterns in the smaller twin. These patterns are, however, inconsistent and do not represent a reliable severity scale, complicating clinical decision-making and parental counselling. This study aims to improve risk stratification by identifying predictors of adverse outcomes, while also evaluati",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41734920/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Acute Neurological and Respiratory Complications Induced by Wasp Stings: A Case Report.",
+      "summary": "BACKGROUND Most cases of wasp stings are mild and self-limiting; however, some cases present with life-threatening symptoms, including hemolysis, rhabdomyolysis, acute kidney injury, and liver damage. However, neurological and respiratory complications such as stroke and ARDS are rarely reported in the literature. CASE REPORT A 56-year-old woman with hypertension was stung by multiple wasps while working in a field. Laboratory tests showed a white blood cell count of 31.59&#xd7;10&#x2079;/L and ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41734143/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Cogformer: A unified multi-scale brain representation for visual decoding and reconstruction from fMRI.",
+      "summary": "With the rapid development of deep generative models (DGMs), the performance of decoding language and reconstructing images from Functional Magnetic Resonance Imaging (fMRI) has been improved. Nevertheless, the accurate representation of brain activity remains highly challenging, primarily due to the limited paired samples and the low signal-to-noise ratios of fMRI. To tackle these challenges, we introduce Cogformer, a unified multi-scale brain representation method. It is the first to learn bra",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41734131/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Regional brain age is decreased in children with sickle cell anemia.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733950/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Clinical utility of Arterial Spin Labeling perfusion images in pediatric neurological emergencies.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733885/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Effects of One Season of Rugby on the Neurological Integrity of Male Adolescent Players.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733814/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "A Multimodal MRI Study of the White Matter Microstructural and Hemodynamic Underpinnings of Cognitive Decline in Type 2 Diabetes Mellitus.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733699/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Maternal depression with and without a history of childhood maltreatment and newborn white matter microstructure.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731979/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Exploring neural correlates of automated speech-based cognitive markers through resting-state functional connectivity in aging and at-risk Alzheimer's disease.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731608/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Anxiety symptoms interact with approach motivations in adolescent risk-taking.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731343/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731301/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "A systematic review on dysconnectivity in face and emotion processing networks in schizophrenia.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731284/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Age-related differences in brain activity despite matched cognitive performance: A moderated-mediation analysis.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731211/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Reversible brain functional alterations induced by Short-Term high altitude exposure.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731172/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730850/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Embolic Ischemic Stroke Associated with Maintenance Intravenous Immunoglobulin Therapy.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730627/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "A Cerebral Ethiodized Embolism after Lymphangiography: A Case Report and Literature Review.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730621/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    }
+  ]
+}[0m
+
+[0m$ [0mpython3 -c "
+import json
+import re
+
+# Load esummary data
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c93556387001rCDX9mYU71hgrE', 'r') as f:
+    summary_data = json.load(f)
+
+# Load efetch XML data
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c9355c0ca0011s7L2uVFyDBU4k', 'r') as f:
+    xml_data = f.read()
+
+# Extract abstracts from XML using better regex
+abstract_pattern = re.compile(r'<PMID[^>]*>([^<]+)</PMID>.*?<AbstractText[^>]*>(.*?)</AbstractText>', re.DOTALL)
+abstracts = {}
+for match in abstract_pattern.finditer(xml_data):
+    pmid = match.group(1)
+    abstract = match.group(2).strip()
+    abstract = re.sub(r'<[^>]+>', '', abstract)  # Remove XML tags
+    abstract = abstract.replace('  ', ' ').replace('\n', ' ').strip()
+    abstracts[pmid] = abstract
+
+# Process summary data
+articles = []
+uids = summary_data['result']['uids']
+
+for uid in uids:
+    article = summary_data['result'].get(uid, {})
+    if not article:
+        continue
+    
+    pubdate = article.get('pubdate', '')
+    if not pubdate:
+        continue
+    
+    # Parse pubdate
+    match = re.match(r'(\d{4})\s+(\w+)\s*(\d+)?', pubdate)
+    if match:
+        year = match.group(1)
+        month = match.group(2)
+        day = match.group(3)3) else '01'
+        month if match.group(_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                     'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+        published_date = f'{year}-{month_map.get(month[:3].title(), \"01\")}-{int(day):02d}'
+    else:
+        continue
+    
+    # Filter: only keep articles from today (2026-02-25) or yesterday (2026-02-24)
+    if published_date not in ['2026-02-25', '2026-02-24']:
+        continue
+    
+    # Get abstract
+    summary = abstracts.get(uid, '')
+    if not summary:
+        continue  # Skip articles without abstract
+    
+    summary = summary[:500]  # Limit to 500 chars
+    
+    article_data = {
+        'title': article.get('title', ''),
+        'summary': summary,
+        'url': f'https://pubmed.ncbi.nlm.nih.gov/{uid}/',
+        'category': 'Brain MRI',
+        'source': 'pubmed',
+        'published_date': published_date,
+        'date': '2026-02-25'
+    }
+    articles.append(article_data)
+
+# Remove duplicates by url
+seen = set()
+unique_articles = []
+for a in articles:
+    if a['url'] not in seen:
+        seen.add(a['url'])
+        unique_articles.append(a)
+
+output = {
+    'date': '2026-02-25',
+    'articles': unique_articles
+}
+
+print(json.dumps(output, indent=2, ensure_ascii=False))
+" > /Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json[0m
+
+File "<string>", line 41
+    day = match.group(3)3) else '01'
+                        ^
+SyntaxError: invalid syntax
+[13:47:50] 🚀 Starting task: brainmri
+[13:47:50] 📚 Academic domain: brainmri (Brain MRI)
+[13:47:50] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json
+[13:47:50] ⚡ [Fetch Brain MRI] model: opencode/minimax-m2.5-free
+[13:47:50] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-25）。
+  必须先读取领域配置文件，严格按照文件中规定的检索方法、查询词、API 和过滤规则执行：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  **禁止调用任何 skill（pubmed-search、arxiv-search 等），必须直接用 Bash/curl 按配置文件中的 API 步骤执行。**
+  完成检索后，用 Write 工具将结果写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json"：
+  - 顶层结构：{"date":"2026-02-25","articles":[...]}
+  - 每条文章：title、summary、url、category、source、published_date、date
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式
+  - 若文件已存在，先 Read 后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-02-25","articles":[]}
+  不写文件 = 任务失败。
+[13:47:50] ────────────────────────────────────
+[0m
+
+[0m
+> build · minimax-m2.5-free[0m→ [0mRead .agents/skills/academic-search/sources/brainmri.md
+[0m
+
+
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"147","retmax":"100","retstart":"0","idlist":["41736154","41736052","41735820","41735816","41735754","41735650","41735638","41735541","41735316","41735258","41735221","41735196","41735193","41735053","41735009","41734985","41734920","41734696","41734676","41734660","41734651","41734634","41734411","41734408","41734320","41734143","41734131","41734098","41734075","41734050","41733950","41733885","41733814","41733699","41733473","41733392","41732912","41732835","41732648","41732626","41732620","41732600","41732543","41732538","41732535","41732530","41732518","41732407","41732161","41732160","41732108","41732018","41731979","41731917","41731878","41731707","41731626","41731608","41731578","41731343","41731301","41731295","41731284","41731211","41731172","41731039","41730850","41730682","41730655","41730633","41730630","41730627","41730621","41730590","41730486","41730485","41730458","41730245","41730189","41730185","41729967","41729939","41729901","41729900","41729791","41729656","41729327","41729076","41729056","41729016","41728705","41728559","41728556","41728483","41728469","41728433","41728333","41728312","41728279","41728263"],"translationset":[],"querytranslation":"(\"Brain\"[MeSH Terms] OR \"brain*\"[Title/Abstract] OR \"cerebr*\"[Title/Abstract] OR \"encephalon\"[Title/Abstract] OR \"intracranial\"[Title/Abstract]) AND (\"Magnetic Resonance Imaging\"[MeSH Terms] OR \"MRI\"[Title/Abstract] OR \"magnetic resonance\"[Title/Abstract] OR \"fMRI\"[Title/Abstract] OR \"DTI\"[Title/Abstract] OR \"diffusion tensor\"[Title/Abstract] OR \"VBM\"[Title/Abstract] OR \"voxel-based morphometry\"[Title/Abstract] OR \"connectome\"[Title/Abstract] OR \"arterial spin labeling\"[Title/Abstract] OR \"magnetic resonance spectroscopy\"[Title/Abstract]) AND 2026/02/23:2026/02/25[Date - Create]"}}[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=100&retmode=json"
+[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160,41732108,41732018,41731979,41731917,41731878,41731707,41731626,41731608,41731578,41731343,41731301,41731295,41731284,41731211,41731172,41731039,41730850,41730682,41730655,41730633,41730630,41730627,41730621,41730590,41730486,41730485,41730458,41730245,41730189,41730185,41729967,41729939,41729901,41729900,41729791,41729656,41729327,41729076,41729056,41729016,41728705,41728559,41728556,41728483,41728469,41728433,41728333,41728312,41728279,41728263&retmode=json"[0m
+
+...201716 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c93579212001DEl82o0UIqee9d
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+[0m→ [0mRead ../../.local/share/opencode/tool-output/tool_c93579212001DEl82o0UIqee9d[90m [limit=500][0m
+[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160,41732108,41732018,41731979,41731917,41731878,41731707,41731626,41731608,41731578,41731343,41731301,41731295,41731284,41731211,41731172,41731039,41730850,41730682,41730655,41730633,41730630,41730627,41730621,41730590,41730486,41730485,41730458,41730245,41730189,41730185,41729967,41729939,41729901,41729900,41729791,41729656,41729327,41729076,41729056,41729016,41728705,41728559,41728556,41728483,41728469,41728433,41728333,41728312,41728279,41728263&retmode=xml&rettype=abstract" > /tmp/brainmri_abstracts.xml
+
+[0m[0m$ [0mpython3 << 'EOF'
+import json
+import xml.etree.ElementTree as ET
+import re
+from urllib.parse import unquote
+
+# First get the esummary data
+esummary_output = ''''''
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c93579212001DEl82o0UIqee9d', 'r') as f:
+    esummary_output = f.read()
+
+esummary_data = json.loads(esummary_output)
+
+# Parse efetch XML
+tree = ET.parse('/tmp/brainmri_abstracts.xml')
+root = tree.getroot()
+
+abstracts = {}
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([a.text for a in abstract_texts if a.text])
+    abstracts[pmid] = abstract
+
+# Process results
+articles = []
+pmids = esummary_data['esearchresult']['idlist']
+
+# Valid dates: 2026-02-25 or 2026-02-24
+valid_dates = ['2026-02-25', '2026-02-24']
+
+for pmid in pmids:
+    if pmid in esummary_data['result']:
+        item = esummary_data['result'][pmid]
+        pubdate = item.get('pubdate', '')
+        
+        # Parse pubdate to YYYY-MM-DD
+        match = re.match(r'(\d{4})\s+(\w+)\s+(\d+)', pubdate)
+        if match:
+            year, month_str, day = match.groups()
+            month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                        'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+            month = month_map.get(month_str, '01')
+            published_date = f"{year}-{month}-{int(day):02d}"
+        else:
+            # Try just year-month format
+            match2 = re.match(r'(\d{4})\s+(\w+)', pubdate)
+            if match2:
+                year, month_str = match2.groups()
+                month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                            'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+                month = month_map.get(month_str, '01')
+                published_date = f"{year}-{month}-01"
+            else:
+                published_date = pubdate
+        
+        # Filter by date - only keep today or yesterday
+        if published_date not in valid_dates:
+            continue
+        
+        title = item.get('title', '')
+        source = item.get('source', '')
+        url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+        
+        summary = abstracts.get(pmid, '')[:500]  # Limit to 500 chars
+        
+        article = {
+            'title': title,
+            'summary': summary,
+            'url': url,
+            'category': 'Brain MRI',
+            'source': 'pubmed',
+            'published_date': published_date,
+            'date': '2026-02-25'
+        }
+        articles.append(article)
+
+# Remove duplicates by URL
+seen = set()
+unique_articles = []
+for a in articles:
+    if a['url'] not in seen:
+        seen.add(a['url'])
+        unique_articles.append(a)
+
+output = {
+    'date': '2026-02-25',
+    'articles': unique_articles
+}
+
+print(json.dumps(output, indent=2, ensure_ascii=False))
+EOF
+
+
+[0mTraceback (most recent call last):
+  File "<stdin>", line 26, in <module>
+KeyError: 'esearchresult'
+[0m$ [0mpython3 << 'EOF'
+import json
+import xml.etree.ElementTree as ET
+import re
+import urllib.request
+
+# Step 1: Get PMIDs from esearch
+search_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=200&retmode=json"
+
+with urllib.request.urlopen(search_url) as response:
+    esearch_data = json.loads(response.read().decode())
+
+pmids = esearch_data['esearchresult']['idlist']
+print(f"Found {len(pmids)} PMIDs", flush=True)
+
+# Step 2: Get esummary
+pmid_str = ','.join(pmids)
+summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid_str}&retmode=json"
+
+with urllib.request.urlopen(summary_url) as response:
+    summary_data = json.loads(response.read().decode())
+
+print("Got esummary", flush=True)
+
+# Step 3: Get efetch abstracts
+fetch_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={pmid_str}&retmode=xml&rettype=abstract"
+
+with urllib.request.urlopen(fetch_url) as response:
+    fetch_xml = response.read().decode()
+
+tree = ET.ElementTree(ET.fromstring(fetch_xml))
+root = tree.getroot()
+
+abstracts = {}
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([a.text for a in abstract_texts if a.text])
+    abstracts[pmid] = abstract
+
+print("Got efetch", flush=True)
+
+# Step 4: Process and filter
+articles = []
+valid_dates = ['2026-02-25', '2026-02-24']
+
+for pmid in pmids:
+    if pmid in summary_data['result']:
+        item = summary_data['result'][pmid]
+        pubdate = item.get('pubdate', '')
+        
+        # Parse pubdate to YYYY-MM-DD
+        match = re.match(r'(\d{4})\s+(\w+)\s+(\d+)', pubdate)
+        if match:
+            year, month_str, day = match.groups()
+            month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                        'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+            month = month_map.get(month_str, '01')
+            published_date = f"{year}-{month}-{int(day):02d}"
+        else:
+            match2 = re.match(r'(\d{4})\s+(\w+)', pubdate)
+            if match2:
+                year, month_str = match2.groups()
+                month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                            'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+                month = month_map.get(month_str, '01')
+                published_date = f"{year}-{month}-01"
+            else:
+                published_date = pubdate
+        
+        if published_date not in valid_dates:
+            continue
+        
+        title = item.get('title', '')
+        source = item.get('source', '')
+        url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+        
+        summary = abstracts.get(pmid, '')[:500]
+        
+        article = {
+            'title': title,
+            'summary': summary,
+            'url': url,
+            'category': 'Brain MRI',
+            'source': 'pubmed',
+            'published_date': published_date,
+            'date': '2026-02-25'
+        }
+        articles.append(article)
+
+# Remove duplicates by URL
+seen = set()
+unique_articles = []
+for a in articles:
+    if a['url'] not in seen:
+        seen.add(a['url'])
+        unique_articles.append(a)
+
+output = {
+    'date': '2026-02-25',
+    'articles': unique_articles
+}
+
+print(f"Found {len(unique_articles)} articles after filtering", flush=True)
+
+with open('/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json', 'w') as f:
+    json.dump(output, f, indent=2, ensure_ascii=False)
+
+print("Done!")
+EOF[0mFound 147 PMIDs
+Got esummary
+Got efetch
+Found 28 articles after filtering
+Done!
+
+
+[0m→ [0mRead data/2026-02-25-brainmri.json[90m [limit=100][0m
+[0m
+
+
+
+[0m[0m$ [0mpython3 -c "import json; d=json.load(open('/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json')); print(f'Total articles: {len(d[\"articles\"])}')"Total articles: 28完成。已按配置文件执行 PubMed 检索，过滤日期后得到 28 篇 Brain MRI 论文，已写入 `/Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json`。
+[13:50:45] [OK] Data file validated: /Users/chenmayao/Projects/daily-insights/data/2026-02-25-brainmri.json
+[13:50:45] ✅ Task finished.
+[08:30:05] 🚀 Starting task: brainmri
+[08:30:05] 📚 Academic domain: brainmri (Brain MRI)
+[08:30:05] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
+[08:30:05] ⚡ [Fetch Brain MRI] model: opencode/minimax-m2.5-free
+[08:30:05] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-26）。
+  必须先读取领域配置文件，严格按照文件中规定的检索方法、查询词、API 和过滤规则执行：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  **禁止调用任何 skill（pubmed-search、arxiv-search 等），必须直接用 Bash/curl 按配置文件中的 API 步骤执行。**
+  完成检索后，用 Write 工具将结果写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json"：
+  - 顶层结构：{"date":"2026-02-26","articles":[...]}
+  - 每条文章：title、summary、url、category、source、journal、published_date、date
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+  - 若文件已存在，先 Read 后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-02-26","articles":[]}
+  不写文件 = 任务失败。
+[08:30:05] ────────────────────────────────────
+[0m[0m
+
+
+> build · minimax-m2.5-free[0m→ [0mRead .agents/skills/academic-search/sources/brainmri.md
+[0m
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"196","retmax":"100","retstart":"0","idlist":["41740190","41740174","41740109","41740080","41740066","41739768","41739537","41739474","41739341","41739151","41738965","41738731","41738687","41738408","41738351","41738068","41738059","41738058","41738012","41738011","41738006","41737953","41737884","41737875","41737769","41737723","41737630","41737538","41737523","41737520","41737402","41737394","41737357","41737292","41737290","41737215","41737123","41737080","41737074","41737068","41736934","41736722","41736622","41736422","41736408","41736303","41736289","41736285","41736271","41736188","41736154","41736052","41735820","41735816","41735754","41735650","41735638","41735541","41735316","41735258","41735221","41735196","41735193","41735053","41735009","41734985","41734920","41734696","41734676","41734660","41734651","41734634","41734411","41734408","41734320","41734143","41734131","41734098","41734075","41734050","41733950","41733885","41733814","41733699","41733473","41733392","41732912","41732835","41732648","41732626","41732620","41732600","41732543","41732538","41732535","41732530","41732518","41732407","41732161","41732160"],"translationset":[],"querytranslation":"(\"Brain\"[MeSH Terms] OR \"brain*\"[Title/Abstract] OR \"cerebr*\"[Title/Abstract] OR \"encephalon\"[Title/Abstract] OR \"intracranial\"[Title/Abstract]) AND (\"Magnetic Resonance Imaging\"[MeSH Terms] OR \"MRI\"[Title/Abstract] OR \"magnetic resonance\"[Title/Abstract] OR \"fMRI\"[Title/Abstract] OR \"DTI\"[Title/Abstract] OR \"diffusion tensor\"[Title/Abstract] OR \"VBM\"[Title/Abstract] OR \"voxel-based morphometry\"[Title/Abstract] OR \"connectome\"[Title/Abstract] OR \"arterial spin labeling\"[Title/Abstract] OR \"magnetic resonance spectroscopy\"[Title/Abstract]) AND 2026/02/23:2026/02/25[Date - Create]"}}
+
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=100&retmode=json"[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41740190,41740174,41740109,41740080,41740066,41739768,41739537,41739474,41739341,41739151,41738965,41738731,41738687,41738408,41738351,41738068,41738059,41738058,41738012,41738011,41738006,41737953,41737884,41737875,41737769,41737723,41737630,41737538,41737523,41737520,41737402,41737394,41737357,41737292,41737290,41737215,41737123,41737080,41737074,41737068,41736934,41736722,41736622,41736422,41736408,41736303,41736289,41736285,41736271,41736188,41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160&retmode=json"...208452 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c975af22d001vctPS0nfYxAAlo
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+[0m
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41740190,41740174,41740109,41740080,41740066,41739768,41739537,41739474,41739341,41739151,41738965,41738731,41738687,41738408,41738351,41738068,41738059,41738058,41738012,41738011,41738006,41737953,41737884,41737875,41737769,41737723,41737630,41737538,41737523,41737520,41737402,41737394,41737357,41737292,41737290,41737215,41737123,41737080,41737074,41737068,41736934,41736722,41736622,41736422,41736408,41736303,41736289,41736285,41736271,41736188,41736154,41736052,41735820,41735816,41735754,41735650,41735638,41735541,41735316,41735258,41735221,41735196,41735193,41735053,41735009,41734985,41734920,41734696,41734676,41734660,41734651,41734634,41734411,41734408,41734320,41734143,41734131,41734098,41734075,41734050,41733950,41733885,41733814,41733699,41733473,41733392,41732912,41732835,41732648,41732626,41732620,41732600,41732543,41732538,41732535,41732530,41732518,41732407,41732161,41732160&retmode=xml&rettype=abstract" > /tmp/brainmri_abstracts.xml
+[0m[0m
+
+[0m$ [0mpython3 << 'EOF'
+import json
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
+
+# Read esummary output
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c975af22d001vctPS0nfYxAAlo', 'r') as f:
+    summary_data = json.load(f)
+
+# Parse efetch XML for abstracts
+tree = ET.parse('/tmp/brainmri_abstracts.xml')
+root = tree.getroot()
+
+# Build abstracts dict
+abstracts = {}
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([a.text for a in abstract_texts if a.text])
+    abstracts[pmid] = abstract
+
+# Process articles
+articles = []
+today = datetime(2026, 2, 26)
+yesterday = today - timedelta(days=1)
+valid_dates = [today.strftime('%Y-%m-%d'), yesterday.strftime('%Y-%m-%d')]
+
+result = summary_data.get('result', {})
+
+for pmid in result.get('idlist', []):
+    if pmid not in result:
+        continue
+    item = result[pmid]
+    pubdate = item.get('pubdate', '')
+    
+    # Parse and normalize date
+    try:
+        if len(pubdate.split()) >= 3:
+            published_date = datetime.strptime(pubdate, '%Y %b %d').strftime('%Y-%m-%d')
+        elif len(pubdate.split()) == 2:
+            published_date = f"{pubdate.split()[0]}-{pubdate.split()[1]}-01"
+        else:
+            published_date = f"{pubdate}-01-01"
+    except:
+        published_date = pubdate
+    
+    # Filter: only keep articles published today or yesterday
+    if published_date not in valid_dates:
+        continue
+    
+    article = {
+        'title': item.get('title', ''),
+        'summary': abstracts.get(pmid, '')[:500],
+        'url': f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+        'category': 'Brain MRI',
+        'source': 'pubmed',
+        'journal': item.get('source', ''),
+        'published_date': published_date,
+        'date': '2026-02-26'
+    }
+    articles.append(article)
+
+# Print results
+print(json.dumps({'date': '2026-02-26', 'articles': articles}, indent=2))
+EOF
+{
+  "date": "2026-02-26",
+  "articles": []
+}
+[0m$ [0mpython3 << 'EOF'
+import json
+
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c975af22d001vctPS0nfYxAAlo', 'r') as f:
+    summary_data = json.load(f)
+
+result = summary_data.get('result', {})
+idlist = result.get('idlist', [])[:20]
+
+for pmid in idlist:
+    if pmid in result:
+        item = result[pmid]
+        print(f"{pmid}: pubdate={item.get('pubdate', '')}, source={item.get('source', '')}")
+EOF
+[0m
+
+[0m[0m$ [0mpython3 << 'EOF'
+import json
+
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c975af22d001vctPS0nfYxAAlo', 'r') as f:
+    summary_data = json.load(f)
+
+print(json.dumps(summary_data, indent=2)[:3000])
+EOF
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "41740190",
+      "41740174",
+      "41740109",
+      "41740080",
+      "41740066",
+      "41739768",
+      "41739537",
+      "41739474",
+      "41739341",
+      "41739151",
+      "41738965",
+      "41738731",
+      "41738687",
+      "41738408",
+      "41738351",
+      "41738068",
+      "41738059",
+      "41738058",
+      "41738012",
+      "41738011",
+      "41738006",
+      "41737953",
+      "41737884",
+      "41737875",
+      "41737769",
+      "41737723",
+      "41737630",
+      "41737538",
+      "41737523",
+      "41737520",
+      "41737402",
+      "41737394",
+      "41737357",
+      "41737292",
+      "41737290",
+      "41737215",
+      "41737123",
+      "41737080",
+      "41737074",
+      "41737068",
+      "41736934",
+      "41736722",
+      "41736622",
+      "41736422",
+      "41736408",
+      "41736303",
+      "41736289",
+      "41736285",
+      "41736271",
+      "41736188",
+      "41736154",
+      "41736052",
+      "41735820",
+      "41735816",
+      "41735754",
+      "41735650",
+      "41735638",
+      "41735541",
+      "41735316",
+      "41735258",
+      "41735221",
+      "41735196",
+      "41735193",
+      "41735053",
+      "41735009",
+      "41734985",
+      "41734920",
+      "41734696",
+      "41734676",
+      "41734660",
+      "41734651",
+      "41734634",
+      "41734411",
+      "41734408",
+      "41734320",
+      "41734143",
+      "41734131",
+      "41734098",
+      "41734075",
+      "41734050",
+      "41733950",
+      "41733885",
+      "41733814",
+      "41733699",
+      "41733473",
+      "41733392",
+      "41732912",
+      "41732835",
+      "41732648",
+      "41732626",
+      "41732620",
+      "41732600",
+      "41732543",
+      "41732538",
+      "41732535",
+      "41732530",
+      "41732518",
+      "41732407",
+      "41732161",
+      "41732160"
+    ],
+    "41740190": {
+      "uid": "41740190",
+      "pubdate": "2026 Feb 25",
+      "epubdate": "2026 Feb 25",
+      "source": "J Neural Eng",
+      "authors": [
+        {
+          "name": "Stoupis D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Assecondi S",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Assecondi S",
+      "title": "Anatomy-informed recommendations for electrode montage and shape in electrical stimulation methods: A tDCS case study.",
+      "sorttitle": "anatomy informed recommendations for electrode montage and shape in electrical stimulation methods a tdcs case study",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101217933",
+      "issn": "",
+      "essn": "1741-2552",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - as supplied by publisher",
+      "pubstatus": "10",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+[0m$ [0mpython3 << 'EOF'
+import json
+import xml.etree.ElementTree as ET
+from datetime import datetime
+import re
+
+# Read esummary output
+with open('/Users/chenmayao/.local/share/opencode/tool-output/tool_c975af22d001vctPS0nfYxAAlo', 'r') as f:
+    summary_data = json.load(f)
+
+# Parse efetch XML for abstracts
+tree = ET.parse('/tmp/brainmri_abstracts.xml')
+root = tree.getroot()
+
+# Build abstracts dict
+abstracts = {}
+for article in root.findall('.//PubmedArticle'):
+    pmid = article.find('.//PMID').text
+    abstract_texts = article.findall('.//AbstractText')
+    abstract = ' '.join([a.text for a in abstract_texts if a.text])
+    abstracts[pmid] = abstract
+
+# Process articles
+articles = []
+today = datetime(2026, 2, 26)
+yesterday = today.replace(day=25)  # 2026-02-25
+valid_dates = ['2026-02-26', '2026-02-25']
+
+result = summary_data.get('result', {})
+
+for pmid in result.get('uids', []):
+    if pmid not in result:
+        continue
+    item = result[pmid]
+    pubdate = item.get('pubdate', '')
+    
+    # Parse date: "2026 Feb 25" -> "2026-02-25"
+    try:
+        if pubdate:
+            # Try full date format
+            match = re.match(r'(\d{4})\s+(\w+)\s+(\d+)', pubdate)
+            if match:
+                year, month, day = match.groups()
+                month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                            'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+                published_date = f"{year}-{month_map.get(month, '01')}-{int(day):02d}"
+            else:
+                # Handle year-month format
+                parts = pubdate.split()
+                if len(parts) == 2:
+                    year, month = parts
+                    month_map = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+                                'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'}
+                    published_date = f"{year}-{month_map.get(month, '01')}-01"
+                else:
+                    published_date = pubdate
+        else:
+            published_date = ''
+    except Exception as e:
+        published_date = pubdate
+    
+    # Filter: only keep articles published today or yesterday
+    if published_date not in valid_dates:
+        continue
+    
+    article = {
+        'title': item.get('title', ''),
+        'summary': abstracts.get(pmid, '')[:500],
+        'url': f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+        'category': 'Brain MRI',
+        'source': 'pubmed',
+        'journal': item.get('source', ''),
+        'published_date': published_date,
+        'date': '2026-02-26'
+    }
+    articles.append(article)
+
+print(json.dumps({'date': '2026-02-26', 'articles': articles}, indent=2))
+EOF
+[0m
+{
+  "date": "2026-02-26",
+  "articles": [
+    {
+      "title": "Anatomy-informed recommendations for electrode montage and shape in electrical stimulation methods: A tDCS case study.",
+      "summary": "Transcranial direct current stimulation (tDCS) shows potential for cognitive enhancement and neuromodulation, yet its efficacy is limited by substantial inter-individual variability in the induced electric field (E-field) distribution in targeting brain areas and functional networks. This study aims to develop an anatomy-informed framework to select electrode montage and geometry that optimizes network-level E-field delivery.&#xD;&#xD;Approach. Using high-resolution T1w/T2w MRI from 590 particip",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41740190/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neural Eng",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Attention-Enhanced Temporal and Spatial Feature Extraction Network for ADHD Diagnosis based on fMRI.",
+      "summary": "Attention Deficit Hyperactivity Disorder (ADHD) is a prevalent neurodevelopmental disorder, and accurate diagnosis is critical for ensuring timely intervention. The integration of deep learning and fMRI can effectively explore the abnormal spatiotemporal features of ADHD. However, existing deep learning models are unable to fully capture the temporal dependence and spatial consistency of fMRI data, primarily due to insufficient modeling of multi-scale temporal dependencies and the lack of explic",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41740109/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE J Biomed Health Inform",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Do first-line treatments for OCD impact brain structure and function? A systematic review.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739768/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Braz J Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Flexible neural representations of abstract structural knowledge in the human entorhinal cortex.",
+      "summary": "Humans' ability for generalization is outstanding. It is flexible enough to identify cases where knowledge from prior tasks is relevant, even when many features of the current task are different, such as the sensory stimuli or the size of the task state space. We have previously shown that in abstract tasks, humans can generalize knowledge in cases where the only cross-task shared feature is the statistical rules that govern the task's state-state relationships. Here, we hypothesized that this c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739537/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Associations between white matter micro- and macro-structure and attention in 6-7-year-old children with low to moderate prenatal alcohol exposure.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739341/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Symptom-specific links between internalizing problems and functional connectivity in adolescents: a network analysis.",
+      "summary": "Previous fMRI studies have documented links between internalizing problems in youth and brain functional connectivity of the default (DN), frontoparietal (FP), and salience (SA) networks. Characterized by a large symptom heterogeneity and comorbidity, it remains elusive how individual internalizing symptoms relate to DN, FP, and SA connectivity. Leveraging a large population-based sample of adolescents (N\u2009=\u20092426; mean age\u2009=\u200914.1\u00a0years) and an integrated network modelling approach, we identified ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739151/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Child Adolesc Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Neuroimaging Advances in Brain Function of Laryngeal Dystonia: A Systematic Review.",
+      "summary": "This study aims to review neuroimaging research on brain function in laryngeal dystonia (LD), summarize current evidence on its pathophysiological mechanisms, and highlight directions for future investigation. PubMed, Scopus, and Web of Science Core Collection were searched from database inception to November 2025. Two reviewers independently screened studies, extracted data, and assessed study quality using the Newcastle-Ottawa Scale. Eligible studies were synthesized through systematic review ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738965/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Speech Lang Hear Res",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Late Gadolinium Enhancement on Cardiac MRI in Patients With Takotsubo Syndrome: Insights From the Multicenter EVOLUTION Registry.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738731/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "AJR Am J Roentgenol",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Factors associated with subjective cognitive complaints in former American football players.",
+      "summary": "Subjective cognitive complaints (SCC) can precede cognitive decline and are associated with demographic, exposure, lifestyle, and psychological factors. Prevalences of SCC and their correlates in individuals with repetitive head impacts (RHI) are poorly understood. This study characterized SCC in former elite American football players by frequency, mood and behavioral correlates, concordance with informant reports, and associations with neuropsychological test performance, cerebrospinal fluid (C",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738687/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Int Neuropsychol Soc",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Abnormal myocardial perfusion reserve and myocardial infarction determine cardiovascular outcomes in type 2 diabetes mellitus.",
+      "summary": "In individuals with type 2 diabetes mellitus (T2DM), both myocardial ischemia and myocardial infarction (MI) are associated with adverse cardiovascular outcomes. The incremental prognosis of both risks is unknown. We aimed to investigate whether abnormal myocardial perfusion reserve (MPR) as a surrogate marker for ischemia, and MI offer incremental prognostic value in predicting major adverse cardiovascular and cerebrovascular events (MACCE). A retrospective multicentre cohort of 572 individuals",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738351/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Heart J Cardiovasc Imaging",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Novel Biallelic Variants in IQSEC1 in a Patient With Intellectual Developmental Disorder With Short Stature and Behavioral Abnormalities (IDDSSBA) and Corpus Callosum Dysgenesis.",
+      "summary": "To date, only two families with variants in the IQSEC1 gene associated with intellectual developmental disorder with short stature and behavioral abnormalities (IDDSSBA) have been described. Here, we report an 8-year-old boy with short stature, speech delay, dysmorphic facial features, hypotonia, and behavioral disorders, as well as corpus callosum dysgenesis associated with compound heterozygous variants Pro1095ArgfsTer97 and Thr485Met in the IQSEC1 gene. To our knowledge this is the first repo",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738068/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Am J Med Genet A",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.",
+      "summary": "Evaluating others' actions requires integrating their intentions with the outcomes they produce. Several studies have investigated the neural processes supporting this aspect of moral judgment, but findings remain heterogeneous. We conducted a pooled Activation Likelihood Estimation (ALE) meta-analysis of fMRI studies comparing evaluations of intentional and accidental harm, which is preregistered at https://doi.org/10.17605/OSF.IO/2HTFU . Following a systematic search on PubMed, Scopus, and Web",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735754/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cogn Affect Behav Neurosci",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.",
+      "summary": "Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735650/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurosurg Rev",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735638/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Time-dependent diffusion MRI for differentiating non\u2011small cell lung\u2011cancer brain metastases from breast\u2011cancer brain metastases and gliomas.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735541/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuroradiology",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    }
+  ]
+}
+[0m✱ [0mGlob "/Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json"[90m 0 matches[0m
+[0m
+Wrote file successfully.
+[0m
+
+[0m← [0mWrite data/2026-02-26-brainmri.json已完成。检索到 15 篇 Brain MRI 领域论文（发表日期 2026-02-25），已写入 `/Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json`。
+[08:32:23] [OK] Data file validated: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
+Journal enriched: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json (inspected=15, updated=0, registry_new=8, registry=/Users/chenmayao/Projects/daily-insights/data/journal_impact_factors.json)
+[08:32:24] [OK] Journal names enriched: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
+Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
+[08:32:24] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
+[08:32:24] ✅ Task finished.

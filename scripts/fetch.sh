@@ -10,6 +10,9 @@ PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 TODAY=$(date +%Y-%m-%d)
 AI_DATA_FILE="$PROJECT_DIR/data/${TODAY}-ai.json"
 ACADEMIC_SOURCES_DIR="$PROJECT_DIR/.agents/skills/academic-search/sources"
+DIGEST_SCRIPT="$PROJECT_DIR/scripts/generate_digest.py"
+ENRICH_JOURNAL_SCRIPT="$PROJECT_DIR/scripts/enrich_journal.py"
+AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-0}"
 
 mkdir -p "$PROJECT_DIR/data"
 
@@ -49,6 +52,41 @@ validate_json_file() {
     return 0
 }
 
+generate_digest() {
+    local file="$1"
+    local domain_id="$2"
+    local digest_output
+    if [ ! -f "$DIGEST_SCRIPT" ]; then
+        log "[ERROR] Digest script not found: $DIGEST_SCRIPT"
+        return 1
+    fi
+    if ! digest_output=$(python3 "$DIGEST_SCRIPT" "$file" "$domain_id" 2>&1); then
+        log "[ERROR] Failed to generate digest for: $file"
+        [ -n "$digest_output" ] && echo "$digest_output"
+        return 1
+    fi
+    [ -n "$digest_output" ] && echo "$digest_output"
+    log "[OK] Digest generated: $file"
+    return 0
+}
+
+enrich_journal() {
+    local file="$1"
+    local enrich_output
+    if [ ! -f "$ENRICH_JOURNAL_SCRIPT" ]; then
+        log "[WARN] Journal enrich script not found: $ENRICH_JOURNAL_SCRIPT"
+        return 0
+    fi
+    if ! enrich_output=$(python3 "$ENRICH_JOURNAL_SCRIPT" "$file" 2>&1); then
+        log "[ERROR] Failed to enrich journal names for: $file"
+        [ -n "$enrich_output" ] && echo "$enrich_output"
+        return 1
+    fi
+    [ -n "$enrich_output" ] && echo "$enrich_output"
+    log "[OK] Journal names enriched: $file"
+    return 0
+}
+
 run_opencode() {
     local title="$1"
     local prompt="$2"
@@ -69,6 +107,64 @@ run_opencode() {
         log "[ERROR] opencode exited with code $exit_code ($title)"
         return $exit_code
     fi
+    return 0
+}
+
+git_sync_data() {
+    local mode="$1"
+    local branch
+
+    if ! command -v git >/dev/null 2>&1; then
+        log "[WARN] git not found; skip auto sync."
+        return 0
+    fi
+
+    if [ "$AUTO_GIT_SYNC" != "1" ]; then
+        log "[INFO] AUTO_GIT_SYNC is disabled; skip git push."
+        return 0
+    fi
+
+    if ! git -C "$PROJECT_DIR" rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+        log "[WARN] Not a git repository: $PROJECT_DIR"
+        return 0
+    fi
+
+    branch=$(git -C "$PROJECT_DIR" branch --show-current 2>/dev/null || true)
+    if [ -z "$branch" ]; then
+        log "[WARN] Cannot detect current git branch; skip sync."
+        return 0
+    fi
+
+    # Commit only generated data files; avoid accidental code commits.
+    git -C "$PROJECT_DIR" add -A -- \
+        data \
+        >/dev/null 2>&1 || true
+
+    # Need to check both unstaged and staged changes in data/.
+    if git -C "$PROJECT_DIR" diff --quiet -- data \
+        && git -C "$PROJECT_DIR" diff --cached --quiet -- data; then
+        log "[INFO] No data changes to sync."
+        return 0
+    fi
+
+    if ! git -C "$PROJECT_DIR" commit -m "data: auto-fetch ${mode} ${TODAY}" -- \
+        data \
+        >/dev/null 2>&1; then
+        log "[ERROR] git commit failed; skip push."
+        return 1
+    fi
+
+    if ! git -C "$PROJECT_DIR" pull --rebase origin "$branch" >/dev/null 2>&1; then
+        log "[ERROR] git pull --rebase failed; push skipped."
+        return 1
+    fi
+
+    if ! git -C "$PROJECT_DIR" push origin "$branch" >/dev/null 2>&1; then
+        log "[ERROR] git push failed."
+        return 1
+    fi
+
+    log "[OK] Data synced to GitHub (branch: $branch)"
     return 0
 }
 
@@ -114,6 +210,8 @@ run_academic_domain() {
 
     run_opencode "Fetch $label" "$prompt" || return $?
     validate_json_file "$data_file" || return $?
+    enrich_journal "$data_file" || return $?
+    generate_digest "$data_file" "$domain_id" || return $?
 }
 
 # Run all academic domains (skip domains with skill: daily-ai-news)
@@ -160,16 +258,19 @@ case "$MODE" in
         log "📂 AI data file: $AI_DATA_FILE"
         run_opencode "Fetch AI News" "$AI_PROMPT" || exit $?
         validate_json_file "$AI_DATA_FILE" || exit $?
+        generate_digest "$AI_DATA_FILE" "ai" || exit $?
         ;;
     all)
         log "📂 AI data file: $AI_DATA_FILE"
         run_opencode "Fetch AI News" "$AI_PROMPT" || exit $?
         validate_json_file "$AI_DATA_FILE" || exit $?
+        generate_digest "$AI_DATA_FILE" "ai" || exit $?
         run_all_academic_domains || exit $?
         ;;
     test)
         run_opencode "Test Write" "$TEST_PROMPT" || exit $?
         validate_json_file "$AI_DATA_FILE" || exit $?
+        generate_digest "$AI_DATA_FILE" "ai" || exit $?
         ;;
     *)
         # Treat all positional args as academic domain IDs
@@ -180,3 +281,4 @@ case "$MODE" in
 esac
 
 log "✅ Task finished."
+git_sync_data "$MODE" || exit $?

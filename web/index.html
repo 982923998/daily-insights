@@ -96,6 +96,23 @@
             return `rgba(${r},${g},${b},${alpha})`;
         };
 
+        const stableHash = (value = '') => {
+            let hash = 0;
+            for (let i = 0; i < value.length; i += 1) {
+                hash = (hash * 31 + value.charCodeAt(i)) | 0;
+            }
+            return Math.abs(hash).toString(36);
+        };
+
+        const buildArticleAnchorId = (article = {}) => {
+            const seed = [
+                article._domainId || article.category || '',
+                article.published_date || article.date || '',
+                article.url || article.title || '',
+            ].join('|');
+            return `article-${stableHash(seed)}`;
+        };
+
         // --- Icon Wrapper ---
         const Icon = ({ name, size = 20, className = "" }) => (
             <i data-lucide={name} width={size} height={size} className={className}></i>
@@ -218,12 +235,228 @@
             </div>
         );
 
+        // --- DigestPanel ---
+        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, onJumpToArticle = null }) => {
+            if (!digest) return null;
+            const stats = digest.stats || {};
+            const recommendations = Array.isArray(digest.recommendations) ? digest.recommendations : [];
+            const topics = Array.isArray(digest.focus_topics) ? digest.focus_topics : [];
+            const generatedAt = digest.generated_at
+                ? new Date(digest.generated_at).toLocaleString()
+                : 'N/A';
+            const groupedRecommendations = {
+                high: recommendations.filter(item => item.priority === 'high'),
+                medium: recommendations.filter(item => item.priority === 'medium'),
+                low: recommendations.filter(item => item.priority !== 'high' && item.priority !== 'medium'),
+            };
+
+            return (
+                <section className="glass-panel rounded-3xl p-6 mb-6 animate-fade-in">
+                    <div className="flex items-center justify-between gap-4 mb-4">
+                        <div className="flex items-center gap-3">
+                            <div
+                                className="w-10 h-10 rounded-xl flex items-center justify-center"
+                                style={{ backgroundColor: hexToRgba(color, 0.12), color }}
+                            >
+                                <Icon name="sparkles" size={18} />
+                            </div>
+                            <div>
+                                <h3 className="font-bold text-slate-900 dark:text-slate-100">
+                                    {domainLabel ? `${domainLabel} Digest` : 'Digest'}
+                                </h3>
+                                <p className="text-xs text-slate-400 font-mono">Generated: {generatedAt}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300 mb-4">
+                        {digest.summary || 'No digest summary available.'}
+                    </p>
+
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        <span className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                            Total: {stats.total ?? 0}
+                        </span>
+                        <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100/70 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300">
+                            High: {stats.high_priority ?? 0}
+                        </span>
+                        <span className="px-3 py-1 rounded-full text-xs font-semibold bg-amber-100/70 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300">
+                            Medium: {stats.medium_priority ?? 0}
+                        </span>
+                        <span className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-200/70 dark:bg-slate-700/70 text-slate-700 dark:text-slate-300">
+                            Low: {stats.low_priority ?? 0}
+                        </span>
+                    </div>
+
+                    {topics.length > 0 && (
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {topics.map((t, i) => (
+                                <span
+                                    key={`${t.topic}-${i}`}
+                                    className="px-3 py-1 rounded-full text-xs font-medium border"
+                                    style={{ borderColor: hexToRgba(color, 0.3), color, backgroundColor: hexToRgba(color, 0.06) }}
+                                >
+                                    {t.topic}: {t.count}
+                                </span>
+                            ))}
+                        </div>
+                    )}
+
+                    <div>
+                        <h4 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-2">Recommended Focus</h4>
+                        {recommendations.length === 0 ? (
+                            <p className="text-sm text-slate-500">No recommendation generated for this run.</p>
+                        ) : (
+                            <div className="space-y-4">
+                                {[
+                                    { key: 'high', label: 'High Priority' },
+                                    { key: 'medium', label: 'Medium Priority' },
+                                    { key: 'low', label: 'Low Priority' },
+                                ].map(section => (
+                                    <div key={section.key}>
+                                        <div className="flex items-center gap-2 mb-2">
+                                            <span className="text-xs font-semibold text-slate-500 uppercase tracking-wide">
+                                                {section.label}
+                                            </span>
+                                            <span className="text-xs font-mono text-slate-400">
+                                                {groupedRecommendations[section.key].length}
+                                            </span>
+                                        </div>
+                                        <div className="space-y-2">
+                                            {groupedRecommendations[section.key].length === 0 ? (
+                                                <p className="text-xs text-slate-400">No items.</p>
+                                            ) : (
+                                                groupedRecommendations[section.key].map((item, idx) => {
+                                                    const anchorId = item.url ? anchorByUrl[item.url] : '';
+                                                    const isLinkable = Boolean(anchorId);
+                                                    const commonClassName = `block w-full text-left rounded-xl border border-slate-200/70 dark:border-slate-700/70 p-3 transition-colors ${
+                                                        isLinkable
+                                                            ? 'hover:bg-slate-50 dark:hover:bg-slate-800/60'
+                                                            : 'opacity-70'
+                                                    }`;
+                                                    if (!isLinkable) {
+                                                        return (
+                                                            <div
+                                                                key={`${section.key}-${item.url || item.title}-${idx}`}
+                                                                className={commonClassName}
+                                                            >
+                                                                <div className="flex items-center justify-between gap-3 mb-1">
+                                                                    <p className="text-sm font-semibold text-slate-800 dark:text-slate-100 line-clamp-1">
+                                                                        {item.title || 'Untitled'}
+                                                                    </p>
+                                                                    <span className="text-[10px] font-medium text-slate-400">
+                                                                        Card not found
+                                                                    </span>
+                                                                </div>
+                                                                <p className="text-xs text-slate-500 line-clamp-2">{item.reason || ''}</p>
+                                                            </div>
+                                                        );
+                                                    }
+                                                    return (
+                                                        <button
+                                                            key={`${section.key}-${item.url || item.title}-${idx}`}
+                                                            type="button"
+                                                            onClick={() => onJumpToArticle && onJumpToArticle(anchorId)}
+                                                            className={commonClassName}
+                                                        >
+                                                            <div className="flex items-center justify-between gap-3 mb-1">
+                                                                <p className="text-sm font-semibold text-slate-800 dark:text-slate-100 line-clamp-1">
+                                                                    {item.title || 'Untitled'}
+                                                                </p>
+                                                                <span className="text-[10px] font-medium text-slate-400">
+                                                                    Jump to card
+                                                                </span>
+                                                            </div>
+                                                            <p className="text-xs text-slate-500 line-clamp-2">{item.reason || ''}</p>
+                                                        </button>
+                                                    );
+                                                })
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                </section>
+            );
+        };
+
+        // --- DigestBoard (All view) ---
+        const DigestBoard = ({ domains, digestByDomain, anchorByUrl = {}, onJumpToArticle = null }) => {
+            const cards = domains
+                .map(d => ({ domain: d, digest: digestByDomain[d.id] }))
+                .filter(item => item.digest);
+
+            if (cards.length === 0) return null;
+
+            return (
+                <section className="mb-6 animate-fade-in">
+                    <h3 className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Run Digests</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        {cards.map(({ domain, digest }) => (
+                            <div
+                                key={domain.id}
+                                className="glass-panel rounded-2xl p-4 border"
+                                style={{ borderColor: hexToRgba(domain.color || '#6366f1', 0.2) }}
+                            >
+                                <div className="flex items-center justify-between gap-2 mb-2">
+                                    <h4 className="text-sm font-semibold" style={{ color: domain.color || '#6366f1' }}>
+                                        {domain.label}
+                                    </h4>
+                                    <span className="text-xs font-mono text-slate-400">
+                                        {digest.stats?.total ?? 0} items
+                                    </span>
+                                </div>
+                                <p className="text-xs text-slate-600 dark:text-slate-300 line-clamp-3 mb-2">
+                                    {digest.summary || ''}
+                                </p>
+                                {(digest.recommendations || []).slice(0, 1).map((r, idx) => {
+                                    const anchorId = r.url ? anchorByUrl[r.url] : '';
+                                    const isLinkable = Boolean(anchorId);
+                                    return (
+                                        <button
+                                            key={`${domain.id}-r-${idx}`}
+                                            type="button"
+                                            onClick={() => isLinkable && onJumpToArticle && onJumpToArticle(anchorId)}
+                                            className={`text-xs font-medium ${isLinkable ? 'hover:underline' : 'opacity-70 pointer-events-none'}`}
+                                            style={{ color: domain.color || '#6366f1' }}
+                                        >
+                                            Focus: {r.title || 'Untitled'}
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            );
+        };
+
         // --- NewsCard ---
-        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1' }) => {
+        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1', articleId = '' }) => {
             const source = article.subcategory || article.source || 'Research';
+            const sourceText = article.source || article.subcategory || 'Unknown Source';
+            const journalText = article.journal || '';
+            const rawIfValue = article.impact_factor;
+            const ifYear = article.impact_factor_year;
+            const parsedIfValue = (() => {
+                if (typeof rawIfValue === 'number') return rawIfValue;
+                if (typeof rawIfValue === 'string' && rawIfValue.trim() !== '') {
+                    const n = Number.parseFloat(rawIfValue.trim());
+                    return Number.isFinite(n) ? n : null;
+                }
+                return null;
+            })();
+            const hasIf = Number.isFinite(parsedIfValue) && parsedIfValue > 0;
+            const displayIf = hasIf ? Number(parsedIfValue.toFixed(3)).toString() : null;
+            const ifText = hasIf
+                ? (ifYear ? `IF ${displayIf} (${ifYear})` : `IF ${displayIf}`)
+                : 'IF N/A';
 
             return (
                 <article
+                    id={articleId || article._anchorId || ''}
                     className="group glass-panel rounded-3xl p-8 flex flex-col h-full card-hover animate-slide-up relative overflow-hidden"
                     style={{ animationDelay: `${index * 60}ms` }}
                 >
@@ -262,9 +495,23 @@
                     </h3>
 
                     <div className="flex items-center gap-3 mb-6 text-xs font-mono text-slate-400 relative z-10 border-b border-slate-100 dark:border-slate-800 pb-6 w-full">
+                        {journalText && (
+                            <>
+                                <span className="flex items-center gap-1.5 max-w-[45%]">
+                                    <Icon name="book-open" size={14} />
+                                    <span className="truncate" title={journalText}>{journalText}</span>
+                                </span>
+                                <span className="text-slate-300">&bull;</span>
+                            </>
+                        )}
                         <span className="flex items-center gap-1.5">
                             <Icon name="globe" size={14} />
-                            {article.source || article.subcategory || 'Unknown Source'}
+                            {sourceText}
+                        </span>
+                        <span className="text-slate-300">&bull;</span>
+                        <span className={`flex items-center gap-1.5 ${hasIf ? '' : 'text-slate-300'}`}>
+                            <Icon name="bar-chart-3" size={14} />
+                            {ifText}
                         </span>
                         <span className="text-slate-300">&bull;</span>
                         <span className="flex items-center gap-1.5">
@@ -313,6 +560,7 @@
                             isFavorited={isFavorite(article.url)}
                             onToggleFavorite={onToggleFavorite}
                             color={color}
+                            articleId={article._anchorId || buildArticleAnchorId(article)}
                         />
                     ))}
                 </div>
@@ -345,6 +593,7 @@
             const [selectedSources, setSelectedSources] = useState(new Set());
             const [domains, setDomains] = useState([]);
             const [domainsLoaded, setDomainsLoaded] = useState(false);
+            const [digestByDomain, setDigestByDomain] = useState({});
 
             const [favorites, setFavorites] = useState(() => {
                 try { return JSON.parse(localStorage.getItem('favorites') || '[]'); }
@@ -398,6 +647,7 @@
                 if (!domainsLoaded) return;
                 setLoading(true);
                 setError(null);
+                setDigestByDomain({});
                 const t = Date.now();
                 const safeFetch = (path) =>
                     fetch(path).then(r => r.ok ? r.json() : null).catch(() => null);
@@ -406,15 +656,22 @@
                     domains.map(d => safeFetch(`/data/${currentDate}-${d.id}.json?t=${t}`))
                 ).then(results => {
                     const combined = [];
+                    const nextDigests = {};
                     let anyData = false;
                     results.forEach((data, i) => {
                         if (data) {
                             anyData = true;
-                            (data.articles || []).forEach(a =>
-                                combined.push({ ...a, _domainId: domains[i].id })
-                            );
+                            if (data.digest && typeof data.digest === 'object') {
+                                nextDigests[domains[i].id] = data.digest;
+                            }
+                            (data.articles || []).forEach(a => {
+                                const enriched = { ...a, _domainId: domains[i].id };
+                                enriched._anchorId = buildArticleAnchorId(enriched);
+                                combined.push(enriched);
+                            });
                         }
                     });
+                    setDigestByDomain(nextDigests);
                     if (!anyData) {
                         setError(`Report for ${currentDate} is not available.`);
                         setArticles([]);
@@ -495,7 +752,28 @@
                 });
             }, [activeDomain, domains, articles, favorites, searchQuery]);
 
+            const anchorByUrl = useMemo(() => {
+                const map = {};
+                articles.forEach(article => {
+                    if (article.url && article._anchorId && !map[article.url]) {
+                        map[article.url] = article._anchorId;
+                    }
+                });
+                return map;
+            }, [articles]);
+
+            const jumpToArticle = useCallback((anchorId) => {
+                if (!anchorId) return;
+                setSearchQuery('');
+                setSelectedSources(new Set());
+                window.setTimeout(() => {
+                    const el = document.getElementById(anchorId);
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 80);
+            }, []);
+
             const activeDomainObj = domains.find(d => d.id === activeDomain);
+            const activeDigest = activeDomainObj ? digestByDomain[activeDomainObj.id] : null;
             const isGroupedView = activeDomainObj?.skill === 'daily-ai-news';
             const totalGrouped = Object.values(groupedArticles).reduce((s, a) => s + a.length, 0);
 
@@ -525,6 +803,24 @@
                             </div>
 
                             <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+
+                            {!loading && activeDomain !== 'saved' && activeDomain === 'all' && !error && (
+                                <DigestBoard
+                                    domains={domains}
+                                    digestByDomain={digestByDomain}
+                                    anchorByUrl={anchorByUrl}
+                                    onJumpToArticle={jumpToArticle}
+                                />
+                            )}
+                            {!loading && activeDomain !== 'saved' && activeDomain !== 'all' && !error && (
+                                <DigestPanel
+                                    digest={activeDigest}
+                                    color={activeDomainColor}
+                                    domainLabel={activeDomainObj?.label || activeDomain}
+                                    anchorByUrl={anchorByUrl}
+                                    onJumpToArticle={jumpToArticle}
+                                />
+                            )}
 
                             {/* Source filter — only for daily-ai-news domains */}
                             {isGroupedView && !loading && !error && availableSources.length > 0 && (
@@ -579,6 +875,7 @@
                                                 isFavorited={isFavorite(article.url)}
                                                 onToggleFavorite={toggleFavorite}
                                                 color={getDomainColor(article)}
+                                                articleId={article._anchorId || buildArticleAnchorId(article)}
                                             />
                                         ))}
                                     </div>
