@@ -8,7 +8,10 @@
       "category": "Depression",
       "source": "pubmed",
       "published_date": "2026-02-22",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Stem Cell Res Ther",
+      "journal_issn": "1757-6512",
+      "impact_factor": 7.3
     },
     {
       "title": "Subtypes of adolescent major depressive disorder characterized by divergent information dynamics in sensory-association cortices.",
@@ -17,7 +20,10 @@
       "category": "Depression",
       "source": "pubmed",
       "published_date": "2026-02-22",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "impact_factor": 15.7
     },
     {
       "title": "Shared genetic underpinnings of gray matter volume alterations and metabolic traits in major depressive disorder.",
@@ -26,7 +32,10 @@
       "category": "Depression",
       "source": "pubmed",
       "published_date": "2026-02-21",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "BMC Psychiatry",
+      "journal_issn": "1471-244X",
+      "impact_factor": 3.6
     },
     {
       "title": "Chronicity moderates the impact of severity on central executive-default mode network functional interactions in depression.",
@@ -35,7 +44,70 @@
       "category": "Depression",
       "source": "pubmed",
       "published_date": "2026-02-21",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Sci Rep",
+      "journal_issn": "2045-2322",
+      "impact_factor": 3.9
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 2 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 2,
+      "medium_priority": 2,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Subtypes of adolescent major depressive disorder characterized by divergent information dynamics in sensory-association cortices.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41724763/",
+        "published_date": "2026-02-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Chronicity moderates the impact of severity on central executive-default mode network functional interactions in depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41723265/",
+        "published_date": "2026-02-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Safety and feasibility of intravenous fresh adipose-derived mesenchymal stem cells in secondary progressive multiple sclerosis: phase I/IIa clinical results.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41725020/",
+        "published_date": "2026-02-22",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Shared genetic underpinnings of gray matter volume alterations and metabolic traits in major depressive disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41723432/",
+        "published_date": "2026-02-21",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
 }

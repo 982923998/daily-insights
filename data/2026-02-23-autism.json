@@ -8,7 +8,10 @@
       "category": "Autism",
       "source": "pubmed",
       "published_date": "2026-02-22",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Autism Res",
+      "journal_issn": "1939-3806",
+      "impact_factor": 5.6
     },
     {
       "title": "Autism-Related Phenotypes in a Heterozygous Scn2a(R854Q) Mouse Model and Their Partial Rescue via a Potassium Channel Opener.",
@@ -17,7 +20,56 @@
       "category": "Autism",
       "source": "pubmed",
       "published_date": "2026-02-20",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Neuropharmacology",
+      "impact_factor": 4.6,
+      "journal_issn": "0028-3908"
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Altered Brain Structure in an ATRX-Deficient Mouse Model of Autism Spectrum Disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41724591/",
+        "published_date": "2026-02-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Autism-Related Phenotypes in a Heterozygous Scn2a(R854Q) Mouse Model and Their Partial Rescue via a Potassium Channel Opener.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41724236/",
+        "published_date": "2026-02-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
 }

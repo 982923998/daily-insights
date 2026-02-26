@@ -1,0 +1,312 @@
+{
+  "date": "2026-02-26",
+  "articles": [
+    {
+      "title": "Anatomy-informed recommendations for electrode montage and shape in electrical stimulation methods: A tDCS case study.",
+      "summary": "Transcranial direct current stimulation (tDCS) shows potential for cognitive enhancement and neuromodulation, yet its efficacy is limited by substantial inter-individual variability in the induced electric field (E-field) distribution in targeting brain areas and functional networks. This study aims to develop an anatomy-informed framework to select electrode montage and geometry that optimizes network-level E-field delivery.&#xD;&#xD;Approach. Using high-resolution T1w/T2w MRI from 590 particip",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41740190/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neural Eng",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1741-2552"
+    },
+    {
+      "title": "Attention-Enhanced Temporal and Spatial Feature Extraction Network for ADHD Diagnosis based on fMRI.",
+      "summary": "Attention Deficit Hyperactivity Disorder (ADHD) is a prevalent neurodevelopmental disorder, and accurate diagnosis is critical for ensuring timely intervention. The integration of deep learning and fMRI can effectively explore the abnormal spatiotemporal features of ADHD. However, existing deep learning models are unable to fully capture the temporal dependence and spatial consistency of fMRI data, primarily due to insufficient modeling of multi-scale temporal dependencies and the lack of explic",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41740109/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE J Biomed Health Inform",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "2168-2194"
+    },
+    {
+      "title": "Do first-line treatments for OCD impact brain structure and function? A systematic review.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739768/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Braz J Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1516-4446"
+    },
+    {
+      "title": "Flexible neural representations of abstract structural knowledge in the human entorhinal cortex.",
+      "summary": "Humans' ability for generalization is outstanding. It is flexible enough to identify cases where knowledge from prior tasks is relevant, even when many features of the current task are different, such as the sensory stimuli or the size of the task state space. We have previously shown that in abstract tasks, humans can generalize knowledge in cases where the only cross-task shared feature is the statistical rules that govern the task's state-state relationships. Here, we hypothesized that this c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739537/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "2050-084X"
+    },
+    {
+      "title": "Associations between white matter micro- and macro-structure and attention in 6-7-year-old children with low to moderate prenatal alcohol exposure.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739341/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
+    },
+    {
+      "title": "Symptom-specific links between internalizing problems and functional connectivity in adolescents: a network analysis.",
+      "summary": "Previous fMRI studies have documented links between internalizing problems in youth and brain functional connectivity of the default (DN), frontoparietal (FP), and salience (SA) networks. Characterized by a large symptom heterogeneity and comorbidity, it remains elusive how individual internalizing symptoms relate to DN, FP, and SA connectivity. Leveraging a large population-based sample of adolescents (N = 2426; mean age = 14.1 years) and an integrated network modelling approach, we identified ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41739151/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Child Adolesc Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1018-8827"
+    },
+    {
+      "title": "Neuroimaging Advances in brain function of laryngeal dystonia: A systematic review.",
+      "summary": "This study aims to review neuroimaging research on brain function in laryngeal dystonia (LD), summarize current evidence on its pathophysiological mechanisms, and highlight directions for future investigation. PubMed, Scopus, and Web of Science Core Collection were searched from database inception to November 2025. Two reviewers independently screened studies, extracted data, and assessed study quality using the Newcastle-Ottawa Scale. Eligible studies were synthesized through systematic review ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738965/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Speech Lang Hear Res",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1092-4388"
+    },
+    {
+      "title": "Late Gadolinium Enhancement on Cardiac MRI in Patients With Takotsubo Syndrome: Insights From the Multicenter EVOLUTION Registry.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738731/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "AJR Am J Roentgenol",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "0361-803X"
+    },
+    {
+      "title": "Factors associated with subjective cognitive complaints in former American football players.",
+      "summary": "Subjective cognitive complaints (SCC) can precede cognitive decline and are associated with demographic, exposure, lifestyle, and psychological factors. Prevalences of SCC and their correlates in individuals with repetitive head impacts (RHI) are poorly understood. This study characterized SCC in former elite American football players by frequency, mood and behavioral correlates, concordance with informant reports, and associations with neuropsychological test performance, cerebrospinal fluid (",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738687/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Int Neuropsychol Soc",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1355-6177"
+    },
+    {
+      "title": "Abnormal myocardial perfusion reserve and myocardial infarction determine cardiovascular outcomes in type 2 diabetes mellitus.",
+      "summary": "In individuals with type 2 diabetes mellitus (T2DM), both myocardial ischemia and myocardial infarction (MI) are associated with adverse cardiovascular outcomes. The incremental prognosis of both risks is unknown. We aimed to investigate whether abnormal myocardial perfusion reserve (MPR) as a surrogate marker for ischemia, and MI offer incremental prognostic value in predicting major adverse cardiovascular and cerebrovascular events (MACCE). A retrospective multicentre cohort of 572 individuals",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738351/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Heart J Cardiovasc Imaging",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "2047-2404"
+    },
+    {
+      "title": "Novel Biallelic Variants in IQSEC1 in a Patient With Intellectual Developmental Disorder With Short Stature and Behavioral Abnormalities (IDDSSBA) and Corpus Callosum Dysgenesis.",
+      "summary": "To date, only two families with variants in the IQSEC1 gene associated with intellectual developmental disorder with short stature and behavioral abnormalities (IDDSSBA) have been described. Here, we report an 8-year-old boy with short stature, speech delay, dysmorphic facial features, hypotonia, and behavioral disorders, as well as corpus callosum dysgenesis associated with compound heterozygous variants Pro1095ArgfsTer97 and Thr485Met in the IQSEC1 gene. To our knowledge this is the first repo",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738068/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Am J Med Genet A",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1552-4825"
+    },
+    {
+      "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.",
+      "summary": "Evaluating others' actions requires integrating their intentions with the outcomes they produce. Several studies have investigated the neural processes supporting this aspect of moral judgment, but findings remain heterogeneous. We conducted a pooled Activation Likelihood Estimation (ALE) meta-analysis of fMRI studies comparing evaluations of intentional and accidental harm, which is preregistered at https://doi.org/10.17605/OSF.IO/2HTFU . Following a systematic search on PubMed, Scopus, and Web",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735754/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cogn Affect Behav Neurosci",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1530-7026",
+      "impact_factor": 2.7
+    },
+    {
+      "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.",
+      "summary": "Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735650/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurosurg Rev",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "0344-5607",
+      "impact_factor": 2.5
+    },
+    {
+      "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735638/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
+    },
+    {
+      "title": "Time-dependent diffusion MRI for differentiating non‑small cell lung‑cancer brain metastases from breast‑cancer brain metastases and gliomas.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735541/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuroradiology",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26",
+      "journal_issn": "0028-3940",
+      "impact_factor": 2.6
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-26T00:32:24+00:00",
+    "version": 1,
+    "summary": "Captured 15 research items. Preference focus is brain-imaging analysis and disease mechanisms: 9 high-priority, 6 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 15.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 15,
+      "high_priority": 9,
+      "medium_priority": 6,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 15
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Symptom-specific links between internalizing problems and functional connectivity in adolescents: a network analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41739151/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735754/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Attention-Enhanced Temporal and Spatial Feature Extraction Network for ADHD Diagnosis based on fMRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41740109/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Factors associated with subjective cognitive complaints in former American football players.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41738687/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735650/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735638/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neuroimaging Advances in brain function of laryngeal dystonia: A systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41738965/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Flexible neural representations of abstract structural knowledge in the human entorhinal cortex.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41739537/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Anatomy-informed recommendations for electrode montage and shape in electrical stimulation methods: A tDCS case study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41740190/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Time-dependent diffusion MRI for differentiating non‑small cell lung‑cancer brain metastases from breast‑cancer brain metastases and gliomas.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735541/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Abnormal myocardial perfusion reserve and myocardial infarction determine cardiovascular outcomes in type 2 diabetes mellitus.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41738351/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Novel Biallelic Variants in IQSEC1 in a Patient With Intellectual Developmental Disorder With Short Stature and Behavioral Abnormalities (IDDSSBA) and Corpus Callosum Dysgenesis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41738068/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Late Gadolinium Enhancement on Cardiac MRI in Patients With Takotsubo Syndrome: Insights From the Multicenter EVOLUTION Registry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41738731/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Do first-line treatments for OCD impact brain structure and function? A systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41739768/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Associations between white matter micro- and macro-structure and attention in 6-7-year-old children with low to moderate prenatal alcohol exposure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41739341/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

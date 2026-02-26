@@ -8,7 +8,9 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Neural Eng",
+      "journal_issn": "1741-2552"
     },
     {
       "title": "Delayed cyst formation following ventral intermediate nucleus thalamotomy by Gamma Knife radiosurgery for essential tremor: illustrative case.",
@@ -17,7 +19,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Neurosurg Case Lessons",
+      "journal_issn": "2694-1902",
+      "impact_factor": 0.7
     },
     {
       "title": "Cranial lateral dermal sinus tract: illustrative case.",
@@ -26,7 +31,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Neurosurg Case Lessons",
+      "journal_issn": "2694-1902",
+      "impact_factor": 0.7
     },
     {
       "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
@@ -35,7 +43,9 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Elife",
+      "journal_issn": "2050-084X"
     },
     {
       "title": "Physics-Informed Deep Learning for Shear Wave Speed Estimation in MR Elastography.",
@@ -44,7 +54,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "IEEE Trans Biomed Eng",
+      "journal_issn": "0018-9294",
+      "impact_factor": 4.5
     },
     {
       "title": "EEG, clinical, and MRI features of status epilepticus associated with mitochondrial diseases.",
@@ -53,7 +66,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Neurol",
+      "journal_issn": "0340-5354",
+      "impact_factor": 4.6
     },
     {
       "title": "Erythropoietin alleviates syndrome-associated intellectual disability and autism-like behavior in Zbtb20-haploinsufficient Primrose syndrome mouse model.",
@@ -62,7 +78,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "JCI Insight",
+      "journal_issn": "2379-3708",
+      "impact_factor": 6.1
     },
     {
       "title": "Clinical and MRI substrates of Symbol Digit Modalities Test impairment in multiple sclerosis patients with an adult- and late-onset.",
@@ -71,7 +90,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Mult Scler",
+      "journal_issn": "1352-4585",
+      "impact_factor": 5.0
     },
     {
       "title": "The hippocampus: myth, memory and magnetic resonance imaging.",
@@ -80,7 +102,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Ann R Coll Surg Engl",
+      "journal_issn": "0035-8843",
+      "impact_factor": 1.7
     },
     {
       "title": "The role of the orbitofrontal cortex in smoking cue-reactivity in onset phase of smoking behaviour, a fMRI study in adolescents.",
@@ -89,7 +114,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Nicotine Tob Res",
+      "journal_issn": "1462-2203",
+      "impact_factor": 3.0
     },
     {
       "title": "Anxiety symptoms interact with approach motivations in adolescent risk-taking.",
@@ -98,7 +126,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Dev Psychopathol",
+      "journal_issn": "0954-5794",
+      "impact_factor": 3.7
     },
     {
       "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
@@ -107,7 +138,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Psychol Med",
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5
     },
     {
       "title": "The effects of hippocampal dentate gyrus lesions on categorical face perception.",
@@ -116,7 +150,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Atten Percept Psychophys",
+      "journal_issn": "1943-3921",
+      "impact_factor": 1.7
     },
     {
       "title": "A systematic review on dysconnectivity in face and emotion processing networks in schizophrenia.",
@@ -125,7 +162,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Cogn Affect Behav Neurosci",
+      "journal_issn": "1530-7026",
+      "impact_factor": 2.7
     },
     {
       "title": "Age-related differences in brain activity despite matched cognitive performance: A moderated-mediation analysis.",
@@ -134,7 +174,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Brain Imaging Behav",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
     },
     {
       "title": "Reversible brain functional alterations induced by Short-Term high altitude exposure.",
@@ -143,7 +186,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Brain Imaging Behav",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
     },
     {
       "title": "Defining the 'Hypothermia Resistant' phenotype in neonatal HIE",
@@ -152,7 +198,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Perinatol",
+      "journal_issn": "0743-8346",
+      "impact_factor": 2.4
     },
     {
       "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease",
@@ -161,7 +210,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Transl Psychiatry",
+      "journal_issn": "2158-3188",
+      "impact_factor": 6.2
     },
     {
       "title": "The tuned cortex: Convergent expertise-related structural and functional remodeling across the adult lifespan.",
@@ -170,7 +222,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Neurosci",
+      "journal_issn": "0270-6474",
+      "impact_factor": 4.0
     },
     {
       "title": "GROWING FOLDS: FETAL MR IMAGING ANATOMY OF THE HIPPOCAMPAL HEAD DIGITATIONS.",
@@ -179,7 +234,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "AJNR Am J Neuroradiol",
+      "journal_issn": "0195-6108",
+      "impact_factor": 3.7
     },
     {
       "title": "Diagnostic Utility of Arterial Spin Labeling MRI in Straight to MRI Code Stroke Patients for Seizure Detection",
@@ -188,7 +246,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "AJNR Am J Neuroradiol",
+      "journal_issn": "0195-6108",
+      "impact_factor": 3.7
     },
     {
       "title": "Embolic Ischemic Stroke Associated with Maintenance Intravenous Immunoglobulin Therapy.",
@@ -197,7 +258,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Intern Med",
+      "journal_issn": "0918-2918",
+      "impact_factor": 1.1
     },
     {
       "title": "A Cerebral Ethiodized Embolism after Lymphangiography: A Case Report and Literature Review.",
@@ -206,7 +270,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Intern Med",
+      "journal_issn": "0918-2918",
+      "impact_factor": 1.1
     },
     {
       "title": "AI-Based STroke Risk fActor Classification and Treatment (ABSTRACT) study.",
@@ -215,7 +282,210 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Stroke Vasc Neurol",
+      "journal_issn": "2059-8688",
+      "impact_factor": 4.9
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 24 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 14 medium-priority, 0 low-priority. Mechanism-related items: 9; analysis-method items: 24.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 24,
+      "high_priority": 10,
+      "medium_priority": 14,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 9
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 24
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Exploring the interaction of APOE-ε4 and PICALM rs3851179 with dynamic functional connectivity in healthy middle-aged adults at risk for Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730245/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730850/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A systematic review on dysconnectivity in face and emotion processing networks in schizophrenia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731284/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Anxiety symptoms interact with approach motivations in adolescent risk-taking.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731343/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731301/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Physics-Informed Deep Learning for Shear Wave Speed Estimation in MR Elastography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729656/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Reversible brain functional alterations induced by Short-Term high altitude exposure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731172/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Erythropoietin alleviates syndrome-associated intellectual disability and autism-like behavior in Zbtb20-haploinsufficient Primrose syndrome mouse model.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729076/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "EEG, clinical, and MRI features of status epilepticus associated with mitochondrial diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729327/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cranial lateral dermal sinus tract: illustrative case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730185/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Age-related differences in brain activity despite matched cognitive performance: A moderated-mediation analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731211/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Cerebral Ethiodized Embolism after Lymphangiography: A Case Report and Literature Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730621/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "The role of the orbitofrontal cortex in smoking cue-reactivity in onset phase of smoking behaviour, a fMRI study in adolescents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41725393/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Embolic Ischemic Stroke Associated with Maintenance Intravenous Immunoglobulin Therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730627/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "The tuned cortex: Convergent expertise-related structural and functional remodeling across the adult lifespan.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730682/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729967/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "The hippocampus: myth, memory and magnetic resonance imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41725555/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "The effects of hippocampal dentate gyrus lesions on categorical face perception.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731295/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "GROWING FOLDS: FETAL MR IMAGING ANATOMY OF THE HIPPOCAMPAL HEAD DIGITATIONS.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730633/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diagnostic Utility of Arterial Spin Labeling MRI in Straight to MRI Code Stroke Patients for Seizure Detection",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730630/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Delayed cyst formation following ventral intermediate nucleus thalamotomy by Gamma Knife radiosurgery for essential tremor: illustrative case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730189/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Defining the 'Hypothermia Resistant' phenotype in neonatal HIE",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731039/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical and MRI substrates of Symbol Digit Modalities Test impairment in multiple sclerosis patients with an adult- and late-onset.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729056/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "AI-Based STroke Risk fActor Classification and Treatment (ABSTRACT) study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730590/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
 }

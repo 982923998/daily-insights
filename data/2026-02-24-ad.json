@@ -8,7 +8,10 @@
       "category": "Alzheimer",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "BMC Neurol",
+      "journal_issn": "1471-2377",
+      "impact_factor": 2.2
     },
     {
       "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
@@ -17,7 +20,10 @@
       "category": "Alzheimer",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Transl Psychiatry",
+      "journal_issn": "2158-3188",
+      "impact_factor": 6.2
     },
     {
       "title": "Exploring the interaction of APOE-ε4 and PICALM rs3851179 with dynamic functional connectivity in healthy middle-aged adults at risk for Alzheimer's disease.",
@@ -26,7 +32,9 @@
       "category": "Alzheimer",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "J Neural Eng",
+      "journal_issn": "1741-2552"
     },
     {
       "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
@@ -35,7 +43,9 @@
       "category": "Alzheimer",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Elife",
+      "journal_issn": "2050-084X"
     },
     {
       "title": "Sleep disturbances and Alzheimer's disease: a multiscale approach from exposome to neurobiology and precision medicine.",
@@ -44,7 +54,77 @@
       "category": "Alzheimer",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Geroscience",
+      "journal_issn": "2509-2723",
+      "impact_factor": 5.4
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Exploring the interaction of APOE-ε4 and PICALM rs3851179 with dynamic functional connectivity in healthy middle-aged adults at risk for Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730245/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730850/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Plasma miRNAs associated with cognitive impairment and brain hypometabolism in individuals with mild cognitive impairment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731425/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Sleep disturbances and Alzheimer's disease: a multiscale approach from exposome to neurobiology and precision medicine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729452/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "The influence of sample size and covariate distributions on neuroanatomical normative modeling.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41729967/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
 }

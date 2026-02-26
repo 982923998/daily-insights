@@ -1,0 +1,569 @@
+{
+  "date": "2026-02-25",
+  "articles": [
+    {
+      "title": "Association of functional brain alterations with β-amyloid, tau, and cognitive decline in Alzheimer's disease.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736154/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Alzheimers Res Ther",
+      "journal_issn": "1758-9193",
+      "impact_factor": 7.6
+    },
+    {
+      "title": "Impact of cerebral oxygenation-guided resuscitation during immediate postnatal transition on brain injury and brain growth detected by MRI in very preterm neonates: a secondary outcome analysis of the multicenter randomized phase 3 clinical COSGOD III trial.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736052/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Ital J Pediatr",
+      "journal_issn": "1720-8424",
+      "impact_factor": 3.1
+    },
+    {
+      "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.",
+      "summary": "Evaluating others' actions requires integrating their intentions with the outcomes they produce. Several studies have investigated the neural processes supporting this aspect of moral judgment, but findings remain heterogeneous. We conducted a pooled Activation Likelihood Estimation (ALE) meta-analysis of fMRI studies comparing evaluations of intentional and accidental harm, which is preregistered at https://doi.org/10.17605/OSF.IO/2HTFU . Following a systematic search on PubMed, Scopus, and Web",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735754/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25",
+      "journal": "Cogn Affect Behav Neurosci",
+      "journal_issn": "1530-7026",
+      "impact_factor": 2.7
+    },
+    {
+      "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.",
+      "summary": "Cushing's Disease (CD) poses diagnostic and therapeutic challenges, particularly when pituitary MRI is negative for a neuroendocrine tumor (PitNET). This study systematically analyzes literature data on the surgical outcomes of patients with MRI-negative CD and presents a novel single-center series. A systematic review and meta-analysis of PubMed, Scopus, and Cochrane databases (2000-2024) were performed. A retrospective analysis of patients with MRI-negative CD who underwent endoscopic pituitar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735650/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25",
+      "journal": "Neurosurg Rev",
+      "journal_issn": "0344-5607",
+      "impact_factor": 2.5
+    },
+    {
+      "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735638/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25",
+      "journal": "Brain Imaging Behav",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
+    },
+    {
+      "title": "Time-dependent diffusion MRI for differentiating non‑small cell lung‑cancer brain metastases from breast‑cancer brain metastases and gliomas.",
+      "summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735541/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25",
+      "journal": "Neuroradiology",
+      "journal_issn": "0028-3940",
+      "impact_factor": 2.6
+    },
+    {
+      "title": "The genetic landscape of human functional brain connectivity.",
+      "summary": "Investigating the genetic underpinnings of functional brain connectivity is essential to understand how genetic variation influences brain health and disease. Here, a mass-univariate approach was adopted to study the genetic architecture of functional brain circuitry (N",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735316/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "impact_factor": 15.7
+    },
+    {
+      "title": "Global remapping of the sensory homunculus emerges early in childhood development.",
+      "summary": "Some of the most dramatic examples of neuroplasticity in the human brain follow congenital sensory deprivation, yet the plasticity mechanisms producing this large-scale cortical remapping remain poorly understood. Congenital malformation of the upper-limb provides a unique temporal dissociation of developmental plasticity mechanisms: While sensory deprivation from the absent hand is triggered before birth, compensatory motor behaviours develop gradually throughout childhood. Using paediatric neu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735258/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "impact_factor": 15.7
+    },
+    {
+      "title": "Low-Cost and Detunable Wireless Resonator Glasses for Enhanced Eye MRI With Concurrent High-Quality Whole-Brain MRI.",
+      "summary": "To develop a wearable wireless resonator glasses design that enhances eye MRI signal-to-noise ratio (SNR) without compromising whole-brain image quality at 7 T. The device integrates two detunable LC loop resonators into a lightweight, 3D-printed frame positioned near the eyes. The resonators passively couple to a standard 2Tx/32Rx head coil without hardware modifications. Bench tests assessed tuning, isolation, and detuning performance. B Bench measurements confirmed accurate tuning, strong int",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735193/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Magn Reson Med",
+      "journal_issn": "0740-3194",
+      "impact_factor": 3.0
+    },
+    {
+      "title": "Concurrent multimodal imaging demonstrates that EEG-based excitation/inhibition balance reflects glutamate and GABA balance.",
+      "summary": "Magnetic Resonance Spectroscopy (MRS)-derived excitation/inhibition (E/I) ratio is recognized as a valuable index of attentional modulation, the plasticity and stability of learning states, and disordered functioning. Inferring the E/I ratio from electroencephalography (EEG), however, offers greater accessibility and superior temporal resolution, and therefore holds strong potential for advancing research on dynamic neural processes. Yet, the underlying neurochemical mechanisms contributing to c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735053/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "J Neurosci",
+      "journal_issn": "0270-6474",
+      "impact_factor": 4.0
+    },
+    {
+      "title": "Long-term mortality associated with incidental unruptured intracranial aneurysms in neurologically healthy Japanese adults: the Kashima scan study.",
+      "summary": "With the widespread use of MRI, there has been an increase in the frequency of incidental detection of unruptured intracranial aneurysms (UIAs); however, the mortality rates and cause of death in adults with incidental UIAs remain unknown. This study aimed to determine whether participants with incidental UIAs have higher mortality rates than those without UIAs among neurologically healthy Japanese adults undergoing self-sponsored brain MRIs. This prospective cohort study followed 1670 neurologi",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735009/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Stroke Vasc Neurol",
+      "journal_issn": "2059-8688",
+      "impact_factor": 4.9
+    },
+    {
+      "title": "Predicting outcomes in selective fetal growth restriction of monoChOrioNic Twins: an inteRnAtional observational cohort STudy protocol (CONTRAST study).",
+      "summary": "Selective fetal growth restriction (sFGR) is a major cause of perinatal morbidity and mortality in monochorionic diamniotic (MCDA) twin pregnancies. Current management relies on umbilical artery Doppler patterns in the smaller twin. These patterns are, however, inconsistent and do not represent a reliable severity scale, complicating clinical decision-making and parental counselling. This study aims to improve risk stratification by identifying predictors of adverse outcomes, while also evaluati",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41734920/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "BMJ Open",
+      "journal_issn": "2044-6055",
+      "impact_factor": 2.3
+    },
+    {
+      "title": "Acute Neurological and Respiratory Complications Induced by Wasp Stings: A Case Report.",
+      "summary": "BACKGROUND Most cases of wasp stings are mild and self-limiting; however, some cases present with life-threatening symptoms, including hemolysis, rhabdomyolysis, acute kidney injury, and liver damage. However, neurological and respiratory complications such as stroke and ARDS are rarely reported in the literature. CASE REPORT A 56-year-old woman with hypertension was stung by multiple wasps while working in a field. Laboratory tests showed a white blood cell count of 31.59×10⁹/L and a creatinine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41734143/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Am J Case Rep",
+      "journal_issn": "1941-5923",
+      "impact_factor": 0.7
+    },
+    {
+      "title": "Cogformer: A unified multi-scale brain representation for visual decoding and reconstruction from fMRI.",
+      "summary": "With the rapid development of deep generative models (DGMs), the performance of decoding language and reconstructing images from Functional Magnetic Resonance Imaging (fMRI) has been improved. Nevertheless, the accurate representation of brain activity remains highly challenging, primarily due to the limited paired samples and the low signal-to-noise ratios of fMRI. To tackle these challenges, we introduce Cogformer, a unified multi-scale brain representation method. It is the first to learn bra",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41734131/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "IEEE Trans Med Imaging",
+      "journal_issn": "0278-0062",
+      "impact_factor": 9.8
+    },
+    {
+      "title": "Regional brain age is decreased in children with sickle cell anemia.",
+      "summary": "DeepBrainNet, a machine learning tool, uses magnetic resonance imaging (MRI) to predict an individual's brain age, allowing calculation of the brain age gap (predicted chronological age) for use as a biomarker of brain health. We tested the DeepBrainNet tool in sickle cell anemia (SCA) on 210 brain MRIs from 130 children (90 with SCA; 40 healthy controls) to investigate the hypothesis that children with SCA would have a younger predicted brain age than healthy controls as an index of aberrant br",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733950/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Blood Adv",
+      "journal_issn": "2473-9529",
+      "impact_factor": 7.1
+    },
+    {
+      "title": "Clinical utility of Arterial Spin Labeling perfusion images in pediatric neurological emergencies.",
+      "summary": "Cerebral perfusion abnormalities often represent an early and dynamic marker in pediatric neurological emergencies, preceding structural changes detectable by conventional MRI. Arterial Spin Labeling (ASL), a noninvasive and contrast-free perfusion MRI technique, allows for quantitative assessment of cerebral blood flow and is gaining relevance in acute neuroimaging protocols. This review discusses the diagnostic and prognostic utility of ASL across a range of acute conditions including ischemic",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733885/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Radiol Med",
+      "journal_issn": "0033-8362",
+      "impact_factor": 4.8
+    },
+    {
+      "title": "Effects of One Season of Rugby on the Neurological Integrity of Male Adolescent Players.",
+      "summary": "Rugby union is a popular contact sport during which high impact collisions frequently occur. There is concern for the overall brain health of those playing the game, as concussion is a potential outcome of high impact collisions. Repeated sub-concussive collisions may compromise rugby players' neurological integrity, but little is known about the effects on young brains. The brain is still developing during adolescence and may generally be more susceptible to injury, but minimal objective resear",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733814/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Sports Med Open",
+      "journal_issn": "2199-1170",
+      "impact_factor": 5.9
+    },
+    {
+      "title": "A Multimodal MRI Study of the White Matter Microstructural and Hemodynamic Underpinnings of Cognitive Decline in Type 2 Diabetes Mellitus.",
+      "summary": "To explore the relationship between alterations in cerebral white matter microstructure and cerebral blood perfusion underlying cognitive decline in patients with type 2 diabetes mellitus (T2DM). This cross-sectional study enrolled 47 T2DM patients (26 with mild cognitive impairment [T2DM-MCI] and 21 without [T2DM-nMCI]) and 23 healthy controls. All participants underwent multi-post-labeling delay arterial spin labeling and diffusion tensor imaging to assess cerebral blood flow (CBF) and white m",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41733699/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Brain Topogr",
+      "journal_issn": "0896-0267",
+      "impact_factor": 2.9
+    },
+    {
+      "title": "Maternal depression with and without a history of childhood maltreatment and newborn white matter microstructure.",
+      "summary": "Maternal depressive symptoms during pregnancy have consequences for offspring brain development, likely mediated via biological signals. However, gestational biological correlates of maternal depression may differ depending on childhood maltreatment (CM) history. We investigated the association of maternal depressive symptoms in pregnancy and CM history with newborn global white matter microstructure. In a sample of ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731979/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Psychol Med",
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5
+    },
+    {
+      "title": "Exploring neural correlates of automated speech-based cognitive markers through resting-state functional connectivity in aging and at-risk Alzheimer's disease.",
+      "summary": "Digital speech-based assessments provide scalable tools for detecting subtle cognitive decline. Here, we investigated whether digitally derived speech-based composite score of cognition and individual speech features were associated with alterations in functional connectivity (FC) within task-related brain networks in the Alzheimer's disease spectrum, which are known to reflect cognitive performance and disease-related changes. Data were analyzed from 129 participants of the German PROSPECT-AD s",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731608/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Alzheimers Res Ther",
+      "journal_issn": "1758-9193",
+      "impact_factor": 7.6
+    },
+    {
+      "title": "Anxiety symptoms interact with approach motivations in adolescent risk-taking.",
+      "summary": "Adolescence represents a pivotal neurodevelopmental period marked by escalating anxiety symptoms and heightened approach motivations. Although anxiety is typically linked to avoidance, concurrent shifts in motivational systems and neurocircuitry may alter its behavioral and neural expression, shaping developmental trajectories and treatment response. This study investigated how approach motivations (Behavioral Activation System; BAS) interact with anxiety to influence behavior and brain function",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731343/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Dev Psychopathol",
+      "journal_issn": "0954-5794",
+      "impact_factor": 3.7
+    },
+    {
+      "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
+      "summary": "Neuroimaging studies have consistently revealed neuroanatomical abnormalities in individuals with bipolar disorder (BD), major depressive disorder (MDD), and schizophrenia (SZ). However, it remains unknown whether and to what extent disorder-selective gray matter variations occur in these prominent psychiatric disorders. This study conducted a meta-analysis of 25 years of published voxel-based morphometry (VBM) research to assess the presence of selective and robust neuroanatomical substrates of",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731301/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Psychol Med",
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5
+    },
+    {
+      "title": "A systematic review on dysconnectivity in face and emotion processing networks in schizophrenia.",
+      "summary": "Schizophrenia is a complex psychiatric disorder that affects approximately 20 million people worldwide. Patients show face-processing deficits that significantly affect their social interactions and social cognitive abilities (e.g., recognizing human faces). Although face processing has been extensively studied by using functional magnetic resonance imaging (fMRI), there have been very few systematic reviews investigating links between social-cognitive dysfunction, face processing networks, and ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731284/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Cogn Affect Behav Neurosci",
+      "journal_issn": "1530-7026",
+      "impact_factor": 2.7
+    },
+    {
+      "title": "Age-related differences in brain activity despite matched cognitive performance: A moderated-mediation analysis.",
+      "summary": "Despite facing the same task demands, every individual experiences different levels of perceived difficulty. This complicates the interpretation of cognitively induced brain activity due to the confounding of task demands and difficulty. Within the context of aging, differences in brain activity may reflect variations in perceived difficulty or age-related divergence in the recruitment of neural resources. The current work used titrated cognitive demands during a verbal delayed match to sample t",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731211/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Brain Imaging Behav",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
+    },
+    {
+      "title": "Reversible brain functional alterations induced by Short-Term high altitude exposure.",
+      "summary": "High altitude hypoxia is known to induce both physiological and neural alterations, however, the dynamics of brain functional changes following short-term exposure remain unclear. This study aimed to investigate the physiological and neural effects of short-term high altitude exposure and subsequent recovery at low altitude. We assessed hematological parameters and brain functional activity at three time points: one week before ascent, on day 30 of high altitude exposure, and two months after re",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731172/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Brain Imaging Behav",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4
+    },
+    {
+      "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
+      "summary": "Conventional functional connectivity of blood oxygenation level-dependent (BOLD) signals varies with Alzheimer's disease (AD) progression. However, it is unable to describe how white matter (WM) is engaged in brain networks. In this study, we introduced a novel communication connectivity metric, which was defined as the triple-wise correlation coefficient between BOLD signals from pairs of gray matter volume and white matter bundles, to investigate the change of signal transition through WM bund",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730850/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Transl Psychiatry",
+      "journal_issn": "2158-3188",
+      "impact_factor": 6.2
+    },
+    {
+      "title": "Embolic Ischemic Stroke Associated with Maintenance Intravenous Immunoglobulin Therapy.",
+      "summary": "We describe the case of a 51-year-old man who experienced an embolic ischemic stroke during long-term maintenance of intravenous immunoglobulin (IVIG) therapy for chronic inflammatory demyelinating polyradiculoneuropathy (CIDP). At 43 years of age, he was diagnosed with CIDP and had tolerated IVIG well. Immediately after completing the 112th infusion, he exhibited acute right-hand clumsiness. Brain magnetic resonance imaging revealed an acute embolic infarction, and neither risk factors for isch",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730627/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Intern Med",
+      "journal_issn": "0918-2918",
+      "impact_factor": 1.1
+    },
+    {
+      "title": "A Cerebral Ethiodized Embolism after Lymphangiography: A Case Report and Literature Review.",
+      "summary": "A cerebral ethiodized oil embolism is a rare and serious complication of lymphangiography. We herein report a case of a cerebral ethiodized oil embolism after lymphangiography. The patient underwent ultrasound-guided intranodal lymphangiography for refractory chylothorax and chylous ascites due to hilar cholangiocarcinoma. After the procedure, the patient developed a disturbance of consciousness and convulsions. Diffuse embolisms of ethiodized oil micro-droplets in the bilateral cerebral cortex,",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41730621/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25",
+      "journal": "Intern Med",
+      "journal_issn": "0918-2918",
+      "impact_factor": 1.1
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 28 research items. Preference focus is brain-imaging analysis and disease mechanisms: 17 high-priority, 11 medium-priority, 0 low-priority. Mechanism-related items: 15; analysis-method items: 28.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 28,
+      "high_priority": 17,
+      "medium_priority": 11,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 15
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 28
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Exploring neural correlates of automated speech-based cognitive markers through resting-state functional connectivity in aging and at-risk Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731608/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Association of functional brain alterations with β-amyloid, tau, and cognitive decline in Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41736154/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Abnormal signal transmission in white matter revealed by resting-state communication connectivity in Alzheimer's disease: A comprehensive cross-sectional and longitudinal study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730850/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Concurrent multimodal imaging demonstrates that EEG-based excitation/inhibition balance reflects glutamate and GABA balance.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735053/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Multimodal MRI Study of the White Matter Microstructural and Hemodynamic Underpinnings of Cognitive Decline in Type 2 Diabetes Mellitus.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41733699/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "How the brain judges harm: functional networks among intentional and accidental moral evaluation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735754/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A systematic review on dysconnectivity in face and emotion processing networks in schizophrenia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731284/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The genetic landscape of human functional brain connectivity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735316/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731301/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Anxiety symptoms interact with approach motivations in adolescent risk-taking.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731343/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cushing's disease and negative MRI: a single-center series, systematic literature review, and meta-analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735650/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Age-related differences in brain activity despite matched cognitive performance: A moderated-mediation analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731211/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diffusion tensor imaging along the perivascular space in healthy young adults is associated with decreased sustained attention: a preliminary study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735638/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Regional brain age is decreased in children with sickle cell anemia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41733950/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Reversible brain functional alterations induced by Short-Term high altitude exposure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731172/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Maternal depression with and without a history of childhood maltreatment and newborn white matter microstructure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731979/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Global remapping of the sensory homunculus emerges early in childhood development.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735258/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Time-dependent diffusion MRI for differentiating non‑small cell lung‑cancer brain metastases from breast‑cancer brain metastases and gliomas.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735541/",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Impact of cerebral oxygenation-guided resuscitation during immediate postnatal transition on brain injury and brain growth detected by MRI in very preterm neonates: a secondary outcome analysis of the multicenter randomized phase 3 clinical COSGOD III trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41736052/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cogformer: A unified multi-scale brain representation for visual decoding and reconstruction from fMRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41734131/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical utility of Arterial Spin Labeling perfusion images in pediatric neurological emergencies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41733885/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Cerebral Ethiodized Embolism after Lymphangiography: A Case Report and Literature Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730621/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Predicting outcomes in selective fetal growth restriction of monoChOrioNic Twins: an inteRnAtional observational cohort STudy protocol (CONTRAST study).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41734920/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Low-Cost and Detunable Wireless Resonator Glasses for Enhanced Eye MRI With Concurrent High-Quality Whole-Brain MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735193/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Long-term mortality associated with incidental unruptured intracranial aneurysms in neurologically healthy Japanese adults: the Kashima scan study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41735009/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Embolic Ischemic Stroke Associated with Maintenance Intravenous Immunoglobulin Therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41730627/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Effects of One Season of Rugby on the Neurological Integrity of Male Adolescent Players.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41733814/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Acute Neurological and Respiratory Complications Induced by Wasp Stings: A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41734143/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

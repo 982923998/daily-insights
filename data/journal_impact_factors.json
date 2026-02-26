@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-02-26T00:32:24+00:00",
+  "journals": {
+    "AJNR Am J Neuroradiol": {
+      "impact_factor": 3.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 16
+    },
+    "AJR Am J Roentgenol": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "Alzheimers Res Ther": {
+      "impact_factor": 7.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 16
+    },
+    "Am J Case Rep": {
+      "impact_factor": 0.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "Am J Med Genet A": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "Ann R Coll Surg Engl": {
+      "impact_factor": 1.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-24",
+      "seen_count": 16
+    },
+    "Atten Percept Psychophys": {
+      "impact_factor": 1.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "Autism Res": {
+      "impact_factor": 5.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 8
+    },
+    "Blood Adv": {
+      "impact_factor": 7.1,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "BMC Neurol": {
+      "impact_factor": 2.2,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "BMC Psychiatry": {
+      "impact_factor": 3.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 8
+    },
+    "BMJ Open": {
+      "impact_factor": 2.3,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "Brain Imaging Behav": {
+      "impact_factor": 2.4,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-26",
+      "seen_count": 42
+    },
+    "Brain Topogr": {
+      "impact_factor": 2.9,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "Braz J Psychiatry": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "Clin EEG Neurosci": {
+      "impact_factor": 1.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "Cogn Affect Behav Neurosci": {
+      "impact_factor": 2.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-26",
+      "seen_count": 25
+    },
+    "Dev Psychopathol": {
+      "impact_factor": 3.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-25",
+      "seen_count": 16
+    },
+    "Elife": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-26",
+      "seen_count": 17
+    },
+    "Eur Child Adolesc Psychiatry": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "Eur Heart J Cardiovasc Imaging": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "Future Cardiol": {
+      "impact_factor": 1.0,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "Geroscience": {
+      "impact_factor": 5.4,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "IEEE J Biomed Health Inform": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "IEEE Trans Biomed Eng": {
+      "impact_factor": 4.5,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "IEEE Trans Med Imaging": {
+      "impact_factor": 9.8,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "Intern Med": {
+      "impact_factor": 1.1,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-25",
+      "seen_count": 32
+    },
+    "Ital J Pediatr": {
+      "impact_factor": 3.1,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "J Int Neuropsychol Soc": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "J Neural Eng": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-26",
+      "seen_count": 17
+    },
+    "J Neurol": {
+      "impact_factor": 4.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "J Neurosci": {
+      "impact_factor": 4.0,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-25",
+      "seen_count": 16
+    },
+    "J Neurosurg Case Lessons": {
+      "impact_factor": 0.7,
+      "if_year": null,
+      "notes": "Filled from LetPub ISSN search (2694-1902, journalid=44767)",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 16
+    },
+    "J Perinatol": {
+      "impact_factor": 2.4,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "J Speech Lang Hear Res": {
+      "impact_factor": null,
+      "if_year": null,
+      "notes": "",
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "seen_count": 1
+    },
+    "JCI Insight": {
+      "impact_factor": 6.1,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 16
+    },
+    "Magn Reson Med": {
+      "impact_factor": 3.0,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-25",
+      "seen_count": 24
+    },
+    "Mov Disord": {
+      "impact_factor": 7.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 8
+    },
+    "Mult Scler": {
+      "impact_factor": 5.0,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "seen_count": 8
+    },
+    "Nat Commun": {
+      "impact_factor": 15.7,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-25",
+      "seen_count": 24
+    },
+    "Neuropharmacology": {
+      "impact_factor": 4.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 8
+    },
+    "Neuroradiology": {
+      "impact_factor": 2.6,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-26",
+      "seen_count": 9
+    },
+    "Neurosurg Rev": {
+      "impact_factor": 2.5,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-26",
+      "seen_count": 9
+    },
+    "Nicotine Tob Res": {
+      "impact_factor": 3.0,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-24",
+      "seen_count": 16
+    },
+    "Psychol Med": {
+      "impact_factor": 5.5,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-25",
+      "seen_count": 32
+    },
+    "Radiol Med": {
+      "impact_factor": 4.8,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "Rev Neurosci": {
+      "impact_factor": 4.1,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 16
+    },
+    "Sci Rep": {
+      "impact_factor": 3.9,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 8
+    },
+    "Sports Med Open": {
+      "impact_factor": 5.9,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "seen_count": 8
+    },
+    "Stem Cell Res Ther": {
+      "impact_factor": 7.3,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-23",
+      "last_seen": "2026-02-23",
+      "seen_count": 8
+    },
+    "Stroke Vasc Neurol": {
+      "impact_factor": 4.9,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-25",
+      "seen_count": 16
+    },
+    "Transl Psychiatry": {
+      "impact_factor": 6.2,
+      "if_year": null,
+      "notes": "Auto-filled from LetPub database",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-25",
+      "seen_count": 24
+    }
+  }
+}

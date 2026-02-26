@@ -8,7 +8,10 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Ann R Coll Surg Engl",
+      "journal_issn": "0035-8843",
+      "impact_factor": 1.7
     },
     {
       "title": "The role of the orbitofrontal cortex in smoking cue-reactivity in onset phase of smoking behaviour, a fMRI study in adolescents.",
@@ -17,7 +20,56 @@
       "category": "Brain MRI",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "journal": "Nicotine Tob Res",
+      "journal_issn": "1462-2203",
+      "impact_factor": 3.0
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 1,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The hippocampus: myth, memory and magnetic resonance imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41725555/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The role of the orbitofrontal cortex in smoking cue-reactivity in onset phase of smoking behaviour, a fMRI study in adolescents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41725393/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
 }

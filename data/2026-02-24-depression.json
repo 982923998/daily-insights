@@ -8,7 +8,10 @@
       "category": "Depression",
       "source": "pubmed",
       "published_date": "2026-02-24",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Psychol Med",
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5
     },
     {
       "title": "Takotsubo: a systematic review of the neurological and psychological implications of a broken heart.",
@@ -17,7 +20,56 @@
       "category": "Depression",
       "source": "pubmed",
       "published_date": "2026-02-23",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "journal": "Future Cardiol",
+      "journal_issn": "1479-6678",
+      "impact_factor": 1.0
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Identification of a diagnosis-selective neurobiological substrate for bipolar disorder, major depressive disorder, and schizophrenia: a meta-analysis of 57,717 subjects.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41731301/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Takotsubo: a systematic review of the neurological and psychological implications of a broken heart.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41728841/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
 }

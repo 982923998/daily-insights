@@ -181,5 +181,177 @@
       "published_date": "2026-02-16",
       "date": "2026-02-23"
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:28+00:00",
+    "version": 1,
+    "summary": "Captured 20 AI items. Preference focus is new models and new technical architecture: 12 high-priority, 6 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 20,
+      "high_priority": 12,
+      "medium_priority": 6,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 15
+      },
+      {
+        "topic": "new architecture",
+        "count": 7
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "OpenClaw 2026.2.21 Released - Adds Gemini 3.1 Support",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.21",
+        "published_date": "2026-02-21",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Claude Sonnet 4.6 Released in GitHub Copilot",
+        "url": "https://www.reddit.com/r/GithubCopilot/comments/1r7doim/claude_sonnet_46_released/",
+        "published_date": "2026-02-17",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+        "url": "https://github.com/zai-org/GLM-5",
+        "published_date": "2026-02-09",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Claude Code Security - Anthropic Unveils Vulnerability Scanning",
+        "url": "https://www.anthropic.com/news/claude-code-security",
+        "published_date": "2026-02-20",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "PiCO-LM: Run 1-Billion Parameter LLM on $10 Board",
+        "url": "https://github.com/RightNow-AI/picolm",
+        "published_date": "2026-02-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Google DeepMind Lyria 3 - Music Generation AI Model",
+        "url": "https://www.reddit.com/r/machinelearningnews/comments/1r8ec10/google_deepmind_releases_lyria_3_an_advanced/",
+        "published_date": "2026-02-16",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "AI Timeline - 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+        "url": "https://llm-timeline.com/",
+        "published_date": "2026-02-22",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "LobsterAI - Your 24/7 All-Scenario AI Agent",
+        "url": "https://github.com/netease-youdao/LobsterAI",
+        "published_date": "2026-02-12",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Claude in PowerPoint - Anthropic Launches AI-Powered Slide Creation",
+        "url": "https://www.ghacks.net/2026/02/23/anthropic-launches-claude-inside-powerpoint-for-ai-powered-slide-creation-and-editing/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GPT-5.3 'Garlic' A/B Test Goes Live",
+        "url": "https://www.youtube.com/watch?v=vy6wr7KzuWA",
+        "published_date": "2026-02-22",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Google Gemini 3.1 Pro Launched",
+        "url": "https://www.verdict.co.uk/news/google-launches-gemini-3-1-pro/",
+        "published_date": "2026-02-20",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "OpenClaw 2026.2.15 Update - New Features and Improvements",
+        "url": "https://www.reddit.com/r/aicuriosity/comments/1r6536z/openclaw_2026215_update_major_features_and/",
+        "published_date": "2026-02-16",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "OpenAI Developing Smart Speaker, Glasses, and Lamp",
+        "url": "https://www.lowyat.net/2026/383831/openai-develop-smart-speaker-glasses-lamp/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Claude Code Toolkit - Separates Execution from Intelligence Layers",
+        "url": "https://www.reddit.com/r/AIAssisted/comments/1rc6ayb/open_source_claude_code_toolkit_separates/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Llama 3.1 70B on Single RTX 3090 via NVMe-to-GPU",
+        "url": "https://github.com/xaskasdf/ntransformer",
+        "published_date": "2026-02-22",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Vet - Open-Source Tool to Review Coding Agents Work",
+        "url": "https://www.reddit.com/r/codex/comments/1rc8ssk/we_built_vet_an_opensource_tool_that_reviews_your/",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Agent Captcha - CAPTCHA That Only Agents Can Pass",
+        "url": "https://github.com/Dhravya/agent-captcha",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Treni - Single-Binary GPU Runtime for Uncertainty-Aware Agents",
+        "url": "https://treni-docs.pages.dev/docs/",
+        "published_date": "2026-02-22",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "WARN Firehose - Every US Layoff Notice in One Searchable Database",
+        "url": "https://warnfirehose.com",
+        "published_date": "2026-02-22",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Local-First Linux MicroVMs for macOS",
+        "url": "https://shuru.run",
+        "published_date": "2026-02-22",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
 }

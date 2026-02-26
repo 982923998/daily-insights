@@ -1,4 +1,26 @@
 {
   "date": "2026-02-24",
-  "articles": []
+  "articles": [],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 0 research items. Preference focus is brain-imaging analysis and disease mechanisms: 0 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 0; analysis-method items: 0.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [],
+    "recommendations": []
+  }
 }

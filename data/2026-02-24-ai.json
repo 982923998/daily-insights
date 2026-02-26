@@ -289,5 +289,265 @@
       "published_date": "2026-02-23",
       "date": "2026-02-24"
     }
-  ]
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 32 AI items. Preference focus is new models and new technical architecture: 14 high-priority, 10 medium-priority, 8 low-priority. 1 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 32,
+      "high_priority": 14,
+      "medium_priority": 10,
+      "low_priority": 8
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 16
+      },
+      {
+        "topic": "new architecture",
+        "count": 18
+      },
+      {
+        "topic": "business-heavy",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Google Gemini 3.1 Pro Raises the Bar",
+        "url": "https://officechai.com/ai/gemini-3-1-pro-benchmarks/",
+        "published_date": "2026-02-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Claude Sonnet 4.6 Released with Improved Coding and Agent Planning",
+        "url": "https://sdtimes.com/ai/this-week-in-ai-updates-claude-sonnet-4-6-gemini-3-1-pro-and-more-february-20-2026/",
+        "published_date": "2026-02-20",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "pydantic-ai v1.63.0 Adds Gemini 3.1 Pro Support",
+        "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.63.0",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AI Timeline — 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+        "url": "https://news.ycombinator.com/item?id=47119871",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Google Bans OpenClaw Users on Antigravity AI Coding Tool",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-bans-openclaw-users-on-its-ai-coding-tool-antigravity-says-weve-been-seeing-a-massive-increase-in-malicious-usage/articleshow/128742339.cms",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Open-WebUI v0.8.5 Released with Voice Dictation Shortcut",
+        "url": "https://github.com/open-webui/open-webui/releases",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Chinese companies distilled Claude to improve own models, Anthropic says",
+        "url": "https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Gordon: Docker's AI Agent That Understands Your Containers",
+        "url": "https://www.docker.com/blog/gordon-dockers-ai-agent-just-got-an-update/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Microsoft Agent Framework Reaches Release Candidate",
+        "url": "https://devblogs.microsoft.com/foundry/microsoft-agent-framework-reaches-release-candidate",
+        "published_date": "2026-02-20",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "n8n v2.9.2 Released — Workflow Automation Tool",
+        "url": "https://github.com/n8n-io/n8n/releases",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Commotion Launches Enterprise AI Operating System Powered by NVIDIA Nemotron",
+        "url": "https://www.prnewswire.com/news-releases/commotion-launches-enterprise-ai-operating-system-powered-by-nvidia-nemotron-open-models-to-scale-productivity-for-digital-workforces-302694447.html",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "AgentReady – Drop-in proxy that cuts LLM token costs 40-60%",
+        "url": "https://agentready.cloud",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI Coding Tools May Be the End of Freemium Utility Apps",
+        "url": "https://9to5mac.com/2026/02/23/ai-coding-tools-may-be-the-end-of-freemium-utility-apps/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "412 deterministic modules so AI agents stop hallucinating commands",
+        "url": "https://github.com/flytohub",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Attest – Test AI agents with 8-layer graduated assertions",
+        "url": "https://news.ycombinator.com/item?id=47122431",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "dia – A TTS model capable of generating ultra-realistic dialogue",
+        "url": "https://github.com/nari-labs/dia",
+        "published_date": "2026-02-16",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "goose v1.25.0: Sandboxed, Streamlined, and More Secure",
+        "url": "https://block.github.io/goose/blog/2026/02/23/goose-v1-25-0",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: MarkdownLM — Stop Being the Human Middleware for Your AI Agent",
+        "url": "https://news.ycombinator.com/item?id=47124474",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Plyra-guard – intercepts AI agent tool calls before execution",
+        "url": "https://news.ycombinator.com/item?id=47125127",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Comparing Amazon Q and GitHub Copilot Agentic AI in VS Code",
+        "url": "https://visualstudiomagazine.com/articles/2026/02/23/comparing-amazon-q-and-github-copilot-agentic-ai-in-vs-code-tests.aspx",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI agents that control Unity, Godot, and Unreal editors",
+        "url": "https://news.ycombinator.com/item?id=47121900",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI Agents Take Center Stage on GitHub Trending — February 23, 2026",
+        "url": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-23",
+        "published_date": "2026-02-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "v0-system-prompts – Full system prompts from top AI agents",
+        "url": "https://github.com/x1xhlol/v0-system-prompts",
+        "published_date": "2026-02-16",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Suna – Open Source Generalist AI Agent",
+        "url": "https://github.com/kortix-ai/suna",
+        "published_date": "2026-02-16",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "32M lines of AI code – GED to AGI",
+        "url": "https://news.ycombinator.com/item?id=47131592",
+        "published_date": "2026-02-24",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "xAI Pentagon Deal: Grok to Power Classified Systems",
+        "url": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Bt — Plan-first AI Coding Commands for OpenCode",
+        "url": "https://news.ycombinator.com/item?id=47120231",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "IronClaw: Open-Source Rust Implementation of OpenClaw",
+        "url": "https://github.com/nearai/ironclaw",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Coroot: Open-source Observability and APM Tool",
+        "url": "https://www.helpnetsecurity.com/2026/02/23/coroot-open-source-observability-apm-tool/",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Aru AI – local-first AI assistant with semantic memory in browser SQLite",
+        "url": "https://news.ycombinator.com/item?id=47130959",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "AI-context-bridge – Save AI coding context across tools via Git hooks",
+        "url": "https://github.com/himanshuskukla/ai-context-bridge",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "OpenAI's Stargate Data Center Project Struggles",
+        "url": "https://www.theverge.com/2026/02/23/ai-artificial-intelligence-883098/openais-stargate-struggles",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "mentions new models or releases; business-heavy content (deprioritized)"
+      }
+    ]
+  }
 }

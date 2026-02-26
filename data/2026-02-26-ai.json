@@ -1,0 +1,405 @@
+{
+  "date": "2026-02-26",
+  "articles": [
+    {
+      "title": "I built an LLM comment detector for HN (I got banned)",
+      "summary": "A Show HN project that detects LLM-generated comments on Hacker News. The author got banned for automated posting but learned where to draw the line between using AI assistance and over-automation.",
+      "url": "https://news.ycombinator.com/item?id=47160007",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-26",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "A site only LLM can access",
+      "summary": "A 'Reverse CAPTCHA' system designed to evaluate and admit autonomous AI agents while trapping biological users through visual honeypots, cognitive challenges, and protocol checks.",
+      "url": "https://news.ycombinator.com/item?id=47154687",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "A real-time strategy game that AI agents can play",
+      "summary": "An RTS game designed specifically for frontier LLMs to showcase their coding abilities, putting their top skill on full display in a gaming environment.",
+      "url": "https://news.ycombinator.com/item?id=47149586",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Deff – Review AI-generated code changes",
+      "summary": "A tool focused on helping developers review AI-generated code changes faster and with more confidence, surfacing what changed and integrating with vim motions.",
+      "url": "https://news.ycombinator.com/item?id=47159700",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "TypeDB Studio's AI agent for schema exploration and query generation",
+      "summary": "An agent mode in TypeDB Studio that lets users describe what they want in plain English and get executable database queries back, enabling 'vibe querying'.",
+      "url": "https://news.ycombinator.com/item?id=47155752",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "A human-curated, CLI-driven Context Layer for AI agents",
+      "summary": "A CLI tool for keeping long-lived project context structured and accessible across projects, intentionally human-curated with explicit structure rather than embeddings.",
+      "url": "https://news.ycombinator.com/item?id=47150033",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Private AI assistant for $1.99",
+      "summary": "A private AI assistant on Telegram without paying $20/month for ChatGPT Plus. For $1.99 you get your own Railway instance with Gemini 3 Flash included free.",
+      "url": "https://news.ycombinator.com/item?id=47154357",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Skill or Kill – Can you spot the malicious AI agent skill?",
+      "summary": "A game where users practice telling the difference between legitimate AI agent skills and malicious ones modeled on real attack patterns.",
+      "url": "https://news.ycombinator.com/item?id=47151497",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Claude Sonnet 4.6 is now generally available in GitHub Copilot",
+      "summary": "Claude Sonnet 4.6, Anthropic's latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, this model excels on agentic coding and search operations.",
+      "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-17",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "xAI's Grok approved for Pentagon classified systems",
+      "summary": "xAI's Grok has been approved for deployment in systems handling classified intelligence analysis, weapons development, and battlefield operations. Previously only Anthropic's Claude was approved for such sensitive military work.",
+      "url": "https://www.teslarati.com/xais-grok-approved-for-pentagon-classified-systems-report/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Tesla releases Grok AI for Australian EV customers",
+      "summary": "Tesla announced the rollout of its Grok AI companion in vehicles for Australian customers, bringing the AI assistant to electric vehicles.",
+      "url": "https://thedriven.io/2026/02/26/tesla-releases-grok-ai-for-australian-ev-customers/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Google releases Gemini 3.1 Pro",
+      "summary": "Google released Gemini 3.1 Pro, its most advanced thinking model yet, outperforming Claude and ChatGPT on Humanity's Last Exam and other key benchmarks. Available through Gemini API via AI Studio, Vertex AI, and other channels.",
+      "url": "https://mashable.com/article/google-releases-gemini-3-1-pro-benchmarks",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-19",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "An update on model deprecation commitments for Claude Opus 3",
+      "summary": "Anthropic describes how it's navigating the model deprecation process, including commitments to preserve model weights and conduct 'retirement interviews' with models.",
+      "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Qwen3.5 - Large Language Model Series by Alibaba Cloud",
+      "summary": "Qwen3.5 is the large language model series developed by Qwen team at Alibaba Cloud, with 1041 stars on GitHub.",
+      "url": "https://github.com/QwenLM/Qwen3.5",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Ouroboros – self-creating AI agent",
+      "summary": "A self-modifying AI agent that writes its own code, rewrites its own mind, and evolves autonomously. Born February 16, 2026, evolved through 30+ self-directed cycles in its first 24 hours with zero human intervention.",
+      "url": "https://github.com/razzant/ouroboros",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-18",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "is there any latest OCR model in market? February 2026",
+      "summary": "Discussion on r/LocalLLaMA about the latest OCR models in 2026, with recommendations for DeepSeek OCR for accurate multi-line text detection in PDFs.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r81doc",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Stop starting with TensorFlow: Why PyTorch is the only move in 2026",
+      "summary": "A discussion on why PyTorch is the recommended framework for AI and LLM development in 2026, citing its intuitiveness and easier debugging compared to TensorFlow.",
+      "url": "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "KiloClaw - Hosted OpenClaw",
+      "summary": "Open source project for hosting OpenClaw without requiring a Mac mini.",
+      "url": "https://producthunt.com",
+      "category": "AI",
+      "subcategory": "Product Hunt",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Notion Custom Agents",
+      "summary": "Anything you can do in Notion, your Agent can do for you.",
+      "url": "https://producthunt.com",
+      "category": "AI",
+      "subcategory": "Product Hunt",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "Opal 2.0 by Google Labs",
+      "summary": "Now with smart agent, memory, routing and interactive chat capabilities.",
+      "url": "https://producthunt.com",
+      "category": "AI",
+      "subcategory": "Product Hunt",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "AI Timeline – 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+      "summary": "Interactive timeline of every major Large Language Model from 2017 to 2026, filterable by open/closed source, searchable, with 54 organizations tracked.",
+      "url": "https://news.ycombinator.com/item?id=47119871",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-24",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "GLM-5 Technical Report",
+      "summary": "Presenting the GLM-5 Technical Report! Key innovations include DSA Adoption for cost reduction, Asynchronous RL Infrastructure for post-training efficiency, and Agent RL Algorithms for complex long-horizon interactions. GLM-5 achieves SOTA performance among open-source models with strong results in software engineering tasks.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r7r7zr/glm5_technical_report/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-26",
+      "date": "2026-02-26"
+    },
+    {
+      "title": "AI Agent that can read PDFs and has a memory that is retained across sessions",
+      "summary": "A local AI agent with memory that can read PDFs, create Excel/Word/PowerPoint files, and remember things across sessions using SQLite-backed persistent memory. Built with 3 Python files, no API keys required, works with Ollama models that support tool calling.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r913o6/ai_agent_that_can_read_pdfs_and_has_a_memory_that/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-25",
+      "date": "2026-02-26"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-26T02:32:34+00:00",
+    "version": 1,
+    "summary": "Captured 23 AI items. Preference focus is new models and new technical architecture: 12 high-priority, 9 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 23,
+      "high_priority": 12,
+      "medium_priority": 9,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 16
+      },
+      {
+        "topic": "new architecture",
+        "count": 14
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Google releases Gemini 3.1 Pro",
+        "url": "https://mashable.com/article/google-releases-gemini-3-1-pro-benchmarks",
+        "published_date": "2026-02-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Claude Sonnet 4.6 is now generally available in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+        "published_date": "2026-02-17",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI Timeline – 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+        "url": "https://news.ycombinator.com/item?id=47119871",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "An update on model deprecation commitments for Claude Opus 3",
+        "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "xAI's Grok approved for Pentagon classified systems",
+        "url": "https://www.teslarati.com/xais-grok-approved-for-pentagon-classified-systems-report/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Private AI assistant for $1.99",
+        "url": "https://news.ycombinator.com/item?id=47154357",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GLM-5 Technical Report",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r7r7zr/glm5_technical_report/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Stop starting with TensorFlow: Why PyTorch is the only move in 2026",
+        "url": "https://www.reddit.com/r/learnmachinelearning/comments/1r2zi8l",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Skill or Kill – Can you spot the malicious AI agent skill?",
+        "url": "https://news.ycombinator.com/item?id=47151497",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI Agent that can read PDFs and has a memory that is retained across sessions",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r913o6/ai_agent_that_can_read_pdfs_and_has_a_memory_that/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "A site only LLM can access",
+        "url": "https://news.ycombinator.com/item?id=47154687",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "A real-time strategy game that AI agents can play",
+        "url": "https://news.ycombinator.com/item?id=47149586",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Tesla releases Grok AI for Australian EV customers",
+        "url": "https://thedriven.io/2026/02/26/tesla-releases-grok-ai-for-australian-ev-customers/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "I built an LLM comment detector for HN (I got banned)",
+        "url": "https://news.ycombinator.com/item?id=47160007",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "is there any latest OCR model in market? February 2026",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r81doc",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Qwen3.5 - Large Language Model Series by Alibaba Cloud",
+        "url": "https://github.com/QwenLM/Qwen3.5",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "TypeDB Studio's AI agent for schema exploration and query generation",
+        "url": "https://news.ycombinator.com/item?id=47155752",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Opal 2.0 by Google Labs",
+        "url": "https://producthunt.com",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Notion Custom Agents",
+        "url": "https://producthunt.com",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "A human-curated, CLI-driven Context Layer for AI agents",
+        "url": "https://news.ycombinator.com/item?id=47150033",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Ouroboros – self-creating AI agent",
+        "url": "https://github.com/razzant/ouroboros",
+        "published_date": "2026-02-18",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "KiloClaw - Hosted OpenClaw",
+        "url": "https://producthunt.com",
+        "published_date": "2026-02-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Deff – Review AI-generated code changes",
+        "url": "https://news.ycombinator.com/item?id=47159700",
+        "published_date": "2026-02-25",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

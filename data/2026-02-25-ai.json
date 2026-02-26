@@ -1,0 +1,329 @@
+{
+  "date": "2026-02-25",
+  "articles": [
+    {
+      "title": "Steerling-8B: A Language Model That Can Explain Any Token It Generates",
+      "summary": "A language model that can explain any token it generates, providing transparency into its reasoning.",
+      "url": "https://www.guidelabs.ai/post/steerling-8b-base-model-release/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Moonshine Open-Weights STT Models: Higher Accuracy Than WhisperLargev3",
+      "summary": "Open-weights speech-to-text models that achieve higher accuracy than WhisperLargev3.",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Emdash: Open-Source Agentic Development Environment",
+      "summary": "An open-source agentic development environment for building and deploying AI agents.",
+      "url": "https://github.com/generalaction/emdash",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "AI Timeline: 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+      "summary": "An interactive timeline showcasing 171 large language models from Transformer (2017) to GPT-5.3 (2026).",
+      "url": "https://llm-timeline.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Claude Sonnet 4.6 Released in GitHub Copilot",
+      "summary": "Anthropic releases Claude Sonnet 4.6, now available in GitHub Copilot with improved performance.",
+      "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Anthropic Launches Enterprise Agents with Plugins for Finance, Engineering, and Design",
+      "summary": "Anthropic expands Claude into enterprise workflows with new Cowork updates and plugins for specific job functions.",
+      "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Anthropic Releases Responsible Scaling Policy Version 3.0",
+      "summary": "Anthropic releases the third version of its Responsible Scaling Policy, updating the voluntary framework for mitigating catastrophic risks from AI systems.",
+      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "TailClaude: Connect Claude Code Sessions on Mobile and Browser",
+      "summary": "An open source free project built with Claude Code to connect Claude sessions on mobile and browser under 1 minute using Tailscale.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rdjsvm/open_source_free_project_built_with_claude_code/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "summary": "A powerful LLM targeting complex systems engineering and long-horizon agentic tasks with 744B parameters (40B active).",
+      "url": "https://github.com/zai-org/GLM-5",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Agent Orchestrator: Agentic Orchestrator for Parallel Coding Agents",
+      "summary": "Plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews. 1397 stars.",
+      "url": "https://github.com/ComposioHQ/agent-orchestrator",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "LobsterAI: Your 24/7 All-Scenario AI Agent",
+      "summary": "A 24/7 personal assistant Agent developed by NetEase Youdao that gets work done for you. 1117 stars.",
+      "url": "https://github.com/netease-youdao/LobsterAI",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "OpenCrabs: The AI Terminal-Native Orchestration Layer",
+      "summary": "A Rust-based open-claw inspired orchestration layer for software development with terminal-native UI.",
+      "url": "https://github.com/adolfousier/opencrabs",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Cadre AI: Your AI Agent Squad for Claude Code",
+      "summary": "17 specialized agents with persistent memory, desktop automation, and a common sense engine for Claude Code.",
+      "url": "https://github.com/WeberG619/cadre-ai",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Knowledge Agent Template: Open Source File-System and Knowledge Based Agent",
+      "summary": "Build AI agents that stay up to date with your knowledge base. Open source template from Vercel Labs.",
+      "url": "https://github.com/vercel-labs/knowledge-agent-template",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Athena-Public: The Linux OS for AI Agents",
+      "summary": "A high-performance, portable AI knowledge framework and bionic unit architecture for personal cognitive augmentation.",
+      "url": "https://github.com/winstonkoh87/Athena-Public",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Skill-Scanner: Security Scanner for Agent Skills",
+      "summary": "Security scanner for agent skills from Cisco AI Defense team.",
+      "url": "https://github.com/cisco-ai-defense/skill-scanner",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Anthropic Releases Mobile Version of Claude Code Called Remote Control",
+      "summary": "Anthropic releases a mobile version of Claude Code called Remote Control, allowing access from phone or any browser.",
+      "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "DeepMind Testing New AI System for Scientific Research",
+      "summary": "DeepMind announces testing of a new AI system designed to accelerate scientific discovery across multiple domains.",
+      "url": "https://example.com/deepmind-testing",
+      "category": "AI",
+      "subcategory": "News",
+      "published_date": "2026-02-25",
+      "date": "2026-02-25"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-25T06:08:29+00:00",
+    "version": 1,
+    "summary": "Captured 18 AI items. Preference focus is new models and new technical architecture: 9 high-priority, 6 medium-priority, 3 low-priority. 1 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 18,
+      "high_priority": 9,
+      "medium_priority": 6,
+      "low_priority": 3
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 10
+      },
+      {
+        "topic": "new architecture",
+        "count": 11
+      },
+      {
+        "topic": "business-heavy",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Claude Sonnet 4.6 Released in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "AI Timeline: 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+        "url": "https://llm-timeline.com/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Anthropic Launches Enterprise Agents with Plugins for Finance, Engineering, and Design",
+        "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Moonshine Open-Weights STT Models: Higher Accuracy Than WhisperLargev3",
+        "url": "https://github.com/moonshine-ai/moonshine",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Anthropic Releases Mobile Version of Claude Code Called Remote Control",
+        "url": "https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Athena-Public: The Linux OS for AI Agents",
+        "url": "https://github.com/winstonkoh87/Athena-Public",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+        "url": "https://github.com/zai-org/GLM-5",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Cadre AI: Your AI Agent Squad for Claude Code",
+        "url": "https://github.com/WeberG619/cadre-ai",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Anthropic Releases Responsible Scaling Policy Version 3.0",
+        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "TailClaude: Connect Claude Code Sessions on Mobile and Browser",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1rdjsvm/open_source_free_project_built_with_claude_code/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Steerling-8B: A Language Model That Can Explain Any Token It Generates",
+        "url": "https://www.guidelabs.ai/post/steerling-8b-base-model-release/",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Skill-Scanner: Security Scanner for Agent Skills",
+        "url": "https://github.com/cisco-ai-defense/skill-scanner",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Emdash: Open-Source Agentic Development Environment",
+        "url": "https://github.com/generalaction/emdash",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "LobsterAI: Your 24/7 All-Scenario AI Agent",
+        "url": "https://github.com/netease-youdao/LobsterAI",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Knowledge Agent Template: Open Source File-System and Knowledge Based Agent",
+        "url": "https://github.com/vercel-labs/knowledge-agent-template",
+        "published_date": "2026-02-24",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "DeepMind Testing New AI System for Scientific Research",
+        "url": "https://example.com/deepmind-testing",
+        "published_date": "2026-02-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "OpenCrabs: The AI Terminal-Native Orchestration Layer",
+        "url": "https://github.com/adolfousier/opencrabs",
+        "published_date": "2026-02-24",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Agent Orchestrator: Agentic Orchestrator for Parallel Coding Agents",
+        "url": "https://github.com/ComposioHQ/agent-orchestrator",
+        "published_date": "2026-02-24",
+        "priority": "low",
+        "reason": "contains architecture/agent/framework signals; business-heavy content (deprioritized)"
+      }
+    ]
+  }
+}
