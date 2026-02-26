@@ -342,7 +342,7 @@
                                                     const impactText = impactFactor !== null && impactFactor !== undefined && impactFactor !== ''
                                                         ? `IF ${impactFactor}${impactFactorYear ? ` (${impactFactorYear})` : ''}`
                                                         : (impactFactorStatus || '未查到影响因子');
-                                                    const metaText = journalName ? `${journalName} · ${impactText}` : impactText;
+                                                    const journalText = journalName || '期刊未知';
 
                                                     if (!isLinkable) {
                                                         return (
@@ -358,9 +358,14 @@
                                                                         Card not found
                                                                     </span>
                                                                 </div>
-                                                                <p className="text-xs text-slate-700 dark:text-slate-200 px-2.5 py-1.5 rounded-md border border-amber-200/70 dark:border-amber-700/50 bg-amber-50/90 dark:bg-amber-900/25">
-                                                                    {metaText}
-                                                                </p>
+                                                                <div className="grid grid-cols-2 gap-2">
+                                                                    <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-sky-800 dark:text-sky-200 px-2 rounded-md border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25">
+                                                                        {journalText}
+                                                                    </p>
+                                                                    <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
+                                                                        {impactText}
+                                                                    </p>
+                                                                </div>
                                                             </div>
                                                         );
                                                     }
@@ -379,9 +384,14 @@
                                                                     Jump to card
                                                                 </span>
                                                             </div>
-                                                            <p className="text-xs text-slate-700 dark:text-slate-200 px-2.5 py-1.5 rounded-md border border-emerald-200/70 dark:border-emerald-700/50 bg-emerald-50/90 dark:bg-emerald-900/25">
-                                                                {metaText}
-                                                            </p>
+                                                            <div className="grid grid-cols-2 gap-2">
+                                                                <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-sky-800 dark:text-sky-200 px-2 rounded-md border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25">
+                                                                    {journalText}
+                                                                </p>
+                                                                <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
+                                                                    {impactText}
+                                                                </p>
+                                                            </div>
                                                         </button>
                                                     );
                                                 })
