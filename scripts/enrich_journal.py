@@ -16,7 +16,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
 
-from bs4 import BeautifulSoup
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    BeautifulSoup = None
 
 
 PMID_RE = re.compile(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)")
@@ -266,6 +269,8 @@ def load_letpub_if_index(data_dir: Path) -> dict[str, dict]:
 
 def parse_letpub_search_html(html: str, target_issn: str) -> dict | None:
     """Parse LetPub search result table and return first matched row for ISSN."""
+    if BeautifulSoup is None:
+        return None
     issn_token = normalize_issn(target_issn)
     if not issn_token:
         return None
@@ -582,6 +587,11 @@ def main() -> int:
     path = Path(args.file)
     if not path.exists():
         raise FileNotFoundError(f"file not found: {path}")
+
+    if BeautifulSoup is None:
+        print(
+            "[WARN] beautifulsoup4 is not installed; online LetPub ISSN parsing is disabled.",
+        )
 
     inspected, updated, registry_new_count, registry_path = enrich_file(path)
     print(

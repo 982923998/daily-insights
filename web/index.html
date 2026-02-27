@@ -236,8 +236,31 @@
         );
 
         // --- DigestPanel ---
-        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null }) => {
-            if (!digest) return null;
+        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null, showFallback = false }) => {
+            if (!digest) {
+                if (!showFallback) return null;
+                return (
+                    <section className="glass-panel rounded-3xl p-6 mb-6 animate-fade-in">
+                        <div className="flex items-center gap-3 mb-3">
+                            <div
+                                className="w-10 h-10 rounded-xl flex items-center justify-center"
+                                style={{ backgroundColor: hexToRgba(color, 0.12), color }}
+                            >
+                                <Icon name="alert-triangle" size={18} />
+                            </div>
+                            <div>
+                                <h3 className="font-bold text-slate-900 dark:text-slate-100">
+                                    {domainLabel ? `${domainLabel} Digest` : 'Digest'}
+                                </h3>
+                                <p className="text-xs text-slate-400 font-mono">Generated: N/A</p>
+                            </div>
+                        </div>
+                        <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                            Digest is missing for this run. Articles are available below; re-run fetch to regenerate digest.
+                        </p>
+                    </section>
+                );
+            }
             const stats = digest.stats || {};
             const recommendations = Array.isArray(digest.recommendations) ? digest.recommendations : [];
             const topics = Array.isArray(digest.focus_topics) ? digest.focus_topics : [];
@@ -854,6 +877,13 @@
                                     anchorByUrl={anchorByUrl}
                                     articleByUrl={articleByUrl}
                                     onJumpToArticle={jumpToArticle}
+                                    showFallback={Boolean(
+                                        activeDomainObj &&
+                                        articles.some(article =>
+                                            article._domainId === activeDomainObj.id ||
+                                            article.category === activeDomainObj.category
+                                        )
+                                    )}
                                 />
                             )}
 

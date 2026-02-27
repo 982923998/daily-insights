@@ -78,9 +78,9 @@ enrich_journal() {
         return 0
     fi
     if ! enrich_output=$(python3 "$ENRICH_JOURNAL_SCRIPT" "$file" 2>&1); then
-        log "[ERROR] Failed to enrich journal names for: $file"
+        log "[WARN] Journal enrich failed (non-blocking): $file"
         [ -n "$enrich_output" ] && echo "$enrich_output"
-        return 1
+        return 0
     fi
     [ -n "$enrich_output" ] && echo "$enrich_output"
     log "[OK] Journal names enriched: $file"
@@ -113,6 +113,9 @@ run_opencode() {
 git_sync_data() {
     local mode="$1"
     local branch
+    local has_data_changes=0
+    local ahead_count=0
+    local git_output=""
 
     if ! command -v git >/dev/null 2>&1; then
         log "[WARN] git not found; skip auto sync."
@@ -141,30 +144,54 @@ git_sync_data() {
         >/dev/null 2>&1 || true
 
     # Need to check both unstaged and staged changes in data/.
-    if git -C "$PROJECT_DIR" diff --quiet -- data \
-        && git -C "$PROJECT_DIR" diff --cached --quiet -- data; then
+    if ! git -C "$PROJECT_DIR" diff --quiet -- data \
+        || ! git -C "$PROJECT_DIR" diff --cached --quiet -- data; then
+        has_data_changes=1
+    fi
+
+    if [ "$has_data_changes" -eq 1 ]; then
+        if ! git_output=$(git -C "$PROJECT_DIR" commit -m "data: auto-fetch ${mode} ${TODAY}" -- \
+            data \
+            2>&1); then
+            log "[ERROR] git commit failed; skip push."
+            [ -n "$git_output" ] && echo "$git_output"
+            return 1
+        fi
+        [ -n "$git_output" ] && echo "$git_output"
+    fi
+
+    if git -C "$PROJECT_DIR" rev-parse --verify "origin/$branch" >/dev/null 2>&1; then
+        ahead_count=$(git -C "$PROJECT_DIR" rev-list --count "origin/$branch..$branch" 2>/dev/null || echo "0")
+    fi
+
+    if [ "$has_data_changes" -eq 0 ] && [ "$ahead_count" -eq 0 ]; then
         log "[INFO] No data changes to sync."
         return 0
     fi
 
-    if ! git -C "$PROJECT_DIR" commit -m "data: auto-fetch ${mode} ${TODAY}" -- \
-        data \
-        >/dev/null 2>&1; then
-        log "[ERROR] git commit failed; skip push."
-        return 1
+    if git_output=$(git -C "$PROJECT_DIR" push origin "$branch" 2>&1); then
+        [ -n "$git_output" ] && echo "$git_output"
+        log "[OK] Data synced to GitHub (branch: $branch)"
+        return 0
     fi
 
-    if ! git -C "$PROJECT_DIR" pull --rebase origin "$branch" >/dev/null 2>&1; then
+    log "[WARN] Direct git push failed; trying pull --rebase and retry."
+    [ -n "$git_output" ] && echo "$git_output"
+    if ! git_output=$(git -C "$PROJECT_DIR" -c rebase.autoStash=true pull --rebase origin "$branch" 2>&1); then
         log "[ERROR] git pull --rebase failed; push skipped."
+        [ -n "$git_output" ] && echo "$git_output"
         return 1
     fi
+    [ -n "$git_output" ] && echo "$git_output"
 
-    if ! git -C "$PROJECT_DIR" push origin "$branch" >/dev/null 2>&1; then
-        log "[ERROR] git push failed."
+    if ! git_output=$(git -C "$PROJECT_DIR" push origin "$branch" 2>&1); then
+        log "[ERROR] git push failed after rebase retry."
+        [ -n "$git_output" ] && echo "$git_output"
         return 1
     fi
+    [ -n "$git_output" ] && echo "$git_output"
 
-    log "[OK] Data synced to GitHub (branch: $branch)"
+    log "[OK] Data synced to GitHub after rebase retry (branch: $branch)"
     return 0
 }
 
