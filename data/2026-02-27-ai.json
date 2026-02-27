@@ -1,0 +1,357 @@
+{
+  "date": "2026-02-27",
+  "articles": [
+    {
+      "title": "OpenClaw - AI Agent Security Vulnerability",
+      "summary": "OpenClaw, a popular open-source AI agent originally developed by Austrian solo developer Peter Steinberger, is facing a serious security reckoning. The tool can run a personal AI assistant locally and manage emails and control smart home devices. This highlights security concerns with autonomous AI agents.",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/meet-openclaw-the-ai-agent-whose-founder-sam-altman-has-hired-paying-billions-and-is-feared-globally/articleshow/128813567.cms",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Beehive - Multi-Workspace Agent Orchestrator",
+      "summary": "A multi-workspace agent orchestrator for managing AI agents across different environments. Enables coordination of multiple AI agents in separate workspaces.",
+      "url": "https://storozhenko98.github.io/beehive/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Mission Control - Open-source Task Management for AI Agents",
+      "summary": "An open-source task management system specifically designed for AI agents. Helps coordinate and manage AI agent workflows and tasks.",
+      "url": "https://github.com/MeisnerDan/mission-control",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Duck Talk - Real-time Voice Interface for Claude Code",
+      "summary": "A real-time voice interface that allows users to talk to their Claude Code assistant. Enables voice-based interaction with Claude AI.",
+      "url": "https://github.com/dhuynh95/duck_talk",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Mini Claude Code Clone in Rust",
+      "summary": "A minimal Claude Code clone written in Rust, demonstrating the possibility of creating lightweight AI assistant implementations.",
+      "url": "https://github.com/keon/mini-claude-code",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "AI-powered Ouija Board with Fine-tuned 3B Model",
+      "summary": "A local AI-powered Ouija board built with a fine-tuned 3B model, demonstrating creative local AI applications.",
+      "url": "https://github.com/SurceBeats/Planchette",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "February 2026 AI Model Releases: Claude, DeepSeek, Gemini, Grok, GPT-5.3",
+      "summary": "Multiple frontier AI models released in February 2026 including Claude Sonnet 5 (coding and reasoning focus), DeepSeek V4, Gemini 3, Grok updates, and GPT-5.3. A significant month for AI model releases.",
+      "url": "https://www.linkedin.com/posts/asteris-ai_ai-models-launching-in-february-2026-sonnet-activity-7425136568228540416-1auN",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-19",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Gemini 3.1 Pro Takes Top Spot on Multiple Benchmarks",
+      "summary": "Google's Gemini 3.1 Pro was released on February 19, 2026 and immediately claimed top spots on multiple developer-focused benchmarks including ARC-AGI-2, GPQA Diamond, BrowseComp, and LiveCodeBench Pro.",
+      "url": "https://serenitiesai.com/articles/best-ai-models-comparison-2026",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-21",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Claude Opus 4.6: SOTA in Agentic Coding and 1M Context",
+      "summary": "Anthropic released Claude Opus 4.6 with 1M token context and agent teams capabilities. Represents major advancement in agentic coding and long context handling.",
+      "url": "https://jls42.org/en/news/ia-actualites-6-feb-2026-2",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-06",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Gemini Agents Getting First Agentic Capabilities",
+      "summary": "Google Gemini is getting its first agentic capabilities, marking a shift from passive chatbots to autonomous agents that can anticipate, plan, and execute tasks.",
+      "url": "https://stack.com/p/gemini-agentsnewslit.sub-land-instagram-teen",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Shopify Coinbase CEOs Show Off Code Commit Charts As AI Makes Coding Easier",
+      "summary": "Shopify and Coinbase CEOs are showcasing their GitHub contribution graphs again, thanks to AI-powered coding agents like Anthropic's Claude Code and OpenAI's Codex enabling executives to re-engage in software development.",
+      "url": "https://officechai.com/ai/shopify-coinbase-ceos-show-off-their-code-commit-charts-as-ai-makes-coding-easier-than-ever-before/",
+      "category": "AI",
+      "subcategory": "Twitter/X",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "AI Score Tool - Detect AI Generated Code",
+      "summary": "A tool that scans codebases to estimate what percentage was likely written by AI, using pattern analysis, comment-to-code ratios, naming consistency, and heuristic analysis.",
+      "url": "https://dev.to/lakshmisravyavedantham/i-ran-my-own-ai-score-tool-on-6-months-of-my-code-i-had-to-sit-with-the-results-15ea",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "GitHub Open Source Weekly 2026-02-25",
+      "summary": "This week's GitHub trending highlights: Skills ecosystem solidifies, embedded AI rises, and OpenClaw offspring sweep prediction markets. Major focus on AI agents and prompt engineering.",
+      "url": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-02-25",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-25",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Strands Labs - Experimental Agentic AI Development",
+      "summary": "AWS introduces Strands Labs, a new GitHub organization for experimental agentic AI development. The Strands Agents SDK has been downloaded 14 million times since its open source release.",
+      "url": "https://aws.amazon.com/blogs/opensource/introducing-strands-labs-get-hands-on-today-with-state-of-the-art-experimental-approaches-to-agentic-development/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-23",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Anthropic Education Report: The AI Fluency Index",
+      "summary": "Anthropic's research on AI fluency finds that 85.7% of conversations exhibit iteration and refinement. Most common expression is augmentative, treating AI as a thought partner.",
+      "url": "https://www.anthropic.com/research/AI-fluency-index",
+      "category": "AI",
+      "subcategory": "AI for Science",
+      "published_date": "2026-02-23",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "AI Coding Agent Tracker - Public Commit Log",
+      "summary": "A public auditable log tracking AI coding agent commit counts on public GitHub repos over 10-day rolling average. Shows percentage of commits by AI agents.",
+      "url": "https://github.com/powerset-co/github-coding-agent-tracker",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "GitHub Trending Daily 2026-02-24 - AI Agents & Prompt Engineering",
+      "summary": "Top themes: AI Agents & Prompt Engineering (x1hlol/system-prompts-and-models-of-ai-tools), RAG & Knowledge Graphs (VectifyAI/PageIndex), AI Infrastructure (cloudflare/agents, NevaMind-AI/memU).",
+      "url": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-24",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-24",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "HuggingFace Spaces - Trending AI Apps",
+      "summary": "HuggingFace Spaces features trending AI applications including Dia 1.6B for dialogue generation, DeepAI tools, MTEB Leaderboard, and Open LLM Leaderboard.",
+      "url": "https://huggingface.co/spaces?sort=trending",
+      "category": "AI",
+      "subcategory": "HuggingFace Spaces",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Product Hunt AI Tools 2026",
+      "summary": "Trending AI tools on Product Hunt include Claude by Anthropic, ChatGPT, various AI infrastructure tools, and generative AI applications.",
+      "url": "https://www.producthunt.com/categories/ai-software",
+      "category": "AI",
+      "subcategory": "Product Hunt",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "AI Tools for African Founders",
+      "summary": "Five AI tools helping African founders build businesses despite local constraints, enabling tiny teams to compete with global startups. Tools include GitHub Copilot, SurferSEO, Zendesk AI.",
+      "url": "https://techpoint.africa/feature/ai-tools-helping-african-founders/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-27T00:04:07+00:00",
+    "version": 1,
+    "summary": "Captured 20 AI items. Preference focus is new models and new technical architecture: 9 high-priority, 8 medium-priority, 3 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 20,
+      "high_priority": 9,
+      "medium_priority": 8,
+      "low_priority": 3
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 13
+      },
+      {
+        "topic": "new architecture",
+        "count": 11
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "February 2026 AI Model Releases: Claude, DeepSeek, Gemini, Grok, GPT-5.3",
+        "url": "https://www.linkedin.com/posts/asteris-ai_ai-models-launching-in-february-2026-sonnet-activity-7425136568228540416-1auN",
+        "published_date": "2026-02-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Gemini 3.1 Pro Takes Top Spot on Multiple Benchmarks",
+        "url": "https://serenitiesai.com/articles/best-ai-models-comparison-2026",
+        "published_date": "2026-02-21",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Claude Opus 4.6: SOTA in Agentic Coding and 1M Context",
+        "url": "https://jls42.org/en/news/ia-actualites-6-feb-2026-2",
+        "published_date": "2026-02-06",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Gemini Agents Getting First Agentic Capabilities",
+        "url": "https://stack.com/p/gemini-agentsnewslit.sub-land-instagram-teen",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Strands Labs - Experimental Agentic AI Development",
+        "url": "https://aws.amazon.com/blogs/opensource/introducing-strands-labs-get-hands-on-today-with-state-of-the-art-experimental-approaches-to-agentic-development/",
+        "published_date": "2026-02-23",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Product Hunt AI Tools 2026",
+        "url": "https://www.producthunt.com/categories/ai-software",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Shopify Coinbase CEOs Show Off Code Commit Charts As AI Makes Coding Easier",
+        "url": "https://officechai.com/ai/shopify-coinbase-ceos-show-off-their-code-commit-charts-as-ai-makes-coding-easier-than-ever-before/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "OpenClaw - AI Agent Security Vulnerability",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/meet-openclaw-the-ai-agent-whose-founder-sam-altman-has-hired-paying-billions-and-is-feared-globally/articleshow/128813567.cms",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending Daily 2026-02-24 - AI Agents & Prompt Engineering",
+        "url": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-24",
+        "published_date": "2026-02-24",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Beehive - Multi-Workspace Agent Orchestrator",
+        "url": "https://storozhenko98.github.io/beehive/",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Mini Claude Code Clone in Rust",
+        "url": "https://github.com/keon/mini-claude-code",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "HuggingFace Spaces - Trending AI Apps",
+        "url": "https://huggingface.co/spaces?sort=trending",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Duck Talk - Real-time Voice Interface for Claude Code",
+        "url": "https://github.com/dhuynh95/duck_talk",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "AI-powered Ouija Board with Fine-tuned 3B Model",
+        "url": "https://github.com/SurceBeats/Planchette",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Mission Control - Open-source Task Management for AI Agents",
+        "url": "https://github.com/MeisnerDan/mission-control",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI Coding Agent Tracker - Public Commit Log",
+        "url": "https://github.com/powerset-co/github-coding-agent-tracker",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Open Source Weekly 2026-02-25",
+        "url": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-02-25",
+        "published_date": "2026-02-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "AI Tools for African Founders",
+        "url": "https://techpoint.africa/feature/ai-tools-helping-african-founders/",
+        "published_date": "2026-02-26",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "AI Score Tool - Detect AI Generated Code",
+        "url": "https://dev.to/lakshmisravyavedantham/i-ran-my-own-ai-score-tool-on-6-months-of-my-code-i-had-to-sit-with-the-results-15ea",
+        "published_date": "2026-02-26",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Anthropic Education Report: The AI Fluency Index",
+        "url": "https://www.anthropic.com/research/AI-fluency-index",
+        "published_date": "2026-02-23",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}
