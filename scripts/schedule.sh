@@ -40,9 +40,9 @@ yellow() { echo "\033[33m$*\033[0m"; }
 
 # ── 安装 ─────────────────────────────────────────────────
 do_install() {
-    OPENCODE_PATH=$(which opencode 2>/dev/null)
-    if [ -z "$OPENCODE_PATH" ]; then
-        red "[ERROR] 未找到 opencode，请先安装后重试"
+    CODEX_PATH=$(which codex 2>/dev/null)
+    if [ -z "$CODEX_PATH" ]; then
+        red "[ERROR] 未找到 codex，请先安装后重试"
         exit 1
     fi
 

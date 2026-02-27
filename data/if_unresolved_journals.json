@@ -1,5 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-02-27T06:13:39+00:00",
-  "journals": {}
+  "updated_at": "2026-02-27T10:57:35+00:00",
+  "journals": {
+    "Neurol Sci": {
+      "journal_name": "Neurol Sci",
+      "journal_issn": "1590-1874",
+      "first_seen": "2026-02-27",
+      "last_seen": "2026-02-27",
+      "seen_count": 2,
+      "last_file": "2026-02-27-brainmri.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    }
+  }
 }

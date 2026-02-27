@@ -33,7 +33,7 @@ check_cmd() {
 MISSING=0
 check_cmd python3  "请安装 Python 3.8+: https://www.python.org"
 check_cmd node     "请安装 Node.js 18+: https://nodejs.org"
-check_cmd opencode "请安装 opencode: https://opencode.ai"
+check_cmd codex    "请安装 Codex CLI: https://github.com/openai/codex"
 
 if [[ $MISSING -eq 1 ]]; then
     echo ""

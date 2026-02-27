@@ -2,47 +2,46 @@
   "date": "2026-02-27",
   "articles": [
     {
-      "title": "Limbic and whole-brain functional connectivity in non-substance abusers with human immunodeficiency virus (HIV).",
-      "summary": "Human immunodeficiency virus (HIV) negatively impacts behavioral health and is co-morbid with neurocognitive and psychiatric disorders, most notably substance use disorder (SUD). Neuroimaging studies repeatedly show diminished functional connectivity in people living with HIV (PLWH). However, previous studies appear to disregard any potential for HIV/SUD co-morbidities, an oversight that represents a potential confound in HIV-related neuroimaging literature. Further, the functional connectivity...",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41746564/",
+      "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+      "summary": "BACKGROUND: Functional magnetic resonance imaging (fMRI) has revealed inconsistent neural activity patterns in major depressive disorder (MDD) across cognitive and affective domains, and this study used an activation likelihood estimation (ALE) meta-analysis to examine brain function abnormalities in working memory, reward processing, and emotion processing. METHODS: A systematic search was conducted in PubMed, Embase, Web of Science, ScienceDirect, and CNKI for fMRI studies comparing MDD patients with healthy controls (HCs), including data up to 3 December 2024. ALE meta-analysis was performed to examine activation patterns. Jackknife sensitivity analysis, risk of bias, and Newcastle-Ottawa scale were used to assess robustness and publication bias. Meta-regression analyses were conducted to explore the impact of covariates on the results. RESULTS: Sixty-nine studies (2,073 MDD individuals and 2,009 HCs) were included. MDD individuals showed hyperactivation in the bilateral parahippocampal gyrus, subcallosal gyrus, lentiform nucleus, left claustrum, insula, and anterior cingulate cortex, alongside hypoactivation in the right lentiform nucleus, parahippocampal gyrus, fusiform gyrus, and other regions. Domain-specific analyses revealed working memory-related hyperactivation in the right middle and superior frontal gyrus, reward-related hyperactivation in the bilateral lentiform nucleus, right claustrum, and left caudate, and emotion-related hyperactivation in the bilateral parahippocampal gyrus, bilateral lentiform nucleus, right subcallosal gyrus, right anterior cingulate cortex, and left claustrum. Jackknife sensitivity analysis confirmed robustness, with no significant publication bias or covariate impact. CONCLUSIONS: Aberrant activation in the lentiform and caudate nuclei across reward and emotion tasks suggests striatal dysfunction plays a key role in emotion-motivation interplay, highlighting the striatum as a potential target for future therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749073/",
       "category": "Brain MRI",
       "source": "pubmed",
-      "journal": "J Neurovirol",
-      "published_date": "2026-02-26",
+      "journal": "Psychol Med",
+      "published_date": "2026-02-27",
       "date": "2026-02-27",
-      "journal_issn": "1355-0284",
-      "impact_factor": 1.9,
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5,
       "impact_factor_status": "已收录影响因子"
     },
     {
-      "title": "Prognostic Value of MRI Anatomical Radiologic Scores for One-Year Neurological Outcome After Severe Traumatic Brain Injury.",
-      "summary": "Severe traumatic brain injury (sTBI) is a major cause of mortality and long-term disability, and early prognostic evaluation is essential to support therapeutic decision-making in intensive care. MRI is the reference imaging modality for detecting diffuse axonal injury (DAI), yet the prognostic accuracy and reproducibility of MRI-based radiologic scoring systems remain uncertain. This study aimed to compare the prognostic performance of five published MRI-based DAI scores for predicting 1-year n...",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41746477/",
+      "title": "CLIPPERS mimicking multifocal brain metastases: a diagnostic challenge.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749027/",
       "category": "Brain MRI",
       "source": "pubmed",
-      "journal": "Neurocrit Care",
-      "published_date": "2026-02-26",
+      "journal": "Neurol Sci",
+      "published_date": "2026-02-27",
       "date": "2026-02-27",
-      "journal_issn": "1541-6933",
-      "impact_factor": 3.6,
-      "impact_factor_status": "已收录影响因子"
+      "journal_issn": "1590-1874",
+      "impact_factor_status": "未查到影响因子"
     },
     {
-      "title": "Impact of a structured quantitative program on [18F]FP-CIT PET interpretation: a multicenter study of diagnostic accuracy, interrater reliability, and reader confidence.",
-      "summary": "This study assessed the impact of a structured quantitative analysis program on diagnostic performance, interrater reliability, and reader confidence in interpreting N-3-[18F]fluoropropyl-2β-carbomethoxy-3β-4-iodophenyl nortropane positron emission tomography ([18F]FP-CIT PET) scans to differentiate idiopathic Parkinson's disease from essential tremor-/drug-induced parkinsonism. This retrospective multicentre study included 637 patients who underwent [18F]FP-CIT PET and brain magnetic resonance ...",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41746303/",
+      "title": "The association between cannabis use and brain reward anticipation: a 12-month longitudinal study of adults and adolescents who use cannabis and age-matched controls.",
+      "summary": "Substance use has been associated with blunted brain responses to non-drug rewards, but findings in people who use cannabis are mixed. Adolescents may be uniquely vulnerable to cannabis-related disruption to reward processing due to ongoing neuromaturation, but longitudinal research is lacking. In this longitudinal fMRI study, we compared brain measures of reward anticipation in 46 adolescents (16-17 years) and adults (26-29 years) who used cannabis (1-7 days/week) and 50 age-matched controls with the Monetary Incentive Delay task at baseline and 12-month follow-up. Region of interest (ROI) analyses adjusted for cigarette/roll-up use, depression, and risk-taking found that reward anticipation activity decreased in the right (p = 0.05, ηp2 = 0.04) and left (p = 0.02, ηp2 = 0.05) ventral striatum from baseline to follow-up in participants who used cannabis compared with control participants. These effects remained in unadjusted models and when including only participants who consistently used or abstained from cannabis during the study period. There were no significant interactions between the cannabis user-group and age-group, or between the user-group, age-group, and time. There were also no cannabis user-group main or interaction effects in full sample ROI analyses for the thalamus, insula, or supplementary motor area, or in exploratory whole-brain analyses. The current results suggest that cannabis use may be associated with reductions in non-drug reward anticipation activity in the ventral striatum, a key part of the brain's reward system. However, there was no evidence of adolescent resilience or vulnerability to cannabis-related changes in brain reward anticipation activity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748910/",
       "category": "Brain MRI",
       "source": "pubmed",
-      "journal": "Br J Radiol",
+      "journal": "Neuropsychopharmacology",
       "published_date": "2026-02-26",
       "date": "2026-02-27",
-      "journal_issn": "0007-1285",
-      "impact_factor": 3.4,
+      "journal_issn": "0893-133X",
+      "impact_factor": 7.1,
       "impact_factor_status": "已收录影响因子"
     },
     {
       "title": "Systems medicine: total body Positron Emission Tomography meets omics.",
-      "summary": "Omics imaging has emerged as an interdisciplinary field focused on integrating data collected from biomedical images and omics analysis. Historically, there is precedent for omics imaging to serve as a superior model for prediction of human diseases, including brain disorders and cancer, versus single technique models (e.g., only imaging data or only omics data). Most of the previous studies in the field of omics imaging have focused on single organ analysis. However, the advent of total-body Po...",
+      "summary": "Omics imaging has emerged as an interdisciplinary field focused on integrating data collected from biomedical images and omics analysis. Historically, there is precedent for omics imaging to serve as a superior model for prediction of human diseases, including brain disorders and cancer, versus single technique models (e.g., only imaging data or only omics data). Most of the previous studies in the field of omics imaging have focused on single organ analysis. However, the advent of total-body Positron Emission Tomography (PET) imaging for clinical use has the potential to transform this landscape by enabling high sensitivity or high throughput multi-organ analysis with methodologies previously established for analysis of omics datasets, such as connectome and pathway analysis tools. Conversely, traditional omics analysis, which lack spatial and structural multi-organ information, can benefit from total-body PET imaging of molecular targets in vivo across multiple organs in humans. In this commentary, the importance of whole-person research enabled by total-body PET, integration of total-body PET with omics techniques and examples successful case studies of imaging omics are described. Although the field of imaging omics is relatively new, discoveries already enabled by this field provide seminal evidence of its importance to advance human disease diagnosis, prognosis and treatment.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41746299/",
       "category": "Brain MRI",
       "source": "pubmed",
@@ -54,34 +53,47 @@
       "impact_factor_status": "已收录影响因子"
     },
     {
-      "title": "Coupling between global brain blood oxygen level-dependent activity and cerebrospinal fluid dynamics in young endurance athletes.",
-      "summary": "Cerebrospinal fluid (CSF) contributes to brain waste clearance through its coupling with cerebral haemodynamics. Aerobic exercise promotes brain health, but its influence on brain waste clearance remains unclear. This study examined the coupling between CSF and cerebral haemodynamics in endurance athletes. Fifteen young male endurance athletes were compared with 16 age-matched sedentary male controls. Resting-state functional magnetic resonance imaging was used to obtain brain global blood oxyge...",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41746126/",
+      "title": "Serotonergic cortico-limbic and executive network dysfunction in Parkinson's disease impulse control disorders: a PET-fMRI study.",
+      "summary": "Impulse control disorders (ICDs) affect up to 45% of Parkinson's disease (PD) patients, yet their neural mechanisms remain unclear. Using multimodal PET and resting-state fMRI in 23 PD patients (11 PDICD + , 12 PD-ICD-) and 14 healthy controls, we identified specific brain pathways underlying ICDs. PDICD+ patients showed steeper delay discounting and altered functional connectivity, including enhanced posterior parietal coupling within executive networks and disrupted salience-executive interactions. Critically, aberrant right supplementary motor area-amygdala connectivity was linked to ICD severity and decisional impulsivity. Path analysis revealed that increased SMA 5-HT₂ₐ receptor availability was associated with enhanced SMA-amygdala coupling, which in turn was positively associated with ICD symptoms. By linking serotonergic dysfunction to disrupted motor-limbic networks and impulsive behavior, this study identifies targetable pathways for managing a common non-motor complication of PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748653/",
       "category": "Brain MRI",
       "source": "pubmed",
-      "journal": "Exp Physiol",
+      "journal": "NPJ Parkinsons Dis",
       "published_date": "2026-02-26",
       "date": "2026-02-27",
-      "journal_issn": "0958-0670",
-      "impact_factor": 2.8,
+      "journal_issn": "2373-8057",
+      "impact_factor": 8.2,
       "impact_factor_status": "已收录影响因子"
     },
     {
-      "title": "Nanozymes Based Biosensors for Detection of Biomarkers in Brain Diseases.",
-      "summary": "Brain diseases, including neurodegenerative disorders, brain tumors, and ischemic strokes, have shown significant threats to human neurological health and quality of life. With the aging population, the incidence of brain diseases continues to rise, further exacerbating public health issues. Traditional diagnostic methods, such as magnetic resonance imaging (MRI) and positron emission tomography (PET), are hindered by limited image resolution and a high reliance on costly equipment. Single-molec...",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41744371/",
+      "title": "Risk calculation circuit abnormalities plus psychosocial risk variables predict problematic substance use in youth with externalizing disorders.",
+      "summary": "Prior research has identified brain regions associated with problematic substance use in youth, yet it remains unclear how neural processes during decision-making contribute to later drug use. Moreover, few studies have integrated psychosocial and environmental risk factors into predictive frameworks. This study investigated whether brain activation during risky decision-making in drug-naïve, high-risk children predicts problematic substance use during adolescence. Youth (n = 95; 64 male, mean baseline age=11.7 years) with externalizing disorders completed the Balloon Analogue Risk Task (BART) during functional MRI. Activation contrasts from six regions of interest, identified using a regularization-based feature selection method, were incorporated into cost-sensitive logistic regression models along with psychosocial and environmental variables, including family history of substance use, parental monitoring, and violence exposure. Models were adjusted for age at conversion to drug use, sex assigned at birth, and maternal education. Psychosocial-only factors showed fair predictive accuracy (AUC = 0.76; accuracy= 0.74) with good specificity and fair sensitivity. Neural activation-only models showed poor predictive accuracy (AUCs = 0.60-0.67; accuracy = 55-78%) with good specificity but limited sensitivity. Incorporating both psychosocial and neural factors substantially improved model performance (AUCs = 0.83-0.86; accuracy up to 82%), with fair sensitivity and good specificity in the adjusted models. These findings suggest that neural activity in regions involving risk evaluation, reward response, and sensory integration, together with relevant psychosocial factors predicts later problematic substance use, emphasizing the value of multidimensional models for early identification youth at elevated risk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748909/",
       "category": "Brain MRI",
       "source": "pubmed",
-      "journal": "Small",
+      "journal": "Neuropsychopharmacology",
       "published_date": "2026-02-26",
       "date": "2026-02-27",
-      "journal_issn": "1613-6810",
-      "impact_factor": 12.1,
+      "journal_issn": "0893-133X",
+      "impact_factor": 7.1,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Prognostic Value of MRI Anatomical Radiologic Scores for One-Year Neurological Outcome After Severe Traumatic Brain Injury.",
+      "summary": "BACKGROUND: Severe traumatic brain injury (sTBI) is a major cause of mortality and long-term disability, and early prognostic evaluation is essential to support therapeutic decision-making in intensive care. MRI is the reference imaging modality for detecting diffuse axonal injury (DAI), yet the prognostic accuracy and reproducibility of MRI-based radiologic scoring systems remain uncertain. This study aimed to compare the prognostic performance of five published MRI-based DAI scores for predicting 1-year neurological outcome, in a cohort of sTBI patients admitted to intensive care. METHODS: We analyzed adult patients with sTBI included in the prospective MRI-COMA cohort (NCT00577954). Inclusion criteria were age ≥ 18 years, admission to ICU for sTBI, and absence of command following within 7 days after sedation withdrawal. Brain MRI was performed between day 7 and day 35 post-injury using standardized T1, FLAIR, T2*/SWI, and diffusion-weighted sequences. Three blinded evaluators (one neurointensivist, two neuroradiologists) independently applied five radiologic scores (Adams, Firsching, Hamdeh, Stockholm, Trondheim). The primary endpoint was the ability of each MRI-based radiologic score to predict 1-year neurological outcome, dichotomized as favorable (GOSE 5-8) or unfavorable (GOSE 1-4). Inter-rater reliability was quantified using Cohen's and Fleiss' kappa coefficients. RESULTS: Between 2007 and 2023, 443 patients were screened and 185 met eligibility criteria. At one year, 111 patients (59%) had an unfavorable outcome. The prognostic performance of the five MRI scores was moderate, with AUCs ranging from 0.60 [CI95 0.52-0.68] to 0.70 [CI95 0.63-0.77], with no significant differences across scores or raters even between the intensivist and radiologists. Inter-rater reliability was fair to moderate (Fleiss' κ = 0.28 [CI95 0.22-0.34] to 0.38 [CI95 0.33-0.43]). CONCLUSION: Conventional MRI-based scores have limited prognostic value and reproducibility in cases of sTBI and are therefore not suitable for accurate and objective neuroprognostication.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746477/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurocrit Care",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1541-6933",
+      "impact_factor": 3.6,
       "impact_factor_status": "已收录影响因子"
     },
     {
       "title": "Poorer Outcomes With Blood Pressure Lowering in Severe White Matter Disease After Thrombectomy.",
-      "summary": "Intensive blood pressure (BP) management after successful endovascular thrombectomy (EVT) worsens outcomes in acute ischemic stroke. White matter hyperintensity (WMH), associated with impaired cerebral autoregulation, is associated with poor outcomes after EVT; however, its role in modifying BP management effects remains unclear. We investigated whether WMH severity modifies the effect of post-EVT BP management on outcomes. This secondary analysis of the OPTIMAL-BP trial (Outcome in Patients Tre...",
+      "summary": "BACKGROUND: Intensive blood pressure (BP) management after successful endovascular thrombectomy (EVT) worsens outcomes in acute ischemic stroke. White matter hyperintensity (WMH), associated with impaired cerebral autoregulation, is associated with poor outcomes after EVT; however, its role in modifying BP management effects remains unclear. We investigated whether WMH severity modifies the effect of post-EVT BP management on outcomes. METHODS: This secondary analysis of the OPTIMAL-BP trial (Outcome in Patients Treated With Intra-arterial Thrombectomy-Optimal Blood Pressure Control; conducted at 19 South Korean stroke centers, 2020-2022) included patients with available Fluid-Attenuated Inversion Recovery images. The trial compared intensive (<140 mm Hg) versus conventional (140-180 mm Hg) systolic BP management for 24 hours post-EVT. WMH severity was assessed via the Fazekas scale (severe defined as a total score ≥3). The primary outcome was functional independence (modified Rankin Scale score, 0-2) at 3 months. Safety outcomes included symptomatic intracerebral hemorrhage within 36 hours and stroke-related death within 3 months. Multivariable logistic regression was used to estimate adjusted odds ratios and 95% CI, adjusting for age, sex, onset-to-reperfusion time, intravenous thrombolysis, complete reperfusion, and baseline stroke severity. RESULTS: Of 271 patients (median, 75.0 years; 59.0% men), 163 (60.1%) had severe WMH. In this group, intensive management was associated with a lower rate of functional independence compared with conventional management (29.9% versus 51.3%; adjusted odds ratio, 0.36 [95% CI, 0.16-0.79]; P=0.011). In contrast, no significant difference was observed in patients with mild WMH (55.8% versus 69.6%; adjusted odds ratio, 0.77 [95% CI, 0.31-1.95]; P=0.584). Symptomatic intracerebral hemorrhage and stroke-related death rates did not differ by BP management in either group. CONCLUSIONS: Intensive BP management post-EVT was associated with poorer functional outcomes, particularly in patients with severe WMH. WMH burden may modify BP control effects, supporting individualized BP targets based on WMH severity. REGISTRATION: URL: https://clinicaltrials.gov/study; Unique identifier: NCT04205305.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41744094/",
       "category": "Brain MRI",
       "source": "pubmed",
@@ -93,8 +105,99 @@
       "impact_factor_status": "已收录影响因子"
     },
     {
+      "title": "Personalized brain decoding of spontaneous pain in individuals with chronic pain.",
+      "summary": "Spontaneous pain is a hallmark of chronic pain disorders, but its assessment remains limited by the lack of objective biomarkers. Here we used precision functional magnetic resonance imaging data, collected over more than half a year from two individuals with chronic pain, to develop personalized brain-decoding models of spontaneous pain. The personalized decoding models accurately tracked fluctuations in spontaneous pain intensity across sessions, runs and minutes (Participant 1: prediction-outcome correlation, r = 0.40-0.61; Participant 2: r = 0.51-0.65) and effectively discriminated between median-dichotomized high- versus low-pain states (Participant 1: area under the curve = 0.71-0.87; Participant 2: area under the curve = 0.76-0.93). Model performance improved with increased training data, with conventional data quantities failing to achieve significant predictive accuracy. Furthermore, each model relied on individually unique brain features and did not generalize across participants. This study indicates that functional magnetic resonance imaging can assess spontaneous pain, highlighting the need for precise, patient-specific approaches.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748786/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1097-6256",
+      "impact_factor": 20.0,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Novel activating SNRNP70-ALK fusion in congenital infant-type hemispheric glioma displays clinical response to lorlatinib: a case-report.",
+      "summary": "We report a child with an antenatally detected brain tumor that progressed over three years' time despite surgery, chemo- and proton therapy. Retrospective whole-genome and transcriptome sequencing with methylation analysis of primary tumor tissue led to the molecular diagnosis infant-type hemispheric glioma, and identified a novel SNRNP70::ALK fusion, providing a therapeutic target for compassionate-use precision treatment with the ALK tyrosine kinase inhibitor lorlatinib. Functional studies confirmed the fusion protein to be expressed and active in the patient's tumor. After two years of therapy, the child has sustained partial tumor regression on MRI and no new neurological symptoms. We conclude that comprehensive multi-omics analyses are required for correct molecular diagnosis in childhood CNS tumors and can radically impact patient outcome by identifying molecular targets for precision treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748687/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "NPJ Precis Oncol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "2397-768X",
+      "impact_factor": 8.0,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Nanozymes Based Biosensors for Detection of Biomarkers in Brain Diseases.",
+      "summary": "Brain diseases, including neurodegenerative disorders, brain tumors, and ischemic strokes, have shown significant threats to human neurological health and quality of life. With the aging population, the incidence of brain diseases continues to rise, further exacerbating public health issues. Traditional diagnostic methods, such as magnetic resonance imaging (MRI) and positron emission tomography (PET), are hindered by limited image resolution and a high reliance on costly equipment. Single-molecule detection technologies, such as digital ELISA, have shown great promise for improving sensitivity, but their complex procedures and high costs remain barriers. Nanozymes, nanomaterials with enzyme-like activity, have emerged as a potential alternative. These materials offer high stability and lower costs in comparison with natural enzymes, making them ideal for portable, high-throughput diagnostics. In this review, we mainly summarize the types and applications of nanozymes with peroxidase-like activity and oxidase-like activity in brain disease biomarker detection and discuss the challenges and future directions for their clinical use.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41744371/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Small",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1613-6810",
+      "impact_factor": 12.1,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Maternal hyperglycemia during pregnancy is associated specifically with larger hypothalamic volumes at 12 years of age.",
+      "summary": "Maternal hyperglycemia is associated with higher risk of metabolic diseases in offspring. Despite various hypotheses, the exact mechanisms remain unclear and the neural implication is yet to be fully investigated. The hypothalamus plays a critical role in energy regulation. In utero exposure to maternal hyperglycemia might selectively affect the developing hypothalamus. To test this hypothesis, we investigated associations between in utero exposure to maternal hyperglycemia and hypothalamic volume at 10-12 years of age. We included 82 mother-child pairs from the Gen3G prospective birth cohort, followed up 10-12 years after birth. Women underwent a 75g Oral Glucose Tolerance Test (OGTT) at 24-30 weeks of gestation, and we calculated the area-under-the-curve of glucose (AUCgluc) from maternal glucose measurements at fasting, 1h and 2h during OGTT to reflect prenatal hyperglycemia exposure. During the follow-up visit at 10-12 years of age, a subsample of children (n = 82) completed 3 T brain magnetic resonance imaging (MRI) to quantify brain volumes with FreeSurfer 7. We used Pearson correlations and partial correlations with adjustments to test associations between the AUCgluc and offspring hypothalamic brain volumes. We found that higher maternal AUCgluc was associated with greater total offspring hypothalamic volume (r = 0.30; p = 0.006). In comparison, no other brain region was significantly correlated with the maternal AUCgluc. Correlations remain significant when adjusted for maternal or offspring's variables. Overall, we found that higher maternal glycemic response following OGTT in pregnancy appears associated with larger offspring hypothalamic volume. Our results suggest that prenatal exposure to hyperglycemia may lead to hypothalamic programming.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41742771/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Dev Orig Health Dis",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "2040-1744",
+      "impact_factor": 1.5,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Magnetic resonance microscopy maps widespread effects of Alzheimer's disease on brain structures and behavior in mice.",
+      "summary": "Alzheimer's disease has widespread effects on brain structure, function and behavior, but we lack a systematic dissection of its impact across hundreds of forebrain and brainstem regions. Here, using diffusion tensor MRI at 25 µm, we mapped the global consequences of mutations in APP and PSEN1 across 231 regions of interest (ROIs) in male and female 5×FAD BXD hybrid mice at 14 months. Over half of the ROIs change in volume along rostrocaudal and mediolateral axes of the CNS, with unexpected swelling in the neocortex, hippocampus and amygdala of up to 10%, counterbalanced by shrinkage in the thalamus, brainstem and most white matter tracts. Yet, total brain volume is unaltered. Variation in individual ROI volumes is highest in females. Differences in fear acquisition and contextual memory performance covary with volumes of several regions and can have opposite polarities between cases and controls. These structural benchmarks establish a foundation for testing therapeutic interventions in preclinical trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748785/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1097-6256",
+      "impact_factor": 20.0,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Limbic and whole-brain functional connectivity in non-substance abusers with human immunodeficiency virus (HIV).",
+      "summary": "Human immunodeficiency virus (HIV) negatively impacts behavioral health and is co-morbid with neurocognitive and psychiatric disorders, most notably substance use disorder (SUD). Neuroimaging studies repeatedly show diminished functional connectivity in people living with HIV (PLWH). However, previous studies appear to disregard any potential for HIV/SUD co-morbidities, an oversight that represents a potential confound in HIV-related neuroimaging literature. Further, the functional connectivity of limbic neural substrates underlying reward and SUD (e.g., nucleus accumbens, amygdala, and hippocampus) remain unexplored in HIV. Here, we obtained resting-state functional magnetic resonance imaging (rsfMRI) data from a small population of HIV-positive people with no history of SUD. Functional connectivity in people with HIV was generally reduced relative to controls, with the greatest differences occurring between visual cortex and cerebellar vermis and nodules also associated with non-motor functions of cerebellum. Seed-based analyses of left and right nucleus accumbens (NAcc) and hippocampus (Hippo) yielded robust connections with the default mode network in controls. In PLWH, connectivity between NAcc or Hippo as seed recruited the default mode and inferior temporal networks to a lesser extent. Similar seed-based analyses of the amygdala in controls yielded robust connections with inferior temporal lobe regions rather than the default mode network, and exhibited anti-correlations with the executive network. Our results suggest that (1) people with HIV and no SUD history show reduced overall functional connectivity relative to controls, consistent with previous rsfMRI studies of people with HIV, and (2) this reduced connectivity in people with HIV extends to limbic structures underlying reward, even in the absence of SUD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746564/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurovirol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1355-0284",
+      "impact_factor": 1.9,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Impact of a structured quantitative program on [18F]FP-CIT PET interpretation: a multicenter study of diagnostic accuracy, interrater reliability, and reader confidence.",
+      "summary": "OBJECTIVES: This study assessed the impact of a structured quantitative analysis program on diagnostic performance, interrater reliability, and reader confidence in interpreting N-3-[18F]fluoropropyl-2β-carbomethoxy-3β-4-iodophenyl nortropane positron emission tomography ([18F]FP-CIT PET) scans to differentiate idiopathic Parkinson's disease from essential tremor-/drug-induced parkinsonism. METHODS: This retrospective multicentre study included 637 patients who underwent [18F]FP-CIT PET and brain magnetic resonance imaging scans for evaluation of Parkinsonian syndromes at 4 institutions between January 2015 and October 2022. Readers evaluated the scans qualitatively in the pre-program session and with access to quantitative parameters in the post-program session, with a 1-month minimum interval to minimize recall bias. Diagnostic performance metrics (sensitivity, specificity, accuracy), interrater reliability (Cohen's κ), and reader confidence (low/moderate vs. high) were compared. RESULTS: Following program implementation, interrater reliability significantly improved from substantial to almost perfect (Cohen's κ: 0.768 to 0.970; p < 0.001), and a significant shift toward high-confidence ratings was observed (p < 0.001). Diagnostic accuracy also significantly improved from 92.8% to 94.3% (p = 0.036). Although the increase in the area under the curve (0.922 to 0.932) did not reach statistical significance (p = 0.163), likely due to a ceiling effect, reader performance significantly surpassed that of the quantitative parameter alone only after program implementation, whereas it was comparable at baseline. CONCLUSIONS: These findings suggest that integrating quantitative analysis tools may improve diagnostic consistency and reliability in clinical practice. ADVANCES IN KNOWLEDGE: The structured quantitative analysis program significantly improved [18F]FP-CIT PET/CT interpretation by increasing diagnostic accuracy, interrater reliability, and reader confidence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746303/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Br J Radiol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "0007-1285",
+      "impact_factor": 3.4,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
       "title": "Identifying Networks Integrating Anxiety and Metabolism in human Anorexia Nervosa by measuring effects of Caloric and Non-Caloric Meals in the explanatory Randomized NAMA Trial.",
-      "summary": "Anorexia nervosa (AN) is an eating disorder that is mediated by psychological and metabolic factors, yet it is unclear how these factors interact. The NAMA trial objective is to clarify the metabo-psychiatric interaction and identify how it affects AN-patients' behavior. This randomized trial will recruit 36 treatment-naïve female AN patients, 13-18 years of age, and 36 matched healthy controls. Participants will undergo psychiatric assessments followed by 12-hour overnight fasting. In the next ...",
+      "summary": "Anorexia nervosa (AN) is an eating disorder that is mediated by psychological and metabolic factors, yet it is unclear how these factors interact. The NAMA trial objective is to clarify the metabo-psychiatric interaction and identify how it affects AN-patients' behavior. This randomized trial will recruit 36 treatment-naïve female AN patients, 13-18 years of age, and 36 matched healthy controls. Participants will undergo psychiatric assessments followed by 12-hour overnight fasting. In the next morning baseline assessments of outcomes will be performed. Patients will be randomly allocated 1:1 to receive a mixture with calories or receive a mixture without calories. Healthy controls will also be allocated to receive mixtures with/without calories. Mixtures will be standardized for taste and appearance and allocation will be masked. Primary outcome measure is resting-state functional magnetic resonance brain imaging 60 minutes post-consumption of the mixture. Secondary outcomes include: 1. Blood samples to study markers reflecting metabolic states, hunger/satiety, and stress responses, 2. psychometric evaluations of subjective experiences, and 3. In a second meal 3 hours later, effects of previous calorie intake on subsequent food consumption will be assessed. This article describes the study protocol, including analysis plan, for a randomized controlled trial to comprehensively evaluate the effects of calorie intake in AN. The trial will distinguish psychological and metabolic neuronal networks associated with food intake and uncover how their integration affects food intake and other hallmark symptoms in AN. The aim is to accelerate treatment development by identifying brain mechanisms that drive AN. Clinicaltrials.gov identifier: NCT06814002.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41741364/",
       "category": "Brain MRI",
       "source": "pubmed",
@@ -104,12 +207,77 @@
       "journal_issn": "0007-1145",
       "impact_factor": 3.0,
       "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Functional changes of precuneus architecture across newborns, infants, and early adolescents.",
+      "summary": "Brain functional development from birth to adolescence follows the cortical gradient from primary sensorimotor to higher-order association regions. Precuneus (PCun) is crucial in spatial cognition, visual-motor integration, and social cognition. However, functional connectivity changes of PCun subregions in this dynamic developmental period are not known. Multimodal cross-sectional diffusion MRI and resting-state fMRI of subjects from birth to early adolescence were acquired to obtain structural and functional connectivity. PCun in neonates, 1-year-olds, 2-year-olds, and early adolescent subjects were consistently parcellated into four subregions based on structural connectivity of PCun. Significant developmental changes were found in functional connectivity between the parcellated PCun subregions and default mode network (DMN), and between the parcellated PCun subregions and cerebellum network. To understand altered development of PCun in brain disorders, connectivity-based parcellation was performed in the subjects with autism spectrum disorder (ASD). Similar parcellation pattern of PCun was found, but the relative volume of the dorsal-posterior subregion significantly decreased in the subjects with ASD compared to typically developmental subjects. These findings revealed functional developmental patterns of PCun subregions in their connected networks in typical developing brains and revealed PCun subregion alteration in ASD, shedding light onto functional changes of PCun architecture during development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748807/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "2045-2322",
+      "impact_factor": 3.9,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Dual-path deep learning framework for accurate and interpretable brain tumor diagnosis.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749213/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Med Inform Decis Mak",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1472-6947",
+      "impact_factor": 3.8,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Coupling between global brain blood oxygen level-dependent activity and cerebrospinal fluid dynamics in young endurance athletes.",
+      "summary": "Cerebrospinal fluid (CSF) contributes to brain waste clearance through its coupling with cerebral haemodynamics. Aerobic exercise promotes brain health, but its influence on brain waste clearance remains unclear. This study examined the coupling between CSF and cerebral haemodynamics in endurance athletes. Fifteen young male endurance athletes were compared with 16 age-matched sedentary male controls. Resting-state functional magnetic resonance imaging was used to obtain brain global blood oxygen level-dependent (gBOLD) and CSF inflow signals. The gBOLD-CSF coupling was estimated using cross-correlation function and transfer function analyses in time and frequency domains, respectively. The magnitude of gBOLD and CSF oscillations was also quantified by power spectral density. The cross-correlation-derived gBOLD-CSF coupling was similar between athletes and sedentary controls (-0.30 ± 0.26 vs. -0.33 ± 0.22, P = 0.753). Power spectral density of the CSF inflow signal was significantly greater in athletes (2.83 [2.19, 3.47] z2/Hz) than sedentary individuals (1.84 [1.22, 2.46] z2/Hz, P = 0.030), whereas that of the gBOLD signal did not differ between groups. Although transfer function gain did not show a statistically significant group difference, a moderate effect size was observed (1.50 [-0.36, 3.36] vs. 1.24 [-0.06, 2.55], P = 0.051, effect size: 0.523). Transfer function phase and coherence were comparable between groups. Significant frequency dependence was observed for gBOLD power spectral density as well as transfer function gain, phase and coherence across groups. Endurance athletes demonstrated greater CSF fluctuation compared with sedentary individuals. Our findings suggest that endurance training may be linked to changes in CSF dynamics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746126/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Exp Physiol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "0958-0670",
+      "impact_factor": 2.8,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Association of Cardiovascular-Kidney-Syndrome and Brain Macrostructure and Microstructure Injury: A Prospective Cohort Study.",
+      "summary": "AIMS: This study aimed to examine the cross-sectional and longitudinal associations between cardiovascular-kidney-metabolic (CKM) syndrome stages and brain macrostructure and microstructure. MATERIALS AND METHODS: We conducted a prospective, community-based cohort study using data from 3067 adults aged 50-75 years. Participants were classified using the American Heart Association CKM staging system (Stages 0-4). Brain MRI was performed across three waves to assess global/regional volumes, white matter hyperintensity volume (WMHV) and diffusion tensor imaging (DTI) metrics. Adjusted linear regression and linear mixed-effects models were used. RESULTS: Among 3038 participants (mean age 61.9 years, 53.6% female), cross-sectional analyses revealed that advanced CKM stages (3-4) were significantly associated with reduced total brain, grey matter and cerebral white matter volumes, and increased WMHV. Longitudinally, higher baseline CKM stages (particularly Stages 2-3) were associated with accelerated declines in these brain volumes and faster WMHV progression over a median 4.7-year follow-up. DTI analyses further demonstrated a stage-dependent pattern of progressive white matter microstructural deterioration. This evolution progressed from focal alterations in early stages to widespread integrity loss in Stage 4, characterised by significant reductions in fractional anisotropy and elevated mean, axial and radial diffusivities. CONCLUSIONS: Our findings indicate that CKM syndrome severity is associated with abnormalities in brain macrostructure and microstructure. This is evidenced by both progressive white matter microstructural deterioration, which is detectable early, and concomitant, albeit more modest, declines in brain macrostructure. These results underscore the importance of early identification and monitoring of CKM syndrome to help mitigate or delay subsequent decline in brain health.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749423/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Diabetes Obes Metab",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "1462-8902",
+      "impact_factor": 5.7,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "ACR-ASNR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Head.",
+      "summary": "AIM/OBJECTIVES/BACKGROUND: This practice parameter was revised collaboratively by the American College of Radiology (ACR), the American Society of Neuroradiology (ASNR), and the Society for Pediatric Radiology (SPR).The document summarizes clinical indications, protocol and equipment specifications, and radiation safety considerations for head CT. METHODS: This practice parameter was revised according to the process described under the heading The Process for Developing ACR Practice Parameters and Technical Standards on the ACR website (https://www.acr.org/Clinical-Resources/Practice-Parameters-and-Technical-Standards) by the Committee on Practice Parameters - Neuroradiology of the ACR Commission on Neuroradiology and the Committee on Practice Parameters - Pediatric Radiology of the ACR Commission on Pediatric Radiology in collaboration with the ASNR and the SPR. RESULTS: CT of the head is useful for rapid assessment of osseous structures, acute hemorrhage, and calcifications. Primary clinical indications include emergent/urgent imaging of trauma, acute neurologic deficits, ventricle evaluation, interventional planning, and postoperative follow-up. Secondary indications include situations in which MRI is unavailable or contraindicated. Examinations can be performed with conventional energy integrating detector or new photon counting technologies, and should meet specific performance standards. When radiation exposure is deemed medically necessary, dose minimization can be achieved through multiple approaches and depends on patient age, anatomy, and use case. CONCLUSIONS: Appropriate use of head CT requires awareness of clinical indications, protocol and equipment specifications, and radiation safety considerations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748436/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "AJNR Am J Neuroradiol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27",
+      "journal_issn": "0195-6108",
+      "impact_factor": 3.7,
+      "impact_factor_status": "已收录影响因子"
     }
   ],
   "digest": {
-    "generated_at": "2026-02-27T06:13:49+00:00",
+    "generated_at": "2026-02-27T10:57:35+00:00",
     "version": 1,
-    "summary": "Captured 8 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 2 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 8.",
+    "summary": "Captured 21 research items. Preference focus is brain-imaging analysis and disease mechanisms: 14 high-priority, 7 medium-priority, 0 low-priority. Mechanism-related items: 13; analysis-method items: 21.",
     "preference": {
       "focus": [
         "brain imaging data analysis",
@@ -120,22 +288,50 @@
       ]
     },
     "stats": {
-      "total": 8,
-      "high_priority": 6,
-      "medium_priority": 2,
+      "total": 21,
+      "high_priority": 14,
+      "medium_priority": 7,
       "low_priority": 0
     },
     "focus_topics": [
       {
         "topic": "disease mechanism",
-        "count": 5
+        "count": 13
       },
       {
         "topic": "imaging analysis",
-        "count": 8
+        "count": 21
       }
     ],
     "recommendations": [
+      {
+        "title": "Serotonergic cortico-limbic and executive network dysfunction in Parkinson's disease impulse control disorders: a PET-fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748653/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Functional changes of precuneus architecture across newborns, infants, and early adolescents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748807/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Limbic and whole-brain functional connectivity in non-substance abusers with human immunodeficiency virus (HIV).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746564/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Magnetic resonance microscopy maps widespread effects of Alzheimer's disease on brain structures and behavior in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748785/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
       {
         "title": "Impact of a structured quantitative program on [18F]FP-CIT PET interpretation: a multicenter study of diagnostic accuracy, interrater reliability, and reader confidence.",
         "url": "https://pubmed.ncbi.nlm.nih.gov/41746303/",
@@ -144,15 +340,29 @@
         "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
       },
       {
-        "title": "Systems medicine: total body Positron Emission Tomography meets omics.",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41746299/",
+        "title": "Identifying Networks Integrating Anxiety and Metabolism in human Anorexia Nervosa by measuring effects of Caloric and Non-Caloric Meals in the explanatory Randomized NAMA Trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41741364/",
         "published_date": "2026-02-26",
         "priority": "high",
         "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
       },
       {
-        "title": "Nanozymes Based Biosensors for Detection of Biomarkers in Brain Diseases.",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41744371/",
+        "title": "Maternal hyperglycemia during pregnancy is associated specifically with larger hypothalamic volumes at 12 years of age.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41742771/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749073/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Systems medicine: total body Positron Emission Tomography meets omics.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746299/",
         "published_date": "2026-02-26",
         "priority": "high",
         "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
@@ -165,18 +375,60 @@
         "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
       },
       {
-        "title": "Limbic and whole-brain functional connectivity in non-substance abusers with human immunodeficiency virus (HIV).",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41746564/",
+        "title": "Nanozymes Based Biosensors for Detection of Biomarkers in Brain Diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41744371/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Risk calculation circuit abnormalities plus psychosocial risk variables predict problematic substance use in youth with externalizing disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748909/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Association of Cardiovascular-Kidney-Syndrome and Brain Macrostructure and Microstructure Injury: A Prospective Cohort Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749423/",
         "published_date": "2026-02-26",
         "priority": "high",
         "reason": "has imaging analysis/method relevance"
       },
       {
-        "title": "Identifying Networks Integrating Anxiety and Metabolism in human Anorexia Nervosa by measuring effects of Caloric and Non-Caloric Meals in the explanatory Randomized NAMA Trial.",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41741364/",
+        "title": "The association between cannabis use and brain reward anticipation: a 12-month longitudinal study of adults and adolescents who use cannabis and age-matched controls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748910/",
         "published_date": "2026-02-26",
         "priority": "high",
         "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Prognostic Value of MRI Anatomical Radiologic Scores for One-Year Neurological Outcome After Severe Traumatic Brain Injury.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746477/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Personalized brain decoding of spontaneous pain in individuals with chronic pain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748786/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Novel activating SNRNP70-ALK fusion in congenital infant-type hemispheric glioma displays clinical response to lorlatinib: a case-report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748687/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Dual-path deep learning framework for accurate and interpretable brain tumor diagnosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749213/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
       },
       {
         "title": "Coupling between global brain blood oxygen level-dependent activity and cerebrospinal fluid dynamics in young endurance athletes.",
@@ -186,9 +438,16 @@
         "reason": "has imaging analysis/method relevance"
       },
       {
-        "title": "Prognostic Value of MRI Anatomical Radiologic Scores for One-Year Neurological Outcome After Severe Traumatic Brain Injury.",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41746477/",
+        "title": "ACR-ASNR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Head.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748436/",
         "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "CLIPPERS mimicking multifocal brain metastases: a diagnostic challenge.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749027/",
+        "published_date": "2026-02-27",
         "priority": "medium",
         "reason": "has imaging analysis/method relevance"
       }

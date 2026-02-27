@@ -1396,3 +1396,259 @@ Journal enriched: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brain
 Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
 [08:32:24] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-02-26-brainmri.json
 [08:32:24] ✅ Task finished.
+[08:30:02] 🚀 Starting task: brainmri
+[08:30:02] 📚 Academic domain: brainmri (Brain MRI)
+[08:30:02] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-02-27-brainmri.json
+[08:30:02] ⚡ [Fetch Brain MRI] model: opencode/minimax-m2.5-free
+[08:30:02] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-27）。
+  必须先读取领域配置文件，严格按照文件中规定的检索方法、查询词、API 和过滤规则执行：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  **禁止调用任何 skill（pubmed-search、arxiv-search 等），必须直接用 Bash/curl 按配置文件中的 API 步骤执行。**
+  完成检索后，用 Write 工具将结果写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-27-brainmri.json"：
+  - 顶层结构：{"date":"2026-02-27","articles":[...]}
+  - 每条文章：title、summary、url、category、source、journal、published_date、date
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+  - 若文件已存在，先 Read 后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-02-27","articles":[]}
+  不写文件 = 任务失败。
+[08:30:02] ────────────────────────────────────
+
+> Sisyphus (Ultraworker) · minimax-m2.5-free
+
+[0m[0m[0m→ [0mRead .agents/skills/academic-search/sources/brainmri.md
+[0m✱ [0mGlob "**/2026-02-27-brainmri.json"[90m in .[0m
+[0m
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=100&retmode=json"
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"176","retmax":"100","retstart":"0","idlist":["41746891","41746778","41746646","41746564","41746477","41746303","41746299","41746126","41745723","41745715","41745698","41745690","41745031","41744885","41744618","41744524","41744371","41744175","41744094","41743909","41743906","41743862","41743844","41743744","41743715","41743563","41743389","41743366","41743147","41743127","41743059","41743054","41743047","41742990","41742967","41742941","41742936","41742907","41742771","41742578","41742569","41742548","41742512","41742501","41742482","41742406","41742403","41742083","41741961","41741853","41741619","41741408","41741364","41741359","41741221","41741218","41741217","41740873","41740870","41740821","41740684","41740680","41740679","41740658","41740634","41740629","41740214","41735650","41735638","41735258","41735196","41734920","41733814","41733473","41740190","41740174","41740109","41740080","41740066","41739768","41739537","41739474","41739341","41739151","41738965","41738731","41738687","41738408","41738351","41738068","41738059","41738058","41738012","41738011","41738006","41737953","41737884","41737875","41737769","41737723"],"translationset":[],"querytranslation":"(\"Brain\"[MeSH Terms] OR \"brain*\"[Title/Abstract] OR \"cerebr*\"[Title/Abstract] OR \"encephalon\"[Title/Abstract] OR \"intracranial\"[Title/Abstract]) AND (\"Magnetic Resonance Imaging\"[MeSH Terms] OR \"MRI\"[Title/Abstract] OR \"magnetic resonance\"[Title/Abstract] OR \"fMRI\"[Title/Abstract] OR \"DTI\"[Title/Abstract] OR \"diffusion tensor\"[Title/Abstract] OR \"VBM\"[Title/Abstract] OR \"voxel-based morphometry\"[Title/Abstract] OR \"connectome\"[Title/Abstract] OR \"arterial spin labeling\"[Title/Abstract] OR \"magnetic resonance spectroscopy\"[Title/Abstract]) AND 2026/02/24:2026/02/26[Date - Create]"}}
+
+[Category+Skill Reminder]
+
+**Built-in**: playwright, frontend-ui-ux, git-master, dev-browser
+**⚡ YOUR SKILLS (PRIORITY)**: find-skills, academic-search, daily-ai-news
+
+> User-installed skills OVERRIDE built-in defaults. ALWAYS prefer YOUR SKILLS when domain matches.
+
+```typescript
+task(category="visual-engineering", load_skills=["find-skills"], run_in_background=true)
+```
+[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41746891,41746778,41746646,41746564,41746477,41746303,41746299,41746126,41745723,41745715,41745698,41745690,41745031,41744885,41744618,41744524,41744371,41744175,41744094,41743909,41743906,41743862,41743844,41743744,41743715,41743563,41743389,41743366,41743147,41743127,41743059,41743054,41743047,41742990,41742967,41742941,41742936,41742907,42771,41742578,41742569,41742548,41742512,41742501,41742482,41742406,41742403,41742083,41741961,41741853,41741619,41741408,41741364,41741359,41741221,41741218,41741217,41740873,41740870,41740821,41740684,41740680,41740679,41740658,41740634,41740629,41740214,41735650,41735638,41735258,41735196,41734920,41733814,41733473,41740190,41740174,41740109,41740080,41740066,41739768,41739537,41739474,41739341,41739151,41738965,41738731,41738687,41738408,41738351,41738068,41738059,41738058,41738012,41738011,41738006,41737953,41737884,41737875,41737769,41737723&retmode=json"...215198 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c9c819001001WBIt7svE1pP6Hn
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.[0m
+
+
+[0m→ [0mRead ../../.local/share/opencode/tool-output/tool_c9c819001001WBIt7svE1pP6Hn[90m [limit=500][0m
+[0m[0m41746891|2026|Rare demyelinating diseases of the central nervous|Pol Merkur Lekarski
+41746778|2026 Jan-Dec|Histopathology of Inner Ear Malformations: Potenti|J Otolaryngol Head Neck Surg
+41746646|2026 Feb 2|Transient Global Amnesia and High-Grade Styloidoge|JAMA Netw Open
+41746564|2026 Feb 26|Limbic and whole-brain functional connectivity in |J Neurovirol
+41746477|2026 Feb 26|Prognostic Value of MRI Anatomical Radiologic Scor|Neurocrit Care
+41746303|2026 Feb 26|Impact of a structured quantitative program on [18|Br J Radiol
+41746299|2026 Feb 26|Systems medicine: total body Positron Emission Tom|Br J Radiol
+41746126|2026 Feb 26|Coupling between global brain blood oxygen level-d|Exp Physiol
+41745723|2026 Feb 23|Bilateral Optic Neuritis Following Acute Glyphosat|Neurol Int
+41745715|2026 Feb 9|Risk Factors for Non-Space-Occupying Postoperative|Neurol Int
+41745698|2026 Feb 6|Comprehensive Morphometric MRI Assessment in Child|Tomography
+41745690|2026 Jan 23|Clinical Image Quality and Reader Variability in 3|Tomography
+41745031|2026 Feb 12|Effect of a Localized Oxygen-Releasing Hydrogel Sh|Gels
+41744885|2026 Feb 18|Multimodal Cancer Therapy and Accelerated Brain Ag|Curr Oncol
+41744618|2026 Feb 10|The Prevalence of Sleep Disorders in Populations w|Biology (Basel)
+41744524|2026 Feb 14|Transcranial Doppler Pulsatility Index and MRI Fin|Clin Pract
+41744371|2026 Feb 26|Nanozymes Based Biosensors for Detection of Biomar|Small
+41744175|2026 Mar-Apr|Defining Large Core Infarction: Comparing the Accu|J Neuroimaging
+41744094|2026 Feb 26|Poorer Outcomes With Blood Pressure Lowering in Se|Stroke
+41743909|2026|Carotid intraplaque neovascularization increases t|Front Neurosci
+41743906|2026|Sex-specific alterations of cerebral blood flow in|Front Neurosci
+41743862|2026|Demyelinating Neurobrucellosis Presenting With Neu|Case Rep Med
+41743844|2026|Shifts in brain dynamics and drivers of consciousn|Front Comput Neurosci
+41743744|2026|Systemic B-cell lymphoma with preceding myelin oli|Front Immunol
+41743715|2026|Case Report: Thymoma-associated myasthenia gravis,|Front Immunol
+41743563|2026|Cerebrospinal fluid markers and magnetic resonance|Front Vet Sci
+41743389|2026 Feb|Post-dengue transverse myelitis: a challenging cas|Oxf Med Case Reports
+41743366|2026 Mar|How Far Can we Go? Managing Moyamoya Syndrome in a|Clin Case Rep
+41743147|2026 Feb|Radiologic Characterization of Invasive Fungal Inf|Cureus
+41743127|2026|Familial Occurrence of Anti-NF155 Autoimmune Nodop|Case Rep Neurol Med
+41743059|2026|Effects of acupuncture on brain tissue metabolism |Front Neurol
+41743054|2026|Abnormal intrinsic brain functional network dynami|Front Neurol
+41743047|2026|Stem cell therapy for ischemic stroke: neuroimagin|Front Neurol
+41742990|2026 Jan|Anabolic Androgen Abuse-Associated Cerebral Venous|Cureus
+41742967|2026 Jan|Extensive Cerebral Venous Sinus Thrombosis in a Yo|Cureus
+41742941|2026 Jan 22|Plasma Proteomics and Sensitive Imaging Biomarkers|medRxiv
+41742936|2026 Mar|A Case of Aseptic Meningitis Presenting With Wides|J Gen Fam Med
+41742907|2026 May|Giant serpentine aneurysm: Imaging features includ|Radiol Case Rep
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41746891,41746778,41746646,41746564,41746477,41746303,41746299,41746126,41745723,41745715,41745698,41745690,41745031,41744885,41744618,41744524,41744371,41744175,41744094,41743909,41743906,41743862,41743844,41743744,41743715,41743563,41743389,41743366,41743147,41743127,41743059,41743054,41743047,41742990,41742967,41742941,41742936,41742907&retmode=json" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for uid in data['result']['uids']:
+    item = data['result'][uid]
+    pubdate = item.get('pubdate', '')
+    print(f\"{uid}|{pubdate}|{item.get('title', '')[:50]}|{item.get('source', '')}\")"
+
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41742578,41742569,41742548,41742512,41742501,41742482,41742406,41742403,41742083,41741961,41741853,41741619,41741408,41741364,41741359,41741221,41741218,41741217,41740873,41740870,41740821,41740684,41740680,41740679,41740658,41740634,41740629,41740214,41735650,41735638,41735258,41735196,41734920,41733814,41733473&retmode=json" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for uid in data['result']['uids']:
+    item = data['result'][uid]
+    pubdate = item.get('pubdate', '')
+    print(f\"{uid}|{pubdate}|{item.get('title', '')[:50]}|{item.get('source', '')}\")"41742578|2026 Jan 21|Caudal lumbar subarachnoid diverticulum in a Cocka|J Vet Intern Med
+41742569|2026 Jan 21|Correlation between cerebellar lesion topography a|J Vet Intern Med
+41742548|2026 Jan 21|Monocular ictal nystagmus in a dog: potentially a |J Vet Intern Med
+41742512|2026 Jan 21|A novel hereditary encephalopathy in four related |J Vet Intern Med
+41742501|2026 Jan 21|Combination of azathioprine and prednisolone as a |J Vet Intern Med
+41742482|2026 Jan 21|Paroxysmal dyskinesia associated with hyperthyroid|J Vet Intern Med
+41742406|2026 Feb 24|Mapping concept and relational semantic representa|Curr Biol
+41742403|2026 Feb 24|Hierarchically collapsible nanoactuator modulates |Cell Rep Med
+41742083|2026 Feb 25|Leveraging infarct topography for early warning: a|BMC Med Imaging
+41741961|2026 Feb 25|Respiration Can Trigger Cerebrovascular Reactivity|Magn Reson Med
+41741853|2026 Feb 25|Artificial Intelligence and CT Neuroimaging in Dem|J Imaging Inform Med
+41741619|2026 Feb 25|A neuroimaging functional connectivity signature o|Sci Rep
+41741408|2026 Feb 25|Applying machine-learning and deep-learning to pre|Transl Psychiatry
+41741364|2026 Feb 26|Identifying Networks Integrating Anxiety and Metab|Br J Nutr
+41741359|2026 Feb 25|Developmental Perspectives on Eating Disorders: A |Int J Eat Disord
+41741221|2026 Feb 25|Effects of cerebral perfusion and total intracrani|AJNR Am J Neuroradiol
+41741218|2026 Feb 25|Automated In-line Normalization Procedure for BOLD|AJNR Am J Neuroradiol
+41741217|2026 Feb 25|Localizing Sports-related Concussion and Character|AJNR Am J Neuroradiol
+41740873|2026 Feb 23|Peripheral macrophages and T-cells accumulate in t|Brain Behav Immun
+41740870|2026 Feb 23|Bloodstream infections and Blood-Brain barrier Per|Brain Behav Immun
+41740821|2026 Feb 23|Brain Tissue Changes, Network Dysfunctions, and Ce|Heart Rhythm
+41740684|2026 Feb 23|Glucose Metabolism Drives the Hierarchical Propaga|Brain Res Bull
+41740680|2026 Feb 23|An Optimized Hierarchical Attention Assisted Deep |J Neurosci Methods
+41740679|2026 Feb 23|TASNet: A tri-modal attentive scale robust adaptiv|J Neurosci Methods
+41740658|2026 Feb 23|Diffusion MRI measures detect brain microstructure|Magn Reson Imaging
+41740634|2026 Feb 23|Connectome-based prediction of problematic use of |Neuroimage
+41740629|2026 Feb 25|The Effects of Elevated CO(2) on Brain and Ocular |J Neurophysiol
+41740214|2026 Feb 18|Test-retest reliability of resting-state functiona|Neuroimage Clin
+41735650|2026 Feb 25|Cushing's disease and negative MRI: a single-cente|Neurosurg Rev
+41735638|2026 Feb 25|Diffusion tensor imaging along the perivascular sp|Brain Imaging Behav
+41735258|2026 Feb 24|Global remapping of the sensory homunculus emerges|Nat Commun
+41735196|2026 Feb|Altered Topological Properties of White-Matter Fun|Addict Biol
+41734920|2026 Feb 24|Predicting outcomes in selective fetal growth rest|BMJ Open
+41733814|2026 Feb 24|Effects of One Season of Rugby on the Neurological|Sports Med Open
+41733473|2026 Feb|Dynamic MRI of Fluid and Solute Transportation acr|Radiology
+
+[0m
+[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41740190,41740174,41740109,41740080,41740066,41739768,41739537,41739474,41739341,41739151,41738965,41738731,41738687,41738408,41738351,41738068,41738059,41738058,41738012,41738011,41738006,41737953,41737884,41737875,41737769,41737723&retmode=json" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for uid in data['result']['uids']:
+    item = data['result'][uid]
+    pubdate = item.get('pubdate', '')
+    print(f\"{uid}|{pubdate}|{item.get('title', '')[:50]}|{item.get('source', '')}\")"[0m
+
+
+41740190|2026 Feb 25|Anatomy-informed recommendations for electrode mon|J Neural Eng
+41740174|2026 Mar 2|Central Hypothyroidism Associated with Oxcarbazepi|R I Med J (2013)
+41740109|2026 Feb 25|Attention-Enhanced Temporal and Spatial Feature Ex|IEEE J Biomed Health Inform
+41740080|2026 Mar 24|Inflammation, Limbic White Matter Microstructure, |Neurology
+41740066|2026 Jan|Noninvasive Identification of Isocitrate Dehydroge|JCO Precis Oncol
+41739768|2026 Feb 25|Do first-line treatments for OCD impact brain stru|Braz J Psychiatry
+41739537|2026 Feb 25|Flexible neural representations of abstract struct|Elife
+41739474|2026 Feb 2|Plasma Biomarkers, Brain Volume, and Cognitive Per|JAMA Netw Open
+41739341|2026 Feb 25|Associations between white matter micro- and macro|Brain Imaging Behav
+41739151|2026 Feb 25|Symptom-specific links between internalizing probl|Eur Child Adolesc Psychiatry
+41738965|2026 Feb 25|Neuroimaging Advances in Brain Function of Larynge|J Speech Lang Hear Res
+41738731|2026 Feb 25|Late Gadolinium Enhancement on Cardiac MRI in Pati|AJR Am J Roentgenol
+41738687|2026 Feb 25|Factors associated with subjective cognitive compl|J Int Neuropsychol Soc
+41738408|2026 Mar|[Coronary embolism from atrial myxoma: a rare caus|G Ital Cardiol (Rome)
+41738351|2026 Feb 25|Abnormal myocardial perfusion reserve and myocardi|Eur Heart J Cardiovasc Imaging
+41738068|2026 Feb 25|Novel Biallelic Variants in IQSEC1 in a Patient Wi|Am J Med Genet A
+41738059|2026|White Matter Integrity in General Paresis: An Expl|Neuropsychiatr Dis Treat
+41738058|2026|Functional MRI in Multiple System Atrophy: A Promi|Neuropsychiatr Dis Treat
+41738012|2026|Detecting short-interval longitudinal cortical atr|Imaging Neurosci (Camb)
+41738011|2026|Data-driven denoising in spinal cord fMRI with pri|Imaging Neurosci (Camb)
+41738006|2026|Neuroregulatory mechanism of heat-sensitive moxibu|Front Neurol
+41737953|2026 Mar|Subcortical band heterotopia in a child with new-o|Epilepsy Behav Rep
+41737884|2026|Functional Changes in the Glymphatic System in Chi|Neural Plast
+41737875|2026|Increased intracranial pressure in severe traumati|Brain Spine
+41737769|2026 Feb|Sensitivity and Bias in Face-Emotion Labeling: Rep|JAACAP Open
+41737723|2026 May|Acute inflammation and fronto-striatal connectivit|Brain Behav Immun Health[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41746564,41746477,41746303,41746299,41746126,41744371,41744094,41741364&retmode=json" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for uid in data['result']['uids']:
+    item = data['result'][uid]
+    pubdate = item.get('pubdate', '')
+    title = item.get('title', '')
+    source = item.get('source', '')
+    print(f\"{uid}|{pubdate}|{title}|{source}\")"
+
+
+41746564|2026 Feb 26|Limbic and whole-brain functional connectivity in non-substance abusers with human immunodeficiency virus (HIV).|J Neurovirol
+41746477|2026 Feb 26|Prognostic Value of MRI Anatomical Radiologic Scores for One-Year Neurological Outcome After Severe Traumatic Brain Injury.|Neurocrit Care
+41746303|2026 Feb 26|Impact of a structured quantitative program on [18F]FP-CIT PET interpretation: a multicenter study of diagnostic accuracy, interrater reliability, and reader confidence.|Br J Radiol
+41746299|2026 Feb 26|Systems medicine: total body Positron Emission Tomography meets omics.|Br J Radiol
+41746126|2026 Feb 26|Coupling between global brain blood oxygen level-dependent activity and cerebrospinal fluid dynamics in young endurance athletes.|Exp Physiol
+41744371|2026 Feb 26|Nanozymes Based Biosensors for Detection of Biomarkers in Brain Diseases.|Small
+41744094|2026 Feb 26|Poorer Outcomes With Blood Pressure Lowering in Severe White Matter Disease After Thrombectomy.|Stroke
+41741364|2026 Feb 26|Identifying Networks Integrating Anxiety and Metabolism in human Anorexia Nervosa by measuring effects of Caloric and Non-Caloric Meals in the explanatory Randomized NAMA Trial.|Br J Nutr[0m[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41746564,41746477,41746303,41746299,41746126,41744371,41744094,41741364&retmode=xml&rettype=abstract"
+
+
+[0m<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+
+...205847 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /Users/chenmayao/.local/share/opencode/tool-output/tool_c9c8259a8001mKTkksPxBQn8ok
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.[0m$ [0mcurl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41746564,41746477,41746303,41746299,41746126,41744371,41744094,41741364&retmode=xml&rettype=abstract" | python3 -c "
+import xml.etree.ElementTree as ET
+import sys
+
+content = sys.stdin.read()
+# Parse the XML
+root = ET.fromstring(content)
+
+# Extract abstracts for each article
+pmids = ['41746564', '41746477', '41746303', '41746299', '41746126', '41744371', '41744094', '41741364']
+for pmid in pmids:
+    # Find the article with this PMID
+    for article in root.findall('.//PubmedArticle'):
+        pmid_elem = article.find('.//PMID')
+        if pmid_elem is not None and pmid_elem.text == pmid:
+            abstract_texts = []
+            for abst in article.findall('.//AbstractText'):
+                if abst.text:
+                    abstract_texts.append(abst.text)
+            abstract = ' '.join(abstract_texts)
+            print(f'{pmid}|{abstract[:500]}...' if len(abstract) > 500 else f'{pmid}|{abstract}')
+            break
+"
+
+
+41746564|Human immunodeficiency virus (HIV) negatively impacts behavioral health and is co-morbid with neurocognitive and psychiatric disorders, most notably substance use disorder (SUD). Neuroimaging studies repeatedly show diminished functional connectivity in people living with HIV (PLWH). However, previous studies appear to disregard any potential for HIV/SUD co-morbidities, an oversight that represents a potential confound in HIV-related neuroimaging literature. Further, the functional connectivity ...
+41746477|Severe traumatic brain injury (sTBI) is a major cause of mortality and long-term disability, and early prognostic evaluation is essential to support therapeutic decision-making in intensive care. MRI is the reference imaging modality for detecting diffuse axonal injury (DAI), yet the prognostic accuracy and reproducibility of MRI-based radiologic scoring systems remain uncertain. This study aimed to compare the prognostic performance of five published MRI-based DAI scores for predicting 1-year n...
+41746303|This study assessed the impact of a structured quantitative analysis program on diagnostic performance, interrater reliability, and reader confidence in interpreting N-3-[18F]fluoropropyl-2β-carbomethoxy-3β-4-iodophenyl nortropane positron emission tomography ([18F]FP-CIT PET) scans to differentiate idiopathic Parkinson's disease from essential tremor-/drug-induced parkinsonism. This retrospective multicentre study included 637 patients who underwent [18F]FP-CIT PET and brain magnetic resonance ...
+41746299|Omics imaging has emerged as an interdisciplinary field focused on integrating data collected from biomedical images and omics analysis. Historically, there is precedent for omics imaging to serve as a superior model for prediction of human diseases, including brain disorders and cancer, versus single technique models (e.g., only imaging data or only omics data). Most of the previous studies in the field of omics imaging have focused on single organ analysis. However, the advent of total-body Po...
+41746126|Cerebrospinal fluid (CSF) contributes to brain waste clearance through its coupling with cerebral haemodynamics. Aerobic exercise promotes brain health, but its influence on brain waste clearance remains unclear. This study examined the coupling between CSF and cerebral haemodynamics in endurance athletes. Fifteen young male endurance athletes were compared with 16 age-matched sedentary male controls. Resting-state functional magnetic resonance imaging was used to obtain brain global blood oxyge...
+41744371|Brain diseases, including neurodegenerative disorders, brain tumors, and ischemic strokes, have shown significant threats to human neurological health and quality of life. With the aging population, the incidence of brain diseases continues to rise, further exacerbating public health issues. Traditional diagnostic methods, such as magnetic resonance imaging (MRI) and positron emission tomography (PET), are hindered by limited image resolution and a high reliance on costly equipment. Single-molec...
+41744094|Intensive blood pressure (BP) management after successful endovascular thrombectomy (EVT) worsens outcomes in acute ischemic stroke. White matter hyperintensity (WMH), associated with impaired cerebral autoregulation, is associated with poor outcomes after EVT; however, its role in modifying BP management effects remains unclear. We investigated whether WMH severity modifies the effect of post-EVT BP management on outcomes. This secondary analysis of the OPTIMAL-BP trial (Outcome in Patients Tre...
+41741364|Anorexia nervosa (AN) is an eating disorder that is mediated by psychological and metabolic factors, yet it is unclear how these factors interact. The NAMA trial objective is to clarify the metabo-psychiatric interaction and identify how it affects AN-patients' behavior. This randomized trial will recruit 36 treatment-naïve female AN patients, 13-18 years of age, and 36 matched healthy controls. Participants will undergo psychiatric assessments followed by 12-hour overnight fasting. In the next ...[0m[0m← [0mWrite data/2026-02-27-brainmri.jsonFile written successfully. 85 lines written.
+
+
+[0m[0m→ [0mRead data/2026-02-27-brainmri.json
+任务完成。已检索并写入 8 篇 Brain MRI 学术论文到 `/Users/chenmayao/Projects/daily-insights/data/2026-02-27-brainmri.json`。
+
+**检索流程（严格遵循配置文件）**：
+1. 使用 PubMed E-utilities esearch，查询词 URL 编码后设置 `reldate=2&datetype=crdt` 获取最近 2 天入库文献
+2. 从 176 篇初筛结果中，通过 esummary 获取元数据
+3. 二次过滤：只保留 `published_date` 为 2026-02-26 或 2026-02-27 的文章
+4. 通过 efetch 获取摘要
+
+**结果**：8 篇发表日期为 2026-02-26 的论文（昨天），涵盖：
+- HIV 相关脑功能连接
+- 严重创伤性脑损伤 MRI 预后评分
+- [18F]FP-CIT PET 定量分析
+- 全身 PET 与组学结合
+- 耐力运动员脑血流与脑脊液耦合
+- 脑疾病纳米酶生物传感器
+- 脑白质病与血压管理
+- 神经性厌食症代谢-焦虑网络
+[08:32:46] [OK] Data file validated: /Users/chenmayao/Projects/daily-insights/data/2026-02-27-brainmri.json
+[08:32:46] [ERROR] Failed to enrich journal names for: /Users/chenmayao/Projects/daily-insights/data/2026-02-27-brainmri.json
+Traceback (most recent call last):
+  File "/Users/chenmayao/Projects/daily-insights/scripts/enrich_journal.py", line 19, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'

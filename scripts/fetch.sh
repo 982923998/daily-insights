@@ -1,5 +1,5 @@
 #!/bin/bash
-# fetch.sh — Wrapper for opencode daily news fetching
+# fetch.sh — Wrapper for codex daily news fetching
 # Usage: ./scripts/fetch.sh [ai|all|test|{domain-id}]
 #   ai          — 抓取 AI 新闻（daily-ai-news 技能）
 #   all         — 抓取 AI 新闻 + 全部学术领域
@@ -12,6 +12,14 @@ AI_DATA_FILE="$PROJECT_DIR/data/${TODAY}-ai.json"
 ACADEMIC_SOURCES_DIR="$PROJECT_DIR/.agents/skills/academic-search/sources"
 DIGEST_SCRIPT="$PROJECT_DIR/scripts/generate_digest.py"
 ENRICH_JOURNAL_SCRIPT="$PROJECT_DIR/scripts/enrich_journal.py"
+VALIDATE_DATA_SCRIPT="$PROJECT_DIR/scripts/validate_data.py"
+RUN_WITH_TIMEOUT_SCRIPT="$PROJECT_DIR/scripts/run_with_timeout.py"
+AI_SKILL_DIR="$PROJECT_DIR/.agents/skills/daily-ai-news"
+AI_SKILL_FILE="$AI_SKILL_DIR/SKILL.md"
+AI_OUTPUT_SPEC_FILE="$AI_SKILL_DIR/sources/output.md"
+AI_SOURCES_DIR="$AI_SKILL_DIR/sources"
+ACADEMIC_SKILL_DIR="$PROJECT_DIR/.agents/skills/academic-search"
+ACADEMIC_SKILL_FILE="$ACADEMIC_SKILL_DIR/SKILL.md"
 AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-0}"
 
 mkdir -p "$PROJECT_DIR/data"
@@ -29,8 +37,20 @@ fi
 # shellcheck source=/dev/null
 source "$CONFIG_FILE"
 
+CODEX_TIMEOUT_SECONDS="${CODEX_TIMEOUT_SECONDS:-${OPENCODE_TIMEOUT_SECONDS:-600}}"
+
 if [ -z "${MODEL_ID:-}" ]; then
     echo "[ERROR] MODEL_ID is empty in $CONFIG_FILE"
+    exit 1
+fi
+for required in "$AI_SKILL_FILE" "$AI_OUTPUT_SPEC_FILE" "$ACADEMIC_SKILL_FILE"; do
+    if [ ! -f "$required" ]; then
+        echo "[ERROR] Required skill file not found: $required"
+        exit 1
+    fi
+done
+if ! command -v codex >/dev/null 2>&1; then
+    echo "[ERROR] codex CLI not found. Please install Codex CLI first."
     exit 1
 fi
 
@@ -38,8 +58,9 @@ log() {
     echo "[$(date '+%H:%M:%S')] $1"
 }
 
-validate_json_file() {
+validate_data_file() {
     local file="$1"
+    local domain_id="${2:-}"
     if [ ! -f "$file" ]; then
         log "[ERROR] Data file was not created: $file"
         return 1
@@ -48,7 +69,18 @@ validate_json_file() {
         log "[ERROR] Data file is not valid JSON: $file"
         return 1
     fi
-    log "[OK] Data file validated: $file"
+    if [ ! -f "$VALIDATE_DATA_SCRIPT" ]; then
+        log "[ERROR] Data validator script not found: $VALIDATE_DATA_SCRIPT"
+        return 1
+    fi
+    local validate_output
+    if ! validate_output=$(python3 "$VALIDATE_DATA_SCRIPT" "$file" "$domain_id" 2>&1); then
+        log "[ERROR] Data quality check failed: $file"
+        [ -n "$validate_output" ] && echo "$validate_output"
+        return 1
+    fi
+    [ -n "$validate_output" ] && echo "$validate_output"
+    log "[OK] Data file validated (schema + quality): $file"
     return 0
 }
 
@@ -87,26 +119,77 @@ enrich_journal() {
     return 0
 }
 
-run_opencode() {
+run_codex() {
     local title="$1"
     local prompt="$2"
+    local timeout_sec="${CODEX_TIMEOUT_SECONDS:-600}"
+    local provider="${CODEX_PROVIDER:-}"
+    local provider_args=()
+    local trace_file=""
 
     log "⚡ [$title] model: $MODEL_ID"
+    if [ -n "$provider" ]; then
+        provider_args=(-c "model_provider=\"$provider\"")
+        log "⚡ [$title] provider: $provider"
+    fi
+    if ! [[ "$timeout_sec" =~ ^[0-9]+$ ]]; then
+        log "[WARN] Invalid CODEX_TIMEOUT_SECONDS=$timeout_sec, fallback to 600"
+        timeout_sec=600
+    fi
+    if [ "$timeout_sec" -gt 0 ]; then
+        log "⏱️ [$title] timeout: ${timeout_sec}s"
+    else
+        log "⏱️ [$title] timeout: disabled"
+    fi
     log "──── PROMPT ────────────────────────"
     while IFS= read -r line; do
         [ -n "$line" ] && echo "  $line"
     done <<< "$prompt"
     log "────────────────────────────────────"
 
-    opencode run "$prompt" \
-        --title "$title" \
-        --model "$MODEL_ID" 2>&1
+    trace_file=$(mktemp "/tmp/codex-run-XXXXXX.log")
 
-    local exit_code=$?
+    if [ "$timeout_sec" -gt 0 ]; then
+        if [ ! -f "$RUN_WITH_TIMEOUT_SCRIPT" ]; then
+            log "[ERROR] Timeout runner script not found: $RUN_WITH_TIMEOUT_SCRIPT"
+            return 1
+        fi
+        python3 "$RUN_WITH_TIMEOUT_SCRIPT" \
+            --timeout "$timeout_sec" \
+            -- \
+            codex exec \
+            "${provider_args[@]}" \
+            --model "$MODEL_ID" \
+            --dangerously-bypass-approvals-and-sandbox \
+            "$prompt" \
+            2>&1 | tee "$trace_file"
+        local exit_code=${PIPESTATUS[0]}
+    else
+        codex exec \
+            "${provider_args[@]}" \
+            --model "$MODEL_ID" \
+            --dangerously-bypass-approvals-and-sandbox \
+            "$prompt" \
+            2>&1 | tee "$trace_file"
+        local exit_code=${PIPESTATUS[0]}
+    fi
+
+    if [ $exit_code -eq 124 ]; then
+        log "[ERROR] codex timed out after ${timeout_sec}s ($title)"
+        if rg -qi "(websearch|webfetch|exec|thinking|curl|esearch|efetch|esummary|api)" "$trace_file" 2>/dev/null; then
+            log "[WARN] Timeout reached while Codex was still collecting information."
+        else
+            log "[WARN] Timeout reached before meaningful collection activity was detected."
+        fi
+        rm -f "$trace_file"
+        return 124
+    fi
     if [ $exit_code -ne 0 ]; then
-        log "[ERROR] opencode exited with code $exit_code ($title)"
+        log "[ERROR] codex exited with code $exit_code ($title)"
+        rm -f "$trace_file"
         return $exit_code
     fi
+    rm -f "$trace_file"
     return 0
 }
 
@@ -195,6 +278,32 @@ git_sync_data() {
     return 0
 }
 
+# Allow timeout fallback when codex already wrote a valid data file.
+run_codex_with_fallback() {
+    local title="$1"
+    local prompt="$2"
+    local file="$3"
+    local domain_id="$4"
+
+    run_codex "$title" "$prompt"
+    local rc=$?
+    if [ $rc -eq 0 ]; then
+        return 0
+    fi
+    if [ $rc -ne 124 ]; then
+        return $rc
+    fi
+
+    log "[WARN] codex timeout detected. Checking whether a valid data file was already written: $file"
+    if validate_data_file "$file" "$domain_id"; then
+        log "[WARN] Timeout fallback accepted: continue with validated file."
+        return 0
+    fi
+
+    log "[ERROR] Timeout fallback rejected: no valid data file available."
+    return 124
+}
+
 # Extract a single value from YAML frontmatter (between --- markers)
 get_fm() {
     local file="$1" key="$2"
@@ -234,9 +343,10 @@ run_academic_domain() {
     prompt="${prompt//__CATEGORY__/$category}"
     prompt="${prompt//__DATA_FILE__/$data_file}"
     prompt="${prompt//__DOMAIN_CONFIG_PATH__/$config_file}"
+    prompt="${prompt//__ACADEMIC_SKILL_PATH__/$ACADEMIC_SKILL_FILE}"
 
-    run_opencode "Fetch $label" "$prompt" || return $?
-    validate_json_file "$data_file" || return $?
+    run_codex_with_fallback "Fetch $label" "$prompt" "$data_file" "$domain_id" || return $?
+    validate_data_file "$data_file" "$domain_id" || return $?
     enrich_journal "$data_file" || return $?
     generate_digest "$data_file" "$domain_id" || return $?
 }
@@ -272,6 +382,9 @@ fi
 # Render AI prompt
 AI_PROMPT="${AI_PROMPT_TEMPLATE//__TODAY__/$TODAY}"
 AI_PROMPT="${AI_PROMPT//__DATA_FILE__/$AI_DATA_FILE}"
+AI_PROMPT="${AI_PROMPT//__AI_SKILL_PATH__/$AI_SKILL_FILE}"
+AI_PROMPT="${AI_PROMPT//__AI_SOURCES_DIR__/$AI_SOURCES_DIR}"
+AI_PROMPT="${AI_PROMPT//__AI_OUTPUT_SPEC_PATH__/$AI_OUTPUT_SPEC_FILE}"
 
 TEST_PROMPT="${TEST_PROMPT_TEMPLATE//__TODAY__/$TODAY}"
 TEST_PROMPT="${TEST_PROMPT//__DATA_FILE__/$AI_DATA_FILE}"
@@ -283,20 +396,20 @@ cd "$PROJECT_DIR"
 case "$MODE" in
     ai)
         log "📂 AI data file: $AI_DATA_FILE"
-        run_opencode "Fetch AI News" "$AI_PROMPT" || exit $?
-        validate_json_file "$AI_DATA_FILE" || exit $?
+        run_codex_with_fallback "Fetch AI News" "$AI_PROMPT" "$AI_DATA_FILE" "ai" || exit $?
+        validate_data_file "$AI_DATA_FILE" "ai" || exit $?
         generate_digest "$AI_DATA_FILE" "ai" || exit $?
         ;;
     all)
         log "📂 AI data file: $AI_DATA_FILE"
-        run_opencode "Fetch AI News" "$AI_PROMPT" || exit $?
-        validate_json_file "$AI_DATA_FILE" || exit $?
+        run_codex_with_fallback "Fetch AI News" "$AI_PROMPT" "$AI_DATA_FILE" "ai" || exit $?
+        validate_data_file "$AI_DATA_FILE" "ai" || exit $?
         generate_digest "$AI_DATA_FILE" "ai" || exit $?
         run_all_academic_domains || exit $?
         ;;
     test)
-        run_opencode "Test Write" "$TEST_PROMPT" || exit $?
-        validate_json_file "$AI_DATA_FILE" || exit $?
+        run_codex_with_fallback "Test Write" "$TEST_PROMPT" "$AI_DATA_FILE" "ai" || exit $?
+        validate_data_file "$AI_DATA_FILE" "ai" || exit $?
         generate_digest "$AI_DATA_FILE" "ai" || exit $?
         ;;
     *)
@@ -308,4 +421,6 @@ case "$MODE" in
 esac
 
 log "✅ Task finished."
-git_sync_data "$MODE" || exit $?
+if ! git_sync_data "$MODE"; then
+    log "[WARN] Git sync failed, but local fetch artifacts are already generated."
+fi

@@ -2,190 +2,217 @@
   "date": "2026-02-27",
   "articles": [
     {
-      "title": "OpenClaw - AI Agent Security Vulnerability",
-      "summary": "OpenClaw, a popular open-source AI agent originally developed by Austrian solo developer Peter Steinberger, is facing a serious security reckoning. The tool can run a personal AI assistant locally and manage emails and control smart home devices. This highlights security concerns with autonomous AI agents.",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/meet-openclaw-the-ai-agent-whose-founder-sam-altman-has-hired-paying-billions-and-is-feared-globally/articleshow/128813567.cms",
+      "title": "r/LocalLLaMA: System prompt for Qwen3.5 (27B/35BA3B) to reduce overthinking?",
+      "summary": "LocalLLaMA community discussion about practical model usage and tuning (17 upvotes, 12 comments).",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1rg0487/system_prompt_for_qwen35_27b35ba3b_to_reduce/",
       "category": "AI",
-      "subcategory": "Major Release",
-      "published_date": "2026-02-26",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-27",
       "date": "2026-02-27"
     },
     {
-      "title": "Beehive - Multi-Workspace Agent Orchestrator",
-      "summary": "A multi-workspace agent orchestrator for managing AI agents across different environments. Enables coordination of multiple AI agents in separate workspaces.",
-      "url": "https://storozhenko98.github.io/beehive/",
+      "title": "r/LocalLLaMA: Qwen3.5 is dominating the charts on HF",
+      "summary": "LocalLLaMA community discussion about practical model usage and tuning (40 upvotes, 12 comments).",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1rg2l3q/qwen35_is_dominating_the_charts_on_hf/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "r/LocalLLaMA: Is microsoft going to train LLM on this? Github is clearly getting destroyed.",
+      "summary": "LocalLLaMA community discussion about practical model usage and tuning (439 upvotes, 88 comments).",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1rfxi64/is_microsoft_going_to_train_llm_on_this_github_is/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "r/LocalLLaMA: Eagerly waiting for Qwen 3.5 1.7B",
+      "summary": "LocalLLaMA community discussion about practical model usage and tuning (15 upvotes, 13 comments).",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1rfxtfz/eagerly_waiting_for_qwen_35_17b/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "r/LocalLLaMA: After using local models for one month, I learned more than in two years with cloud models",
+      "summary": "LocalLLaMA community discussion about practical model usage and tuning (29 upvotes, 10 comments).",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1rg0ir2/after_using_local_models_for_one_month_i_learned/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Show HN: I Built Smart Radio That Auto-Skips Talk and Ads by Using ML",
+      "summary": "Show HN project with community traction (5 points, 2 comments).",
+      "url": "https://tunejourney.com/",
       "category": "AI",
       "subcategory": "HN Show HN",
       "published_date": "2026-02-27",
       "date": "2026-02-27"
     },
     {
-      "title": "Mission Control - Open-source Task Management for AI Agents",
-      "summary": "An open-source task management system specifically designed for AI agents. Helps coordinate and manage AI agent workflows and tasks.",
-      "url": "https://github.com/MeisnerDan/mission-control",
+      "title": "Show HN: CodeLeash: framework for quality agent development, NOT an orchestrator",
+      "summary": "Show HN project with community traction (5 points, 2 comments).",
+      "url": "https://codeleash.dev/",
       "category": "AI",
       "subcategory": "HN Show HN",
       "published_date": "2026-02-27",
       "date": "2026-02-27"
     },
     {
-      "title": "Duck Talk - Real-time Voice Interface for Claude Code",
-      "summary": "A real-time voice interface that allows users to talk to their Claude Code assistant. Enables voice-based interaction with Claude AI.",
-      "url": "https://github.com/dhuynh95/duck_talk",
-      "category": "AI",
-      "subcategory": "HN Show HN",
-      "published_date": "2026-02-27",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Mini Claude Code Clone in Rust",
-      "summary": "A minimal Claude Code clone written in Rust, demonstrating the possibility of creating lightweight AI assistant implementations.",
-      "url": "https://github.com/keon/mini-claude-code",
-      "category": "AI",
-      "subcategory": "HN Show HN",
-      "published_date": "2026-02-27",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "AI-powered Ouija Board with Fine-tuned 3B Model",
-      "summary": "A local AI-powered Ouija board built with a fine-tuned 3B model, demonstrating creative local AI applications.",
-      "url": "https://github.com/SurceBeats/Planchette",
-      "category": "AI",
-      "subcategory": "HN Show HN",
-      "published_date": "2026-02-27",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "February 2026 AI Model Releases: Claude, DeepSeek, Gemini, Grok, GPT-5.3",
-      "summary": "Multiple frontier AI models released in February 2026 including Claude Sonnet 5 (coding and reasoning focus), DeepSeek V4, Gemini 3, Grok updates, and GPT-5.3. A significant month for AI model releases.",
-      "url": "https://www.linkedin.com/posts/asteris-ai_ai-models-launching-in-february-2026-sonnet-activity-7425136568228540416-1auN",
-      "category": "AI",
-      "subcategory": "Major Release",
-      "published_date": "2026-02-19",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Gemini 3.1 Pro Takes Top Spot on Multiple Benchmarks",
-      "summary": "Google's Gemini 3.1 Pro was released on February 19, 2026 and immediately claimed top spots on multiple developer-focused benchmarks including ARC-AGI-2, GPQA Diamond, BrowseComp, and LiveCodeBench Pro.",
-      "url": "https://serenitiesai.com/articles/best-ai-models-comparison-2026",
-      "category": "AI",
-      "subcategory": "Major Release",
-      "published_date": "2026-02-21",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Claude Opus 4.6: SOTA in Agentic Coding and 1M Context",
-      "summary": "Anthropic released Claude Opus 4.6 with 1M token context and agent teams capabilities. Represents major advancement in agentic coding and long context handling.",
-      "url": "https://jls42.org/en/news/ia-actualites-6-feb-2026-2",
-      "category": "AI",
-      "subcategory": "Major Release",
-      "published_date": "2026-02-06",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Gemini Agents Getting First Agentic Capabilities",
-      "summary": "Google Gemini is getting its first agentic capabilities, marking a shift from passive chatbots to autonomous agents that can anticipate, plan, and execute tasks.",
-      "url": "https://stack.com/p/gemini-agentsnewslit.sub-land-instagram-teen",
-      "category": "AI",
-      "subcategory": "Major Release",
-      "published_date": "2026-02-26",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Shopify Coinbase CEOs Show Off Code Commit Charts As AI Makes Coding Easier",
-      "summary": "Shopify and Coinbase CEOs are showcasing their GitHub contribution graphs again, thanks to AI-powered coding agents like Anthropic's Claude Code and OpenAI's Codex enabling executives to re-engage in software development.",
-      "url": "https://officechai.com/ai/shopify-coinbase-ceos-show-off-their-code-commit-charts-as-ai-makes-coding-easier-than-ever-before/",
-      "category": "AI",
-      "subcategory": "Twitter/X",
-      "published_date": "2026-02-26",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "AI Score Tool - Detect AI Generated Code",
-      "summary": "A tool that scans codebases to estimate what percentage was likely written by AI, using pattern analysis, comment-to-code ratios, naming consistency, and heuristic analysis.",
-      "url": "https://dev.to/lakshmisravyavedantham/i-ran-my-own-ai-score-tool-on-6-months-of-my-code-i-had-to-sit-with-the-results-15ea",
+      "title": "GitHub Trending: ruvnet/claude-flow",
+      "summary": "Star ruvnet / claude-flow 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration +215 stars today.",
+      "url": "https://github.com/ruvnet/claude-flow",
       "category": "AI",
       "subcategory": "GitHub Trending",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "GitHub Trending: obra/superpowers",
+      "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works. +1,532 stars today.",
+      "url": "https://github.com/obra/superpowers",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "GitHub Trending: muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "summary": "Sponsor Star muratcankoylan / Agent-Skills-for-Context-Engineering A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. +922 stars today.",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "GitHub Trending: moonshine-ai/moonshine",
+      "summary": "Star moonshine-ai / moonshine Fast and accurate automatic speech recognition (ASR) for edge devices +245 stars today.",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "GitHub Trending: bytedance/deer-flow",
+      "summary": "Star bytedance / deer-flow An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours. +617 stars today.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-27",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to re",
+      "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "category": "AI",
+      "subcategory": "Major Release",
       "published_date": "2026-02-26",
       "date": "2026-02-27"
     },
     {
-      "title": "GitHub Open Source Weekly 2026-02-25",
-      "summary": "This week's GitHub trending highlights: Skills ecosystem solidifies, embedded AI rises, and OpenClaw offspring sweep prediction markets. Major focus on AI agents and prompt engineering.",
-      "url": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-02-25",
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
+      "url": "https://openai.com/index/figma-partnership",
       "category": "AI",
-      "subcategory": "GitHub Trending",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "summary": "Our latest image generation model offers advanced world knowledge, production-ready specs, subject consistency and more, all at Flash speed.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+      "summary": "Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google’s AI training.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
+      "summary": "New alternatives, “understand” and “ask” buttons in Google Translate help you navigate the complexities of natural language.",
+      "url": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Build with Nano Banana 2, our best image generation and editing model",
+      "summary": "Nano Banana 2 (Gemini 3.1 Flash Image) delivers Pro-level intelligence and fidelity for all image applications.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Show HN: Yaw: terminal, SSH/database connections, AI Chat and optimized AI CLI",
+      "summary": "Show HN project with community traction (4 points, 2 comments).",
+      "url": "https://yaw.sh",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Show HN: Stop reviewing AI-generated code during a PR, move it in the edit cycle",
+      "summary": "Show HN project with community traction (5 points, 3 comments).",
+      "url": "https://medium.com/@peterrallojay/beyond-the-pr-shifting-review-into-the-coding-session-de04ce344e81",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Show HN: ClickNest a tiny self-hosted, AI native web analytics in Go",
+      "summary": "Show HN project with community traction (5 points, 1 comments).",
+      "url": "https://github.com/danielthedm/clicknest",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-26",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "See the whole picture and find the look with Circle to Search",
+      "summary": "We’ve updated Circle to Search so you can now explore multiple items in a single image.",
+      "url": "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/",
+      "category": "AI",
+      "subcategory": "Major Release",
       "published_date": "2026-02-25",
       "date": "2026-02-27"
     },
     {
-      "title": "Strands Labs - Experimental Agentic AI Development",
-      "summary": "AWS introduces Strands Labs, a new GitHub organization for experimental agentic AI development. The Strands Agents SDK has been downloaded 14 million times since its open source release.",
-      "url": "https://aws.amazon.com/blogs/opensource/introducing-strands-labs-get-hands-on-today-with-state-of-the-art-experimental-approaches-to-agentic-development/",
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
+      "url": "https://openai.com/index/disrupting-malicious-ai-uses",
       "category": "AI",
       "subcategory": "Major Release",
-      "published_date": "2026-02-23",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Anthropic Education Report: The AI Fluency Index",
-      "summary": "Anthropic's research on AI fluency finds that 85.7% of conversations exhibit iteration and refinement. Most common expression is augmentative, treating AI as a thought partner.",
-      "url": "https://www.anthropic.com/research/AI-fluency-index",
-      "category": "AI",
-      "subcategory": "AI for Science",
-      "published_date": "2026-02-23",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "AI Coding Agent Tracker - Public Commit Log",
-      "summary": "A public auditable log tracking AI coding agent commit counts on public GitHub repos over 10-day rolling average. Shows percentage of commits by AI agents.",
-      "url": "https://github.com/powerset-co/github-coding-agent-tracker",
-      "category": "AI",
-      "subcategory": "GitHub Trending",
-      "published_date": "2026-02-26",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "GitHub Trending Daily 2026-02-24 - AI Agents & Prompt Engineering",
-      "summary": "Top themes: AI Agents & Prompt Engineering (x1hlol/system-prompts-and-models-of-ai-tools), RAG & Knowledge Graphs (VectifyAI/PageIndex), AI Infrastructure (cloudflare/agents, NevaMind-AI/memU).",
-      "url": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-24",
-      "category": "AI",
-      "subcategory": "GitHub Trending",
-      "published_date": "2026-02-24",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "HuggingFace Spaces - Trending AI Apps",
-      "summary": "HuggingFace Spaces features trending AI applications including Dia 1.6B for dialogue generation, DeepAI tools, MTEB Leaderboard, and Open LLM Leaderboard.",
-      "url": "https://huggingface.co/spaces?sort=trending",
-      "category": "AI",
-      "subcategory": "HuggingFace Spaces",
-      "published_date": "2026-02-27",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "Product Hunt AI Tools 2026",
-      "summary": "Trending AI tools on Product Hunt include Claude by Anthropic, ChatGPT, various AI infrastructure tools, and generative AI applications.",
-      "url": "https://www.producthunt.com/categories/ai-software",
-      "category": "AI",
-      "subcategory": "Product Hunt",
-      "published_date": "2026-02-27",
-      "date": "2026-02-27"
-    },
-    {
-      "title": "AI Tools for African Founders",
-      "summary": "Five AI tools helping African founders build businesses despite local constraints, enabling tiny teams to compete with global startups. Tools include GitHub Copilot, SurferSEO, Zendesk AI.",
-      "url": "https://techpoint.africa/feature/ai-tools-helping-african-founders/",
-      "category": "AI",
-      "subcategory": "Reddit",
-      "published_date": "2026-02-26",
+      "published_date": "2026-02-25",
       "date": "2026-02-27"
     }
   ],
   "digest": {
-    "generated_at": "2026-02-27T00:04:07+00:00",
+    "generated_at": "2026-02-27T10:59:33+00:00",
     "version": 1,
-    "summary": "Captured 20 AI items. Preference focus is new models and new technical architecture: 9 high-priority, 8 medium-priority, 3 low-priority. 0 business-heavy items were deprioritized.",
+    "summary": "Captured 23 AI items. Preference focus is new models and new technical architecture: 8 high-priority, 10 medium-priority, 5 low-priority. 0 business-heavy items were deprioritized.",
     "preference": {
       "focus": [
         "new models",
@@ -196,159 +223,180 @@
       ]
     },
     "stats": {
-      "total": 20,
-      "high_priority": 9,
-      "medium_priority": 8,
-      "low_priority": 3
+      "total": 23,
+      "high_priority": 8,
+      "medium_priority": 10,
+      "low_priority": 5
     },
     "focus_topics": [
       {
         "topic": "new models",
-        "count": 13
+        "count": 14
       },
       {
         "topic": "new architecture",
-        "count": 11
+        "count": 6
       }
     ],
     "recommendations": [
       {
-        "title": "February 2026 AI Model Releases: Claude, DeepSeek, Gemini, Grok, GPT-5.3",
-        "url": "https://www.linkedin.com/posts/asteris-ai_ai-models-launching-in-february-2026-sonnet-activity-7425136568228540416-1auN",
-        "published_date": "2026-02-19",
+        "title": "GitHub Trending: ruvnet/claude-flow",
+        "url": "https://github.com/ruvnet/claude-flow",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Build with Nano Banana 2, our best image generation and editing model",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
+        "published_date": "2026-02-26",
         "priority": "high",
         "reason": "mentions new models or releases"
       },
       {
-        "title": "Gemini 3.1 Pro Takes Top Spot on Multiple Benchmarks",
-        "url": "https://serenitiesai.com/articles/best-ai-models-comparison-2026",
-        "published_date": "2026-02-21",
-        "priority": "high",
-        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
-      },
-      {
-        "title": "Claude Opus 4.6: SOTA in Agentic Coding and 1M Context",
-        "url": "https://jls42.org/en/news/ia-actualites-6-feb-2026-2",
-        "published_date": "2026-02-06",
-        "priority": "high",
-        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
-      },
-      {
-        "title": "Gemini Agents Getting First Agentic Capabilities",
-        "url": "https://stack.com/p/gemini-agentsnewslit.sub-land-instagram-teen",
+        "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+        "url": "https://openai.com/index/pacific-northwest-national-laboratory",
         "published_date": "2026-02-26",
         "priority": "high",
         "reason": "mentions new models or releases; contains architecture/agent/framework signals"
       },
       {
-        "title": "Strands Labs - Experimental Agentic AI Development",
-        "url": "https://aws.amazon.com/blogs/opensource/introducing-strands-labs-get-hands-on-today-with-state-of-the-art-experimental-approaches-to-agentic-development/",
-        "published_date": "2026-02-23",
-        "priority": "high",
-        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
-      },
-      {
-        "title": "Product Hunt AI Tools 2026",
-        "url": "https://www.producthunt.com/categories/ai-software",
+        "title": "r/LocalLLaMA: Is microsoft going to train LLM on this? Github is clearly getting destroyed.",
+        "url": "https://reddit.com/r/LocalLLaMA/comments/1rfxi64/is_microsoft_going_to_train_llm_on_this_github_is/",
         "published_date": "2026-02-27",
         "priority": "high",
         "reason": "mentions new models or releases"
       },
       {
-        "title": "Shopify Coinbase CEOs Show Off Code Commit Charts As AI Makes Coding Easier",
-        "url": "https://officechai.com/ai/shopify-coinbase-ceos-show-off-their-code-commit-charts-as-ai-makes-coding-easier-than-ever-before/",
+        "title": "Show HN: CodeLeash: framework for quality agent development, NOT an orchestrator",
+        "url": "https://codeleash.dev/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
         "published_date": "2026-02-26",
         "priority": "high",
-        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+        "reason": "mentions new models or releases"
       },
       {
-        "title": "OpenClaw - AI Agent Security Vulnerability",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/meet-openclaw-the-ai-agent-whose-founder-sam-altman-has-hired-paying-billions-and-is-feared-globally/articleshow/128813567.cms",
-        "published_date": "2026-02-26",
+        "title": "Disrupting malicious uses of AI | February 2026",
+        "url": "https://openai.com/index/disrupting-malicious-ai-uses",
+        "published_date": "2026-02-25",
         "priority": "high",
-        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+        "reason": "mentions new models or releases"
       },
       {
-        "title": "GitHub Trending Daily 2026-02-24 - AI Agents & Prompt Engineering",
-        "url": "https://sejiwork.com/en/blog/post/github-trending-daily-2026-02-24",
-        "published_date": "2026-02-24",
-        "priority": "high",
-        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
-      },
-      {
-        "title": "Beehive - Multi-Workspace Agent Orchestrator",
-        "url": "https://storozhenko98.github.io/beehive/",
+        "title": "GitHub Trending: obra/superpowers",
+        "url": "https://github.com/obra/superpowers",
         "published_date": "2026-02-27",
         "priority": "medium",
         "reason": "contains architecture/agent/framework signals"
       },
       {
-        "title": "Mini Claude Code Clone in Rust",
-        "url": "https://github.com/keon/mini-claude-code",
+        "title": "r/LocalLLaMA: System prompt for Qwen3.5 (27B/35BA3B) to reduce overthinking?",
+        "url": "https://reddit.com/r/LocalLLaMA/comments/1rg0487/system_prompt_for_qwen35_27b35ba3b_to_reduce/",
         "published_date": "2026-02-27",
         "priority": "medium",
         "reason": "mentions new models or releases"
       },
       {
-        "title": "HuggingFace Spaces - Trending AI Apps",
-        "url": "https://huggingface.co/spaces?sort=trending",
+        "title": "r/LocalLLaMA: Qwen3.5 is dominating the charts on HF",
+        "url": "https://reddit.com/r/LocalLLaMA/comments/1rg2l3q/qwen35_is_dominating_the_charts_on_hf/",
         "published_date": "2026-02-27",
         "priority": "medium",
         "reason": "mentions new models or releases"
       },
       {
-        "title": "Duck Talk - Real-time Voice Interface for Claude Code",
-        "url": "https://github.com/dhuynh95/duck_talk",
+        "title": "r/LocalLLaMA: Eagerly waiting for Qwen 3.5 1.7B",
+        "url": "https://reddit.com/r/LocalLLaMA/comments/1rfxtfz/eagerly_waiting_for_qwen_35_17b/",
         "published_date": "2026-02-27",
         "priority": "medium",
         "reason": "mentions new models or releases"
       },
       {
-        "title": "AI-powered Ouija Board with Fine-tuned 3B Model",
-        "url": "https://github.com/SurceBeats/Planchette",
+        "title": "r/LocalLLaMA: After using local models for one month, I learned more than in two years with cloud models",
+        "url": "https://reddit.com/r/LocalLLaMA/comments/1rg0ir2/after_using_local_models_for_one_month_i_learned/",
         "published_date": "2026-02-27",
         "priority": "medium",
         "reason": "mentions new models or releases"
       },
       {
-        "title": "Mission Control - Open-source Task Management for AI Agents",
-        "url": "https://github.com/MeisnerDan/mission-control",
-        "published_date": "2026-02-27",
-        "priority": "medium",
-        "reason": "contains architecture/agent/framework signals"
-      },
-      {
-        "title": "AI Coding Agent Tracker - Public Commit Log",
-        "url": "https://github.com/powerset-co/github-coding-agent-tracker",
+        "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+        "url": "https://openai.com/index/figma-partnership",
         "published_date": "2026-02-26",
         "priority": "medium",
-        "reason": "contains architecture/agent/framework signals"
+        "reason": "mentions new models or releases"
       },
       {
-        "title": "GitHub Open Source Weekly 2026-02-25",
-        "url": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-02-25",
+        "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
+        "url": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
+        "published_date": "2026-02-26",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "See the whole picture and find the look with Circle to Search",
+        "url": "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/",
         "published_date": "2026-02-25",
         "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GitHub Trending: bytedance/deer-flow",
+        "url": "https://github.com/bytedance/deer-flow",
+        "published_date": "2026-02-27",
+        "priority": "medium",
         "reason": "contains architecture/agent/framework signals"
       },
       {
-        "title": "AI Tools for African Founders",
-        "url": "https://techpoint.africa/feature/ai-tools-helping-african-founders/",
+        "title": "Show HN: I Built Smart Radio That Auto-Skips Talk and Ads by Using ML",
+        "url": "https://tunejourney.com/",
+        "published_date": "2026-02-27",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "GitHub Trending: moonshine-ai/moonshine",
+        "url": "https://github.com/moonshine-ai/moonshine",
+        "published_date": "2026-02-27",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Yaw: terminal, SSH/database connections, AI Chat and optimized AI CLI",
+        "url": "https://yaw.sh",
         "published_date": "2026-02-26",
         "priority": "low",
         "reason": "general AI update"
       },
       {
-        "title": "AI Score Tool - Detect AI Generated Code",
-        "url": "https://dev.to/lakshmisravyavedantham/i-ran-my-own-ai-score-tool-on-6-months-of-my-code-i-had-to-sit-with-the-results-15ea",
+        "title": "Show HN: Stop reviewing AI-generated code during a PR, move it in the edit cycle",
+        "url": "https://medium.com/@peterrallojay/beyond-the-pr-shifting-review-into-the-coding-session-de04ce344e81",
         "published_date": "2026-02-26",
         "priority": "low",
         "reason": "general AI update"
       },
       {
-        "title": "Anthropic Education Report: The AI Fluency Index",
-        "url": "https://www.anthropic.com/research/AI-fluency-index",
-        "published_date": "2026-02-23",
+        "title": "Show HN: ClickNest a tiny self-hosted, AI native web analytics in Go",
+        "url": "https://github.com/danielthedm/clicknest",
+        "published_date": "2026-02-26",
         "priority": "low",
         "reason": "general AI update"
       }

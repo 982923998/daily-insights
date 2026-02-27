@@ -8,10 +8,11 @@
 - 学术领域抓取：按领域配置文件执行 PubMed 检索
 - 自动增强学术条目：补全期刊、ISSN、影响因子状态
 - Digest 推荐：每个数据文件自动生成 `digest`（优先级与推荐项）
+- 数据质量门禁：抓取后执行 schema/字段/去重校验（不通过即中止后续处理）
 - 前端可视化：推荐项保留 `Jump to card`，并用高亮标签展示“期刊名 / IF”
 - 本地服务：Web 页面 + API + SSE 实时日志
 - 定时任务：`launchd` 自动定时抓取
-- 可选自动同步：抓取后自动 `git add/commit/push` `data/`
+- 可选自动同步：抓取后自动 `git add/commit/push` `data/`（同步失败不影响本地抓取成功）
 
 ## 项目结构
 
@@ -44,7 +45,7 @@ Daily Insights/
 - macOS（定时任务与安装脚本按 macOS 编写）
 - Python 3.8+
 - Node.js 18+
-- `opencode` CLI
+- `codex` CLI
 - 网络可访问 PubMed / LetPub / 新闻源
 
 ## 快速开始
@@ -114,12 +115,16 @@ done
 
 编辑 `scripts/fetch_config.sh`：
 
-- `MODEL_ID`：抓取使用的模型（默认 `opencode/minimax-m2.5-free`）
+- `MODEL_ID`：抓取使用的模型（默认 `gpt-5.3-codex`）
+- `CODEX_PROVIDER`：可选，指定 Codex provider（默认留空，跟随本机 `codex` 默认配置）
 - `AUTO_GIT_SYNC`：是否抓取后自动同步 GitHub（默认 `1`）
+- `CODEX_TIMEOUT_SECONDS`：单次抓取超时秒数（默认 `600`，即 10 分钟；`0` 为不限制）
 
 ```bash
-MODEL_ID="opencode/minimax-m2.5-free"
+MODEL_ID="gpt-5.3-codex"
+CODEX_PROVIDER=""
 AUTO_GIT_SYNC="1"
+CODEX_TIMEOUT_SECONDS="600"
 ```
 
 注意：自动同步仅提交 `data/` 目录。
@@ -190,6 +195,7 @@ AUTO_GIT_SYNC="1"
 - 确认 `AUTO_GIT_SYNC="1"`
 - 确认当前目录是 Git 仓库，且远程与权限可用
 - 查看 `logs/` 与 `scripts/fetch.sh` 输出中的 git 错误
+- 注意：即使 git 同步失败，`data/` 本地文件仍会保留，抓取本身不算失败
 
 2. 页面刷新看不到最新样式
 - 使用强制刷新：`Cmd + Shift + R`
@@ -197,6 +203,11 @@ AUTO_GIT_SYNC="1"
 3. 某些期刊一直没有 IF
 - 查看 `data/if_unresolved_journals.json`
 - 人工补充后重跑 `enrich_journal.py`
+
+4. 抓取长时间无响应
+- 默认单次抓取 10 分钟超时（`CODEX_TIMEOUT_SECONDS="600"`）
+- 可临时调小超时快速失败排查，例如：`CODEX_TIMEOUT_SECONDS=120 ./scripts/fetch.sh ai`
+- 设为 `0` 可关闭超时限制（不推荐）
 
 ## License
 
