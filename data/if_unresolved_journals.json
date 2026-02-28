@@ -1,14 +1,124 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-02-27T10:57:35+00:00",
+  "updated_at": "2026-02-28T05:47:35+00:00",
   "journals": {
+    "Ann Clin Transl Neurol": {
+      "journal_name": "Ann Clin Transl Neurol",
+      "journal_issn": "2328-9503",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-brainmri.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Clin Neuroradiol": {
+      "journal_name": "Clin Neuroradiol",
+      "journal_issn": "1869-1439",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-brainmri.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Eur Radiol": {
+      "journal_name": "Eur Radiol",
+      "journal_issn": "0938-7994",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 2,
+      "last_file": "2026-02-28-ad.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Interdiscip Sci": {
+      "journal_name": "Interdiscip Sci",
+      "journal_issn": "1867-1462",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-ad.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "J Alzheimers Dis": {
+      "journal_name": "J Alzheimers Dis",
+      "journal_issn": "1387-2877",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 2,
+      "last_file": "2026-02-28-ad.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Mol Psychiatry": {
+      "journal_name": "Mol Psychiatry",
+      "journal_issn": "1359-4184",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 2,
+      "last_file": "2026-02-28-depression.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
     "Neurol Sci": {
       "journal_name": "Neurol Sci",
       "journal_issn": "1590-1874",
       "first_seen": "2026-02-27",
-      "last_seen": "2026-02-27",
+      "last_seen": "2026-02-28",
+      "seen_count": 3,
+      "last_file": "2026-02-28-brainmri.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Neuromodulation": {
+      "journal_name": "Neuromodulation",
+      "journal_issn": "1094-7159",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-brainmri.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Neuropsychobiology": {
+      "journal_name": "Neuropsychobiology",
+      "journal_issn": "0302-282X",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
       "seen_count": 2,
-      "last_file": "2026-02-27-brainmri.json",
+      "last_file": "2026-02-28-ad.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Psychiatry Clin Neurosci": {
+      "journal_name": "Psychiatry Clin Neurosci",
+      "journal_issn": "1323-1316",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-depression.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Psychother Psychosom": {
+      "journal_name": "Psychother Psychosom",
+      "journal_issn": "0033-3190",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-depression.json",
+      "manual_full_name": "",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    },
+    "Radiologie (Heidelb)": {
+      "journal_name": "Radiologie (Heidelb)",
+      "journal_issn": "2731-7048",
+      "first_seen": "2026-02-28",
+      "last_seen": "2026-02-28",
+      "seen_count": 1,
+      "last_file": "2026-02-28-pd.json",
       "manual_full_name": "",
       "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
     }

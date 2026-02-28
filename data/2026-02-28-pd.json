@@ -1,0 +1,196 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "Disruption of the white matter structural network and its association with clinical subtypes and disease progression in parkinson's disease.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41760984/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28",
+      "journal_issn": "1931-7557",
+      "impact_factor": 2.4,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "[MRI in neurodegenerative Parkinsonian syndromes].",
+      "summary": "BACKGROUND: Parkinson's disease (PD) and atypical Parkinsonian syndromes (APS), including multiple system atrophy (MSA), progressive supranuclear palsy (PSP) and corticobasal degeneration (CBD), are increasing worldwide. Early differential diagnosis is challenging due to overlapping symptoms and the often delayed appearance of pathognomonic signs.\nOBJECTIVE: Presentation of the role of structural magnetic resonance imaging (MRI) in the differential diagnosis of neurodegenerative Parkinsonian syndromes.\nMATERIAL AND METHODS: Literature review of current guidelines and studies on T1-weighted and T2-weighted sequences, susceptibility-weighted imaging (SWI), diffusion-weighted imaging, volumetry and multiparametric approaches. The focus was on disease-specific atrophy patterns, quantitative methods and automated analyses.\nRESULTS: Structural changes in PD are usually subtle; the nigrosome‑1 (swallowtail) sign on SWI can provide diagnostic clues. The PSP shows pronounced midbrain atrophy, MSA demonstrates putaminal, pontine and cerebellar atrophy and CBD exhibits asymmetric cortical atrophy. Volumetric and multiparametric analyses increase the diagnostic accuracy, especially in early disease stages, although widespread clinical implementation remains limited.\nCONCLUSION: Structural MRI provides early indicators of APS and aids the differential diagnosis. Quantitative and multiparametric methods improve objectivity and sensitivity, particularly for subtle or rare syndromes and could play an increasingly more important role in clinical practice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758332/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Radiologie (Heidelb)",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "2731-7048",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "EEG microstate alterations in Parkinson's disease dementia.",
+      "summary": "To investigate alterations in resting-state electroencephalogram (EEG) microstates across the cognitive spectrum of Parkinson's disease (PD) and to evaluate their utility as electrophysiological biomarkers of cognitive impairment. Resting-state EEG was recorded using a 19-channel system during a 3-min eyes-closed session in 36 healthy controls (HC), 38 PD patients with normal cognition (PDNC), and 39 PD patients with dementia (PDD). Temporal parameters (duration, occurrence, coverage) of six canonical microstates (A-F) were computed and compared across groups. Correlation analyses were conducted between microstate metrics and Montreal Cognitive Assessment (MoCA) scores. Significant group differences were found in microstate dynamics. The PDD group exhibited a longer mean duration of microstates A, C, and E, and a lower occurrence per second of microstates B and C compared to both the PDNC and HC groups (all P < 0.05). Critically, the duration of microstates A and C showed significant negative correlations with MoCA scores (P < 0.05), while the occurrence of microstates B and C demonstrated positive correlations with MoCA scores (P < 0.05). Specific EEG microstate abnormalities are associated with cognitive status in PD. The prolongation of microstates A and C and the reduced occurrence of microstates B and C are stage-sensitive biomarkers that reflect the severity of cognitive decline, providing novel insights into the neural mechanisms of PD-related cognitive dysfunction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41760696/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "2045-2322",
+      "impact_factor": 3.9,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Computational modeling for precision targeting of conductivity-clamped gene electrotransfer within the striatum of the human brain.",
+      "summary": "Objective.Bionic array-directed gene electrotransfer (GET) is an emerging technology for precision 'vector-free' transfection of naked delivery of nucleic acid (DNA/mRNA) to target tissues, utilizing electro-lens focusing of a pulsed electric field. The efficiency of this translocation of naked polyanionic macromolecular nucleic acids (NAs) to the plasma membrane is greatly enhanced by reducing tissue conductivity ('conductivity-clamping') CC by the displacement of extracellular ionic species using a low-conductivity carrier (sucrose). This increases the electric field strength, minimizes the charge transfer, and significantly enhances gene transfection.Approach.T1 and diffusion weighted imaging clinical magnetic resonance imaging data, along with spatiotemporal mapping of sucrose-mediated ion CC in the guinea pig brain, enabled computational modeling of electric field manipulation. The scalable model was informed byin vitrosingle capacitive discharge GET of green fluorescent protein reporter plasmid DNA in HEK293 cells, andin vivoCC in the guinea pig brain striatum where spatiotemporal mapping of local tissue conductivity reduction was recorded proximal to the infusion site and at distance.Main results.These data enabled the prediction of the shape and volume of the transfection zone with respect to the GET pulse current amplitude, electrode orientation, and current steering between the electrodes. The predicted suprathreshold brain tissue volume for GET in the striatal region of the human brain increases by 130% with CC.Significance.This experimentally refined model was translated into the human brain to enable the integration of precise 3D targeting of NA therapeutics for directing gene-based treatments, such as the striatal basal ganglia target for Parkinson's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757695/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Neural Eng",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1741-2552",
+      "impact_factor": 3.8,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Aberrant Beta-Band Network Alteration Preceding Freezing of Gait in Parkinson's Disease.",
+      "summary": "BACKGROUND: Freezing of gait (FOG) is a debilitating motor symptom observed in the advanced stages of Parkinson's disease (PD), characterized by an abrupt inability to initiate or continue forward walking. Whole-brain functional connectivity analysis has shown promise in elucidating the underlying pathophysiology and identifying potential biomarkers in PD. However, the specific changes in local brain networks during the transition from normal gait to freezing remain unclear.\nOBJECTIVES: This study aimed to investigate changes in brain network organization during the transition to FOG compared with the transition to voluntary stopping.\nMETHODS: Eighteen PD patients with FOG performed walking tasks designed to trigger either freezing or voluntary stop events, while undergoing simultaneous ambulatory electroencephalography (aEEG) recording. Functional connectivity was estimated using phase-locking value (PLV) across multiple frequency bands, measuring the consistency of phase synchrony between brain regions, and examined network organization using graph modularity, an index of how strongly the brain segregates into functionally specialized subnetworks, focusing on the 2-second time windows preceding each event.\nRESULTS: Transitions to freezing were characterized by increased local beta-band connectivity within right frontoparietal, middle-frontal, parietal-occipital, visual, and bilateral insula regions, alongside reduced connectivity between frontal and posterior areas in lower-frequency bands.\nCONCLUSIONS: Increased local beta segregation and reduced fronto-posterior connectivity may reflect network alterations that precedes freezing episodes. Such patterns could help identify neurophysiological markers for predicting and potentially preventing FOG in PD. © 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41760132/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mov Disord",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0885-3185",
+      "impact_factor": 7.6,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Serotonergic cortico-limbic and executive network dysfunction in Parkinson's disease impulse control disorders: a PET-fMRI study.",
+      "summary": "Impulse control disorders (ICDs) affect up to 45% of Parkinson's disease (PD) patients, yet their neural mechanisms remain unclear. Using multimodal PET and resting-state fMRI in 23 PD patients (11 PDICD + , 12 PD-ICD-) and 14 healthy controls, we identified specific brain pathways underlying ICDs. PDICD+ patients showed steeper delay discounting and altered functional connectivity, including enhanced posterior parietal coupling within executive networks and disrupted salience-executive interactions. Critically, aberrant right supplementary motor area-amygdala connectivity was linked to ICD severity and decisional impulsivity. Path analysis revealed that increased SMA 5-HT₂ₐ receptor availability was associated with enhanced SMA-amygdala coupling, which in turn was positively associated with ICD symptoms. By linking serotonergic dysfunction to disrupted motor-limbic networks and impulsive behavior, this study identifies targetable pathways for managing a common non-motor complication of PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748653/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "2373-8057",
+      "impact_factor": 8.2,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Impact of a structured quantitative program on [18F]FP-CIT PET interpretation: a multicenter study of diagnostic accuracy, interrater reliability, and reader confidence.",
+      "summary": "OBJECTIVES: This study assessed the impact of a structured quantitative analysis program on diagnostic performance, interrater reliability, and reader confidence in interpreting N-3-[18F]fluoropropyl-2β-carbomethoxy-3β-4-iodophenyl nortropane positron emission tomography ([18F]FP-CIT PET) scans to differentiate idiopathic Parkinson's disease from essential tremor-/drug-induced parkinsonism.\nMETHODS: This retrospective multicentre study included 637 patients who underwent [18F]FP-CIT PET and brain magnetic resonance imaging scans for evaluation of Parkinsonian syndromes at 4 institutions between January 2015 and October 2022. Readers evaluated the scans qualitatively in the pre-program session and with access to quantitative parameters in the post-program session, with a 1-month minimum interval to minimize recall bias. Diagnostic performance metrics (sensitivity, specificity, accuracy), interrater reliability (Cohen's κ), and reader confidence (low/moderate vs. high) were compared.\nRESULTS: Following program implementation, interrater reliability significantly improved from substantial to almost perfect (Cohen's κ: 0.768 to 0.970; p < 0.001), and a significant shift toward high-confidence ratings was observed (p < 0.001). Diagnostic accuracy also significantly improved from 92.8% to 94.3% (p = 0.036). Although the increase in the area under the curve (0.922 to 0.932) did not reach statistical significance (p = 0.163), likely due to a ceiling effect, reader performance significantly surpassed that of the quantitative parameter alone only after program implementation, whereas it was comparable at baseline.\nCONCLUSIONS: These findings suggest that integrating quantitative analysis tools may improve diagnostic consistency and reliability in clinical practice.\nADVANCES IN KNOWLEDGE: The structured quantitative analysis program significantly improved [18F]FP-CIT PET/CT interpretation by increasing diagnostic accuracy, interrater reliability, and reader confidence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746303/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Br J Radiol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "0007-1285",
+      "impact_factor": 3.4,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Comprehensive diffusion tensor tractography of three dopaminergic pathways in advanced Parkinson's disease: a case report.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41742049/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "BMC Neurol",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "1471-2377",
+      "impact_factor": 2.2,
+      "impact_factor_status": "已收录影响因子"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-28T05:47:35+00:00",
+    "version": 1,
+    "summary": "Captured 8 research items. Preference focus is brain-imaging analysis and disease mechanisms: 8 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 7.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 8,
+      "high_priority": 8,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 7
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Serotonergic cortico-limbic and executive network dysfunction in Parkinson's disease impulse control disorders: a PET-fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748653/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Aberrant Beta-Band Network Alteration Preceding Freezing of Gait in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41760132/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "EEG microstate alterations in Parkinson's disease dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41760696/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Comprehensive diffusion tensor tractography of three dopaminergic pathways in advanced Parkinson's disease: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41742049/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[MRI in neurodegenerative Parkinsonian syndromes].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758332/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Impact of a structured quantitative program on [18F]FP-CIT PET interpretation: a multicenter study of diagnostic accuracy, interrater reliability, and reader confidence.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746303/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Disruption of the white matter structural network and its association with clinical subtypes and disease progression in parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41760984/",
+        "published_date": "2026-02-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Computational modeling for precision targeting of conductivity-clamped gene electrotransfer within the striatum of the human brain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41757695/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

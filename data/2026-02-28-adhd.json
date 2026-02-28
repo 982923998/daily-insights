@@ -1,0 +1,57 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "Attention-Enhanced Temporal and Spatial Feature Extraction Network for ADHD Diagnosis based on fMRI.",
+      "summary": "Attention Deficit Hyperactivity Disorder (ADHD) is a prevalent neurodevelopmental disorder, and accurate diagnosis is critical for ensuring timely intervention. The integration of deep learning and fMRI can effectively explore the abnormal spatiotemporal features of ADHD. However, existing deep learning models are unable to fully capture the temporal dependence and spatial consistency of fMRI data, primarily due to insufficient modeling of multi-scale temporal dependencies and the lack of explicit interaction between static and dynamic brain networks, resulting in poor diagnostic performance for ADHD. To comprehensively and efficiently extract the spatiotemporal features of fMRI signals, we propose an Attention-Enhanced Spatiotemporal Feature Extraction Network (AE-STEN), which comprises a Temporal Cross-scale Convolutional Attention Module (TCAM), a Spatial Collaborative Attention-Guided Graph Representation Module (SCGRM), and a Spatial-Temporal KAN Network (STKAN). TCAM is designed to capture short- and long-term dependencies in fMRI time series by jointly modeling local transient fluctuations and global temporal dependencies. SCGRM effectively extracts consistent spatial features from both dynamic and static fMRI data by explicitly modeling their collaborative interaction rather than treating them independently. STKAN integrates the extracted spatiotemporal features for final classification. Experiments on the ADHD-200 dataset, involving 747 subjects across seven sites, demonstrate that AE-STEN achieves a classification accuracy of up to 76.06% ± 0.65%. Moreover, AE-STEN identifies brain regions associated with ADHD consistent with clinical findings, indicating strong interpretability and highlighting the model's potential for clinical application.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41740109/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "IEEE J Biomed Health Inform",
+      "published_date": "2026-02-25",
+      "date": "2026-02-28",
+      "journal_issn": "2168-2194",
+      "impact_factor": 6.8,
+      "impact_factor_status": "已收录影响因子"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-28T05:43:01+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Attention-Enhanced Temporal and Spatial Feature Extraction Network for ADHD Diagnosis based on fMRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41740109/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

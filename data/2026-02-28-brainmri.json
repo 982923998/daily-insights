@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "Deep learning-based synthetic brain MRI for the assessment of regional atrophy patterns in neurodegenerative diseases.",
+      "summary": "OBJECTIVES: Assessing regional brain atrophy on 3D-T1w imaging is crucial for evaluating neurodegenerative disorders. However, high-quality volumetric imaging is not always available. Thus, AI-based algorithms were developed to generate \"synthetic\" 3D-T1w sequences using various clinical sequences as input. This retrospective study aims to investigate whether regional atrophy patterns are preserved in deep learning-based synthetic 3D-T1w sequences from different inputs. MATERIALS AND METHODS: The study included patients with Alzheimer's disease (AD), Frontotemporal dementia (FTD), and healthy controls (HC). Probands were scanned at 3 T, and deep learning-based synthetic 3D-T1w images were generated from various inputs (3D FLAIR, 4 mm axial FLAIR, 4 mm coronal T2) using FreeSurfer-based SynthSR. Real 3D-T1w images served as the reference standard. Brain volumetry was performed using SynthSeg+ in FreeSurfer and the AssemblyNet-AD-FTD pipeline in VolBrain. RESULTS: Global and regional volumes differed significantly between deep learning-based synthetized sequences and the reference standard 3D T1 for all subgroups and inputs (total white matter volume AD p = 0.0002, FTD p < 0.0001, HC p = 0.0116; total gray matter volume for AD, FTD, and HC p < 0.0001), except for hippocampal volumes. This systematic error in overestimating volumes affected automated disease probability prediction in FTD for all inputs (p < 0.0001) and in HC for coronal T2 input (adj. p = 0.0054). CONCLUSION: Deep learning-based synthetic 3D-T1w sequences introduce systematic errors in assessing global and regional brain volumetric measures, leading to overestimated volumes in controls and patients. Resulting synthetic images should be used cautiously, especially for volumetric analyses. KEY POINTS: Question It remains unclear whether deep learning-based synthetic 3D-T1w images from various inputs preserve regional atrophy patterns sufficiently to serve as input for automated volumetry. Findings Deep learning-based synthetic T1w images overestimate regional and global brain volumes in neurodegenerative diseases and controls, increasing with lower quality inputs. Clinical relevance Deep learning-based synthetic images should only be used with caution for volumetric evaluation of brain MRI scans. If possible, 3D scans should be used as input.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758343/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Radiol",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0938-7994",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Brain Atrophy and White Matter Changes Grading Agreement on NCCT and MRI in Ischemic Stroke.",
+      "summary": "PURPOSE: Brain frailty measures like atrophy and white matter changes (WMC) are becoming increasingly relevant in stroke outcome prediction but are conventionally thought to be best seen on MRI compared to CT. We assessed agreement between baseline CT vs follow-up MRI ratings for brain atrophy and WMC; and compared their discriminative ability for 90-day functional outcomes in acute ischemic stroke. METHODS: In this post-hoc, observational analysis of baseline CT and follow-up MRI data from the Alteplase compared to Tenecteplase (AcT) randomised-controlled trial, experts assessed brain atrophy, periventricular and deep WMC using established visual-rating scales. Binary agreement (none-mild vs. moderate-severe) and agreement across the full scores between atrophy and WMC measures on CT and MRI were calculated using Gwet's agreement coefficient (AC1). Logistic regression estimated discrimination for 90-day modified Rankin Scale (mRS) 0-1. Agreement of AUCs for CT and MRI models were compared using DeLong's test. RESULTS: Among 1577 AcT participants, 491(31.1%) had interpretable CT and MRI. Binary agreement was substantial for periventricular (AC1 = 0.70) and total WMC (AC1 = 0.68) scores, Koedam scale (AC1 = 0.76) and frontal atrophy (AC1 = 0.80). Almost perfect agreement (AC1:0.81-0.97) was found for deep WMC (AC1 = 0.85), and the other atrophy scores (AC1 = 0.81-0.97). There was no significant difference between NCCT or MRI in discriminating 90-day mRS 0-1 for any measures. CONCLUSIONS: CT ratings of brain atrophy and WMC by experts have substantial to almost-perfect agreement compared to MRI. Both achieve similar discrimination of 90-day functional outcomes. This implies the reasonable use of CT scans in evaluating brain frailty measures in clinical practice and stroke trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758218/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Clin Neuroradiol",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1869-1439",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Quantification of Transcranial Magnetic Stimulation and Low-intensity Focused Ultrasound Energy Field Focality in the Cerebral Cortex.",
+      "summary": "OBJECTIVES: Transcranial magnetic stimulation (TMS) and low-intensity focused ultrasound (LIFU) are neuromodulation techniques that use different types of energy and have disparate spatial profiles. The study aimed to quantify and compare both modalities' focality on a common cortical target. MATERIALS AND METHODS: Magnetic resonance imaging-derived individualized head models were used to simulate TMS-induced electric fields and LIFU acoustic fields at 250 kHz and 500 kHz for a common standardized target located in the left dorsolateral prefrontal cortex in 20 subjects. Energy distribution was quantified using three relative thresholds (30%/50%/70%) and two metrics: % Engaged (percentage of a region's volume energized) and % Deposited (percentage of total energized tissue lying within a region). Regional analyses focused on the middle frontal gyrus (MFGyr) and middle frontal sulcus (MFSulc). RESULTS: TMS produced notably larger activation volumes than did both LIFU frequencies. TMS engaged 59% of MFGyr and 29% of MFSulc, whereas LIFU-250 kHz engaged 3% and 8%, and LIFU-500 kHz engaged <1% of each. TMS mainly engaged MFGyr, whereas LIFU dispersed its energy more evenly between gyri and sulci. LIFU also indicated greater focality but exhibited significantly higher intersubject variability, particularly at 500 kHz. Reducing the fundamental frequency to 250 kHz increased coverage while maintaining focality. CONCLUSIONS: Our modeling provides a quantification and contrast to the concept of focality between TMS and LIFU. It shows a trade-off between focality and sensitivity to anatomical variability: the greater the focality, the more sensitivity to anatomical variability, thus potentially requiring more sophisticated targeting methods and apparatus, and vice versa. CLINICAL TRIAL REGISTRATION: The Clinicaltrials.gov registration number for the study is NCT02800226.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758099/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuromodulation",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1094-7159",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Explainable Machine Learning for Coma Outcome Prediction Based on Structural and Functional Brain MRI.",
+      "summary": "OBJECTIVES: Advanced MRI is recommended for the clinical evaluation of patients with coma. However, the implementation of these guidelines has been hindered by an inadequate identification of relevant markers among the vast amount of reported MRI-derived metrics. We developed and validated an innovative and explainable machine learning (ML) analytical pipeline to fill this critical knowledge gap. DESIGN: Prospective cross-sectional study. SETTING: Three Intensive Critical Care Units affiliated to the University in Toulouse (France). PATIENTS: Patients with coma (Glasgow Coma Scale score at the hospital admission ≤ 9) from either traumatic or anoxic origin. Patient's neurologic outcome was assessed at 3 months by using the Coma Recovery Scale-Revised. Whole-brain advanced structural MRI data and functional connectivity analysis of resting-state networks known to contribute to conscious processing. A specifically designed ensemble of explainable ML methods was applied and cross-validated. INTERVENTIONS: None. MEASUREMENT AND MAIN RESULTS: Overall, 64 patients with coma due to either traumatic (n = 26) or anoxic (n = 38) brain injuries were studied and compared with 55 controls. The median delay between ICU admission and MRI scan was 9 days (interquartile range, 6-16 d). At 3 months, 50% patients (32/64) had an unfavorable outcome. All the models showed valuable generalization capacities: coma diagnosis (mean accuracy, 0.934%), primary brain injury discrimination (mean accuracy, 0.762 %), and neurologic outcome prediction (mean accuracy, 0.824 %). CONCLUSIONS: A new ensemble of brain MRI-derived metrics was specifically related to coma state, its etiology, and the patient's potential for recovery at 3 months. The structural and functional integrity of mesocircuit and frontoparietal networks appeared to carry the most relevant information.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757998/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Crit Care Med",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0090-3493",
+      "impact_factor": 6.0,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Computational modeling for precision targeting of conductivity-clamped gene electrotransfer within the striatum of the human brain.",
+      "summary": "Objective.Bionic array-directed gene electrotransfer (GET) is an emerging technology for precision 'vector-free' transfection of naked delivery of nucleic acid (DNA/mRNA) to target tissues, utilizing electro-lens focusing of a pulsed electric field. The efficiency of this translocation of naked polyanionic macromolecular nucleic acids (NAs) to the plasma membrane is greatly enhanced by reducing tissue conductivity ('conductivity-clamping') CC by the displacement of extracellular ionic species using a low-conductivity carrier (sucrose). This increases the electric field strength, minimizes the charge transfer, and significantly enhances gene transfection.Approach.T1 and diffusion weighted imaging clinical magnetic resonance imaging data, along with spatiotemporal mapping of sucrose-mediated ion CC in the guinea pig brain, enabled computational modeling of electric field manipulation. The scalable model was informed byin vitrosingle capacitive discharge GET of green fluorescent protein reporter plasmid DNA in HEK293 cells, andin vivoCC in the guinea pig brain striatum where spatiotemporal mapping of local tissue conductivity reduction was recorded proximal to the infusion site and at distance.Main results.These data enabled the prediction of the shape and volume of the transfection zone with respect to the GET pulse current amplitude, electrode orientation, and current steering between the electrodes. The predicted suprathreshold brain tissue volume for GET in the striatal region of the human brain increases by 130% with CC.Significance.This experimentally refined model was translated into the human brain to enable the integration of precise 3D targeting of NA therapeutics for directing gene-based treatments, such as the striatal basal ganglia target for Parkinson's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757695/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neural Eng",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1741-2552",
+      "impact_factor": 3.8,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Normal-Appearing White Matter Injury Mediates Chronic Deep Venous Hypoxia and Disease Progression in Multiple Sclerosis.",
+      "summary": "OBJECTIVE: To explore how cerebral hypoxia and Normal-Appearing White Matter (NAWM) integrity affect MS lesion burden and clinical course. METHODS: Seventy-nine MS patients, including 13 clinically isolated syndrome (CIS) patients and 66 relapsing-remitting multiple sclerosis (RRMS) patients, and 44 healthy controls (HCs) were recruited from CLUE, NCT04106830. Quantitative susceptibility mapping (QSM) was employed to evaluate the changes of cerebral venous oxygen saturation (SvO2) in deep cerebral veins. Diffusion tensor imaging (DTI) and neurite orientation dispersion and density imaging analyzes (NODDI) were employed to evaluate microstructural alterations in deep brain white matter (WM), including WM lesion and NAWM between MS and HCs. Partial correlations analyzes were conducted to examine associations between imaging biomarkers and clinical indicators. Mediation analysis was used to evaluate the relationship among SvO2, microstructural alterations, lesion volumes, and clinical indicators. RESULTS: Compared with HCs, patients with MS showed significantly decreased SvO2 in the internal cerebral vein (76.56% ± 1.34% vs. 78.80% ± 0.86%, p < 0.001). Advanced diffusion metrics revealed extensive microstructural disruption in both WM lesions and NAWM (NAWM mean diffusivity [MD]: 1.03 ± 0.12 vs. 0.90 ± 0.04 [×10-3 mm2/s], p < 0.001). Furthermore, microstructural disruption of NAWM (MD and orientation dispersion index [ODI]) significantly correlated with SvO2 of the ICV (MD: r = -0.307, p = 0.036; ODI: r = -0.279, p = 0.036). Critically, mediation analysis demonstrated that deep brain WM hypoxia (ICV SvO2) associated with greater lesion burden and clinical disability via NAWM damage as an intermediate pathway. INTERPRETATION: In MS patients, lower cerebral SvO2 (compared with HCs) is statistically associated with microstructural alterations in the NAWM. Our mediation models are consistent with a pathway whereby lower SvO2 is associated with greater lesion burden and worse functional scores via its association with NAWM damage. These findings support the exploratory value of SvO2 and NAWM integrity as potential biomarkers for monitoring MS progression, which warrants validation in further longitudinal studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757653/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Ann Clin Transl Neurol",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "2328-9503",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Associations Between Cerebral Microbleed Patterns and Incident Dementia: The ARIC-Neurocognitive Study.",
+      "summary": "BACKGROUND: Cerebral microbleeds (CMBs) are associated with dementia, but the impact of specific microbleed patterns (with distinct pathophysiologies) is unclear. Lobar CMBs commonly result from cerebral amyloid angiopathy (sometimes with cortical superficial siderosis [cSS]), while subcortical microbleeds indicate a hypertensive cause. This study investigates the association of CMB presence, patterns, and frequency with dementia risk. METHODS: Participants from the ARIC-NCS (Atherosclerosis Risk in Communities-Neurocognitive Study), a community-based longitudinal cohort, with a 3T research magnetic resonance imaging at visit 5 (2011-2013) without prior intracerebral hemorrhage or dementia, were included. CMB and cSS presence and location were evaluated using a T2* gradient-recalled echo sequence. Each individual's pattern of CMBs was classified as no CMBs, subcortical only, mixed (subcortical and lobar±cSS), lobar±cSS only, or cSS. Dementia adjudication was determined by blinded review of cognitive testing, informant interviews, and hospital discharge codes or death certificates (from follow-up visits and ongoing surveillance). Cox proportional hazards models assessed associations between CMBs and incident dementia through 2020, adjusted for demographics, vascular risk factors, and white matter hyperintensities. RESULTS: Among 1583 participants (mean age, 76 years; 24.7% cumulative dementia incidence over a median of 23.6 follow-up years), 361 had CMBs. Compared with individuals without CMBs, those with mixed (hazard ratio, 1.99 [95% CI, 1.40-2.83]) or lobar±cSS (hazard ratio, 1.96 [95% CI, 1.30-2.97]) CMB patterns had increased dementia risk, whereas individuals with a subcortical-only pattern did not (hazard ratio, 1.04 [95% CI, 0.78-1.39]). cSS presence (n=21; versus absence) showed an increased risk of dementia (hazard ratio, 2.57 [95% CI, 1.36-4.89]). Greater numbers of microbleeds across all CMB subtypes exhibited an increased risk of dementia. CONCLUSIONS: Lobar and mixed CMB patterns and increasing numbers of CMBs are associated with incident dementia. Certain CMB patterns have differential associations with dementia, but severe enough disease burden, regardless of CMB distribution, is associated with increased dementia risk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757413/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Stroke",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0039-2499",
+      "impact_factor": 8.9,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+      "summary": "BACKGROUND: Functional magnetic resonance imaging (fMRI) has revealed inconsistent neural activity patterns in major depressive disorder (MDD) across cognitive and affective domains, and this study used an activation likelihood estimation (ALE) meta-analysis to examine brain function abnormalities in working memory, reward processing, and emotion processing. METHODS: A systematic search was conducted in PubMed, Embase, Web of Science, ScienceDirect, and CNKI for fMRI studies comparing MDD patients with healthy controls (HCs), including data up to 3 December 2024. ALE meta-analysis was performed to examine activation patterns. Jackknife sensitivity analysis, risk of bias, and Newcastle-Ottawa scale were used to assess robustness and publication bias. Meta-regression analyses were conducted to explore the impact of covariates on the results. RESULTS: Sixty-nine studies (2,073 MDD individuals and 2,009 HCs) were included. MDD individuals showed hyperactivation in the bilateral parahippocampal gyrus, subcallosal gyrus, lentiform nucleus, left claustrum, insula, and anterior cingulate cortex, alongside hypoactivation in the right lentiform nucleus, parahippocampal gyrus, fusiform gyrus, and other regions. Domain-specific analyses revealed working memory-related hyperactivation in the right middle and superior frontal gyrus, reward-related hyperactivation in the bilateral lentiform nucleus, right claustrum, and left caudate, and emotion-related hyperactivation in the bilateral parahippocampal gyrus, bilateral lentiform nucleus, right subcallosal gyrus, right anterior cingulate cortex, and left claustrum. Jackknife sensitivity analysis confirmed robustness, with no significant publication bias or covariate impact. CONCLUSIONS: Aberrant activation in the lentiform and caudate nuclei across reward and emotion tasks suggests striatal dysfunction plays a key role in emotion-motivation interplay, highlighting the striatum as a potential target for future therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749073/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Psychol Med",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "CLIPPERS mimicking multifocal brain metastases: a diagnostic challenge.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749027/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurol Sci",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1590-1874",
+      "impact_factor_status": "未查到影响因子"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-28T00:32:43+00:00",
+    "version": 1,
+    "summary": "Captured 9 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 3 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 9.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 9,
+      "high_priority": 6,
+      "medium_priority": 3,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 9
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Explainable Machine Learning for Coma Outcome Prediction Based on Structural and Functional Brain MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41757998/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Normal-Appearing White Matter Injury Mediates Chronic Deep Venous Hypoxia and Disease Progression in Multiple Sclerosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41757653/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Deep learning-based synthetic brain MRI for the assessment of regional atrophy patterns in neurodegenerative diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758343/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Computational modeling for precision targeting of conductivity-clamped gene electrotransfer within the striatum of the human brain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41757695/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Associations Between Cerebral Microbleed Patterns and Incident Dementia: The ARIC-Neurocognitive Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41757413/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749073/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain Atrophy and White Matter Changes Grading Agreement on NCCT and MRI in Ischemic Stroke.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758218/",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Quantification of Transcranial Magnetic Stimulation and Low-intensity Focused Ultrasound Energy Field Focality in the Cerebral Cortex.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758099/",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "CLIPPERS mimicking multifocal brain metastases: a diagnostic challenge.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749027/",
+        "published_date": "2026-02-27",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

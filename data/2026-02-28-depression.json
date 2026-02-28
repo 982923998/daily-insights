@@ -1,0 +1,193 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+      "summary": "BACKGROUND: Functional magnetic resonance imaging (fMRI) has revealed inconsistent neural activity patterns in major depressive disorder (MDD) across cognitive and affective domains, and this study used an activation likelihood estimation (ALE) meta-analysis to examine brain function abnormalities in working memory, reward processing, and emotion processing. METHODS: A systematic search was conducted in PubMed, Embase, Web of Science, ScienceDirect, and CNKI for fMRI studies comparing MDD patients with healthy controls (HCs), including data up to 3 December 2024. ALE meta-analysis was performed to examine activation patterns. Jackknife sensitivity analysis, risk of bias, and Newcastle-Ottawa scale were used to assess robustness and publication bias. Meta-regression analyses were conducted to explore the impact of covariates on the results. RESULTS: Sixty-nine studies (2,073 MDD individuals and 2,009 HCs) were included. MDD individuals showed hyperactivation in the bilateral parahippocampal gyrus, subcallosal gyrus, lentiform nucleus, left claustrum, insula, and anterior cingulate cortex, alongside hypoactivation in the right lentiform nucleus, parahippocampal gyrus, fusiform gyrus, and other regions. Domain-specific analyses revealed working memory-related hyperactivation in the right middle and superior frontal gyrus, reward-related hyperactivation in the bilateral lentiform nucleus, right claustrum, and left caudate, and emotion-related hyperactivation in the bilateral parahippocampal gyrus, bilateral lentiform nucleus, right subcallosal gyrus, right anterior cingulate cortex, and left claustrum. Jackknife sensitivity analysis confirmed robustness, with no significant publication bias or covariate impact. CONCLUSIONS: Aberrant activation in the lentiform and caudate nuclei across reward and emotion tasks suggests striatal dysfunction plays a key role in emotion-motivation interplay, highlighting the striatum as a potential target for future therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749073/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Psychol Med",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0033-2917",
+      "impact_factor": 5.5,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Psilocybin for psychiatric disorders: History, clinical trials, neuroimaging, and regulations.",
+      "summary": "Psilocybin, a classic psychedelic compound, has garnered renewed interest as a potential treatment for various psychiatric disorders. This review provides a comprehensive overview of psilocybin's history, recent clinical evidence, ongoing clinical trials, neuroimaging findings, and regulations. Historically used in spiritual and healing rituals, psilocybin was in the early 1970s subjected to strict legal restrictions that stalled research for decades. However, renewed scientific interest began in the 1990s, with studies demonstrating psilocybin's therapeutic potential for psychiatric disorders. Clinical trials have reported therapeutic effects of psilocybin in major depressive disorder (MDD), depressive symptoms associated with life-threatening illnesses, and in some substance use disorders. Moreover, several phase III clinical trials of psilocybin for depression are currently underway, though trial data for obsessive-compulsive disorder and bipolar depression are limited. Short-term side effects are reportedly generally mild and transient, but long-term effects still need further investigation. Neuroimaging research using magnetic resonance imaging and electroencephalography is still limited and focuses mainly on MDD. However, ongoing clinical trials include neuroimaging studies for psychiatric disorders beyond MDD, as well as positron emission tomography studies for MDD. Regulatory frameworks vary internationally. While many countries continue to classify psilocybin as a prohibited substance, use of psilocybin under controlled conditions is now permitted in Switzerland, parts of the United States, Canada, and Australia. Despite encouraging data, challenges remain, including the need for larger, blinded trials, standardized protocols, and clarification of long-term efficacy and safety. Psilocybin represents a novel therapeutic approach in psychiatric treatment, warranting further rigorous scientific and regulatory research.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41749057/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Psychiatry Clin Neurosci",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "1323-1316",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "A nuclei-specific fronto-amygdala pathway and its neurotransmitter receptor distribution: Implications for Antidepressant Selection.",
+      "summary": "The amygdala and its cortical connections play an important role in antidepressant treatment of major depressive disorder (MDD). While it can be subdivided according to its cortical connections, the anatomical and molecular heterogeneity across these subdivisions in MDD patients responding to different antidepressants remain unclear. Therefore, we aimed to investigate whether nuclei-level cortico-amygdala white matter (WM) connectivity differentiates responses to two first-line treatments - selective serotonin reuptake inhibitor (SSRI) and serotonin-norepinephrine reuptake inhibitors (SNRI); and to clarify the molecular underpinnings of such difference. From diffusion tensor imaging data in a discovery cohort of 106 MDD patients who response to SSRI (SSRI-Improvers) or SNRI (SNRI-Improvers), cortico-amygdala WM connectivity was estimated via probabilistic tractography. K-modes clustering was applied to cluster the amygdala into subdivisions by cortical projections. Fractional anisotropy (FA) values of each cortico-subdivision WM connection were then compared between SSRI-Improvers and SNRI-Improvers. Finally, the discriminative WM connection was decoded using microscale transcriptomic and chemo-architecture analysis, and its relevance was validated in an independent replication cohort of 66 MDD patients through targeted single-nucleotide polymorphisms (SNP) genotyping. A key difference in WM connection between frontal lobe and medial amygdala nucleus (medialAMY) was identified, which refers to a pharmacological propensity pattern. Such pattern was aligned with the serotonin and noradrenaline neurotransmitter system in a group-specific manner, and mediated the effects of genetic risks of SLC6A4 on treatment inclination. The convergence of macroscale pharmacological propensity connectome, microscale molecular architecture, and genetic variation provides new testable evidence to inform decision-making in antidepressant treatment of MDD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748920/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "1359-4184",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "The association between cannabis use and brain reward anticipation: a 12-month longitudinal study of adults and adolescents who use cannabis and age-matched controls.",
+      "summary": "Substance use has been associated with blunted brain responses to non-drug rewards, but findings in people who use cannabis are mixed. Adolescents may be uniquely vulnerable to cannabis-related disruption to reward processing due to ongoing neuromaturation, but longitudinal research is lacking. In this longitudinal fMRI study, we compared brain measures of reward anticipation in 46 adolescents (16-17 years) and adults (26-29 years) who used cannabis (1-7 days/week) and 50 age-matched controls with the Monetary Incentive Delay task at baseline and 12-month follow-up. Region of interest (ROI) analyses adjusted for cigarette/roll-up use, depression, and risk-taking found that reward anticipation activity decreased in the right (p = 0.05, ηp2 = 0.04) and left (p = 0.02, ηp2 = 0.05) ventral striatum from baseline to follow-up in participants who used cannabis compared with control participants. These effects remained in unadjusted models and when including only participants who consistently used or abstained from cannabis during the study period. There were no significant interactions between the cannabis user-group and age-group, or between the user-group, age-group, and time. There were also no cannabis user-group main or interaction effects in full sample ROI analyses for the thalamus, insula, or supplementary motor area, or in exploratory whole-brain analyses. The current results suggest that cannabis use may be associated with reductions in non-drug reward anticipation activity in the ventral striatum, a key part of the brain's reward system. However, there was no evidence of adolescent resilience or vulnerability to cannabis-related changes in brain reward anticipation activity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748910/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neuropsychopharmacology",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "0893-133X",
+      "impact_factor": 7.1,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Magnetoencephalographic signatures of facial emotion processing in schizophrenia and major depressive disorder: a systematic review.",
+      "summary": "INTRODUCTION: Social withdrawal is a frequent marker of functional decline in schizophrenia, Alzheimer's disease (AD), and major depressive disorder (MDD), and is associated with deficits in facial-emotion recognition (FER). Magnetoencephalography (MEG) captures neuronal activity at millisecond resolution, enabling the assessment of fast oscillatory dynamics and functional connectivity during FER. This systematic review compares MEG responses during implicit and explicit FER tasks in adults with schizophrenia, AD, and MDD to identify possible transdiagnostic and disorder-specific alterations. However, no eligible studies were identified for AD. METHODS: Following PRISMA guidelines, PubMed, Web of Science, and CINAHL were systematically searched from inception to February 2025 for MEG studies comparing adults with schizophrenia, AD, or MDD with healthy controls during implicit (i.e., passive viewing) or explicit (i.e., labeling) FER tasks. RESULTS: Eighteen studies met inclusion criteria (4 schizophrenia, 14 MDD, none in AD). Schizophrenia and MDD showed transdiagnostic MEG patterns across disorder-specific studies, including early temporal-cortical hyperactivation (50-150 ms) during implicit FER and early amygdala hyper-reactivity (within 100 ms) followed by prefrontal hypo-recruitment (100-500 ms) during explicit FER, with disrupted cortico-limbic connectivity. Schizophrenia was associated with specific increases in theta-gamma coupling and unidirectional visual-limbic-prefrontal connectivity during explicit FER. MDD showed a shift from early gamma hyper-synchrony (50-150 ms) to late beta/gamma hypo-synchrony (250-500 ms), with reduced fronto-limbic and fusiform-amygdala coupling. CONCLUSIONS: MEG reveals a transdiagnostic signature of FER dysfunction that may be linked to social withdrawal and disorder-specific oscillatory patterns that may inform targeted neuromodulation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746853/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neuropsychobiology",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "0302-282X",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Disrupted Prefrontal Regulation of Social Rejection in Irritable Bowel Syndrome.",
+      "summary": "INTRODUCTION: Psychosocial stress plays a critical role in symptom exacerbation in irritable bowel syndrome (IBS), yet neural mechanisms linking social rejection to visceral pain remain poorly understood. This study examined the behavioral and neural responses to social rejection in patients with IBS, focusing on prefrontal regulation. METHODS: Using functional magnetic resonance imaging (fMRI) and a validated social exclusion paradigm, we compared the behavioral and neural responses of 35 patients with IBS (Rome IV criteria, without comorbid depression or anxiety disorders) and 36 matched healthy controls (HCs). Participants experienced phases of inclusion, exclusion, and re-inclusion while reporting emotional distress and abdominal pain severity. RESULTS: Compared to HCs, patients with IBS reported a greater increase in abdominal pain during exclusion and showed a pattern suggesting prolonged emotional distress upon re-inclusion. At the neural level, patients with IBS exhibited reduced activation in the dorsomedial prefrontal cortex (dmPFC) during exclusion and in the left inferior frontal gyrus (LIFG) during re-inclusion. Functional connectivity analyses further revealed altered interactions within prefrontal regions (LIFG-dmPFC) and between prefrontal and limbic areas (dmPFC-amygdala) in IBS. Moreover, greater dmPFC-amygdala coupling was associated with heightened emotional distress during social exclusion and was related to greater abdominal pain even at one-year follow-up. CONCLUSIONS: These findings indicate altered engagement and coordination of prefrontal regulatory networks during social rejection in IBS, offering insights into neural mechanisms linking psychosocial stress to pain chronicity in IBS.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746847/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Psychother Psychosom",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "0033-3190",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Applying machine-learning and deep-learning to predict depression from brain MRI and identify depression-related brain biology.",
+      "summary": "The accuracy of grey-matter predictors of depression has remained limited. In this study, brain-based predictors of major depressive disorder (MDD) were trained using machine-learning (Best Linear Unbiased Predictors [BLUP]) and deep-learning (ResNet3D) techniques applied to high-dimensional (voxel-wise) grey-matter structure extracted from T1-weighted structural MRI. The training sample comprised 987 MDD cases and 3934 controls from the UK Biobank. Predictors were evaluated in an independent sub-cohort of 483 MDD cases and 1939 controls from the UK Biobank and replicated in a clinical cohort (DEP-ARREST CLIN) of 64 cases and 32 controls. In the UK Biobank, the BLUP predictor showed a significant association with MDD status (AUC = 0.57; OR = 1.28 [1.15-1.43]; p-value = 1.1×10-5), which was confirmed in both males and females. By partitioning the BLUP predictor by brain regions of interest (ROI), we found nominal significance supporting the contribution of previously identified MDD-related ROIs (e.g. hippocampus and amygdala), though none passed multiple testing correction. The BLUP predictor overlapped partially with a polygenic score (PGS) of major depression (AUC = 0.65) but also captured a nominally significant signal that was not captured by the genetic score (combined AUC = 0.66, p-value = 0.024 when compared to PGS alone). No association passed multiple testing correction in the DEP-ARREST CLIN cohort, likely due to the small sample size. In contrast, the deep-learning predictor was not associated with MDD after multiple testing corrections. We estimated the morphometricity of MDD to be 0.061, implying limited potential of a brain-based predictor based on grey-matter structure (maximal AUC = 0.64). While the modest AUC values reiterate the challenge of developing brain-based MDD predictors for clinical applications, our predictors inform future research to explore brain-based relationships between MDD and comorbidities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41741408/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-28",
+      "journal_issn": "2158-3188",
+      "impact_factor": 6.2,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Factors associated with subjective cognitive complaints in former American football players.",
+      "summary": "OBJECTIVE: Subjective cognitive complaints (SCC) can precede cognitive decline and are associated with demographic, exposure, lifestyle, and psychological factors. Prevalences of SCC and their correlates in individuals with repetitive head impacts (RHI) are poorly understood. This study characterized SCC in former elite American football players by frequency, mood and behavioral correlates, concordance with informant reports, and associations with neuropsychological test performance, cerebrospinal fluid (CSF), and magnetic resonance imaging (MRI) markers of neurodegeneration. METHOD: Former American football players (n = 180) completed measures of global and domain-specific SCC, neuropsychiatric symptom questionnaires, neuropsychological testing, lumbar puncture, and MRI. Elastic net regression evaluated the relative importance of potential SCC correlates. Intraclass correlation coefficients measured concordance between self and informant reports. Multiple linear regressions tested associations between SCC and verbal memory and executive functioning scores. CSF Aβ1-42, p-tau181, t-tau, neurofilament light (NfL), hippocampal volume, and regional cortical thickness were examined for their potential associations with SCC. RESULTS: Rates of SCC ranged from 43 to 77% depending on the domain. Symptoms of depression, impulsivity, and anxiety were strongly associated with SCC. Self- and informant-reported SCC showed moderate inter-rater agreement. Adjusting for age, race, education, APOE ϵ4 carrier status, and depressive symptoms, SCC were associated with lower objective verbal memory and executive functioning performance. SCC were associated with lower parahippocampal cortical thickness but not with hippocampal volume or any of the measured CSF tests. CONCLUSIONS: SCC are strongly associated with neuropsychiatric factors in former American football players. SCC may also be a marker of cognitive decline and neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41738687/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Int Neuropsychol Soc",
+      "published_date": "2026-02-25",
+      "date": "2026-02-28",
+      "journal_issn": "1355-6177",
+      "impact_factor": 2.6,
+      "impact_factor_status": "已收录影响因子"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-28T05:40:37+00:00",
+    "version": 1,
+    "summary": "Captured 8 research items. Preference focus is brain-imaging analysis and disease mechanisms: 8 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 8.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 8,
+      "high_priority": 8,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 8
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Disrupted Prefrontal Regulation of Social Rejection in Irritable Bowel Syndrome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746847/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Magnetoencephalographic signatures of facial emotion processing in schizophrenia and major depressive disorder: a systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746853/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A nuclei-specific fronto-amygdala pathway and its neurotransmitter receptor distribution: Implications for Antidepressant Selection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748920/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Factors associated with subjective cognitive complaints in former American football players.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41738687/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749073/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The association between cannabis use and brain reward anticipation: a 12-month longitudinal study of adults and adolescents who use cannabis and age-matched controls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748910/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Applying machine-learning and deep-learning to predict depression from brain MRI and identify depression-related brain biology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41741408/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Psilocybin for psychiatric disorders: History, clinical trials, neuroimaging, and regulations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41749057/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

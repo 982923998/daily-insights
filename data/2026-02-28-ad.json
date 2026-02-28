@@ -1,0 +1,152 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "Deep learning-based synthetic brain MRI for the assessment of regional atrophy patterns in neurodegenerative diseases.",
+      "summary": "OBJECTIVES: Assessing regional brain atrophy on 3D-T1w imaging is crucial for evaluating neurodegenerative disorders. However, high-quality volumetric imaging is not always available. Thus, AI-based algorithms were developed to generate \"synthetic\" 3D-T1w sequences using various clinical sequences as input. This retrospective study aims to investigate whether regional atrophy patterns are preserved in deep learning-based synthetic 3D-T1w sequences from different inputs. MATERIALS AND METHODS: The study included patients with Alzheimer's disease (AD), Frontotemporal dementia (FTD), and healthy controls (HC). Probands were scanned at 3 T, and deep learning-based synthetic 3D-T1w images were generated from various inputs (3D FLAIR, 4 mm axial FLAIR, 4 mm coronal T2) using FreeSurfer-based SynthSR. Real 3D-T1w images served as the reference standard. Brain volumetry was performed using SynthSeg+ in FreeSurfer and the AssemblyNet-AD-FTD pipeline in VolBrain. RESULTS: Global and regional volumes differed significantly between deep learning-based synthetized sequences and the reference standard 3D T1 for all subgroups and inputs (total white matter volume AD p = 0.0002, FTD p < 0.0001, HC p = 0.0116; total gray matter volume for AD, FTD, and HC p < 0.0001), except for hippocampal volumes. This systematic error in overestimating volumes affected automated disease probability prediction in FTD for all inputs (p < 0.0001) and in HC for coronal T2 input (adj. p = 0.0054). CONCLUSION: Deep learning-based synthetic 3D-T1w sequences introduce systematic errors in assessing global and regional brain volumetric measures, leading to overestimated volumes in controls and patients. Resulting synthetic images should be used cautiously, especially for volumetric analyses. KEY POINTS: Question It remains unclear whether deep learning-based synthetic 3D-T1w images from various inputs preserve regional atrophy patterns sufficiently to serve as input for automated volumetry. Findings Deep learning-based synthetic T1w images overestimate regional and global brain volumes in neurodegenerative diseases and controls, increasing with lower quality inputs. Clinical relevance Deep learning-based synthetic images should only be used with caution for volumetric evaluation of brain MRI scans. If possible, 3D scans should be used as input.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758343/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Eur Radiol",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "0938-7994",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "A Framework Integrating Spiking Cortical Circuit Modeling and Simulation-Based Inference to Probe Biomarkers of Cortical Dysfunction in Alzheimer's Disease.",
+      "summary": "Understanding circuit-level imbalances in the cortex can yield mechanistic insights into Alzheimer's disease (AD), supporting both diagnosis and therapeutic development. We present a computational framework that integrates the causal interpretability of mechanistic modeling with the predictive power of simulation-based inference (SBI) to identify candidate neuroimaging biomarkers of cortical circuit dysfunction in AD. Using a spiking cortical circuit model with recurrent excitatory and inhibitory populations, we generated a comprehensive dataset of two million simulations and produced realistic electroencephalography (EEG) signals through biophysically grounded causal filtering of spiking activity. From these signals, we extracted EEG features serving as potential biomarkers of cortical dysregulation and trained SBI models optimized for accuracy and efficiency. Comparisons across feature sets revealed that multi-feature SBI models achieved higher inference accuracy than single-feature approaches in predicting various cortical parameters, suggesting that no single biomarker is sufficient to fully characterize the neural processes underlying the EEG signal. Applying the best-performing models to real EEG data from AD patients at varying stages uncovered distinct patterns of cortical dysfunction, including a progressive reduction in cortico-cortical connectivity, linked to the accelerated breakdown of synaptic connections widely reported in AD progression. A reduction in the efficacy of the excitatory time constant was also observed, likely reflecting a shift in the excitation/inhibition (E/I) balance toward inhibition in later stages of the disease. Our framework provides a scalable and interpretable bridge between local-scale mechanistic brain modeling and clinical neuroimaging, advancing the identification of physiologically meaningful biomarkers of cortical dysfunction in AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758277/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Interdiscip Sci",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1867-1462",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Cerebral glucose uptake and cognitive functions: A phenome-wide Mendelian randomization study.",
+      "summary": "BackgroundBased on both physiological perspectives and observational findings, increasing cerebral glucose uptake appears to be a novel therapeutic strategy to preserve cognitive function in patients with Alzheimer's disease (AD). However, the inherent limitations of observational studies make it difficult to establish clear causality.ObjectiveTo evaluate the potential of cerebral glucose uptake as a novel therapeutic strategy for AD through a systematic investigation of its causal relationship with cognitive function.MethodsThe [18F] fluoro-2-deoxy-2-D-glucose positron emission tomography (FDG-PET) was used as an indicator of cerebral glucose uptake. Phenome-wide Mendelian randomization was performed to investigate the causal relationships between glucose uptake across 113 brain regions and 96 cognitive assessment scores using data from the Alzheimer's Disease Neuroimaging Initiative.ResultsIn the primary analysis, employing the inverse-variance weighted method, genetically predicted increases in cerebral glucose uptake exhibited a consistent trend toward beneficial changes in cognitive assessment scores across brain regions independent of brain volume. Subsequent sensitivity analyses, horizontal pleiotropy assessments and corrections for multiple testing demonstrated robust causal relationships between cerebral glucose uptakes and cognitive assessment scores, including the Alzheimer's Disease Assessment Scale and the Clinical Dementia Rating, across multiple brain regions.ConclusionsThis study provides genetic evidence suggesting causal relationship between cerebral glucose uptake and cognitive function. These findings indicate that FDG-PET images in specific brain regions may serve as a surrogate marker for cognitive function and support the potential of therapeutic strategies targeting cerebral glucose uptake to preserve cognitive function in patients with AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758127/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28",
+      "journal_issn": "1387-2877",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Alzheimer's disease and dementia care in Nigeria: Challenges, realities, and the call for a national strategy.",
+      "summary": "Alzheimer's disease, which is the most common cause of dementia, represents a growing but under-recognized public health challenge in Nigeria. Despite global advances in dementia awareness, care and management, Nigeria continues to face significant barriers, including stigma, inadequate health infrastructure, and the absence of a national dementia strategy. This article highlights the epidemiology, biological basis, risk factors, and current challenges of Alzheimer's disease in Nigeria, while proposing evidence-based recommendations for policy, research, and community engagement aligned with global best practices. Emerging evidence also demonstrates the potential role of AI-driven eye-tracking technologies as non-invasive tools for early Alzheimer's disease detection, which may be particularly relevant for low-resource settings where access to advanced neuroimaging and biomarkers is limited.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41755465/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "1387-2877",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Magnetic resonance microscopy maps widespread effects of Alzheimer's disease on brain structures and behavior in mice.",
+      "summary": "Alzheimer's disease has widespread effects on brain structure, function and behavior, but we lack a systematic dissection of its impact across hundreds of forebrain and brainstem regions. Here, using diffusion tensor MRI at 25 µm, we mapped the global consequences of mutations in APP and PSEN1 across 231 regions of interest (ROIs) in male and female 5×FAD BXD hybrid mice at 14 months. Over half of the ROIs change in volume along rostrocaudal and mediolateral axes of the CNS, with unexpected swelling in the neocortex, hippocampus and amygdala of up to 10%, counterbalanced by shrinkage in the thalamus, brainstem and most white matter tracts. Yet, total brain volume is unaltered. Variation in individual ROI volumes is highest in females. Differences in fear acquisition and contextual memory performance covary with volumes of several regions and can have opposite polarities between cases and controls. These structural benchmarks establish a foundation for testing therapeutic interventions in preclinical trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748785/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "1097-6256",
+      "impact_factor": 20.0,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Magnetoencephalographic signatures of facial emotion processing in schizophrenia and major depressive disorder: a systematic review.",
+      "summary": "INTRODUCTION: Social withdrawal is a frequent marker of functional decline in schizophrenia, Alzheimer's disease (AD), and major depressive disorder (MDD), and is associated with deficits in facial-emotion recognition (FER). Magnetoencephalography (MEG) captures neuronal activity at millisecond resolution, enabling the assessment of fast oscillatory dynamics and functional connectivity during FER. This systematic review compares MEG responses during implicit and explicit FER tasks in adults with schizophrenia, AD, and MDD to identify possible transdiagnostic and disorder-specific alterations. However, no eligible studies were identified for AD. METHODS: Following PRISMA guidelines, PubMed, Web of Science, and CINAHL were systematically searched from inception to February 2025 for MEG studies comparing adults with schizophrenia, AD, or MDD with healthy controls during implicit (i.e., passive viewing) or explicit (i.e., labeling) FER tasks. RESULTS: Eighteen studies met inclusion criteria (4 schizophrenia, 14 MDD, none in AD). Schizophrenia and MDD showed transdiagnostic MEG patterns across disorder-specific studies, including early temporal-cortical hyperactivation (50-150 ms) during implicit FER and early amygdala hyper-reactivity (within 100 ms) followed by prefrontal hypo-recruitment (100-500 ms) during explicit FER, with disrupted cortico-limbic connectivity. Schizophrenia was associated with specific increases in theta-gamma coupling and unidirectional visual-limbic-prefrontal connectivity during explicit FER. MDD showed a shift from early gamma hyper-synchrony (50-150 ms) to late beta/gamma hypo-synchrony (250-500 ms), with reduced fronto-limbic and fusiform-amygdala coupling. CONCLUSIONS: MEG reveals a transdiagnostic signature of FER dysfunction that may be linked to social withdrawal and disorder-specific oscillatory patterns that may inform targeted neuromodulation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41746853/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neuropsychobiology",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "0302-282X",
+      "impact_factor_status": "未查到影响因子"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-28T05:45:12+00:00",
+    "version": 1,
+    "summary": "Captured 6 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 6,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "A Framework Integrating Spiking Cortical Circuit Modeling and Simulation-Based Inference to Probe Biomarkers of Cortical Dysfunction in Alzheimer's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758277/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Magnetoencephalographic signatures of facial emotion processing in schizophrenia and major depressive disorder: a systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41746853/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Magnetic resonance microscopy maps widespread effects of Alzheimer's disease on brain structures and behavior in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748785/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Deep learning-based synthetic brain MRI for the assessment of regional atrophy patterns in neurodegenerative diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758343/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebral glucose uptake and cognitive functions: A phenome-wide Mendelian randomization study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41758127/",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Alzheimer's disease and dementia care in Nigeria: Challenges, realities, and the call for a national strategy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41755465/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

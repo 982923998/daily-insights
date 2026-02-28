@@ -1652,3 +1652,491 @@ Traceback (most recent call last):
   File "/Users/chenmayao/Projects/daily-insights/scripts/enrich_journal.py", line 19, in <module>
     from bs4 import BeautifulSoup
 ModuleNotFoundError: No module named 'bs4'
+[08:30:04] 🚀 Starting task: brainmri
+[08:30:04] 📚 Academic domain: brainmri (Brain MRI)
+[08:30:04] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json
+[08:30:04] ⚡ [Fetch Brain MRI] model: gpt-5.3-codex
+[08:30:04] ⏱️ [Fetch Brain MRI] timeout: 600s
+[08:30:04] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-28）。
+  你必须严格执行 academic-search 技能工作流，路径如下：
+  - 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+  - 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  强制步骤（不得跳过）：
+  1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+  2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+  3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+  领域配置文件：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json"：
+  - 顶层结构：{"date":"2026-02-28","articles":[...]}
+  - 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+  - 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+  - 若文件已存在，先读取后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-02-28","articles":[]}
+  不写文件 = 任务失败。
+[08:30:04] ────────────────────────────────────
+OpenAI Codex v0.106.0 (research preview)
+--------
+workdir: /Users/chenmayao/Projects/daily-insights
+model: gpt-5.3-codex
+provider: gmn
+approval: never
+sandbox: danger-full-access
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019ca1a7-0ae7-7f00-8460-8b9b04de6b16
+--------
+user
+你的任务是检索 Brain MRI 领域的学术论文（今天：2026-02-28）。
+
+你必须严格执行 academic-search 技能工作流，路径如下：
+- 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+- 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+
+强制步骤（不得跳过）：
+1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+
+领域配置文件：
+/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+
+完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json"：
+- 顶层结构：{"date":"2026-02-28","articles":[...]}
+- 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+- category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+- 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+- 若文件已存在，先读取后合并去重再写入
+- 若当天无文章，写入 {"date":"2026-02-28","articles":[]}
+
+不写文件 = 任务失败。
+
+mcp startup: no servers
+
+thinking
+**Planning skill and config inspection**
+exec
+/bin/zsh -lc 'ls -la' in /Users/chenmayao/Projects/daily-insights succeeded in 30ms:
+total 48
+drwxr-xr-x  12 chenmayao  staff   384 Feb 26 10:50 .
+drwxr-xr-x   6 chenmayao  staff   192 Feb 25 17:56 ..
+drwxr-xr-x   3 chenmayao  staff    96 Feb 25 13:14 .agents
+drwxr-xr-x  15 chenmayao  staff   480 Feb 27 21:37 .git
+-rw-r--r--   1 chenmayao  staff    29 Feb 25 13:14 .gitignore
+-rw-r--r--@  1 chenmayao  staff  6539 Feb 27 17:34 README.md
+drwxr-xr-x  29 chenmayao  staff   928 Feb 28 08:04 data
+-rwxr-xr-x@  1 chenmayao  staff  4923 Feb 27 17:29 install.sh
+drwxr-xr-x   6 chenmayao  staff   192 Feb 27 19:03 logs
+drwxr-xr-x  11 chenmayao  staff   352 Feb 27 16:10 scripts
+drwxr-xr-x   3 chenmayao  staff    96 Feb 25 13:14 web
+-rwxr-xr-x@  1 chenmayao  staff   936 Feb 25 13:14 启动.command
+exec
+/bin/zsh -lc 'cat .agents/skills/academic-search/SKILL.md' in /Users/chenmayao/Projects/daily-insights succeeded in 31ms:
+---
+name: academic-search
+description: Search academic papers on PubMed using domain-specific configurations. Each research domain is defined in sources/{id}.md with search queries and filtering rules.
+keywords:
+  - academic
+  - research
+  - pubmed
+  - papers
+  - literature
+license: MIT
+---
+
+# Academic Search
+
+Searches PubMed for papers in configured research domains.
+Domain configurations live in `sources/{id}.md` — each file defines what to search and filter rules.
+
+## Requirements
+
+1. Bash + curl (uses PubMed E-utilities directly, no external API key needed)
+
+thinking
+**Planning source config review**
+exec
+/bin/zsh -lc 'cat .agents/skills/academic-search/sources/brainmri.md' in /Users/chenmayao/Projects/daily-insights succeeded in 35ms:
+---
+id: brainmri
+label: Brain MRI
+category: Brain MRI
+color: "#0ea5e9"
+icon: crosshair
+skill: academic-search
+platforms: pubmed
+order: 8
+---
+
+## PubMed 检索（Entrez E-utilities）
+
+使用 `reldate=2&datetype=crdt` 动态获取最近 2 天入库的文献（覆盖今天与前一天），无需硬编码日期。
+
+### 检索词
+
+```
+("Brain"[Mesh] OR brain*[Title/Abstract] OR cerebr*[Title/Abstract] OR encephalon[Title/Abstract] OR intracranial[Title/Abstract]) AND ("Magnetic Resonance Imaging"[Mesh] OR "MRI"[Title/Abstract] OR "magnetic resonance"[Title/Abstract] OR "fMRI"[Title/Abstract] OR "DTI"[Title/Abstract] OR "diffusion tensor"[Title/Abstract] OR "VBM"[Title/Abstract] OR "voxel-based morphometry"[Title/Abstract] OR "connectome"[Title/Abstract] OR "arterial spin labeling"[Title/Abstract] OR "magnetic resonance spectroscopy"[Title/Abstract])
+```
+
+thinking
+**Planning scripted API retrieval**
+exec
+/bin/zsh -lc "ls -la data | sed -n '1,120p'" in /Users/chenmayao/Projects/daily-insights succeeded in 38ms:
+total 696
+drwxr-xr-x  29 chenmayao  staff    928 Feb 28 08:04 .
+drwxr-xr-x  12 chenmayao  staff    384 Feb 26 10:50 ..
+-rw-r--r--@  1 chenmayao  staff   6148 Feb 26 10:52 .DS_Store
+-rw-r--r--   1 chenmayao  staff   2572 Feb 26 11:00 2026-02-23-ad.json
+-rw-r--r--   1 chenmayao  staff    721 Feb 26 11:00 2026-02-23-adhd.json
+-rw-r--r--   1 chenmayao  staff  15573 Feb 26 11:00 2026-02-23-ai.json
+-rw-r--r--   1 chenmayao  staff   5896 Feb 26 11:00 2026-02-23-autism.json
+-rw-r--r--   1 chenmayao  staff   4160 Feb 26 11:00 2026-02-23-brainmri.json
+-rw-r--r--   1 chenmayao  staff   5123 Feb 26 11:00 2026-02-23-depression.json
+-rw-r--r--   1 chenmayao  staff   2562 Feb 26 11:00 2026-02-23-mefmri.json
+-rw-r--r--   1 chenmayao  staff   3451 Feb 26 11:00 2026-02-23-pd.json
+-rw-r--r--   1 chenmayao  staff   7701 Feb 26 11:03 2026-02-24-ad.json
+-rw-r--r--   1 chenmayao  staff    721 Feb 26 11:00 2026-02-24-adhd.json
+-rw-r--r--   1 chenmayao  staff  27300 Feb 26 11:00 2026-02-24-ai.json
+-rw-r--r--   1 chenmayao  staff   2344 Feb 26 11:00 2026-02-24-autism.json
+-rw-r--r--   1 chenmayao  staff  24564 Feb 26 11:03 2026-02-24-brainmri.json
+-rw-r--r--   1 chenmayao  staff   4564 Feb 26 11:01 2026-02-24-depression.json
+-rw-r--r--   1 chenmayao  staff   2723 Feb 26 11:01 2026-02-24-mefmri.json
+-rw-r--r--   1 chenmayao  staff   2882 Feb 26 11:01 2026-02-24-pd.json
+
+thinking
+**Inspecting brain MRI schema**
+exec
+/bin/zsh -lc "python3 - <<'PY'
+import json
+p='data/2026-02-27-brainmri.json'
+obj=json.load(open(p))
+print(obj.keys())
+print(len(obj['articles']))
+print(obj['articles'][0].keys())
+print(json.dumps(obj['articles'][0],ensure_ascii=False,indent=2)[:600])
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 62ms:
+dict_keys(['date', 'articles', 'digest'])
+21
+dict_keys(['title', 'summary', 'url', 'category', 'source', 'journal', 'published_date', 'date', 'journal_issn', 'impact_factor', 'impact_factor_status'])
+{
+  "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+  "summary": "BACKGROUND: Functional magnetic resonance imaging (fMRI) has revealed inconsistent neural activity patterns in major depressive disorder (MDD) across cognitive and affective domains, and this study used an activation likelihood estimation (ALE) meta-analysis to examine brain function abnormalities in working memory, reward processing, and emotion processing. METHODS: A systematic search was conducted in PubMed, Embase, Web of Science, Scienc
+
+thinking
+**Clarifying strict top-level output structure**
+exec
+/bin/zsh -lc "mkdir -p /tmp/brainmri_search && curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=100&retmode=json\" > /tmp/brainmri_search/esearch.json && python3 - <<'PY'
+import json
+p='/tmp/brainmri_search/esearch.json'
+obj=json.load(open(p))
+ids=obj.get('esearchresult',{}).get('idlist',[])
+print(len(ids))
+print(ids[:10])
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 977ms:
+100
+['41758468', '41758343', '41758218', '41758099', '41757998', '41757695', '41757653', '41757413', '41757363', '41757288']
+
+thinking
+**Planning batched API requests**
+exec
+/bin/zsh -lc "python3 - <<'PY'
+import json
+ids=json.load(open('/tmp/brainmri_search/esearch.json'))['esearchresult']['idlist']
+open('/tmp/brainmri_search/pmids.txt','w').write('\\n'.join(ids))
+open('/tmp/brainmri_search/pmids_comma.txt','w').write(','.join(ids))
+print('saved',len(ids))
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 46ms:
+saved 100
+exec
+/bin/zsh -lc 'IDS=$(cat /tmp/brainmri_search/pmids_comma.txt); curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${IDS}&retmode=json" > /tmp/brainmri_search/esummary.json && python3 - <<'"'PY'
+import json
+obj=json.load(open('/tmp/brainmri_search/esummary.json'))
+res=obj.get('result',{})
+print('uids',len(res.get('uids',[])))
+print('sample',res.get('uids',[])[:5])
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 1.99s:
+uids 100
+sample ['41758468', '41758343', '41758218', '41758099', '41757998']
+
+thinking
+**Fetching data step**
+exec
+/bin/zsh -lc 'IDS=$(cat /tmp/brainmri_search/pmids_comma.txt); curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${IDS}&retmode=xml&rettype=abstract" > /tmp/brainmri_search/efetch.xml && python3 - <<'"'PY'
+from pathlib import Path
+p=Path('/tmp/brainmri_search/efetch.xml')
+print('bytes',p.stat().st_size)
+print(p.read_text()[:120])
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 2.11s:
+bytes 1285141
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.
+
+thinking
+**Planning robust parsing and merging**
+exec
+/bin/zsh -lc "python3 - <<'PY'
+import json, itertools
+obj=json.load(open('/tmp/brainmri_search/esummary.json'))['result']
+for uid in obj['uids'][:20]:
+    r=obj[uid]
+    print(uid, '|', r.get('pubdate'), '|', r.get('source'))
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 65ms:
+41758468 | 2026 | Neurol Neurochir Pol
+41758343 | 2026 Feb 27 | Eur Radiol
+41758218 | 2026 Feb 27 | Clin Neuroradiol
+41758099 | 2026 Feb 27 | Neuromodulation
+41757998 | 2026 Feb 27 | Crit Care Med
+41757695 | 2026 Feb 27 | J Neural Eng
+41757653 | 2026 Feb 27 | Ann Clin Transl Neurol
+41757413 | 2026 Feb 27 | Stroke
+41757363 | 2026 | Front Aging Neurosci
+41757288 | 2026 Feb 17 | ArXiv
+41757265 | 2026 | Front Genet
+41757208 | 2026 Feb 16 | medRxiv
+41757174 | 2026 Feb 18 | medRxiv
+41757088 | 2026 Feb 20 | bioRxiv
+41757079 | 2026 Feb 19 | bioRxiv
+41757064 | 2026 Feb 16 | bioRxiv
+41757034 | 2026 Feb 22 | bioRxiv
+41756934 | 2026 Feb 18 | bioRxiv
+41756892 | 2026 Feb 20 | bioRxiv
+41756879 | 2026 Feb 21 | bioRxiv
+
+thinking
+**Designing pubdate parsing and merging**
+exec
+/bin/zsh -lc "python3 - <<'PY'
+import json
+import re
+from pathlib import Path
+import xml.etree.ElementTree as ET
+
+TODAY = '2026-02-28'
+YESTERDAY = '2026-02-27'
+ALLOWED = {TODAY, YESTERDAY}
+CATEGORY = 'Brain MRI'
+OUTPUT = Path('/Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json')
+
+esummary_path = Path('/tmp/brainmri_search/esummary.json')
+efet_path = Path('/tmp/brainmri_search/efetch.xml')
+
+month_map = {
+    'jan': 1, 'january': 1,
+    'feb': 2, 'february': 2,
+    'mar': 3, 'march': 3,
+    'apr': 4, 'april': 4,
+    'may': 5,
+    'jun': 6, 'june': 6,
+    'jul': 7, 'july': 7,
+    'aug': 8, 'august': 8,
+    'sep': 9, 'sept': 9, 'september': 9,
+    'oct': 10, 'october': 10,
+    'nov': 11, 'november': 11,
+    'dec': 12, 'december': 12,
+}
+
+def parse_pubdate(pubdate: str) -> str:
+    if not pubdate:
+        return ''
+    s = ' '.join(pubdate.replace(',', ' ').split())
+    m = re.search(r'(\\d{4})(?:\\s+([A-Za-z]{3,9}))?(?:\\s+(\\d{1,2}))?', s)
+    if not m:
+        return ''
+    year = int(m.group(1))
+    mon_txt = (m.group(2) or '').lower()
+    day_txt = m.group(3)
+    month = month_map.get(mon_txt, 1)
+    day = int(day_txt) if day_txt and day_txt.isdigit() else 1
+    if day < 1:
+        day = 1
+    if day > 31:
+        day = 31
+    return f'{year:04d}-{month:02d}-{day:02d}'
+
+def clean_text(text: str) -> str:
+    return re.sub(r'\\s+', ' ', text or '').strip()
+
+# Parse abstracts from efetch XML
+abstract_map = {}
+root = ET.parse(efet_path).getroot()
+for article in root.findall('.//PubmedArticle'):
+    pmid_node = article.find('.//MedlineCitation/PMID')
+    if pmid_node is None or not (pmid_node.text and pmid_node.text.strip()):
+        continue
+    pmid = pmid_node.text.strip()
+    sections = []
+    for node in article.findall('.//Abstract/AbstractText'):
+        text = ''.join(node.itertext()).strip()
+        if not text:
+            continue
+        label = (node.attrib.get('Label') or '').strip()
+        if label:
+            sections.append(f'{label}: {text}')
+        else:
+            sections.append(text)
+    abstract = clean_text(' '.join(sections))
+    abstract_map[pmid] = abstract
+
+summary_data = json.loads(esummary_path.read_text())
+result = summary_data.get('result', {})
+uids = result.get('uids', [])
+
+new_articles = []
+for uid in uids:
+    item = result.get(uid, {})
+    published_date = parse_pubdate(item.get('pubdate', ''))
+    if published_date not in ALLOWED:
+        continue
+    title = clean_text(item.get('title', ''))
+    journal = clean_text(item.get('source', ''))
+    url = f'https://pubmed.ncbi.nlm.nih.gov/{uid}/'
+    summary = abstract_map.get(uid, '')
+    if not summary:
+        summary = 'No abstract available in source.'
+    article = {
+        'title': title,
+        'summary': summary,
+        'url': url,
+        'category': CATEGORY,
+        'source': 'pubmed',
+        'journal': journal,
+        'published_date': published_date,
+        'date': TODAY,
+    }
+    new_articles.append(article)
+
+# De-duplicate by URL within new articles
+new_by_url = {}
+for a in new_articles:
+    u = a.get('url', '')
+    if not u:
+        continue
+    prev = new_by_url.get(u)
+    if prev is None or (prev.get('summary') == 'No abstract available in source.' and a.get('summary') "'!= '"'No abstract available in source.'):
+        new_by_url[u] = a
+new_articles = list(new_by_url.values())
+
+existing_articles = []
+if OUTPUT.exists():
+    try:
+        existing_obj = json.loads(OUTPUT.read_text())
+        existing_articles = existing_obj.get('articles', []) if isinstance(existing_obj, dict) else []
+    except Exception:
+        existing_articles = []
+
+# Merge existing + new, dedupe by URL. Prefer new record when duplicate.
+merged = {}
+for art in existing_articles:
+    u = art.get('url', '') if isinstance(art, dict) else ''
+    if u:
+        merged[u] = art
+for art in new_articles:
+    u = art.get('url', '')
+    if not u:
+        continue
+    merged[u] = art
+
+# Keep only valid date window from merged (today/yesterday) to satisfy secondary filter consistently.
+final_articles = []
+for art in merged.values():
+    if not isinstance(art, dict):
+        continue
+    if art.get('published_date') not in ALLOWED:
+        continue
+    # normalize required fields
+    summary = clean_text(str(art.get('summary', '') or ''))
+    if not summary:
+        summary = 'No abstract available in source.'
+    final_articles.append({
+        'title': clean_text(str(art.get('title', '') or '')),
+        'summary': summary,
+        'url': str(art.get('url', '') or ''),
+        'category': CATEGORY,
+        'source': 'pubmed',
+        'journal': clean_text(str(art.get('journal', '') or '')),
+        'published_date': str(art.get('published_date', '') or ''),
+        'date': TODAY,
+    })
+
+# Remove items without url or title
+final_articles = [a for a in final_articles if a['url'] and a['title']]
+
+# Sort by published_date desc then url
+final_articles.sort(key=lambda x: (x['published_date'], x['url']), reverse=True)
+
+out = {
+    'date': TODAY,
+    'articles': final_articles,
+}
+OUTPUT.write_text(json.dumps(out, ensure_ascii=False, indent=2))
+print(f'wrote {OUTPUT} with {len(final_articles)} articles')
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 96ms:
+wrote /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json with 9 articles
+
+thinking
+**Checking file existence and content**
+exec
+/bin/zsh -lc "python3 - <<'PY'
+import json
+p='data/2026-02-28-brainmri.json'
+obj=json.load(open(p))
+print(type(obj),obj.keys())
+print('date',obj.get('date'))
+arts=obj.get('articles',[])
+print('count',len(arts))
+if arts:
+    print('fields',arts[0].keys())
+    missing=[i for i,a in enumerate(arts) if not a.get('summary')]
+    bad=[a['published_date'] for a in arts if a.get('published_date') not in {'2026-02-28','2026-02-27'}]
+    print('missing summary',len(missing),'bad dates',len(bad))
+    print('sample',json.dumps(arts[0],ensure_ascii=False,indent=2)[:500])
+PY" in /Users/chenmayao/Projects/daily-insights succeeded in 63ms:
+<class 'dict'> dict_keys(['date', 'articles'])
+date 2026-02-28
+count 9
+fields dict_keys(['title', 'summary', 'url', 'category', 'source', 'journal', 'published_date', 'date'])
+missing summary 0 bad dates 0
+sample {
+  "title": "Deep learning-based synthetic brain MRI for the assessment of regional atrophy patterns in neurodegenerative diseases.",
+  "summary": "OBJECTIVES: Assessing regional brain atrophy on 3D-T1w imaging is crucial for evaluating neurodegenerative disorders. However, high-quality volumetric imaging is not always available. Thus, AI-based algorithms were developed to generate \"synthetic\" 3D-T1w sequences using various clinical sequences as input. This retrospective study aims to investi
+
+thinking
+**Summarizing task completion in Chinese**
+codex
+已按 `academic-search` 技能流程执行（先读 `SKILL.md`，再读 `sources/brainmri.md`，并用 `curl` 完整执行 `esearch -> esummary -> efetch`，随后做二次日期过滤与按 `url` 去重）。
+
+结果已写入：
+- `data/2026-02-28-brainmri.json`
+
+写入内容满足你要求的结构与字段：
+- 顶层：`{"date":"2026-02-28","articles":[...]}`
+- 文章字段：`title`、`summary`、`url`、`category`、`source`、`journal`、`published_date`、`date`
+- `category` 固定为 `"Brain MRI"`，`source` 为 `"pubmed"`，无摘要时回退为 `No abstract available in source.`
+
+本次最终保留文章数：`9`。
+tokens used
+18,775
+已按 `academic-search` 技能流程执行（先读 `SKILL.md`，再读 `sources/brainmri.md`，并用 `curl` 完整执行 `esearch -> esummary -> efetch`，随后做二次日期过滤与按 `url` 去重）。
+
+结果已写入：
+- `data/2026-02-28-brainmri.json`
+
+写入内容满足你要求的结构与字段：
+- 顶层：`{"date":"2026-02-28","articles":[...]}`
+- 文章字段：`title`、`summary`、`url`、`category`、`source`、`journal`、`published_date`、`date`
+- `category` 固定为 `"Brain MRI"`，`source` 为 `"pubmed"`，无摘要时回退为 `No abstract available in source.`
+
+本次最终保留文章数：`9`。
+Data quality validated: /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json (domain=brainmri, articles=9)
+[08:32:19] [OK] Data file validated (schema + quality): /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json
+[WARN] beautifulsoup4 is not installed; online LetPub ISSN parsing is disabled.
+Journal enriched: /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json (inspected=9, updated=0, registry_new=5, registry=/Users/chenmayao/Projects/daily-insights/data/journal_impact_factors.json)
+[08:32:43] [OK] Journal names enriched: /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json
+Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json
+[08:32:43] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-02-28-brainmri.json
+[08:32:43] ✅ Task finished.
+[08:32:43] [INFO] AUTO_GIT_SYNC is disabled; skip git push.

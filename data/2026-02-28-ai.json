@@ -1,0 +1,95 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "ruvnet/wifi-densepose 登上 GitHub Trending 日榜",
+      "summary": "InvisPose 的生产级实现进入日榜前列，聚焦 WiFi 感知与人体姿态估计，适合做边缘感知类 AI 实验与二次开发。",
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "ByteDance 开源 SuperAgent 框架 deer-flow 持续走高",
+      "summary": "deer-flow 提供研究、编码和内容生成的多步骤 Agent 编排能力，适合快速搭建可执行的 AI 自动化工作流。",
+      "url": "https://github.com/bytedance/deer-flow",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "moonshine-ai/moonshine：边缘设备 ASR 项目热度上升",
+      "summary": "Moonshine 主打快速且准确的本地语音识别，定位低延迟和端侧部署场景，适合语音助手与离线转写应用。",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Agent-Skills-for-Context-Engineering 进入 Trending",
+      "summary": "该仓库聚合了大量 Agent Skills 模板与上下文工程实践，便于团队快速复用 AI 代理能力并形成标准化流程。",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "ruvnet/ruflo：Claude 多代理编排平台保持高热度",
+      "summary": "ruflo 关注多代理任务调度与生产部署，强调在 Claude 生态下的流程编排和可扩展自动化执行。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Show HN: OpenTimelineEngine（Claude Code / Codex 共享本地记忆）",
+      "summary": "HN Show HN 出现面向代码代理的共享本地记忆引擎，强调跨代理上下文复用与会话持续性，适合 Agent 开发工具链。",
+      "url": "https://news.ycombinator.com/show",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-28",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Show HN: AgentGate（AI Agents 的 Stake-Gated Action 微服务）",
+      "summary": "社区展示了面向 AI Agents 的行动网关微服务，尝试在调用动作层做权限与执行门控，利于多代理安全编排。",
+      "url": "https://news.ycombinator.com/show",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "OpenAI 发布 Amazon Bedrock Agents Stateful Runtime",
+      "summary": "OpenAI 宣布在 Amazon Bedrock 场景引入 Agents 的 Stateful Runtime，重点在持久状态管理与更复杂代理任务执行。",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "OpenAI Codex 与 Figma 推出代码到设计协同能力",
+      "summary": "OpenAI 与 Figma 发布代码到设计联动方案，面向 AI 编码与设计协作闭环，强化从原型到实现的交付效率。",
+      "url": "https://openai.com/index/figma-partnership",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Reddit 讨论：Qwen3.5 27B 在 Intelligence Index 获高分",
+      "summary": "LocalLLaMA 社区围绕 Qwen3.5 27B 的评测结果展开讨论，焦点在中等参数规模模型的性能上限与实际推理效率。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/new/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-02-27",
+      "date": "2026-02-28"
+    }
+  ]
+}

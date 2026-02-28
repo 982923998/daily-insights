@@ -366,6 +366,9 @@
                                                         ? `IF ${impactFactor}${impactFactorYear ? ` (${impactFactorYear})` : ''}`
                                                         : (impactFactorStatus || '未查到影响因子');
                                                     const journalText = journalName || '期刊未知';
+                                                    const isAiArticle = (matchedArticle?._domainId === 'ai')
+                                                        || String(matchedArticle?.category || '').toLowerCase() === 'ai';
+                                                    const showImpactBadge = !isAiArticle;
 
                                                     if (!isLinkable) {
                                                         return (
@@ -381,13 +384,15 @@
                                                                         Card not found
                                                                     </span>
                                                                 </div>
-                                                                <div className="grid grid-cols-2 gap-2">
+                                                                <div className={`grid ${showImpactBadge ? 'grid-cols-2' : 'grid-cols-1'} gap-2`}>
                                                                     <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-sky-800 dark:text-sky-200 px-2 rounded-md border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25">
                                                                         {journalText}
                                                                     </p>
-                                                                    <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
-                                                                        {impactText}
-                                                                    </p>
+                                                                    {showImpactBadge && (
+                                                                        <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
+                                                                            {impactText}
+                                                                        </p>
+                                                                    )}
                                                                 </div>
                                                             </div>
                                                         );
@@ -407,13 +412,15 @@
                                                                     Jump to card
                                                                 </span>
                                                             </div>
-                                                            <div className="grid grid-cols-2 gap-2">
+                                                            <div className={`grid ${showImpactBadge ? 'grid-cols-2' : 'grid-cols-1'} gap-2`}>
                                                                 <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-sky-800 dark:text-sky-200 px-2 rounded-md border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25">
                                                                     {journalText}
                                                                 </p>
-                                                                <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
-                                                                    {impactText}
-                                                                </p>
+                                                                {showImpactBadge && (
+                                                                    <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
+                                                                        {impactText}
+                                                                    </p>
+                                                                )}
                                                             </div>
                                                         </button>
                                                     );
@@ -500,6 +507,9 @@
             const ifText = hasIf
                 ? (ifYear ? `IF ${displayIf} (${ifYear})` : `IF ${displayIf}`)
                 : 'IF N/A';
+            const isAiArticle = (article._domainId === 'ai')
+                || String(article.category || '').toLowerCase() === 'ai';
+            const showImpact = !isAiArticle;
 
             return (
                 <article
@@ -556,11 +566,15 @@
                             {sourceText}
                         </span>
                         <span className="text-slate-300">&bull;</span>
-                        <span className={`flex items-center gap-1.5 ${hasIf ? '' : 'text-slate-300'}`}>
-                            <Icon name="bar-chart-3" size={14} />
-                            {ifText}
-                        </span>
-                        <span className="text-slate-300">&bull;</span>
+                        {showImpact && (
+                            <>
+                                <span className={`flex items-center gap-1.5 ${hasIf ? '' : 'text-slate-300'}`}>
+                                    <Icon name="bar-chart-3" size={14} />
+                                    {ifText}
+                                </span>
+                                <span className="text-slate-300">&bull;</span>
+                            </>
+                        )}
                         <span className="flex items-center gap-1.5">
                             <Icon name="calendar" size={14} />
                             {article.published_date || '\u2014'}

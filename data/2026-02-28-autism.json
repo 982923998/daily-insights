@@ -1,0 +1,116 @@
+{
+  "date": "2026-02-28",
+  "articles": [
+    {
+      "title": "Functional changes of precuneus architecture across newborns, infants, and early adolescents.",
+      "summary": "Brain functional development from birth to adolescence follows the cortical gradient from primary sensorimotor to higher-order association regions. Precuneus (PCun) is crucial in spatial cognition, visual-motor integration, and social cognition. However, functional connectivity changes of PCun subregions in this dynamic developmental period are not known. Multimodal cross-sectional diffusion MRI and resting-state fMRI of subjects from birth to early adolescence were acquired to obtain structural and functional connectivity. PCun in neonates, 1-year-olds, 2-year-olds, and early adolescent subjects were consistently parcellated into four subregions based on structural connectivity of PCun. Significant developmental changes were found in functional connectivity between the parcellated PCun subregions and default mode network (DMN), and between the parcellated PCun subregions and cerebellum network. To understand altered development of PCun in brain disorders, connectivity-based parcellation was performed in the subjects with autism spectrum disorder (ASD). Similar parcellation pattern of PCun was found, but the relative volume of the dorsal-posterior subregion significantly decreased in the subjects with ASD compared to typically developmental subjects. These findings revealed functional developmental patterns of PCun subregions in their connected networks in typical developing brains...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41748807/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-02-26",
+      "date": "2026-02-28",
+      "journal_issn": "2045-2322",
+      "impact_factor": 3.9,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Patient-derived brain organoids reveal divergent neuronal activity across subpopulations of autism spectrum disorder.",
+      "summary": "Patient-derived brain organoids have emerged as a powerful model for investigating the mechanisms underlying neurological and psychiatric disorders. They provide novel insights into autism spectrum disorder (ASD), a heterogeneous neurodevelopmental condition whose underlying mechanisms remain poorly understood. Recent advancements in generating electrophysiological functional 3D brain organoids enable the study of molecular and network-level neuronal activity. Here, we aimed to characterize the neurophysiological underpinnings of ASD by comparing electrophysiological properties of brain organoids derived from eleven individuals diagnosed with autism spectrum disorder, 10 with monogenic syndromic ASD across five genetic subtypes, and 1 with idiopathic ASD, to organoids derived from 4 neurotypical control individuals. We identified distinct differences in baseline activity (resting state) and evoked responses (synaptic plasticity and network dynamics) across ASD subgroups. To comprehensively assess these differences, we applied dimensionality reduction (principal component analysis, PCA) to integrate multiple electrophysiological features into a unified framework. Our findings reveal subtype-specific neurophysiological alterations in ASD brain organoids, offering mechanistic insights into ASD heterogeneity and potential applications for early diagnostics, drug screening, and therapeutic development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41741416/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-28",
+      "journal_issn": "2158-3188",
+      "impact_factor": 6.2,
+      "impact_factor_status": "已收录影响因子"
+    },
+    {
+      "title": "Myelin dysfunction in autism spectrum disorder: insights into core symptoms and mechanisms of brain development.",
+      "summary": "Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition with multifactorial etiologies. Although much research has historically focused on neurons, growing evidence indicates that multiple cell types within the central nervous system (CNS), particularly glial cells, also play critical roles. Importantly, glial cells express most of the high-confidence ASD (hc-ASD) genes, and mutations in these genes are strongly associated with an increased risk of ASD. These cells also play a crucial role in the development, refinement and maturation of circuits. This review highlights the central role of oligodendrocytes (OLs) and myelin in ASD pathophysiology. Individuals with ASD frequently exhibit impairments in white matter development and integrity, particularly in brain regions associated with sociability, stereotyped behaviors, and decision-making. These findings are supported by advanced CNS imaging and postmortem analyses, including structural, proteomic, and transcriptomic studies. Rodent models that replicate core ASD symptoms, such as social disinterest and restricted/repetitive behaviors, demonstrate that aberrant myelination profoundly affects these behavioral traits. Moreover, perturbations in oligodendroglial development directly alter CNS architecture, leading to neuronal morphological abnormalities and disruptions in excitation/inhibition balance. The correlation between OL...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41741706/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "published_date": "2026-02-25",
+      "date": "2026-02-28",
+      "journal_issn": "1359-4184",
+      "impact_factor_status": "未查到影响因子"
+    },
+    {
+      "title": "Layers of Social Meaning: Innate, Acquired, and Deliberative Levels of Referential Signal Processing.",
+      "summary": "Referential signaling is a fundamental component of social interaction, enabling individuals to direct attention, convey intention, and establish shared understanding. The processing of referential signals operates across multiple levels of neurocognitive systems. First, innate mechanisms rapidly detect socially relevant cues, such as gaze and biological motion, prioritizing social information from infancy. Second, social learning enables the establishment of symbolic conventions in service of referential interactions, implicating the alignment of abstract representations across brains. Third, a deliberative system supports the flexible production and interpretation of referential signals in context by anticipating others' beliefs and motivation. Despite the diversity and complexity of these processes, recent research has made significant strides in identifying their neural and cognitive bases. Studies indicate that evolutionarily conserved subcortical pathways support early-emerging sensitivity, while cortical networks involved in social reasoning and decision-making underlie acquired and deliberative levels of processing. Future research is needed to clarify how these mechanisms interact across development and how their disruption contributes to neurodevelopmental conditions such as autism spectrum disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41741214/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "J Neurosci",
+      "published_date": "2026-02-25",
+      "date": "2026-02-28",
+      "journal_issn": "0270-6474",
+      "impact_factor": 4.0,
+      "impact_factor_status": "已收录影响因子"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-02-28T05:38:07+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 4 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Functional changes of precuneus architecture across newborns, infants, and early adolescents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41748807/",
+        "published_date": "2026-02-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Myelin dysfunction in autism spectrum disorder: insights into core symptoms and mechanisms of brain development.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41741706/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Layers of Social Meaning: Innate, Acquired, and Deliberative Levels of Referential Signal Processing.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41741214/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Patient-derived brain organoids reveal divergent neuronal activity across subpopulations of autism spectrum disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41741416/",
+        "published_date": "2026-02-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}
