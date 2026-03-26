@@ -180,7 +180,7 @@ run_codex() {
     done <<< "$prompt"
     log "────────────────────────────────────"
 
-    trace_file=$(mktemp -t codex-run)
+    trace_file=$(mktemp -t codex-run.XXXXXX)
     if [ -z "$trace_file" ] || [ ! -f "$trace_file" ]; then
         log "[ERROR] Failed to create trace file via mktemp"
         return 1
