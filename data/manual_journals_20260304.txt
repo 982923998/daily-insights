@@ -1,0 +1,27 @@
+1	Challenges of Trustable AI and Added-Value on Health, B. Séroussi et al. (Eds.), European Federation for Medical Informatics (EFMI) and IOS Press.
+1	Computational and Mathematical Methods in Medicine
+1	Computational Psychiatry
+1	HBAI 2024, CCIS
+1	ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+1	ICLR 2025 (审阅中)
+1	IEEE 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)
+1	IEEE Conference Proceedings
+1	IEEE International Symposium on Medical Measurements and Applications (MeMeA)
+1	International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+1	International Joint Conference on Neural Networks (IJCNN)
+1	International Journal of Advanced Computer Science and Applications (IJACSA)
+1	Journal of Personalized Medicine
+1	Mach Learn Clin Neuroimaging
+1	Neuroimage: Reports
+1	Preprint/Conference Paper (not specified)
+1	Proc SPIE Int Soc Opt Eng
+1	Proc. of SPIE Vol. 11314, Medical Imaging 2020: Computer-Aided Diagnosis
+1	Proc. of SPIE Vol. 13208, 132082U, Third International Conference on Biomedical and Intelligent Systems (IC-BIS 2024)
+1	Proceedings of the 31st ACM International Conference on Multimedia (MM '23)
+1	Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM '24)
+1	Progress in Neuropsychopharmacology & Biological Psychiatry
+1	Shape Med Imaging
+1	Symmetry
+1	Telehealth Ecosystems in Practice
+1	The British Journal of Psychiatry
+1	The Neuroradiology Journal

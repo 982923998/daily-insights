@@ -1,0 +1,117 @@
+{
+  "date": "2026-03-11",
+  "articles": [
+    {
+      "title": "GitHub Trending: msitarzewski/agency-agents",
+      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | Trending today: +6,223 stars",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-11",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "GitHub Trending: NousResearch/hermes-agent",
+      "summary": "The agent that grows with you | Trending today: +781 stars",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-11",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "GitHub Trending: promptfoo/promptfoo",
+      "summary": "Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration. | Trending today: +661 stars",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-11",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "New ways to learn math and science in ChatGPT",
+      "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
+      "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-10",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+      "summary": "Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis — just describe …",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-10",
+      "date": "2026-03-11"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-11T00:05:12+00:00",
+    "version": 1,
+    "summary": "Captured 5 AI items. Preference focus is new models and new technical architecture: 3 high-priority, 2 medium-priority, 0 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 3,
+      "medium_priority": 2,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 3
+      },
+      {
+        "topic": "new architecture",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "GitHub Trending: promptfoo/promptfoo",
+        "url": "https://github.com/promptfoo/promptfoo",
+        "published_date": "2026-03-11",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "New ways to learn math and science in ChatGPT",
+        "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GitHub Trending: msitarzewski/agency-agents",
+        "url": "https://github.com/msitarzewski/agency-agents",
+        "published_date": "2026-03-11",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: NousResearch/hermes-agent",
+        "url": "https://github.com/NousResearch/hermes-agent",
+        "published_date": "2026-03-11",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      }
+    ]
+  }
+}

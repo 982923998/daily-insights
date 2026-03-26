@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "reference": "unresolved-retry-20260312-v3",
+  "source": "letpub_reference_task",
+  "updated_at": "2026-03-12T04:57:58+00:00",
+  "journals": [
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0952-7907",
+      "journal_name": "Current Opinion in Anesthesiology",
+      "journal_name_short": "Curr Opin Anaesthesiol",
+      "journal_id": 2144,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=2144&page=journalapp&view=detail",
+      "overall_score": 5.2,
+      "impact_factor": 2.1,
+      "impact_factor_year": null,
+      "h_index": 61,
+      "citescore": 4.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2144&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Current Opinion in Anesthesiology",
+      "reference": "unresolved-retry-20260312-v3",
+      "references": [
+        "unresolved-retry-20260312-v3"
+      ],
+      "matched_query": "issn:0952-7907",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:57:58+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0145-5613",
+      "journal_name": "ENT-EAR NOSE & THROAT JOURNAL",
+      "journal_name_short": "Ear Nose Throat J",
+      "journal_id": 2526,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=2526&page=journalapp&view=detail",
+      "overall_score": 5.0,
+      "impact_factor": 0.7,
+      "impact_factor_year": null,
+      "h_index": 43,
+      "citescore": 3.3,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2526&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Ear, Nose & Throat Journal",
+      "reference": "unresolved-retry-20260312-v3",
+      "references": [
+        "unresolved-retry-20260312-v3"
+      ],
+      "matched_query": "issn:0145-5613",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:57:58+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2042-6976",
+      "journal_name": "International Forum of Allergy & Rhinology",
+      "journal_name_short": "Int Forum Allergy Rhinol",
+      "journal_id": 8843,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=8843&page=journalapp&view=detail",
+      "overall_score": 6.1,
+      "impact_factor": 6.8,
+      "impact_factor_year": null,
+      "h_index": 34,
+      "citescore": 7.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=8843&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "International Forum of Allergy & Rhinology",
+      "reference": "unresolved-retry-20260312-v3",
+      "references": [
+        "unresolved-retry-20260312-v3"
+      ],
+      "matched_query": "issn:2042-6976",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:57:56+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0960-7692",
+      "journal_name": "ULTRASOUND IN OBSTETRICS & GYNECOLOGY",
+      "journal_name_short": "Ultrasound Obstet Gynecol",
+      "journal_id": 7985,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=7985&page=journalapp&view=detail",
+      "overall_score": 7.5,
+      "impact_factor": 6.3,
+      "impact_factor_year": null,
+      "h_index": 128,
+      "citescore": 10.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=7985&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "ULTRASOUND IN OBSTETRICS & GYNECOLOGY",
+      "reference": "unresolved-retry-20260312-v3",
+      "references": [
+        "unresolved-retry-20260312-v3"
+      ],
+      "matched_query": "issn:0960-7692",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:57:58+00:00"
+    }
+  ]
+}

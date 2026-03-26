@@ -1,0 +1,173 @@
+{
+  "date": "2026-03-21",
+  "articles": [
+    {
+      "title": "Serious doubts about amyloid-β (Aβ) biomarkers and anti-Aβ immunotherapy.",
+      "summary": "Reports highlight new Alzheimer's disease treatments using anti-amyloid-β immunotherapy, but we see major concerns. The trials supporting lecanemab and donanemab approvals have methodological flaws, and the benefits may be smaller than the minimal clinically important difference-or absent-since patients with poor tolerance were excluded from efficacy analyses. Moreover, treatment increases amyloid-related imaging abnormalities, suggesting local tissue damage, and is linked to brain volume loss. These issues raise doubts about whether regulators are adequately balancing risks and benefits compared to academic critics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860361/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Evidence integration of acupuncture for prevention and treatment of Alzheimer's disease and mild cognitive impairment from a neuroimaging perspective.",
+      "summary": "BackgroundAcupuncture has clinical potential in treating Alzheimer's disease (AD) and mild cognitive impairment (MCI), but there is a lack of systematic review and presentation of clinical evidence from the perspective of neuroimaging in this field.ObjectiveTo conduct a systematic review of clinical studies on acupuncture for AD and MCI from the perspective of neuroimaging, and to comprehend the evidence distribution of relevant research.MethodsThis article retrieved all the neuroimaging clinical studies on acupuncture treatment for AD and MCI that were published and included in the seven databases from their establishment until February 22, 2025. It analyzed and organized the data based on the PICOS (Population, Intervention, Comparison, Outcome, Study design) principle, and presented the quality and distribution of evidence.ResultsA total of 58 studies were included. The diagnostic criteria for the research subjects mainly refer to the standards of Western medicine. The task design was mostly two-arm before-and-after comparisons and single-group immediate studies, with the intervention measures mainly including hand acupuncture and electroacupuncture. The study employed 8 neuroimaging techniques and 29 outcome measures, with a primary focus on brain functional activation regions and brain functional connectivity. Included studies had high bias risk in blinding design/implementation; overall evidence quality was acceptable.ConclusionsAcupuncture for AD and MCI demonstrates clear efficacy, which is supported by imaging evidence. In the future, more large-sample, multi-center joint clinical studies using neuroimaging methods will be needed to further investigate AD and MCI, providing more high-quality evidence-based medical evidence in this field.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860347/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Distinct morphological patterns of the hippocampus and amygdala in normal and pathological aging.",
+      "summary": "BackgroundNormal aging is accompanied by cognitive decline and structural changes in the brain, most notably within the hippocampus and amygdala. However, distinguishing these age-related alterations from the earliest signs of neurodegenerative disorders remains challenging.ObjectiveThis study aims to investigate and compare the alteration patterns of hippocampus and amygdala during normal aging and in cases of mild cognitive impairment (MCI) and Alzheimer's disease (AD), which will provide insights into their distinct structural profiles.MethodsA total of 2195 participants aged 20-90 from three public cohorts (1364 cognitively normal controls, 623 MCI, and 208 AD) were grouped by decade to examine age- and disease-related differences in surface-based morphometry of hippocampus and amygdala. Radial distance, tensor-based morphometry, and multivariate tensor-based morphometry were calculated and combined to generate the Multivariate Morphometry Statistics, which capture both radial and tangential deformations at each vertex. Statistical and deformation analyses were further performed to identify the alteration patterns across 15000 surface vertices between age groups.ResultsIn healthy adults, significant intergroup differences were observed in the hippocampal CA1 and subiculum, as well as in the lateral, basolateral, and accessory basal nuclei of the amygdala. In MCI and AD, additional significant differences were detected in the hippocampal CA2-3 subfield and the central, medial, and cortical nuclei of the amygdala.ConclusionsWe provide a surface-based morphometry map of the hippocampus and amygdala across age groups in normal and pathological aging, revealing distinct morphological patterns that enhance understanding of aging and neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860363/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "scBIT: Integrating Single-cell Transcriptomic Data into fMRI-based Prediction for Alzheimer's Disease Diagnosis.",
+      "summary": "Functional MRI (fMRI) and single-cell transcri ptomics are pivotal in Alzheimer's disease (AD) research, each providing unique insights into neural function and molecular mechanisms. However, integrating these complementary modalities remains largely unexplored. Here, we introduce scBIT, a novel method for enhancing AD prediction by combining fMRI with single-nucleus RNA (snRNA). scBIT leverages snRNA as an auxiliary modality, significantly improving fMRI-based prediction models and providing comprehensive interpretability. It employs a sampling strategy to segment snRNA data into cell-type-specific gene networks and utilizes a self-explainable graph neural network to extract critical subgraphs. Additionally, we use demographic and genetic similarities to pair snRNA and fMRI data across individuals, enabling robust cross-modal learning. Extensive experiments validate scBIT's effectiveness in revealing intricate brain region-gene associations and enhancing diagnostic prediction accuracy. By advancing brain imaging transcriptomics to the single-cell level, scBIT sheds new light on biomarker discovery in AD research. Experimental results show that incorporating snRNA data into the scBIT model significantly boosts accuracy, improving binary classification by 3.39% and five-class classification by 26.59%. The codes were implemented in Python and have been released on GitHub (https://github.com/77YQ77/scBIT) and Zenodo (https://zenodo.org/records/11599030) with detailed instructions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41855058/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "IEEE Trans Med Imaging",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Role of Magnetic Resonance Spectroscopy (MRS), Diffusion-Tensor-Imaging (DTI) and Structural MRI in the Alzheimer's Disease and Mild Cognitive Impairment Diagnosis: A Review.",
+      "summary": "Alzheimer's disease (AD) is one of the most common neurological disorders affecting older adults, with approximately 7.2 million cases only in the United States. This number is projected to increase to 13.8 million in the United States by 2060, leading to increased expenditures for healthcare, long-term care and hospice services. Consequently, great emphasis is placed on prevention and the development of early diagnosis techniques, which can lead to timely treatment and the prevention of the consequences of full-blown disease. In this review, we analyze the potential diagnostic value of biomarkers derived from a multimodal approach based on magnetic resonance spectroscopy, diffusion tensor imaging, and magnetic resonance imaging, capable of detecting metabolic, microstructural, and anatomical changes, respectively, that precede the cognitive and behavioral changes observed in AD by years. The primary aim is to evaluate whether the combined and complementary use of these methods can identify early biomarkers useful for recognizing AD in its early stages, predicting progression from MCI to AD, supporting patient stratification, and monitoring cognitive decline or response to treatment. We identified regions more susceptible to metabolic alterations (PCC and hippocampus) and trajectories of structural brain alterations (atrophy or diffusivity abnormalities). The assessment of such imaging biomarkers may serve as the foundation for future prospective studies aimed at developing differential diagnostic methods, a crucial goal within the broader context of dementias, by adopting standardized multimodal MRI protocols. EVIDENCE LEVEL: 3. TECHNICAL EFFICACY: Stage 1.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41852095/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Magn Reson Imaging",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Rational Use of Blood-Based Biomarkers for Alzheimer's Disease: Navigating Between the Hope and the Hype.",
+      "summary": "With better understanding of the pathologic processes of Alzheimer's disease, diagnostic methods have been developed to focus on specific biomarkers of disease detectable on brain imaging, cerebral spinal fluid, and, more recently, plasma. Although these tests do not establish a diagnosis of dementia, which requires a clinical evaluation, they can more precisely identify whether Alzheimer's disease is a contributing cause. The recent FDA approval of two blood-based biomarkers and the availability of others, including direct-to-consumer tests, has led to the potential for widespread use in primary and specialty care. However, the currently available blood-based biomarkers are more highly correlated with amyloid brain PET scans, which are less specific for symptomatic Alzheimer's disease, than with p-tau brain PET scans, which are strongly associated with changes in cognition. The value of a positive or negative blood-based biomarker depends on the test characteristics (e.g., sensitivity and specificity) of the specific test as well as the prevalence of the disease in the population. Clinicians ordering blood-based biomarkers must decide their value in the care of individual patients and be prepared to interpret the test results to their patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41858054/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Am Geriatr Soc",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Divergent white matter metabolic signature patterns indicate impending cognitive decline in aging and dementia.",
+      "summary": "White matter (WM) is a key substrate for interregional neural communication and cognitive function but the role of WM glucose metabolism in cognitive aging has been understudied. Using multimodal neuroimaging (MRI, FDG-PET, amyloid-PET) from 3142 participants (15,287 visits) across two studies, we examined the contribution of WM to cognition and identified divergent WM signatures. Higher glucose metabolism in expected WM (EWM; corpus callosum and cingulum) was associated with better cognition, whereas increased metabolism in atypical WM (AWM; corona radiata) was linked to worse cognition, indicating a compensatory mechanism. EWM metabolism declined with aging, Alzheimer's disease (AD) progression (amyloid-β and APOE-ε4 carrier), and white matter hyperintensities, while AWM metabolism increased with aging and vascular risk but was partially weakened by AD neuropathology. Longitudinally, higher EWM and lower AWM metabolism predicted slower cognitive decline. Divergent WM metabolic patterns shed light on the dynamic role of WM in maintaining cognitive function. This study emphasizes the complementary information provided by WM metabolism for predicting future cognitive decline and identifying cognitive resilience.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41851083/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Clinical, neuroimaging, and biomarker profiling of four Alzheimer's disease pedigrees caused by pathogenic APP variants.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41851792/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimers Res Ther",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-21T00:57:23+00:00",
+    "version": 1,
+    "summary": "Captured 8 research items. Preference focus is brain-imaging analysis and disease mechanisms: 8 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 8.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 8,
+      "high_priority": 8,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 8
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "scBIT: Integrating Single-cell Transcriptomic Data into fMRI-based Prediction for Alzheimer's Disease Diagnosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41855058/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The Role of Magnetic Resonance Spectroscopy (MRS), Diffusion-Tensor-Imaging (DTI) and Structural MRI in the Alzheimer's Disease and Mild Cognitive Impairment Diagnosis: A Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41852095/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Divergent white matter metabolic signature patterns indicate impending cognitive decline in aging and dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851083/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Rational Use of Blood-Based Biomarkers for Alzheimer's Disease: Navigating Between the Hope and the Hype.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41858054/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Serious doubts about amyloid-β (Aβ) biomarkers and anti-Aβ immunotherapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860361/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Distinct morphological patterns of the hippocampus and amygdala in normal and pathological aging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860363/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Evidence integration of acupuncture for prevention and treatment of Alzheimer's disease and mild cognitive impairment from a neuroimaging perspective.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860347/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical, neuroimaging, and biomarker profiling of four Alzheimer's disease pedigrees caused by pathogenic APP variants.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851792/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

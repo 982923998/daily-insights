@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-03",
+  "articles": [
+    {
+      "title": "Functional connectivity in infants' visual cortex and its links to motion processing and autism.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41764354/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-02-28",
+      "date": "2026-03-03"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-03T05:49:45+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Functional connectivity in infants' visual cortex and its links to motion processing and autism.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41764354/",
+        "published_date": "2026-02-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

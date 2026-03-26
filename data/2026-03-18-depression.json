@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-18",
+  "articles": [
+    {
+      "title": "Religious and Spiritual Behaviors Correlated with Mental and Physical Well-Being Among American Muslims within the Twin Cities.",
+      "summary": "Previous studies have demonstrated the significant association between religiosity and spirituality (R/S) with well-being. However, little is known if a similar association exists between the religiosity and mental well-being within Muslims in U.S.-based R/S health research, who remain comparatively underrepresented relative to Judeo-Christian samples. This study assesses whether these associations hold true in this population and if they can be explained by demographic factors alone. A total of 337 participants were enrolled from Muslim community centers in the Minneapolis-St.Paul, Minnesota, metropolitan area (completion rate = 47.5%). Participants completed the Muslim Religiosity Scale (MRS) with intrinsic and behavioral subscales. They also completed physical and mental health questionnaires: Health-promoting Lifestyle Profile Questionnaire (HPLP II), General Anxiety Disorder 2 (GAD-2), and Patient Health Questionnaire 2 (PHQ-2). Associations were assessed using Spearman correlations and ordinary least squares regression. A statistically significant positive association was observed between MRS and HPLP Total Score ( = 0.35, p < .001). Lower MRS scores were associated with higher depressive symptoms (PHQ-2; = - 0.28, p < .001) and higher anxiety symptoms (GAD-2; = - 0.29, p < .001). Associations remained significant after adjustment for age, sex, race/ethnicity, and income (p < .01). Associations were stronger for the behavioral MRS subscale (e.g., prayer and service attendance) than the intrinsic subscale. Generalizability may be limited by English-only administration and incomplete responses. This may overrepresent more English-proficient, more educated, and more health-engaged participants and bias estimates. This study may inform future efforts to improve cultural sensitivity, pastoral care, and patient-provider relationships in spiritually diverse populations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41838362/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Relig Health",
+      "published_date": "2026-03-16",
+      "date": "2026-03-18"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-18T00:45:12+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Religious and Spiritual Behaviors Correlated with Mental and Physical Well-Being Among American Muslims within the Twin Cities.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41838362/",
+        "published_date": "2026-03-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

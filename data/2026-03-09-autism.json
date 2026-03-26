@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-09",
+  "articles": [
+    {
+      "title": "Multimodal data integration for early autism detection and LLM-driven personalized intervention: A review.",
+      "summary": "Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that poses significant challenges for early detection and intervention. AI is playing an increasingly important role in advancing healthcare research, particularly in ASD detection. Leveraging AI to integrate multimodal data and support intervention planning is essential, as it enables a more comprehensive and accurate understanding of autistic behaviors while facilitating the development of timely, personalized treatment strategies. However, despite the advancements and ongoing efforts, current AI applications often struggle to effectively integrate multimodal data for early autism detection and optimize intervention planning. Addressing these concerns, we first examine the emerging role of AI in integrating diverse data modalities (e.g. image, audio, video...), to provide a more comprehensive understanding of autism. Then, we discuss the application of generative models such as Large Language Models (LLMs) in early intervention planning, this involves the generation of medical reports that outline personalized treatment plans for autistic children. By integrating these research topics, we aim to provide a holistic view of current advancements and future directions in autism early detection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41797112/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Comput Med Imaging Graph",
+      "published_date": "2026-03-07",
+      "date": "2026-03-09"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-09T13:57:38+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Multimodal data integration for early autism detection and LLM-driven personalized intervention: A review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41797112/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

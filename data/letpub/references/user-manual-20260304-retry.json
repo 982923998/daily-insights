@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "reference": "user-manual-20260304-retry",
+  "source": "letpub_reference_task",
+  "updated_at": "2026-03-12T04:45:44+00:00",
+  "journals": [
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0007-1250",
+      "journal_name": "BRITISH JOURNAL OF PSYCHIATRY",
+      "journal_name_short": "The British Journal of Psychiatry",
+      "journal_id": null,
+      "detail_url": "",
+      "overall_score": null,
+      "impact_factor": 7.6,
+      "impact_factor_year": null,
+      "h_index": null,
+      "citescore": null,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "BRITISH JOURNAL OF PSYCHIATRY",
+      "reference": "user-manual-20260304-retry",
+      "references": [
+        "user-manual-20260304-retry"
+      ],
+      "matched_query": "local-index",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:45:14+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2158-107X",
+      "journal_name": "International Journal of Advanced Computer Science and Applications",
+      "journal_name_short": "International Journal of Advanced Computer Science and Applications (IJACSA)",
+      "journal_id": 12036,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=12036&page=journalapp&view=detail",
+      "overall_score": 4.3,
+      "impact_factor": 0.9,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 2.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=12036&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND APPLICATIONS",
+      "reference": "user-manual-20260304-retry",
+      "references": [
+        "user-manual-20260304-retry"
+      ],
+      "matched_query": "name:INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND APPLICATIONS",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:45:14+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "1971-4009",
+      "journal_name": "Neuroradiology Journal",
+      "journal_name_short": "The Neuroradiology Journal",
+      "journal_id": null,
+      "detail_url": "",
+      "overall_score": null,
+      "impact_factor": 0.8,
+      "impact_factor_year": null,
+      "h_index": null,
+      "citescore": null,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Neuroradiology Journal",
+      "reference": "user-manual-20260304-retry",
+      "references": [
+        "user-manual-20260304-retry"
+      ],
+      "matched_query": "local-index",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:45:14+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0031-4005",
+      "journal_name": "PEDIATRICS",
+      "journal_name_short": "Pediatrics",
+      "journal_id": 6544,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=6544&page=journalapp&view=detail",
+      "overall_score": 8.2,
+      "impact_factor": 6.4,
+      "impact_factor_year": null,
+      "h_index": 311,
+      "citescore": 10.5,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=6544&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Pediatrics",
+      "reference": "user-manual-20260304-retry",
+      "references": [
+        "user-manual-20260304-retry"
+      ],
+      "matched_query": "name:Pediatrics",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:45:44+00:00"
+    }
+  ]
+}

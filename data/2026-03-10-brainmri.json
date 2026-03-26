@@ -1,0 +1,275 @@
+{
+  "date": "2026-03-10",
+  "articles": [
+    {
+      "title": "Adaptive multi-feature fusion architecture with optimized learning for high-fidelity brain tumor classification in MRI.",
+      "summary": "Brain gliomas represent one of the most aggressive cancers worldwide and remain difficult to diagnose accurately at an early stage. Although computer-aided diagnostic (CAD) approaches have progressed notably in recent years, distinguishing between high-grade glioma (HG-G), low-grade glioma (LG-G), and healthy brain tissue on magnetic resonance images is still a major challenge. To address this issue, we propose a multi-stage framework designed to push the boundaries of current classification methods. The framework begins with a preprocessing phase that integrates Adaptive Gamma Correction (AGC) for improved contrast adjustment with a Denoising Convolutional Neural Network (DnCNN) for noise removal. Feature extraction is then carried out from three representative layers across three fine-tuned transfer learning CNNs (TRCNNs), where each model is optimized by a different algorithm. These deep representations are combined with handcrafted texture measures based on the Gray-Level Co-occurrence Matrix (GLCM), producing nine unique CNN-GLCM Fused Feature (CGFF) sets. The resulting hybrid descriptors are evaluated using several strong classifiers such as Random Forest (RF), Extreme Gradient Boosting (XGBoost), Light Gradient Boosting Machine (LightGBM), and Support Vector Machine (SVM), along with a stacked ensemble to reinforce stability and robustness. Performance significance was verified through the Friedman statistical test, with p&#x2009;<&#x2009;0.05, confirming the reliability of the improvements. The framework achieved 99.05% accuracy, 98.99% recall, 99.52% specificity, 99.08% positive predictive value (PPV), and 99.54% negative predictive value (NPV), consistently surpassed state-of-the-art (SOTA) methods across all reported metrics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41796125/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "The Brain-Age Gap in Pediatric Dystonia: Neuroanatomical Deviations Inform Deep Brain Stimulation Outcomes.",
+      "summary": "Dystonia in children is a heterogeneous condition with variable response to deep brain stimulation (DBS). Brain-age gap, a machine learning-derived metric of structural deviation from norm, may capture signatures that differentiate underlying biotypes and predict outcomes. A brain age model was trained on several thousand normative developmental trajectories (n&#x2009;=&#x2009;2623). Brain-age gap (the difference between predicted and chronological age) was computed from pre-DBS T1-weighted magnetic resonance imaging in 37 children with dystonia and compared to matched healthy controls. Associations with etiology, Burke-Fahn-Marsden Dystonia Rating Scale (BFMDRS) and Pediatric Quality-of-Life (PedsQL) scores were examined. Children with dystonia showed a greater brain-age gap (structural deviation) compared to controls (P&#x2009;<&#x2009;0.001). Greater gap was linked to worse baseline motor scores and poorer 1-year quality-of-life improvement. Patterns differed by etiology, with distinct regional deviations in genetic and acquired dystonia. Brain-age modeling reveals biologically distinct subtypes of pediatric dystonia and may offer a biomarker for stratification and outcome prediction. &#xa9; 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41797514/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mov Disord",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Shared and distinct alterations in brain connectivity and cognitive function in subthreshold and major depression.",
+      "summary": "Subthreshold depression (StD) is considered a prodromal stage of major depressive disorder (MDD). This study aims to investigate the neurobiological mechanisms of StD by analyzing functional connectivity (FC) and cognitive function in comparison to MDD. A total of 153 StD individuals, 188 MDD patients, and 110 healthy controls (HCs) were studied using resting-state functional magnetic resonance imaging (fMRI). Whole-brain FC was calculated using seeds from the default mode network (DMN), salience network (SN), executive control network, and affective network (AN). Cognitive function was assessed across seven domains. StD showed only a deficit in social cognition, while MDD exhibited multidomain cognitive impairments compared to HCs. Both MDD and StD exhibited reduced FC between the right anterior insula (AI) and the left inferior frontal gyrus (IFG), and increased FC between the right subcallosal cingulate cortex and the left posterior cingulate cortex (PCC), key areas of the SN and AN, compared to HCs. MDD particularly showed decreased connectivity between the left PCC and the left middle temporal gyrus, and within the left PCC, while no abnormal FC of the DMN was found in StD. Altered AI-IFG FC was positively correlated with social cognition in StD. Abnormal connectivity patterns of the SN and AN may contribute to the development of depressive symptoms in StD and MDD, while altered FC of the DMN may be involved in the onset of the disease. A social cognition deficit appeared first in StD, relating to the abnormal connectivity of the SN.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41800542/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Psychol Med",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Behavioural rigidity as a transdiagnostic marker of nucleus accumbens dysfunction in dementia.",
+      "summary": "Behavioural rigidity, the tendency to persist with inflexible patterns of thoughts or actions, is increasingly recognised as a transdiagnostic symptom across psychiatric, neurodevelopmental, and neurodegenerative disorders. Empirical studies exploring the prevalence and underlying neural mechanisms of behavioural rigidity in dementia, however, are lacking. This cross-sectional study sought to delineate the structural and functional neural correlates of behavioural rigidity using a transdiagnostic approach looking across the frontotemporal lobar degeneration (FTLD) spectrum and Alzheimer's disease. A total of 204 participants were recruited, including 110 frontotemporal dementia (FTD), 53 Alzheimer's disease (AD), and 41 healthy older control participants. Within the FTD group, 66 cases were diagnosed with clinically probable behavioural variant FTD (bvFTD), 26 presented with semantic dementia (SD), and 18 cases had progressive non-fluent aphasia (PNFA). Behavioural rigidity was assessed using the Stereotypical and Motor Behaviour subscale of the Cambridge Behavioural Inventory-Revised. Voxel-based morphometry (VBM) was performed to identify grey matter regions associated with behavioural rigidity transdiagnostically, the results of which informed subsequent seed-based voxel-wise functional connectivity analyses. All imaging analyses were adjusted for relevant demographic and technical covariates. Statistical thresholds were set at voxel-level p < 0.001 (uncorrected) and cluster-level p < 0.05 (FDR-corrected). Our main finding was that behavioural rigidity is pervasive across dementia subtypes, ranging from most pronounced in bvFTD to milder/relatively absent in PNFA, relative to Controls. Whole-brain VBM across the entire patient sample revealed a significant negative association between behavioural rigidity and grey matter intensity exclusively in the bilateral nucleus accumbens. Using the bilateral nucleus accumbens as seeds, resting-state functional connectivity analysis showed that higher levels of behavioural rigidity were associated with stronger connectivity between the left nucleus accumbens and the left supplementary motor area, paracentral lobule, and precuneus. This is the first study, to our knowledge, to examine the neural substrates of behavioural rigidity across FTLD syndromes transdiagnostically using structural and functional neuroimaging approaches. Our findings reveal a gradation of rigid and repetitive behaviours, most apparent in bvFTD, which in turn reflects pathological disruption of the nucleus accumbens. Taken together, our findings highlight the need to consider repetitive and rigid behaviours as a transdiagnostic feature in neurodegenerative disorders, and one which indexes underlying nucleus accumbens pathology. More broadly, this study underscores the importance of screening for rigid and repetitive behaviours in the clinic and identifies the nucleus accumbens as a promising neural target to ameliorate these symptoms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41800890/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Multimodal magnetic resonance imaging outcomes of transcranial direct current stimulation in psychiatric and neurological disorders: a systematic review.",
+      "summary": "Transcranial direct current stimulation (tDCS) is a promising neuromodulation technique for psychiatric and neurological disorders, but its clinical efficacy is heterogeneous. Magnetic resonance imaging (MRI) can be used to identify response predictors and understand underlying mechanisms. A systematic review was conducted (PubMed/Web of Science/Embase) from inception to May 2025. Nineteen randomized clinical trials (RCTs) were included, using MRI methods to investigate tDCS effects for major depressive disorder (MDD), schizophrenia, alcohol use disorder (AUD), stroke, epilepsy, and fibromyalgia. Outcomes focused on pre and post effects ( n &#x2009;=&#x2009;9), baseline MRI-based predictors ( n &#x2009;=&#x2009;7), or both ( n &#x2009;=&#x2009;3). Quality assessment showed that most studies (68.4%) had a low risk of bias. Functional MRI was the most frequent modality, followed by structural MRI. Besides methodological differences, findings were heterogeneous. Although some brain markers were identified, such as baseline brain structure in MDD, functional connectivity changes in schizophrenia and AUD, and motor network modulation in stroke, the strength and direction of these effects varied across studies. Significant heterogeneity and limited MRI-tDCS trials currently hinder mechanisms and biomarkers establishment of tDCS. Future research should focus on standardizing MRI acquisition and analysis, which can improve reproducibility, and support robust findings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41800983/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Expert Rev Med Devices",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "[Prion diseases : Creutzfeldt-Jakob and differential diagnoses].",
+      "summary": "Prions are unprecedented infectious pathogens that cause a&#xa0;group of rare and inevitably fatal neurodegenerative diseases, affecting approximately 1&#xa0;person per 1&#xa0;million inhabitants worldwide each year. These diseases include Creutzfeldt-Jakob disease (CJD), Gerstmann-Str&#xe4;ussler-Scheinker syndrome (GSS), kuru, fatal insomnia (FI) and variably protease-sensitive prionopathy (VPSPr), all of which involve a&#xa0;conformational change of normal cellular prion protein (PrPC) into abnormal scrapie prion protein (PrPSc) through a&#xa0;posttranslational process. This structural change is associated with profound alterations in the physicochemical properties of PrPC, making the molecule resistant to proteolysis. The conformational alteration of PrPC can occur either due to spontaneous conversion, dominant mutations in the prion protein gene (PRNP) which codes for PrPC or due to an infection with the pathogenic isoform PrPSc from exogenous sources. There is general consensus that PrPC serves as the substrate for the conversion to abnormal PrPSc. The latter multiplies exponentially and accumulates in the brain, forming deposits which are associated with the neurodegenerative changes. Although the understanding of the main causes of prion-induced neurodegeneration is still limited, the spread of PrPSc and neurotoxic signal transfer in the pathogenic process of prions appear to show an interaction. Prion diseases sometimes have long incubation times but also short clinical trajectories. Sporadic and genetic forms occur worldwide of which genetic forms are associated with mutations in PRNP. Zoonotic forms of prion diseases are also associated with bovine diseases. Substantial progress has been made in the diagnosis of these disorders and the diagnostics include magnetic resonance imaging (MRI) and laboratory investigations, particularly of the cerebrospinal fluid. Prionen sind beispiellose infekti&#xf6;se Krankheitserreger, die eine Gruppe seltener und unweigerlich t&#xf6;dlicher neurodegenerativer Erkrankungen verursachen, die weltweit j&#xe4;hrlich etwa 1&#xa0;Person pro 1&#x202f;Mio. Einwohner betreffen. Zu diesen Erkrankungen geh&#xf6;ren die Creutzfeld-Jacob-Krankheit (CJK), Gerstmann-Str&#xe4;ussler-Scheinker-Syndrom (GSS), Kuru, fatale Schlaflosigkeit&#xa0;(FI) und variable Protease-sensitive Prionopathie (VPSPr), die alle eine konformationelle Ver&#xe4;nderung des normalen zellul&#xe4;ren Prionproteins (PrPC) in das abnormale Scrapie-Prionprotein (PrPSc) durch einen posttranslationalen Prozess beinhalten. Diese strukturelle Ver&#xe4;nderung geht mit tiefgreifenden Ver&#xe4;nderungen in den physikochemischen Eigenschaften von PrPC einher, wodurch das Molek&#xfc;l widerstandsf&#xe4;hig gegen Proteolyse wird. Die konformationelle Ver&#xe4;nderung von PrPC kann entweder durch spontane Umwandlung, dominante Mutationen im Prionprotein(PRNP)-Gen, das f&#xfc;r PrPC codiert, oder durch eine Infektion mit der pathogenen Isoform PrPsc aus exogenen Quellen entstehen. Es besteht allgemeine Einigkeit dar&#xfc;ber, dass PrPC als Substrat f&#xfc;r die Umwandlung zu abnormalem PrPSc dient. Letzteres vermehrt sich exponentiell und sammelt sich im Gehirn, wodurch Ablagerungen entstehen, die mit den neurodegenerativen Ver&#xe4;nderungen verbunden sind. Obwohl das Verst&#xe4;ndnis der Hauptursachen der prioninduzierten Neurodegeneration noch begrenzt ist, scheint zwischen der Ausbreitung von PrPSc und neurotoxischer Signal&#xfc;bertragung im pathogenen Prozess der Prionen eine Wechselwirkung zu bestehen. Prionenerkrankungen weisen z.&#xa0;T. lange Inkubationszeiten auf und andererseits kurze klinische Verl&#xe4;ufe. Weltweit kommen sporadische und genetische Formen vor, von denen genetische Formen mit Mutationen in PRNP assoziiert sind. Zoonotische Formen von Prionenerkrankungen sind u.&#x202f;a. mit Rinderkrankheiten verbunden. Bei der Diagnose dieser St&#xf6;rungen wurden erhebliche Fortschritte erzielt, die Diagnose umfassen Magnetresonanztomographie (MRT) und laborchemische Untersuchungen, insbesondere des Liquor cerebrospinalis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801336/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Radiologie (Heidelb)",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Quantitative susceptibility mapping in pediatric neuroimaging: a systematic review of applications and advancements.",
+      "summary": "Quantitative susceptibility mapping (QSM) is an advanced magnetic resonance imaging (MRI) technique that quantifies tissue magnetic susceptibility, offering non-invasive insights into brain microstructure, including iron content and myelination. While extensively applied in adult neuroimaging, its use in pediatric populations is rapidly expanding. This systematic review aims to provide a comprehensive overview of QSM applications in pediatric brain imaging, highlighting methodological advancements, diagnostic potential, and current limitations. A systematic literature search was performed using PubMed and Google Scholar up to April 2025. Inclusion criteria were original research articles written in English, involving only pediatric populations (0-17&#xa0;years) and employing QSM in brain imaging. Twenty studies met eligibility criteria and were analyzed in terms of acquisition protocols, post-processing methods, study objectives, and main findings. A systematic search on PubMed and Google Scholar found 54 QSM brain studies in children; after exclusions, 20 original research papers qualified for review and were quality-checked using Quality Assessment of Diagnostic Accuracy Studies version-2 (QUADAS-2). Most studies were recent (85% in the last 5&#xa0;years), in Asia (55%, with China 35%), and used 3-tesla (T) MRI (80%). Typical imaging parameters: 8 echoes (TE=40&#xa0;ms), slice thickness=2-2.5&#xa0;mm, matrix often 256&#xd7;256; Laplacian was the main phase-unwrapping method and variable-kernel sophisticated harmonic artifact reduction for phase data (VSHARP) the dominant background-field removal. Study aims clustered into improved detection, microstructural analysis, normative comparisons, clinical correlations, developmental patterns, and pathology tracking. QSM emerges as a valuable tool in pediatric neuroimaging, offering quantitative biomarkers for brain development, disease monitoring, and potential clinical translation. Despite promising results, challenges remain, including motion artifacts, lack of normative pediatric data, and methodological heterogeneity. Future research should focus on longitudinal designs, standardization of protocols, and integration with complementary imaging modalities. With further refinement, QSM has the potential to become an integral component of pediatric neuroradiological assessment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801366/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Pediatr Radiol",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Choroid plexus structural and functional abnormalities correlate with disease severity and cognition in cerebral small vessel disease.",
+      "summary": "The choroid plexus (CP) plays an interactive role in diverse pathophysiological mechanisms of cerebral small vessel disease (CSVD). We aimed to explore whether the CP has specific imaging or clinical consequences in CSVD by itself. A total of 90 patients with CSVD and 31 healthy controls (HCs) who underwent multiparameter MRI and neuropsychological tests, were retrospectively evaluated. The CP of the lateral ventricles was automatically segmented and manually corrected. The normalized CP volume, susceptibility and perfusion information of CP, and the diffusion tensor image analysis along the perivascular space (DTI-ALPS) index relating to glymphatic efflux were obtained. Partial correlation and multiple linear regression analyses were used to assess the relationship between CP and disease severity and CSVD-related cognitive decline. Patients with CSVD had greater CP volume, lower susceptibility, reduced perfusion, and smaller DTI-ALPS indices (all p&#x2009;<&#x2009;0.05). CP volume was correlated with white matter hyperintensities, lacunes, and CSVD burden (r&#x2009;=&#x2009;0.237, p&#x2009;=&#x2009;0.028; r=&#x2009;0.228, p&#x2009;=&#x2009;0.034; r&#x2009;=&#x2009;0.320, p=&#x2009;0.003). CP volume and perfusion showed correlations with specific cognitive domains (all p&#x2009;<&#x2009;0.05), including memory, attention, and visuospatial functions. Interestingly, the susceptibility and arterial transit time of CP were related to DTI-ALPS in HC group (&#x3b2;&#x2009;=&#x2009;0.542,p=&#x2009;0.047; &#x3b2;=-0.605,p&#x2009;=&#x2009;0.015), while the correlation vanished in CSVD group. The CP showed structural and functional abnormalities, which was related to CSVD disease severity and cognitive status, highlighting CP-targeted interventions as a potential therapeutic strategy. The uncoupling between CP and DTI-ALPS in CSVD patients suggests disrupted fluid homeostasis, warranting further validation via direct glymphatic imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801368/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuroradiology",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Deep brain stimulation and magnetic resonance-guided focused ultrasound for essential tremor: a meta-analysis of effectiveness and safety.",
+      "summary": "We compared the effectiveness and safety of deep brain stimulation (DBS) and magnetic resonance-guided focused ultrasound (MRgFUS) in patients with essential tremor (ET). A comprehensive search was conducted across four databases (Web of Science, Scopus, PubMed, and Cochrane CENTRAL) till June 2025. Clinical trials and observational studies comparing DBS and MRgFUS in patients with ET were included. Meta-analysis was performed using RevMan version 5.4 and OpenMetaAnalyst, applying a random-effect model. Five cohort studies (463 patients) were included. In the total Clinical Rating Scale for Tremor (CRST) score, there was a significant difference between the two groups favoring DBS (mean difference (MD): 5.12, 95% confidence interval (CI): [1.08, 9.16], P&#x2009;=&#x2009;0.01), while in part A of the CRST, there was no significant difference (P&#x2009;=&#x2009;0.15). No significant difference was found between the two groups in response rate as well (P&#x2009;=&#x2009;0.56). Paresthesia (13.3% vs. 2.2%; risk ratio (RR): 4.57, 95% CI: [1.31, 15.94], P&#x2009;=&#x2009;0.02), gait instability (26.56% vs. 4.06%; RR: 2.85, 95% CI: [1.14, 7.08], P&#x2009;=&#x2009;0.025), and dysphagia (7.77% vs. 1.37%; RR: 3.40, 95% CI: [1.01, 11.46], P&#x2009;=&#x2009;0.049) were significantly more frequent in the FUS group compared with DBS. Other serious but rare adverse events (AEs), such as infection and hemorrhage, were more common in the DBS group, but none significantly differed between the two groups. Both DBS and MRgFUS showed similar response rates; however, DBS may provide greater improvement in the total CRST score, potentially due to the comparison of bilateral DBS against predominantly unilateral MRgFUS. Regarding safety, MRgFUS was more associated with sensory and motor AEs, while infrequent but potentially serious complications were only reported with DBS. Future high-quality prospective studies with larger sample sizes and longer follow-up periods are needed.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801476/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurosurg Rev",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Lipophilic Group-Modified Gd-PCTA as a High-Performance MRI Contrast Agent Featuring Kinetic Inertness, Protein Binding, and Enhanced T(1) Relaxivity.",
+      "summary": "To address the demands for safer and more effective gadolinium-based contrast agents (GBCAs) for magnetic resonance imaging (MRI), we developed Gd-PCTA-Ach , a novel macrocyclic complex featuring a lipophilic cyclohexanol pendant arm. Gd-PCTA-Ach exhibited superior relaxivity ( r 1 = 13.6 &#xb1; 0.2 and r 2 = 15.8 &#xb1; 0.2 mM -1 s -1 at 37 &#xb0;C, 3.0 T) and kinetic inertness compared to clinically approved agents. Attributed to its enhanced lipophilicity, Gd-PCTA-Ach exhibits moderate albumin affinity (34.8%), resulting in prolonged blood circulation compared to standard extracellular fluid MRI agents. In vivo T 1 -weighted imaging demonstrated that Gd-PCTA-Ach is primarily cleared via the renal pathway but also exhibits partial hepatobiliary excretion, accounting for approximately 10% of the total elimination. Consequently, Gd-PCTA-Ach successfully visualized tumor lesions in both brain and liver tumor mouse models. These findings position Gd-PCTA-Ach as a highly potent, multipurpose contrast agent with an improved stability profile and broad diagnostic utility.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41801798/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Med Chem",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Evidence of skull bone translocator protein overexpression linked to multiple sclerosis progression.",
+      "summary": "The skull bone marrow contributes to brain immune homeostasis via recently discovered skull-meningeal channels, enabling the bidirectional trafficking of immune cells between skull bone and underlying dura mater. In multiple sclerosis, autoreactive T cells migrate to the bone marrow and shift its hematopoietic output toward myeloid differentiation, contributing to disease progression. However, the role of the skull bone marrow in multiple sclerosis pathophysiology, and its relationship to brain damage and clinical disability remain largely unexplored. We utilized simultaneous MR-PET with the second-generation radioligand &#xb9;&#xb9;C-PBR28 to characterize within the skull bone of multiple sclerosis patients the in vivo expression of the translocator protein (TSPO), an 18-kilodalton mitochondrial membrane protein largely expressed by microglia, astrocytes, and peripheral myeloid cells. Sixty-five multiple sclerosis subjects (46 relapsing-remitting, 19 secondary progressive) and 26 healthy controls underwent &#xb9;&#xb9;C-PBR28 MR-PET to acquire 60-90-minute post-injection standardized uptake value maps and anatomical scans for brain volumetrics. Voxel-wise analyses of skull TSPO signal were conducted to assess group differences and associations with demographic, clinical, and brain volumetrics. Voxel-wise analyses revealed a divergent association between age and skull TSPO signal, with a negative correlation in healthy controls in bilateral frontal and right parietal regions (r=-0.67, p<0.001), and a positive correlation in multiple sclerosis patients in bilateral parietal and occipital skull bone regions (r=0.44, p<0.001). Compared to both healthy controls and relapsing-remitting multiple sclerosis, patients with secondary progressive multiple sclerosis showed widespread elevation in skull TSPO signal, in frontal, parietal, temporal, occipital, and skull base regions. No significant differences were detected between relapsing-remitting multiple sclerosis and healthy controls. Elevated skull TSPO signal was also observed in patients with more severe neurological disability irrespective of clinical phenotype. Widespread skull TSPO expression was observed to be positively correlated with EDSS scores (&#x3c1;=0.49, p<0.001) while a negative association was observed with white matter volume (r=-0.45, p<0.001) and SDMT z-scores (r=-0.48, p<0.001). In multivariable regression analysis, skull TSPO signal (&#x3b2;=6.63, SE=1.92, p=0.001) and T2-hyperintense white matter lesion volume (&#x3b2;=0.34, SE=0.14, p=0.020) were independently associated with disability, while white matter, cortical, and subcortical gray matter volumes did not retain statistical significance (all p>0.550). We provide in vivo evidence of skull TSPO overexpression in multiple sclerosis, observed in progressive disease and associated with clinical disability and structural brain damage. Overall, these findings suggest a role for the skull bone marrow in disease-related processes and highlight its potential as a novel radiological marker and therapeutic target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802262/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Endovascular treatment for symptomatic vasospasm following traumatic brain injury: illustrative case.",
+      "summary": "The optimal treatment for cerebral vasospasm (CV) following traumatic brain injury (TBI) has not been established, and management generally follows strategies developed for aneurysmal subarachnoid hemorrhage. The authors report a case of a patient with traumatic subarachnoid hemorrhage and cerebral contusion who presented with worsening consciousness and disorientation and subsequently developed symptomatic CV on day 6 of hospitalization. MRI and 3D CT demonstrated narrowing of the left internal carotid artery and middle cerebral artery (MCA) with reduced cerebral perfusion. Intra-arterial administration of fasudil hydrochloride yielded a temporary improvement. However, MCA stenosis recurred the next day, requiring percutaneous transluminal balloon angioplasty. Subsequent imaging showed improved cerebral perfusion, and the patient was discharged without delayed cerebral ischemia. Fluctuations in consciousness or neuropsychological symptoms after TBI should prompt evaluation for CV using perfusion imaging, even in the absence of focal neurological deficits. When a high risk of severe vasospasm accompanied by perfusion reduction is identified, prompt, stepwise therapeutic intervention should be implemented, beginning with the least invasive treatment option to optimize clinical outcomes. https://thejns.org/doi/abs/10.3171/CASE25943.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802291/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurosurg Case Lessons",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Microvascular decompression for hemifacial spasm associated with large fenestration of the vertebral artery: illustrative case.",
+      "summary": "Hemifacial spasm (HFS) associated with a large fenestration of the vertebral artery (VA) is extremely rare. Here, the authors report a case of HFS caused by this vascular anomaly and discuss its embryological background and clinical implications. A man in his 30s presented with a 7-year history of right-sided HFS. MRI demonstrated vascular compression at the root exit zone of the facial nerve. MR angiography revealed an aberrant artery running parallel to the right VA, forming a large fenestration. Three-dimensional CT angiography demonstrated a common trunk giving rise to the anterior inferior cerebellar artery and posterior inferior cerebellar artery. The offending artery was identified as the common trunk.. Microvascular decompression with real-time abnormal muscle response monitoring achieved sufficient arterial transposition, with careful preservation of the brainstem perforators. The patient experienced complete resolution of spasms postoperatively, without complications. A large VA fenestration may represent a persistent primitive lateral basilovertebral anastomosis. Successful surgical treatment requires a precise preoperative understanding of the complex vascular architecture and consideration of the limitations imposed by perforating branches during arterial transposition. https://thejns.org/doi/10.3171/CASE25777.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802292/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurosurg Case Lessons",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Posttraumatic cerebrospinal fluid leak with cognitive dysfunction, especially visual memory disturbance: illustrative case.",
+      "summary": "Cerebrospinal fluid (CSF) leaks are associated with various clinical and neurological manifestations. Although cognitive dysfunction has been reported in patients with a CSF leak, its detailed characteristics and cognitive profile remain unclear. A 17-year-old male patient developed progressive cognitive decline after minor head trauma. The initial neuroimaging findings were unremarkable; however, over several months, he exhibited memory impairment, academic decline, and personality changes. Neuropsychological testing has demonstrated significant deficits in visual memory, reduced working memory, and reduced processing speed. A detailed interview revealed a subtle orthostatic headache that had been present since the head injury, prompting further evaluation. Spinal MRI and CT myelography confirmed a CSF leak in the cervical spine. The patient underwent placement of a blind lumbar epidural blood patch, which resulted in immediate headache relief and gradual cognitive improvement, particularly in visual memory. CSF leaks can manifest primarily as cognitive dysfunction, even without typical headache or imaging findings, leading to diagnostic delays and potential misdiagnosis of psychiatric illnesses. Visual memory impairment might represent a characteristic and underrecognized feature of a CSF leak. Comprehensive neuropsychological assessment with domain-specific testing is essential for accurate diagnosis of atypical presentations. https://thejns.org/doi/10.3171/CASE25939.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41802294/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurosurg Case Lessons",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-10T00:38:30+00:00",
+    "version": 1,
+    "summary": "Captured 14 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 4 medium-priority, 0 low-priority. Mechanism-related items: 10; analysis-method items: 14.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 14,
+      "high_priority": 10,
+      "medium_priority": 4,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 10
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 14
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Behavioural rigidity as a transdiagnostic marker of nucleus accumbens dysfunction in dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41800890/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Shared and distinct alterations in brain connectivity and cognitive function in subthreshold and major depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41800542/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Multimodal magnetic resonance imaging outcomes of transcranial direct current stimulation in psychiatric and neurological disorders: a systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41800983/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Choroid plexus structural and functional abnormalities correlate with disease severity and cognition in cerebral small vessel disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41801368/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Evidence of skull bone translocator protein overexpression linked to multiple sclerosis progression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41802262/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The Brain-Age Gap in Pediatric Dystonia: Neuroanatomical Deviations Inform Deep Brain Stimulation Outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41797514/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Quantitative susceptibility mapping in pediatric neuroimaging: a systematic review of applications and advancements.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41801366/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Adaptive multi-feature fusion architecture with optimized learning for high-fidelity brain tumor classification in MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41796125/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Prion diseases : Creutzfeldt-Jakob and differential diagnoses].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41801336/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Posttraumatic cerebrospinal fluid leak with cognitive dysfunction, especially visual memory disturbance: illustrative case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41802294/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Microvascular decompression for hemifacial spasm associated with large fenestration of the vertebral artery: illustrative case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41802292/",
+        "published_date": "2026-03-09",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Endovascular treatment for symptomatic vasospasm following traumatic brain injury: illustrative case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41802291/",
+        "published_date": "2026-03-09",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Deep brain stimulation and magnetic resonance-guided focused ultrasound for essential tremor: a meta-analysis of effectiveness and safety.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41801476/",
+        "published_date": "2026-03-09",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Lipophilic Group-Modified Gd-PCTA as a High-Performance MRI Contrast Agent Featuring Kinetic Inertness, Protein Binding, and Enhanced T(1) Relaxivity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41801798/",
+        "published_date": "2026-03-09",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

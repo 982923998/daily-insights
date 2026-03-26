@@ -1,0 +1,326 @@
+{
+  "date": "2026-03-20",
+  "articles": [
+    {
+      "title": "Craniomaxillofacial Complex Injuries Sustained During Training in Alpine Environments: Multimodal MRI-Based Analysis of Injury Patterns and Acute-Phase Assessment.",
+      "summary": "Training activities in alpine environments, characterized by low temperatures, hypoxia, and high physical demand, predispose individuals to craniomaxillofacial (CMF) complex injuries with potential involvement of the central nervous system in the event of accidents. However, the imaging manifestations and multimodal features of brain injury within this specific environmental context remain insufficiently characterized. This study aimed to retrospectively analyze the brain injury patterns in patients with CMF injuries sustained during alpine training, utilizing multimodal magnetic resonance imaging (MRI) data from the acute phase. It further sought to explore the interrelationships among structural damage, white matter microstructural alterations, and functional brain network abnormalities, thereby providing an imaging foundation for clinical assessment and risk stratification. This retrospective observational imaging study enrolled patients who sustained CMF injuries during alpine training and subsequently underwent multimodal MRI. All imaging data were derived from prior clinical examinations. MRI evaluations were performed during the acute post-injury period, with a median interval from injury to MRI of 2.6 days (interquartile range: 1.8-3.4 d). Short-term clinical follow-up data during the acute hospitalization phase were available for a subset of patients, with the endpoint defined as hospital discharge or completion of acute-phase treatment. No standardized longitudinal imaging follow-up was conducted. The MRI protocol encompassed conventional T1-weighted and T2-weighted imaging, diffusion-weighted imaging (DWI), susceptibility-weighted imaging (SWI), diffusion tensor imaging (DTI), and resting-state functional MRI (rs-fMRI). Primary analysis metrics included cerebral contusion/laceration and structural injury burden, the quantity and spatial distribution of cerebral microbleeds detected by SWI, DTI-derived white matter microstructural parameters, and topological indices of structural and functional brain networks constructed through connectomics methods. Multimodal integrative analysis was used to assess the associative characteristics between structural injury, white matter microstructural changes, and brain network dysfunction. The findings revealed that patients with CMF injuries from alpine training exhibited multilevel brain injury features during the acute phase, including cerebral contusions, microbleeds, and diminished white matter microstructural integrity. Microbleeds were predominantly distributed in the corpus callosum and subcortical deep white matter regions. Their burden was closely associated with reduced white matter fractional anisotropy (FA) and weakened functional network connectivity. Structural and functional connectivity analyses demonstrated a widespread reduction in global network efficiency and clustering coefficient among the injured individuals, alongside a relative enhancement of connectivity in certain frontal lobe-related networks, suggesting the presence of network reorganization and compensation during the acute phase. Multimodal analysis further indicated that, within the alpine training context, structural lesions, white matter injury, and brain network dysfunction exhibited significant coupling. The overall injury phenotype seemed more severe compared with general trauma backgrounds. Craniomaxillofacial complex injuries sustained during training in alpine environments can induce environmentally sensitive, multiscale brain damage in the acute phase, manifesting as coordinated alterations in structural injury, white matter microstructural abnormalities, and brain network functional disruption. Combined multimodal MRI analysis facilitates a comprehensive delineation of the imaging phenotype associated with such injuries, enhances the detection rate of occult brain damage, and provides critical reference for the clinical assessment, risk stratification, and intervention decision-making related to alpine environment-associated brain injury.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41855108/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Craniofac Surg",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "scBIT: Integrating Single-cell Transcriptomic Data into fMRI-based Prediction for Alzheimer's Disease Diagnosis.",
+      "summary": "Functional MRI (fMRI) and single-cell transcri ptomics are pivotal in Alzheimer's disease (AD) research, each providing unique insights into neural function and molecular mechanisms. However, integrating these complementary modalities remains largely unexplored. Here, we introduce scBIT, a novel method for enhancing AD prediction by combining fMRI with single-nucleus RNA (snRNA). scBIT leverages snRNA as an auxiliary modality, significantly improving fMRI-based prediction models and providing comprehensive interpretability. It employs a sampling strategy to segment snRNA data into cell-type-specific gene networks and utilizes a self-explainable graph neural network to extract critical subgraphs. Additionally, we use demographic and genetic similarities to pair snRNA and fMRI data across individuals, enabling robust cross-modal learning. Extensive experiments validate scBIT's effectiveness in revealing intricate brain region-gene associations and enhancing diagnostic prediction accuracy. By advancing brain imaging transcriptomics to the single-cell level, scBIT sheds new light on biomarker discovery in AD research. Experimental results show that incorporating snRNA data into the scBIT model significantly boosts accuracy, improving binary classification by 3.39% and five-class classification by 26.59%. The codes were implemented in Python and have been released on GitHub (https://github.com/77YQ77/scBIT) and Zenodo (https://zenodo.org/records/11599030) with detailed instructions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41855058/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE Trans Med Imaging",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Psilocybin effects on brain functional connectivity: a systematic review of fMRI studies.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854988/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Discov Ment Health",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "The cerebellar cognitive affective syndrome scale in early multiple sclerosis.",
+      "summary": "Cerebellar posterior lobes regulate various cognitive functions, and their damage can result in Cerebellar Cognitive Affective Syndrome (CCAS). The validity of the CCAS Scale (CCAS-S), a reliable tool to diagnose CCAS, remains unexplored in multiple sclerosis (MS). To evaluate the performance of CCAS-S in patients with MS (pwMS) at clinical onset, and to assess MRI characteristics of pwMS with CCAS (CCAS+) compared with healthy controls (HC) and with pwMS classified by standard cognitive assessments as cognitively impaired (CI+) or cognitively normal (CI- CCAS-). One-hundred three early pwMS underwent CCAS-S, Brief International Cognitive Assessment for Multiple Sclerosis (BICAMS), and Delis-Kaplan Executive Function System Sorting Test (D-KEFS-ST), used to classify patients into CI- CCAS-, CI+, and CCAS+. Twenty HC and 66 patients also underwent MRI to obtain lesion and volumetric parameters, diffusion MRI metrics, and cerebellum-brain functional connectivity (FC) on resting-state functional MRI, which were compared between groups. CCAS-S identified 14 (14%) pwMS with CCAS who were not detected by BICAMS or D-KEFS-ST. CCAS+ patients showed more severe microstructural damage in cerebellar normal-appearing white matter (lower fractional anisotropy, p&#x2009;=&#x2009;0.020), and increased cerebro-cerebellar FC (involving right-limbic, left-frontoparietal, and left-default mode networks, p&#x2009;<&#x2009;0.05) compared with other subjects. Our findings suggest that CCAS-S may represent a useful complementary tool to standard cognitive assessments, enhancing sensitivity in detecting cognitive impairment in early MS. Compared to HC and other MS patients, pwMS with CCAS show severe microstructural cerebellar damage and increased brain-cerebellar connectivity, suggesting a possible role of the cerebellum in their cognitive dysfunction. Validation in larger cohorts is warranted.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854895/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurol",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Neonatal brain abnormalities predict preschool executive functioning performance in children born very preterm.",
+      "summary": "Children born prematurely consistently exhibit deficits on performance-based and caregiver-report measures of executive functioning (EF). As early EF may mediate premature childbirth's impact on neurodevelopmental and behavioral outcomes, it is important to understand risk factors for EF deficits. Data from a longitudinal prospective cohort study were used to explore the association of brain abnormalities with EF measures in very preterm children (&#x2264;32 weeks of age). Participants included 314 very preterm children (M = 69.5, SD = 2.0 months of age; 51.9% male; 71.3% White). Regression analyses evaluated whether the global brain abnormality composite score on magnetic resonance imaging at term-equivalent age was associated with EF performance and caregiver ratings at 5-year corrected age, as well as which specific aspects of regional abnormalities (i.e., white matter, grey matter, cerebellar, and deep nuclear grey matter abnormalities) predicted EF. The global brain abnormality score significantly predicted poorer EF performance but not caregiver-rated EF, independent of known confounders (sex, gestational age, birthweight, social risk, chorioamnionitis, hypertensive disorders, bronchopulmonary dysplasia, retinopathy of pre-maturity, and global developmental delay). Exploratory analyses revealed that cerebellar abnormalities were associated with poorer working memory, inhibition, and cognitive flexibility and spatial working memory, and white matter abnormalities were associated with poorer planning. This study adds to the research showing that brain abnormalities associated with premature birth consistently predict poorer scores on performance-based measures of EF. Conventional magnetic resonance imaging at term-equivalent age may assist with identifying at-risk children when interpreted in the context of other influences on child EF such as family social circumstances and functioning. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854677/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Dev Psychol",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "NINS_QC: A Data Quality Checker in Neuroimaging.",
+      "summary": "Evaluation of data quality always remains labor-intensive, but it is a critical prerequisite in clinical neuroscience research to ensure the reliability and reproducibility of research outcomes. The unavailability of quality control (QC) pipelines on a single platform for multimodal neuroimaging data has been a limiting factor in extensive brain research. Moreover, existing QC pipelines primarily involve MRI-based data only. In this context, we developed a neuroimaging and neurospectroscopy (NINS) QC platform \"NINS_QC\" for multimodal neuroimaging (MRI, fMRI, DTI, MRS) and neuropsychological data. NINS_QC is a transparent and user-friendly framework that can be distributed as a standalone or in the form of a downloadable executable file. This allows local processing of multimodal neuroimaging data and is well-suited for environments with stringent data privacy requirements. The presence of metrics-based analysis, along with visual-based assessment, has added one more attribute to this platform.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854447/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "ACS Chem Neurosci",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Intracranial Pressure Dynamics and Cerebrospinal Fluid Outflow Resistance in the Elderly: Associations With 10-Year Changes in Cognitive Function and Ventricular Volume.",
+      "summary": "Glymphatic function affects brain health and could be part of the pathophysiology in idiopathic normal-pressure hydrocephalus. Elevated intracranial pressure pulsatility and increased resistance to cerebrospinal fluid (CSF) outflow (Rout) are commonly observed in idiopathic normal-pressure hydrocephalus. Whether such alterations indicate impaired glymphatic function or affect ventricle volumetrics in ordinary elderly is unknown. We investigated the associations between CSF dynamics and changes in cognitive performance, gait, and brain MRI parameters over a 10-year period in a cohort of healthy older adults. Twenty-nine subjects (mean age 79 &#xb1; 6, range 71-92 years) were investigated with brain MRI, clinical testing, and a CSF infusion test. MRI and clinical testing were repeated after 10 years. An automated software program was used to calculate ventricle volumes, and linear ventricle radiological indices were calculated (Evan's index, callosal angle, and z-Evan's index). CSF dynamic parameters were correlated with longitudinal changes in clinical and MRI parameters. In a multivariable regression model including age, sex, baseline cognitive performance, and CSF dynamic parameters, lower CSF outflow resistance was associated with better cognitive performance after 10 years (standardized &#x3b2; = 0.37, P = .047, n = 29). In a bivariate analysis, outflow resistance had a negative correlation to the difference in cognitive testing score between baseline and follow-up (r = -.44, 95% CI -0.701 to -0.08, P = .017, n = 29, Spearman's rho). CSF dynamic parameters were not associated with changes in gait performance or ventricle volume. Intracranial pressure pulsatility was associated with reduced callosal angle (standardized &#x3b2; = -0.35, P = .02, n = 29) and intracranial pressure with increased z-Evan's index (standardized &#x3b2; = 0.18, P = .003, n = 29). Our results provide insight into the complexity of CSF physiology and its possible role in longitudinal change in brain function and structure. Measurement of CSF outflow characteristics hold potential in furthering the understanding of glymphatic performance with regard to change in cognitive function and warrants further investigation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854330/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurosurgery",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "RAGE Inhibition Reduces Surgery-Induced Cerebral Edema After Glioma Resection.",
+      "summary": "Cerebral edema (CE) is a common contributor to neurological decline after brain tumor resection. While corticosteroids are effective in managing CE perioperatively, their use is associated with significant side effects and potential interference with immunotherapeutic efficacy in patients with malignant brain tumors. This study aimed to evaluate the anti-inflammatory effects of 2 inhibitors of the receptor for advanced glycation end products (RAGE)-TTP488 and FPS-ZM1-on CE development after glioma resection in murine models. Mice bearing orthotopic CT-2A gliomas were randomized into 4 treatment groups before undergoing fluorescence-guided microsurgical tumor resection. The groups received perioperative administration (from day -4 to day +7) of TTP488, FPS-ZM1, dexamethasone, or vehicle. Postoperative CE was assessed using serial brain MRI over a 7-day period and quantified using manual segmentation. Neurological function, wound healing, and response to anti-PD-1 immunotherapy were also evaluated. Bulk RNA sequencing was performed to analyze differential gene expression associated with RAGE inhibition. Across all groups, CE peaked on postoperative day 2 and subsided by day 7. On postoperative day 1, both TTP488 and FPS-ZM1 significantly reduced CE compared with vehicle (P = .03 for TTP488; P = .03 for FPS-ZM1). Notably, unlike dexamethasone, neither RAGE inhibitor impaired the efficacy of anti-PD-1 immunotherapy. FPS-ZM1 treatment was also associated with improved neurological recovery, enhanced wound healing, and potentiated anti-PD-1 therapy at higher doses. RAGE inhibitors effectively reduced postoperative CE to a degree comparable with dexamethasone, without compromising the efficacy of immunotherapy or wound healing. These findings suggest that RAGE inhibition may offer a promising steroid-sparing strategy for perioperative management of CE in patients with brain tumor undergoing immunotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854274/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurosurgery",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Dural prostate adenocarcinoma metastases mimicking and driving subdural hematoma: mechanistic insights from a case series.",
+      "summary": "Intracranial dural metastases from extracranial malignancies, including prostate adenocarcinoma are rare, but they pose significant challenges due to atypical clinical presentations, unusual radiographic characteristics, and poor prognosis. We present two patients with prostate adenocarcinoma who developed subdural hematoma (SDH) in association with dural metastatic disease. The first patient, a 58-year-old man, suffered a traumatic SDH that was initially managed with middle meningeal artery (MMA) embolization but presented with recurrent SDH requiring craniotomy and further MMA embolization, and ultimately craniectomy and mesh cranioplasty after documentation of a dural-based metastatic tumor at the chronic hematoma site. The second patient, a 63-year-old man with stage IV prostate cancer and known osseous metastases, was found to have a subacute SDH concomitant with a dural metastatic mass; he underwent craniectomy, and tumor resection . These cases illustrate two distinct presentations of dural metastasis with SDH - one appearing after a traumatic hemorrhage and one presenting as a hemorrhagic collection from bleeding of the underlying dural mass. Prostate cancer dural metastasis can mimic or exacerbate SDHs, demanding a high index of suspicion in patients with known malignancy or atypical SDH features. Early use of contrast-enhanced MRI is crucial for diagnosis, and definitive management often requires a multidisciplinary approach.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854011/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Br J Neurosurg",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Towards Clinical Translation of Intravoxel Incoherent Motion MRI: Acquisition and Analysis Consensus Recommendations.",
+      "summary": "Intravoxel incoherent motion (IVIM) MRI allows for simultaneous assessment of tissue microcirculation (perfusion) and diffusion of water. In single-center studies, IVIM has shown great potential for diagnosis, treatment outcome prediction, and treatment monitoring for many different diseases and organs. However, heterogeneity in data acquisition protocols, pre-processing pipelines, and post-processing routines yields differences in reported IVIM parameters, which has constrained large-scale deployment of IVIM. Moreover, deploying IVIM protocols and analysis typically requires technical expertise, further challenging wider use, especially for clinicians. In this consensus paper, to accelerate the deployment of IVIM, we provide recommendations and harmonize protocols for brain, breast, kidney, liver, muscle, and pancreas IVIM studies. For this goal we organized multiple questionnaires and held a dedicated workshop. To ensure a level of standardized, reproducible results, without restricting innovation, we suggest a small subset of b-values to always be measured and analyzed separately, and to which more extensive b-value sampling can be added for advanced investigations. We further introduce detailed recommendations on acquisition protocols and analysis pipelines. To increase consistency, repeatability, and reproducibility, we highly recommend that these protocols and pipelines be deployed by scientists and clinicians for IVIM studies. For advanced users who desire different protocols or analysis approaches, we suggest adding results from our suggested protocols and analysis pipeline in the supplemental part of their paper to enable retrospective studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41853873/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Magn Reson Imaging",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Associations of cannabis use, tobacco use and co-use with brain volume: A systematic review and meta-analysis.",
+      "summary": "Cannabis is the most widely used illicit drug worldwide and is often co-used with tobacco, the leading cause of preventable death. Although cannabis and tobacco have distinct neurobiological actions, their associations with brain volumes are unclear. We aimed to review studies investigating cannabis use, tobacco use, their co-use and brain volume and triangulate evidence across different study designs. A systematic review and meta-analysis preregistered on PROSPERO (CRD42022356982) and reported according to PRISMA 2020 guidelines. We searched SCOPUS, PubMed and PsycINFO up to 5 September 2024 for studies investigating cannabis use, tobacco use, co-use and brain volume. Cross-sectional, longitudinal and Mendelian randomisation studies were included. The outcome was brain volume of global, cortical and subcortical regions. We extracted adjusted and unadjusted estimates. Random effects meta-analyses were stratified by exposure and study design across 33 brain regions. Risk of bias was assessed using a modified version of the Newcastle-Ottawa scale. Searches yielded 103 studies: 57 investigated cannabis use, 45 investigated tobacco use and one investigated tobacco and cannabis co-use. Seventy-seven studies were included in meta-analysis (n&#x2009;=&#x2009;72&#x2009;798), 44 (n&#x2009;=&#x2009;18&#x2009;247) in the cross-sectional cannabis analysis, 30 (n&#x2009;=&#x2009;51&#x2009;194) for tobacco cross-sectional and four (n&#x2009;=&#x2009;3357) in the tobacco longitudinal analysis. Meta-analysis of adjusted estimates from cross-sectional studies (k denotes the number of independent studies) indicated smaller amygdala volumes [k&#x2009;=&#x2009;17, g&#x2009;=&#x2009;0.13, 95% confidence interval (CI) = 0.03, 0.23)] in people who use cannabis compared with controls. Relative to controls, people who smoked tobacco had smaller volumes in the amygdala (k&#x2009;=&#x2009;5, g&#x2009;=&#x2009;0.17, 95% CI = 0.04, 0.31), insula (k&#x2009;=&#x2009;5, g&#x2009;=&#x2009;0.17, 95% CI = 0.06, 0.27), pallidum (k&#x2009;=&#x2009;5, g&#x2009;=&#x2009;0.17, 95% CI = 0.13, 0.21) and total grey matter volume (TGMV) (k&#x2009;=&#x2009;7, g&#x2009;=&#x2009;0.17, 95% CI = 0.04, 0.30). Longitudinal studies indicated a larger decrease in TGMV in people who smoke tobacco (k&#x2009;=&#x2009;5, g&#x2009;=&#x2009;0.05, 95% CI = 0.01, 0.10) relative to controls. Cannabis use appears to be associated with smaller volume in the amygdala. Tobacco use appears to be associated with smaller amygdala, insula, pallidum and total grey matter volume.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41852160/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Addiction",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "The Role of Magnetic Resonance Spectroscopy (MRS), Diffusion-Tensor-Imaging (DTI) and Structural MRI in the Alzheimer's Disease and Mild Cognitive Impairment Diagnosis: A Review.",
+      "summary": "Alzheimer's disease (AD) is one of the most common neurological disorders affecting older adults, with approximately 7.2 million cases only in the United States. This number is projected to increase to 13.8 million in the United States by 2060, leading to increased expenditures for healthcare, long-term care and hospice services. Consequently, great emphasis is placed on prevention and the development of early diagnosis techniques, which can lead to timely treatment and the prevention of the consequences of full-blown disease. In this review, we analyze the potential diagnostic value of biomarkers derived from a multimodal approach based on magnetic resonance spectroscopy, diffusion tensor imaging, and magnetic resonance imaging, capable of detecting metabolic, microstructural, and anatomical changes, respectively, that precede the cognitive and behavioral changes observed in AD by years. The primary aim is to evaluate whether the combined and complementary use of these methods can identify early biomarkers useful for recognizing AD in its early stages, predicting progression from MCI to AD, supporting patient stratification, and monitoring cognitive decline or response to treatment. We identified regions more susceptible to metabolic alterations (PCC and hippocampus) and trajectories of structural brain alterations (atrophy or diffusivity abnormalities). The assessment of such imaging biomarkers may serve as the foundation for future prospective studies aimed at developing differential diagnostic methods, a crucial goal within the broader context of dementias, by adopting standardized multimodal MRI protocols. EVIDENCE LEVEL: 3. TECHNICAL EFFICACY: Stage 1. Alzheimer's disease affects millions of older adults, and its numbers are expected to rise sharply in the coming decades. This review explores whether combining different MRI&#x2010;based techniques can detect early brain changes&#x2014;metabolic, structural, and anatomical&#x2014;that appear years before memory problems. The findings highlight key vulnerable areas, such as the hippocampus and posterior cingulate cortex, and suggest that multimodal imaging could help identify early Alzheimer's, predict progression from mild cognitive impairment, and improve patient monitoring.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41852095/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Magn Reson Imaging",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Microcirculatory Dysfunction and Oxidative Stress in Sudden Sensorineural Hearing Loss: Insights From a Case-Control and Experimental Study.",
+      "summary": "BACKGROUND Sudden sensorineural hearing loss (SSNHL) is an otological emergency with incompletely understood pathophysiology. Evidence suggests microcirculatory dysfunction and oxidative stress contribute to cochlear injury; however, their interrelationship remains insufficiently characterized. MATERIAL AND METHODS This prospective case-control study enrolled 100 patients with SSNHL and 100 age- and sex-matched healthy controls. Perfusion-related surrogate parameters, including cerebral blood flow (CBF), cerebral blood volume (CBV), and mean transit time (MTT), were assessed using dynamic contrast-enhanced magnetic resonance perfusion imaging. Peripheral microcirculation was evaluated by laser Doppler flowmetry. Systemic oxidative stress markers malondialdehyde (MDA), superoxide dismutase (SOD), and glutathione peroxidase (GSH-Px) were quantified in serum. Experimental validation was performed using a rat ischemia-reperfusion model to assess cochlear oxidative stress, apoptosis, and auditory brainstem response thresholds. RESULTS Compared with controls, SSNHL patients exhibited reduced CBF and CBV, prolonged MTT, and lower peripheral microcirculatory perfusion (all P<0.05). Oxidative stress was increased in SSNHL, reflected by elevated serum MDA levels and reduced SOD and GSH-Px activities. Animal model showed ischemia-reperfusion induced parallel alterations, including increased cochlear oxidative stress, reduced antioxidant enzyme activity, increased apoptotic cell burden, and elevated auditory brainstem response thresholds. Perfusion-related parameters correlated with oxidative stress markers. Multivariable regression analysis demonstrated independent associations between perfusion profiles, oxidative imbalance, and hearing thresholds. CONCLUSIONS SSNHL is associated with unfavorable perfusion-related surrogate parameters and heightened oxidative stress accompanied by reduced antioxidant defenses. Clinical and experimental findings suggest microcirculatory dysfunction and oxidative imbalance are interrelated features of SSNHL-associated cochlear injury. Causal inference cannot be established, and further mechanistic studies are warranted.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41851951/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Med Sci Monit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Acute cerebral blood flow and its connectivity in patients with anti-LGI1 autoimmune encephalitis: an arterial spin labeling study.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41851422/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Neurostructural alterations, trait impulsivity, and genetic architecture in individuals with methamphetamine dependence: a multimodal imaging-genetics study.",
+      "summary": "Methamphetamine use disorder (MUD) represents a substantial global health challenge, largely attributable to the absence of effective treatments stemming from limited understanding of its neurobiological mechanisms. This study aimed to investigate the structural brain alterations, trait impulsivity, and genetic factors underlying MUD. We conducted structural magnetic resonance imaging scanning and whole-exome sequencing on a cohort of 142 male participants (91 patients with MUD vs. 51 healthy controls). Voxel-based morphometry revealed a significant reduction in gray matter volume (GMV) in the left thalamus among MUD patients, which exhibited a negative correlation with motor impulsivity (MI). Mediation analysis further demonstrated that MI mediated the relationships between thalamic GMV, duration of drug use, and MUD severity. Gene- and gene set-based burden tests identified 72 genes and three biological pathways: Cytidine Analogs Cytotoxicity, Muscle Structure Development, and Nuclear Speck, that were significantly associated with thalamic volume. GO enrichment analyses of 362 common genetic variants indicated a significant involvement in ciliary and microtubule-based motility processes. Concurrently, KEGG pathway analyses highlighted cytoskeletal and extracellular matrix signaling pathways. Gene-environment interaction analyses revealed that thalamic volume was significantly influenced by the interaction between rs12729569 and METH use, as well as between rs2282440 and duration of use. These findings suggest the thalamus as a critical structural substrate that links impulse control with METH-related neurotoxicity, emphasizing the role of cytoskeletal dynamics and ciliary function. Genetic variants that influence thalamic vulnerability may serve as promising biomarkers for risk stratification and the development of personalized interventions in MUD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41851085/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Visualization of the Trochlear Nerve Using Deep Learning-enhanced 3D T2-weighted MR Imaging at 3T.",
+      "summary": "Cranial nerve imaging with 3T MRI commonly uses 3D fast imaging employing steady-state acquisition (3D-FIESTA); however, this sequence has limitations in achieving higher spatial resolution and provides poor tissue contrast between cranial nerves and adjacent vascular structures. We evaluated 3D T2-weighted imaging (T2-CUBE) with deep learning-based reconstruction (DLR) for cranial nerve visualization, focusing on the trochlear nerve, the smallest cranial nerve with the longest intracranial course, and compared it with T2-CUBE without DLR and 3D-FIESTA. Ten healthy male volunteers (age, 23-40 years; mean age, 32 years) underwent T2-CUBE with and without DLR, and 3D-FIESTA at 3T. Two neuroradiologists independently evaluated trochlear nerve visualization in 4 anatomical segments (origin from the midbrain, cisternal, tentorial, and anterior portion of its cavernous segments) using a 3-point scale, and SNR of the pons (SNRPONS) and cerebrospinal fluid (SNRCSF) were calculated. T2-CUBE with DLR achieved a 100% visualization across all trochlear nerve segments and demonstrated significantly better visualization than both T2-CUBE without DLR and 3D-FIESTA (P < 0.025). T2-CUBE without DLR showed 67.5%-100% visualization across the 4 segments. 3D-FIESTA showed 32.5%-80% visualization of the origin from the midbrain, cisternal, and tentorial segments, with no visualization of the cavernous segments. DLR increased SNRPONS and SNRCSF by factors of 1.8-2.5 (SNRPONS: 14.1 vs 5.7; SNRCSF: 31.8 vs 17.5, respectively; P < 0.001). T2-CUBE with DLR demonstrated significantly higher SNRPONS than 3D-FIESTA (14.1 vs 6.4, P < 0.001), while SNRCSF was comparable (31.8 vs 36.3, P = 0.20). T2-CUBE with DLR at 3T provided a significantly better trochlear nerve visualization than T2-CUBE without DLR and 3D-FIESTA. This technique may extend beyond the trochlear nerve to other cranial nerves and to the evaluation of neurovascular compression in the cistern, with the potential to become the new standard for cisternal imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41850820/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Magn Reson Med Sci",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Volumetric MRI assessment of brain and pituitary structure in girls with central precocious puberty.",
+      "summary": "To compare global and regional brain volumes and pituitary morphology between girls with central precocious puberty (CPP) and age-matched controls using intracranial-volume (ICV)-adjusted magnetic resonance imaging (MRI), and to assess associations between gonadotropins and brain volumetry. This retrospective study included 182 girls (CPP n=91; controls n=91; age 6-9&#xa0;years at MRI acquisition). Brain MRI (1.5&#x202f;T) was segmented using the volBrain pipeline, and global and regional volumes were normalized to ICV. Pituitary height and volume were measured by two blinded radiologists. Group differences were analyzed with Welch t-tests; ANCOVA was applied for age and ICV adjustment. Multiple comparisons were FDR-corrected. Correlations with basal and GnRH-stimulated LH were evaluated using Spearman analysis. CPP patients had more advanced pubertal staging, higher height SDS, and greater pituitary height, while pituitary volume was similar. Global intracranial and total brain volumes did not differ. The WM/ICV fraction was modestly lower in CPP, whereas GM/ICV and CSF/ICV fractions were comparable. No regional brain volumes remained significant after FDR correction. In the stimulation-test subgroup, higher peak LH correlated with smaller total-brain/ICV and cerebrum/ICV fractions and with greater CSF/ICV. After adjusting for age and intracranial volume, CPP showed preserved global and regional brain structure. Modest WM reduction and LH-related shifts in brain-CSF distribution suggest subtle hormonally mediated differences in maturational timing. This study provides the largest ICV-normalized volumetric MRI dataset in&#xa0;CPP.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41846236/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Pediatr Endocrinol Metab",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-20T00:33:51+00:00",
+    "version": 1,
+    "summary": "Captured 17 research items. Preference focus is brain-imaging analysis and disease mechanisms: 11 high-priority, 6 medium-priority, 0 low-priority. Mechanism-related items: 9; analysis-method items: 17.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 17,
+      "high_priority": 11,
+      "medium_priority": 6,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 9
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 17
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "scBIT: Integrating Single-cell Transcriptomic Data into fMRI-based Prediction for Alzheimer's Disease Diagnosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41855058/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The Role of Magnetic Resonance Spectroscopy (MRS), Diffusion-Tensor-Imaging (DTI) and Structural MRI in the Alzheimer's Disease and Mild Cognitive Impairment Diagnosis: A Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41852095/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Craniomaxillofacial Complex Injuries Sustained During Training in Alpine Environments: Multimodal MRI-Based Analysis of Injury Patterns and Acute-Phase Assessment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41855108/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Towards Clinical Translation of Intravoxel Incoherent Motion MRI: Acquisition and Analysis Consensus Recommendations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41853873/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The cerebellar cognitive affective syndrome scale in early multiple sclerosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854895/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neurostructural alterations, trait impulsivity, and genetic architecture in individuals with methamphetamine dependence: a multimodal imaging-genetics study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851085/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "NINS_QC: A Data Quality Checker in Neuroimaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854447/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Microcirculatory Dysfunction and Oxidative Stress in Sudden Sensorineural Hearing Loss: Insights From a Case-Control and Experimental Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851951/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Psilocybin effects on brain functional connectivity: a systematic review of fMRI studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854988/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Intracranial Pressure Dynamics and Cerebrospinal Fluid Outflow Resistance in the Elderly: Associations With 10-Year Changes in Cognitive Function and Ventricular Volume.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854330/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Dural prostate adenocarcinoma metastases mimicking and driving subdural hematoma: mechanistic insights from a case series.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854011/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Volumetric MRI assessment of brain and pituitary structure in girls with central precocious puberty.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41846236/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Visualization of the Trochlear Nerve Using Deep Learning-enhanced 3D T2-weighted MR Imaging at 3T.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41850820/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Associations of cannabis use, tobacco use and co-use with brain volume: A systematic review and meta-analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41852160/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Acute cerebral blood flow and its connectivity in patients with anti-LGI1 autoimmune encephalitis: an arterial spin labeling study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851422/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "RAGE Inhibition Reduces Surgery-Induced Cerebral Edema After Glioma Resection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854274/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neonatal brain abnormalities predict preschool executive functioning performance in children born very preterm.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854677/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

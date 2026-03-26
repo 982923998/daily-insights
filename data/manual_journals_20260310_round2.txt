@@ -1,0 +1,21 @@
+Acta Neurol Belg|0300-9009|Acta Neurologica Belgica
+Adv Sci (Weinh)|2198-3844|Advanced Science
+AJNR Am J Neuroradiol|0195-6108|American Journal of Neuroradiology
+Alzheimers Dement|1552-5260|Alzheimer's & Dementia
+Brain|0006-8950|Brain
+Childs Nerv Syst|0256-7040|Child's Nervous System
+Cleft Palate Craniofac J|1055-6656|The Cleft Palate-Craniofacial Journal
+Comput Med Imaging Graph|0895-6111|Computerized Medical Imaging and Graphics
+Discov Ment Health|2731-4383|Discover Mental Health
+J Clin Endocrinol Metab|0021-972X|Journal of Clinical Endocrinology and Metabolism
+J Diabetes Investig||Journal of Diabetes Investigation
+J Magn Reson Imaging|1053-1807|Journal of Magnetic Resonance Imaging
+J Neurooncol|0167-594X|Journal of Neuro-Oncology
+J Neurosurg Case Lessons||Journal of Neurosurgery. Case Lessons
+J Neurosurg Pediatr|1933-0707|Journal of Neurosurgery. Pediatrics
+Mod Rheumatol Case Rep||Modern Rheumatology Case Reports
+Mol Imaging Radionucl Ther||Molecular Imaging and Radionuclide Therapy
+Mov Disord|0885-3185|Movement Disorders
+Radiologie (Heidelb)||Radiologie
+Stereotact Funct Neurosurg||Stereotactic and Functional Neurosurgery
+Vis Comput Ind Biomed Art||Visual Computing for Industry, Biomedicine, and Art

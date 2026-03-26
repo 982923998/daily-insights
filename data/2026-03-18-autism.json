@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-18",
+  "articles": [
+    {
+      "title": "A Depolarizing Leak in Sodium Bicarbonate Cotransporter NBCe1 Causes Brain Edema.",
+      "summary": "SLC4A4 encodes electrogenic sodium bicarbonate cotransporter NBCe1, prominently expressed in kidney and brain. Recessive loss-of-function variants in SLC4A4 cause proximal renal tubular acidosis, no brain edema. In the brain, NBCe1 is expressed by astrocytes, where it regulates pH and mediates astrocyte volume changes. Here we describe a novel dominant variant in SLC4A4 in patients with brain edema and investigate how it affects NBCe1 function. Genetic studies identified a novel gene variant in three unrelated pediatric patients with the same MRI pattern of cerebral subcortical white matter signal abnormality and swelling, and medulla lesions. Immunohistochemical and electrophysiological experiments were performed to determine the localization of the transporter in the brain and the functional consequence of the patient variant. The same heterozygous variant in SLC4A4 was found in all three patients and one parent. The children displayed infantile-onset progressive macrocephaly, motor and cognitive impairment, autism, epilepsy, and recurrent episodes of increased intracranial pressure. Bicarbonate treatment of two patients led to clinical and MRI improvement. Immunohistochemistry revealed that brain NBCe1 is mainly present in astrocytes, more in cortex than white matter. Functional experiments revealed impaired transporter activity of mutant NBCe1 due to reduced membrane expression and a prominent depolarizing ion leak. The most likely pathomechanism of this novel SLC4A4-related disease is that a depolarizing leak in NBCe1 disrupts astrocyte pH regulation, promoting swelling and impairing volume control. These findings uncover a previously unrecognized mechanism of genetic brain edema and establish NBCe1 as a critical modulator of astrocyte homeostasis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41841191/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Ann Clin Transl Neurol",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-18T00:42:49+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "A Depolarizing Leak in Sodium Bicarbonate Cotransporter NBCe1 Causes Brain Edema.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41841191/",
+        "published_date": "2026-03-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

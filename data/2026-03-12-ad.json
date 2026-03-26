@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-12",
+  "articles": [
+    {
+      "title": "Advanced MRI of the choroid plexus: Applications in aging and dementia.",
+      "summary": "The choroid plexus (ChP), a highly vascularized epithelial organ within the brain ventricles, sustains cerebrospinal fluid (CSF) production, regulates the blood-CSF barrier (BCSFB), and coordinates neuroimmune responses. Beyond these classical roles, the ChP is increasingly recognized as an active interface within brain clearance pathways, facilitating CSF-interstitial fluid (ISF) exchange and contributing to metabolic waste removal. Structural and functional disruption of the ChP/BCSFB accompanies aging and has been linked to the pathogenesis of neurodegenerative disorders. Magnetic resonance imaging (MRI) provides a powerful, non-invasive platform for in vivo characterization of the ChP. This review summarizes recent advances in MRI techniques tailored to ChP imaging, including quantitative assessments of microstructure, perfusion, permeability, and dynamic water exchange, and highlights their applications in aging and dementia. Converging evidence suggests that MRI-derived indices of ChP integrity are associated with cognitive status and may facilitate early detection and longitudinal monitoring of disease trajectories, particularly in Alzheimer's disease and related dementias (AD/ADRD). Continued development and application of advanced MRI approaches will be essential for further elucidating the role of the ChP in neurodegeneration and for evaluating its potential clinical utility.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41816863/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Cereb Blood Flow Metab",
+      "published_date": "2026-03-12",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Early detection of Alzheimer's disease based on leveraging multimodal features of the clock drawing test.",
+      "summary": "BackgroundAlthough multi-task handwriting analysis has the potential to improve early detection of Alzheimer's disease (AD), the educational bias inherent in its text-based tasks poses a significant obstacle to its widespread adoption across different regions.ObjectiveUsing the clock drawing test, we aim to design a deep neural network to extract features from static images and process signals to achieve high-precision recognition of early AD.MethodsEarly Detection of Alzheimer's Disease based on Leveraging Multimodal Features of the clock-drawing test (EDADLMF) is proposed. Firstly, to utilize the behavioral features inherent in the clock drawing test task, we propose a Dual Stream Clock Drawing Feature Extraction module,which employs a convolutional neural networks to capture the spatial features of static clock face images, while concurrently employing a multi-layer perceptron to map low-dimensional process signal into a high-dimensional feature space. Furthermore, we propose a Feature Fusion module with the Squeeze-and-Excitation attention mechanism to adaptively enhance key features and fuses complementary information from different modalities. Thirdly, to enhance the model's focus on hard-to-classify samples, a PolyLoss function is introduced to assign greater weights to difficult samples.ResultsComparative experiments on benchmark demonstrated that EDADLMF outperforms the compaired methods on accuracy (92.59%), precision (93.65%), recall (92.65%), and F1-score (92.59%), and the case study indicates that the developed prototype system has well effectiveness.ConclusionsThe clock drawing test, combined with process signals and image data, exhibits better screening accuracy and could serve as a practical alternative to initial MRI scans.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41815069/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-03-12",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Carotid arteries in cerebral small vessel disease and dementia.",
+      "summary": "Carotid artery disease (CAD) is a recognised cause of stroke. However, the relationships between CAD, cerebral small vessel disease (SVD) and dementia remain unclear. We hypothesised that CAD in older individuals contributes to cerebral SVD pathology by altering cerebral perfusion. We performed a clinicopathological study in patients from the Cognitive Function After Stroke (CogFAST) study and prospectively recruited patients with various dementia diagnoses and evidence of cerebral SVD. In addition to brain tissues, we collected postmortem samples of the internal carotid arteries (ICA) from these cohorts in the Newcastle Brain Tissue Resource. Standard neuropathological examination was performed for diagnosis and assignment of the cases per current diagnostic criteria for vascular and neurodegenerative dementias, which were assessed for the presence of vascular pathology including the degree of stenosis and sclerosis in vascular tissues. We evaluated a total of 159 ICA samples and brain tissues from all cases with evidence of SVD. Severity of ICA stenosis and sclerotic index correlated strongly with both clinical stroke and brain infarction (P&#x2009;<&#x2009;0.001). More than 90% of the subjects had one subtype of ICA lesion in the order: intimal thickening > fibrocalcific > fibrous cap (thick) > fibrous cap (thin) > thrombus group with a strong inflammatory reaction in fibrocalcific atheromas. Regression analyses showed that ICA stenosis was positively correlated to both SVD pathology scores (P&#x2009;<&#x2009;0.034) and the total number of vascular lesions (P&#x2009;<&#x2009;0.001). ICA stenosis was also related to dementia caused by cerebrovascular disease (P&#x2009;<&#x2009;0.001) and by mixed pathologies characterised by Alzheimer's disease and SVD (P&#x2009;=&#x2009;0.025). Severity of stenosis was related to subcortical and white matter (WM) vascular lesions within the anterior circulation. ICA stenosis and sclerosis were moreover correlated with the total intracranial artery pathology scores (P&#x2009;<&#x2009;0.001). In the CogFAST group analysis, we observed that MMSE and CAMCOG scores were lower in subjects with moderate to severe stenosis scores compared to the mild stenosis group (P&#x2009;<&#x2009;0.05). In these CogFAST cases, by far the majority of lesions in the WM were small in size (<&#x2009;5&#xa0;mm, range 72-91%) but not in the cortex or basal ganglia and thalamus. Linear regression analysis further indicated that there were greater numbers of these small lesions in the WM with increasing severity of ICA stenosis (P&#x2009;<&#x2009;0.05). Our observations suggest carotid atherosclerosis promotes cerebral SVD types of change within the intracerebral arteries. It is conceivable that extracranial ICA pathology may influence perfusion and integrity of subcortical structures including the deep WM.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41814439/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Acta Neuropathol Commun",
+      "published_date": "2026-03-11",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "A NeuroD1 AAV-Based Gene Therapy for Functional Brain Repair in Alzheimer's Disease-Like Non-Human Primate Model.",
+      "summary": "There is a pressing demand for neuroregenerative treatment for Alzheimer's disease (AD). Recently, a NeuroD1-mediated neuroregeneration strategy has been proposed, yet its efficacy remains untested in non-human primate (NHP) AD models closely reflecting human pathology. This study evaluates the therapeutic potential of NeuroD1 AAV-based gene therapy in an NHP AD model with hippocampal hTau overexpression, utilizing immunostaining, fluorescence/confocal imaging, MRI and FDG PET scans, Simoa CSF biomarker analysis, behavioral tests, and bulk RNA sequencing. NeuroD1 AAV-based gene therapy prevents neuronal damage and degeneration, inhibits hippocampal atrophy, and reduces neuroinflammation in NHP AD models. It also repairs vascular and BBB damage, restores CSF AD biomarker levels, improves hippocampal glucose metabolism, and enhances spatial working memory. Transcriptome analysis further reveals upregulated neuronal function and synaptic transmission, along with downregulated neuroinflammation and apoptosis. Collectively, our findings demonstrate that NeuroD1 AAV-based gene therapy repairs and restores brain structure and function in NHP AD models, highlighting its therapeutic potential.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41806359/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Adv Sci (Weinh)",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-12T14:19:59+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 4 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 4.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Early detection of Alzheimer's disease based on leveraging multimodal features of the clock drawing test.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41815069/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A NeuroD1 AAV-Based Gene Therapy for Functional Brain Repair in Alzheimer's Disease-Like Non-Human Primate Model.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41806359/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Advanced MRI of the choroid plexus: Applications in aging and dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41816863/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Carotid arteries in cerebral small vessel disease and dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41814439/",
+        "published_date": "2026-03-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "date": "2026-03-06",
+  "articles": [
+    {
+      "title": "ATP bioenergetics and fatigue in young adults with and without major depression.",
+      "summary": "Fatigue is a pervasive and difficult-to-treat symptom of major depressive disorder (MDD) that contributes to disability. Understanding this problem in its earlier stages will be critical for averting long-term negative outcomes. To investigate the molecular roots of fatigue in early-stage depression, the current work measured bioenergetic mechanisms, with a focus on adenosine triphosphate (ATP), in brain and blood cells in young adults with MDD versus healthy controls (HC). To measure ATP concentration and ATP production rate in the visual cortex, we utilized 31P magnetic resonance spectroscopy imaging with magnetization transfer (31P MRSI-MT) at 7 Tesla, with and without gamma-ATP resonance saturation. ATP level was also measured in peripheral blood mononuclear cells (PBMCs) at rest and after serial addition of mitochondrial inhibitors. Out of 25 participants (mean age 21.8 years), usable data were available for 18 participants for imaging (9 per group); 24 for PBMCs (13 HC; 11 MDD). The MDD group demonstrated higher ATP production rate in the visual cortex than HC, which correlated positively with Fatigue Severity Scale (FSS) scores. ATP concentrations in PBMCs were higher in MDD than HC, and also correlated with FSS scores. After mitochondrial uncoupling, PBMCs in the MDD group had a lower capacity for ATP production than HC. For the first time, we demonstrate an ATP biosignature of fatigue in young adults with MDD that is visible in both brain and peripheral blood. The findings suggest a compensatory mechanism that occurs early in the disease stage.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41776167/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Postdiagnostic Anxiety and Depression Increase Rupture Risk and Mortality in Unruptured Intracranial Aneurysms.",
+      "summary": "BACKGROUND: Postdiagnostic anxiety and depression's impact on management and outcomes in patients with unruptured intracranial aneurysms remains underexplored. We assessed associations with treatment patterns and outcomes using a large multi-institutional database. METHODS: This retrospective cohort study used TriNetX Global Collaborative Network records (2015-2025; >130 million patients across ≈250 health care organizations), identifying 127 361 adults with unruptured intracranial aneurysms. Addressing immortal time bias, we used a 127-day landmark analysis (median time to psychiatric diagnosis), requiring event-free survival before cohort assignment. Of 119 211 patients surviving to the landmark, those with anxiety/depression diagnosed within 0 to 127 days (n=7250) were 1:1 propensity score matched to controls (n=111 961), yielding 6800 per cohort. Cox proportional hazards models evaluated outcomes from a landmark. RESULTS: Matched cohorts (6800 each) had balanced characteristics (all standardized mean differences <0.10) and comparable follow-up (median, 1550 versus 1600 days). Anxiety/depression was associated with higher all-cause mortality (6.3% versus 4.5%; hazard ratio [HR], 1.28 [95% CI, 1.11-1.48]; P<0.001) and rupture (3.1% versus 2.2%; HR, 1.33 [95% CI, 1.08-1.64]; P=0.007). Five-year survival was 93.7% in the anxiety/depression cohort versus 95.5% in matched controls. Preventive treatment showed nonsignificant trends toward lower rates (odds ratio, 0.80 [95% CI, 0.62-1.03]; P=0.082). Sensitivity analysis using a 365-day landmark (n=10 200 per cohort) expanded eligibility by including diagnoses between days 128 and 365, and confirmed findings (mortality HR, 1.22 [95% CI, 1.08-1.38]; rupture HR, 1.28 [95% CI, 1.08-1.52]). Fine-Gray competing risk models yielded consistent results (mortality subdistribution HR, 1.27; rupture subdistribution HR, 1.31). Dose-response patterns emerged for psychiatric medication adherence: low (mortality HR, 1.50 [95% CI, 1.12-2.00]; P=0.006), moderate (HR, 1.29 [95% CI, 0.98-1.70]; P=0.071), and high (HR, 1.16 [95% CI, 0.89-1.51]; P=0.270). E values were 1.88 for mortality and 1.99 for rupture. CONCLUSIONS: Postdiagnostic anxiety and depression are associated with increased rupture risk and mortality in patients with unruptured intracranial aneurysms. Residual confounding cannot be excluded. These findings require further investigation to establish causality and suggest that an integrated psychiatric assessment may be considered in unruptured intracranial aneurysm management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41778321/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Stroke",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Neural dynamics in tinnitus: differential effects of hearing status on temporal brain activity variability.",
+      "summary": "Tinnitus, characterized by phantom sound perception, exhibits heterogeneous pathophysiology influenced by hearing status. This study investigated dynamic neural activity patterns in 82 participants: 29 healthy controls (HC), 21 tinnitus patients with normal hearing (G1), and 32 tinnitus patients with hearing impairment (G2). Using resting-state fMRI, we computed dynamic amplitude of low-frequency fluctuation (d-ALFF) and dynamic regional homogeneity (d-ReHo) through sliding-window analyses, measuring temporal variability via coefficient of variation. One-way ANOVAs (covarying age/sex) revealed six d-ALFF clusters showing group differences (voxel p < 0.01, cluster p < 0.05 GRF-corrected). Post-hoc analyses demonstrated that G1 exhibited significantly increased d-ALFF variability versus HC and G2 in cerebellar, fusiform, and occipital regions. Conversely, both patient groups showed reduced d-ALFF variability in frontal clusters versus HC. Negative correlations emerged in G2 between fusiform d-ALFF and tinnitus distress/anxiety, while G1 showed positive correlations between temporal d-ALFF and depression. d-ReHo analysis identified reduced variability in the right anterior cingulate in both patient groups versus HC. These findings highlight distinct neural dynamics: tinnitus with normal hearing involves hypervariability in sensory processing regions, while hearing-impaired tinnitus shows distinct clinical correlations. Reduced activity variability in the superior and middle frontal gyri and reduced temporal synchrony in the anterior cingulate suggest a common tinnitus mechanism irrespective of hearing status.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41779099/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Heightened Susceptibility to Social Exclusion in Poor Sleepers: A Resting-State fMRI Study.",
+      "summary": "Sleep critically influences socio-emotional functioning during interpersonal interactions; however, the relationship between poor sleep quality and susceptibility to social exclusion remains unclear. This study aimed to investigate this relationship and its underlying neural mechanisms. A total of 147 healthy sleepers (HS) and 105 individuals with poor sleep quality (PS) completed a social exclusion imagery task, followed by resting-state functional magnetic resonance imaging (fMRI). Negative feelings and reaction times during the task, as well as seed-based functional connectivity (FC) of the left ventral anterior cingulate cortex (vACC) and left inferior frontal gyrus (IFG), were compared between groups. Associations between FC showing group differences and behavioral measures were further examined. After controlling for depressive and anxiety symptoms, the PS group exhibited stronger negative feelings during the task and longer reaction times in neutral conditions. Seed-based FC analysis revealed increased connectivity between the left IFG and left temporal lobe (TL), alongside decreased connectivity between the left IFG and right precentral gyrus (PG) in the PS compared to the HS group. Moreover, FC between the IFG and PG was negatively correlated with negative affect in HS but not in PS. Poor sleep quality is associated with heightened susceptibility to social exclusion, potentially linked to altered functional connectivity between the IFG and PG. These findings underscore the protective role of healthy sleep in social functioning and suggest neural targets for interventions aimed at mitigating social impairments in individuals with poor sleep.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41779232/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Topogr",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Associations between early-life adversity, coping strategies, and adult mental health, brain, and cognition.",
+      "summary": "Early adversity is associated with later mental health, brain, and cognitive outcomes, but the pathways are complex and may involve coping strategies and individual vulnerabilities. We investigated associations between early adversity, coping strategies, neuroticism, and adult mental health, cognition, and global brain volumes. Path analysis was applied to behavioural and imaging data from the UK Biobank dataset (N = 472,450, Mdnage = 58, SDage = 8.03, 54.46% of women). All assessed early adverse experiences were associated with greater anxiety symptoms, while all except physical neglect were associated with increased depressive symptoms. Physical neglect was the only adversity associated with poorer cognitive performance, and no adversity showed a direct association with global grey- or white-matter or cerebrospinal fluid volumes. Several indirect pathways were observed: specific coping strategies and neuroticism significantly mediated links between early adversity and adult mental health, cognition, and cerebrospinal fluid volume. These findings are consistent with prior work linking early adversity to adult mental health and brain measures, and highlight coping behaviours and neuroticism as mediating factors. Strengthening adaptive coping may mitigate some detrimental associations, but causal inference is limited by the cross-sectional study design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781629/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Directionality of longitudinal associations between frontostriatal structural connectivity and depressive symptoms in adolescent girls.",
+      "summary": "BACKGROUND: Individual differences in the structure and function of the frontostriatal reward network have been related to depression. However, there is a strong need for prospective, longitudinal studies aiming to understand the role of frontostriatal networks in depression in a developmental context. We aimed to examine bidirectional associations between structural connectivity in the frontostriatal reward network and depressive symptoms in adolescent girls, as well as to determine to what extent the directionality and strength of these associations are dependent on age or pubertal stage. METHODS: About 596 observations from 174 adolescent girls (up to 4 time points per person, ages 10-17) were included. Depressive symptoms were measured with the Center for Epidemiological Studies-Depression scale for Children and pubertal stage with the Pubertal Development Scale and the Tanner Stage Line Drawings. Probabilistic tractography was done on diffusion-weighted imaging scans to obtain average fractional anisotropy from ventral striatum to orbitofrontal cortex and ventral striatum to ventromedial prefrontal cortex tracts. RESULTS: Linear mixed-effects models showed that frontostriatal connectivity was not associated with subsequent change in depressive symptoms. Depressive symptoms were also not associated with subsequent change in frontostriatal connectivity. Depressive symptoms increased with age and pubertal stage, but the association with connectivity did not vary with age or pubertal stage. CONCLUSIONS: This suggests previously reported cross-sectional associations might not pertain to developmental effects in girls. Future research should examine prospective associations between frontostriatal functional connectivity and depression.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41782457/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Child Psychol Psychiatry",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-06T13:39:51+00:00",
+    "version": 1,
+    "summary": "Captured 6 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 6,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neural dynamics in tinnitus: differential effects of hearing status on temporal brain activity variability.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41779099/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Heightened Susceptibility to Social Exclusion in Poor Sleepers: A Resting-State fMRI Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41779232/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Directionality of longitudinal associations between frontostriatal structural connectivity and depressive symptoms in adolescent girls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41782457/",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "ATP bioenergetics and fatigue in young adults with and without major depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41776167/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Postdiagnostic Anxiety and Depression Increase Rupture Risk and Mortality in Unruptured Intracranial Aneurysms.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41778321/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Associations between early-life adversity, coping strategies, and adult mental health, brain, and cognition.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41781629/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

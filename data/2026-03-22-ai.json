@@ -1,0 +1,117 @@
+{
+  "date": "2026-03-22",
+  "articles": [
+    {
+      "title": "Show HN: I Built Grid View for Switchboard – Claude Code CLI Manager",
+      "summary": "Switchboard 新增网格视图，面向 Claude Code CLI 的多会话管理，便于在同一界面查看和切换多个编码代理任务。",
+      "url": "https://github.com/doctly/switchboard/releases/tag/v0.0.16",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-21",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Show HN: Pi and Ghostty Running on Cloudflare Workers",
+      "summary": "qaml-ai 展示了在 Cloudflare Workers 上运行终端代理流程的示例，将 Pi 与 Ghostty 结合到云端 agent 执行链路中。",
+      "url": "https://github.com/qaml-ai/pi-worker/tree/main/examples/terminal-agent",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-21",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Show HN: Deterministic security solution for AI agents – OpenClaw and 2 more",
+      "summary": "社区发布了面向 AI agent 的确定性安全边界方案，强调本地规则执行与 prompt injection 防护，并提供开源实现。",
+      "url": "https://github.com/steadeepanda/agent-ruler/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-21",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Show HN: EchoLive – Read-it-later app that reads to you with 600 AI voices",
+      "summary": "EchoLive 是一个稍后读产品，集成了大规模 AI 语音合成能力，用于将文章内容自动转为可收听音频。",
+      "url": "https://echolive.co/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-21",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "Show HN: Open-Source Knowledge Agents Template",
+      "summary": "该项目提供开源知识代理模板，面向无 embedding 的知识检索与 agent 工作流搭建，降低从零构建门槛。",
+      "url": "https://vercel.com/blog/build-knowledge-agents-without-embeddings",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-21",
+      "date": "2026-03-22"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-22T00:01:56+00:00",
+    "version": 1,
+    "summary": "Captured 5 AI items. Preference focus is new models and new technical architecture: 0 high-priority, 4 medium-priority, 1 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 0,
+      "medium_priority": 4,
+      "low_priority": 1
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 1
+      },
+      {
+        "topic": "new architecture",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Show HN: I Built Grid View for Switchboard – Claude Code CLI Manager",
+        "url": "https://github.com/doctly/switchboard/releases/tag/v0.0.16",
+        "published_date": "2026-03-21",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Pi and Ghostty Running on Cloudflare Workers",
+        "url": "https://github.com/qaml-ai/pi-worker/tree/main/examples/terminal-agent",
+        "published_date": "2026-03-21",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Open-Source Knowledge Agents Template",
+        "url": "https://vercel.com/blog/build-knowledge-agents-without-embeddings",
+        "published_date": "2026-03-21",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Deterministic security solution for AI agents – OpenClaw and 2 more",
+        "url": "https://github.com/steadeepanda/agent-ruler/",
+        "published_date": "2026-03-21",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: EchoLive – Read-it-later app that reads to you with 600 AI voices",
+        "url": "https://echolive.co/",
+        "published_date": "2026-03-21",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

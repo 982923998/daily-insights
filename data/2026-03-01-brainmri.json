@@ -1,0 +1,224 @@
+{
+  "date": "2026-03-01",
+  "articles": [
+    {
+      "title": "Deuterium metabolic imaging beyond the brain: mapping tissue metabolism across the body.",
+      "summary": "Deuterium metabolic imaging (DMI) is an emerging magnetic resonance technique that enables non-invasive investigation of in vivo metabolism without the use of ionizing radiation. By administering various deuterium-labeled substrates, different metabolic pathways and fluxes can be probed. To date, most DMI studies have focused on cerebral metabolism; however, its application is rapidly expanding to include metabolic processes in other body organs and tissues, as well as non-brain tumors. This review summarizes the current state of in vivo DMI research beyond the brain, covering studies of the liver, non-brain tumors, and other organs, such as pancreas, kidney, and heart. With ongoing methodological developments and increasing emphasis on clinical translation, DMI holds considerable promise as a versatile tool for studying human metabolism and for future clinical implementation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762352/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "MAGMA",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Anatomical insights into the peri-trigeminal zone via transorbital, transclival, and retrosigmoid routes: a comparative cadaveric study with surgical implications.",
+      "summary": "Surgical access to brainstem (BS) lesions requires small neurotomies in between a dense and complex neural fiber network. Access is gained on the BS surface closest to the lesion to minimize the intraparenchymal trajectory and reduce the risk of neurological injury. The concept of safe-entry zones guides the selection of the most favorable entry point to reduce these risks. Several endoscopic approaches have been validated as safe and effective for accessing the peritrigeminal zone (PTZ); however, each one is limited by anatomical constraints due to adjacent osteo-vascular structures, which restrict the surgical corridor. To evaluate the anatomical advantages and limitations of accessing the PTZ via the endonasal transclival approach (ETTA), retrosigmoid approach (RS), and endoscopic transorbital approach (ETOA). The ETTA, RS, and ETOA approaches were performed on five human cadaveric specimens (25 approaches). Before dissection, all specimens underwent high-field magnetic resonance imaging, including diffusion tensor imaging (DTI) sequences for tractography reconstruction. An anatomical assessment was then conducted to verify accessibility to the PTZ. The potential surgical trajectory, approach length, and surgical view's angle were measured and compared across the three approaches. All approaches allowed access to the PTZ; however, each one exhibited structural limitations affecting surgical maneuverability. Comparative anatomical and radiological analysis highlighted procedural insights to guide the selection of the most appropriate surgical corridor based on lesion morphology. The RS approach, the shortest one, and the ETTA provided a near-tangential visualization of the PTZ, whereas the ETOA offered a more perpendicular surgical view. A thorough understanding of the anatomical and technical nuances of the three approaches to the PTZ described in this study can support the selection of the most appropriate surgical route for pontine lesions. Comparative data suggest that the orientation of the lesion's major axis within the pons is a key criterion in determining the optimal surgical approach.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762302/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Acta Neurochir (Wien)",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Medulloblastoma masquerading as tuberculous meningitis in a pediatric patient.",
+      "summary": "Small round blue cell tumors are a heterogeneous group of aggressive pediatric neoplasms that can radiologically and clinically mimic infectious or inflammatory conditions, including tuberculous meningitis (TBM). Differentiating between these entities is crucial, as delays in diagnosis may significantly affect outcomes. An 8-year-old previously healthy boy presented with acute lower extremity weakness, inability to ambulate, and urinary retention following a recent urinary tract infection. Neurological examination revealed symmetric distal weakness and areflexia. Cerebrospinal fluid analysis showed markedly elevated protein levels without pleocytosis, consistent with albuminocytologic dissociation, and Guillain-Barré syndrome was diagnosed. Intravenous immunoglobulin therapy was initiated; however, no clinical improvement was observed. During hospitalization, the patient developed seizures and signs of increased intracranial pressure. Craniospinal magnetic resonance imaging revealed hydrocephalus and multiple contrast-enhancing lesions involving the suprasellar region, brainstem, and cerebral hemispheres. Despite extensive infectious and inflammatory workup, no alternative diagnosis was identified initially. Brain biopsy ultimately demonstrated a CD56- and synaptophysin-positive small round blue cell tumor, consistent with medulloblastoma. This case highlights a rare presentation of medulloblastoma mimicking TBM and underscores the importance of reconsidering the diagnosis in patients with atypical features or poor response to standard therapy. This case demonstrates that the extremely rare leptomeningeal spread of medulloblastoma can clinically and radiologically mimic TBM, posing a significant diagnostic challenge in pediatrics. In the absence of systemic signs of tuberculosis, lack of response to treatment, and the presence of progressive neuroimaging abnormalities, the diagnosis should be reconsidered. Early histopathological confirmation is essential to ensure the timely initiation of oncological treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762295/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Childs Nerv Syst",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "An Interpretable Functional-Dynamic Synaptic Graph Neural Network for Major Depressive Disorder Diagnosis from rs-fMRI.",
+      "summary": "Major depressive disorder (MDD) is a serious, complex psychiatric condition that affects millions of people worldwide. Early diagnosis and biomarker identification are critical for personalized treatment and effective disease monitoring. While resting-state functional magnetic resonance imaging (rs-fMRI) combined with deep learning has facilitated MDD prediction, existing methods often overlook the dynamic temporal characteristics of blood oxygen level-dependent (BOLD) signals and ignore the strength of inter-regional connections, resulting in brain region updates devoid of biological specificity. To this end, a functional-dynamic synaptic graph neural network (FDSyn-GNN) is proposed, which integrates a bidirectional gated recurrent unit (Bi-GRU) timestamp encoding (BGTE) module for modeling dynamic BOLD signals and a synaptic graph Transformer (SGT) module for connection-aware brain region updates. FDSyn-GNN is validated on two large-scale MDD datasets collected across multiple sites, where it outperforms 12 state-of-the-art (SOTA) baseline methods. In addition, extensive ablation and interpretability analyses highlight its potential for biomarker discovery, offering insights into the neural mechanisms underlying MDD. The code is publicly available at https://github.com/ZHChen-294/FDSyn-GNN.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762174/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Int J Neural Syst",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Morphological Changes Occur in the Brains of Children With Non-Syndromic Cleft Lip and Palate After Speech Therapy.",
+      "summary": "ObjectiveThe purpose of this study was to investigate the effect of speech therapy on cerebral morphology in patients with non-syndromic cleft palate with or without cleft lip (NSCP ± L) related articulation disorders using structural magnetic resonance imaging technology.DesignA prospective pre-post intervention study.SettingThis study was conducted in the Department of Oral and Maxillofacial Surgery and the Medical Imaging Center of a tertiary hospital.Patients/ParticipantsA total of 24 children with NSCP ± L, aged 6-16 years, who had undergone cleft palate surgery but still presented with articulation disorders.InterventionsThese patients received standardized speech therapy and were divided into the before therapy scans group (bTherapy Scans) and after therapy scans group (aTherapy Scans). By using high-resolution T1-weighted cerebral magnetic resonance imaging scans.Main Outcome Measure(s)Cerebral gray matter volume (GMV), cortical thickness (CT), fractal dimension (FD), and sulcus depth (SD).ResultsCompared with the bTherapy Scans, the aTherapy Scans showed a significant increase in GMV in the left middle frontal gyrus and left medial orbital frontal lobe; a significant increase in CT and FD in the left rostral middle frontal gyrus; and a significant increase in SD in the right lateral orbital frontal lobe region.ConclusionsSpeech therapy not only effectively improves the articulatory function of children with NSCP ± L-related speech disorders, but its effects may also be associated with structural remodeling of brain regions related to speech motor planning and emotional regulation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762165/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cleft Palate Craniofac J",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Cavum Septum Pellucidum Enlargement in Special Operations Forces Members Is Associated with Lifetime Exposure to Large Explosives.",
+      "summary": "Cavum septum pellucidum (CSP) is a common neuroimaging finding linked to repetitive head trauma, yet its relationship to blast exposure among the military population remains elusive. Here, we investigated whether lifetime exposure to different types of blast is associated with CSP morphology among Special Operations Forces (SOF) personnel. We retrospectively analyzed 323 SOF members from the Comprehensive Brain Health and Trauma Program at Home Base who completed high-resolution 3T MRI and the Blast Exposure Threshold Survey (BETS), which quantifies lifetime exposure to explosive weapons across five blast exposure count categories (BEC1-BEC5). CSP grade and length were assessed using validated criteria on coronal 3D T1-weighted Magnetization Prepared Rapid Gradient Echo scans. A CSP length-to-septum length ratio (CSP ratio) was calculated to adjust for anatomical variation. BEC1-BEC5 were log-transformed to correct skewness and are referred to as log-BEC1-5.Variance inflation factor analysis indicated low multicollinearity among predictors (log-BEC1-5 and age), and variable selection using Least Absolute Shrinkage and Selection Operator regression identified log-BEC5 (exposure to large explosives) as the only retained predictor. In fully adjusted models, only log-BEC5 remained significantly associated with CSP measures and was therefore the focus of subsequent analyses.Participants were stratified by BEC5 = 0 vs. BEC5 > 0, and associations with CSP measures were assessed using group comparisons, multivariable regression, and dose-response models.Among 323 participants (mean age 42.7 ± 8.8 years), 273 (84%) reported any BEC5 exposure. SOF members with BEC5 > 0 had significantly greater CSP presence (42.1% vs. 22.0%, p = 0.007) and longer CSP length (median 3 mm vs. 2 mm, p = 0.002). In age-adjusted models, BEC5 > 0 was associated with greater odds of CSP presence (OR = 2.58, 95% CI 1.26-5.25, p = 0.009) and a 1.45 mm increase in CSP length (p = 0.004). In continuous models, each one-unit increase in log-BEC5 was associated with a 0.31 mm increase in CSP length (p = 0.008) and a 0.0059 increase in CSP ratio (p = 0.008).These findings indicate a statistically significant association between cumulative exposure to heavy explosives and CSP enlargement, suggesting that CSP may serve as a potential imaging marker of blast-related neurotrauma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41761850/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurotrauma",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Traumatic Axonal Injury on Early Magnetic Resonance Imaging and Associations with Long-Term Outcome in Children with Moderate and Severe Traumatic Brain Injury.",
+      "summary": "In a cohort of children and adolescents with moderate and severe traumatic brain injury (TBI), we explored the location and burden of traumatic axonal injury (TAI) on early magnetic resonance imaging (MRI) and its associations with long-term outcomes at 1 and 5 years post-injury. Fifty-six patients (0-18 years) with moderate (n = 29) or severe (n = 27) TBI, where MRI was performed within 6 weeks, were prospectively included. TAI lesion locations (including grading), numbers, and volumes were registered on fluid-attenuated inversion recovery (FLAIR) and diffusion-weighted imaging, and locations and numbers were registered on T2* gradient echo or susceptibility-weighted imaging. Long-term outcomes at 1 and 5 years post-injury were dichotomized into good outcome (Glasgow Outcome Scale Extended [GOSE] score 7-8) and disability (GOSE score ≤6). Logistic regression analyses, unadjusted and adjusted for the presence of TAI on the different MRI sequences, were performed. The median age was 14.3 years, 66% were boys, and the median number of days to MRI was 8. TAI was found in 89% of the patients with severe TBI and 72% of the patients with moderate TBI. The volumes of TAI on FLAIR were larger in the severe group than in the moderate group (p = 0.007). We found an increased risk of disability at 1-year post-injury with both more severe standard TAI grades (p = 0.005) and Trondheim TAI-MRI grades (p = 0.001). Similar results were found at 5 years post-injury. TAI bilaterally in the basal ganglia, thalami, mesencephalon, and/or pons was only observed in patients with severe TBI and disability. TAI had a high prevalence in our moderate-to-severe pediatric TBI cohort, and more severe grades of TAI were associated with an increased risk of disability at both 1 and 5 years post-injury. Assessing TAI on early MRI in pediatric TBI patients provides valuable prognostic insights and supports the optimization of rehabilitation strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41761716/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurotrauma",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Harmonic-mapping-based design of gradient coils on irregular MRI surfaces.",
+      "summary": "Head-mounted gradient coils for brain imaging need to be designed on irregular surfaces. However, current gradient coil design methodologies often struggle to produce optimal magnetic field solutions for these specialized geometries. The stream function method is typically not applicable to irregular two-dimensional surfaces, while the boundary element method involves excessive variables that are difficult to optimize. To develop a new gradient coil design method with fewer variables suitable for irregular surfaces, and to complete the design of gradient coils for brain imaging on a semi-ellipsoidal surface. Triangular meshes are constructed on the target surface, which is then harmonically mapped to a rectangle. After obtaining the mapping relationship, the connection between the stream function on the rectangle and the coil shape on the original surface is established via the inverse of the harmonic map. Finally, the particle swarm algorithm is used to optimize the basis function coefficients and complete the coil design. The method was used to design  G y $G_y$  and  G z $G_z$  coils on a semi-ellipsoid surface. The resulting coils were manufactured and measured to verify the effectiveness of the method. Both simulation and measurement results show that the  G y $G_y$  and  G z $G_z$  coils designed with this method can generate more linear magnetic fields with roughly the same inductance. The maximum deviation of the magnetic field generated by the Gy coil is 4.02% (simulated) and 15.78% (measured), while that by the compared method is 33.3%. The maximum deviation of the magnetic field generated by the Gz coil is 2.57% (simulated) and 7.20% (measured), while that by the compared method is 27.8%. This paper provides a new method for coil design on irregular two-dimensional single connected bounded surface, to design gradient coil with better magnetic field with only a few basis functions. The linearity and uniformity of the obtained magnetic field have significant advantages over the boundary element method. Even with manufacturing and measurement errors amplifying the deviation, the measured deviation remains far lower than that of the reference design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41761598/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Med Phys",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Time to tap into clinical MRI for brain volumetry research?",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41761002/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Radiol",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Magnetic resonance spectroscopy study of cognitive impairment associated with cerebral small vessel disease.",
+      "summary": "This study aimed to examine the association between cognitive decline and brain substance metabolism, as well as the risk factors in cerebral small vessel disease(CSVD) patients. The CSVD patients were divided into a simple CSVD group and a CSVD-related cognitive impairment group according to the Montreal Cognitive Assessment (MoCA) score. Healthy patients were selected as the normal control group. Magnetic Resonance Imaging (MRI) was used to scan the frontal lobe, hippocampus, and semioval center of the dominant hemisphere of all subjects. The N-acetylaspartic acid (NAA), creatine (Cr), and choline (Cho) were measured. There were statistically significant differences in visual space, executive function, naming, and abstract thinking between simple CSVD group and CSVD-related cognitive dysfunction group. A history of hypertension, triglycerides, low-density lipoprotein and Homocysteine (Hcy) levels were risk factors for CSVD-related cognitive impairment. The frontal lobe NAA/Cr ratio decreased in the simple CSVD group, the frontal lobe NAA/Cho ratio decreased in the CSVD-related cognitive impairment group, and the semiovale center NAA/Cr ratio decreased. NAA/Cho in the dominant hemisphere of the hippocampus was positively correlated with MoCA scores, frontal NAA/Cr was positively correlated with MoCA scores, and NAA/Cr in the center of the semioval was negatively correlated with MoCA scores. Hypertension, abnormal blood lipid metabolism and high levels of Hcy are risk factors for CSVD-related cognitive dysfunction. The patients with CSVD-related cognitive dysfunction have visual space and executive function deficiency. Poor abstract thinking may be related to metabolic abnormalities in the frontal lobe and hippocampus.NAA/Cho and NAA/Cr can be used as sensitive indicators of cognitive dysfunction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41760793/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Bilateral extramidline involvement in intracranial germinoma: diagnostic lessons from a complex presentation.",
+      "summary": "A 25-year-old man presented with subacute progressive anxiety, cognitive deficits, hypernatremia, and left hemiparesis. Magnetic resonance imaging demonstrated multifocal lesions in bilateral basal ganglia (globus pallidus and putamen), fornices, pineal region, along with Wallerian degeneration of the right corticospinal tract with right brainstem atrophy. Serum B-hCG, alpha-fetoprotein, alkaline phosphatase, and placental alkaline phosphatase were normal. Cerebrospinal fluid studies were unremarkable. Brain biopsy revealed intracranial germinoma. The case herein presented highlights a rare presentation of an uncommon neuro-oncological condition that often demonstrates excellent treatment response but is often diagnosed late due to its non-specific presenting symptoms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41760094/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Arq Neuropsiquiatr",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-01T00:31:54+00:00",
+    "version": 1,
+    "summary": "Captured 11 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 8 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 11.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 11,
+      "high_priority": 3,
+      "medium_priority": 8,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 11
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "An Interpretable Functional-Dynamic Synaptic Graph Neural Network for Major Depressive Disorder Diagnosis from rs-fMRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41762174/",
+        "published_date": "2026-02-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Anatomical insights into the peri-trigeminal zone via transorbital, transclival, and retrosigmoid routes: a comparative cadaveric study with surgical implications.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41762302/",
+        "published_date": "2026-02-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Magnetic resonance spectroscopy study of cognitive impairment associated with cerebral small vessel disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41760793/",
+        "published_date": "2026-02-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Traumatic Axonal Injury on Early Magnetic Resonance Imaging and Associations with Long-Term Outcome in Children with Moderate and Severe Traumatic Brain Injury.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41761716/",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Medulloblastoma masquerading as tuberculous meningitis in a pediatric patient.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41762295/",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cavum Septum Pellucidum Enlargement in Special Operations Forces Members Is Associated with Lifetime Exposure to Large Explosives.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41761850/",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Harmonic-mapping-based design of gradient coils on irregular MRI surfaces.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41761598/",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Bilateral extramidline involvement in intracranial germinoma: diagnostic lessons from a complex presentation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41760094/",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Time to tap into clinical MRI for brain volumetry research?",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41761002/",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Morphological Changes Occur in the Brains of Children With Non-Syndromic Cleft Lip and Palate After Speech Therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41762165/",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Deuterium metabolic imaging beyond the brain: mapping tissue metabolism across the body.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41762352/",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

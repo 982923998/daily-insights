@@ -1,0 +1,50 @@
+{
+  "date": "2026-03-21",
+  "articles": [
+    {
+      "title": "Expanding the Phenotypic Spectrum of the Recurrent De Novo FBXO31 p.Asp334Asn Variant: Evidence for a Novel Neurodevelopmental Disorder (Kruer Syndrome).",
+      "summary": "Biallelic loss-of-function variants in FBXO31 cause autosomal-recessive intellectual disability. A recurrent de novo variant, c.1000G>A(p.Asp334Asn), has been described in association with an autosomal-dominant phenotype. To refine this phenotype and its clinical implications, we re-evaluated three published cases and ascertained four additional probands via advocacy networks, GeneMatcher, and clinician referral. Phenotyping included neurologic, behavioral, and dysmorphology assessment. All seven individuals carried the recurrent de novo FBXO31 p.Asp334Asn variant. A core neurodevelopmental profile was observed and included cerebral palsy (mixed hypotonia, spasticity, and dystonia), global developmental delay/intellectual disability, and speech impairment. Neuropsychiatric features were sometimes prominent and included attention-deficit/hyperactivity disorder, anxiety, stereotypies, autistic features, and behavioral dysregulation. Neuroimaging often showed a hypoplastic corpus callosum and posterior-predominant white-matter changes. In one individual, gray matter heterotopias were also observed. A subtle but consistent facial gestalt was noted. Recurrent FBXO31 p.Asp334Asn variants lead to a recognizable neurodevelopmental syndrome. Based on our findings, we recommend including FBXO31 in diagnostic algorithms for cerebral palsy and neurodevelopmental disorders. We propose the descriptive term \"autosomal dominant FBXO31-associated neurodevelopmental disorder,\" and-consistent with the validating laboratory and with support from the FBXO31 Foundation-propose the eponym \"Kruer syndrome.\"",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41858232/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "Clin Genet",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-21T00:55:41+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 0.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Expanding the Phenotypic Spectrum of the Recurrent De Novo FBXO31 p.Asp334Asn Variant: Evidence for a Novel Neurodevelopmental Disorder (Kruer Syndrome).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41858232/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

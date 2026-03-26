@@ -1,0 +1,190 @@
+{
+  "date": "2026-03-19",
+  "articles": [
+    {
+      "title": "Blood-brain barrier disruption, traumatic encephalopathy, and cognitive decline in retired athletes.",
+      "summary": "Cerebrovascular disruption has been implicated in the pathophysiology of head trauma and chronic traumatic encephalopathy (CTE). However, the long-term consequences of repetitive head trauma on blood-brain barrier (BBB) integrity and its link to cognitive function remain unknown. Here, using dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI), we show that BBB disruption can be detected years after the retirement of combat and collision sports athletes (n = 47) from their respective sports. A subgroup of individuals (n = 17) with extensive BBB disruption displayed worse cognitive decline compared with those with less extensive BBB disruption. Commonly used systemic markers of central nervous system injury and neurodegeneration were of limited utility; however, a greater systemic inflammatory burden with a higher proportion of circulating monocytes was associated with cognitive decline in the retired athletes. Transcriptomic analysis of these peripheral immune cells revealed dysregulation of the complement system and vascular developmental pathways. Altered expression of complement receptors, including C5AR1, ITGAM, ITGB2, and CD59, a potent inhibitor of the membrane attack complex (MAC), was associated with BBB disruption and cognitive decline. Postmortem brain tissues from those with confirmed cases of CTE showed MAC deposition around cerebral blood vessels. Bioinformatic analysis of single-nucleus RNA sequencing data from postmortem individuals with CTE revealed microglia-endothelial cross-talk, which may mediate complement dysregulation. Together, our data suggest that sustained systemic inflammation and persistent BBB disruption are associated with the long-term outcome of repetitive head trauma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41849581/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Sci Transl Med",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Predicting Apathy Using Connectome-Based Models Derived from Static and Dynamic Brain Connectivity.",
+      "summary": "Apathy is a prevalent neuropsychiatric symptom across various neurological and psychiatric disorders. Despite its significant impact on functional outcomes, quality of life, and caregiver burden, the neural mechanisms underlying apathy remain poorly understood. Static and dynamic functional connectivity serve as neural fingerprints for personalized predictions, capturing complementary aspects of brain function and engaging distinct networks. This study developed predictive models of apathy using both static and dynamic functional connectivity to elucidate network-level mechanisms in healthy university students. Static CPM demonstrated that disrupting the default mode network significantly impaired prediction, implicating its role in emotional apathy. Dynamic CPM revealed that lesioning the medial frontal, fronto-parietal, and visual II networks diminished accuracy, highlighting their contributions to initiation and executive apathy. By integrating static and dynamic connectivity in predictive models, this study uncovers complementary network dynamics underlying apathy and highlights potential neural basis of apathy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41849434/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Soc Cogn Affect Neurosci",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Intraoperative Subdural and Postoperative Brainstem Hemorrhage in Glioma Surgery: A Case Report.",
+      "summary": "BACKGROUND Postoperative hemorrhage is a rare yet significant complication following craniotomy, with reported incidence rates ranging from 0.8% to 10.8%. This complication can lead to severe morbidity, with a notable survival rate decline among patients requiring reoperation for hematoma evacuation. Remote intraoperative hemorrhage is exceptionally rare and often associated with a poor prognosis. Understanding these complications is crucial for improving patient outcomes. CASE REPORT We present a case of a 47-year-old female patient admitted for seizures. Cranial magnetic resonance imaging revealed a right frontal lobe lesion. Following a right frontal lobe tumor resection for glioma, the patient experienced a series of complications. During surgery, significant elevations in blood pressure were noted, and a frontotemporal subdural hematoma was identified following bone flap removal, necessitating immediate evacuation. Although the initial hematoma was successfully cleared, a brainstem hematoma emerged later, leading the family to opt for conservative treatment instead of further surgery. Postoperative pathology confirmed an oligodendroglioma, isocitrate dehydrogenase-mutant, classified as WHO grade II. CONCLUSIONS This case underscores the rarity of simultaneous intraoperative subdural hematoma and postoperative brainstem hemorrhage in neurosurgery. The findings suggest a need for further investigation into preventive strategies, such as the use of lateral ventricle drains prior to craniotomy, to mitigate rapid intracranial pressure changes and associated hemorrhagic complications. Comprehensive research is warranted to explore effective interventions aimed at minimizing the risks of postoperative hemorrhage in high-risk surgical patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41849264/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Am J Case Rep",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Visual experience shapes functional connectivity between occipital and non-visual networks.",
+      "summary": "Comparisons of visual cortex function across blind and sighted adults reveal effects of experience on human brain function. Since almost all research has been done with adults, little is known about the developmental origins of plasticity. We compared resting-state functional connectivity of visual cortices of blind adults (n = 30), blindfolded sighted adults (n = 50) to a large cohort of infants (Developing Human Connectome Project, n = 475). Visual cortices of sighted adults show stronger coupling with non-visual sensory-motor networks (auditory, somatosensory/motor) than with higher-cognitive prefrontal cortices (PFC). In contrast, visual cortices of blind adults show stronger coupling with higher-cognitive PFC than with non-visual sensory-motor networks. Are infant visual cortices functionally like those of sighted adults, with blindness leading to functional change? We find that, on the contrary, secondary visual cortices of infants are functionally more like those of blind adults: stronger coupling with PFC than with non-visual sensory-motor networks, suggesting that visual experience modifies elements of the sighted adult long-range functional connectivity profile. Infant primary visual cortices are in between blind and sighted adults, that is, more balanced PFC and sensory-motor connectivity than either adult group. The lateralization of occipital-to-frontal connectivity in infants resembles the sighted adults, consistent with the idea that blindness leads to functional change. These results suggest that both vision and blindness modify functional connectivity through experience-driven (i.e., activity-dependent) plasticity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41848400/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Functional connectivity-based attractor dynamics of the human brain in rest, task, and disease.",
+      "summary": "Functional brain connectivity has been instrumental in uncovering the large-scale organization of the brain and its relation to various behavioral and clinical phenotypes. Understanding how this functional architecture relates to the brain's dynamic activity repertoire is an essential next step towards interpretable generative models of brain function. We propose functional connectivity-based Attractor Neural Networks (fcANNs), a theoretically inspired model of macro-scale brain dynamics, simulating recurrent activity flow among brain regions based on first principles of self-organization. In the fcANN framework, brain dynamics are understood in relation to attractor states; neurobiologically meaningful activity configurations that minimize the free energy of the system. We provide the first evidence that large-scale brain attractors - as reconstructed by fcANNs - exhibit an approximately orthogonal organization, which is a signature of the self-orthogonalization mechanism of the underlying theoretical framework of free-energy-minimizing attractor networks. Analyses of seven distinct human neuroimaging datasets demonstrate that fcANNs can accurately reconstruct and predict brain dynamics under a wide range of conditions, including resting and task states, and brain disorders. By establishing a formal link between connectivity and activity, fcANNs offer a simple and interpretable computational alternative to conventional descriptive analyses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41848156/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Number of Live Births as a Protective Factor Against Clinical and Covert Brain Infarcts: The Framingham Heart Study.",
+      "summary": "Female-specific reproductive factors have been associated with stroke risk, although evidence for some factors (eg, live births) remains conflicting. We determined the association between number of live births and other female-specific reproductive factors and subsequent risk of stroke and magnetic resonance imaging markers of vascular brain injury in a community-based cohort. This was a prospective cohort study of 1882 (mean age, 61.3±9.6 years) women from the FHS (Framingham Heart Study) Offspring cohort who were stroke free at the baseline examination (1998-2001). Reproductive factors included number of live births, age at menopause, postmenopausal hormone replacement therapy use and serum estradiol and estrone levels. The primary outcome was incident all-cause stroke, with covert brain infarcts and white matter hyperintensity volume on brain magnetic resonance imaging as cross-sectional secondary outcomes. During a median 18-year follow-up, 126 women had a stroke. On multivariable Cox proportional hazards models controlling for vascular risk factors, ≥3 live births (versus 0, reference) was associated with a reduced risk of stroke (hazard ratio, 0.51 [95% CI, 0.31-0.85]; P<0.01). More live births (≥3 versus 0) was cross-sectionally associated with decreased risk of covert brain infarct (odds ratio, 0.52 [95% CI, 0.30-0.92]; P=0.03). No significant association was detected between other reproductive factors and incident stroke or magnetic resonance imaging markers of vascular brain injury. A greater number of live births was associated with a decreased risk of stroke and covert brain infarct in women and may be an important factor to include in female-specific clinical prediction rules for stroke.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41848034/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Am Heart Assoc",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Timing-Dependent Cleavage of Interleukin-1 Receptor Antagonist by Alteplase Impairs Neuroprotection in Ischemic Stroke.",
+      "summary": "Inflammation contributes significantly to neuronal damage in ischemic stroke, with IL (interleukin)-1 being a key mediator. IL-1Ra (IL-1 receptor antagonist) inhibits IL-1 signaling, successfully reducing inflammation in preclinical and clinical stroke studies. However, in the latest phase II trial of IL-1Ra in ischemic stroke (SCIL-STROKE [Subcutaneous Interleukin-1 Receptor Antagonist in Ischemic Stroke]), a secondary mediation analysis uncovered an alternative pathway leading to no overall functional benefit. This was the first IL-1Ra trial where participants (73%) received preceding tPA (tissue-type plasminogen activator), raising the possibility that IL-1Ra and tPA interact negatively in ischemic stroke. We aim to explore this postulated negative interaction. A retrospective analysis of SCIL-STROKE trial data was performed. Next, we used a thromboembolic model of stroke in male wild-type mice (25-35 g; n=10-13), treated with tPA (10 mg/kg, 20-60 minutes poststroke), followed by IL-1Ra (100 mg/kg) either 6 doses, twice daily (after tPA), or 2 doses at 30 minutes (during tPA) and 3 hours poststroke. The primary outcome was lesion volume at 72 hours, measured by T2-magnetic resonance imaging. Reanalysis of SCIL-STROKE data revealed a 35.8% reduction in plasma IL-1Ra in patients cotreated with preceding tPA, suggesting IL-1Ra degradation. Biochemical assays confirmed IL-1Ra cleavage by plasmin. While replicating the SCIL-STROKE dosing regimen preclinically, no negative interactions were noted. However, when IL-1Ra was administered during thrombolysis, it impaired the beneficial effect of tPA, reducing lesion volume by only 15%, compared with 68% with tPA alone. Acute cotreatment of IL-1Ra and tPA also led to reduced tissue perfusion and increased leukocyte infiltration and neutrophil extracellular traps. We show that IL-1Ra is cleaved by plasmin, and its administration during thrombolysis worsens outcomes poststroke. These studies confirm a negative interaction between the 2 drugs, which can be prevented by tPA preceding IL-1Ra treatment. The findings raise broader concerns about how tPA may interfere with other neuroprotective treatments.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41847765/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Stroke",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Volumetric MRI assessment of brain and pituitary structure in girls with central precocious puberty.",
+      "summary": "To compare global and regional brain volumes and pituitary morphology between girls with central precocious puberty (CPP) and age-matched controls using intracranial-volume (ICV)-adjusted magnetic resonance imaging (MRI), and to assess associations between gonadotropins and brain volumetry. This retrospective study included 182 girls (CPP n=91; controls n=91; age 6-9 years at MRI acquisition). Brain MRI (1.5 T) was segmented using the volBrain pipeline, and global and regional volumes were normalized to ICV. Pituitary height and volume were measured by two blinded radiologists. Group differences were analyzed with Welch t-tests; ANCOVA was applied for age and ICV adjustment. Multiple comparisons were FDR-corrected. Correlations with basal and GnRH-stimulated LH were evaluated using Spearman analysis. CPP patients had more advanced pubertal staging, higher height SDS, and greater pituitary height, while pituitary volume was similar. Global intracranial and total brain volumes did not differ. The WM/ICV fraction was modestly lower in CPP, whereas GM/ICV and CSF/ICV fractions were comparable. No regional brain volumes remained significant after FDR correction. In the stimulation-test subgroup, higher peak LH correlated with smaller total-brain/ICV and cerebrum/ICV fractions and with greater CSF/ICV. After adjusting for age and intracranial volume, CPP showed preserved global and regional brain structure. Modest WM reduction and LH-related shifts in brain-CSF distribution suggest subtle hormonally mediated differences in maturational timing. This study provides the largest ICV-normalized volumetric MRI dataset in CPP.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41846236/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Pediatr Endocrinol Metab",
+      "published_date": "2026-03-19",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Transcranial alternating current stimulation over left DLPFC modulates feedback processing: a simultaneous tACS-fMRI study.",
+      "summary": "Studies have shown that reward-related feedback is processed by distinct brain networks. Neuronal oscillations, particularly theta and beta rhythms, play a key role in facilitating communications within these networks. This study investigated how modulating brain oscillations at theta and beta frequencies using transcranial alternating current stimulation (tACS) influences activation in brain regions involved in feedback processing. In three separate sessions, 28 healthy participants received either theta (5 Hz), beta (25 Hz), or sham tACS over the left dorsolateral prefrontal cortex (DLPFC) while performing a gambling task. fMRI data were recorded simultaneously with tACS to measure BOLD activations associated with gain and loss feedback. Results showed that theta stimulation enhanced activity in brain regions related to sensory processing, error monitoring, cognitive control, and emotion regulation during loss feedback. On the other hand, beta stimulation modulated activation in areas associated with reward sensitivity and emotional processing during gain feedback. These findings demonstrate the distinct roles of theta and beta oscillations in negative and positive feedback processing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41844582/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-19T00:31:59+00:00",
+    "version": 1,
+    "summary": "Captured 9 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 3 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 9.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 9,
+      "high_priority": 6,
+      "medium_priority": 3,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 9
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Functional connectivity-based attractor dynamics of the human brain in rest, task, and disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41848156/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Predicting Apathy Using Connectome-Based Models Derived from Static and Dynamic Brain Connectivity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41849434/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Visual experience shapes functional connectivity between occipital and non-visual networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41848400/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Blood-brain barrier disruption, traumatic encephalopathy, and cognitive decline in retired athletes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41849581/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Transcranial alternating current stimulation over left DLPFC modulates feedback processing: a simultaneous tACS-fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41844582/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Timing-Dependent Cleavage of Interleukin-1 Receptor Antagonist by Alteplase Impairs Neuroprotection in Ischemic Stroke.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41847765/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Volumetric MRI assessment of brain and pituitary structure in girls with central precocious puberty.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41846236/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Number of Live Births as a Protective Factor Against Clinical and Covert Brain Infarcts: The Framingham Heart Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41848034/",
+        "published_date": "2026-03-18",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Intraoperative Subdural and Postoperative Brainstem Hemorrhage in Glioma Surgery: A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41849264/",
+        "published_date": "2026-03-18",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

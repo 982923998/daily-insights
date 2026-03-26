@@ -1,0 +1,12 @@
+[
+  {
+    "title": "A Feasibility Study of Navigating Emotional States Using Real-Time Representational Similarity Analysis fMRI Neurofeedback.",
+    "summary": "Real-time functional magnetic resonance imaging neurofeedback (rt-fMRI-NF) is a promising noninvasive brain computer interface (BCI) technique for enhancing self-regulation of affective brain states. However, conventional univariate rt-fMRI-NF approaches struggle to discriminate distributed neural patterns underlying distinct emotions. This study implemented an rt-fMRI semantic neurofeedback (rt-fMRI-sNF) paradigm incorporating real-time representational similarity analysis (rt-RSA) to enable navigation among emotional states. Four emotion-specific base patterns were first derived from functional localizer runs and then used as target patterns during neurofeedback. Using an RSA-informed circular semantic map (CSM), participants received real-time visual feedback indicating both the similarity and intensity of their current brain activity relative to target patterns. Participants were instructed to use mental imagery to shift their brain activity toward the specific target pattern and enhance its intensity. Analyses of localizer data revealed overlapping regional activations across emotions and demonstrated that RSA reliably distinguished between emotional states. Group-level mixed-effects modeling of neurofeedback performance indicated significant within-run improvements and higher initial performance in the second run. Together, these results demonstrate the methodological feasibility of an RSA-informed rt-fMRI-NF framework for multivariate brain-state modulation and establish a foundation for future studies examining its transferability and clinical relevance.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41834064/",
+    "category": "Brain MRI",
+    "source": "pubmed",
+    "journal": "Int J Neural Syst",
+    "published_date": "2026-03-16",
+    "date": "2026-03-17"
+  }
+]

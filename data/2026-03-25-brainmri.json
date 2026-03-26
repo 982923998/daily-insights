@@ -1,0 +1,292 @@
+{
+  "date": "2026-03-25",
+  "articles": [
+    {
+      "title": "The role of N-acetylcysteine and glutathione in the management of Parkinson's disease: a systematic review of oxidative biomarkers and clinical outcomes.",
+      "summary": "Parkinson's Disease (PD) is a progressive neurodegenerative disorder characterised by the loss of dopaminergic neurons, leading to both motor and non-motor symptoms. Oxidative stress is a significant contributor to the pathophysiology of PD, and glutathione (GSH) depletion contributes to neuronal damage. N-acetylcysteine (NAC), a bioavailable cysteine donor, can support endogenous GSH synthesis and may also exert antioxidant effects independent of GSH replenishment. NAC and GSH are proposed neuroprotective interventions due to their antioxidant properties. This systematic review evaluated the effects of NAC and GSH on oxidative stress and PD symptoms, comparing them with healthy controls or a placebo. A systematic search was conducted in Cochrane Library, PubMed, Web of Science, Ovid (Embase and MEDLINE), Scopus, and ProQuest for studies published between January 2003 and December 2024, including randomised controlled trials (RCTs) and non-randomised studies. Two reviewers assessed the study quality and extracted data. The primary outcome was the change in motor and non-motor symptoms as measured by the Unified Parkinson's Disease Rating Scale (UPDRS) and were interpreted using minimal clinically important difference (MCID) thresholds. Secondary outcomes included biochemical redox markers such as blood GSH, cerebrospinal fluid (CSF) GSH, GSSG, and GSH/GSSG ratio and imaging-based functional outcomes, particularly DAT binding assessed by DaTscan SPECT. The GSH/GSSG ratio reflects redox status (reduced vs. oxidised glutathione), CSF outcomes primarily reported NAC concentrations, and brain GSH was quantified using magnetic resonance spectroscopy (MRS). Exclusion criteria included studies on conditions other than PD, those that did not use NAC or GSH as the primary intervention, and those without a comparator group. Nine studies, conducted between 2009 and 2019, met the inclusion criteria and involved 196 participants. NAC improved both motor and non-motor symptoms and significantly increased GSH/GSSG ratios, GSH levels in the CSF, and DAT binding. In contrast, intranasal GSH showed only modest increases in brain levels without significant improvements in symptoms or oxidative stress markers. The studies had limitations, including small sample sizes, short intervention durations, and inconsistencies in dosage and administration routes. These factors constrain the strength of the conclusions, and evidence for both NAC and GSH remains preliminary. Furthermore, while NAC shows promise as a neuroprotective intervention, findings for GSH are inconclusive. More large-scale, long-term randomised controlled trials are needed to validate these results and explore NAC and GSH's long-term therapeutic potential in managing PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874704/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Amino Acids",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "The fetal taenia-tela choroidea complex: a radiologic-pathologic correlation from normal anatomy to Dandy-Walker malformation.",
+      "summary": "BACKGROUND: The taenia-tela choroidea-choroid plexus complex has been proposed as an imaging marker to differentiate Dandy-Walker malformation from Blake's pouch cyst on prenatal MRI. However, radiologic-pathologic correlation remains limited.\nOBJECTIVE: To characterize the taenia-tela choroidea-choroid plexus complex in normal and Dandy-Walker malformation fetuses and assess its visibility on routine prenatal MRI.\nMATERIALS AND METHODS: Nine fetal autopsy specimens with Dandy-Walker malformation and eight gestational age-matched controls with normal posterior fossa were reviewed for taenia-tela choroidea-choroid plexus complex characteristics and correlated with available MRI. Separately, 100 fetal brain MRIs (gestational age 21-38 weeks) including normal cases and posterior fossa cystic malformations were retrospectively and independently reviewed by two pediatric neuroradiologists. Visibility of the tela choroidea and fourth ventricular choroid plexus was scored as confident, borderline, or not visible. Interobserver agreement was calculated using weighted kappa with 95% confidence intervals (CI).\nRESULTS: Pathologic examination demonstrates that in the normal fetal posterior fossa, the choroid plexus lies adjacent to the inferior medullary velum, whereas in Dandy-Walker malformation it is displaced inferolaterally. The tela choroidea in normal controls is thin and composed of a single-meningeal layer that delaminates into two membranes, while in Dandy-Walker malformation, the tela choroidea is thickened, formed by two layers of arachnoid membrane lined by attenuated choroid plexus epithelium. On fetal MRI, the tela choroidea visibility was rated as either confident or borderline confident in 53-72% (53-72/100), with moderate visibility in 28-33% (28-33/100) of cases, with moderate agreement (κ 0.49, 95% CI 0.34-0.62). The choroid plexus was confidently visible in 21-27% (21-27/100) of cases, with fair agreement (κ 0.27, 95% CI 0.10-0.44).\nCONCLUSION: On histopathologic evaluation, the tela choroidea is outstretched and thickened with inferolateral displacement of the choroid plexus in Dandy-Walker malformation. However, taenia-tela choroidea complex visibility on prenatal MRI is variable, especially in normal cases, which may limit its reliability as a diagnostic marker for posterior fossa cystic malformations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874629/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Pediatr Radiol",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Superficial and deep white matter brain alterations discriminate tinnitus in older adults.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874717/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Struct Funct",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Relationship of Behavioral Activation to Time-Varying Sub-Network Coherence in Attention and Reward Neural Networks.",
+      "summary": "Behavioral drive, or activation, which includes cognitive effort and motivation is critical for accomplishing day-to-day tasks. Yet the brain network dynamics supporting behavioral drive are incompletely understood. Here, we investigate intra-network coherence in attention and reward networks during a modified effort expenditure for reward task. We relate time-varying patterns in intra-network coherence to individuals' self-reported behavioral drive. More time spent in a highly coherent attention network state, as well as lower switching rates between sub-networks, were associated with higher drive. These findings suggest that intra- and inter-network dynamics in associative brain networks may play a role in individual drive and may be a promising target for future research and the eventual development of treatment interventions in disorders affecting behavioral drive.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874785/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Topogr",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Perivascular fluid clearance links choroid plexus changes to cognitive performance in cerebral small vessel disease.",
+      "summary": "Choroid plexus (CP) dysfunction may impair cerebrospinal fluid (CSF) turnover and perivascular glymphatic clearance, but whether CP microstructural injury correlates to cerebral small vessel disease (CSVD)-related brain alteration and cognitive performance remains unclear. We investigated whether imaging markers of perivascular fluid transport mediate the associations between CP alterations and CSVD pathology. CP microstructure was assessed by mean apparent propagator (MAP) diffusion imaging and χ-separation susceptibility mapping in 139 CSVD patients and 52 healthy controls. Perivascular clearance measures included the diffusion tensor image-along perivascular space (DTI-ALPS) index, basal ganglia free-water fraction (FW-BG), and perivascular space volume fraction (PVSVF-BG). Compared with controls, CSVD patients showed CP microstructural abnormalities and altered perivascular clearance markers, which was identified by random-forest model as predictors of CSVD severity (OOB-AUC = 0.755, 95%CI: 0.641-0.836). Mediation analysis revealed that imaging markers of perivascular fluid clearance significantly mediated the associations between CP alterations and structural brain injury (average causal mediation effect , ACME=-110.118 to 80.121, FDR-p < 0.05). Notably, PVSVF-BG was the only glymphatic imaging metric mediating the links of both CP volume and susceptibility with cognitive performance (ACME=-142.474 to 67.351, FDR-p < 0.05). These findings indicate that CP microstructural injury are present in mild CSVD with the absence of CP volumetric enlargement, and are associated with CSVD markers and cognitive performance, which are mediated by disrupted perivascular fluid transport, highlighting the CP-glymphatic axis as a candidate pathway for further longitudinal and mechanistic investigation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874906/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Inform",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "On the Origin of the Brain Semi-Heavy Water Deuterium MR Signal Following Administration of Deuterated Metabolic Substrate: A Cautionary Tale.",
+      "summary": "PURPOSE: To evaluate the extent to which the appearance of HOD in the brain following systemic administration of a deuterated substrate is due to local brain metabolism versus body metabolism.\nMETHODS: [6,6-2H2]glucose, which is transported across the blood-brain barrier (BBB), and [6,6-2H2]fructose (Fruc), which does not cross the BBB, were administered to four mouse cohorts. Cohorts included wild-type mice, glucose transporter deficiency mice, which have decreased brain glucose uptake from the blood, and littermate control mice. A separate wild-type cohort received a 15-μL intramuscular (leg) injection of D2O. Brain-localized DMRS experiments employed the ISIS single-voxel protocol at 11.74 T.\nRESULTS: Following leg D2O injection, semi-heavy water (HOD) appears within the brain in minutes, reaching steady state shortly thereafter. Body metabolism of [6,6-2H2]fructose produces HOD that also appears in the brain within minutes following subcutaneous administration, with an initial rate (mM/min) substantially greater than following administration of [6,6-2H2]glucose. Deuterated glucose from body metabolism of [6,6-2H2]fructose also appears in the brain. The terminal rates for HOD appearance in the brain are indistinguishable for the four cohorts examined despite there being up to a five-fold difference in brain concentration (mM) of deuterium-labeled glucose.\nCONCLUSION: Body production of HOD dominates the initial increase of HOD in brain following administration of [6,6-2H2]fructose and likely contributes significantly to the increase of HOD in brain following administration of [6,6-2H2]glucose. Interpretation of HOD concentrations as representative of organ-specific metabolism requires careful consideration of control experiments and assessment of HOD contributions from body metabolism of the administered deuterated substrate.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873554/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Magn Reson Med",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Multidimensional Profiling of MRI-Negative Temporal Lobe Epilepsy Uncovers Distinct Phenotypes.",
+      "summary": "OBJECTIVE: Although hippocampal sclerosis (TLE-HS) represents the most frequent cause of temporal lobe epilepsy (TLE), up to 30% of patients show no lesion on visual MRI inspection (TLE-MRIneg). These cases pose diagnostic and therapeutic challenges and are underrepresented in surgical series. We investigated whether TLE-MRIneg constitutes a distinct clinical and neuroanatomical entity compared to TLE-HS and aimed to identify subtypes within the TLE-MRIneg group.\nMETHODS: We analyzed MRI and clinical data from 209 patients with TLE and 102 healthy controls from the multicenter \"3TLE project\". Based on expert radiological review, 96 patients were classified as TLE-MRIneg and 76 as TLE-HS; the remaining 37 were excluded due to other focal lesions. We compared clinical characteristics and brain morphometry between TLE-MRIneg and TLE-HS and applied clustering techniques to detect TLE-MRIneg subtypes.\nRESULTS: Compared with TLE-HS, TLE-MRIneg was associated with later onset, shorter disease duration, and milder clinical presentation. TLE-HS patients exhibited widespread cortical and subcortical atrophy, while TLE-MRIneg showed only subtle cortical thinning. Cluster analysis revealed two subtypes of TLE-MRIneg: one characterized by ipsilateral amygdala enlargement (AE) and the other by diffuse cortical atrophy.\nINTERPRETATION: These findings demonstrate that TLE-MRIneg represents a distinct clinical-imaging entity from TLE-HS. The identification of morphologically defined subtypes, particularly AE, highlights the heterogeneity of TLE-MRIneg and its potential clinical relevance. This work supports the use of advanced imaging and data-driven methods to improve diagnosis and guide individualized management in non-lesional epilepsies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873635/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Ann Clin Transl Neurol",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Moderate-to-Vigorous Physical Activity and Cerebral Small Vessel Disease in Older Adults with Type 2 Diabetes: A Cross-Sectional Study.",
+      "summary": "PURPOSE: Cerebral small vessel disease (SVD) is prevalent in older adults with type 2 diabetes and contributes to an elevated risk of cognitive decline. Although physical activity (PA) is a potentially modifiable factor in SVD prevention, previous findings remain inconsistent, particularly regarding activity intensity. This study aimed to investigate the association between accelerometer-measured PA and SVD severity in older adults with type 2 diabetes.\nMETHODS: This cross-sectional study analyzed 66 adults aged ≥70 years with type 2 diabetes. PA was objectively measured using a tri-axial accelerometer over 14 days. Time spent in sedentary behavior (≤1.5 metabolic equivalents [METs]), light-intensity PA (LPA; 1.6-2.9 METs), and moderate-to-vigorous PA (MVPA; ≥3.0 METs) were assessed. Lacunes, cerebral microbleeds, enlarged perivascular spaces, and white matter hyperintensities were evaluated using brain magnetic resonance imaging. The total SVD score (range, 0-4) was calculated, and participants were categorized into either mild (score 0-1) or moderate-to-severe (score 2-4) groups. To estimate the odds of having moderate-to-severe SVD associated with a hypothetical reallocation of 10 min of sedentary time to either LPA or MVPA, multiple logistic regression analysis using an isotemporal substitution model was performed.\nRESULTS: Of the 66 participants, 29 (43.9%) had moderate-to-severe SVD. A hypothetical reallocation of 10 min from sedentary time to MVPA was associated with lower odds of moderate-to-severe SVD (odds ratio, 0.78; 95% confidence interval, 0.61-1.00; p = 0.047). LPA exhibited no significant association.\nCONCLUSIONS: Engaging in MVPA is associated with lower SVD severity in older adults with type 2 diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41872726/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Med Sci Sports Exerc",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Imaging Venous Transit Time and Blood-Brain Barrier Permeability of the Deep Brain.",
+      "summary": "PURPOSE: Imaging of venous vessels with advanced pulse sequences allows the assessment of important hemodynamic parameters. Previous work has measured venous transit time (VTT) and blood-brain barrier (BBB) water permeability in cortical tissue. This study aimed to measure VTT and BBB permeability in the deep brain through imaging in the straight sinus (SS).\nMETHODS: Two studies were conducted. Study I measured VTT of the deep brain using a Venous-transit-time-Imaging-by-Changes-in-T1-Relaxation (VICTR) MRI sequence. The obtained VTT was used in study II to optimize the imaging parameters of Water-Extraction-with-Phase-Contrast-Arterial-Spin-Tagging (WEPCAST) MRI pulse sequence, and the permeability-surface-area product (PS) was quantified in the deep brain. Test-retest reproducibility was assessed.\nRESULTS: SS VTT was found to be 2807.5 ± 349.5 ms, which was approximately half a second shorter than the SSS VTT (3365.0 ± 235.3 ms, p < 0.001). The SS VTT results were reproducible across repetitions, with a coefficient of variation of 2.8% ± 0.5%. The standard deviation of the VTT distribution in SS was 973.7 ± 48.1 ms, again shorter than the corresponding SSS values (1165.5 ± 37.2 ms, p < 0.001). The water extraction fraction, E, from the SS was 94.8% ± 1.9%, and the deep-brain PS was 141.3 ± 20.2 mL/100 g/min. The PS values were slightly lower than the cortical PS of 152.9 ± 20.9 mL/100 g/min (p = 0.039), and may reflect the lower vascularity in the deep-brain region. The intraclass correlation coefficient (ICC) of the deep-brain PS values from repeated runs was 0.863.\nCONCLUSION: This is the first study to measure two parameters associated with deep-brain physiology, specifically VTT and BBB water permeability, and provide their normative values.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873483/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Magn Reson Med",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Hinoki Cypress Aroma Facilitates Swallowing via Premotor and Hypothalamic Down-modulation: A Randomized Within-subject Crossover fMRI Study.",
+      "summary": "Swallowing is tightly coupled with emotion-autonomic states, while olfactory pathways project to limbic and hypothalamic hubs that can enhance parasympathetic activity and reduce stress. Whether a pleasant natural-wood odor can modulate swallowing-related brain activity and behavior remains unclear. To test whether Hinoki (Japanese cypress) inhalation improves affective ratings and increases the repetitive saliva swallowing test (RSST) difference (post-pre; swallows/30 s), and whether it suppresses swallowing-related activity in the premotor cortex (Brodman area 6 (BA6)) and the hypothalamus. The effects of exploratory whole-brain and interaction between Task and Odor were also evaluated. In a randomized within-subject crossover with a one-week interval, participants inhaled Hinoki essential oil or odorless rice-oil control. We assessed brain activity during voluntary saliva swallowing using functional magnetic resonance imaging (fMRI). Outcomes included subjective ratings (odor intensity, preference, comfort, recollection) and RSST counts per 30 s; RSST difference was computed as post-pre inhalation. Hinoki improved affective ratings and increased RSST difference compared to control. The odor main effect showed reduced activation in three regions-bilateral BA6 and the hypothalamus. An interaction effect between Task (swallowing vs. rest) and Odor (Hinoki vs. control) was found in the right putamen. The pattern supports a model: odor-induced autonomic calming (lower heart rate, reduced hypothalamic activity) lowers premotor load and improves swallowing, reflected in RSST difference. These findings suggest that aromatherapy-assisted dysphagia rehabilitation using olfactory priming-particularly for patients with post-stroke sequelae or post-stroke depression with poor appetite-may help enhance training efficiency and recovery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41874651/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Dysphagia",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Distinct brain volume abnormalities in clinical high-risk individuals: pre- and post-antipsychotic treatment.",
+      "summary": "Individuals at clinical high risk (CHR) for psychosis exhibit both baseline and progressive brain structural abnormalities. However, the extent to which these changes reflect neurobiological trajectories of illness progression versus iatrogenic effects of antipsychotic (AP) treatment remains unresolved. A total of 148 AP-naïve CHRs and 65 healthy controls (HCs) underwent baseline structural magnetic resonance imaging (MRI) scans. One hundred thirty CHRs received second-generation AP treatment and completed 2-month follow-up scans. HCs also completed the follow-up scans. We compared baseline and longitudinal brain volume changes between CHRs and HCs and explored the relationship between AP treatment and brain structural changes in CHR. At baseline, CHRs showed enlarged third and inferior lateral ventricles compared to HCs. Within CHRs, larger ventricular, as well as smaller hippocampus and amygdala volumes, were associated with more severe symptoms and poorer functioning. No cortical volume differences were observed between groups at baseline, nor were cortical volumes related to clinical symptoms. After 2-month AP treatment, CHRs exhibited continued ventricular enlargement, reduced accumbens volume, and widespread cortical volume loss relative to HCs. Notably, cortical volume reductions were dose-dependent, with higher AP dose correlating with more pronounced cortical reductions. Additionally, cortical volume changes were linked to treatment response, with high-dose responders showing more significant HC-referenced changes compared to high-dose non-responders, low-dose responders, and low-dose non-responders. Our findings underscore the complex, region-specific, and clinically relevant neuroanatomical changes in CHR individuals, emphasizing the critical need to account for AP exposure in CHR neuroimaging studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41872977/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Psychol Med",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Demonstration of CEST MRI in an Animal Model of Acute Ischemic Stroke at 15.2 T With Simple Linearization for B(1) Inhomogeneity Correction.",
+      "summary": "PURPOSE: CEST at ultra-high fields such as 15.2 T benefits significantly from increased signal and increased spectral resolution. However, inhomogeneous fields become a confounding issue for B0 and B1. While B0 inhomogeneity correction is widely studied and implemented, methods for B1 correction have been limited to interpolation, which requires close to ground truth sampling across B1 or sophisticated methods that increase data acquisition requirements. This work demonstrates a simple and easy-to-employ model-based linearization that allows for reasonable B1 correction with as low as two B1 samples for implementation.\nMETHODS: Simulation and in vivo rodent brain CEST data at 15.2 T were tested for reasonable B1 correction using a surface coil to demonstrate an exaggerated situation of B1 inhomogeneity. Individual exchange fitting was performed, and quantified maps were examined for apparent residual B1 dependencies, and quantitative values were examined for consistency across animals.\nRESULTS: Simulation showed linearization significantly improved linear dependency over simple linear interpolation, even when multiple pools were involved. B1 corrected Z-spectra demonstrated reasonable consistency across animals, and parameter maps of simple quantifying CEST parameters demonstrated little B1 dependency. Fitting CEST curves demonstrates similar consistency and independence from B1. Finally, comparison of parameters across animals demonstrates reasonable consistency after B1 correction.\nCONCLUSION: The simple linearization described in this paper offers a facile way to rapidly correct for B1 inhomogeneity with minimally required additional spectral sampling. This method can have significant advantages, particularly in scan-time restricted situations where multiple Z-spectra at more than two power levels are not feasible.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873639/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Magn Reson Med",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Cooperative Multiplex GNN for High-Grade Glioma Survival Prediction from Preoperative Multi-Modal Radiomics-Based Brain Networks.",
+      "summary": "Accurately and preoperatively predicting survival for high-grade gliomas (HGGs) is important for optimizing treatment strategies. Increasing evidence suggests that brain structural and functional connectivity networks derived from advanced magnetic resonance imaging (MRI) are promising predictors for HGG survival. However, advanced MRIs (e.g., diffusion MRI and functional MRI) are generally clinically inaccessible for HGG patients before initiating therapy. To compensate for lack of advanced MRI modalities in brain network studies, in this paper we evaluate the feasibility and performance of predicting HGG survival using exclusively preoperative multi-modal basic structural MRI (sMRI, e.g., T1- and T2-weighted MRI) based brain regional radiomics similarity networks (R2SNs). To this end, we propose a new cooperative multiplex graph neural network (GNN) based multi-modal R2SN integration framework for preoperative HGG survival prediction. First, multi-modal R2SNs are represented by a multiplex network, where each modality-specific R2SN forms one multiplex layer and nodes (i.e., brain regions of interest (ROIs)) are coupled to their replicas across multiplex layers. This facilitates flexible inter-ROI communications both within and between R2SNs. Second, a cooperative GNN is applied to capture intra-modal node feature propagations within each multiplex layer, followed by attention mechanisms used to capture inter-modal node feature interactions across multiplex layers. Finally, a tailored tumor-aware graph pooling is developed to assemble features from the tumor-intersecting ROIs for survival prediction. Extensive experiments on a collected HGG database with three basic sMRI modalities demonstrate the superiority of our method over state-of-the-art baselines in survival stratification. The code is available at https://github.com/ZiLaoTou/TCM-GNN.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41875000/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE Trans Med Imaging",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Contributions of insula and superior temporal sulcus to interpersonal guilt and responsibility in social decisions.",
+      "summary": "This study investigated the neural mechanisms involved in feelings of interpersonal guilt and responsibility evoked by social decisions in humans. In two studies (one during fMRI), participants repeatedly chose between safe and risky monetary outcomes in social contexts. Across conditions, each participant chose for both themselves and a partner (Social condition), or the partner chose for both themselves and the participant (Partner condition), or the participant chose just for themselves (Solo condition, control). If the risky option was chosen in the Social or Partner condition, participant and partner could each receive either the high or the low outcome of a lottery with 50% probability, independently of each other. Participants were shown the outcomes for themselves and for their partner on each trial and reported their momentary happiness every few trials. As expected, participant happiness decreased following both low lottery outcomes for themselves and for the partner. Crucially, happiness decreases following low outcomes for the partner were larger when the participant rather than their partner had made the choice, which fits an operational definition of guilt. This guilt effect was associated with BOLD signal increase in the left anterior insula. Connectivity between this region and the right inferior frontal gyrus varied depending on choice and experimental condition, suggesting that this part of prefrontal cortex is sensitive to guilt-related information during social choices. Variations in happiness were well explained by computational models based on participants' and partners' rewards and reward prediction errors. A model-based analysis revealed a left superior temporal sulcus cluster that tracked partner reward prediction errors that followed participant choices. Our findings identify neural mechanisms of guilt and social responsibility during social decisions under risk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873443/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    },
+    {
+      "title": "Comparative Insights into (18)F-FDG and (68)Ga-FAPI PET Imaging in Glioma: Diagnostic Value, Tumor Grading, and Clinical Implications.",
+      "summary": "Gliomas are the most common primary malignant brain tumors and are characterized by heterogeneous growth and complex biology, which complicate accurate diagnosis and management. While magnetic resonance imaging (MRI) remains the clinical standard, its limitations in delineating tumor margins and distinguishing recurrence from treatment-induced changes highlight the need for complementary molecular imaging. 18F-fluorodeoxyglucose (18F-FDG) positron emission tomography (PET) has been extensively studied, providing valuable prognostic information by reflecting tumor glycolytic activity. However, its diagnostic utility is hampered by high cortical background uptake and by poor sensitivity in detecting low-grade gliomas. Conversely, glioma-68 fibroblast activation protein inhibitor (FAPI) PET targets cancer-associated fibroblasts, offering superior tumor-to-background contrast and improved visualization of infiltrative margins. Comparative studies suggest that FAPI PET better discriminates between low- and high-grade gliomas, correlates with tumor stromal activity, and aids in therapy planning by differentiating true progression from post-treatment changes. Despite these advantages, the evidence base for FAPI remains limited, largely derived from small cohorts and pilot studies. Standardized imaging protocols and larger prospective trials are necessary to validate its role. Overall, 18F-FDG and FAPI PET provide complementary insights into glioma biology, and their integration with MRI and amino acid tracers may refine diagnostic accuracy, therapeutic planning, and prognostic assessment in clinical neuro-oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41873220/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mol Imaging Radionucl Ther",
+      "published_date": "2026-03-24",
+      "date": "2026-03-25"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-25T00:33:18+00:00",
+    "version": 1,
+    "summary": "Captured 15 research items. Preference focus is brain-imaging analysis and disease mechanisms: 8 high-priority, 7 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 15.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 15,
+      "high_priority": 8,
+      "medium_priority": 7,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 15
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Cooperative Multiplex GNN for High-Grade Glioma Survival Prediction from Preoperative Multi-Modal Radiomics-Based Brain Networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41875000/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The role of N-acetylcysteine and glutathione in the management of Parkinson's disease: a systematic review of oxidative biomarkers and clinical outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41874704/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Contributions of insula and superior temporal sulcus to interpersonal guilt and responsibility in social decisions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41873443/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Perivascular fluid clearance links choroid plexus changes to cognitive performance in cerebral small vessel disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41874906/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Moderate-to-Vigorous Physical Activity and Cerebral Small Vessel Disease in Older Adults with Type 2 Diabetes: A Cross-Sectional Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41872726/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Relationship of Behavioral Activation to Time-Varying Sub-Network Coherence in Attention and Reward Neural Networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41874785/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Multidimensional Profiling of MRI-Negative Temporal Lobe Epilepsy Uncovers Distinct Phenotypes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41873635/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Hinoki Cypress Aroma Facilitates Swallowing via Premotor and Hypothalamic Down-modulation: A Randomized Within-subject Crossover fMRI Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41874651/",
+        "published_date": "2026-03-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "On the Origin of the Brain Semi-Heavy Water Deuterium MR Signal Following Administration of Deuterated Metabolic Substrate: A Cautionary Tale.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41873554/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Comparative Insights into (18)F-FDG and (68)Ga-FAPI PET Imaging in Glioma: Diagnostic Value, Tumor Grading, and Clinical Implications.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41873220/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "The fetal taenia-tela choroidea complex: a radiologic-pathologic correlation from normal anatomy to Dandy-Walker malformation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41874629/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Superficial and deep white matter brain alterations discriminate tinnitus in older adults.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41874717/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Imaging Venous Transit Time and Blood-Brain Barrier Permeability of the Deep Brain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41873483/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Distinct brain volume abnormalities in clinical high-risk individuals: pre- and post-antipsychotic treatment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41872977/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Demonstration of CEST MRI in an Animal Model of Acute Ischemic Stroke at 15.2 T With Simple Linearization for B(1) Inhomogeneity Correction.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41873639/",
+        "published_date": "2026-03-24",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

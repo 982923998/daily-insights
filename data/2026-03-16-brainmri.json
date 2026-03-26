@@ -1,0 +1,50 @@
+{
+  "date": "2026-03-16",
+  "articles": [
+    {
+      "title": "Diagnosis, treatment, and postoperative follow-up of intracranial Ewing sarcoma (EWS): a case report.",
+      "summary": "OBJECTIVE: This study investigates the diagnostic procedures, therapeutic strategies, and postoperative surveillance of primary intracranial Ewing Sarcoma (EWS), with a focus on a pediatric case in the posterior fossa and a comparative literature review. CASE REPORT: We present the case of a 6-year-old girl admitted with a 1-month history of worsening headaches and signs of elevated intracranial pressure. Preoperative MRI identified a large, heterogeneously enhancing mass in the left posterior fossa, initially suspected to be a medulloblastoma. The patient underwent maximal safe surgical resection via a posterolateral paramedian approach. Histopathological and molecular analysis confirmed the diagnosis of EWS, revealing the characteristic EWSR1-FLI1 fusion gene. RESULTS: Near-total resection of the tumor was achieved, with no gross residual tumor observed under the operating microscope. The patient subsequently received adjuvant radiotherapy (30 Gy) and multi-agent chemotherapy (VDC/IE regimen). An 8-month follow-up cranial MRI showed no evidence of tumor recurrence, and the patient remained neurologically stable. CONCLUSION: Intracranial EWS is exceptionally rare and poses a significant diagnostic challenge due to its nonspecific radiological features. Definitive diagnosis relies on integrated pathological and molecular genetic testing. This case underscores that a multimodal treatment strategy centered on maximal safe surgical resection, combined with radiotherapy and chemotherapy, can achieve favorable short-term oncological outcomes. A review of the literature highlights the prognostic importance of tumor location and extent of resection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41832913/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Childs Nerv Syst",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-16T00:31:53+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 0; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Diagnosis, treatment, and postoperative follow-up of intracranial Ewing sarcoma (EWS): a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41832913/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

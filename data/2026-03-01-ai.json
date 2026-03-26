@@ -1,0 +1,197 @@
+{
+  "date": "2026-03-01",
+  "articles": [
+    {
+      "title": "GitHub Trending: ruvnet/ruflo",
+      "summary": "Star ruvnet / ruflo 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration; 928 stars today",
+      "url": "https://github.com/ruvnet/ruflo",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "GitHub Trending: moeru-ai/airi",
+      "summary": "Star moeru-ai / airi 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.; 1,065 stars today",
+      "url": "https://github.com/moeru-ai/airi",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "GitHub Trending: bytedance/deer-flow",
+      "summary": "Star bytedance / deer-flow An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.; 899 stars today",
+      "url": "https://github.com/bytedance/deer-flow",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "GitHub Trending: anthropics/claude-code",
+      "summary": "Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.; 699 stars today",
+      "url": "https://github.com/anthropics/claude-code",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "GitHub Trending: Shubhamsaboo/awesome-llm-apps",
+      "summary": "Star Shubhamsaboo / awesome-llm-apps Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.; 635 stars today",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-01",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Show HN: Shodh– AI memory that learns from use, no LLM calls, single Rust binary",
+      "summary": "HN Show HN post with 6 points and 1 comments.",
+      "url": "https://github.com/varun29ankuS/shodh-memory",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Show HN: SQLite for Rivet Actors – one database per agent, tenant, or document",
+      "summary": "HN Show HN post with 34 points and 12 comments.",
+      "url": "https://github.com/rivet-dev/rivet",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Show HN: Mowgli – Figma for the agent era, with Claude Code and design export",
+      "summary": "HN Show HN post with 5 points and 0 comments.",
+      "url": "https://mowgli.ai/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Show HN: AxonML – A PyTorch-equivalent ML framework written in Rust",
+      "summary": "HN Show HN post with 3 points and 2 comments.",
+      "url": "https://github.com/AutomataNexus/AxonML",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-02-28",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "summary": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-02-27",
+      "date": "2026-03-01"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-01T00:03:36+00:00",
+    "version": 1,
+    "summary": "Captured 10 AI items. Preference focus is new models and new technical architecture: 5 high-priority, 5 medium-priority, 0 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 10,
+      "high_priority": 5,
+      "medium_priority": 5,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 6
+      },
+      {
+        "topic": "new architecture",
+        "count": 9
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "GitHub Trending: Shubhamsaboo/awesome-llm-apps",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "published_date": "2026-03-01",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: ruvnet/ruflo",
+        "url": "https://github.com/ruvnet/ruflo",
+        "published_date": "2026-03-01",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: anthropics/claude-code",
+        "url": "https://github.com/anthropics/claude-code",
+        "published_date": "2026-03-01",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Mowgli – Figma for the agent era, with Claude Code and design export",
+        "url": "https://mowgli.ai/",
+        "published_date": "2026-02-28",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+        "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+        "published_date": "2026-02-27",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Shodh– AI memory that learns from use, no LLM calls, single Rust binary",
+        "url": "https://github.com/varun29ankuS/shodh-memory",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GitHub Trending: moeru-ai/airi",
+        "url": "https://github.com/moeru-ai/airi",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: bytedance/deer-flow",
+        "url": "https://github.com/bytedance/deer-flow",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: SQLite for Rivet Actors – one database per agent, tenant, or document",
+        "url": "https://github.com/rivet-dev/rivet",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AxonML – A PyTorch-equivalent ML framework written in Rust",
+        "url": "https://github.com/AutomataNexus/AxonML",
+        "published_date": "2026-02-28",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      }
+    ]
+  }
+}

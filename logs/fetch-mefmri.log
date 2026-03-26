@@ -1,0 +1,509 @@
+[21:31:26] 🚀 Starting task: mefmri
+[21:31:26] 📚 Academic domain: mefmri (Multi-Echo fMRI)
+[21:31:26] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json
+[21:31:26] ⚡ [Fetch Multi-Echo fMRI] model: gpt-5.3-codex
+[21:31:26] ⏱️ [Fetch Multi-Echo fMRI] timeout: 600s
+[21:31:26] ──── PROMPT ────────────────────────
+  你的任务是检索 Multi-Echo fMRI 领域的学术论文（今天：2026-03-10）。
+  你必须严格执行 academic-search 技能工作流，路径如下：
+  - 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+  - 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+  强制步骤（不得跳过）：
+  1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+  2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+  3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+  领域配置文件：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+  完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json"：
+  - 顶层结构：{"date":"2026-03-10","articles":[...]}
+  - 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+  - category 固定为 "Multi-Echo fMRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+  - 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+  - 若文件已存在，先读取后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-03-10","articles":[]}
+  不写文件 = 任务失败。
+[21:31:26] ────────────────────────────────────
+OpenAI Codex v0.112.0 (research preview)
+--------
+workdir: /Users/chenmayao/Projects/daily-insights
+model: gpt-5.3-codex
+provider: codex
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019cd7f1-fdfb-76d0-b368-b92744f60d32
+--------
+user
+你的任务是检索 Multi-Echo fMRI 领域的学术论文（今天：2026-03-10）。
+
+你必须严格执行 academic-search 技能工作流，路径如下：
+- 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+- 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+
+强制步骤（不得跳过）：
+1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+
+领域配置文件：
+/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+
+完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json"：
+- 顶层结构：{"date":"2026-03-10","articles":[...]}
+- 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+- category 固定为 "Multi-Echo fMRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+- 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+- 若文件已存在，先读取后合并去重再写入
+- 若当天无文章，写入 {"date":"2026-03-10","articles":[]}
+
+不写文件 = 任务失败。
+
+mcp startup: no servers
+codex
+我会严格按 `academic-search` 技能流程执行：先读取技能说明，再读取 `mefmri` 领域配置，然后逐条按配置用 Bash/curl 完整检索并写入目标 JSON。先从两个配置文件开始核对步骤。
+exec
+/bin/zsh -lc "sed -n '1,260p' /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md" in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc "sed -n '1,220p' /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md" in /Users/chenmayao/Projects/daily-insights succeeded in 26ms:
+---
+name: academic-search
+description: Search academic papers on PubMed using domain-specific configurations. Each research domain is defined in sources/{id}.md with search queries and filtering rules.
+keywords:
+  - academic
+  - research
+  - pubmed
+  - papers
+  - literature
+license: MIT
+---
+
+# Academic Search
+
+Searches PubMed for papers in configured research domains.
+Domain configurations live in `sources/{id}.md` — each file defines what to search and filter rules.
+
+## Requirements
+
+1. Bash + curl (uses PubMed E-utilities directly, no external API key needed)
+ succeeded in 26ms:
+---
+id: mefmri
+label: Multi-Echo fMRI
+category: Multi-Echo fMRI
+color: "#8b5cf6"
+icon: brain
+skill: academic-search
+platforms: pubmed
+order: 7
+---
+
+## PubMed 检索（Entrez E-utilities）
+
+使用 `reldate=7&datetype=crdt` 动态获取最近 7 天入库的文献，无需硬编码日期。
+
+### 检索词
+
+```
+("multi-echo"[Title/Abstract] OR "multiecho"[Title/Abstract] OR "multi echo"[Title/Abstract] OR "ME-EPI"[Title/Abstract]) AND ("fMRI"[Title/Abstract] OR "functional magnetic resonance imaging"[Title/Abstract] OR "functional MRI"[Title/Abstract] OR "BOLD"[Title/Abstract])
+```
+codex
+我已拿到技能与领域配置，接下来会严格执行 3 个 API 步骤：`esearch -> esummary -> efetch`，然后按配置去重并合并到 `data/2026-03-10-mefmri.json`。现在先跑 Step 1 获取 PMID 列表。
+exec
+/bin/zsh -lc 'curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22multi-echo%22%5BTitle%2FAbstract%5D+OR+%22multiecho%22%5BTitle%2FAbstract%5D+OR+%22multi+echo%22%5BTitle%2FAbstract%5D+OR+%22ME-EPI%22%5BTitle%2FAbstract%5D)+AND+(%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22functional+magnetic+resonance+imaging%22%5BTitle%2FAbstract%5D+OR+%22functional+MRI%22%5BTitle%2FAbstract%5D+OR+%22BOLD%22%5BTitle%2FAbstract%5D)&reldate=7&datetype=crdt&retmax=100&retmode=json"' in /Users/chenmayao/Projects/daily-insights succeeded in 829ms:
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"0","retmax":"0","retstart":"0","idlist":[],"translationset":[],"querytranslation":"(\"multi-echo\"[Title/Abstract] OR \"multiecho\"[Title/Abstract] OR \"multi-echo\"[Title/Abstract] OR \"ME-EPI\"[Title/Abstract]) AND (\"fMRI\"[Title/Abstract] OR \"functional magnetic resonance imaging\"[Title/Abstract] OR \"functional MRI\"[Title/Abstract] OR \"BOLD\"[Title/Abstract]) AND 2026/03/03:2026/03/10[Date - Create]","warninglist":{"phrasesignored":[],"quotedphrasesnotfound":[],"outputmessages":["No items found."]}}}
+codex
+Step 1 返回最近 7 天无结果（`idlist=[]`）。我仍会按要求继续执行 Step 2 和 Step 3 请求，然后生成当日文件并处理与已有文件的合并去重。
+exec
+/bin/zsh -lc 'curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=&retmode=json"' in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc 'curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=&retmode=xml&rettype=abstract"' in /Users/chenmayao/Projects/daily-insights succeeded in 837ms:
+{"header":{"type":"esummary","version":"0.3"},"esummaryresult":["Empty id list - nothing todo"]}
+ succeeded in 835ms:
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eEfetchResult PUBLIC "-//NLM//DTD efetch 20131226//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20131226/efetch.dtd">
+<eFetchResult>
+	<ERROR>Supplied id parameter is empty.</ERROR>
+</eFetchResult>
+codex
+我会先检查目标文件是否已存在，再按“先读取后合并去重再写入”执行；当前新检索结果为空，最终会依据合并后的结果写入标准结构。
+exec
+/bin/zsh -lc 'if [ -f /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json ]; then echo exists; else echo missing; fi' in /Users/chenmayao/Projects/daily-insights succeeded in 30ms:
+missing
+exec
+/bin/zsh -lc "mkdir -p /Users/chenmayao/Projects/daily-insights/data && cat > /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json <<'EOF'
+{\"date\":\"2026-03-10\",\"articles\":[]}
+EOF" in /Users/chenmayao/Projects/daily-insights succeeded in 38ms:
+
+codex
+检索结果已落盘，我再做一次快速校验，确认 JSON 结构和文件路径完全符合要求。
+exec
+/bin/zsh -lc 'cat /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json' in /Users/chenmayao/Projects/daily-insights succeeded in 36ms:
+{"date":"2026-03-10","articles":[]}
+codex
+已按 `academic-search` 技能与 `mefmri` 配置完整执行（`esearch -> esummary -> efetch`），并写入结果文件：
+
+[2026-03-10-mefmri.json](/Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json)
+
+当前内容：
+```json
+{"date":"2026-03-10","articles":[]}
+```
+
+本次 PubMed 检索在最近 7 天（`reldate=7&datetype=crdt`）返回 `idlist=[]`，因此当天结果为空。
+tokens used
+18,153
+已按 `academic-search` 技能与 `mefmri` 配置完整执行（`esearch -> esummary -> efetch`），并写入结果文件：
+
+[2026-03-10-mefmri.json](/Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json)
+
+当前内容：
+```json
+{"date":"2026-03-10","articles":[]}
+```
+
+本次 PubMed 检索在最近 7 天（`reldate=7&datetype=crdt`）返回 `idlist=[]`，因此当天结果为空。
+Data quality validated: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json (domain=mefmri, articles=0)
+[21:32:32] [OK] Data file validated (schema + quality): /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json (applied=0, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=8, letpub_raw=1625, letpub_reference=30, total_applied=0, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[21:32:32] [OK] Impact factors synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json
+Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json
+[21:32:32] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-mefmri.json
+[21:32:32] 🔁 Running post-fetch IF sync (reference=auto-unresolved)...
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-03-ad.json (applied=6, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-03-brainmri.json (applied=6, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-03-pd.json (applied=1, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-04-brainmri.json (applied=10, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-06-brainmri.json (applied=7, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-07-brainmri.json (applied=19, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-10-brainmri.json (applied=13, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=8, letpub_raw=1625, letpub_reference=30, total_applied=62, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[21:32:33] [OK] Post-fetch IF sync finished.
+[21:32:33] ✅ Task finished.
+[21:32:33] [INFO] AUTO_GIT_SYNC is disabled; skip git push.
+[08:41:12] 🚀 Starting task: mefmri
+[08:41:12] 📚 Academic domain: mefmri (Multi-Echo fMRI)
+[08:41:12] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json
+[08:41:12] ⚡ [Fetch Multi-Echo fMRI] model: gpt-5.3-codex
+[08:41:12] ⏱️ [Fetch Multi-Echo fMRI] timeout: 600s
+[08:41:12] ──── PROMPT ────────────────────────
+  你的任务是检索 Multi-Echo fMRI 领域的学术论文（今天：2026-03-22）。
+  你必须严格执行 academic-search 技能工作流，路径如下：
+  - 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+  - 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+  强制步骤（不得跳过）：
+  1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+  2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+  3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+  领域配置文件：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+  完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json"：
+  - 顶层结构：{"date":"2026-03-22","articles":[...]}
+  - 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+  - category 固定为 "Multi-Echo fMRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+  - 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+  - 若文件已存在，先读取后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-03-22","articles":[]}
+  不写文件 = 任务失败。
+[08:41:12] ────────────────────────────────────
+OpenAI Codex v0.116.0 (research preview)
+--------
+workdir: /Users/chenmayao/Projects/daily-insights
+model: gpt-5.3-codex
+provider: codex
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019d12fd-23de-7a22-8bbf-27a788612e25
+--------
+user
+你的任务是检索 Multi-Echo fMRI 领域的学术论文（今天：2026-03-22）。
+
+你必须严格执行 academic-search 技能工作流，路径如下：
+- 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+- 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+
+强制步骤（不得跳过）：
+1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+
+领域配置文件：
+/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md
+
+完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json"：
+- 顶层结构：{"date":"2026-03-22","articles":[...]}
+- 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+- category 固定为 "Multi-Echo fMRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+- 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+- 若文件已存在，先读取后合并去重再写入
+- 若当天无文章，写入 {"date":"2026-03-22","articles":[]}
+
+不写文件 = 任务失败。
+
+mcp startup: no servers
+codex
+我会按你指定的 `academic-search` 技能严格执行：先读取技能总流程，再读取 `mefmri.md` 配置，并逐条按配置用 Bash/curl 完成检索，最后合并去重写入目标 JSON。先开始读取这两个文件确认完整步骤。
+exec
+/bin/zsh -lc "sed -n '1,220p' /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md" in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc "sed -n '1,260p' /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/mefmri.md" in /Users/chenmayao/Projects/daily-insights succeeded in 24ms:
+---
+id: mefmri
+label: Multi-Echo fMRI
+category: Multi-Echo fMRI
+color: "#8b5cf6"
+icon: brain
+skill: academic-search
+platforms: pubmed
+order: 7
+---
+
+## PubMed 检索（Entrez E-utilities）
+
+使用 `reldate=7&datetype=crdt` 动态获取最近 7 天入库的文献，无需硬编码日期。
+
+### 检索词
+
+```
+("multi-echo"[Title/Abstract] OR "multiecho"[Title/Abstract] OR "multi echo"[Title/Abstract] OR "ME-EPI"[Title/Abstract]) AND ("fMRI"[Title/Abstract] OR "functional magnetic resonance imaging"[Title/Abstract] OR "functional MRI"[Title/Abstract] OR "BOLD"[Title/Abstract])
+```
+ succeeded in 25ms:
+---
+name: academic-search
+description: Search academic papers on PubMed using domain-specific configurations. Each research domain is defined in sources/{id}.md with search queries and filtering rules.
+keywords:
+  - academic
+  - research
+  - pubmed
+  - papers
+  - literature
+license: MIT
+---
+
+# Academic Search
+
+Searches PubMed for papers in configured research domains.
+Domain configurations live in `sources/{id}.md` — each file defines what to search and filter rules.
+
+## Requirements
+
+1. Bash + curl (uses PubMed E-utilities directly, no external API key needed)
+codex
+我已确认配置里的三步检索和过滤规则。下一步我会按 `esearch → esummary → efetch` 原样调用 PubMed API，提取字段并与已有文件按 `url` 去重合并后写入目标路径。
+exec
+/bin/zsh -lc 'set -euo pipefail
+out_file="/Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json"
+workdir="/Users/chenmayao/Projects/daily-insights"
+mkdir -p "$(dirname '"\\\""'$out_file'"\\\")\"
+
+tmpdir=\""'$(mktemp -d)"
+trap '"'rm -rf \""'$tmpdir"'"' EXIT
+
+# Step 1: esearch (as specified in source config)
+curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22multi-echo%22%5BTitle%2FAbstract%5D+OR+%22multiecho%22%5BTitle%2FAbstract%5D+OR+%22multi+echo%22%5BTitle%2FAbstract%5D+OR+%22ME-EPI%22%5BTitle%2FAbstract%5D)+AND+(%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22functional+magnetic+resonance+imaging%22%5BTitle%2FAbstract%5D+OR+%22functional+MRI%22%5BTitle%2FAbstract%5D+OR+%22BOLD%22%5BTitle%2FAbstract%5D)&reldate=7&datetype=crdt&retmax=100&retmode=json\" > \""'$tmpdir/esearch.json"
+
+ids_csv="$(jq -r '"'.esearchresult.idlist | join(\",\")' \""'$tmpdir/esearch.json")"
+
+if [ -z "$ids_csv" ]; then
+  printf '"'{\"date\":\"2026-03-22\",\"articles\":[]}\\n' > \""'$tmpdir/new.json"
+else
+  # Step 2: esummary
+  curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${ids_csv}&retmode=json" > "$tmpdir/esummary.json"
+
+  # Step 3: efetch (abstract XML)
+  curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${ids_csv}&retmode=xml&rettype=abstract" > "$tmpdir/efetch.xml"
+
+  python3 - "$tmpdir/esummary.json" "$tmpdir/efetch.xml" "$tmpdir/new.json" <<'"'PY'
+import json
+import re
+import sys
+import xml.etree.ElementTree as ET
+from datetime import datetime
+
+esummary_path, efetch_path, out_path = sys.argv[1:4]
+
+with open(esummary_path, 'r', encoding='utf-8') as f:
+    es = json.load(f)
+
+# Parse abstracts from efetch XML
+abstract_by_pmid = {}
+try:
+    tree = ET.parse(efetch_path)
+    root = tree.getroot()
+    for art in root.findall('.//PubmedArticle'):
+        pmid_el = art.find('.//MedlineCitation/PMID')
+        if pmid_el is None or not (pmid_el.text or '').strip():
+            continue
+        pmid = pmid_el.text.strip()
+        texts = []
+        for ab in art.findall('.//Abstract/AbstractText'):
+            label = ab.attrib.get('Label') or ab.attrib.get('NlmCategory')
+            body = ''.join(ab.itertext()).strip()
+            if not body:
+                continue
+            if label and label not in ('UNASSIGNED',):
+                texts.append(f\"{label}: {body}\")
+            else:
+                texts.append(body)
+        if texts:
+            abstract_by_pmid[pmid] = '\\n'.join(texts)
+except Exception:
+    abstract_by_pmid = {}
+
+result = es.get('result', {})
+uids = result.get('uids', [])
+articles = []
+
+def normalize_date(raw: str) -> str:
+    raw = (raw or '').strip()
+    if not raw:
+        return ''
+    m = re.match(r'"'^('"\\d{4})/(\\d{2})/(\\d{2})', raw)
+    if m:
+        return f\"{m.group(1)}-{m.group(2)}-{m.group(3)}\"
+    m2 = re.match(r'"'^('"\\d{4})[-/](\\d{2})[-/](\\d{2})', raw)
+    if m2:
+        return f\"{m2.group(1)}-{m2.group(2)}-{m2.group(3)}\"
+    for fmt in ('%Y %b %d', '%Y %B %d', '%Y %b', '%Y %B', '%Y'):
+        try:
+            dt = datetime.strptime(raw, fmt)
+            if fmt == '%Y':
+                return f\"{dt.year:04d}-01-01\"
+            if fmt in ('%Y %b', '%Y %B'):
+                return f\"{dt.year:04d}-{dt.month:02d}-01\"
+            return dt.strftime('%Y-%m-%d')
+        except ValueError:
+            pass
+    return ''
+
+for uid in uids:
+    rec = result.get(uid, {})
+    title = (rec.get('title') or '').strip()
+    journal = (rec.get('source') or '').strip()
+    edat = rec.get('edat') or ''
+    pubdate = rec.get('pubdate') or ''
+    published_date = normalize_date(edat) or normalize_date(pubdate) or '1970-01-01'
+    url = f\"https://pubmed.ncbi.nlm.nih.gov/{uid}/\"
+    summary = (abstract_by_pmid.get(str(uid)) or '').strip() or 'No abstract available in source.'
+
+    articles.append({
+        'title': title,
+        'summary': summary,
+        'url': url,
+        'category': 'Multi-Echo fMRI',
+        'source': 'pubmed',
+        'journal': journal,
+        'published_date': published_date,
+        'date': '2026-03-22'
+    })
+
+# Deduplicate in new batch by URL while preserving order
+seen = set()
+deduped = []
+for a in articles:
+    u = a.get('url', '')
+    if not u or u in seen:
+        continue
+    seen.add(u)
+    deduped.append(a)
+
+payload = {'date': '2026-03-22', 'articles': deduped}
+with open(out_path, 'w', encoding='utf-8') as f:
+    json.dump(payload, f, ensure_ascii=False, indent=2)
+PY
+fi
+
+# Merge with existing file if present, dedupe by url
+if [ -f \""'$out_file" ]; then
+  jq -s '"'
+    def norm("'$d): if ($d|type)=="object" and ($d.articles|type)=="array" then $d else {date:"2026-03-22",articles:[]} end;
+    (norm(.[0])) as $old |
+    (norm(.[1])) as $new |
+    {date:"2026-03-22", articles: (($old.articles + $new.articles) | unique_by(.url))}
+  '"' \""'$out_file" "$tmpdir/new.json" > "$tmpdir/merged.json"
+  mv "$tmpdir/merged.json" "$out_file"
+else
+  mv "$tmpdir/new.json" "$out_file"
+fi
+
+# Ensure top-level structure exactly required
+jq '"'{date: .date, articles: .articles}' \""'$out_file" > "$tmpdir/final.json"
+mv "$tmpdir/final.json" "$out_file"
+
+# Print quick stats
+jq '"'{date, count:(.articles|length)}' \""'$out_file"' in /Users/chenmayao/Projects/daily-insights succeeded in 2.90s:
+{
+  "date": "2026-03-22",
+  "count": 1
+}
+codex
+检索和写入已完成，我正在做最后核对：确认字段完整、`summary` 非空、日期格式与去重结果符合你的强制要求。
+exec
+/bin/zsh -lc "jq '. | {date, articles_count:(.articles|length), sample:(.articles[0] // null)}' /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json" in /Users/chenmayao/Projects/daily-insights succeeded in 36ms:
+{
+  "date": "2026-03-22",
+  "articles_count": 1,
+  "sample": {
+    "title": "Improved Reliability of Resting-State Functional MRI Connectivity Using Multi-Echo Acquisition: Implications for Personalized Transcranial Magnetic Stimulation Targeting.",
+    "summary": "BACKGROUND AND PURPOSE: Multi-echo (ME) functional MRI (fMRI) acquisition improves separation of signal from noise relative to single-echo (SE). We tested whether this enhances reliability of functional connectivity (FC), with a focus on personalizing transcranial magnetic stimulation (TMS) targets in the dorsolateral prefrontal cortex (DLPFC) in patients with depression.\nMATERIALS AND METHODS: Resting-state fMRI scans were acquired from adult patients with major depression (20 female, 15 male) presenting for clinical TMS using either SE (n=21) or ME (n=31). Each subject's fMRI timeseries was split in half, and voxel-wise seed-based FC was computed for 100 general regions of interest (ROIs) and for two TMS-specific ROIs: subgenual cingulate cortex (SGC) and a previously published depression circuit (DEP). Reliability was assessed using (1) spatial correlation between split-half connectivity maps and (2) intraclass correlation coefficient (ICC) for each ROI's connectivity to the DLPFC.\nRESULTS: In general ROI analysis, ME showed significantly higher whole-brain split-half correlations than SE (p = 0.006) and higher ICC (ΔICC = 0.16; p = 0.03). In TMS-specific ROI analysis, ME showed higher split-half correlations for both the SGC-DLPFC (p = 0.04) and DEP-DLPFC (p = 0.01). TMS-specific ICC values were numerically higher for ME (SGC-DLPFC: 0.47; DEP-DLPFC: 0.75) than for SE (0.02 and 0.40, respectively), although these differences were not statistically significant.\nCONCLUSION: ME fMRI improves general FC reliability over SE, with suggested advantages for TMS-specific measures. Future work is needed to determine whether these gains meaningfully improve TMS targeting.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41862185/",
+    "category": "Multi-Echo fMRI",
+    "source": "pubmed",
+    "journal": "AJNR Am J Neuroradiol",
+    "published_date": "2026-03-20",
+    "date": "2026-03-22"
+  }
+}
+codex
+已按你指定的 `academic-search` 工作流与 `mefmri.md` 配置完整执行（`esearch → esummary → efetch`，`reldate=7&datetype=crdt`，按 `url` 去重），并写入：
+
+`/Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json`
+
+当前结果：
+- `date`: `2026-03-22`
+- `articles` 数量：`1`
+
+文件结构与字段已满足你要求（含 `journal`、非空 `summary` 回退规则）。
+tokens used
+11,990
+已按你指定的 `academic-search` 工作流与 `mefmri.md` 配置完整执行（`esearch → esummary → efetch`，`reldate=7&datetype=crdt`，按 `url` 去重），并写入：
+
+`/Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json`
+
+当前结果：
+- `date`: `2026-03-22`
+- `articles` 数量：`1`
+
+文件结构与字段已满足你要求（含 `journal`、非空 `summary` 回退规则）。
+Data quality validated: /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json (domain=mefmri, articles=1)
+[08:42:18] [OK] Data file validated (schema + quality): /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json (applied=1, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=30, letpub_raw=1659, letpub_reference=47, total_applied=1, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[08:42:18] [OK] Impact factors synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json
+Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json
+[08:42:18] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-22-mefmri.json
+[08:42:18] 🔁 Running post-fetch IF sync (reference=auto-unresolved)...
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-12-ad.json (applied=2, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-13-brainmri.json (applied=8, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-14-brainmri.json (applied=13, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-brainmri.json (applied=2, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-depression.json (applied=0, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-pd.json (applied=3, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-19-brainmri.json (applied=7, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-20-brainmri.json (applied=9, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-ad.json (applied=6, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-adhd.json (applied=0, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-brainmri.json (applied=9, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-depression.json (applied=3, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=30, letpub_raw=1659, letpub_reference=47, total_applied=62, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[08:42:18] [OK] Post-fetch IF sync finished.
+[08:42:18] ✅ Task finished.
+[08:42:18] [INFO] AUTO_GIT_SYNC is disabled; skip git push.

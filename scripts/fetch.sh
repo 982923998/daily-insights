@@ -1,8 +1,9 @@
 #!/bin/bash
 # fetch.sh — Wrapper for codex daily news fetching
-# Usage: ./scripts/fetch.sh [ai|all|test|{domain-id}]
+# Usage: ./scripts/fetch.sh [ai|all|if|test|{domain-id}]
 #   ai          — 抓取 AI 新闻（daily-ai-news 技能）
 #   all         — 抓取 AI 新闻 + 全部学术领域
+#   if          — 仅同步期刊 IF（不抓论文/新闻）
 #   test        — 写入测试数据
 #   {domain-id} — 抓取指定学术领域（如 autism）
 
@@ -11,7 +12,7 @@ TODAY=$(date +%Y-%m-%d)
 AI_DATA_FILE="$PROJECT_DIR/data/${TODAY}-ai.json"
 ACADEMIC_SOURCES_DIR="$PROJECT_DIR/.agents/skills/academic-search/sources"
 DIGEST_SCRIPT="$PROJECT_DIR/scripts/generate_digest.py"
-ENRICH_JOURNAL_SCRIPT="$PROJECT_DIR/scripts/enrich_journal.py"
+SYNC_IF_SCRIPT="$PROJECT_DIR/scripts/sync_impact_factors.py"
 VALIDATE_DATA_SCRIPT="$PROJECT_DIR/scripts/validate_data.py"
 RUN_WITH_TIMEOUT_SCRIPT="$PROJECT_DIR/scripts/run_with_timeout.py"
 AI_SKILL_DIR="$PROJECT_DIR/.agents/skills/daily-ai-news"
@@ -21,6 +22,7 @@ AI_SOURCES_DIR="$AI_SKILL_DIR/sources"
 ACADEMIC_SKILL_DIR="$PROJECT_DIR/.agents/skills/academic-search"
 ACADEMIC_SKILL_FILE="$ACADEMIC_SKILL_DIR/SKILL.md"
 AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-0}"
+AUTO_IF_SYNC="${AUTO_IF_SYNC:-1}"
 
 mkdir -p "$PROJECT_DIR/data"
 
@@ -102,20 +104,51 @@ generate_digest() {
     return 0
 }
 
-enrich_journal() {
+sync_impact_factors() {
     local file="$1"
-    local enrich_output
-    if [ ! -f "$ENRICH_JOURNAL_SCRIPT" ]; then
-        log "[WARN] Journal enrich script not found: $ENRICH_JOURNAL_SCRIPT"
+    local sync_output
+    if [ ! -f "$SYNC_IF_SCRIPT" ]; then
+        log "[WARN] IF sync script not found: $SYNC_IF_SCRIPT"
         return 0
     fi
-    if ! enrich_output=$(python3 "$ENRICH_JOURNAL_SCRIPT" "$file" 2>&1); then
-        log "[WARN] Journal enrich failed (non-blocking): $file"
-        [ -n "$enrich_output" ] && echo "$enrich_output"
+    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" "$file" 2>&1); then
+        log "[WARN] IF sync failed (non-blocking): $file"
+        [ -n "$sync_output" ] && echo "$sync_output"
         return 0
     fi
-    [ -n "$enrich_output" ] && echo "$enrich_output"
-    log "[OK] Journal names enriched: $file"
+    [ -n "$sync_output" ] && echo "$sync_output"
+    log "[OK] Impact factors synced: $file"
+    return 0
+}
+
+run_post_fetch_if_sync() {
+    local mode="$1"
+    local sync_output
+
+    case "$mode" in
+        if|journal-if|impact-factor)
+            return 0
+            ;;
+    esac
+
+    if [ "$AUTO_IF_SYNC" != "1" ]; then
+        log "[INFO] AUTO_IF_SYNC is disabled; skip post-fetch IF sync."
+        return 0
+    fi
+
+    if [ ! -f "$SYNC_IF_SCRIPT" ]; then
+        log "[WARN] IF sync script not found: $SYNC_IF_SCRIPT"
+        return 0
+    fi
+
+    log "🔁 Running post-fetch IF sync (reference=auto-unresolved)..."
+    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" --reference auto-unresolved 2>&1); then
+        log "[WARN] Post-fetch IF sync failed (non-blocking)."
+        [ -n "$sync_output" ] && echo "$sync_output"
+        return 0
+    fi
+    [ -n "$sync_output" ] && echo "$sync_output"
+    log "[OK] Post-fetch IF sync finished."
     return 0
 }
 
@@ -147,7 +180,11 @@ run_codex() {
     done <<< "$prompt"
     log "────────────────────────────────────"
 
-    trace_file=$(mktemp "/tmp/codex-run-XXXXXX.log")
+    trace_file=$(mktemp -t codex-run)
+    if [ -z "$trace_file" ] || [ ! -f "$trace_file" ]; then
+        log "[ERROR] Failed to create trace file via mktemp"
+        return 1
+    fi
 
     if [ "$timeout_sec" -gt 0 ]; then
         if [ ! -f "$RUN_WITH_TIMEOUT_SCRIPT" ]; then
@@ -278,30 +315,93 @@ git_sync_data() {
     return 0
 }
 
-# Allow timeout fallback when codex already wrote a valid data file.
+# Retry codex execution and allow validated-file fallback on failures.
+# Retry codex execution without model fallback.
+run_codex_with_fallback_base() {
+    local title="$1"
+    local prompt="$2"
+    local file="$3"
+    local domain_id="$4"
+    local retry_attempts="${CODEX_RETRY_ATTEMPTS:-3}"
+    local retry_delay="${CODEX_RETRY_DELAY_SECONDS:-20}"
+    local attempt=1
+    local rc=1
+
+    if ! [[ "$retry_attempts" =~ ^[0-9]+$ ]] || [ "$retry_attempts" -lt 1 ]; then
+        log "[WARN] Invalid CODEX_RETRY_ATTEMPTS=$retry_attempts, fallback to 3"
+        retry_attempts=3
+    fi
+    if ! [[ "$retry_delay" =~ ^[0-9]+$ ]] || [ "$retry_delay" -lt 0 ]; then
+        log "[WARN] Invalid CODEX_RETRY_DELAY_SECONDS=$retry_delay, fallback to 20"
+        retry_delay=20
+    fi
+
+    while [ "$attempt" -le "$retry_attempts" ]; do
+        if [ "$attempt" -gt 1 ]; then
+            log "🔁 Retry attempt ${attempt}/${retry_attempts}: $title"
+        fi
+
+        run_codex "$title" "$prompt"
+        rc=$?
+        if [ $rc -eq 0 ]; then
+            return 0
+        fi
+
+        if [ $rc -eq 124 ]; then
+            log "[WARN] codex timeout detected. Checking whether a valid data file was already written: $file"
+            if validate_data_file "$file" "$domain_id"; then
+                log "[WARN] Timeout fallback accepted: continue with validated file."
+                return 0
+            fi
+            log "[WARN] Timeout fallback unavailable: no valid data file yet."
+        else
+            log "[WARN] codex exited with code $rc. Checking whether a valid data file was already written: $file"
+            if validate_data_file "$file" "$domain_id"; then
+                log "[WARN] Non-timeout fallback accepted: continue with validated file."
+                return 0
+            fi
+            log "[WARN] No valid data file available after exit code $rc."
+        fi
+
+        if [ "$attempt" -lt "$retry_attempts" ] && [ "$retry_delay" -gt 0 ]; then
+            log "[WARN] Sleeping ${retry_delay}s before retry..."
+            sleep "$retry_delay"
+        fi
+        attempt=$((attempt + 1))
+    done
+
+    log "[ERROR] Exhausted retries for $title (last exit code: $rc)"
+    return $rc
+}
+
+# Retry codex execution and allow validated-file fallback on failures.
 run_codex_with_fallback() {
     local title="$1"
     local prompt="$2"
     local file="$3"
     local domain_id="$4"
+    local rc=1
 
-    run_codex "$title" "$prompt"
-    local rc=$?
+    run_codex_with_fallback_base "$title" "$prompt" "$file" "$domain_id"
+    rc=$?
     if [ $rc -eq 0 ]; then
         return 0
     fi
-    if [ $rc -ne 124 ]; then
-        return $rc
+
+    if [ -n "${FALLBACK_MODEL_ID:-}" ] && [ "$FALLBACK_MODEL_ID" != "$MODEL_ID" ]; then
+        log "[WARN] Primary model failed; retrying with fallback model: $FALLBACK_MODEL_ID"
+        local original_model="$MODEL_ID"
+        MODEL_ID="$FALLBACK_MODEL_ID"
+        run_codex_with_fallback_base "$title" "$prompt" "$file" "$domain_id"
+        rc=$?
+        MODEL_ID="$original_model"
+        if [ $rc -eq 0 ]; then
+            return 0
+        fi
+        log "[ERROR] Fallback model failed (model=$FALLBACK_MODEL_ID)."
     fi
 
-    log "[WARN] codex timeout detected. Checking whether a valid data file was already written: $file"
-    if validate_data_file "$file" "$domain_id"; then
-        log "[WARN] Timeout fallback accepted: continue with validated file."
-        return 0
-    fi
-
-    log "[ERROR] Timeout fallback rejected: no valid data file available."
-    return 124
+    return $rc
 }
 
 # Extract a single value from YAML frontmatter (between --- markers)
@@ -347,7 +447,7 @@ run_academic_domain() {
 
     run_codex_with_fallback "Fetch $label" "$prompt" "$data_file" "$domain_id" || return $?
     validate_data_file "$data_file" "$domain_id" || return $?
-    enrich_journal "$data_file" || return $?
+    sync_impact_factors "$data_file" || return $?
     generate_digest "$data_file" "$domain_id" || return $?
 }
 
@@ -412,6 +512,16 @@ case "$MODE" in
         validate_data_file "$AI_DATA_FILE" "ai" || exit $?
         generate_digest "$AI_DATA_FILE" "ai" || exit $?
         ;;
+    if|journal-if|impact-factor)
+        if [ ! -f "$SYNC_IF_SCRIPT" ]; then
+            log "[ERROR] IF sync script not found: $SYNC_IF_SCRIPT"
+            exit 1
+        fi
+        shift || true
+        if ! python3 "$SYNC_IF_SCRIPT" "$@"; then
+            exit 1
+        fi
+        ;;
     *)
         # Treat all positional args as academic domain IDs
         for domain_id in "$@"; do
@@ -419,6 +529,8 @@ case "$MODE" in
         done
         ;;
 esac
+
+run_post_fetch_if_sync "$MODE"
 
 log "✅ Task finished."
 if ! git_sync_data "$MODE"; then

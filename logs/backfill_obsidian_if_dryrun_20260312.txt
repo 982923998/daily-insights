@@ -1,0 +1,56 @@
+mode=dry-run
+vault_dir=/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD
+total_md=210
+filled=5
+unmatched=40
+matched_but_no_if=4
+skip_has_if=129
+skip_no_journal=0
+skip_no_frontmatter=32
+filled_files:
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/An fMRI Feature Selection Method Based on a Minimum Spanning Tree for Identifying Patients with Auti.md
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Automated Characterization of Autism Spectrum Disorder using Combined Functional and Structural MRI.md
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Computational framework for detection of subtypes of neuropsychiatric disorders based on DTI-derived.md
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Deep learning identifies robust gender differences in functional brain organization and their dissoc.md
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Inter-subject functional variability of gray and white matter in autism spectrum disorder.md
+unmatched_files:
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/A Deep Learning Framework for Classifying Autism Spectrum Disorder from fMRI Images.md	2024 International Conference on Cybernation and Computation (CYBERCOM)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/A NOVEL DWT-BASED DISCRIMINANT FEATURES EXTRACTION FROM TASK-BASED FMRI_ AN ASD DIAGNOSIS STUDY USIN.md	2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/A Self-Attention Based DNN Model to Classify Dynamic Functional Connectivity for Autism Spectrum Dis.md	2023 IEEE International Conference on Bioinformatics and Biomedicine
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/ADAPTIVE MULTIVIEW COMMUNITY-PRESERVED GRAPH CONVOLUTIONAL NETWORK FOR MULTIATLAS-BASED FUNCTIONAL C.md	ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/ASDEXPLAINER _ AN INTERPRETABLE GRAPH NEURAL NETWORK FRAMEWORK FOR BRAIN NETWORK BASED AUTISM SPECTR.md	IEEE 14th International Conference on Computing Communication and Networking
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Age-Specific Diagnostic Classification of ASD Using Deep Learning Approaches.md	Telehealth Ecosystems in Practice
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/An Explainable Multi-atlas Fusion Model based on Spatial Overlap for ASD Diagnosis.md 21-04-21-586.md	Proceedings of the 33rd ACM International Conference on Information and Knowledge
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Architectural configurations, atlas granularity and functional connectivity with diagnostic value in.md	2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Atypical White Matter Amplitude of Low Frequency Fluctuation in Autism – A Multivariate Pattern Anal.md	2020 7th International Conference on Information Science and Control Engineering
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Autism Spectrum Disorder Classification with Interpretability in Children based on Structural MRI Fe.md	arXiv preprint
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Autism Spectrum Disorder Prediction using Sparse Connectivity Patterns in rs-fMRI Data.md	2024 IEEE 21st India Council International Conference (INDICON)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Autistic Spectrum Disorders Diagnose with Graph Neural Networks.md	Proceedings of the 31st ACM International Conference on Multimedia (MM '23)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Automated Diagnosis of Autism Spectrum Disorder Condition Using Shape Based Features Extracted from.md	Challenges of Trustable AI and Added-Value on Health, B. Séroussi et al.
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Auxiliary diagnosis of children with autism based on high-order brain functional connectivity networ.md	Proc. of SPIE Vol. 13208, 132082U, Third International Conference on Biomedical
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/BRAINOOD_ OUT-OF-DISTRIBUTION GENERALIZ-ABLE BRAIN NETWORK ANALYSIS.md	ICLR 2025 (审阅中)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Bayesian XAI methods towards a robustness-centric approach to Deep Learning_ an ABIDE I study.md	IEEE International Symposium on Medical Measurements and Applications (MeMeA)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Bimodality Approach to Mental Disorder Diagnosis via Dual-pathway Fusion Perceptual Network.md	2024 International Conference on Bioinformatics and Biomedicine (BIBM)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/BrainWaveNet_ Wavelet-based Transformer for Autism Spectrum Disorder Diagnosis.md	International Conference on Medical Image Computing and Computer Assisted
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/CAUSAL MODELING OF FMRI TIME-SERIES FOR INTERPRETABLE AUTISM SPECTRUM DISORDER CLASSIFICATION.md	arXiv
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Combination of Machine Learning and Functional Networks Concept for Diagnosis of Autism Spectrum Dis.md	2022 Fourth International Conference Neurotechnologies and Neurointerfaces
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Combining Deep and Hand-crafted MRI Features for Identifying Sex-specific Differences in Autism-Spec.md	Proc. of SPIE Vol. 11314, Medical Imaging 2020: Computer-Aided Diagnosis
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Community-Aware Transformer for Autism Prediction in fMRI Connectome.md	arXiv preprint
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Consistent Brain Age Difference in Childhood Autism Spectrum Disorder and its Subtypes.md	HBAI 2024, CCIS
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Copy Number Variation Informs fMRI-based Prediction of Autism Spectrum Disorder.md	Mach Learn Clin Neuroimaging
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Deep Learning approach for classification and interpretation of Autism Spectrum Disorder.md	IEEE Conference Proceedings
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Denoising VAE as an Explainable Feature Reduction and Diagnostic Pipeline for Autism Based on Restin.md	Preprint/Conference Paper (not specified)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Diagnosis and Pathogenic Analysis of Autism Spectrum Disorder Using Fused Brain Connection Graph.md	arXiv preprint
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Enhancing Autism Detection in MRI Images with Explainable AI_ A Transfer Learning Approach using Gra.md	2024 International Conference on Brain Computer Interface & Healthcare Technologies
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Explainable AI for Autism Diagnosis_ Identifying Critical Brain Regions Using fMRI Data.md	arXiv preprint
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Explaining Identity-aware Graph Classifiers through the Language of Motifs.md	International Joint Conference on Neural Networks (IJCNN)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/GRAPH AUTOENCODER-BASED EMBEDDED LEARNING IN DYNAMIC BRAIN NETWORKS FOR AUTISM SPECTRUM DISORDER IDE.md	2022 IEEE International Conference on Image Processing (ICIP)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Graph Embedding Using Infomax for ASD Classification and Brain Functional Difference Detection.md	Proc SPIE Int Soc Opt Eng
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Hybrid CNN-RNN Models for Multimodal Analysis of Autism Spectrum Disorder Neuroimaging.md	2025 International Conference on Automation and Computation (AUTOCOM)
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Hypergraph Label Contrastive Learning for Autism Spectrum Disorder Classification.md	2024 5th International Conference on Computer Vision, Image and Deep Learning
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/IcoConv_ Explainable brain cortical surface analysis for ASD classification.md	Shape Med Imaging
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Identifying Autism Spectrum Disorder Using Brain Networks_ Challenges and Insights.md	14th International Conference on Information, Intelligence, Systems & Applications
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Identifying Neural Patterns and Biomarkers of ASD through Multi-phase Resting-State Functional MRI A.md	2023 11th International Conference on Bioinformatics and Computational Biology
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Integrating Neural Networks and Dictionary Learning for Multidimensional Clinical Characterizations.md	arXiv preprint
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/Investigation of sex-related functional connectivity alterations in autism using class imbalance mit.md	46th Annual International Conference of the IEEE Engineering in Medicine
+/Users/chenmayao/Documents/Obsidian Vault/XAI+ASD/比较用于自闭症预测的白质纤维束分割方法.md	2023年第19届医学信息处理与分析国际研讨会 (SIPAIM)

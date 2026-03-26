@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-22",
+  "articles": [
+    {
+      "title": "Clinical characteristics of autoimmune GFAP astrocytopathy with concomitant Epstein-Barr virus positivity: a case series of 12 patients and literature review.",
+      "summary": "BACKGROUND: Autoimmune glial fibrillary acidic protein astrocytopathy (GFAP-A) is a novel autoimmune central nervous system (CNS) disorder. Epstein-Barr virus (EBV) has been implicated in various neurological diseases, yet GFAP-A with concomitant Epstein-Barr virus positivity is poorly understood. METHODS: We retrospectively analyzed 12 patients with concomitant EBV and GFAP positivity admitted between January 2022 and September 2025, and performed a literature review. Clinical, imaging, laboratory features, treatments, and outcomes were evaluated. RESULTS: In our cohort, the median age at onset was 52.5 years (58% male). The predominant phenotype was meningo-encephalomyelitis (33%), with headache (100%) and fever (92%) as common symptoms. Peripheral nervous system involvement was noted in 16%. CSF analysis showed pleocytosis (100%) and elevated protein levels. MRI revealed T2/FLAIR hyperintensities in 67%, mainly in white matter and brainstem, and spinal lesions in 73%, including longitudinally extensive transverse myelitis (27%). All received antiviral and immunotherapy, with most showing improvement after intravenous methylprednisolone (± IVIG). At a median 32-month follow-up, only one relapsed, two died, and 80% of survivors achieved good outcomes (mRS < 3). Literature review (32 cases) showed similar features and immunotherapy responsiveness. Overall recurrence and mortality rates were both 7%. CONCLUSIONS: In this small series, cases with concomitant EBV and GFAP positivity showed overlapping clinical features with classical GFAP-A and generally favorable responses to immunotherapy. Early recognition and CSF-based GFAP antibody testing may help improve patient outcomes; however, further studies are needed to confirm these findings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41862703/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurol",
+      "published_date": "2026-03-21",
+      "date": "2026-03-22"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-22T00:31:38+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Clinical characteristics of autoimmune GFAP astrocytopathy with concomitant Epstein-Barr virus positivity: a case series of 12 patients and literature review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41862703/",
+        "published_date": "2026-03-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "date": "2026-03-21",
+  "articles": [
+    {
+      "title": "Transdermal estradiol spray in Nordic menopausal women: real-world patient outcomes.",
+      "summary": "This study aimed to evaluate the impact of transdermal estrogen therapy on health-related quality of life (HRQoL) and treatment tolerability in postmenopausal women in a real-world setting.A prospective, non-interventional study was conducted in Sweden and Finland. Participants used a spray delivering 1.53 mg of estradiol (E 2 ) per 90 µl dose. HRQoL (measured using the Menopause Rating Scale [MRS]), dosing patterns and treatment satisfaction were assessed through web-based questionnaires at baseline, week 6 and week 12. Mixed-model repeated-measures analysis was performed.Of 249 participants (mean age 52.1 years), 165 (66.3%) completed the 12-week follow-up. Most women (67.2%) used one or two sprays daily. The mean MRS total score was 17.8 at baseline, and decreased by 8.6 points at week 6 ( p = 0.012) and 9.9 points by week 12 ( pThe E 2 spray improved HRQoL and was well tolerated. Flexible dosing, ease of use and real-world effectiveness support that the spray is a practical, user-friendly treatment for menopausal symptoms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854107/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Climacteric",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Neural correlates of pure apathy in multiple sclerosis: An exploratory neuroimaging study.",
+      "summary": "Pure apathy is relatively common in people with Multiple Sclerosis (PwMS), but its neural mechanisms remain unexplored. Therefore, we investigated the neural correlates of pure apathy in PwMS, differentiating it from depression. Sixty-two PwMS underwent neuropsychological assessments and Magnetic Resonance Imaging scans. Pure apathy is primarily associated with lesions in the cortical-limbic-subcortical system implicated in goal-directed behaviour and motivation. Apathy and depression arise from distinct yet partially overlapping neural mechanisms, with basal ganglia and limbic structures playing a key role.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854515/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Neuropsychol",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Psilocybin effects on brain functional connectivity: a systematic review of fMRI studies.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41854988/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Discov Ment Health",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "From chronic pain to depression: Neurogenesis-driven microglial remodeling in the hippocampal dentate gyrus.",
+      "summary": "Chronic pain often evolves into depression and anxiety, yet mechanisms linking sensory distress to affective dysfunction remain unclear. Integrating human neuroimaging from the UK Biobank with a rodent model, we uncovered biphasic hippocampal remodeling. Hippocampal volume increased during early pain stages, with paradoxical cognitive improvements, but declined with comorbid depression. In rodents, the dentate gyrus (DG) acted as a hub governing this transition: Lesions of DG prevented affective symptoms. Elevated DG activity was linked to hyperactive newborn neurons and microglial recruitment and remodeling, leading to circuit imbalance. Whereas suppressing newborn neuron activity alleviated emotional pathology at the expense of cognition, microglial modulation selectively restored affective behavior without cognitive cost. These findings reveal microglia-mediated hippocampal remodeling as a key mechanism linking chronic pain to mood disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41855330/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Science",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "High-gamma tACS may regulate brain network connectivity to alleviate symptoms in female adolescent non-suicidal self-injury: a preliminary TMS-EEG pilot study.",
+      "summary": "To explore the efficacy and potential neurophysiological mechanisms of 77.5 Hz transcranial alternating current stimulation (tACS) in the treatment of female adolescent non-suicidal self-injury (NSSI).Six female NSSI patients received 21 days of 77.5 Hz, 15 mA tACS treatments. Neuropsychological scales were assessed at baseline (W0), after treatment (W3), and 4-week (W7) and 8-week (W11) follow-ups. Transcranial magnetic stimulation with EEG evaluated changes in source-level brain activity and phase-synchronous functional connectivity. Mixed repeated-measures ANOVA with Bonferroni correction (pSignificant improvements were observed in depressive symptoms and self-injury behaviors after treatment (OSIC: W7: P = 0.009, Cohen's d=-1.682; HAMD-24: W3: P = 0.006, Cohen's d=-1.892; W7: P = 0.001, Cohen's d=-2.839; W11: P = 0.001, Cohen's d=-2.738; all P77.5 Hz tACS may alleviate NSSI symptoms in female adolescents potentially by regulating brain activity and functional connectivity in emotional-control networks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41857525/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "BMC Psychiatry",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-21T00:54:28+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "High-gamma tACS may regulate brain network connectivity to alleviate symptoms in female adolescent non-suicidal self-injury: a preliminary TMS-EEG pilot study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41857525/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Psilocybin effects on brain functional connectivity: a systematic review of fMRI studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854988/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neural correlates of pure apathy in multiple sclerosis: An exploratory neuroimaging study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854515/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "From chronic pain to depression: Neurogenesis-driven microglial remodeling in the hippocampal dentate gyrus.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41855330/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Transdermal estradiol spray in Nordic menopausal women: real-world patient outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41854107/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

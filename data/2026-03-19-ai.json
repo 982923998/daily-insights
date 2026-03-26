@@ -1,0 +1,149 @@
+{
+  "date": "2026-03-19",
+  "articles": [
+    {
+      "title": "Introducing GPT-5.4 mini and nano",
+      "summary": "OpenAI 发布 GPT-5.4 的 mini 与 nano 版本，主打更快响应与更低成本，面向编码、工具调用和多模态推理场景。",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-17",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "summary": "Google 宣布将 Personal Intelligence 扩展到 Search AI Mode、Gemini App 与 Chrome，强化跨产品的个性化 AI 助手能力。",
+      "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-17",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Show HN: Real-time local TTS (31M params, 5.6x CPU, voice cloning, ONNX)",
+      "summary": "一个本地实时 TTS 项目，强调小参数量与 CPU 实时性能，并支持声音克隆与 ONNX 部署。",
+      "url": "https://github.com/ZDisket/vits-evo",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Show HN: Xybrid – run LLM and speech locally in your app (no back end, Rust)",
+      "summary": "Xybrid 提供本地化 LLM 与语音能力集成，定位无后端依赖的 Rust 应用嵌入方案。",
+      "url": "https://github.com/xybrid-ai/xybrid",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-18",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Show HN: ToolGuard – Pytest for AI agent tool calls",
+      "summary": "ToolGuard 将 AI agent 工具调用测试流程类比为 Pytest，帮助在发布前发现工具调用与权限边界问题。",
+      "url": "https://news.ycombinator.com/item?id=47419960",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-17",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "Ranvier: Open source prefix-aware routing for LLM inference (79-85% lower P99)",
+      "summary": "LocalLLaMA 社区讨论 Ranvier 的开源前缀感知路由方案，主张通过请求路由优化显著降低推理尾延迟。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxiv8l/ranvier_open_source_prefixaware_routing_for_llm/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-19"
+    },
+    {
+      "title": "project: WASM shell for LLM agents, easy, no setup, sandboxed",
+      "summary": "Reddit 出现一个面向 LLM agent 的 WASM shell 项目，强调免安装和沙箱执行，适合快速实验 agent 工具调用。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxf0nd/project_wasm_shell_for_llm_agents_easy_no_setup/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-19"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-19T00:03:45+00:00",
+    "version": 1,
+    "summary": "Captured 7 AI items. Preference focus is new models and new technical architecture: 4 high-priority, 2 medium-priority, 1 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 4,
+      "medium_priority": 2,
+      "low_priority": 1
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 5
+      },
+      {
+        "topic": "new architecture",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Introducing GPT-5.4 mini and nano",
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+        "published_date": "2026-03-17",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Bringing the power of Personal Intelligence to more people",
+        "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+        "published_date": "2026-03-17",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "project: WASM shell for LLM agents, easy, no setup, sandboxed",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxf0nd/project_wasm_shell_for_llm_agents_easy_no_setup/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Ranvier: Open source prefix-aware routing for LLM inference (79-85% lower P99)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxiv8l/ranvier_open_source_prefixaware_routing_for_llm/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Xybrid – run LLM and speech locally in your app (no back end, Rust)",
+        "url": "https://github.com/xybrid-ai/xybrid",
+        "published_date": "2026-03-18",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: ToolGuard – Pytest for AI agent tool calls",
+        "url": "https://news.ycombinator.com/item?id=47419960",
+        "published_date": "2026-03-17",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Real-time local TTS (31M params, 5.6x CPU, voice cloning, ONNX)",
+        "url": "https://github.com/ZDisket/vits-evo",
+        "published_date": "2026-03-18",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

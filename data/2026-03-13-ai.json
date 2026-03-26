@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-13",
+  "articles": [
+    {
+      "title": "Show HN: DarkMatter – P2P mesh networking protocol for AI agents",
+      "summary": "开源的 P2P agent 网络协议，支持去中心化发现、签名消息与 MCP 接入，面向多机多代理协作场景。",
+      "url": "https://loseylabs.ai/docs",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Show HN: The Common Infrastructure for Agentic Communication",
+      "summary": "面向企业场景的代理协同基础设施，强调跨模型连接、可审计与自托管治理能力。",
+      "url": "https://cyrisai.dev/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Show HN: Tarvos – Relay Architecture for infinitely building with coding agents",
+      "summary": "通过接力式多 agent 工作流降低长上下文退化，采用 baton handoff 与上下文预算机制提升持续编码稳定性。",
+      "url": "https://github.com/Photon48/tarvos/tree/main",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "summary": "OpenAI 公布 Rakuten 在 Codex 辅助下缩短修复周期，聚焦工程效率与 CI/CD 代码审查自动化。",
+      "url": "https://openai.com/index/rakuten",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-11",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "summary": "OpenAI 介绍基于 Responses API 的 agent 运行环境设计，覆盖工具调用、容器执行与状态管理。",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-11",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "How AI is helping improve heart health in rural Australia",
+      "summary": "Google 发布 AI 医疗项目，面向偏远地区心血管早筛与健康管理，属于 AI for Science/Health 落地案例。",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+      "category": "AI",
+      "subcategory": "AI for Science",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-13T03:05:13+00:00",
+    "version": 1,
+    "summary": "Captured 6 AI items. Preference focus is new models and new technical architecture: 1 high-priority, 4 medium-priority, 1 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 1,
+      "medium_priority": 4,
+      "low_priority": 1
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 2
+      },
+      {
+        "topic": "new architecture",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "From model to agent: Equipping the Responses API with a computer environment",
+        "url": "https://openai.com/index/equip-responses-api-computer-environment",
+        "published_date": "2026-03-11",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Tarvos – Relay Architecture for infinitely building with coding agents",
+        "url": "https://github.com/Photon48/tarvos/tree/main",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Rakuten fixes issues twice as fast with Codex",
+        "url": "https://openai.com/index/rakuten",
+        "published_date": "2026-03-11",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: The Common Infrastructure for Agentic Communication",
+        "url": "https://cyrisai.dev/",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: DarkMatter – P2P mesh networking protocol for AI agents",
+        "url": "https://loseylabs.ai/docs",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "How AI is helping improve heart health in rural Australia",
+        "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+        "published_date": "2026-03-12",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

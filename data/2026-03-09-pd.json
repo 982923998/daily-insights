@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-09",
+  "articles": [
+    {
+      "title": "The Brain-Age Gap in Pediatric Dystonia: Neuroanatomical Deviations Inform Deep Brain Stimulation Outcomes.",
+      "summary": "Dystonia in children is a heterogeneous condition with variable response to deep brain stimulation (DBS). Brain-age gap, a machine learning-derived metric of structural deviation from norm, may capture signatures that differentiate underlying biotypes and predict outcomes. A brain age model was trained on several thousand normative developmental trajectories (n = 2623). Brain-age gap (the difference between predicted and chronological age) was computed from pre-DBS T1-weighted magnetic resonance imaging in 37 children with dystonia and compared to matched healthy controls. Associations with etiology, Burke-Fahn-Marsden Dystonia Rating Scale (BFMDRS) and Pediatric Quality-of-Life (PedsQL) scores were examined. Children with dystonia showed a greater brain-age gap (structural deviation) compared to controls (P < 0.001). Greater gap was linked to worse baseline motor scores and poorer 1-year quality-of-life improvement. Patterns differed by etiology, with distinct regional deviations in genetic and acquired dystonia. Brain-age modeling reveals biologically distinct subtypes of pediatric dystonia and may offer a biomarker for stratification and outcome prediction. � 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41797514/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mov Disord",
+      "published_date": "2026-03-09",
+      "date": "2026-03-09"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-09T14:10:30+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The Brain-Age Gap in Pediatric Dystonia: Neuroanatomical Deviations Inform Deep Brain Stimulation Outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41797514/",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

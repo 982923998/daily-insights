@@ -1,0 +1,207 @@
+{
+  "date": "2026-03-06",
+  "articles": [
+    {
+      "title": "An ensemble approach to tensor learning.",
+      "summary": "Motivated by recent development of tensor regression modeling, we propose a novel tensor ensemble learning (TEL) approach. While CANDECOMP/PARAFAC (CP) decomposition is an efficient technique to reduce the number of parameters in tensor covariate, determining an appropriate CP rank remains uncertain in practice. Furthermore, the structural complexity of tensor often varies across different spatial regions. To explore the intrinsic tensor structure, we design different tensor partition strategies and divide tensor into disjoint blocks to form candidate models. A model ensemble method is then developed to explore the uncertainty in both tensor block structure and CP rank. To assign weights to candidate models and enhance predictive performance, we leverage the predictability, computability, and stability framework for veridical data science. Simulation studies are carried out to assess the performance of TEL under varying levels of tensor complexity. We further apply TEL to two real data applications about glaucoma management using fundus image and cognitive ability prediction in Alzheimer's disease using neuroimaging. Our numerical studies illustrate the superiority of TEL over existing methods and highlight its promise for complex tensor data analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41773579/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Stat Methods Med Res",
+      "published_date": "2026-03-03",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Bidirectional prognostic predictions of conversion and reversion in amnestic mild cognitive impairment.",
+      "summary": "Amnestic mild cognitive impairment (aMCI) and Alzheimer's disease (AD) are closely related. While some aMCI patients convert to AD (conversion), some revert to age-appropriate cognitive functioning (reversion). Early identification of these bidirectional trajectories informs aMCI-AD pathology and aids patient management. Data from 129 aMCI participants in the Alzheimer's Disease Neuroimaging Initiative, who either converted or reverted, were analyzed. Baseline and longitudinal data relative to exact conversion and reversion times were incorporated to evaluate predictive power using support vector machine analysis. The accuracy of three models, each utilizing different data modalities, was compared. Neurobiological markers associated with these clinical trajectories were examined. The model incorporating brain volumetric changes achieved 92.31% accuracy in classifying conversion vs. reversion. Key neural markers included left inferior lateral ventricle volume for conversion times, left inferior temporal gyrus volume for cognitive status at conversion, and hippocampal and amygdala volumes for memory performance at conversion. The models offer bidirectional, prognostic predictions in aMCI patients. Identified markers provide valuable insights for early intervention. This study informs strategies to reduce AD incidence and optimize resource allocation, contributing to a more comprehensive understanding of disease trajectories and effective management.© 2026. The Author(s).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774085/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Geroscience",
+      "published_date": "2026-03-03",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "A CNN-transformer fusion for EEG-based discrimination of Alzheimer's and frontotemporal dementia.",
+      "summary": "Dementia is a progressive neurodegenerative disorder that severely impacts cognitive functions and daily living, especially in aging populations. Among its subtypes, Alzheimer's disease (AD) and frontotemporal dementia (FTD) exhibit overlapping clinical symptoms, making early and accurate differentiation a critical challenge. Electroencephalography (EEG), as a non-invasive and cost-effective modality, provides valuable insights into the neurophysiological disruptions associated with these conditions. This study aims to develop a robust EEG-based diagnostic framework capable of accurately classifying AD, FTD, and healthy controls (HC) by integrating domain-specific signal processing with advanced deep learning techniques. This study employed a publicly accessible dataset consisting of resting-state EEG recordings from a total of 88 participants, comprising 29 individuals with AD, 23 diagnosed with FTD, and 36 age-matched HC. The proposed model integrates Common Spatial Pattern (CSP) filtering with a sequential modified hybrid architecture that combines Convolutional Neural Networks (CNNs) and a Vision Transformer (ViT). By fusing domain-informed spatial filtering with deep hierarchical feature learning, the model captures both local signal characteristics and global contextual dependencies. A 10-fold cross-validation approach was employed to assess model performance and generalizability. The proposed model achieved notable classification accuracies of 95.86%, 94.76%, 94%, and 92.14% for the AD/HC, FTD/HC, AD/FTD, and AD/FTD/HC classification tasks, respectively. These results underscore the diagnostic potential of EEG-based deep learning frameworks in distinguishing among neurodegenerative conditions and highlight their promise in supporting more precise and individualized clinical interventions. This study presents a novel end-to-end EEG classification pipeline that fuses domain-guided spatial filtering with deep neural feature learning. The promising results suggest that the proposed method could serve as a valuable component in future clinical decision support systems for dementia, contingent upon further validation in real-world clinical settings.© 2025. Australasian College of Physical Scientists and Engineers in Medicine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774419/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Phys Eng Sci Med",
+      "published_date": "2026-03-03",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "MLC-GCN: Multi-Level Generated Connectome Based GCN for AD Detection.",
+      "summary": "Resting state fMRI (rsfMRI) is widely used to differentiate Alzheimer's Disease (AD) and identify biomarkers but its obscure features and noises challenge the present models. Brain graph convolution network (GCN) provides a good interpretation but suffers from the inferior performance due to the insufficient feature representation. Population GCN improves the precision of detection by involving the phenotypic information but fails in the bio logical interpretation. The GCN taking a single generated connectome as input focuses only on the low-level inter regional temporal correlation and is incapable to exploit hierarchical spatial functional features. In this paper, we propose a multi-level connectome-generated GCN (MLC GCN) to enhance the feature extraction for the individual connectome. First, we construct multiple connectomes in parallel through stacked spatiotemporal feature extractors (STFEs), effectively enhancing the hierarchical features and reducing the noise. Each generated connectome is then input into the GCN for further feature extraction, and the output of all GCNs is concatenated for a multilayer percep tron to predict AD. We use independent cohort validations ontwomedicaldatasetsADNIandOASIS-3,andexperiment results demonstrate MLC-GCN obtains better performance for differentiating normal control, mild cognitive impairment and AD than current GCN architectures and other AD classifiers. The proposed MLC-GCNrevealshighinterpreta tion in terms of learning clinically reasonable connectome nodes and connectivity features.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774666/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "IEEE Trans Biomed Eng",
+      "published_date": "2026-03-03",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Stage-Dependent mediation of white matter hyperintensities between plasma biomarkers and cognitive function in Alzheimer's disease.",
+      "summary": "White matter hyperintensities (WMHs) are common in Alzheimer's disease (AD) and may contribute to cognitive impairment. However, the associations between regional WMH volumes, cognitive domains, and plasma biomarkers remain unclear. This study aimed to explore these relationships across the AD spectrum. A total of 311 participants were enrolled, including healthy controls (HC), individuals with subjective cognitive decline (SCD), mild cognitive impairment (MCI), and AD. All participants underwent comprehensive neuropsychological assessment, brain magnetic resonance imaging, and plasma biomarker analysis. WMH volumes were segmented using United Imaging software and classified based on anatomical location: juxtaventricular WMH (juxWMH), periventricular WMH (pWMH), juxtacortical WMH (jcWMH), and deep WMH (dWMH). Correlations among regional WMH volumes, plasma biomarkers, and cognitive domains were analyzed with multiple comparisons. Path analysis was used to assess potential mediation effects. Mediation analyses using bootstrapping were conducted separately in cognitively unimpaired and cognitively impaired groups to assess WMH-mediated pathways between biomarkers and cognition. Compared with HC, SCD, and MCI groups, the AD group showed significantly increased log-transformed (lg) juxWMH volumes (all P < 0.05, Bonferroni corrected). The AD group showed significantly larger lgpWMH and lgjcWMH volumes than HC, SCD and AD groups (all P < 0.05). Lower plasma Aβ42/Aβ40 ratio was associated with higher lgjuxWMH, lgpWMH, and lgjcWMH volumes. Higher lgjuxWMH volume was associated with worse memory (r = -0.16, P = 0.006), language (r = -0.34, P < 0.001), and executive function (r = 0.18, P = 0.003). Similar trends were found for lgpWMH and lgjcWMH volumes. Mediation analysis revealed that in cognitively unimpaired individuals, juxWMH and pWMH primarily mediated amyloid-cognitive associations, while in cognitively impaired patients, mediation expanded to include neuroinflammatory and neurodegeneration pathways across multiple location-specific WMH. Location-specific WMH demonstrate stage-dependent mediation patterns in AD pathophysiology, evolving from amyloid-driven changes to multi-factorial processes. These findings provide insights for developing targeted therapeutic strategies at different disease stages.© 2026. The Author(s).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41775699/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-03-03",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "MRI In Vivo Detection of Amyloid-β Protein Deposition in Different Brain Regions of Patients with AD and MCI.",
+      "summary": "To investigate a non-invasive magnetic resonance imaging (MRI)-based method for detecting amyloid-β (Aβ) protein deposition in different brain regions of patients with mild cognitive impairment (MCI) and Alzheimer's disease (AD). This study included 80 patients with MCI and 62 patients with AD, who were randomly divided into training and testing sets at an 8:2 ratio. All participants underwent 18 F-florbetapir positron emission tomography (PET) imaging and three-dimensional T1-weighted MRI. The interval between MRI and PET examinations did not exceed 30 days. A deep learning-based three-dimensional VB-Net model was developed for brain region segmentation. All PET images were registered to the corresponding MRI images, and standardized uptake ratios for 109 brain regions were calculated and averaged. Following radiomics feature extraction and selection using multiple methods, six machine learning algorithms were applied to establish regression models. In addition, a lightweight transformer-based deep learning model was constructed by improving the original transformer architecture. A total of 1,409 features were extracted from each brain region in patients with MCI and AD. After feature selection, 46, 16, 47, 59, 17, and 72 features were retained for the construction of stochastic gradient regression (SGR), GBR, random forest regression (RFR), support vector regression (SVR), extreme gradient boosting (XGB), and k-nearest neighbor (KNN) models, respectively. Delong test analysis demonstrated that the RFR model achieved the best performance, with mean absolute error (MAE), mean squared error (MSE), R2 score (RS), and Pearson correlation coefficient (PCC) values of 0.13 ± 0.05, 0.03 ± 0.02, 0.77 ± 0.22, and 0.89 ± 0.05 in the training set, and 0.23 ± 0.10, 0.09 ± 0.08, 0.36 ± 0.12, and 0.65 ± 0.09 in the testing set, respectively. For the deep learning model, the MAE, MSE, RS, and PCC in the testing set were 0.41 ± 0.17, 0.25 ± 0.18, - 0.83 ± 0.42, and - 0.01 ± 0.17, respectively. An artificial intelligence-based approach was successfully developed to quantitatively detect Aβ protein accumulation in different brain regions of patients with AD and MCI using MRI. This method is convenient and non-invasive and does not require cerebrospinal fluid puncture or exposure to ionizing radiation.© 2026. The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41779032/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Brain Topogr",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Relationship between APOE Genotype Status and Imaging Features in Patients with Alzheimer Disease Being Considered for Antiamyloid β Therapy.",
+      "summary": "Alzheimer disease (AD) is a progressive neurodegenerative disorder that predominantly affects the aging population. Anti-amyloid β (anti-Aβ) therapies, such as lecanemab, have been developed to slow disease progression. However, their use is occasionally associated with amyloid-related imaging abnormalities (ARIA), posing prominent clinical challenges. It has been shown that apolipoprotein E (APOE)-ε4 genotype is strongly associated with an increased risk of microhemorrhages in AD, but the influence of specific APOE genotypes on imaging features important for anti-Aβ therapy remains unclear. This study explores the association between APOE genotypes and key imaging biomarkers in patients being considered for lecanemab treatment.This retrospective study evaluated patients with AD who underwent APOE genotyping and were considered for lecanemab therapy. Key assessments included microhemorrhage counts, white matter hyperintensity (WMH) scores, perivascular space (PVS) evaluations, and cognitive function. Microhemorrhages were identified based on both SWI and GRE sequences in each patient. Six radiologists blinded to the patient's APOE genotype status independently conducted the imaging analyses.A total of 85 patients were included in the study with rare genotypes excluded from analysis (3 patients). Among the common genotypes, e3/e4 was the most prevalent (55%). Statistical analysis revealed significant association between APOE genotype and microhemorrhage count based on the SWI and GRE sequences (P = .007 and P = .003, respectively). The mean identified microbleed count was 1 (based on SWI) and 0.5 (based on GRE) in the same cohort of patients, with the following genotype-specific means based on SWI sequence: e3/e3 = 0.7; e3/e4 = 0.6; and e4/e4 = 2.7. No significant associations were found between APOE genotype and Montreal Cognitive Assessment, WMH or PVS scores. Post hoc power analysis showed adequate power for SWI-based microbleed detection but low power for WMH and PVS.In this cohort of patients with AD being evaluated for lecanemab therapy, a significant association was identified between APOE genotype and the number of microhemorrhages with higher mean counts of microbleeds detected on SWI sequence compared with microbleeds detected on the GRE sequence of the same patients. No significant associations were found between APOE genotype and WMH, PVS, or cognitive impairment.© 2026 by American Journal of Neuroradiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781178/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "AJNR Am J Neuroradiol",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Chronic Pain and Cognitive Dysfunction: Clinical Implement, Mechanism, and Therapeutic Strategy.",
+      "summary": "Chronic pain (CP) is increasingly recognized not only as a sensory and emotional condition but also as a significant contributor to cognitive dysfunction. Growing evidence indicates that CP-induced cognitive dysfunction arises from a cascade of neurobiological processes, including persistent neuroinflammation, neurotransmitter dysregulation, and impaired synaptic plasticity. These mechanisms particularly affect the hippocampus and medial prefrontal cortex (mPFC)-regions essential for memory, attention, and executive function. Neuroimaging studies have documented structural atrophy and disrupted network connectivity in these brain areas in CP patients. At the molecular level, pro-inflammatory cytokines such as interleukin-1 beta (IL-1β) and tumor necrosis factor-alpha (TNF-α) impair glutamatergic and GABAergic signaling, disrupt long-term potentiation (LTP), and inhibit neurogenesis. Additionally, dysregulation of brain-derived neurotrophic factor (BDNF) signaling exacerbates synaptic vulnerability, contributing to cognitive decline. These mechanistic overlaps are particularly relevant in aging populations and in Alzheimer's disease (AD), where CP may act as a risk factor. This review integrates clinical and preclinical findings on CP-related cognitive dysfunction, outlines key molecular mechanisms, and explores emerging therapeutic strategies targeting inflammation, neurotransmitter systems, and synaptic repair. Understanding the interaction between chronic pain and cognition is critical for developing precision treatments that address both nociceptive and neurodegenerative pathways.Copyright © 2026 the authors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781326/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neurosci",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "α-synuclein positivity is associated with decline in brain microstructure in the Alzheimer's disease spectrum.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41782064/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimers Res Ther",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Plasma p-tau217 assays effectively predict amyloid status but lack precision for tau staging in Alzheimer's disease.",
+      "summary": "Blood-based biomarkers for Alzheimer's disease (AD) have demonstrated high performance in identifying amyloid-β (Aβ) pathology. However, the diagnostic accuracy of commercial plasma biomarker assays in predicting PET-defined AD stages-particularly late-stage tau accumulation-requires further evaluation. We included 229 participants from the Alzheimer's Disease Neuroimaging Initiative, all of whom underwent amyloid and tau PET imaging and testing with plasma assays. Among the plasma biomarkers, p-tau217 showed the strongest linear and non-linear associations with amyloid and tau PET. When distinguishing A + from A - T - participants, p-tau217 assays achieved the highest accuracy (AUC range: 0.85-0.91), outperforming other plasma biomarkers (AUC range: 0.66-0.81). However, the accuracy of plasma biomarkers, including p-tau217 assays, significantly decreased when differentiating A + T + from A + T - stages (AUC for p-tau217 assays: 0.69-0.77; AUC for other plasma biomarkers: 0.53-0.67; P < 0.05). These findings were replicated in an independent cohort (n = 334). Our study found that among currently available commercial plasma assays, including p-tau217 assays, they demonstrate high accuracy in classifying Aβ status but are less accurate in assessing tau pathology severity in Aβ positive individuals.© 2026. Springer-Verlag GmbH Germany, part of Springer Nature.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41784652/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neurol",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-06T13:48:59+00:00",
+    "version": 1,
+    "summary": "Captured 10 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 10; analysis-method items: 9.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 10,
+      "high_priority": 10,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 10
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 9
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "MRI In Vivo Detection of Amyloid-β Protein Deposition in Different Brain Regions of Patients with AD and MCI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41779032/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Stage-Dependent mediation of white matter hyperintensities between plasma biomarkers and cognitive function in Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41775699/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "MLC-GCN: Multi-Level Generated Connectome Based GCN for AD Detection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774666/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A CNN-transformer fusion for EEG-based discrimination of Alzheimer's and frontotemporal dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774419/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Chronic Pain and Cognitive Dysfunction: Clinical Implement, Mechanism, and Therapeutic Strategy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41781326/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Plasma p-tau217 assays effectively predict amyloid status but lack precision for tau staging in Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41784652/",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Relationship between APOE Genotype Status and Imaging Features in Patients with Alzheimer Disease Being Considered for Antiamyloid β Therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41781178/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Bidirectional prognostic predictions of conversion and reversion in amnestic mild cognitive impairment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774085/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "An ensemble approach to tensor learning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41773579/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "α-synuclein positivity is associated with decline in brain microstructure in the Alzheimer's disease spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41782064/",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

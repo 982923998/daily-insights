@@ -1,8 +1,11 @@
 #!/bin/bash
 # 抓取配置：模型与提示词模板统一维护
 
-# 可用示例：gpt-5.3-codex、gpt-5-codex、gpt-5
+# 可用示例：gpt-5.3-codex、gpt-5.2-codex、gpt-5-codex、gpt-5
 MODEL_ID="${MODEL_ID:-gpt-5.3-codex}"
+
+# 当天抓取失败时的降级模型（空则不降级）
+FALLBACK_MODEL_ID="${FALLBACK_MODEL_ID:-gpt-5.2-codex}"
 
 # 可选：指定 Codex provider（默认留空，使用你本机 codex 的默认 provider）
 CODEX_PROVIDER="${CODEX_PROVIDER:-}"
@@ -12,6 +15,10 @@ AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-1}"
 
 # 单次 codex 抓取超时（秒）。默认 600（10 分钟），设为 0 表示不限制。
 CODEX_TIMEOUT_SECONDS="${CODEX_TIMEOUT_SECONDS:-600}"
+
+# codex 失败重试次数与重试间隔（秒）。
+CODEX_RETRY_ATTEMPTS="${CODEX_RETRY_ATTEMPTS:-3}"
+CODEX_RETRY_DELAY_SECONDS="${CODEX_RETRY_DELAY_SECONDS:-20}"
 
 AI_PROMPT_TEMPLATE='你必须严格执行 daily-ai-news 技能工作流，路径如下：
 - 技能文件：__AI_SKILL_PATH__

@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-06",
+  "articles": [
+    {
+      "title": "ADBrainNet: a deep neural network for Autism Spectrum Disorder (ASD) and Attention Deficit and Hyperactivity Disorder (ADHD) classification using resting-state fMRI images based on explainable artificial intelligence.",
+      "summary": "Autism Spectrum Disorder (ASD) and Attention Deficit and Hyperactivity Disorder (ADHD) are two psychiatric disorders frequently encountered in children. ADHD is further categorized into three subtypes. The diagnostic processes for these conditions are complex and often prone to misclassification. We proposed a lightweight deep neural network, ADBrainNet, to differentiate ASD, ADHD combined, ADHD hyperactive/impulsive, ADHD inattentive and neurotypical individuals. Our methodology was benchmarked against prevalent ImageNet transfer learning methods, including AlexNet, MobileNet, ResNet18, and Xception, for training on resting-state fMRI images sourced from ABIDE and ADHD-200 datasets. ADBrainNet achieved superior performance on the independent external testing set through five-fold cross-validation, with a mean (± standard deviation) accuracy, precision, recall, and F1 score of 61.87% (± 5.59%), 65.72% (± 6.98%), 61.87% (± 5.59%), and 62.50% (± 5.78%), respectively. Furthermore, the explainable artificial intelligence algorithm LIME was employed to explore the most significant features during ADBrainNet's decision process. Our model provides an interpretable computational framework for neuroimaging-based classification between ASD and ADHD subtypes. This approach may inform future research and, upon further validation and comparison with clinician performance, could potentially aid in patient assessment, stratification, and management of psychiatric disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781648/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Med Biol Eng Comput",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-06T13:35:31+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "ADBrainNet: a deep neural network for Autism Spectrum Disorder (ASD) and Attention Deficit and Hyperactivity Disorder (ADHD) classification using resting-state fMRI images based on explainable artificial intelligence.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41781648/",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

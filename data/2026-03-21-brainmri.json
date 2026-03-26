@@ -1,0 +1,224 @@
+{
+  "date": "2026-03-21",
+  "articles": [
+    {
+      "title": "Relationship between cerebral perfusion and cognition in white matter hyperintensities of presumed vascular origin: A prospective 3D-pCASL study.",
+      "summary": "White matter hyperintensities of presumed vascular origin (WMH) are known imaging markers of cerebral small vessel disease and have been associated with future stroke risk, cognitive decline, and other adverse outcomes. However, the pathogenesis of WMH and its correlation with cerebral perfusion and cognitive impairment remain unclear. In this prospective study, we included 128 participants, each of whom underwent cognitive assessments and a three-dimensional pseudo-continuous arterial spin labeling sequence, using post-labeling delay values of 1525 and 2525&#x2009;ms. The magnetic resonance imaging results of all participants were categorized into 4 groups based on the Fazekas visual rating scale. Variance analyses were conducted among the 4 groups of cerebral blood flow (CBF), and partial correlation analyses were performed between CBF and cognitive function. No clusters with a CBF1525ms difference were identified among the 4 groups. Three clusters with the CBF2525ms differences were identified among the 4 groups. The CBF2525ms of the brain regions with perfusion differences among the 4 groups showed an increasing trend with increasing Fazekas grades. A negative correlation was observed between CBF2525ms in the left lenticular nucleus and the Mini-Mental State Examination (MMSE) and Montreal Cognitive Assessment (MoCA) scores (r&#x2005;=&#x2005;-0.306, P&#x2005;<&#x2005;.001, and r&#x2005;=&#x2005;-0.269, P&#x2005;=&#x2005;.002). The CBF2525ms of the right lenticular nucleus was negatively correlated with the MMSE and MoCA scores (r&#x2005;=&#x2005;-0.177, P&#x2005;=&#x2005;.047, and r&#x2005;=&#x2005;-0.179, P&#x2005;=&#x2005;.045). The CBF2525ms of the left thalamus/hippocampus was negatively correlated with the MMSE and MoCA scores (r&#x2005;=&#x2005;-0.226, P&#x2005;=&#x2005;.011, and r&#x2005;=&#x2005;-0.220, P&#x2005;=&#x2005;.013). This indicates that more severe WMH may increase perfusion through collateral circulation in certain brain regions, and their CBF is negatively correlated with cognitive function. This study further unveiled mechanisms behind WMH-related cognitive decline, which has a positive effect on the prevention and treatment of cognitive impairment in patients with WMH.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41861232/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Medicine (Baltimore)",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Diagnostic value of 3D arterial spin labeling plus diffusion-weighted imaging for transient ischemic attack and short-term stroke prognosis: A retrospective cohort study.",
+      "summary": "Transient ischemic attack (TIA) carries substantial short-term stroke risk, yet current diagnostics lack adequate sensitivity. Diffusion-weighted imaging (DWI) detects only 30% to 50% of TIA-related lesions, while 3-dimensional arterial spin labeling (3D-ASL) offers complementary hemodynamic assessment. We performed a retrospective cohort study of 106 TIA patients and 58 healthy controls undergoing 3.0T MRI within 72 hours of symptom onset. Imaging included DWI (b&#x2005;=&#x2005;0,1000 seconds/mm2), 3D-ASL with dual post-labeling delays, and MR angiography. Clinical data and ABCD2 scores were collected, with 90-day stroke follow-up. Diagnostic performance and prognostic factors were analyzed using ROC curves and Cox regression. DWI detected acute lesions in 37 patients (34.9%), while 3D-ASL revealed cerebral hypoperfusion in 64 (60.4%), including 35 DWI-negative cases. Combined imaging improved 90-day stroke prediction (AUC 0.854; sensitivity 93.8%, specificity 71.1%) versus DWI alone (AUC 0.761) or 3D-ASL alone (AUC 0.790) (P&#x2005;<.05). During follow-up, 16 patients (15.1%) experienced stroke. Multivariate analysis identified DWI positivity (HR 3.24, 95% CI: 1.18-8.91), hypoperfusion volume&#x2005;>15&#x2009;mL (HR 2.87, 95% CI: 1.06-7.78), and ABCD2 score&#x2005;&#x2265;4 (HR 3.01, 95% CI: 1.09-8.31) as independent predictors. Symptom duration&#x2005;&#x2265;1 hour correlated with higher DWI positivity (47.7% vs 25.8%, P&#x2005;=&#x2005;.012) and larger hypoperfusion volumes (16.8 vs 9.2&#x2009;mL, P&#x2005;=&#x2005;.004). Combining 3D-ASL with DWI significantly improves cerebrovascular pathology detection and 90-day stroke risk prediction beyond clinical scoring, identifying high-risk TIA patients for intensified secondary prevention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41861212/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Medicine (Baltimore)",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "A hemodialysis patient with recurrent Wernicke encephalopathy showed reversible lentiform fork sign: A case report.",
+      "summary": "This case report describes an unusual presentation of recurrent Wernicke encephalopathy (WE) in a patient undergoing hemodialysis, with distinctive neuroimaging findings that provide new insights into the disease. The patient presented with progressive gait ataxia, dysarthria, and mild memory impairment, with recurrent neurological symptoms following thiamin discontinuation. WE was diagnosed based on characteristic MRI findings including the rare lentiform fork sign and other atypical brain lesions, supported by symptom recurrence after thiamin cessation and radiological reversibility with treatment. The patient received immediate thiamin supplementation therapy, close neurological monitoring, and regular hemodialysis. Neurological symptoms significantly improved with treatment, and MRI showed reversal of the lentiform fork sign and other atypical lesions, demonstrating the importance of sustained thiamin management during follow-up. This case highlights the lentiform fork sign as a valuable neuroimaging marker for WE, suggests that blood-brain barrier dysfunction may be pathogenic, and emphasizes the need for continuous thiamin management in high-risk patients to prevent recurrence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41861210/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Medicine (Baltimore)",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Reorganization of Cerebellar Functional Network Topology in Post-stroke Aphasia: A Resting-State fMRI Study.",
+      "summary": "Post-stroke aphasia (PSA) is a prevalent complication of left-hemispheric stroke, yet cerebellar contributions to language and cognition remain insufficiently characterized at the network level. We investigated cerebellar functional network topology in PSA and its associations with language and cognitive performance. Seventy-three right-handed PSA patients and 75 matched healthy controls underwent 3T resting-state functional magnetic resonance imaging (rs-fMRI). The cerebellum was parcellated using the Seitzman-27 atlas, which assigns cerebellar ROIs to canonical large-scale networks, allowing network-specific characterization and interpretable comparisons across functional systems. Global and nodal topological metrics and ROI-to-ROI functional connectivity were quantified, and their relationships with language and non-language cognition were assessed. Small-world organization was preserved in both groups, but PSA patients showed significant reductions in the small-world index, clustering coefficient, and local efficiency, indicating impaired network segregation and local processing. Nodal analysis revealed decreased degree centrality in the frontoparietal network and increased degree centrality in the dorsal somatomotor network. Functional connectivity was reduced within the default mode and frontoparietal networks, while connectivity between frontoparietal and dorsal somatomotor regions increased (FDR-corrected). Lower clustering coefficient and local efficiency were associated with poorer auditory comprehension, memory, and reasoning. Lesion volume was associated with worse language and cognitive outcomes but was not associated with global cerebellar network measures after covariate adjustment. These findings provide novel network-level evidence of altered cerebellar topology in PSA, extending prior cortical-focused models. The results suggest that cerebellar network disruption is associated with language and cognitive deficits and may inform the development of network-based imaging markers and motivate future longitudinal and intervention studies in aphasia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860713/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mol Neurobiol",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Pilocytic astrocytoma surgery via the pineal region in a 9-year-old boy via the infratentorial-supracerebellar approach.",
+      "summary": "Pineal region tumors (PRTs) are rare neoplasms located in the epithalamus and account for 2.8-11% of pediatric brain tumors. These patients present symptoms such as headaches, nausea, vomiting, and cognitive decline due to obstructive hydrocephalus. Diagnosis involves advanced imaging (magnetic resonance imaging (MRI) and cerebral tomography (CT)) and biomarkers, with definitive diagnosis often requiring biopsy. Management includes neuroendoscopic biopsy, endoscopic third ventriculostomy (ETV), ventriculoperitoneal shunt (VPS), surgical resection, and adjuvant therapies such as chemotherapy and radiation. The choice of treatment depends on the tumor histology and the patient's condition. The prognosis varies, with a 5-year survival rate of 76.2%, which is higher for pineal parenchymal tumors and lower for aggressive types such as pineoblastomas. Despite advancements, outcomes have remained stable, with a recurrence rate of 20.9% and a mortality rate of 11.6%. We present a case of a 9-year-old pediatric patient with a pilocytic astrocytoma in the pineal region. We performed complete resection of the lesion with favorable evolution via the current management of pineal region tumors. Ethics committee approval was not required to perform the surgical procedure on the patient. The patient's parents provided informed consent for the surgery and gave verbal consent for the publication of their images and their surgery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860635/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Childs Nerv Syst",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Developmental changes in diffusion MRI metrics along the perivascular space in children during the first 5 years of life.",
+      "summary": "The glymphatic system contributes to waste clearance in the brain and helps in maintaining neural health. This study aimed to evaluate the age-related changes in magnetic resonance imaging (MRI) measurements of the index of diffusivity along the perivascular space (Along the Perivascular Space (ALPS) index) in infants and children less than 5 years of age. This IRB-approved, HIPAA-compliant study utilized diffusion-weighted MRI data from the Baby Connectome Project (BCP), which scanned developing subjects between birth and 5&#xa0;years. We randomly selected subjects older than 2&#xa0;months without significant imaging artifacts. The ALPS index was computed using diffusion tensor imaging (DTI)-derived diffusivity metrics along projection and association fibers. Multivariable linear regression and ANOVA were used to assess the impact of age, sex, and motion on ALPS index values across hemispheres and age groups. We analyzed 60 cases (58% female; mean age=25.4&#xa0;months). ANOVA demonstrated higher right-hemisphere ALPS values in the 12-24-month, 37-48-month, and 49-65-month groups compared to the 2-12-month group (P<0.05), with no significant differences in the left hemisphere or average index, except in the 49-65-month group. Linear regression showed age as a positive predictor of ALPS values (P<0.001). Sex and head motion had no significant effects. ALPS index values increase with age during the first 5 years of life, particularly in the right hemisphere, suggesting early developmental asymmetry in perivascular water diffusivity. These findings provide normative reference data and may inform future pediatric neuroimaging studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860626/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Pediatr Radiol",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Distinct morphological patterns of the hippocampus and amygdala in normal and pathological aging.",
+      "summary": "BackgroundNormal aging is accompanied by cognitive decline and structural changes in the brain, most notably within the hippocampus and amygdala. However, distinguishing these age-related alterations from the earliest signs of neurodegenerative disorders remains challenging.ObjectiveThis study aims to investigate and compare the alteration patterns of hippocampus and amygdala during normal aging and in cases of mild cognitive impairment (MCI) and Alzheimer's disease (AD), which will provide insights into their distinct structural profiles.MethodsA total of 2195 participants aged 20-90 from three public cohorts (1364 cognitively normal controls, 623 MCI, and 208 AD) were grouped by decade to examine age- and disease-related differences in surface-based morphometry of hippocampus and amygdala. Radial distance, tensor-based morphometry, and multivariate tensor-based morphometry were calculated and combined to generate the Multivariate Morphometry Statistics, which capture both radial and tangential deformations at each vertex. Statistical and deformation analyses were further performed to identify the alteration patterns across 15000 surface vertices between age groups.ResultsIn healthy adults, significant intergroup differences were observed in the hippocampal CA1 and subiculum, as well as in the lateral, basolateral, and accessory basal nuclei of the amygdala. In MCI and AD, additional significant differences were detected in the hippocampal CA2-3 subfield and the central, medial, and cortical nuclei of the amygdala.ConclusionsWe provide a surface-based morphometry map of the hippocampus and amygdala across age groups in normal and pathological aging, revealing distinct morphological patterns that enhance understanding of aging and neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860363/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Patent Ductus Arteriosus Persistence and Neurodevelopmental Outcomes: A Restrictive Treatment Approach Does Not Compromise Neurological Development.",
+      "summary": "Optimal treatment strategies for patent ductus arteriosus (PDA) and their impact on neurodevelopmental outcomes remain controversial. This study investigates the influence of PDA duration on neurodevelopment under a restrictive treatment approach. Retrospective single-center study of 171 preterm infants &#x2264;&#x2009;32&#x2009;weeks gestation with echocardiographically-identified PDA (treated hemodynamically significant PDA-hsPDA, untreated PDA-ntPDA) or no PDA. Assessments included cerebral MRI at term-equivalent age, General Movement Assessment at 8-16&#x2009;weeks and Bayley Scales of Infant Development III at 22-26&#x2009;months corrected age. Infants with severe IVH&#x2009;&#x2265;&#x2009;III&#xb0; were excluded a priori to isolate PDA effects without major brain injury. The hsPDA group represented infants with lower gestational age and birth weight, higher rates of bronchopulmonary dysplasia and longer hospitalization (all p&#x2009;<&#x2009;0.001). Transcerebellar diameter differed significantly between groups (p&#x2009;=&#x2009;0.004). PDA duration showed a statistical association with MRI-detected IVH&#x2009;&#x2264;&#x2009;II&#xb0; in the hsPDA subgroup (OR 1.01 per day, p&#x2009;=&#x2009;0.05). Multivariate analysis did not confirm any significant impact of PDA group or duration on neurodevelopmental outcomes after adjusting for confounders. Gestational age and comorbidities, rather than longer PDA duration, determined neurodevelopmental outcomes in our cohort of very preterm infants without severe brain injury.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41860109/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Acta Paediatr",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Association of Multiple Plasma Metals With Cerebral Microbleeds: A Brain Magnetic Resonance Imaging-Based Study.",
+      "summary": "Exposure to metals in the external environment and system circulation has been linked to cerebrovascular health. However, population-based epidemiological evidence on the association between multiple metals and cerebral microbleeds (CMBs) is lacking. We conducted a cross-sectional study using data from the META-KLS (Multi-modality Medical Imaging Study Based on Kailuan Study) to investigate the association between plasma metals and CMBs. CMBs were determined through brain magnetic resonance imaging as having &#x2265;1 CMB lesion. Fasting plasma concentrations of 14 metals were measured. A total of 1206 adults were included in this study, with a median (interquartile range) age of 54.4 (19.2) years; 630 (52.2%) were female, and 291 (24.1%) were identified as CMBs cases. Binary logistic regression models and the quartile g-computation model were used to assess single-metal and multi-metal associations with CMBs, respectively. After fully covariate adjustment, each interquartile range increment in plasma calcium, magnesium, lead, and vanadium was associated with higher CMBs risk. The odds ratios (ORs) and 95% CIs were 1.36 (1.12-1.64) for calcium, 1.34 (1.10-1.63) for magnesium, 1.38 (1.13-1.69) for lead, and 1.25 (1.06-1.47) for V. In the quartile g-computation model, lead, magnesium, and calcium exhibited significant positive effects with weights of 28.6%, 8.0%, and 3.6%, respectively. Elevated levels of plasma calcium, magnesium, lead, and vanadium in the body may increase the risk of CMBs. Thus, limiting exposure and timely monitoring of these metals may help prevent CMBs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41859900/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Am Heart Assoc",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Predicting Outcome After Newborn Stroke: A Lesion Network Mapping Study Leveraging Large-Scale Data.",
+      "summary": "Predicting the development of cerebral palsy after neonatal stroke remains challenging. This study aimed to identify novel acute brain functional connectome-based correlates of cerebral palsy after neonatal stroke. Stroke lesions were segmented from routine clinical diffusion images of a cohort of term-born neonates with symptomatic arterial ischemic stroke, recruited to Swiss (from 2000 to 2013) and Australian (from 2003 to 2014) pediatric stroke registries. Lesions and 3-Tesla resting-state functional magnetic resonance imaging of term-born newborns from the developing Human Connectome Project were coregistered to a template. A neonatal stroke functional connectome was created by computing voxel-wise correlations between lesions and gray matter regions. Linear regressions compared functional connections to lesions between participants who did and did not develop cerebral palsy. From the total N=199 recruited participants, 85 newborns with stroke were included (65% male; median age at magnetic resonance imaging of 4 days), of which 33% developed cerebral palsy at a median age of 2.1 years. Multiple gray matter regions were more highly functionally correlated to lesions in participants who developed cerebral palsy (1721 voxels; t: 5.4-7.4; all P<0.05, family-wise error rate-corrected). These regions included the basal ganglia, thalamus, cerebellum, frontal regions (inferior and orbital frontal and superior frontal), temporal regions (pole, superior, and mesial temporal, including hippocampus and amygdala), and the insula. This study identified functional networks related to the development of cerebral palsy after neonatal stroke. Building on prior individual lesion-based studies, this work suggests that the development of cerebral palsy after neonatal stroke is related to disruptions of broader functional networks involving motor and extramotor regions, as opposed to only lesions in motor regions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41859782/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Stroke",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The role of modifiable risk factors on the cerebral myelin content and cognition: findings from The Maastricht Study.",
+      "summary": "Lifestyle-related factors may affect cognition and increase the risk of developing dementia. However, the neurobiological mechanisms underlying the effect of lifestyle-related factors on the brain are not yet fully understood. Myelin, a vital element of brain health, has previously been shown to be involved in dementia-related cognitive decline. However, whether it plays a role in the relation between lifestyle-related factors and cognitive performance has not been studied. The cerebral myelin content of 4653 participants (51% female, aged 59&#x2009;&#xb1;&#x2009;9&#xa0;years) from The Maastricht Study was estimated using the T1w/FLAIR-ratio, and lifestyle-related factors were summarized using the LIBRA-score. Multivariable linear regression models, corrected for the effects of age, sex and education, were used to investigate whether lifestyle-related factors are associated with myelin. Moreover, whether myelin can partly explain the relationship between lifestyle-related factors and cognition was explored using a mediation analysis across three cognitive domains (memory, executive functioning and processing speed). An unhealthy lifestyle (i.e. higher LIBRA score) is significantly associated to a lower cerebral myelin content (&#x3b2;&#x2009;=&#x2009;-0.24, 95% CI [-0.26 -0.22], and p&#x2009;<&#x2009;0.001). Furthermore, lower cerebral myelin content associates to worse cognitive performance (&#x3b2;&#x2009;=&#x2009;0.14, 95% CI [0.11 0.17], and p&#x2009;<&#x2009;0.001). Moreover, myelin has a partially mediating effect of 15%, indicating that it partly explains the relation between lifestyle-related factors and cognition. These results show that myelin content might help explain the mechanisms through which lifestyle-related factors influence cognition, potentially allowing for specific and early lifestyle interventions aimed at preventing or delaying cognitive decline and dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41857329/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Geroscience",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-21T00:31:59+00:00",
+    "version": 1,
+    "summary": "Captured 11 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 11.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 11,
+      "high_priority": 10,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 11
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The Reorganization of Cerebellar Functional Network Topology in Post-stroke Aphasia: A Resting-State fMRI Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860713/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Relationship between cerebral perfusion and cognition in white matter hyperintensities of presumed vascular origin: A prospective 3D-pCASL study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41861232/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Distinct morphological patterns of the hippocampus and amygdala in normal and pathological aging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860363/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Predicting Outcome After Newborn Stroke: A Lesion Network Mapping Study Leveraging Large-Scale Data.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41859782/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Developmental changes in diffusion MRI metrics along the perivascular space in children during the first 5 years of life.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860626/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The role of modifiable risk factors on the cerebral myelin content and cognition: findings from The Maastricht Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41857329/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diagnostic value of 3D arterial spin labeling plus diffusion-weighted imaging for transient ischemic attack and short-term stroke prognosis: A retrospective cohort study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41861212/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Pilocytic astrocytoma surgery via the pineal region in a 9-year-old boy via the infratentorial-supracerebellar approach.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860635/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Patent Ductus Arteriosus Persistence and Neurodevelopmental Outcomes: A Restrictive Treatment Approach Does Not Compromise Neurological Development.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41860109/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A hemodialysis patient with recurrent Wernicke encephalopathy showed reversible lentiform fork sign: A case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41861210/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Association of Multiple Plasma Metals With Cerebral Microbleeds: A Brain Magnetic Resonance Imaging-Based Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41859900/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

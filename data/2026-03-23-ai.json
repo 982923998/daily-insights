@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-23",
+  "articles": [
+    {
+      "title": "Show HN: Revise – An AI Editor for Documents",
+      "summary": "Revise 在 HN 获得较高关注，主打文档编辑中的 AI 辅助流程，可用于改写、结构化整理与迭代编辑。",
+      "url": "https://revise.io",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-22",
+      "date": "2026-03-23"
+    },
+    {
+      "title": "Show HN: ClawMem – Open-source agent memory with SOTA local GPU retrieval",
+      "summary": "ClawMem 提供开源的 Agent memory 方案，强调本地 GPU 检索能力，面向多轮任务中的长期上下文记忆。",
+      "url": "https://github.com/yoloshii/ClawMem",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-22",
+      "date": "2026-03-23"
+    },
+    {
+      "title": "Show HN: A BOINC project where AI designs and runs experiments autonomously",
+      "summary": "该项目把 AI 代理与 BOINC 计算框架结合，用于自动设计和执行实验流程，偏向可复现实验平台建设。",
+      "url": "https://axiom.heliex.net",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-22",
+      "date": "2026-03-23"
+    },
+    {
+      "title": "Show HN: Git-surgeon – Git add -p for AI agents",
+      "summary": "Git-surgeon 面向 AI coding agent 的补丁选择与提交流程，定位为更可控的分块暂存工具链。",
+      "url": "https://github.com/raine/git-surgeon",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-22",
+      "date": "2026-03-23"
+    },
+    {
+      "title": "Show HN: TMA1 – Local-first observability for LLM agents",
+      "summary": "TMA1 聚焦本地优先的 Agent 可观测性，覆盖 token/cost、tool call 与会话回放等调试与运维信息。",
+      "url": "https://tma1.ai/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-22",
+      "date": "2026-03-23"
+    },
+    {
+      "title": "Show HN: S2LC – 100 LoRA adapters in 3.59ms, zero HBM writes",
+      "summary": "S2LC 发布了面向 LoRA 适配器切换的推理优化方案，强调低时延与显存写入开销控制，提供开源实现。",
+      "url": "https://github.com/QQQTech/S2LC",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-22",
+      "date": "2026-03-23"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-23T00:02:47+00:00",
+    "version": 1,
+    "summary": "Captured 6 AI items. Preference focus is new models and new technical architecture: 1 high-priority, 2 medium-priority, 3 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 1,
+      "medium_priority": 2,
+      "low_priority": 3
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 1
+      },
+      {
+        "topic": "new architecture",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Show HN: TMA1 – Local-first observability for LLM agents",
+        "url": "https://tma1.ai/",
+        "published_date": "2026-03-22",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Git-surgeon – Git add -p for AI agents",
+        "url": "https://github.com/raine/git-surgeon",
+        "published_date": "2026-03-22",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: ClawMem – Open-source agent memory with SOTA local GPU retrieval",
+        "url": "https://github.com/yoloshii/ClawMem",
+        "published_date": "2026-03-22",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: S2LC – 100 LoRA adapters in 3.59ms, zero HBM writes",
+        "url": "https://github.com/QQQTech/S2LC",
+        "published_date": "2026-03-22",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Revise – An AI Editor for Documents",
+        "url": "https://revise.io",
+        "published_date": "2026-03-22",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: A BOINC project where AI designs and runs experiments autonomously",
+        "url": "https://axiom.heliex.net",
+        "published_date": "2026-03-22",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

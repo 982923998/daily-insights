@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "reference": "unresolved-retry-20260312-v2",
+  "source": "letpub_reference_task",
+  "updated_at": "2026-03-12T04:56:05+00:00",
+  "journals": [
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "",
+      "journal_name": "American Journal of Case Reports",
+      "journal_name_short": "Am J Case Rep",
+      "journal_id": null,
+      "detail_url": "",
+      "overall_score": null,
+      "impact_factor": 0.7,
+      "impact_factor_year": null,
+      "h_index": null,
+      "citescore": null,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "American Journal of Case Reports",
+      "reference": "unresolved-retry-20260312-v2",
+      "references": [
+        "unresolved-retry-20260312-v2"
+      ],
+      "matched_query": "local-index",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:55:48+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0363-6143",
+      "journal_name": "AMERICAN JOURNAL OF PHYSIOLOGY-CELL PHYSIOLOGY",
+      "journal_name_short": "J Physiol",
+      "journal_id": 453,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=453&page=journalapp&view=detail",
+      "overall_score": 6.8,
+      "impact_factor": 4.8,
+      "impact_factor_year": null,
+      "h_index": 168,
+      "citescore": 8.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=453&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Journal of Physiology",
+      "reference": "unresolved-retry-20260312-v2",
+      "references": [
+        "unresolved-retry-20260312-v2"
+      ],
+      "matched_query": "name:Journal of Physiology",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:55:49+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "",
+      "journal_name": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "journal_name_short": "IEEE Trans Neural Syst Rehabil Eng",
+      "journal_id": null,
+      "detail_url": "",
+      "overall_score": null,
+      "impact_factor": 5.2,
+      "impact_factor_year": null,
+      "h_index": null,
+      "citescore": null,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "reference": "unresolved-retry-20260312-v2",
+      "references": [
+        "unresolved-retry-20260312-v2"
+      ],
+      "matched_query": "local-index",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:55:48+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "",
+      "journal_name": "Psychiatry and Clinical Neurosciences",
+      "journal_name_short": "Psychiatry Clin Neurosci",
+      "journal_id": null,
+      "detail_url": "",
+      "overall_score": null,
+      "impact_factor": 6.2,
+      "impact_factor_year": null,
+      "h_index": null,
+      "citescore": null,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Psychiatry and Clinical Neurosciences",
+      "reference": "unresolved-retry-20260312-v2",
+      "references": [
+        "unresolved-retry-20260312-v2"
+      ],
+      "matched_query": "local-index",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:55:48+00:00"
+    }
+  ]
+}

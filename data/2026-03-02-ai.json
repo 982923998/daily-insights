@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-02",
+  "articles": [
+    {
+      "title": "moeru-ai/airi 进入 GitHub 日榜前列",
+      "summary": "airi 是一个 TypeScript 驱动的 AI companion 项目，今日在 GitHub Trending（日榜）继续上升，显示出开发者对可交互 AI 角色框架的强需求。",
+      "url": "https://github.com/moeru-ai/airi",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-02",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "ruvnet/wifi-densepose 在 GitHub Trending 走高",
+      "summary": "wifi-densepose 聚焦计算机视觉与姿态相关能力，今日在日榜获得明显增星，反映出视觉感知类 AI 工具仍有较高社区热度。",
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-02",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "bytedance/deer-flow 持续成为热门 Agent 项目",
+      "summary": "deer-flow 是面向研究与信息整合场景的开源 Agent 工作流项目，今日继续出现在 GitHub 日榜，适合关注多步骤自动化的团队。",
+      "url": "https://github.com/bytedance/deer-flow",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-02",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "alibaba/OpenSandbox 今日增星显著",
+      "summary": "OpenSandbox 提供云原生 AI 应用沙箱环境，强调快速构建、隔离运行与部署效率，今日在 GitHub Trending 出现高增星表现。",
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-02",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Shubhamsaboo/awesome-llm-apps 持续高热",
+      "summary": "awesome-llm-apps 汇总了大量可直接复用的 LLM 应用与实战示例，今日继续位于 GitHub AI 相关趋势前列，适合快速选型和学习。",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-02",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Show HN: Audio Toolkit for Agents",
+      "summary": "该项目提供面向 AI agents 的音频处理工具链并开源在 GitHub，HN 社区在 2026-03-01 给出较高关注，体现多模态 Agent 工具需求增长。",
+      "url": "https://github.com/shiehn/sas-audio-processor",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-01",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Show HN: I built a tool that turns any API into a CLI for agents",
+      "summary": "该工具尝试把任意 API 快速包装成可供智能体调用的 CLI 接口，降低 Agent 自动化接入外部服务的工程门槛。",
+      "url": "https://instantcli.com",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-01",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Show HN: Hmem v2 – Persistent hierarchical memory for AI agents (MCP)",
+      "summary": "Hmem v2 聚焦 AI agents 的持久化分层记忆机制，并与 MCP 场景结合，适合需要长期上下文管理的 Agent 系统。",
+      "url": "https://github.com/Bumblebiber/hmem",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-01",
+      "date": "2026-03-02"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-02T00:03:11+00:00",
+    "version": 1,
+    "summary": "Captured 8 AI items. Preference focus is new models and new technical architecture: 0 high-priority, 6 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 8,
+      "high_priority": 0,
+      "medium_priority": 6,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 1
+      },
+      {
+        "topic": "new architecture",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Shubhamsaboo/awesome-llm-apps 持续高热",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "published_date": "2026-03-02",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "moeru-ai/airi 进入 GitHub 日榜前列",
+        "url": "https://github.com/moeru-ai/airi",
+        "published_date": "2026-03-02",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "bytedance/deer-flow 持续成为热门 Agent 项目",
+        "url": "https://github.com/bytedance/deer-flow",
+        "published_date": "2026-03-02",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: I built a tool that turns any API into a CLI for agents",
+        "url": "https://instantcli.com",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Hmem v2 – Persistent hierarchical memory for AI agents (MCP)",
+        "url": "https://github.com/Bumblebiber/hmem",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Audio Toolkit for Agents",
+        "url": "https://github.com/shiehn/sas-audio-processor",
+        "published_date": "2026-03-01",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "ruvnet/wifi-densepose 在 GitHub Trending 走高",
+        "url": "https://github.com/ruvnet/wifi-densepose",
+        "published_date": "2026-03-02",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "alibaba/OpenSandbox 今日增星显著",
+        "url": "https://github.com/alibaba/OpenSandbox",
+        "published_date": "2026-03-02",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

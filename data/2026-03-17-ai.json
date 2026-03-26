@@ -1,0 +1,245 @@
+{
+  "date": "2026-03-17",
+  "articles": [
+    {
+      "title": "GitHub Trending: shareAI-lab/learn-claude-code",
+      "summary": "GitHub 日榜 AI 项目，今日新增星标约 1,535。聚焦可直接上手的 AI/ML 工具或框架。",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-17",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "GitHub Trending: langchain-ai/deepagents",
+      "summary": "GitHub 日榜 AI 项目，今日新增星标约 1,026。聚焦可直接上手的 AI/ML 工具或框架。",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-17",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Show HN: ssh.bot – Controlled SSH Access for AI Agents",
+      "summary": "Show HN 新项目，社区反馈 1 points / 1 comments，偏向可实操的 AI 工具或开源实现。",
+      "url": "https://ssh.bot",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Show HN: Browse-your-way – use LLMs to browse a customizable web",
+      "summary": "Show HN 新项目，社区反馈 1 points / 0 comments，偏向可实操的 AI 工具或开源实现。",
+      "url": "https://browse-your-way.vercel.app/news.ycombinator.com",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Show HN: EyesOff – On-device AI that catches shoulder surfers",
+      "summary": "Show HN 新项目，社区反馈 1 points / 0 comments，偏向可实操的 AI 工具或开源实现。",
+      "url": "https://www.eyesoff.app",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Show HN: Spoke – On-device AI dictation for macOS with visual automation engine",
+      "summary": "Show HN 新项目，社区反馈 2 points / 1 comments，偏向可实操的 AI 工具或开源实现。",
+      "url": "https://usespoke.app/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Show HN: AI Products Quality Monitoring",
+      "summary": "Show HN 新项目，社区反馈 1 points / 0 comments，偏向可实操的 AI 工具或开源实现。",
+      "url": "https://www.useargoos.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Open source tool to test MCP servers in your browser — no installation, runs npm packages in a WASM sandbox",
+      "summary": "LocalLLaMA 社区讨论帖，关注工程实践/推理优化，当前热度约 1 分。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvqgh5/open_source_tool_to_test_mcp_servers_in_your/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "[Release] Qwen 3.5 Chat Template with 21 Fixes — Tool Calling, Parallel Calls, Agent Loops, Streaming (llama.cpp / Open WebUI / vLLM)",
+      "summary": "LocalLLaMA 社区讨论帖，关注工程实践/推理优化，当前热度约 20 分。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvpv1o/release_qwen_35_chat_template_with_21_fixes_tool/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Codex like functionality with local Ollama hosted models",
+      "summary": "LocalLLaMA 社区讨论帖，关注工程实践/推理优化，当前热度约 1 分。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvpnf3/codex_like_functionality_with_local_ollama_hosted/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "vllm but for mac",
+      "summary": "LocalLLaMA 社区讨论帖，关注工程实践/推理优化，当前热度约 1 分。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvpeoi/vllm_but_for_mac/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "The state management problem in multi-agent systems is way worse than I expected",
+      "summary": "LocalLLaMA 社区讨论帖，关注工程实践/推理优化，当前热度约 0 分。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvoybw/the_state_management_problem_in_multiagent/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    },
+    {
+      "title": "Anthropic: 官方新闻更新",
+      "summary": "Anthropic 新闻页出现最近 3 天内的官方更新，重点关注 Claude 相关能力或产品发布。",
+      "url": "https://www.anthropic.com/news/where-stand-department-war",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-16",
+      "date": "2026-03-17"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-17T00:03:32+00:00",
+    "version": 1,
+    "summary": "Captured 13 AI items. Preference focus is new models and new technical architecture: 2 high-priority, 7 medium-priority, 4 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 13,
+      "high_priority": 2,
+      "medium_priority": 7,
+      "low_priority": 4
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 6
+      },
+      {
+        "topic": "new architecture",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "[Release] Qwen 3.5 Chat Template with 21 Fixes — Tool Calling, Parallel Calls, Agent Loops, Streaming (llama.cpp / Open WebUI / vLLM)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvpv1o/release_qwen_35_chat_template_with_21_fixes_tool/",
+        "published_date": "2026-03-16",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Anthropic: 官方新闻更新",
+        "url": "https://www.anthropic.com/news/where-stand-department-war",
+        "published_date": "2026-03-16",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "The state management problem in multi-agent systems is way worse than I expected",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvoybw/the_state_management_problem_in_multiagent/",
+        "published_date": "2026-03-16",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: shareAI-lab/learn-claude-code",
+        "url": "https://github.com/shareAI-lab/learn-claude-code",
+        "published_date": "2026-03-17",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "vllm but for mac",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvpeoi/vllm_but_for_mac/",
+        "published_date": "2026-03-16",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Browse-your-way – use LLMs to browse a customizable web",
+        "url": "https://browse-your-way.vercel.app/news.ycombinator.com",
+        "published_date": "2026-03-16",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Codex like functionality with local Ollama hosted models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvpnf3/codex_like_functionality_with_local_ollama_hosted/",
+        "published_date": "2026-03-16",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GitHub Trending: langchain-ai/deepagents",
+        "url": "https://github.com/langchain-ai/deepagents",
+        "published_date": "2026-03-17",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: ssh.bot – Controlled SSH Access for AI Agents",
+        "url": "https://ssh.bot",
+        "published_date": "2026-03-16",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Spoke – On-device AI dictation for macOS with visual automation engine",
+        "url": "https://usespoke.app/",
+        "published_date": "2026-03-16",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: EyesOff – On-device AI that catches shoulder surfers",
+        "url": "https://www.eyesoff.app",
+        "published_date": "2026-03-16",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: AI Products Quality Monitoring",
+        "url": "https://www.useargoos.com/",
+        "published_date": "2026-03-16",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Open source tool to test MCP servers in your browser — no installation, runs npm packages in a WASM sandbox",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rvqgh5/open_source_tool_to_test_mcp_servers_in_your/",
+        "published_date": "2026-03-16",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

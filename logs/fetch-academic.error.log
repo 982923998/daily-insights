@@ -1,0 +1,10 @@
+mktemp: mkstemp failed on /tmp/codex-run-XXXXXX.log: File exists
+tee: : No such file or directory
+mktemp: mkstemp failed on /tmp/codex-run-XXXXXX.log: File exists
+tee: : No such file or directory
+mktemp: mkstemp failed on /tmp/codex-run-XXXXXX.log: File exists
+tee: : No such file or directory
+mktemp: mkstemp failed on /tmp/codex-run-XXXXXX.log: File exists
+tee: : No such file or directory
+mktemp: mkstemp failed on /tmp/codex-run-XXXXXX.log: File exists
+tee: : No such file or directory

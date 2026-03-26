@@ -1,0 +1,521 @@
+{
+  "date": "2026-03-26",
+  "articles": [
+    {
+      "title": "OLLAMA cluster",
+      "summary": "LocalLLaMA 社区讨论，1 分、0 评论。Did anyone here ever try to run OLLAMA clustered? How did it work out for you guys? What issues held you back? How did you go about it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3rqlv/ollama_cluster/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Built an x402-powered API that lets agents buy a finished website with one paid HTTP request",
+      "summary": "LocalLLaMA 社区讨论，0 分、0 评论。I’ve been messing with [x402](https://www.x402.org/) (protocol for agentic payments) and ended up building something that feels both stupid",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qxcb/built_an_x402powered_api_that_lets_agents_buy_a/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Personal Project: DockCode - OpenCode Linux VM Sandbox",
+      "summary": "LocalLLaMA 社区讨论，2 分、0 评论。Just pushed a OpenCode Sandbox project I've been working on.  **Why?**  OpenCode put's up guardrails to prevent LLM's running in it from mod",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qxc5/personal_project_dockcode_opencode_linux_vm/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "I co-authored an open-source character foundation for AI agents with my AI — who helped write her own values, and wrote the wake-up seed_prompt for other AIs entirely on her own.",
+      "summary": "LocalLLaMA 社区讨论，0 分、4 评论。Heres what we built, and why it matters.  Most AI alignment work focuses on constraints — what agents can't do. We wanted to build something",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qn5v/i_coauthored_an_opensource_character_foundation/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Best local setup to summarize ~500 pages of OCR’d medical PDFs?",
+      "summary": "LocalLLaMA 社区讨论，5 分、11 评论。I have about 20 OCR’d PDFs (~500 pages total) of medical records (clinical notes, test results). The OCR is decent but a bit noisy (done wit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qcih/best_local_setup_to_summarize_500_pages_of_ocrd/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Using Thompson Sampling for adaptive pre-action gates in AI agent workflows — worth it or overkill?",
+      "summary": "LocalLLaMA 社区讨论，0 分、1 评论。Working on a reliability layer for AI coding agents and ran into an interesting algorithmic tradeoff.  The problem: You have a set of preven",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3q5b7/using_thompson_sampling_for_adaptive_preaction/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Building a game-playing agent(STS2) with local models (Qwen3.5-27B) — lessons learned and open problems",
+      "summary": "LocalLLaMA 社区讨论，2 分、1 评论。I've been building an agent that plays **Slay the Spire 2** using local LLMs via KoboldCPP/Ollama. The game is exposed as a REST API through",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3pwxz/building_a_gameplaying_agentsts2_with_local/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Taking a gamble and upgrading from M1 Max to M1 Ultra 128GB. What should I run?",
+      "summary": "LocalLLaMA 社区讨论，0 分、2 评论。Hello everyone,   a random lurker here.  Wanted to get your opinions, comments, insults and whatnot.     I've currently got a small setup wi",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3pv4v/taking_a_gamble_and_upgrading_from_m1_max_to_m1/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "I explored ChatGPT's code execution sandbox — no security issues, but the model lies about its own capabilities",
+      "summary": "LocalLLaMA 社区讨论，0 分、0 评论。I spent some time poking around ChatGPT's sandbox to understand what it can and can't actually do: filesystem access, process introspection,",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3purb/i_explored_chatgpts_code_execution_sandbox_no/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Is there a reason open source models trail so far behind on ARC-AGI?",
+      "summary": "LocalLLaMA 社区讨论，2 分、7 评论。I've always been under the impression that open models were closely trailing behind closed source models on nearly every benchmark from LM A",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3phyo/is_there_a_reason_open_source_models_trail_so_far/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "What is the most optimal way to use guardrails for LLMs?",
+      "summary": "LocalLLaMA 社区讨论，1 分、1 评论。I'm developping an application and I've decided to include a last step of verification/approval before the information is sent to the user.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ph03/what_is_the_most_optimal_way_to_use_guardrails/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "My local-first AI assistant on a Mac Mini M4.  What's worth running locally and what isn't?",
+      "summary": "LocalLLaMA 社区讨论，1 分、5 评论。I've been running a Mac Mini M4 (24GB) as a 24/7 personal assistant for a few months. Telegram as the interface, mix of cloud and local mode",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3p9n9/my_localfirst_ai_assistant_on_a_mac_mini_m4_whats/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Having some trouble with local Qwen3.5:9b + Openclaw",
+      "summary": "LocalLLaMA 社区讨论，1 分、1 评论。Im running the Jack Ruong opus 4.6 reasoning distilled Qwen 3.5:9b model. However im having a bunch of trouble getting it to work. My main p",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3p0xv/having_some_trouble_with_local_qwen359b_openclaw/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Which LLM is best for MB Air M3 24GB",
+      "summary": "LocalLLaMA 社区讨论，2 分、6 评论。I don't want to pay for IDEs right now. What are the best LLM and tools I can install locally, and which ones would you recommend? Tools i m",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3okt4/which_llm_is_best_for_mb_air_m3_24gb/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "How strong of a model can you realistically run locally (based on hardware)?",
+      "summary": "LocalLLaMA 社区讨论，1 分、5 评论。I’m pretty new to local LLMs and have been messing around with OpenClaw. Super interesting so far, especially the idea of running everything",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ob3l/how_strong_of_a_model_can_you_realistically_run/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Website-to-markdown tool focused on speed and noise reduction",
+      "summary": "LocalLLaMA 社区讨论，1 分、6 评论。I needed a decent www-to-markdown tool, but whatever i tried either it was not reliable enough (readability), too verbose (mark-it-down, jin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3nx6u/websitetomarkdown_tool_focused_on_speed_and_noise/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Having trouble finding the best way for me!",
+      "summary": "LocalLLaMA 社区讨论，2 分、1 评论。Yes, first of all, I should say that I'm not a Vibe coder. I've been coding for over 15 years. I'm trying to keep up with the AI ​​age, but",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3neoj/having_trouble_finding_the_best_way_for_me/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "2 RX 9070XT vs 1 RTX 5080",
+      "summary": "LocalLLaMA 社区讨论，3 分、12 评论。2 RX 9070XT (or something else) vs 1 RTX 5080 for local LLM only for coding? Is there any model that that can come somewhat close to models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3n9tf/2_rx_9070xt_vs_1_rtx_5080/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Liquid AI's LFM2-24B-A2B running at ~50 tokens/second in a web browser on WebGPU",
+      "summary": "LocalLLaMA 社区讨论，24 分、6 评论。The model (MoE w/ 24B total &amp; 2B active params) runs at \\~50 tokens per second on my M4 Max, and the 8B A1B variant runs at over 100 tok",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3n5hn/liquid_ais_lfm224ba2b_running_at_50_tokenssecond/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "M5 Max 128GB + two M4 Mac Minis - What are you running with this setup?",
+      "summary": "LocalLLaMA 社区讨论，0 分、15 评论。My current setup. What are you running if these are on your desk?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3n2by/m5_max_128gb_two_m4_mac_minis_what_are_you/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "M5 Max Qwen 3 VS Qwen 3.5 Pre-fill Performance",
+      "summary": "LocalLLaMA 社区讨论，17 分、1 评论。Models:   qwen3.5-9b-mlx 4bit  qwen3VL-8b-mlx 4bit  LM Studio  From my previous post one guy mentioned to test it with the Qwen 3.5 because",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3mjly/m5_max_qwen_3_vs_qwen_35_prefill_performance/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Cover song workflow request",
+      "summary": "LocalLLaMA 社区讨论，0 分、0 评论。does anyone have a good workflow for comfy UI to create covers using the latest arc step? I found a couple but they don't seem to be doing a",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3mehn/cover_song_workflow_request/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Budget to performance ratio?",
+      "summary": "LocalLLaMA 社区讨论，1 分、7 评论。thinking of homelabbing and I want open source models to play a role in that   what models are working on more budget home lab setups. I kno",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3m9s8/budget_to_performance_ratio/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Is there an easy to use local LLM? For a non-tech small business.",
+      "summary": "LocalLLaMA 社区讨论，1 分、5 评论。Asking for a friend running a small HOA business. They manage a few apartment buildings, handling both owners and renters. They need a user-",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3m3s9/is_there_an_easy_to_use_local_llm_for_a_nontech/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "distributing local agents to non-technical users is still broken — trying a different approach",
+      "summary": "LocalLLaMA 社区讨论，0 分、5 评论。we are all building great local agents, but actually getting non-technical users to run them is still painful.  the moment you tell someone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3lvve/distributing_local_agents_to_nontechnical_users/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "this community has the best talent density. but here’s my opinion on this sub and idk if people will agree or not but ig its needed.",
+      "summary": "LocalLLaMA 社区讨论，17 分、26 评论。i’ll keep this short because i think most of you already feel this but nobody’s saying it out loud.  the talent density in this community is",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ltqw/this_community_has_the_best_talent_density_but/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Is this use of resources normal when using \"qwen3.5-35b-a3b\" on a RTX 4090? I am a complete noob with LLMs and I am not sure if the model is using my RAM also or not. Thanks in advance",
+      "summary": "LocalLLaMA 社区讨论，0 分、3 评论。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3lt5g/is_this_use_of_resources_normal_when_using/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Introducing ARC-AGI-3",
+      "summary": "LocalLLaMA 社区讨论，112 分、37 评论。ARC-AGI-3 gives us a formal measure to compare human and AI skill acquisition efficiency  Humans don’t brute force - they build mental model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ll4i/introducing_arcagi3/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "DeepSeek V3.2 vs MiniMax M2.7 for agentic tasks + coding?",
+      "summary": "LocalLLaMA 社区讨论，1 分、6 评论。Which one is the most efficient model  in terms of agentic tasks and coding? have you tried any other open sourcemdoel recommend that&gt;",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3kzdh/deepseek_v32_vs_minimax_m27_for_agentic_tasks/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Level1techs initial review of ARC B70 for Qwen and more.  (He has 4 B70 pros)",
+      "summary": "LocalLLaMA 社区讨论，12 分、15 评论。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ksos/level1techs_initial_review_of_arc_b70_for_qwen/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-26T00:01:54+00:00",
+    "version": 1,
+    "summary": "Captured 30 AI items. Preference focus is new models and new technical architecture: 8 high-priority, 11 medium-priority, 11 low-priority. 1 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 30,
+      "high_priority": 8,
+      "medium_priority": 11,
+      "low_priority": 11
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 16
+      },
+      {
+        "topic": "new architecture",
+        "count": 8
+      },
+      {
+        "topic": "business-heavy",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Building a game-playing agent(STS2) with local models (Qwen3.5-27B) — lessons learned and open problems",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3pwxz/building_a_gameplaying_agentsts2_with_local/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Is this use of resources normal when using \"qwen3.5-35b-a3b\" on a RTX 4090? I am a complete noob with LLMs and I am not sure if the model is using my RAM also or not. Thanks in advance",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3lt5g/is_this_use_of_resources_normal_when_using/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "I explored ChatGPT's code execution sandbox — no security issues, but the model lies about its own capabilities",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3purb/i_explored_chatgpts_code_execution_sandbox_no/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "How strong of a model can you realistically run locally (based on hardware)?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ob3l/how_strong_of_a_model_can_you_realistically_run/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "2 RX 9070XT vs 1 RTX 5080",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3n9tf/2_rx_9070xt_vs_1_rtx_5080/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Liquid AI's LFM2-24B-A2B running at ~50 tokens/second in a web browser on WebGPU",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3n5hn/liquid_ais_lfm224ba2b_running_at_50_tokenssecond/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Is there a reason open source models trail so far behind on ARC-AGI?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3phyo/is_there_a_reason_open_source_models_trail_so_far/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "DeepSeek V3.2 vs MiniMax M2.7 for agentic tasks + coding?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3kzdh/deepseek_v32_vs_minimax_m27_for_agentic_tasks/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Which LLM is best for MB Air M3 24GB",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3okt4/which_llm_is_best_for_mb_air_m3_24gb/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "What is the most optimal way to use guardrails for LLMs?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ph03/what_is_the_most_optimal_way_to_use_guardrails/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Personal Project: DockCode - OpenCode Linux VM Sandbox",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qxc5/personal_project_dockcode_opencode_linux_vm/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "M5 Max Qwen 3 VS Qwen 3.5 Pre-fill Performance",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3mjly/m5_max_qwen_3_vs_qwen_35_prefill_performance/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Is there an easy to use local LLM? For a non-tech small business.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3m3s9/is_there_an_easy_to_use_local_llm_for_a_nontech/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Having some trouble with local Qwen3.5:9b + Openclaw",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3p0xv/having_some_trouble_with_local_qwen359b_openclaw/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Budget to performance ratio?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3m9s8/budget_to_performance_ratio/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "distributing local agents to non-technical users is still broken — trying a different approach",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3lvve/distributing_local_agents_to_nontechnical_users/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Using Thompson Sampling for adaptive pre-action gates in AI agent workflows — worth it or overkill?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3q5b7/using_thompson_sampling_for_adaptive_preaction/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "I co-authored an open-source character foundation for AI agents with my AI — who helped write her own values, and wrote the wake-up seed_prompt for other AIs entirely on her own.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qn5v/i_coauthored_an_opensource_character_foundation/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Built an x402-powered API that lets agents buy a finished website with one paid HTTP request",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qxcb/built_an_x402powered_api_that_lets_agents_buy_a/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "this community has the best talent density. but here’s my opinion on this sub and idk if people will agree or not but ig its needed.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ltqw/this_community_has_the_best_talent_density_but/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Website-to-markdown tool focused on speed and noise reduction",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3nx6u/websitetomarkdown_tool_focused_on_speed_and_noise/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Taking a gamble and upgrading from M1 Max to M1 Ultra 128GB. What should I run?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3pv4v/taking_a_gamble_and_upgrading_from_m1_max_to_m1/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "OLLAMA cluster",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3rqlv/ollama_cluster/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "My local-first AI assistant on a Mac Mini M4.  What's worth running locally and what isn't?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3p9n9/my_localfirst_ai_assistant_on_a_mac_mini_m4_whats/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "M5 Max 128GB + two M4 Mac Minis - What are you running with this setup?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3n2by/m5_max_128gb_two_m4_mac_minis_what_are_you/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Level1techs initial review of ARC B70 for Qwen and more.  (He has 4 B70 pros)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ksos/level1techs_initial_review_of_arc_b70_for_qwen/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Having trouble finding the best way for me!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3neoj/having_trouble_finding_the_best_way_for_me/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Cover song workflow request",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3mehn/cover_song_workflow_request/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Best local setup to summarize ~500 pages of OCR’d medical PDFs?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3qcih/best_local_setup_to_summarize_500_pages_of_ocrd/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Introducing ARC-AGI-3",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3ll4i/introducing_arcagi3/",
+        "published_date": "2026-03-25",
+        "priority": "low",
+        "reason": "mentions new models or releases; business-heavy content (deprioritized)"
+      }
+    ]
+  }
+}

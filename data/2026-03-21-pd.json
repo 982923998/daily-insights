@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-21",
+  "articles": [
+    {
+      "title": "Altered wakeful theta activity characterizes levodopa-induced dyskinesia in Parkinson's disease.",
+      "summary": "Slow-wave activity during sleep facilitates synaptic downscaling, while theta activity during wakefulness reflects synaptic upscaling, and both processes may be altered in levodopa-induced dyskinesia (LID) in Parkinson's disease (PD). We compared actigraphy and high-density EEG in 12 healthy volunteers and three PD cohorts: early stage (EPD, n = 12), advanced non-dyskinetic (ADV, n = 13), and advanced dyskinetic (DYS, n = 11). Participants completed one week of actigraphy monitoring, followed by two resting-state EEG recordings conducted separately in the morning and evening. Wake-theta activity was analyzed using both linear and linear mixed-effects models, adjusted for age/sex, plus cluster-based non-parametric statistics, then related to clinical variables, and actigraphy-derived sleep metrics via partial correlations. Dyskinetic patients showed marked sleep disruption, elevated morning theta compared with controls (p = 0.006, d = 1.54) and EPD (p = 0.03, d = 0.85), along with a significantly reduced diurnal theta build-up compared with controls (p = 0.009, d = 1.57). EPD and ADV groups showed preserved diurnal increases. In dyskinetic patients, a higher levodopa equivalent daily dose (LEDD) was correlated with higher morning theta (ρ = 0.70, p = 0.023, pFDR=0.046) and smaller diurnal theta increases (ρ = -0.77, p = 0.009, pFDR=0.046). Relationships between theta and actigraphy-derived sleep metrics were weaker and inconsistent across groups. These findings suggest a dyskinesia-specific profile of impaired wake-related theta homeostasis, motivating longitudinal studies combining polysomnography and waking EEG.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41857054/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Putamen Atrophy as a Predictive Factor of Efficacy of GPi-DBS in Dystonia-Dyskinesia Syndrome Secondary to Perinatal Anoxic Encephalopathy.",
+      "summary": "BACKGROUND: Perinatal hypoxic-ischemic encephalopathy (HIE) is a severe condition resulting from impaired oxygen delivery to the developing brain, often leading to both motor deficits and dystonia-dyskinetic syndromes (DDS). In selected cases, deep brain stimulation of the globus pallidus internus (GPi-DBS) may provide a therapeutic option. However, predicting outcomes remains challenging because of clinical heterogeneity and variable responses. OBJECTIVES: This retrospective study aims to identify preoperative imaging predictors of GPi-DBS efficacy in patients with DDS secondary to HIE, focusing on putaminal atrophy as a potential criterion. METHODS: We retrospectively analyzed 73 patients with DDS secondary to HIE who underwent GPi-DBS at our institution from 2003 to 2023. Clinical outcomes were assessed using the Burke-Fahn-Marsden Dystonia Rating Scale (BFMDRS) and Barry-Albright Dystonia Scale (BADS) at baseline and up to 15 years post-surgery. Preoperative magnetic resonance imaging scans were qualitatively and quantitatively evaluated to assess putaminal atrophy. Statistical analyses explored the relationships between imaging findings, clinical severity, and DBS outcomes. RESULTS: Patients with severe putaminal atrophy exhibited significantly higher preoperative BFMDRS motor and disability scores, correlating with a limited response to DBS at 1-year follow-up (P < 0.05). Volumetric analysis confirmed that greater putaminal atrophy was associated with poorer motor improvements post-surgery. The predictive value of putaminal volume for long-term outcomes remained significant at 5-year follow-up. CONCLUSIONS: Putaminal atrophy is a key predictor of suboptimal outcomes following GPi-DBS in patients with HIE-related DDS. These findings highlight the importance of preoperative imaging in candidate selection and underscore the need for alternative strategies in patients with severe post-anoxic basal ganglia damage. © 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41851006/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mov Disord",
+      "published_date": "2026-03-18",
+      "date": "2026-03-21"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-21T00:59:17+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Altered wakeful theta activity characterizes levodopa-induced dyskinesia in Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41857054/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Putamen Atrophy as a Predictive Factor of Efficacy of GPi-DBS in Dystonia-Dyskinesia Syndrome Secondary to Perinatal Anoxic Encephalopathy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851006/",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

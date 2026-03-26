@@ -1,0 +1,241 @@
+{
+  "date": "2026-03-26",
+  "articles": [
+    {
+      "title": "Reduced cortical thickness in individuals with congenital adrenal hyperplasia (CAH).",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41876695/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Amelanotic primary thalamic melanoma: a case report.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41877105/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Neurol",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Disease Activity Following Cessation of Dimethyl Fumarate in Patients with Relapsing-Remitting Multiple Sclerosis.",
+      "summary": "The optimal time between the cessation of one disease-modifying therapy (DMT) and initiation of another in relapsing-remitting multiple sclerosis (RRMS) is incompletely understood. Lymphopenia, an adverse effect of dimethyl fumarate (DMF), may prompt a washout period prior to initiating an alternate DMT to allow absolute lymphocyte count (ALC) recovery. We hypothesized that during the DMF-DMT treatment interval, there would be disease activity, either by MRI or clinical relapses, and that lymphopenia might be a risk factor. A retrospective chart review was conducted, collecting data on demographics and disease activity (clinical relapse or MRI with new/enlarged T2/FLAIR or gadolinium-enhancing lesions in the brain or spinal cord). The DMF-DMT interval was defined as the time in years between stopping DMF and beginning a new DMT. Of 109 patients, 32.1% experienced disease activity during the DMF-DMT interval. ALC decreased significantly during DMF therapy but was not associated with subsequent disease activity in the DMF-DMT interval (HR 1.09 [0.62, 1.91], p = 0.77). A Kaplan-Meier curve shows that the probability of experiencing disease activity was highest within the first year of DMF discontinuation, with the median time to first relapse after stopping DMF being 0.5 years. Disease activity was most likely to occur early after DMF cessation but was not significantly related to ALC. Our data suggest that initiating a new DMT within 6 months of DMF cessation may reduce relapse risk and lesion accumulation in RRMS patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41877516/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Can J Neurol Sci",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Brain frailty on penumbral salvage following successful reperfusion in MeVO stroke via collateral impairment.",
+      "summary": "Whether endovascular thrombectomy (EVT) benefits medium vessel occlusion (MeVO) stroke remains uncertain. Brain frailty, reflecting chronic small-vessel disease and neurodegeneration, may indicate weaken collateral circulation and limit tissue salvage. We retrospectively studied 227 MeVO patients who achieved successful reperfusion (mTICI 2b-3). Baseline multimodal CT (NCCT + CTP) and follow-up MRI/CT were used to quantify the penumbral salvage index (PSI). Brain frailty was categorized on NCCT as absent (n = 66), mild (n = 88), or moderate-to-severe (n = 73) based on white matter hyperintensities, atrophy, and vascular lesions. Mediation analysis tested the indirect effect through collateral status. Greater frailty severity was associated with progressively lower PSI (0.81 vs 0.70 vs 0.63, p < 0.001). In multivariable models, higher frailty independently predicted lower PSI (β = -0.19, p = 0.003). Collateral dysfunction mediated 38% of the frailty-PSI association. Correspondingly, rates of excellent outcome (mRS 0-1) and functional independence (mRS 0-2) at 90 days declined with increasing frailty severity (both p < 0.001). These findings identify brain frailty as an independent predictor of impaired penumbral salvage for MeVO after EVT and links it to worse 90-day outcomes. The effect appears substantially mediated by collateral failure. Incorporating brain frailty into acute assessment may improve prognostic stratification among patients who achieve successful reperfusion.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41878767/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Cereb Blood Flow Metab",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Altered temporal dynamics of intrinsic brain activity in mild cognitive impairment with olfactory dysfunction.",
+      "summary": "BackgroundOdor identification (OI) impairment in mild cognitive impairment (MCI) elevates the risk for Alzheimer's disease (AD). The present study was designed to clarify the underlying neural mechanisms by investigating brain network aberrations in MCI patients with OI impairment using dynamic resting-state functional magnetic resonance imaging (rs-fMRI).ObjectiveThis study aimed to delineate the profile of dynamic intrinsic brain activity in MCI patients with and without OI impairment. It further aimed to establish the clinical relevance of these dynamic neural signatures by linking them to cognitive and olfactory function.MethodsIn 194 participants (97 MCI and 97 healthy controls [HC]), we analyzed dynamic metrics including dynamic fractional Amplitude of Low-Frequency Fluctuations (dfALFF), dynamic Amplitude of Low-Frequency Fluctuations (dALFF), dynamic Degree Centrality (dDC), and dynamic Regional Homogeneity (dReHo), and their correlation with cognitive performance and OI.ResultsThe MCI with OI impairment (MCI-OII) group (n = 22) performed worse across all cognitive domains than both HC and the MCI without OI impairment (MCI-NOII) group (n = 75, p < 0.001). These patients exhibited elevated dALFF, dfALFF, dDC, and dReHo variability in regions including the fusiform gyrus, insula, precuneus, and cingulate cortex (p < 0.001). These dynamic metrics correlated with olfactory and cognitive scores (p < 0.05). Additionally, dReHo in the right precuneus partially mediated the relationship between olfactory function and delayed recall memory.ConclusionsThis study demonstrates that MCI patients with OI impairment exhibit widespread disruptions in dynamic brain activity. These alterations correlate with clinical deficits, and precuneus dReHo may partially link olfactory and cognitive decline in MCI.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879263/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Alzheimers Dis",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "White Matter Microstructure and Hemispheric Asymmetry Alterations in Adults Who Smoke: A Connectome-Based Analysis.",
+      "summary": "Cigarette smoking poses a pervasive health risk increasingly recognized for its impact on the nervous system, yet its effects on brain structure and organization remain incompletely understood. This study examined how smoking addiction influences white matter microstructure and the architecture of structural brain networks in adults. We used diffusion tensor imaging to compare fractional anisotropy between participants who smoke (n = 122) and non-smoking control participants (n = 55) to detect white matter abnormalities. Whole-brain structural connectomes were constructed, with connections categorized by fiber length. Network features quantified included degree centrality and hemispheric asymmetry. Adaptive Best-Subset Selection method was applied to identify white matter connections that may serve as biomarkers for distinguishing individuals who smoke from those who do not. Participants who smoke showed widespread white matter alterations in pathways related to reward valuation, habit formation, and craving, along with abnormalities in both short- and medium-range connections. Reduced rightward asymmetry in the cuneus indicated lateralized structural changes possibly linked to cue processing in nicotine dependence. Discriminative connections involved orbitofrontal, sensorimotor, and visual regions, underscoring how smoking reshapes brain networks supporting reward valuation, motor control, and cue reactivity. Nicotine dependence is associated with extensive alterations in white matter microstructure and network organization, including reduced hemispheric asymmetry. These findings suggest that smoking affects structural connectivity in circuits involved in emotional regulation and reward-related memory.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879295/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nicotine Tob Res",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Breast MRI in Patients With Active Implanted Metallic Devices: How We Do It.",
+      "summary": "Given increases in both breast MRI utilization and the prevalence of active implanted metallic devices (AIMDs), radiology practices are expected to encounter growing number of referrals for breast MRI in patients with AIMDs. Under MRI, AIMDs can experience forces and torques, vibrations, heating, and electrical interference or malfunction. AIMDs also distort the magnetic field, causing signal voids, signal pile-up, geometric distortion, and fat suppression failure. Yet limited guidance exists on safely performing breast MRI in this patient population. This Perspective presents approaches for safely performing breast MRI in patients with AIMDs while maintaining diagnostic integrity. Key components include multistep screening for early identification of AIMDs, adherence to vendor MRI-conditional guidelines, and protocol modification techniques to meet these guidelines while balancing image quality, scan time, and artifact mitigation. Illustrative clinical cases demonstrate breast MRI examinations performed safely in patients with various AIMDs including a cardiac pacemaker, cardiac loop recorder, sacral nerve stimulator, responsive neurostimulator, hypoglossal nerve stimulator, spinal cord stimulator, and deep brain stimulator. Situations where MRI is inadvisable and alternative modalities may be preferred are also considered. New MRI safety CPT codes are also highlighted. Implementing the described workflows can expand safe access to breast MRI for patients with AIMDs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879732/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "AJR Am J Roentgenol",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Moyamoya syndrome associated with hereditary spherocytosis: pathogenesis, management, and an illustrative case with rapid radiological progression.",
+      "summary": "The association between moyamoya syndrome (MMS) and hereditary spherocytosis (HS) is exceedingly rare, with only eight pediatric cases reported to date. This review explores the clinical intersection, pathophysiological theories, and management challenges of this dual pathology. We present a 13-year-old boy with known HS who presented with acute left limb weakness. Imaging confirmed MMS. Over a 3-year follow-up, serial magnetic resonance imaging (MRI) and digital subtraction angiography (DSA) demonstrated significant progression of cerebrovascular steno-occlusive disease. Management included chronic anemia correction, aspirin therapy, subsequent laparoscopic splenectomy, and ultimately, unilateral encephaloduroarteriosynangiosis (EDAS) revascularization surgery for symptomatic progression. This case, the ninth reported, suggests that chronic hemolysis and anemia in HS may potentiate rapid progression of MMS. It indicates the necessity of vigilant neurological monitoring in HS patients, advocates for maintaining hemoglobin levels > 110 g/L, and discusses the integrated roles of splenectomy and revascularization surgery. Early recognition and a multidisciplinary treatment strategy are crucial to mitigating stroke risk in this unique patient population.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879920/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Childs Nerv Syst",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Rate of neurological diagnosis in patients with hemisensory syndrome - A retrospective cross-sectional study.",
+      "summary": "Hemisensory syndrome (HS) is a subjective unilateral sensory abnormality that causes reduced sensation and chronic pain, with no additional objective findings, posing a diagnostic challenge. We aimed to determine the rate of neurological diagnosis among patients with hemisensory complaints and identify clinical tools to aid in the diagnosis. A cross-sectional retrospective study was conducted using data collected from 194 patients who presented to the emergency department of a tertiary medical center with hemisensory complaints in 2010-2020. Their medical records were screened for demographic and clinical features and the results of all ancillary examinations. A neurological diagnosis was reached for 55/194 patients (28.3%), mainly acute stroke/transient ischemic attack in 24/55 (43.6%), migraine in 14/55 (25.4%), and multiple sclerosis in 13/55 (23.6%). The likelihood of diagnosis was not significantly affected by gender, side involvement, or use of chronic medications. Rate of pyramidal signs and mean triglyceride level were increased in the diagnosis group. Brain magnetic resonance imaging (MRI) most frequently contributed to identifying a diagnosis, demonstrating clinically relevant abnormalities in 58.7% of the diagnosis group (versus 0% in the no-diagnosis group) and in 20.7% of all patients who underwent MRI. The diagnostic yield of investigations in patients with HS is relatively low. In approximately one-fourth of cases the etiology is determined. Brain MRI demonstrated the highest diagnostic yield among the neuroimaging modalities evaluated. Additional variables need to be defined to aid clinicians in identifying patients warranting a comprehensive medical examination and in determining which tests to apply.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879958/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Acta Neurol Belg",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "The angioarchitecture of the vein of Labbé: a population-based-study of 200 Asian hemispheres.",
+      "summary": "The superficial cerebral venous system demonstrates considerable anatomical variability. The inferior anastomotic vein, or vein of Labbé (VOL), is a key anastomotic channel between the superficial middle cerebral veins and the transverse sinus. However, the morphological characteristics of the VOL remain inadequately defined, particularly in East Asian populations. This study aimed to systematically analyze the angioarchitecture of the VOL. The VOL was evaluated using three-dimensional (3D) reconstructions derived from gadolinium-enhanced 3D T1-weighted turbo spin-echo sequences and validated against digital subtraction angiography (DSA). Key anatomical parameters - including number, diameter, lateralization, drainage entry points, and the relationship with the superior anastomotic vein - were assessed in 200 cerebral hemispheres from 100 healthy individuals (50 males, 50 females). In the validation cohort (n = 20 hemispheres), 3D MRA demonstrated high concordance with DSA in identifying VOL anatomy and diameter. Among all 200 hemispheres analyzed, VOL duplication was identified in 2% and complete absence in 0.5%. The VOL drained into the transverse sinus in 61.3% of cases, into the SDA in 32.7%, and into the superior petrosal sinus in 4%. A lateralized drainage pattern was observed, with the VOL being more prominent than the superior anastomotic vein on the left hemisphere, whereas the superior anastomotic vein predominated on the right hemispheres (p = 0.022). This study represents the largest imaging-based analysis of VOL anatomy in an East Asian population. The VOL exhibits substantial interindividual variability in number, drainage pattern, and lateralization. Detailed knowledge of these anatomical nuances is crucial to minimize risk of venous infarction and enhance neurosurgical outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41879991/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuroradiology",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Gastric Point-of-Care Ultrasound Diagnosis of Unexpected Gastrointestinal Dysfunction During ICU Ward Rounds: A Case Report.",
+      "summary": "BACKGROUND Point-of-care ultrasound (POCUS) is increasingly used as an extension of the physical examination during daily intensive care unit (ICU) rounds and has become a valuable bedside diagnostic tool. Gastric POCUS, in particular, offers a noninvasive method to evaluate gastric content and motility, and to identify patients at risk for impaired gastric emptying. Such dysfunction can lead to aspiration, delayed enteral feeding, and challenges in procedural planning or sedation. As the use of POCUS continues to expand in critical care practice, its gastrointestinal applications show increasing clinical relevance. CASE REPORT We describe a 50-year-old male patient admitted to the ICU with suspected cytokine release syndrome and possible coinfection. During hospitalization, he developed a progressive decline in consciousness, prompting plans for brain magnetic resonance imaging (MRI). Despite stable hemodynamic and respiratory status, a routine pre-transport POCUS assessment was performed. Gastric POCUS revealed a markedly distended gastric antrum with clear fluid mixed with gastric contents, corresponding to an antral grade 2 appearance and indicating a high residual gastric volume. Based on these findings, a nasogastric tube was placed for gastric decompression, the MRI was postponed, and triple prokinetic therapy was initiated. These interventions were implemented promptly at the bedside, demonstrating the role of gastric POCUS in real-time clinical decision-making. CONCLUSIONS This case underscores the value of gastric POCUS in detecting gastrointestinal dysfunction and preventing complications such as aspiration in ICU patients. Routine gastric ultrasonography may enhance patient safety and guide management during critical care evaluations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880232/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Am J Case Rep",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "Three-dimensional scene boundary representations for wall orientation and distance are represented distinctly in the human visual cortex.",
+      "summary": "Human spatial navigation relies on the brain's ability to visually represent the 3D layout of the environment. To understand how the brain encodes the layout information, it is crucial to identify the key features of environmental layout and how they are processed in the human brain. The vector coding principle, which highlight the role of boundary distance and orientation, provides a theoretical framework supported by physiological evidence from rodents. In this study, we developed a reconstruction approach to quantitatively estimate 3D layout information from natural indoor scene images. This approach enabled analyses of fMRI data from the large-scale Natural Scenes Dataset (NSD) using vector-based models of 3D layout. To validate the NSD-based results and examine task-related dynamics, we further conducted fMRI and MEG experiments with navigation-related and non-navigational tasks. Controlling for low-, mid-, and high-level visual and semantic features of natural indoor scenes, we found a spatiotemporal dissociation between boundary distance and orientation representations in the human brain. Relative distance was encoded in the early visual cortex during early processing in a task-invariant manner, whereas orientation was represented in scene-selective higher visual areas during later processing and was modulated by navigation-related tasks. Importantly, task modulation manifested as enhanced orientation coding in early visual cortex, potentially reflecting top-down feedback and short-term maintenance mechanisms. Together, these findings provide a novel perspective on how the human brain represents navigation-relevant information about the immediate surrounding environment, advancing our understanding of the neural mechanisms that link perception to action in spatial navigation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41880342/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "PLoS Biol",
+      "published_date": "2026-03-25",
+      "date": "2026-03-26"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-26T00:32:32+00:00",
+    "version": 1,
+    "summary": "Captured 12 research items. Preference focus is brain-imaging analysis and disease mechanisms: 7 high-priority, 5 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 12.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 12,
+      "high_priority": 7,
+      "medium_priority": 5,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 12
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Altered temporal dynamics of intrinsic brain activity in mild cognitive impairment with olfactory dysfunction.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41879263/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "White Matter Microstructure and Hemispheric Asymmetry Alterations in Adults Who Smoke: A Connectome-Based Analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41879295/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain frailty on penumbral salvage following successful reperfusion in MeVO stroke via collateral impairment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41878767/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Three-dimensional scene boundary representations for wall orientation and distance are represented distinctly in the human visual cortex.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41880342/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Moyamoya syndrome associated with hereditary spherocytosis: pathogenesis, management, and an illustrative case with rapid radiological progression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41879920/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Disease Activity Following Cessation of Dimethyl Fumarate in Patients with Relapsing-Remitting Multiple Sclerosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41877516/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The angioarchitecture of the vein of Labbé: a population-based-study of 200 Asian hemispheres.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41879991/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Rate of neurological diagnosis in patients with hemisensory syndrome - A retrospective cross-sectional study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41879958/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Gastric Point-of-Care Ultrasound Diagnosis of Unexpected Gastrointestinal Dysfunction During ICU Ward Rounds: A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41880232/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Reduced cortical thickness in individuals with congenital adrenal hyperplasia (CAH).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41876695/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Breast MRI in Patients With Active Implanted Metallic Devices: How We Do It.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41879732/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Amelanotic primary thalamic melanoma: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41877105/",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

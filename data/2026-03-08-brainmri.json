@@ -1,0 +1,122 @@
+{
+  "date": "2026-03-08",
+  "articles": [
+    {
+      "title": "Open diffusion magnetic resonance imaging and connectivity data for epilepsy and surgery: The IDEAS II release.",
+      "summary": "OBJECTIVE: Epileptic seizures are generated in cerebral networks that propagate ictal and interictal activity. The structure of cerebral networks underpinning epileptic activity can be inferred from diffusion-weighted magnetic resonance imaging (DWI). However, publicly available DWI data in individuals with epilepsy are scarce, and processing is technically challenging due to scan-specific artifacts, limiting research progress. METHODS: Here, we release raw DWI data from 216 individuals with epilepsy and 98 healthy controls. Subject identifiers align with our previous data release (IDEAS), which includes T1-weighted and FLAIR magnetic resonance imaging, surgical details, and long-term seizure outcomes after surgery. Preprocessing reduced distortions and artifacts, and fully processed data include diffusion metric maps in native and template space. We also provide parcellated structural connectomes using multiple atlases and connectivity measures. RESULTS: To illustrate the utility of these IDEAS II data, we replicated ENIGMA consortium findings, observing widespread reductions of fractional anisotropy, particularly ipsilateral to the area of seizure onset. We further demonstrate localized abnormality, and network connectivity using streamline tractography in a patient who subsequently underwent temporal lobe resection. SIGNIFICANCE: This open dataset offers a comprehensive resource to advance research on structural connectivity and surgical outcomes in epilepsy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41793174/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Epilepsia",
+      "published_date": "2026-03-07",
+      "date": "2026-03-08"
+    },
+    {
+      "title": "Multimodal MRI Neurodevelopmental Profiling in Type 1 Diabetes: Long-term Effects of MDI vs CSII Treatments.",
+      "summary": "CONTEXT: The developing brain is particularly vulnerable to glycemic extremes in early-onset type 1 diabetes (T1D). However, how treatment-specific modalities may influence long-term neurodevelopmental trajectories remains poorly understood. OBJECTIVE: To characterize multimodal MRI neurodevelopmental profiles in pediatric T1D and evaluate treatment-related effects of Multiple Daily Injections (MDI) versus Continuous Subcutaneous Insulin Infusion (CSII) on brain structure, function, and test whether HbA1c-linked imaging features relate to executive-working-memory performance. METHODS: Sixteen children with T1D (8 MDI, 8 CSII from diagnosis) and eight controls underwent structural MRI, diffusion MRI, and resting-state fMRI. Union Recursive Feature Elimination (U-RFE) selected gray-matter (GM), white-matter (WM), and functional connectivity (rs-FC) features discriminating groups; regression related selected features to long-term age-adjusted mean glycated hemoglobin (HbA1c). NEPSY-II Word List Interference (WI) was administered; control-referenced WI outcomes were examined versus HbA1c and HbA1c-associated structural features, including mediation. RESULTS: Functional features outperformed structural features (balanced accuracy 0.83 vs 0.67). MDI showed reduced GM/WM integrity and disrupted fronto-temporal and subcortical connectivity versus CSII and controls. Right inferior frontal gyrus (IFG) volume correlated with HbA1c (r=0.71, p<0.05) and predicted HbA1c (β=0.28, p=0.015). Higher HbA1c related to poorer WI repetition (r=-0.60, p=0.013), and right IFG volume related to poorer WI repetition (r=-0.70, p=0.002). Mediation supported an indirect HbA1c effect via right IFG volume (a×b=-0.676; Sobel z=-1.765, one-tailed p=0.0388), explaining ∼64% of the total association. CSII had 30% lower hyperglycemia exposure than MDI and higher WI repetition mean ranks (11.19 vs 5.81; p=0.023). CONCLUSIONS: Pediatric T1D is associated with multimodal neuroimaging alterations influenced by insulin treatment modality. CSII may confer neuroprotective benefits by improving metabolic control and preserving functional connectivity. Right IFG volume is a candidate imaging marker linking metabolic regulation to interference-sensitive executive-working-memory vulnerability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41793758/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Clin Endocrinol Metab",
+      "published_date": "2026-03-07",
+      "date": "2026-03-08"
+    },
+    {
+      "title": "Differentiating medulloblastoma and pilocytic astrocytoma in children based on multimodal MRI radiomics model.",
+      "summary": "PURPOSE: Medulloblastoma (MB) and pilocytic astrocytoma (PA) are common in pediatric brain tumors and difficult to distinguish. To establish and evaluate a radiomics model based on multimodal MRI to distinguish medulloblastoma from pilocytic astrocytoma. METHODS: Retrospective collection of magnetic resonance images from 113 patients with MB and 74 patients with PA. Radiomics analysis was performed on Dynamic Contrast-Enhanced T1 weighted imaging (DCE-T1WI), T2 weighted imaging (T2WI), and Apparent diffusion coefficient (ADC) images, respectively. A multimodal MRI combined radiomics model incorporating DCE-T1WI, T2WI, and ADC sequence features was developed by extraction of valuable features, and the radiomics nomogram was generated to evaluate its diagnostic capability. The DeLong test was used to compare the diagnostic performance of DCE-T1WI, T2WI, ADC single sequence model, and multimodal MRI radiomics model. RESULTS: The combined model showed the highest performance among all models, with an area under the curve (AUC) of 0.999 on the primary cohort and maintained an AUC of 0.994 during the validation cohort. For the single-sequence model, the ADC sequence model performs better in the primary cohort, with an AUC of 0.996; the T2WI sequence model slightly outperforms in validation cohort, with an AUC of 0.985. The DCE-T1WI sequence model performed slightly worse than ADC and T2WI in the validation cohort, with an AUC of 0.951. Overall, the combined model performed best in the differential diagnosis of MB and PA. CONCLUSION: Multimodal MRI-based radiomics analysis is effective in differentiating MB from PA and radiomics imaging may have important clinical significance in the preoperative detection of posterior fossa brain tumors in children.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41793451/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuroradiology",
+      "published_date": "2026-03-07",
+      "date": "2026-03-08"
+    },
+    {
+      "title": "Deep Learning Reconstruction on Quantitative Analysis in Brain Tumors With Diffusion-Weighted Imaging and Dynamic Susceptibility Contrast Imaging.",
+      "summary": "BACKGROUND: Although deep learning reconstruction (DLR) has been shown to improve image quality in MRI, its impact on quantitative physiologic parameters derived from diffusion-weighted imaging (DWI) and dynamic susceptibility contrast (DSC) perfusion in brain tumor imaging remains unclear. PURPOSE: To evaluate the impact of DLR on quantitative parameters derived from DWI and DSC in patients with brain tumors. STUDY TYPE: Retrospective. SUBJECTS: Sixty-two patients (33 male) with post-radiation brain metastasis. FIELD STRENGTH/SEQUENCE: 3.0 T; T2, FLAIR, T1WI, DWI, DSC perfusion, and contrast-enhanced T1WI. ASSESSMENT: DWI and DSC images were reconstructed at three DLR levels (high, medium, and low). Agreement between original and DLR images for apparent diffusion coefficient (ADC), cerebral blood volume (CBV), cerebral blood flow (CBF), mean transit time (MTT), and time to peak (TTP) was assessed using the coefficient of variation, repeatability coefficient (RC), and concordance correlation coefficient. For DSC time-series, signal-to-noise ratio, root mean square error (RMSE), and mean absolute error (MAE) were computed within tumor masks. DWI comparisons used mean signal intensity at b = 0 and b = 1000. STATISTICAL TESTS: Paired t-tests compared ADC, relative CBV, and DWI signals. RMSE and MAE were compared using repeated-measures analysis of variance. Significance was set at p < 0.05. RESULTS: ADC (p = 0.955-0.979) and CBV (p = 0.341-0.708), CBF (p = 0.684-0.983), and MTT (p = 0.403-0.971) values showed no significant differences between original and DLR images, while high-level DLR showed significantly higher TTP than original images. RCs demonstrated high reproducibility across DLR levels for ADC (21.78-22.20), CBV (0.88-0.96), CBF (27.98-34.18), MTT (1.26-1.50), and TTP (3.40-3.99). DSC analysis showed the best noise reduction with high-level DLR (lowest RMSE, 254.62 and MAE, 253.18 of DSC) without compromising CBV quantification. DATA CONCLUSION: DLR effectively reduced noise in DWI and DSC while preserving quantitative accuracy of ADC, CBV, CBF, and MTT. DLR may enable robust physiological MRI when applied in brain tumor imaging. TECHNICAL EFFICACY: Stage 3.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41793218/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Magn Reson Imaging",
+      "published_date": "2026-03-07",
+      "date": "2026-03-08"
+    },
+    {
+      "title": "Cerebrum functional network alterations following posterior fossa surgery in Children.",
+      "summary": "BACKGROUND: Pediatric posterior fossa lesions are frequent, and surgery in this area often results in cerebellar injury. Despite improved surgical methods, the impact on brain functional networks and their role in motor and cognitive performance remain unclear. Existing research mainly involves adults or children who received additional therapies, obscuring the effects of isolated cerebellar damage. Evidence from pediatric functional neuroimaging after posterior fossa surgery is limited. METHOD: In this cross-sectional study, we examined 12 postoperative children and 13 healthy peers using resting-state functional magnetic resonance imaging (rs-fMRI) and the CNS Vital Signs (CNS VS) computerized neurocognitive battery. The CNS VS battery provided age-adjusted standard scores across multiple cognitive domains as well as motor speed (MotSpd) and psychomotor speed (PsyMotSpd) indices. RESULTS: Short-term postoperative results indicated that most cognitive domains assessed by CNS VS did not differ significantly between groups, whereas the patient group showed lower scores on MotSpd, PsyMotSpd, and the neurocognitive index (NCI). Brain imaging analyses revealed increased regional activity and altered seed-based functional connectivity in several cortical regions of the patient group relative to controls. Exploratory correlation analyses conducted across all participants showed that several of these imaging metrics were negatively associated with motor-related scores; however, one functional connectivity measure was positively associated with MotSpd. CONCLUSION: These findings suggest that children following posterior fossa surgery exhibit measurable alterations in supratentorial brain network organization alongside relatively preserved cognitive performance but reduced motor-related scores on the CNS VS battery. The negative associations between certain imaging metrics and motor performance may reflect heterogeneous or inefficient network reorganization rather than a straightforward compensatory process. Further longitudinal and interventional studies are needed to clarify the functional significance of these network changes and to inform rehabilitation strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41792257/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Childs Nerv Syst",
+      "published_date": "2026-03-07",
+      "date": "2026-03-08"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-08T00:33:10+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Multimodal MRI Neurodevelopmental Profiling in Type 1 Diabetes: Long-term Effects of MDI vs CSII Treatments.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41793758/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebrum functional network alterations following posterior fossa surgery in Children.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41792257/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Open diffusion magnetic resonance imaging and connectivity data for epilepsy and surgery: The IDEAS II release.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41793174/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Deep Learning Reconstruction on Quantitative Analysis in Brain Tumors With Diffusion-Weighted Imaging and Dynamic Susceptibility Contrast Imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41793218/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Differentiating medulloblastoma and pilocytic astrocytoma in children based on multimodal MRI radiomics model.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41793451/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

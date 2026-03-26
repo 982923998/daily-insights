@@ -1,0 +1,122 @@
+{
+  "date": "2026-03-24",
+  "articles": [
+    {
+      "title": "Causal-augmented Source-free Domain Adaptation with Scale-free Transformer for Schizophrenia Classification.",
+      "summary": "Brain functional networks (BFNs) derived from multi-site fMRI data have been widely explored using transformer-based models to extract discriminative connectivity features for the diagnosis of psychiatric disorders, such as schizophrenia (SZ). However, existing transformer-based methods ignore physiological priors like the scale-free property, causing the attention to fail to capture the intrinsic topology of BFNs. Additionally, multisite heterogeneity makes source-free domain adaptation (DA) essential in clinical practice where data sharing is restricted. However, existing methods mainly rely on heuristic data augmentations or pseudo-labeling, without leveraging the intrinsic inter-regional dependencies, resulting in poor robustness to cross-site variability. To overcome these challenges, we proposed a source-free DA framework based on a scale-free transformer encoder for SZ classification. The transformer encoder was pre-trained on labeled source domains to capture discriminative connectivity patterns while integrating a scale-free prior to bias the attention toward hub nodes. The pretrained encoder and classifier were used to initialize the target model, where the encoder learned latent representations derived from inter-regional interactions for causal graph construction. To enhance robustness, the causal structure was perturbed via random permutation and counterfactual interventions, while entropy minimization jointly optimized the encoder and predictor to learn domain-invariant representations. Results showed that our method outperformed the other 4 transformer, 7 DA, 6 multi-site and 6 state-of-the-art methods across two SZ datasets (87.18%±0.91% and 88.39%±0.13%). Ablation results highlighted the contributions of the causal, permutation, counterfactual, and entropy minimization constraints to the performance improvement. Furthermore, the identified discriminative temporal regions provided insights into the dysfunctional neural-mechanisms in SZ.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41870921/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE Trans Neural Syst Rehabil Eng",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Structural Eigenmodes of the Brain to Improve the Source Localization of EEG: Application to Epileptiform Activity.",
+      "summary": "A fundamental view of neuroscience is that, in addition to neuronal activity, the structure of the brain constrains and explains brain function. An alluring formalism in computational neuroscience has been the generation of structural eigenmodes of neural activity from a matrix representing the anatomy of the brain. Traditionally, brain connectomics has been the gold standard for the coupling between structure and function. However, it has recently been suggested that simpler brain geometry can provide more explanatory power in fMRI. An adjacent modality is the source localization problem of EEG, which aims to identify the underlying generators of EEG recordings. The underdetermined nature of the problem requires sufficient constraints to produce realistic and unique solutions of source activity. In this work, a simple framework for incorporating different forms of structural brain eigenmodes to constrain the source localization problem in epilepsy is presented. Geometric eigenmodes were found to be able to reconstruct the spread of a seizure through the brain slightly better than connectome eigenmodes, and both types of structural modes significantly outperformed commonly used approaches.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41869755/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Adv Sci (Weinh)",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Glymphatic system dysfunction in epilepsy: a review of mechanisms and clinical evidence.",
+      "summary": "The glymphatic system is a glial-dependent waste clearance pathway, a perivascular network responsible for the clearance of metabolic waste and neurotoxic proteins through cerebrospinal fluid-interstitial fluid exchange. It may play a critical role in the pathophysiology of various neurological diseases, including epilepsy. Neuroinflammation and blood-brain barrier disruption associated with seizures may impair glymphatic function, while impaired waste clearance may, in turn, facilitate epileptogenesis. Diffusion tensor imaging analysis along the perivascular space (DTI-ALPS) has emerged as a noninvasive imaging marker of glymphatic function. Patients with focal and generalized epilepsy consistently demonstrate reduced DTI-ALPS indices in comparison to healthy controls, with greater impairment associated with older age, longer disease duration, cognitive dysfunction, and drug-resistant epilepsy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41866945/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Encephalitis",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Effects of the herbal prescription Kami Guibi-tang on brain function in amnestic mild cognitive impairment: a task-based and resting-state fMRI study.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41866633/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Effective Connectivity Identifies Divergent Cerebro-Cerebellar Network Organization in Schizophrenia.",
+      "summary": "Introduction functional impairments in schizophrenia may arise from disruptions in large-scale brain networks. Emerging evidence highlights the cerebellum's role in cognitive and affective regulations, yet its directional influence remains poorly understood. This study examines effective connectivity (EC) within cortico-striato-cerebellar networks in schizophrenia and healthy adults. Methods resting-state functional magnetic resonance imaging data from the Centers of Biomedical Research Excellence (COBRE), including people with schizophrenia and healthy controls (n = 134), were used to analyze intrinsic activity and effective connectivity. Cerebellar clusters showing reduced amplitude of low frequency fluctuations (ALFF) and fractional ALFF in schizophrenia were mapped to the Buckner 17-network atlas to define regions of interest (ROIs). Along with prefrontal and striatal ROIs defined a priori, these served as nodes in Group Iterative Multiple Model Estimation (GIMME). In addition to the best-fitting model of the full sample, schizophrenia participants were stratified by symptomology according to the positive and negative syndrome scale. Results four cerebellar voxel clusters in the posterolateral and anteromedial regions showed lower ALFF/fALFF in schizophrenia compared to controls. GIMME revealed distinct intra-cerebellar and cerebello-prefrontal EC patterns in schizophrenia that were absent in controls, including novel directed paths involving the cerebellar control network representation, consistent with its emergence as a central hub. These patterns persisted across symptom-defined subgroups, suggesting core network reorganization. Conclusions findings support the cerebellum's involvement in disrupted network dynamics in schizophrenia, particularly its directional influence over prefrontal targets. EC analyses uncovered cerebellar reorganization that may underlie affective deficits in schizophrenia, offering novel targets for circuit-level interventions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41866416/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cerebellum",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-24T00:32:00+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Glymphatic system dysfunction in epilepsy: a review of mechanisms and clinical evidence.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41866945/",
+        "published_date": "2026-03-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Causal-augmented Source-free Domain Adaptation with Scale-free Transformer for Schizophrenia Classification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41870921/",
+        "published_date": "2026-03-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Effective Connectivity Identifies Divergent Cerebro-Cerebellar Network Organization in Schizophrenia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41866416/",
+        "published_date": "2026-03-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Structural Eigenmodes of the Brain to Improve the Source Localization of EEG: Application to Epileptiform Activity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41869755/",
+        "published_date": "2026-03-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Effects of the herbal prescription Kami Guibi-tang on brain function in amnestic mild cognitive impairment: a task-based and resting-state fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41866633/",
+        "published_date": "2026-03-23",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "date": "2026-03-06",
+  "articles": [
+    {
+      "title": "msitarzewski/agency-agents",
+      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.（1,468 stars today）",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-06",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "TheCraigHewitt/seomachine",
+      "summary": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.（310 stars today）",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-06",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "KeygraphHQ/shannon",
+      "summary": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.（2,930 stars today）",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-06",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "aquasecurity/trivy",
+      "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more（298 stars today）",
+      "url": "https://github.com/aquasecurity/trivy",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-06",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "moeru-ai/airi",
+      "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.（3,006 stars today）",
+      "url": "https://github.com/moeru-ai/airi",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-06",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Show HN: Vet – Prevent coding agents from making mistakes",
+      "summary": "Show HN 发布的 AI/LLM 项目。（16 points，4 comments）",
+      "url": "https://imbue.com/product/vet/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Show HN: Kybernis – Prevent AI agents from executing the same action twice",
+      "summary": "Show HN 发布的 AI/LLM 项目。（4 points，2 comments）",
+      "url": "https://kybernis.io",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Show HN: Clairytee, \"Cursor for PMs\": figure out what to build next, not how",
+      "summary": "Show HN 发布的 AI/LLM 项目。（4 points，2 comments）",
+      "url": "https://www.clairytee.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Show HN: DeraineDB – A 33MB Vector DB in Zig/Go with Sub-Millisecond HNSW",
+      "summary": "Show HN 发布的 AI/LLM 项目。（4 points，1 comments）",
+      "url": "https://github.com/RikardoBonilla/DeraineDB",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Show HN: Anti-regression setup Claude Code – subagents, hooks, and Claude.md",
+      "summary": "Show HN 发布的 AI/LLM 项目。（4 points，1 comments）",
+      "url": "https://github.com/CreatmanCEO/claude-code-antiregression-setup",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "summary": "OpenAI 官方发布更新。",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Ensuring AI use in education leads to opportunity",
+      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "url": "https://openai.com/index/ai-education-opportunity",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "url": "https://openai.com/index/chatgpt-for-excel",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Introducing the Adoption news channel",
+      "summary": "Practical insights and frameworks to turn AI progress into business advantage",
+      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "The five AI value models driving business reinvention",
+      "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Understanding AI and learning outcomes",
+      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
+      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "How Axios uses AI to help deliver high-impact local journalism",
+      "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
+      "url": "https://openai.com/index/axios-allison-murphy",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Ask a Techspert: How does AI understand my visual searches?",
+      "summary": "Mobile phone with a search bar that says \"Ask anything\"",
+      "url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "The latest AI news we announced in February",
+      "summary": "an MP4 of a carousel with images reading \"Gemini 3.1 Pro\" and \"Nano Banana 2\"",
+      "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-05",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMMode_Social.max-600x600.format-webp.webp\">Canvas in AI Mode is now available for everyone in the U.S. Plus, it can now help you draft documents or build interactive tools.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-04",
+      "date": "2026-03-06"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-06T02:19:27+00:00",
+    "version": 1,
+    "summary": "Captured 22 AI items. Preference focus is new models and new technical architecture: 10 high-priority, 11 medium-priority, 1 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 22,
+      "high_priority": 10,
+      "medium_priority": 11,
+      "low_priority": 1
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 18
+      },
+      {
+        "topic": "new architecture",
+        "count": 7
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+        "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Introducing GPT-5.4",
+        "url": "https://openai.com/index/introducing-gpt-5-4",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Introducing ChatGPT for Excel and new financial data integrations",
+        "url": "https://openai.com/index/chatgpt-for-excel",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Anti-regression setup Claude Code – subagents, hooks, and Claude.md",
+        "url": "https://github.com/CreatmanCEO/claude-code-antiregression-setup",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "The latest AI news we announced in February",
+        "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "The five AI value models driving business reinvention",
+        "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GPT-5.4 Thinking System Card",
+        "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Vet – Prevent coding agents from making mistakes",
+        "url": "https://imbue.com/product/vet/",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Kybernis – Prevent AI agents from executing the same action twice",
+        "url": "https://kybernis.io",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Introducing the Adoption news channel",
+        "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "TheCraigHewitt/seomachine",
+        "url": "https://github.com/TheCraigHewitt/seomachine",
+        "published_date": "2026-03-06",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: DeraineDB – A 33MB Vector DB in Zig/Go with Sub-Millisecond HNSW",
+        "url": "https://github.com/RikardoBonilla/DeraineDB",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Clairytee, \"Cursor for PMs\": figure out what to build next, not how",
+        "url": "https://www.clairytee.com/",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Ensuring AI use in education leads to opportunity",
+        "url": "https://openai.com/index/ai-education-opportunity",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Ask a Techspert: How does AI understand my visual searches?",
+        "url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Understanding AI and learning outcomes",
+        "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "How Axios uses AI to help deliver high-impact local journalism",
+        "url": "https://openai.com/index/axios-allison-murphy",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "msitarzewski/agency-agents",
+        "url": "https://github.com/msitarzewski/agency-agents",
+        "published_date": "2026-03-06",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "moeru-ai/airi",
+        "url": "https://github.com/moeru-ai/airi",
+        "published_date": "2026-03-06",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "KeygraphHQ/shannon",
+        "url": "https://github.com/KeygraphHQ/shannon",
+        "published_date": "2026-03-06",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "aquasecurity/trivy",
+        "url": "https://github.com/aquasecurity/trivy",
+        "published_date": "2026-03-06",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-12",
+  "articles": [],
+  "digest": {
+    "generated_at": "2026-03-12T01:44:26+00:00",
+    "version": 1,
+    "summary": "Captured 0 AI items. Preference focus is new models and new technical architecture: 0 high-priority, 0 medium-priority, 0 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 0,
+      "high_priority": 0,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [],
+    "recommendations": []
+  }
+}

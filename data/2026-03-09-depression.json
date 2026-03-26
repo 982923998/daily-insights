@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-09",
+  "articles": [
+    {
+      "title": "Clinical course and patient-reported outcomes in conservatively managed spinal cavernous malformations.",
+      "summary": "BACKGROUND: Studies on patients with spinal cavernous malformations (SCM) who were managed conservatively are scarce. We aimed to assess clinical, functional, and patient-reported outcomes in these patients.\nMETHODS: This single-center cohort study included consecutive adult patients with SCM, diagnosed in 1995-2024, who underwent conservative management as the primary treatment strategy and had ≥ 6 months of follow-up. We retrospectively analyzed events of symptomatic hemorrhage (SH) and/or focal neurological deficits (FND) and conducted cross-sectional telephone and questionnaire follow-up. We evaluated functional outcome on the modified Rankin Scale (mRS) and quality of life using EuroQol 5-dimensions 5-levels (EQ-5D-5L) and Patient-Reported Outcome Measurement Information System 29 (PROMIS-29).\nRESULTS: We identified 30 patients with SCM, of whom 28 were included (median age 47 years [IQR 36-61], 32% women). Nine (32%) initially presented with SH, 10 (36%) with FND, and 9 (32%) incidentally. During a median follow-up of 6.4 years (IQR 4.0-10.6), 10 (36%) patients experienced SH/FND and 5 (18%) underwent surgical intervention. The annual rate of SH/FND was 5.1% (95% CI 2.5-9.4%). At final follow-up, 26 (93%) patients completed the questionnaire and 16 (57%) were functionally independent (mRS ≤ 2). Patients had lower utility-weighted EQ index scores than the general population (0.63 versus 0.87, p < 0.001) and reported more PROMIS-29 anxiety/fear (56.8 versus 50.3, p = 0.002), depression/sadness (55.9 versus 50.3, p = 0.023), and fatigue (55.2 versus 49.4, p = 0.029).\nCONCLUSIONS: Among 28 conservatively managed patients with SCM, 23 (82%) did not require surgical treatment during follow-up and the majority remained functionally independent. However, patients do report worse health than the general population, particularly mental health.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41795729/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Neurol",
+      "published_date": "2026-03-08",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Neural predictors of treatment outcome through emotion regulation in internalizing disorders: a narrative review.",
+      "summary": "Internalizing disorders such as depressive and anxiety disorders are prevalent, disabling, and characterized by difficulty managing emotions particularly in the context of negative information. Despite the availability of empirically supported treatments, response to these treatments remains heterogeneous. Accruing data indicate neural predictors of treatment response have the potential to contribute to precision medicine to improve treatment outcomes. This review evaluates functional magnetic resonance imaging studies that examined explicit (e.g., effortful) and implicit (e.g., automatic) emotion regulation involving negative stimuli and treatment response. Results showed treatments mostly consisted of cognitive behavioral therapy, exposure therapy, and/or pharmacotherapy. Explicit regulation findings were predominantly based on cognitive reappraisal, which showed pre-treatment activity in medial and lateral prefrontal cortices frequently served as predictors of treatment response. Regarding directionality, greater symptom improvement was generally associated with lower baseline activity in these regions. Results suggest patients with less baseline explicit regulation capacity may benefit more from treatment. For implicit regulation, most studies utilized emotional interference tasks. Predictors frequently involved prefrontal cortical regions and anterior cingulate cortex; here, the direction was largely that of more baseline activity predicting greater symptom improvement. Findings suggest treatment may leverage greater pre-existing implicit regulatory capacity. While baseline activity in other regions during explicit and implicit regulation were reported, including regions central to emotion processing (e.g., amygdala), results were less consistent. Despite these insights, substantial gaps in the literature were observed. For explicit regulation, studies predominantly focused on cognitive reappraisal, an adaptive regulation approach. Furthermore, the majority of studies consisted of major depressive disorder, anxiety disorders, and posttraumatic stress disorder with insufficient representation of other internalizing disorders. Findings underscore the relevance of neural predictors of treatment outcome through emotion regulation in internalizing disorders. However, further study is needed to determine their contribution in precision medicine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41794823/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-03-07",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "The combination of exercise and psychedelics for the treatment of major depressive disorder.",
+      "summary": "Upwards of 50% of people do not respond to the primary treatment modalities for major depressive disorder (MDD), which has led to increased attention and use of alternative methods, including exercise and psychedelics. While interventions using either exercise or psychedelics have demonstrated largely positive results in isolation, their synergistic potential has yet to be explored. As such, this commentary provides an overview of exercise/psychedelics as a treatment for depression and their potential synergy and/or complementarity. From a biological perspective, psychedelics acutely enhance brain-derived neurotrophic factor (BDNF) signalling, while exercise provides sustained BDNF elevation; psychedelics enhance neuroplasticity largely in the cortex (with only modest effects in the hippocampus), while exercise boosts hippocampal neurogenesis; psychedelics increase glutamate release via stimulation of 5-HT2A receptors on pyramidal neurons, while exercise enhances glutamatergic transmission via the endocannabinoid system and reduction of systemic inflammation; both boost serotonin release; and psychedelics temporarily disrupt functional connectivity between the hippocampus and default mode network (DMN), while exercise normalizes this connectivity, which may sustain post-psychedelic gains. Through the lens of psychological and behaviour change, psychedelics appear to facilitate the adoption or maintenance of physical activity habits, increase psychological flexibility, and since exercise is associated with emotional resilience to acute stress, this may allow users to experience deeper immersion and exploration during their psychedelic experience, improving antidepressant outcomes. In summary, exercise and psychedelics have numerous potential complementary mechanisms, therefore, future research is warranted to explore the efficacy, tolerability, safety, and neurobiology of this combination.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41793582/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Discov Ment Health",
+      "published_date": "2026-03-07",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "fMRI-guided V1-targeted rTMS improves depressive symptoms in adolescents and young adults with bipolar disorder: a double-blind randomized controlled trial.",
+      "summary": "BACKGROUND: Bipolar depression (BD-D) in adolescents and young adults is associated with disrupted neural circuits underlying affective regulation, particularly those involving the orbitofrontal cortex (OFC). Despite the promise of repetitive transcranial magnetic stimulation (rTMS) as a non-invasive intervention, effective targeting strategies that engage these dysfunctional circuits remain insufficiently explored. This study investigates the clinical efficacy of a novel rTMS protocol targeting the primary visual cortex (V1) node of the V1-OFC functional circuit in adolescents and young adults with BD-D.\nMETHODS: We conducted a double-blind randomized controlled trial. Fifty-two adolescents and young adults BD-D participants were randomized to active rTMS group (10 Hz, 100% RMT) or sham rTMS group (20% RMT) targeting the V1 region that exhibited the strongest functional connectivity with the OFC (MNI: - 12, - 81, 6). rTMS was administered over 3 weeks (5 sessions/week, 15 sessions in total), with all participants receiving adjunctive lurasidone (40-80 mg/day). The primary outcome was the change in depressive symptoms measured by the Montgomery-Åsberg Depression Rating Scale (MADRS) at baseline, week 3, and week 8. Secondary outcomes included HAMD-24, QIDS-SR, and HAMA. Resting-state fMRI was performed at baseline and after the 3-week intervention to examine changes in functional connectivity related to rTMS.\nRESULTS: A total of 43 participants completed a 3-week intervention, and 37 completed the 8-week follow-up. Compared with the sham group, the active rTMS group showed significantly greater reductions in depressive symptoms. Between-group differences were significant on the primary outcome MADRS at week 8 (t(35) = - 3.595, pFDR < 0.01), with a parallel effect detected for the secondary outcome on the QIDS-SR (t(35) = - 3.653, pFDR < 0.01). HAMD-24 scores also differed significantly at week 3 (t(35) = - 3.921, pFDR < 0.01). No significant changes were found in anxiety symptoms. Resting-state fMRI indicated altered connectivity in the anterior cingulate cortex and right superior occipital gyrus, suggesting modulation of mood-related visual circuits. No severe adverse effects were reported in all participants.\nCONCLUSIONS: The study preliminarily demonstrated that the navigated rTMS precisely targeting the V1-OFC circuit may be a safe and potentially effective intervention for adolescents and young adults with BD-D.\nTRIAL REGISTRATION: ClinicalTrials.gov identifier: NCT05929183.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41792767/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "published_date": "2026-03-07",
+      "date": "2026-03-09"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-09T14:00:09+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 3,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "fMRI-guided V1-targeted rTMS improves depressive symptoms in adolescents and young adults with bipolar disorder: a double-blind randomized controlled trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41792767/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The combination of exercise and psychedelics for the treatment of major depressive disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41793582/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neural predictors of treatment outcome through emotion regulation in internalizing disorders: a narrative review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41794823/",
+        "published_date": "2026-03-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Clinical course and patient-reported outcomes in conservatively managed spinal cavernous malformations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41795729/",
+        "published_date": "2026-03-08",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

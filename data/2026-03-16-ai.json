@@ -1,0 +1,1621 @@
+{
+  "date": "2026-03-16",
+  "articles": [
+    {
+      "title": "unofficial Ultrahuman MCP for AI Agents",
+      "summary": "LocalLLaMA 社区工程讨论帖，3 赞、2 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rud4me/unofficial_ultrahuman_mcp_for_ai_agents/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "running Qwen3.5-27B Q5 splitt across a 4070ti and an amd rx6800 over LAN @ 13t/s with a 32k prompt",
+      "summary": "LocalLLaMA 社区工程讨论帖，30 赞、23 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru17mh/running_qwen3527b_q5_splitt_across_a_4070ti_and/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "llama.cpp MCP - why doesn't work with some models?",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、7 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rujadu/llamacpp_mcp_why_doesnt_work_with_some_models/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "how are we actually supposed to distribute local agents to normal users? (without making them install python)",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、31 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruksdx/how_are_we_actually_supposed_to_distribute_local/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "greenboost - experiences, anyone?",
+      "summary": "LocalLLaMA 社区工程讨论帖，5 赞、8 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru5iqv/greenboost_experiences_anyone/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "[RELEASE] New model - Apex 1.6 Instruct 350M - my most powerful chat model 🚀",
+      "summary": "LocalLLaMA 社区工程讨论帖，19 赞、4 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rui5q8/release_new_model_apex_16_instruct_350m_my_most/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "[Co-Founder Search] Building a \"1-click\" compiler to solve the W4A4 dequantization bottleneck for Edge LLMs. Looking for C++/CUDA/ONNX wizards.",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、1 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruihvc/cofounder_search_building_a_1click_compiler_to/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "You guys gotta try OpenCode + OSS LLM",
+      "summary": "LocalLLaMA 社区工程讨论帖，375 赞、153 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru6qml/you_guys_gotta_try_opencode_oss_llm/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Which LLMs actually fail when domain knowledge is buried in long documents?",
+      "summary": "LocalLLaMA 社区工程讨论帖，4 赞、10 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rupdxb/which_llms_actually_fail_when_domain_knowledge_is/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "We made a coding benchmark that's actually hard to fake. Best result across GPT-5.2, O4-mini, Gemini, Qwen, Kimi with every prompting trick we could think of: 11%.",
+      "summary": "LocalLLaMA 社区工程讨论帖，4 赞、5 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruskjk/we_made_a_coding_benchmark_thats_actually_hard_to/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Unsloth will no longer be making TQ1_0 quants",
+      "summary": "LocalLLaMA 社区工程讨论帖，175 赞、63 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru25ms/unsloth_will_no_longer_be_making_tq1_0_quants/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Thousands queued for free OpenClaw installation in China, but is it real demand?",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、1 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruu0va/thousands_queued_for_free_openclaw_installation/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "SuperML: A plugin that gives coding agents expert-level ML knowledge with agentic memory (60% improvement vs. Claude Code)",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、1 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruei9y/superml_a_plugin_that_gives_coding_agents/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Strange behavior in new 3B thinking model",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru7inn/strange_behavior_in_new_3b_thinking_model/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Self hosting, Power consumption, rentability and the cost of privacy, in France",
+      "summary": "LocalLLaMA 社区工程讨论帖，36 赞、44 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru1g23/self_hosting_power_consumption_rentability_and/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "SRE Kernel &amp; VRAM Orchestration Design Logic",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、3 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru2jwk/sre_kernel_vram_orchestration_design_logic/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "SILMA TTS Release: A new lightweight (150m), open-source bilingual Text-to-Speech model",
+      "summary": "LocalLLaMA 社区工程讨论帖，6 赞、3 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rui20j/silma_tts_release_a_new_lightweight_150m/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "RTX 5090 vLLM Benchmarks &amp; 3 Critical Fixes for Reasoning Models",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rurpmf/rtx_5090_vllm_benchmarks_3_critical_fixes_for/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "ROCm + llama.cpp: anyone else getting gibberish unless they explicitly set a chat template?",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rusa45/rocm_llamacpp_anyone_else_getting_gibberish/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "R9700 users - Which quants are you using for concurrency?",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、2 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rup35n/r9700_users_which_quants_are_you_using_for/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
+      "summary": "LocalLLaMA 社区工程讨论帖，448 赞、82 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1runlpf/qwen359bclaude46opusuncensoreddistilledgguf/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen3.5-27B performs almost on par with 397B and GPT-5 mini in the Game Agent Coding League",
+      "summary": "LocalLLaMA 社区工程讨论帖，107 赞、25 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen3.5-27B Q3_K_M or Qwen3.5-9B Q4_K_M for a 16 GB card (4070 ti super)",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、1 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rusv3o/qwen3527b_q3_k_m_or_qwen359b_q4_k_m_for_a_16_gb/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen3.5 27B refuses to stop thinking",
+      "summary": "LocalLLaMA 社区工程讨论帖，18 赞、23 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru6czk/qwen35_27b_refuses_to_stop_thinking/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen 3.5 is omitting the chat content?",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、6 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rugzec/qwen_35_is_omitting_the_chat_content/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen 3.5 9B matching 120B model performance — 13x efficiency gain. What are your benchmarks showing?",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、10 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruepnq/qwen_35_9b_matching_120b_model_performance_13x/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Qwen 3 8B topped 6 of 13 hard evals against models 4x its size, blind peer eval of 10 SLMs",
+      "summary": "LocalLLaMA 社区工程讨论帖，6 赞、6 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruqs1c/qwen_3_8b_topped_6_of_13_hard_evals_against/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Professional-grade local AI on consumer hardware — 80B stable on 44GB mixed VRAM (RTX 5060 Ti ×2 + RTX 3060) for under €800 total. Full compatibility matrix included.",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、16 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rudkx1/professionalgrade_local_ai_on_consumer_hardware/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Privacy-Focused AI Terminal Emulator Written in Rust",
+      "summary": "LocalLLaMA 社区工程讨论帖，3 赞、6 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rueka1/privacyfocused_ai_terminal_emulator_written_in/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "One AI prompt, one dungeon crawler — what an agent can do when it can actually see and control the game engine",
+      "summary": "LocalLLaMA 社区工程讨论帖，4 赞、7 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rusj5s/one_ai_prompt_one_dungeon_crawler_what_an_agent/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "New Benchmark Three.js Dancing",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、7 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruqray/new_benchmark_threejs_dancing/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Microsoft DebugMCP - VS Code extension we developed that empowers AI Agents with real debugging capabilities",
+      "summary": "LocalLLaMA 社区工程讨论帖，23 赞、9 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruacsq/microsoft_debugmcp_vs_code_extension_we_developed/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Looking for a 100% free AI agent that can control a browser",
+      "summary": "LocalLLaMA 社区工程讨论帖，25 赞、47 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rubyij/looking_for_a_100_free_ai_agent_that_can_control/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Local llm noob needing some help &amp; ideas",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1run6k7/local_llm_noob_needing_some_help_ideas/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "LLM cli/terminal relay tool?",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rupxub/llm_cliterminal_relay_tool/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "I tried to replicate how frontier labs use agent sandboxes and dynamic model routing. It’s open-source, and I need senior devs to tear my architecture apart.",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rurzvk/i_tried_to_replicate_how_frontier_labs_use_agent/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "I tried keeping KV cache across turns for long conversations on Apple Silicon. Results: 200x faster at 100K context.",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、15 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru6hgp/i_tried_keeping_kv_cache_across_turns_for_long/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "I spent $12 running an AI agent for a month — cost breakdown",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、19 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru11el/i_spent_12_running_an_ai_agent_for_a_month_cost/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "I added a visual workflow builder to my open-source AI agent automation platform (v0.6.0)",
+      "summary": "LocalLLaMA 社区工程讨论帖，3 赞、2 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruiqzx/i_added_a_visual_workflow_builder_to_my/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "How to fully load a model to both GPU and RAM?",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、8 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru2o9a/how_to_fully_load_a_model_to_both_gpu_and_ram/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "How I stitched together a super easy Perplexity clone to deal with Perplexity's enshittification. So easy I could do it brain damaged!",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、2 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rur1q1/how_i_stitched_together_a_super_easy_perplexity/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Help to reinstall rocm and amd drivers on ubuntu 24.04",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、11 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rubx02/help_to_reinstall_rocm_and_amd_drivers_on_ubuntu/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Help for setup coding model",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、11 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruja3p/help_for_setup_coding_model/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Has increasing the number of experts used in MoE models ever meaningfully helped?",
+      "summary": "LocalLLaMA 社区工程讨论帖，22 赞、7 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1runn9v/has_increasing_the_number_of_experts_used_in_moe/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "HELP how to connect llaama.cpp to openclaw",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、3 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rud8yy/help_how_to_connect_llaamacpp_to_openclaw/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Getting Fish Speech 1.5 to run natively on RTX 50-Series (Blackwell) - Automated Scripts &amp; Manual Guide",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、0 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rufn2e/getting_fish_speech_15_to_run_natively_on_rtx/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "GLM 4.7 on dual RTX Pro 6000 Blackwell",
+      "summary": "LocalLLaMA 社区工程讨论帖，9 赞、22 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruld0r/glm_47_on_dual_rtx_pro_6000_blackwell/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Futureproofing a local LLM setup: 2x3090 vs 4x5060TI vs Mac Studio 64GB vs ???",
+      "summary": "LocalLLaMA 社区工程讨论帖，2 赞、59 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruab99/futureproofing_a_local_llm_setup_2x3090_vs/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Cannot get gpt-oss-20b to work with Vane/Perplexica",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、1 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rupzl0/cannot_get_gptoss20b_to_work_with_vaneperplexica/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Can your rig run it? A local LLM benchmark that ranks your model against the giants and suggests what your hardware can handle.",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、6 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruka2d/can_your_rig_run_it_a_local_llm_benchmark_that/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Built a Cursor alternative that works with any model including local ones — and now trying to integrate African-built LLMs as first-class providers",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、6 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rui2io/built_a_cursor_alternative_that_works_with_any/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Best local / uncensored LLM that feels closest to GPT-4.1 for dating and texting advice?",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、9 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rut0gj/best_local_uncensored_llm_that_feels_closest_to/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Benchmark: ik_llama.cpp vs llama.cpp on Qwen3/3.5 MoE Models",
+      "summary": "LocalLLaMA 社区工程讨论帖，24 赞、12 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruew2g/benchmark_ik_llamacpp_vs_llamacpp_on_qwen335_moe/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Are Langchain and Langgraph production grade ?",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、18 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru22ir/are_langchain_and_langgraph_production_grade/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Anyone have experience of mixing nvidia and amd gpus with llama.cpp? Is it stable?",
+      "summary": "LocalLLaMA 社区工程讨论帖，4 赞、9 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruqgdk/anyone_have_experience_of_mixing_nvidia_and_amd/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Any sence to run LLM in-browser?",
+      "summary": "LocalLLaMA 社区工程讨论帖，1 赞、5 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruasva/any_sence_to_run_llm_inbrowser/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "A la recherche d'un modèle précis pour décoder les images",
+      "summary": "LocalLLaMA 社区工程讨论帖，0 赞、1 评论，涉及本地部署/推理优化/模型权重或工具发布。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruej20/a_la_recherche_dun_modèle_précis_pour_décoder_les/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Yak – Voice typing tool in Tauri/Rust that auto-presses Enter for you",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://getyak.app",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: What if your synthesizer was powered by APL (or a dumb K clone)?",
+      "summary": "Show HN 项目，社区热度 74 分、28 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://octetta.github.io/k-synth/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Webmatik – AI that audits your website across 8 categories in 4min",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://webmatik.ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: TalkBlog – Speak Your Mind. Publish Your Words",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://talkblog.app/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: TTS.ai – Text to Speech",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://tts.ai/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Signet – Autonomous wildfire tracking from satellite and weather data",
+      "summary": "Show HN 项目，社区热度 103 分、29 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://signet.watch",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: SciTeX Notification – Give AI agents a voice: TTS, phone calls, SMS",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/ywatanabe1989/scitex-notification",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: ResonanceNet – Proof-of-Training Blockchain",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/Kristian5013/resonancenet",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: ReadingIsFun – ePub reader that lets your coding agent read along",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/baturyilmaz/readingisfun",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Quell, a local security layer to stop AI IDEs leaking your secrets",
+      "summary": "Show HN 项目，社区热度 2 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/Sonofg0tham/Quell",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Portable signed proof for agent, API, and MCP interactions",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/peacprotocol/peac",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Opsmeter.io – AI cost attribution and budget control for LLM apps",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://news.ycombinator.com/item?id=47390935",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: OpenLegion – AI agent fleet with container isolation and vault proxy",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://www.openlegion.ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: OpenJet – An offline agent harness for memory-constrained edge hardware",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/L-Forster/open-jet",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: OpenClaw plugin – hard budget limits for agent tool calls",
+      "summary": "Show HN 项目，社区热度 1 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/runcycles/cycles-openclaw-budget-guard",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Open-source playground to red-team AI agents with exploits published",
+      "summary": "Show HN 项目，社区热度 8 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/fabraix/playground",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: ObservAgent – Observability for Claude Code(cost, tools, subagents)",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://darshannere.github.io/observagent/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Nova–Self-hosted personal AI learns from corrections &fine-tunes itself",
+      "summary": "Show HN 项目，社区热度 2 分、3 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/HeliosNova/nova",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Moltcorp – a network for AI agents to make money",
+      "summary": "Show HN 项目，社区热度 1 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://moltcorporation.com",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: LearnFork – Branching AI chat for learning and researching",
+      "summary": "Show HN 项目，社区热度 2 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://learnfork.com/home",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: LLVM-Z80 - I wrote a complete LLVM backend with AI",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/llvm-z80/llvm-z80",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Kubernetes Security Profile Generator Using eBPF",
+      "summary": "Show HN 项目，社区热度 3 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://news.ycombinator.com/item?id=47392551",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: I made an API letting people search in real AI – human conversations",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://apify.com/aiso/aiso-conversations-intelligence",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: I logged 38 days of LLM forecasts to study behavior",
+      "summary": "Show HN 项目，社区热度 2 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://huggingface.co/datasets/louidev/glassballai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: I built two AI entities with shared memory and a portable identity spec",
+      "summary": "Show HN 项目，社区热度 1 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/wjcornelius/Claudefather",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: GitLike – Decentralized Git Hosting on IPFS",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://gitlike.dev",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Execute local LLM prompts in remote SSH shell sessions",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/tgalal/promptcmd",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Dumped Wix, my AEC consultancy's storefront is now an AI Edge",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://axoworks.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: DocuDesign – describe a design, edit text inline, get print-ready file",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://docudesign.app/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Dialtone watcher – what is my laptop doing and am I normal",
+      "summary": "Show HN 项目，社区热度 5 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://news.ycombinator.com/item?id=47387443",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Detect Drift in TypeScript codebases",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/LogicStamp/logicstamp-context",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Detach – Mobile UI for managing AI coding agents from your phone",
+      "summary": "Show HN 项目，社区热度 2 分、3 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/salvozappa/detach",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Code Royale – Play and learn poker with Claude Code (skill)",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/BohdanPetryshyn/code-royale",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: CandlePulse – Natural language trading alerts powered by AI",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://candlepulse.com/home",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Auditor Core–CLI security auditing engine with mathematical SPI scoring",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/auditor-core-systems/auditor-core-demo",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Astrocartography AI – an interactive astrocartography map generator",
+      "summary": "Show HN 项目，社区热度 2 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://news.ycombinator.com/item?id=47387973",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: AntroCode-A zero-dependency,single-file local AI client,159 clone in 4D",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/AntroMind/antrocode",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Agentic Docs Templates, keep AI coding agents disciplined",
+      "summary": "Show HN 项目，社区热度 3 分、2 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/Sukitly/agentic-docs-templates",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Agentfile one contract.yaml for all your AI agent instruction files",
+      "summary": "Show HN 项目，社区热度 1 分、1 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/dennishavermans/agentfile",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: Agent 404 – Stop AI agents from hitting dead links and making things up",
+      "summary": "Show HN 项目，社区热度 3 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://www.agent404.dev/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: After a lot of backlash I fixed and built it",
+      "summary": "Show HN 项目，社区热度 1 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/adityaprasad-sudo/ExploreSingapore",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    },
+    {
+      "title": "Show HN: ARISE – Agents that create their own tools at runtime when they fail",
+      "summary": "Show HN 项目，社区热度 3 分、0 评论；聚焦可直接试用的 AI/LLM 工具或开源实现。",
+      "url": "https://github.com/abekek/arise",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-15",
+      "date": "2026-03-16"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-16T00:02:30+00:00",
+    "version": 1,
+    "summary": "Captured 99 AI items. Preference focus is new models and new technical architecture: 28 high-priority, 49 medium-priority, 22 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 99,
+      "high_priority": 28,
+      "medium_priority": 49,
+      "low_priority": 22
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 69
+      },
+      {
+        "topic": "new architecture",
+        "count": 31
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "RTX 5090 vLLM Benchmarks &amp; 3 Critical Fixes for Reasoning Models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rurpmf/rtx_5090_vllm_benchmarks_3_critical_fixes_for/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "We made a coding benchmark that's actually hard to fake. Best result across GPT-5.2, O4-mini, Gemini, Qwen, Kimi with every prompting trick we could think of: 11%.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruskjk/we_made_a_coding_benchmark_thats_actually_hard_to/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: ObservAgent – Observability for Claude Code(cost, tools, subagents)",
+        "url": "https://darshannere.github.io/observagent/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Can your rig run it? A local LLM benchmark that ranks your model against the giants and suggests what your hardware can handle.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruka2d/can_your_rig_run_it_a_local_llm_benchmark_that/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "I tried to replicate how frontier labs use agent sandboxes and dynamic model routing. It’s open-source, and I need senior devs to tear my architecture apart.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rurzvk/i_tried_to_replicate_how_frontier_labs_use_agent/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Benchmark: ik_llama.cpp vs llama.cpp on Qwen3/3.5 MoE Models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruew2g/benchmark_ik_llamacpp_vs_llamacpp_on_qwen335_moe/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "[RELEASE] New model - Apex 1.6 Instruct 350M - my most powerful chat model 🚀",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rui5q8/release_new_model_apex_16_instruct_350m_my_most/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Code Royale – Play and learn poker with Claude Code (skill)",
+        "url": "https://github.com/BohdanPetryshyn/code-royale",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "SILMA TTS Release: A new lightweight (150m), open-source bilingual Text-to-Speech model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rui20j/silma_tts_release_a_new_lightweight_150m/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Built a Cursor alternative that works with any model including local ones — and now trying to integrate African-built LLMs as first-class providers",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rui2io/built_a_cursor_alternative_that_works_with_any/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Best local / uncensored LLM that feels closest to GPT-4.1 for dating and texting advice?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rut0gj/best_local_uncensored_llm_that_feels_closest_to/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "SuperML: A plugin that gives coding agents expert-level ML knowledge with agentic memory (60% improvement vs. Claude Code)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruei9y/superml_a_plugin_that_gives_coding_agents/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: SciTeX Notification – Give AI agents a voice: TTS, phone calls, SMS",
+        "url": "https://github.com/ywatanabe1989/scitex-notification",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: ReadingIsFun – ePub reader that lets your coding agent read along",
+        "url": "https://github.com/baturyilmaz/readingisfun",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Portable signed proof for agent, API, and MCP interactions",
+        "url": "https://github.com/peacprotocol/peac",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: OpenLegion – AI agent fleet with container isolation and vault proxy",
+        "url": "https://www.openlegion.ai",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: OpenJet – An offline agent harness for memory-constrained edge hardware",
+        "url": "https://github.com/L-Forster/open-jet",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: OpenClaw plugin – hard budget limits for agent tool calls",
+        "url": "https://github.com/runcycles/cycles-openclaw-budget-guard",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Open-source playground to red-team AI agents with exploits published",
+        "url": "https://github.com/fabraix/playground",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Moltcorp – a network for AI agents to make money",
+        "url": "https://moltcorporation.com",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Detach – Mobile UI for managing AI coding agents from your phone",
+        "url": "https://github.com/salvozappa/detach",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agentic Docs Templates, keep AI coding agents disciplined",
+        "url": "https://github.com/Sukitly/agentic-docs-templates",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agentfile one contract.yaml for all your AI agent instruction files",
+        "url": "https://github.com/dennishavermans/agentfile",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agent 404 – Stop AI agents from hitting dead links and making things up",
+        "url": "https://www.agent404.dev/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: ARISE – Agents that create their own tools at runtime when they fail",
+        "url": "https://github.com/abekek/arise",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Qwen3.5-27B performs almost on par with 397B and GPT-5 mini in the Game Agent Coding League",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rue2f4/qwen3527b_performs_almost_on_par_with_397b_and/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Qwen 3.5 9B matching 120B model performance — 13x efficiency gain. What are your benchmarks showing?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruepnq/qwen_35_9b_matching_120b_model_performance_13x/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Has increasing the number of experts used in MoE models ever meaningfully helped?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1runn9v/has_increasing_the_number_of_experts_used_in_moe/",
+        "published_date": "2026-03-15",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "llama.cpp MCP - why doesn't work with some models?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rujadu/llamacpp_mcp_why_doesnt_work_with_some_models/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "[Co-Founder Search] Building a \"1-click\" compiler to solve the W4A4 dequantization bottleneck for Edge LLMs. Looking for C++/CUDA/ONNX wizards.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruihvc/cofounder_search_building_a_1click_compiler_to/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "You guys gotta try OpenCode + OSS LLM",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru6qml/you_guys_gotta_try_opencode_oss_llm/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Which LLMs actually fail when domain knowledge is buried in long documents?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rupdxb/which_llms_actually_fail_when_domain_knowledge_is/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Strange behavior in new 3B thinking model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru7inn/strange_behavior_in_new_3b_thinking_model/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Yak – Voice typing tool in Tauri/Rust that auto-presses Enter for you",
+        "url": "https://getyak.app",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: What if your synthesizer was powered by APL (or a dumb K clone)?",
+        "url": "https://octetta.github.io/k-synth/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Webmatik – AI that audits your website across 8 categories in 4min",
+        "url": "https://webmatik.ai",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: TalkBlog – Speak Your Mind. Publish Your Words",
+        "url": "https://talkblog.app/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: TTS.ai – Text to Speech",
+        "url": "https://tts.ai/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Signet – Autonomous wildfire tracking from satellite and weather data",
+        "url": "https://signet.watch",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: ResonanceNet – Proof-of-Training Blockchain",
+        "url": "https://github.com/Kristian5013/resonancenet",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Quell, a local security layer to stop AI IDEs leaking your secrets",
+        "url": "https://github.com/Sonofg0tham/Quell",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Opsmeter.io – AI cost attribution and budget control for LLM apps",
+        "url": "https://news.ycombinator.com/item?id=47390935",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Nova–Self-hosted personal AI learns from corrections &fine-tunes itself",
+        "url": "https://github.com/HeliosNova/nova",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: LearnFork – Branching AI chat for learning and researching",
+        "url": "https://learnfork.com/home",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: LLVM-Z80 - I wrote a complete LLVM backend with AI",
+        "url": "https://github.com/llvm-z80/llvm-z80",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Kubernetes Security Profile Generator Using eBPF",
+        "url": "https://news.ycombinator.com/item?id=47392551",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: I made an API letting people search in real AI – human conversations",
+        "url": "https://apify.com/aiso/aiso-conversations-intelligence",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: I logged 38 days of LLM forecasts to study behavior",
+        "url": "https://huggingface.co/datasets/louidev/glassballai",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: I built two AI entities with shared memory and a portable identity spec",
+        "url": "https://github.com/wjcornelius/Claudefather",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: GitLike – Decentralized Git Hosting on IPFS",
+        "url": "https://gitlike.dev",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Execute local LLM prompts in remote SSH shell sessions",
+        "url": "https://github.com/tgalal/promptcmd",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Dumped Wix, my AEC consultancy's storefront is now an AI Edge",
+        "url": "https://axoworks.com/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: DocuDesign – describe a design, edit text inline, get print-ready file",
+        "url": "https://docudesign.app/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Dialtone watcher – what is my laptop doing and am I normal",
+        "url": "https://news.ycombinator.com/item?id=47387443",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Detect Drift in TypeScript codebases",
+        "url": "https://github.com/LogicStamp/logicstamp-context",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: CandlePulse – Natural language trading alerts powered by AI",
+        "url": "https://candlepulse.com/home",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Auditor Core–CLI security auditing engine with mathematical SPI scoring",
+        "url": "https://github.com/auditor-core-systems/auditor-core-demo",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Astrocartography AI – an interactive astrocartography map generator",
+        "url": "https://news.ycombinator.com/item?id=47387973",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: AntroCode-A zero-dependency,single-file local AI client,159 clone in 4D",
+        "url": "https://github.com/AntroMind/antrocode",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: After a lot of backlash I fixed and built it",
+        "url": "https://github.com/adityaprasad-sudo/ExploreSingapore",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1runlpf/qwen359bclaude46opusuncensoreddistilledgguf/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Qwen 3 8B topped 6 of 13 hard evals against models 4x its size, blind peer eval of 10 SLMs",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruqs1c/qwen_3_8b_topped_6_of_13_hard_evals_against/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Local llm noob needing some help &amp; ideas",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1run6k7/local_llm_noob_needing_some_help_ideas/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "LLM cli/terminal relay tool?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rupxub/llm_cliterminal_relay_tool/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "How to fully load a model to both GPU and RAM?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru2o9a/how_to_fully_load_a_model_to_both_gpu_and_ram/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Help for setup coding model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruja3p/help_for_setup_coding_model/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Futureproofing a local LLM setup: 2x3090 vs 4x5060TI vs Mac Studio 64GB vs ???",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruab99/futureproofing_a_local_llm_setup_2x3090_vs/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Cannot get gpt-oss-20b to work with Vane/Perplexica",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rupzl0/cannot_get_gptoss20b_to_work_with_vaneperplexica/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Any sence to run LLM in-browser?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruasva/any_sence_to_run_llm_inbrowser/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "unofficial Ultrahuman MCP for AI Agents",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rud4me/unofficial_ultrahuman_mcp_for_ai_agents/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "how are we actually supposed to distribute local agents to normal users? (without making them install python)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruksdx/how_are_we_actually_supposed_to_distribute_local/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "One AI prompt, one dungeon crawler — what an agent can do when it can actually see and control the game engine",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rusj5s/one_ai_prompt_one_dungeon_crawler_what_an_agent/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "New Benchmark Three.js Dancing",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruqray/new_benchmark_threejs_dancing/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Microsoft DebugMCP - VS Code extension we developed that empowers AI Agents with real debugging capabilities",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruacsq/microsoft_debugmcp_vs_code_extension_we_developed/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Looking for a 100% free AI agent that can control a browser",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rubyij/looking_for_a_100_free_ai_agent_that_can_control/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "I spent $12 running an AI agent for a month — cost breakdown",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru11el/i_spent_12_running_an_ai_agent_for_a_month_cost/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "I added a visual workflow builder to my open-source AI agent automation platform (v0.6.0)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruiqzx/i_added_a_visual_workflow_builder_to_my/",
+        "published_date": "2026-03-15",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "running Qwen3.5-27B Q5 splitt across a 4070ti and an amd rx6800 over LAN @ 13t/s with a 32k prompt",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru17mh/running_qwen3527b_q5_splitt_across_a_4070ti_and/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "greenboost - experiences, anyone?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru5iqv/greenboost_experiences_anyone/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Unsloth will no longer be making TQ1_0 quants",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru25ms/unsloth_will_no_longer_be_making_tq1_0_quants/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Thousands queued for free OpenClaw installation in China, but is it real demand?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruu0va/thousands_queued_for_free_openclaw_installation/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Self hosting, Power consumption, rentability and the cost of privacy, in France",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru1g23/self_hosting_power_consumption_rentability_and/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "SRE Kernel &amp; VRAM Orchestration Design Logic",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru2jwk/sre_kernel_vram_orchestration_design_logic/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "ROCm + llama.cpp: anyone else getting gibberish unless they explicitly set a chat template?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rusa45/rocm_llamacpp_anyone_else_getting_gibberish/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "R9700 users - Which quants are you using for concurrency?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rup35n/r9700_users_which_quants_are_you_using_for/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Qwen3.5-27B Q3_K_M or Qwen3.5-9B Q4_K_M for a 16 GB card (4070 ti super)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rusv3o/qwen3527b_q3_k_m_or_qwen359b_q4_k_m_for_a_16_gb/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Qwen3.5 27B refuses to stop thinking",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru6czk/qwen35_27b_refuses_to_stop_thinking/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Qwen 3.5 is omitting the chat content?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rugzec/qwen_35_is_omitting_the_chat_content/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Professional-grade local AI on consumer hardware — 80B stable on 44GB mixed VRAM (RTX 5060 Ti ×2 + RTX 3060) for under €800 total. Full compatibility matrix included.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rudkx1/professionalgrade_local_ai_on_consumer_hardware/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Privacy-Focused AI Terminal Emulator Written in Rust",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rueka1/privacyfocused_ai_terminal_emulator_written_in/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "I tried keeping KV cache across turns for long conversations on Apple Silicon. Results: 200x faster at 100K context.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru6hgp/i_tried_keeping_kv_cache_across_turns_for_long/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "How I stitched together a super easy Perplexity clone to deal with Perplexity's enshittification. So easy I could do it brain damaged!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rur1q1/how_i_stitched_together_a_super_easy_perplexity/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Help to reinstall rocm and amd drivers on ubuntu 24.04",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rubx02/help_to_reinstall_rocm_and_amd_drivers_on_ubuntu/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "HELP how to connect llaama.cpp to openclaw",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rud8yy/help_how_to_connect_llaamacpp_to_openclaw/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Getting Fish Speech 1.5 to run natively on RTX 50-Series (Blackwell) - Automated Scripts &amp; Manual Guide",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rufn2e/getting_fish_speech_15_to_run_natively_on_rtx/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "GLM 4.7 on dual RTX Pro 6000 Blackwell",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruld0r/glm_47_on_dual_rtx_pro_6000_blackwell/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Are Langchain and Langgraph production grade ?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ru22ir/are_langchain_and_langgraph_production_grade/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Anyone have experience of mixing nvidia and amd gpus with llama.cpp? Is it stable?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruqgdk/anyone_have_experience_of_mixing_nvidia_and_amd/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "A la recherche d'un modèle précis pour décoder les images",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ruej20/a_la_recherche_dun_modèle_précis_pour_décoder_les/",
+        "published_date": "2026-03-15",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

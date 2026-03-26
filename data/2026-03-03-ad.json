@@ -1,0 +1,156 @@
+{
+  "date": "2026-03-03",
+  "articles": [
+    {
+      "title": "Progression of fiber bundle damage in amnestic Alzheimer's disease and LATE: a 2-year fixel-based study.",
+      "summary": "Alzheimer's disease (AD) and limbic-predominant age-related TDP-43 encephalopathy (LATE) are two neurodegenerative diseases underpinned by distinct proteinopathies, which share a similar initial amnestic clinical phenotype but have a different clinical course. Some pathophysiological models suggest a role for white matter (WM) fiber bundles in disease progression, but they remain discussed, as does their applicability to LATE. Using longitudinal fixel-based analysis, we investigated the progression of WM fiber bundle alterations over 2 years in early amnestic AD (n = 16; clinical-biological diagnosis based on CSF biomarkers and amyloid/tau PET imaging), probable LATE (n = 12; diagnosis based on recently published diagnostic criteria), and amyloid-negative controls (n = 15). We explored the associations between baseline and longitudinal WM fiber bundle alterations and (i) cognitive/functional decline in both patient groups and (ii) baseline amyloid and tau load in patients with AD. In both AD and LATE, we found a 2-year progression of WM fiber bundle alterations in temporo-parietal and temporo-frontal tracts, most of which were altered at baseline, and to a lesser extent in the temporopulvinar bundle of Arnold. We also found a differential 2-year progression of the alterations according to pathology, affecting temporal, limbic tracts and the cingulum in AD, and bilateral...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772333/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Geroscience",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Mapping heterogeneous brain structural subtypes in alzheimer's disease and mild cognitive impairment using normative models.",
+      "summary": "Alzheimer's disease (AD) is a heterogeneous disorder with individual variability in clinical and biological features. Mild cognitive impairment (MCI) represents transition phase and provides a critical window for early intervention. Clinically applicable metrics for quantifying individual brain structural variations remain limited. This study aimed to delineate neuroanatomical heterogeneity and identify brain structural subtypes using individual deviation analysis. We constructed normative models of regional gray matter volume across lifespan using T1-weighted MRI data from 1185 healthy controls in the Cam-CAN and OASIS-3 cohorts. Individual deviations from normative trajectories were evaluated for AD and MCI patients in the ADNI dataset. Based on deviation patterns, unsupervised clustering analysis was used to identify distinct AD and MCI subtypes. Clinical features, longitudinal progression, and gene expression profiles were evaluated for each subtype. We found that substantial heterogeneity in the spatial distribution and severity of structural abnormalities across individuals. Two robust subtypes were identified in each group. Subtype 2 of AD and MCI showed more pronounced negative deviation patterns than subtype 1, particularly in the hippocampus, parahippocampal gyrus, and amygdala. These subtypes demonstrated significant differences in cognitive performance, biomarker profiles, disease progression, and gene expression patterns. AD and MCI subtypes exhibited similar deviation patterns, and MCI...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771832/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Transl Psychiatry",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Low-Dose Lithium for Mild Cognitive Impairment: A Pilot Randomized Clinical Trial.",
+      "summary": "IMPORTANCE: Lithium deficiency may contribute to Alzheimer disease pathogenesis. No randomized clinical trial has examined lithium's effects on cognition, neuroimaging, and plasma biomarkers in mild cognitive impairment (MCI). OBJECTIVE: To examine the feasibility, safety, and preliminary efficacy of lithium carbonate for delaying cognitive decline in older adults with MCI. DESIGN, SETTING, AND PARTICIPANTS: This single-site, randomized, double-blind, placebo-controlled pilot feasibility clinical trial was conducted at the University of Pittsburgh School of Medicine from February 2018 to August 2024, with 2-year follow-up. Analyses used linear mixed-effects models in the intention-to-treat population. Adults aged 60 years or older with MCI who were free of major psychiatric or neurologic illness and contraindications to lithium were included. Of 170 individuals assessed, 83 were randomized (41 lithium vs 42 placebo), with 80 starting treatment (41 lithium vs 39 placebo). Data were analyzed from August 2024 to December 2025. INTERVENTION: Daily low-dose lithium carbonate or placebo for 2 years. MAIN OUTCOMES AND MEASURES: Six prespecified coprimary outcomes included cognitive performance (California Verbal Learning Test-II [CVLT-II] delayed recall, Brief Visuospatial Memory Test-Revised, preclinical Alzheimer cognitive composite), hippocampal volume, cortical gray matter volume, and brain-derived neurotrophic factor. RESULTS: Among 80 participants (mean [SD] age, lithium: 72.93 [8.77] years;...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770546/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "JAMA Neurol",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Semi-quantitative tau PET approaches for Braak staging: concordance of CenTauRz and STOC with visual assessment.",
+      "summary": "OBJECTIVE: The progression of tau pathology in Alzheimer's disease (AD) is closely linked to cognitive decline. Visual Braak staging of tau PET reflects neurofibrillary tangle distribution but requires expertise in interpretation. The present study aimed to evaluate agreement between Braak stages and semi-quantitative CenTauRz and Simplified Temporal-Occipital Classification (STOC). METHODS: We collected data from 112 persons with normal cognition (NC), as well as 103 patients with mild cognitive impairment (MCI), and 48 with AD who were assessed by 1⁸F-flortaucipir PET and MRI in the ADNI3 study. A board-certified nuclear medicine physician visually assessed Braak stages on PET images. CenTauRz scores were derived by converting standardized uptake value ratios (SUVRs) from five predefined regions. STOC stages was based on SUVRs from four regions, and classified cognitive impairment into five stages of typical tau progression or atypical patterns. Tau positivity was defined as Braak stage ≥ IV, CenTauRz ≥ 2.0, or STOC stage ≥ 2/atypical. Concordance (Cohen's κ) and Spearman's correlations (rho, ρ) with Braak stages were calculated. RESULTS: The accuracy of CenTauRz compared to Braak stages was 0.84-0.90, κ = 0.61-0.77, and ρ = 0.67-0.83 and that of STOC was 0.87; κ = 0.71, and ρ = 0.81. CenTauRz captured the...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770504/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Ann Nucl Med",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Lower Plasma Serotonin is Associated with Higher Amyloid Burden, Hippocampal Atrophy, and Cognitive decline in Alzheimer's Disease: A 24-Month Longitudinal Study.",
+      "summary": "This study investigated longitudinal plasma serotonin dynamics across the Alzheimer's disease (AD) continuum (cognitively normal [CN], mild cognitive impairment [MCI], and AD) to determine whether baseline serotonin and its 24-month change are associated with CSF amyloid-β (Aβ42), tau biomarkers, amyloid PET burden, structural brain integrity, and cognitive decline. Data from 959 ADNI participants (CN = 306, MCI = 421, AD = 232) with baseline and 24-month follow-up were analyzed. Measures included plasma serotonin, CSF biomarkers (Aβ42, total tau, p-tau181), florbetapir PET, MRI (hippocampal volume, cortical thickness), and cognitive tests (MMSE, ADAS-Cog 11, CDR-SB). Group differences were tested using ANOVA or Kruskal-Wallis, and associations were examined via partial correlations and mixed-effects models adjusted for age, sex, education, and APOE ε4, with FDR correction. The results revealed that baseline plasma serotonin levels showed a stepwise decline across the clinical continuum (CN > MCI > AD; p ≤ 0.05), consistent with progressive serotonergic dysregulation. In AD participants, higher baseline serotonin was significantly associated with less amyloid pathology and preserved brain structure, including higher CSF Aβ42 (β = 0.28, FDR p = 0.01), lower florbetapir PET SUVR (β = -0.31, FDR p = 0.02), and larger hippocampal volume (β = 0.33, FDR p =...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770485/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Mol Neurosci",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Altered locus coeruleus links to atrophy and hypometabolism in individuals with high Alzheimer's disease biomarkers.",
+      "summary": "INTRODUCTION: The locus coeruleus (LC), the first region to contain tau pathology in Alzheimer's disease (AD), releases norepinephrine, which has a neuroprotective role. We examined whether LC integrity relates to whole-brain integrity and how AD biomarkers may moderate this relationship. METHODS: LC intensity and volume were estimated using automatic segmentation on neuromelanin-sensitive magnetic resonance imaging acquired in n = 71 cognitively unimpaired elderly from the Age-Well randomized controlled trial. We investigated the associations between LC integrity and whole-brain gray matter volume (GMV) and glucose metabolism, as well as the interactions with amyloid positron emission tomography and plasma phosphorylated tau231, neurofilament light chain and glial fibrillary acidic protein. RESULTS: While only LC intensity was directly associated with GMV, both LC measures (intensity and volume) interacted positively with AD biomarkers to predict GMV and glucose metabolism. DISCUSSION: Our results support concomitant LC and gray matter alterations in the context of aging and elevated AD biomarker levels. CLINICAL TRIAL REGISTRATION: Age-Well randomized clinical trial of the Medit-Ageing European Project. TRIAL REGISTRATION NUMBER: EudraCT:2016-002,441-36; IDRCB:2016-A01767-44; ClinicalTrials.gov Identifier: NCT02977819.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772375/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimers Dement",
+      "published_date": "2026-03-01",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Associations of plasma GFAP and P-tau217 with imaging ATN markers and cognitive decline across Centiloid scales.",
+      "summary": "BACKGROUND: The Centiloid (CL) value offers a standardized metric for quantifying amyloid-β (Aβ) levels in the brain. We aimed to investigate the associations of plasma phosphorylated tau 217 (P-tau217) and glial fibrillary acidic protein (GFAP) with Aβ (A) deposition, Tau (T) accumulation, cortical atrophy (N), and cognitive decline across varying CL scales. METHODS: This study involved 1346 participants who underwent [18F]florbetapir PET, plasma P-tau217 and GFAP measurements, structural MRI (sMRI), and cognitive assessments. A subset of 604 participants additionally completed [18F]MK6240 PET. CL values were stratified into three scales: CL ≤ 10, 10 < CL ≤ 30, and CL > 30. ROC analyses assessed the discriminative abilities of plasma P-tau217 and GFAP across various CL scales. Adjusted regression models examined their associations with Aβ/Tau burden, cortical atrophy, and cognitive decline among different CL scales. FINDINGS: Plasma levels of P-tau217 and GFAP exhibited a progressive increase across the groups of CL ≤ 10, 10 < CL ≤ 30, and CL > 30 (P < 0.0001), and were most positively associated with CL values within the 10 < CL ≤ 30 range (β = 0.236, P = 0.016; β = 0.206, P = 0.027, respectively). Plasma P-tau217 effectively differentiated between CL >...",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41768934/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Lancet Reg Health West Pac",
+      "published_date": "2026-03-01",
+      "date": "2026-03-03"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-03T05:58:11+00:00",
+    "version": 1,
+    "summary": "Captured 7 research items. Preference focus is brain-imaging analysis and disease mechanisms: 7 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 7; analysis-method items: 7.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 7,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 7
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 7
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Lower Plasma Serotonin is Associated with Higher Amyloid Burden, Hippocampal Atrophy, and Cognitive decline in Alzheimer's Disease: A 24-Month Longitudinal Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770485/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Progression of fiber bundle damage in amnestic Alzheimer's disease and LATE: a 2-year fixel-based study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772333/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Altered locus coeruleus links to atrophy and hypometabolism in individuals with high Alzheimer's disease biomarkers.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772375/",
+        "published_date": "2026-03-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Semi-quantitative tau PET approaches for Braak staging: concordance of CenTauRz and STOC with visual assessment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770504/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Associations of plasma GFAP and P-tau217 with imaging ATN markers and cognitive decline across Centiloid scales.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41768934/",
+        "published_date": "2026-03-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Mapping heterogeneous brain structural subtypes in alzheimer's disease and mild cognitive impairment using normative models.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41771832/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Low-Dose Lithium for Mild Cognitive Impairment: A Pilot Randomized Clinical Trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770546/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

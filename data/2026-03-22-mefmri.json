@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-22",
+  "articles": [
+    {
+      "title": "Improved Reliability of Resting-State Functional MRI Connectivity Using Multi-Echo Acquisition: Implications for Personalized Transcranial Magnetic Stimulation Targeting.",
+      "summary": "BACKGROUND AND PURPOSE: Multi-echo (ME) functional MRI (fMRI) acquisition improves separation of signal from noise relative to single-echo (SE). We tested whether this enhances reliability of functional connectivity (FC), with a focus on personalizing transcranial magnetic stimulation (TMS) targets in the dorsolateral prefrontal cortex (DLPFC) in patients with depression.\nMATERIALS AND METHODS: Resting-state fMRI scans were acquired from adult patients with major depression (20 female, 15 male) presenting for clinical TMS using either SE (n=21) or ME (n=31). Each subject's fMRI timeseries was split in half, and voxel-wise seed-based FC was computed for 100 general regions of interest (ROIs) and for two TMS-specific ROIs: subgenual cingulate cortex (SGC) and a previously published depression circuit (DEP). Reliability was assessed using (1) spatial correlation between split-half connectivity maps and (2) intraclass correlation coefficient (ICC) for each ROI's connectivity to the DLPFC.\nRESULTS: In general ROI analysis, ME showed significantly higher whole-brain split-half correlations than SE (p = 0.006) and higher ICC (ΔICC = 0.16; p = 0.03). In TMS-specific ROI analysis, ME showed higher split-half correlations for both the SGC-DLPFC (p = 0.04) and DEP-DLPFC (p = 0.01). TMS-specific ICC values were numerically higher for ME (SGC-DLPFC: 0.47; DEP-DLPFC: 0.75) than for SE (0.02 and 0.40, respectively), although these differences were not statistically significant.\nCONCLUSION: ME fMRI improves general FC reliability over SE, with suggested advantages for TMS-specific measures. Future work is needed to determine whether these gains meaningfully improve TMS targeting.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41862185/",
+      "category": "Multi-Echo fMRI",
+      "source": "pubmed",
+      "journal": "AJNR Am J Neuroradiol",
+      "published_date": "2026-03-20",
+      "date": "2026-03-22"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-22T00:42:18+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Improved Reliability of Resting-State Functional MRI Connectivity Using Multi-Echo Acquisition: Implications for Personalized Transcranial Magnetic Stimulation Targeting.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41862185/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

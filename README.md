@@ -24,14 +24,13 @@ Daily Insights/
 │   ├── server.py                     # 本地 HTTP 服务（页面 + API + SSE）
 │   ├── fetch.sh                      # 抓取入口（ai/all/指定领域）
 │   ├── fetch_config.sh               # 模型与 prompt、自动 git 同步开关
-│   ├── enrich_journal.py             # 期刊/ISSN/IF 增强 + unresolved 维护
+│   ├── sync_impact_factors.py        # LetPub IF 同步（含 unresolved 在线补抓）
 │   ├── generate_digest.py            # 生成 digest 推荐
 │   └── schedule.sh                   # launchd 定时任务安装与管理
 ├── data/
 │   ├── YYYY-MM-DD-<domain>.json      # 每日抓取结果
-│   ├── journal_impact_factors.json   # IF 注册表（可人工维护）
 │   ├── if_unresolved_journals.json   # 仍未匹配 IF 的期刊清单
-│   └── letpub/                        # LetPub 期刊库缓存
+│   └── letpub/                        # LetPub 主库 + 手工补抓补充库
 ├── logs/                             # 定时任务日志
 ├── .agents/skills/
 │   ├── daily-ai-news/
@@ -69,6 +68,8 @@ python3 scripts/server.py
 ./scripts/fetch.sh brainmri           # 仅 Brain MRI
 ./scripts/fetch.sh autism depression  # 指定多个学术领域
 ./scripts/fetch.sh all                # AI + 全部学术领域
+./scripts/fetch.sh if                 # 仅同步期刊 IF（不抓论文/新闻）
+./scripts/fetch.sh if --reference user-manual-20260228 --journal "J Alzheimers Dis"
 ```
 
 ## 可抓取领域（当前）
@@ -86,12 +87,13 @@ python3 scripts/server.py
 
 ## 抓取链路（学术）
 
-`fetch.sh`（按领域触发）→ `enrich_journal.py`（期刊与 IF 增强）→ `generate_digest.py`（推荐摘要）
+`fetch.sh`（按领域触发）→ `sync_impact_factors.py`（LetPub IF 同步 + unresolved 维护）→ `generate_digest.py`（推荐摘要）
 
-增强逻辑要点：
+IF 同步逻辑要点：
 
-- 从 PubMed `esummary` 补 `journal` 与 `journal_issn`
-- 优先按 ISSN/期刊名匹配 LetPub 数据
+- IF 读取仅来自 `data/letpub/*`
+- 优先按 ISSN/期刊名匹配 LetPub 本地库
+- 若本地未命中，按 `if_unresolved_journals.json` 的 `manual_full_name` / ISSN 在线补抓并写入 `data/letpub/letpub_life_med_raw.json`
 - IF 状态区分为：
   - `已收录影响因子`
   - `尚无影响因子`
@@ -100,16 +102,36 @@ python3 scripts/server.py
 
 ## 手工维护 IF（推荐流程）
 
-1. 编辑 `data/journal_impact_factors.json` 对应期刊条目（`impact_factor` / `if_year` / `if_status`）
-2. 回填历史文件：
+1. 在 `data/if_unresolved_journals.json` 补充 `manual_full_name`
+2. 运行 IF 同步：
 
 ```bash
-for f in data/2026-*.json; do
-  python3 scripts/enrich_journal.py "$f"
-done
+python3 scripts/sync_impact_factors.py --reference auto-unresolved
 ```
 
-完成后，前端会自动显示更新后的 IF。
+3. 如需仅本地匹配（不访问 LetPub 在线）：
+
+```bash
+python3 scripts/sync_impact_factors.py --no-crawl
+```
+
+4. 用户手工输入期刊名触发抓取：
+
+```bash
+python3 scripts/sync_impact_factors.py \
+  --reference user-manual-20260228 \
+  --journal "Clin Neuroradiol|1869-1439|Clinical Neuroradiology" \
+  --journal "Interdiscip Sci|1867-1462|Interdisciplinary Sciences: Computational Life Sciences" \
+  --workers 8
+```
+
+完成后，前端会自动显示更新后的 IF（来自每日 data 文件里的 `impact_factor` 字段）。
+
+另外会按 reference 分任务写入：
+- 全局：`data/letpub/letpub_life_med_raw.json`
+- 分任务：`data/letpub/references/<reference>.json`
+
+注意：`--journals-file` 必须传具体文件，不能传目录（例如 `data/`）。
 
 ## 配置说明
 
@@ -202,7 +224,7 @@ CODEX_TIMEOUT_SECONDS="600"
 
 3. 某些期刊一直没有 IF
 - 查看 `data/if_unresolved_journals.json`
-- 人工补充后重跑 `enrich_journal.py`
+- 人工补 `manual_full_name` 后重跑 `python3 scripts/sync_impact_factors.py`
 
 4. 抓取长时间无响应
 - 默认单次抓取 10 分钟超时（`CODEX_TIMEOUT_SECONDS="600"`）

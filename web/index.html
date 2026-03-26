@@ -96,6 +96,92 @@
             return `rgba(${r},${g},${b},${alpha})`;
         };
 
+        // --- Helper: Normalize URL for matching ---
+        const normalizeUrl = (url = '') => {
+            if (!url) return '';
+            try {
+                // Remove trailing slash and protocol for comparison
+                return String(url).toLowerCase().trim().replace(/\/$/, '').replace(/^https?:\/\//, '');
+            } catch (e) {
+                return String(url);
+            }
+        };
+
+        const normalizeJournalKey = (value = '') =>
+            String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+
+        const normalizeIssn = (value = '') =>
+            String(value || '').replace(/[^0-9xX]/g, '').toUpperCase();
+
+        const extractLetpubRows = (payload) => {
+            if (Array.isArray(payload)) return payload;
+            if (payload && Array.isArray(payload.rows)) return payload.rows;
+            if (payload && Array.isArray(payload.journals)) return payload.journals;
+            return [];
+        };
+
+        const buildLetpubIndex = (payload) => {
+            const rows = extractLetpubRows(payload);
+            const byName = {};
+            const byIssn = {};
+            rows.forEach((row) => {
+                if (!row || typeof row !== 'object') return;
+                const ifRaw = row.impact_factor;
+                const ifVal = (typeof ifRaw === 'number')
+                    ? ifRaw
+                    : (typeof ifRaw === 'string' && ifRaw.trim() !== '' ? Number.parseFloat(ifRaw) : null);
+                if (!Number.isFinite(ifVal) || ifVal < 0) return;
+                const impactFactor = ifVal > 0 ? ifVal : null;
+                const ifStatus = ifVal > 0 ? 'available' : 'not_available_yet';
+                const ifYear = Number.isFinite(Number(row.impact_factor_year))
+                    ? Number(row.impact_factor_year)
+                    : (Number.isFinite(Number(row.if_year)) ? Number(row.if_year) : null);
+                const source = String(row.source || 'letpub').trim() || 'letpub';
+                const candidates = [
+                    row.journal_name,
+                    row.journal_name_short,
+                    row.manual_full_name,
+                ];
+                candidates.forEach((name) => {
+                    const key = normalizeJournalKey(name || '');
+                    if (!key) return;
+                    const current = byName[key];
+                    const currentIf = current && Number.isFinite(current.impact_factor) ? current.impact_factor : -1;
+                    if (ifVal > currentIf) {
+                        byName[key] = { impact_factor: impactFactor, impact_factor_year: ifYear, if_status: ifStatus, source };
+                    }
+                });
+                const issnKey = normalizeIssn(row.issn || row.journal_issn || '');
+                if (issnKey) {
+                    const current = byIssn[issnKey];
+                    const currentIf = current && Number.isFinite(current.impact_factor) ? current.impact_factor : -1;
+                    if (ifVal > currentIf) {
+                        byIssn[issnKey] = { impact_factor: impactFactor, impact_factor_year: ifYear, if_status: ifStatus, source };
+                    }
+                }
+            });
+            return { byName, byIssn };
+        };
+
+        const getIfInfoForArticle = (article, letpubIndex) => {
+            if (!article || !letpubIndex) {
+                return { impactFactor: null, impactFactorYear: null, impactFactorStatus: '未查到影响因子' };
+            }
+            const issnKey = normalizeIssn(article.journal_issn || '');
+            let match = issnKey ? letpubIndex.byIssn?.[issnKey] : null;
+            if (!match) {
+                const nameKey = normalizeJournalKey(article.journal || '');
+                match = nameKey ? letpubIndex.byName?.[nameKey] : null;
+            }
+            if (!match) {
+                return { impactFactor: null, impactFactorYear: null, impactFactorStatus: '未查到影响因子' };
+            }
+            if (!match.impact_factor) {
+                return { impactFactor: null, impactFactorYear: match.impact_factor_year || null, impactFactorStatus: '尚无影响因子' };
+            }
+            return { impactFactor: match.impact_factor, impactFactorYear: match.impact_factor_year || null, impactFactorStatus: '已收录影响因子' };
+        };
+
         const stableHash = (value = '') => {
             let hash = 0;
             for (let i = 0; i < value.length; i += 1) {
@@ -113,10 +199,65 @@
             return `article-${stableHash(seed)}`;
         };
 
+        const lucideNameToPascal = (name = '') =>
+            String(name)
+                .split(/[-_\s]+/)
+                .filter(Boolean)
+                .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+                .join('');
+
+        // --- Helper: Highlight Search Terms ---
+        const HighlightText = ({ text = '', highlight = '' }) => {
+            if (!highlight.trim()) return <span>{text}</span>;
+            try {
+                const regex = new RegExp(`(${highlight.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+                const parts = text.split(regex);
+                return (
+                    <span>
+                        {parts.map((part, i) =>
+                            regex.test(part) ? (
+                                <mark key={i} className="bg-amber-200/60 dark:bg-amber-500/30 text-slate-900 dark:text-amber-100 rounded-sm px-0.5 transition-colors">
+                                    {part}
+                                </mark>
+                            ) : (
+                                part
+                            )
+                        )}
+                    </span>
+                );
+            } catch (e) {
+                return <span>{text}</span>;
+            }
+        };
+
         // --- Icon Wrapper ---
-        const Icon = ({ name, size = 20, className = "" }) => (
-            <i data-lucide={name} width={size} height={size} className={className}></i>
-        );
+        const Icon = ({ name, size = 20, className = "", ...rest }) => {
+            const iconName = String(name || '');
+            const iconNode = window.lucide?.icons?.[lucideNameToPascal(iconName)];
+
+            if (!iconNode) {
+                return <span className={className} aria-hidden="true" {...rest}></span>;
+            }
+
+            return (
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={size}
+                    height={size}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    data-lucide={iconName}
+                    className={`lucide lucide-${iconName}${className ? ` ${className}` : ''}`}
+                    {...rest}
+                >
+                    {iconNode.map(([tag, attrs], idx) => React.createElement(tag, { key: `${iconName}-${idx}`, ...attrs }))}
+                </svg>
+            );
+        };
 
         // --- Sidebar ---
         const Sidebar = ({ domains, activeDomain, setActiveDomain, favCount, currentDate, onDateChange }) => {
@@ -125,6 +266,7 @@
                 ...domains.map(d => ({ key: d.id, icon: d.icon || 'layers', label: d.label, color: d.color })),
                 { key: 'saved', icon: 'bookmark', label: `Saved${favCount > 0 ? ` (${favCount})` : ''}`, color: '#f59e0b' },
             ];
+            const isSavedView = activeDomain === 'saved';
 
             return (
                 <aside className="w-56 shrink-0 h-screen sticky top-0 flex flex-col border-r border-slate-200/60 dark:border-slate-700/40 bg-white/60 dark:bg-slate-900/60 backdrop-blur-xl">
@@ -138,15 +280,24 @@
 
                     {/* Date picker */}
                     <div className="px-3 mb-4">
-                        <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/40">
-                            <Icon name="calendar" size={14} className="text-slate-400" />
-                            <input
-                                type="date"
-                                value={currentDate}
-                                onChange={(e) => onDateChange(e.target.value)}
-                                className="bg-transparent border-none focus:ring-0 text-slate-700 dark:text-slate-200 font-medium cursor-pointer font-mono text-xs w-full"
-                            />
-                        </div>
+                        {isSavedView ? (
+                            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-50/80 dark:bg-amber-900/20 border border-amber-200/70 dark:border-amber-800/50">
+                                <Icon name="bookmark-check" size={14} className="text-amber-500" />
+                                <p className="text-xs font-medium text-amber-700 dark:text-amber-300">
+                                    Saved includes all dates
+                                </p>
+                            </div>
+                        ) : (
+                            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/40">
+                                <Icon name="calendar" size={14} className="text-slate-400" />
+                                <input
+                                    type="date"
+                                    value={currentDate}
+                                    onChange={(e) => onDateChange(e.target.value)}
+                                    className="bg-transparent border-none focus:ring-0 text-slate-700 dark:text-slate-200 font-medium cursor-pointer font-mono text-xs w-full"
+                                />
+                            </div>
+                        )}
                     </div>
 
                     {/* Nav tabs */}
@@ -220,23 +371,23 @@
         };
 
         // --- SearchBar ---
-        const SearchBar = ({ searchQuery, setSearchQuery }) => (
-            <div className="relative max-w-xl mb-8 group animate-fade-in" style={{ animationDelay: '200ms' }}>
+        const SearchBar = ({ searchQuery, setSearchQuery, className = "" }) => (
+            <div className={`relative group animate-fade-in ${className}`} style={{ animationDelay: '200ms' }}>
                 <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-slate-400 transition-colors">
-                    <Icon name="search" size={20} />
+                    <Icon name="search" size={18} />
                 </div>
                 <input
                     type="text"
                     placeholder="Search articles..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-12 pr-6 py-3.5 glass-panel rounded-2xl bg-white/50 dark:bg-slate-800/50 border-transparent focus:ring-4 focus:ring-slate-200/50 dark:focus:ring-slate-700/50 text-slate-700 dark:text-slate-200 placeholder-slate-400 text-base font-medium transition-all shadow-sm hover:shadow-md"
+                    className="w-full pl-11 pr-4 py-2.5 glass-panel rounded-2xl bg-white/50 dark:bg-slate-800/50 border-transparent focus:ring-4 focus:ring-slate-200/50 dark:focus:ring-slate-700/50 text-slate-700 dark:text-slate-200 placeholder-slate-400 text-sm font-medium transition-all shadow-sm hover:shadow-md"
                 />
             </div>
         );
 
         // --- DigestPanel ---
-        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null, showFallback = false }) => {
+        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null, showFallback = false, letpubIndex }) => {
             if (!digest) {
                 if (!showFallback) return null;
                 return (
@@ -350,25 +501,48 @@
                                                 <p className="text-xs text-slate-400">No items.</p>
                                             ) : (
                                                 groupedRecommendations[section.key].map((item, idx) => {
-                                                    const anchorId = item.url ? anchorByUrl[item.url] : '';
+                                                    const norm = normalizeUrl(item.url);
+                                                    const anchorId = norm ? anchorByUrl[norm] : '';
                                                     const isLinkable = Boolean(anchorId);
                                                     const commonClassName = `block w-full text-left rounded-xl border border-slate-200/70 dark:border-slate-700/70 p-3 transition-colors ${
                                                         isLinkable
                                                             ? 'hover:bg-slate-50 dark:hover:bg-slate-800/60'
                                                             : 'opacity-70'
                                                     }`;
-                                                    const matchedArticle = item.url ? articleByUrl[item.url] : null;
+                                                    const matchedArticle = norm ? articleByUrl[norm] : null;
                                                     const journalName = matchedArticle?.journal || '';
-                                                    const impactFactor = matchedArticle?.impact_factor;
-                                                    const impactFactorYear = matchedArticle?.impact_factor_year;
-                                                    const impactFactorStatus = matchedArticle?.impact_factor_status || '';
+                                                    const ifInfo = getIfInfoForArticle(matchedArticle, letpubIndex);
+                                                    const impactFactor = ifInfo.impactFactor;
+                                                    const impactFactorYear = ifInfo.impactFactorYear;
+                                                    const impactFactorStatus = ifInfo.impactFactorStatus || '';
                                                     const impactText = impactFactor !== null && impactFactor !== undefined && impactFactor !== ''
                                                         ? `IF ${impactFactor}${impactFactorYear ? ` (${impactFactorYear})` : ''}`
                                                         : (impactFactorStatus || '未查到影响因子');
                                                     const journalText = journalName || '期刊未知';
                                                     const isAiArticle = (matchedArticle?._domainId === 'ai')
                                                         || String(matchedArticle?.category || '').toLowerCase() === 'ai';
+                                                    const sourceBadgeText = matchedArticle?.subcategory || matchedArticle?.source || 'AI News';
                                                     const showImpactBadge = !isAiArticle;
+                                                    const showJournalBadge = !isAiArticle;
+
+                                                    const parsedIfValue = (() => {
+                                                        if (typeof impactFactor === 'number') return impactFactor;
+                                                        if (typeof impactFactor === 'string' && impactFactor.trim() !== '') {
+                                                            const n = Number.parseFloat(impactFactor.trim());
+                                                            return Number.isFinite(n) ? n : null;
+                                                        }
+                                                        return null;
+                                                    })();
+                                                    
+                                                    const getIfStyle = (val) => {
+                                                        if (!val) return { color: '#e11d48', borderColor: '#fb718540', backgroundColor: '#fff1f290' }; 
+                                                        if (val >= 30) return { color: '#f59e0b', borderColor: '#f59e0b60', backgroundColor: '#f59e0b10', fontWeight: 'bold' }; 
+                                                        if (val >= 15) return { color: '#ec4899', borderColor: '#ec489960', backgroundColor: '#ec489910' }; 
+                                                        if (val >= 10) return { color: '#8b5cf6', borderColor: '#8b5cf660', backgroundColor: '#8b5cf610' }; 
+                                                        if (val >= 5)  return { color: '#3b82f6', borderColor: '#3b82f660', backgroundColor: '#3b82f610' }; 
+                                                        return { color: '#e11d48', borderColor: '#fb718540', backgroundColor: '#fff1f290' };
+                                                    };
+                                                    const currentIfStyle = getIfStyle(parsedIfValue);
 
                                                     if (!isLinkable) {
                                                         return (
@@ -377,22 +551,37 @@
                                                                 className={commonClassName}
                                                             >
                                                                 <div className="flex items-center justify-between gap-3 mb-1">
-                                                                    <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">
-                                                                        {item.title || 'Untitled'}
-                                                                    </p>
-                                                                    <span className="text-[10px] font-medium text-slate-400">
+                                                                    <div className="flex-1 min-w-0 flex items-center gap-1.5">
+                                                                        <p className="text-sm font-semibold text-slate-800 dark:text-slate-100 truncate">
+                                                                            {item.title || 'Untitled'}
+                                                                        </p>
+                                                                        <div className="shrink-0 flex items-center gap-1.5">
+                                                                            {isAiArticle ? (
+                                                                                <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-indigo-800 dark:text-indigo-200 rounded border border-indigo-200/80 dark:border-indigo-700/50 bg-indigo-50/90 dark:bg-indigo-900/25 whitespace-nowrap">
+                                                                                    {sourceBadgeText}
+                                                                                </span>
+                                                                            ) : (
+                                                                                <>
+                                                                                    {showJournalBadge && (
+                                                                                        <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
+                                                                                            {journalText}
+                                                                                        </span>
+                                                                                    )}
+                                                                                    {showImpactBadge && (
+                                                                                        <span 
+                                                                                            className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
+                                                                                            style={currentIfStyle}
+                                                                                        >
+                                                                                            {impactText}
+                                                                                        </span>
+                                                                                    )}
+                                                                                </>
+                                                                            )}
+                                                                        </div>
+                                                                    </div>
+                                                                    <span className="shrink-0 text-[10px] font-medium text-slate-400 whitespace-nowrap">
                                                                         Card not found
                                                                     </span>
-                                                                </div>
-                                                                <div className={`grid ${showImpactBadge ? 'grid-cols-2' : 'grid-cols-1'} gap-2`}>
-                                                                    <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-sky-800 dark:text-sky-200 px-2 rounded-md border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25">
-                                                                        {journalText}
-                                                                    </p>
-                                                                    {showImpactBadge && (
-                                                                        <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
-                                                                            {impactText}
-                                                                        </p>
-                                                                    )}
                                                                 </div>
                                                             </div>
                                                         );
@@ -405,22 +594,37 @@
                                                             className={commonClassName}
                                                         >
                                                             <div className="flex items-center justify-between gap-3 mb-1">
-                                                                <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">
-                                                                    {item.title || 'Untitled'}
-                                                                </p>
-                                                                <span className="text-[10px] font-medium text-slate-400">
+                                                                <div className="flex-1 min-w-0 flex items-center gap-1.5">
+                                                                    <p className="text-sm font-semibold text-slate-800 dark:text-slate-100 truncate">
+                                                                        {item.title || 'Untitled'}
+                                                                    </p>
+                                                                    <div className="shrink-0 flex items-center gap-1.5">
+                                                                        {isAiArticle ? (
+                                                                            <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-indigo-800 dark:text-indigo-200 rounded border border-indigo-200/80 dark:border-indigo-700/50 bg-indigo-50/90 dark:bg-indigo-900/25 whitespace-nowrap">
+                                                                                {sourceBadgeText}
+                                                                            </span>
+                                                                        ) : (
+                                                                            <>
+                                                                                {showJournalBadge && (
+                                                                                    <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
+                                                                                        {journalText}
+                                                                                    </span>
+                                                                                )}
+                                                                                {showImpactBadge && (
+                                                                                    <span 
+                                                                                        className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
+                                                                                        style={currentIfStyle}
+                                                                                    >
+                                                                                        {impactText}
+                                                                                    </span>
+                                                                                )}
+                                                                            </>
+                                                                        )}
+                                                                    </div>
+                                                                </div>
+                                                                <span className="shrink-0 text-[10px] font-medium text-slate-400 whitespace-nowrap">
                                                                     Jump to card
                                                                 </span>
-                                                            </div>
-                                                            <div className={`grid ${showImpactBadge ? 'grid-cols-2' : 'grid-cols-1'} gap-2`}>
-                                                                <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-sky-800 dark:text-sky-200 px-2 rounded-md border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25">
-                                                                    {journalText}
-                                                                </p>
-                                                                {showImpactBadge && (
-                                                                    <p className="h-7 w-full truncate text-center text-xs font-semibold leading-7 text-rose-800 dark:text-rose-200 px-2 rounded-md border border-rose-200/80 dark:border-rose-700/50 bg-rose-50/90 dark:bg-rose-900/25">
-                                                                        {impactText}
-                                                                    </p>
-                                                                )}
                                                             </div>
                                                         </button>
                                                     );
@@ -488,12 +692,16 @@
         };
 
         // --- NewsCard ---
-        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1', articleId = '' }) => {
+        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1', articleId = '', highlight = '', letpubIndex }) => {
+            const [isExpanded, setIsExpanded] = useState(false);
             const source = article.subcategory || article.source || 'Research';
             const sourceText = article.source || article.subcategory || 'Unknown Source';
             const journalText = article.journal || '';
-            const rawIfValue = article.impact_factor;
-            const ifYear = article.impact_factor_year;
+            const ifInfo = getIfInfoForArticle(article, letpubIndex);
+            const rawIfValue = ifInfo.impactFactor;
+            const ifYear = ifInfo.impactFactorYear;
+            const ifStatus = ifInfo.impactFactorStatus;
+            
             const parsedIfValue = (() => {
                 if (typeof rawIfValue === 'number') return rawIfValue;
                 if (typeof rawIfValue === 'string' && rawIfValue.trim() !== '') {
@@ -502,14 +710,28 @@
                 }
                 return null;
             })();
+            
             const hasIf = Number.isFinite(parsedIfValue) && parsedIfValue > 0;
             const displayIf = hasIf ? Number(parsedIfValue.toFixed(3)).toString() : null;
             const ifText = hasIf
                 ? (ifYear ? `IF ${displayIf} (${ifYear})` : `IF ${displayIf}`)
-                : 'IF N/A';
+                : (ifStatus || '未查到影响因子');
+            
+            // Dynamic color for Impact Factor
+            const getIfStyle = (val) => {
+                if (!val) return { color: '#e11d48', borderColor: '#fb718540', backgroundColor: '#fff1f290' };
+                if (val >= 30) return { color: '#f59e0b', borderColor: '#f59e0b40', backgroundColor: '#f59e0b10', fontWeight: 'bold' }; // Gold
+                if (val >= 15) return { color: '#ec4899', borderColor: '#ec489940', backgroundColor: '#ec489910' }; // Pink
+                if (val >= 10) return { color: '#8b5cf6', borderColor: '#8b5cf640', backgroundColor: '#8b5cf610' }; // Purple
+                if (val >= 5)  return { color: '#3b82f6', borderColor: '#3b82f640', backgroundColor: '#3b82f610' }; // Blue
+                return { color: '#e11d48', borderColor: '#fb718540', backgroundColor: '#fff1f290' };
+            };
+            const ifStyle = getIfStyle(parsedIfValue);
+
             const isAiArticle = (article._domainId === 'ai')
                 || String(article.category || '').toLowerCase() === 'ai';
             const showImpact = !isAiArticle;
+            const showJournal = !isAiArticle && Boolean(journalText);
 
             return (
                 <article
@@ -548,13 +770,13 @@
                     </div>
 
                     <h3 className="font-serif text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-100 mb-4 leading-tight relative z-10">
-                        {article.title}
+                        <HighlightText text={article.title} highlight={highlight} />
                     </h3>
 
-                    <div className="flex items-center gap-3 mb-6 text-xs font-mono text-slate-400 relative z-10 border-b border-slate-100 dark:border-slate-800 pb-6 w-full">
-                        {journalText && (
+                    <div className="flex flex-wrap items-center gap-y-2 gap-x-3 mb-6 text-xs font-mono text-slate-400 relative z-10 border-b border-slate-100 dark:border-slate-800 pb-6 w-full">
+                        {showJournal && (
                             <>
-                                <span className="flex items-center gap-1.5 max-w-[45%]">
+                                <span className="flex items-center gap-1.5 max-w-[200px]">
                                     <Icon name="book-open" size={14} />
                                     <span className="truncate" title={journalText}>{journalText}</span>
                                 </span>
@@ -568,7 +790,10 @@
                         <span className="text-slate-300">&bull;</span>
                         {showImpact && (
                             <>
-                                <span className={`flex items-center gap-1.5 ${hasIf ? '' : 'text-slate-300'}`}>
+                                <span 
+                                    className={`flex items-center gap-1.5 px-2 py-0.5 rounded-md border ${hasIf ? '' : 'text-slate-300 border-transparent'}`}
+                                    style={ifStyle}
+                                >
                                     <Icon name="bar-chart-3" size={14} />
                                     {ifText}
                                 </span>
@@ -581,9 +806,20 @@
                         </span>
                     </div>
 
-                    <p className="text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8 flex-grow line-clamp-6 relative z-10 font-light">
-                        {article.summary}
-                    </p>
+                    <div className="relative z-10 mb-8">
+                        <p className={`text-slate-600 dark:text-slate-400 text-base leading-relaxed font-light ${isExpanded ? '' : 'line-clamp-6'}`}>
+                            <HighlightText text={article.summary} highlight={highlight} />
+                        </p>
+                        {article.summary && article.summary.length > 300 && (
+                            <button 
+                                onClick={() => setIsExpanded(!isExpanded)}
+                                className="mt-2 text-xs font-bold text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors uppercase tracking-widest flex items-center gap-1"
+                            >
+                                {isExpanded ? 'Read Less' : 'Read More'}
+                                <Icon name={isExpanded ? 'chevron-up' : 'chevron-down'} size={14} />
+                            </button>
+                        )}
+                    </div>
 
                     <div className="mt-auto relative z-10">
                         <a
@@ -601,8 +837,8 @@
             );
         };
 
-        // --- ArticleGroup (AI view: grouped by subcategory) ---
-        const ArticleGroup = ({ source, articles, isFavorite, onToggleFavorite, color }) => (
+        // --- ArticleGroup ---
+        const ArticleGroup = ({ source, articles, isFavorite, onToggleFavorite, color, highlight, letpubIndex }) => (
             <section className="mb-12">
                 <div className="flex items-center gap-3 mb-5">
                     <div className="p-1.5 rounded-lg" style={{ backgroundColor: hexToRgba(color, 0.1) }}>
@@ -622,10 +858,33 @@
                             onToggleFavorite={onToggleFavorite}
                             color={color}
                             articleId={article._anchorId || buildArticleAnchorId(article)}
+                            highlight={highlight}
+                            letpubIndex={letpubIndex}
                         />
                     ))}
                 </div>
             </section>
+        );
+
+        // --- SkeletonCard ---
+        const SkeletonCard = () => (
+            <div className="glass-panel rounded-3xl p-8 animate-pulse mb-4">
+                <div className="flex justify-between mb-6">
+                    <div className="h-6 w-24 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+                    <div className="flex gap-2">
+                        <div className="h-8 w-8 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+                        <div className="h-8 w-8 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+                    </div>
+                </div>
+                <div className="h-8 bg-slate-200 dark:bg-slate-800 rounded-lg w-3/4 mb-4"></div>
+                <div className="h-8 bg-slate-200 dark:bg-slate-800 rounded-lg w-1/2 mb-6"></div>
+                <div className="space-y-3 mb-8">
+                    <div className="h-4 bg-slate-200 dark:bg-slate-800 rounded w-full"></div>
+                    <div className="h-4 bg-slate-200 dark:bg-slate-800 rounded w-full"></div>
+                    <div className="h-4 bg-slate-200 dark:bg-slate-800 rounded w-5/6"></div>
+                </div>
+                <div className="h-4 bg-slate-200 dark:bg-slate-800 rounded w-32 mt-auto"></div>
+            </div>
         );
 
         // --- EmptyState ---
@@ -655,10 +914,29 @@
             const [domains, setDomains] = useState([]);
             const [domainsLoaded, setDomainsLoaded] = useState(false);
             const [digestByDomain, setDigestByDomain] = useState({});
+            const [letpubIndex, setLetpubIndex] = useState({ byName: {}, byIssn: {} });
 
             const [favorites, setFavorites] = useState(() => {
-                try { return JSON.parse(localStorage.getItem('favorites') || '[]'); }
-                catch { return []; }
+                try {
+                    const parsed = JSON.parse(localStorage.getItem('favorites') || '[]');
+                    const list = Array.isArray(parsed) ? parsed : [];
+                    const deduped = [];
+                    const seen = new Set();
+
+                    for (const item of list) {
+                        if (!item || !item.url || seen.has(item.url)) continue;
+                        seen.add(item.url);
+                        deduped.push({
+                            ...item,
+                            saved_at: item.saved_at || item.date || item.published_date || '',
+                        });
+                    }
+
+                    deduped.sort((a, b) => (b.saved_at || '').localeCompare(a.saved_at || ''));
+                    return deduped;
+                } catch {
+                    return [];
+                }
             });
 
             useEffect(() => {
@@ -667,11 +945,18 @@
 
             const isFavorite = (url) => favorites.some(f => f.url === url);
             const toggleFavorite = (article) => {
-                setFavorites(prev =>
-                    prev.some(f => f.url === article.url)
-                        ? prev.filter(f => f.url !== article.url)
-                        : [...prev, article]
-                );
+                setFavorites(prev => {
+                    if (prev.some(f => f.url === article.url)) {
+                        return prev.filter(f => f.url !== article.url);
+                    }
+
+                    const normalized = {
+                        ...article,
+                        saved_at: new Date().toISOString(),
+                    };
+
+                    return [normalized, ...prev];
+                });
             };
 
             // Build lookup: category → domain, id → domain
@@ -702,6 +987,33 @@
                         setDomainsLoaded(true);
                     });
             }, []);
+
+            useEffect(() => {
+                let cancelled = false;
+                const t = Date.now();
+                const safeFetch = (path) =>
+                    fetch(path).then(r => r.ok ? r.json() : null).catch(() => null);
+
+                Promise.all([
+                    safeFetch(`/data/letpub/letpub_life_med_unique.json?t=${t}`),
+                    safeFetch(`/data/letpub/letpub_life_med_raw.json?t=${t}`),
+                ]).then(([uniquePayload, rawPayload]) => {
+                    if (cancelled) return;
+                    if (!uniquePayload && !rawPayload) {
+                        setTimeout(() => {
+                            if (!cancelled) setRefreshTrigger(x => x + 1);
+                        }, 1500);
+                        return;
+                    }
+                    const mergedRows = [
+                        ...extractLetpubRows(uniquePayload),
+                        ...extractLetpubRows(rawPayload),
+                    ];
+                    setLetpubIndex(buildLetpubIndex(mergedRows));
+                });
+
+                return () => { cancelled = true; };
+            }, [refreshTrigger]);
 
             // Load articles once domains are ready
             useEffect(() => {
@@ -743,8 +1055,6 @@
                     setLoading(false);
                 });
             }, [currentDate, refreshTrigger, domainsLoaded, domains]);
-
-            useEffect(() => { lucide.createIcons(); });
 
             const toggleSource = (source) => {
                 setSelectedSources(prev => {
@@ -816,8 +1126,9 @@
             const anchorByUrl = useMemo(() => {
                 const map = {};
                 articles.forEach(article => {
-                    if (article.url && article._anchorId && !map[article.url]) {
-                        map[article.url] = article._anchorId;
+                    const norm = normalizeUrl(article.url);
+                    if (norm && article._anchorId && !map[norm]) {
+                        map[norm] = article._anchorId;
                     }
                 });
                 return map;
@@ -826,8 +1137,9 @@
             const articleByUrl = useMemo(() => {
                 const map = {};
                 articles.forEach(article => {
-                    if (article.url && !map[article.url]) {
-                        map[article.url] = article;
+                    const norm = normalizeUrl(article.url);
+                    if (norm && !map[norm]) {
+                        map[norm] = article;
                     }
                 });
                 return map;
@@ -863,17 +1175,40 @@
                     {/* Main content */}
                     <div className="flex-1 min-w-0 overflow-y-auto">
                         <div className="max-w-5xl mx-auto px-8 py-10">
-                            {/* Page title */}
-                            <div className="mb-8 animate-fade-in">
-                                <h2 className="font-serif text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
-                                    {activeDomain === 'all' ? 'All Articles' :
-                                     activeDomain === 'saved' ? 'Saved Articles' :
-                                     activeDomainObj?.label || activeDomain}
-                                </h2>
-                                <p className="text-sm text-slate-400 mt-1 font-mono">{currentDate}</p>
-                            </div>
+                            {/* Sticky Header: Title + Search + Filters */}
+                            <div className="sticky top-0 z-30 -mx-8 px-8 pt-10 pb-4 mb-6 bg-slate-50/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-transparent transition-all">
+                                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-4">
+                                    <div className="animate-fade-in shrink-0">
+                                        <h2 className="font-serif text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
+                                            {activeDomain === 'all' ? 'All Articles' :
+                                             activeDomain === 'saved' ? 'Saved Articles' :
+                                             activeDomainObj?.label || activeDomain}
+                                        </h2>
+                                        <p className="text-sm text-slate-400 mt-0.5 font-mono">
+                                            {activeDomain === 'saved'
+                                                ? `All saved items (${favorites.length})`
+                                                : currentDate}
+                                        </p>
+                                    </div>
+                                    
+                                    <SearchBar 
+                                        searchQuery={searchQuery} 
+                                        setSearchQuery={setSearchQuery} 
+                                        className="w-full md:max-w-md"
+                                    />
+                                </div>
 
-                            <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+                                {/* Source filter — only for daily-ai-news domains */}
+                                {isGroupedView && !loading && !error && availableSources.length > 0 && (
+                                    <SourceFilterBar
+                                        availableSources={availableSources}
+                                        selectedSources={selectedSources}
+                                        onToggle={toggleSource}
+                                        onSelectAll={() => setSelectedSources(new Set())}
+                                        accentColor={activeDomainColor}
+                                    />
+                                )}
+                            </div>
 
                             {!loading && activeDomain !== 'saved' && activeDomain === 'all' && !error && (
                                 <DigestBoard
@@ -891,6 +1226,7 @@
                                     anchorByUrl={anchorByUrl}
                                     articleByUrl={articleByUrl}
                                     onJumpToArticle={jumpToArticle}
+                                    letpubIndex={letpubIndex}
                                     showFallback={Boolean(
                                         activeDomainObj &&
                                         articles.some(article =>
@@ -901,23 +1237,10 @@
                                 />
                             )}
 
-                            {/* Source filter — only for daily-ai-news domains */}
-                            {isGroupedView && !loading && !error && availableSources.length > 0 && (
-                                <SourceFilterBar
-                                    availableSources={availableSources}
-                                    selectedSources={selectedSources}
-                                    onToggle={toggleSource}
-                                    onSelectAll={() => setSelectedSources(new Set())}
-                                    accentColor={activeDomainColor}
-                                />
-                            )}
-
                             {/* Articles */}
                             {loading && activeDomain !== 'saved' ? (
-                                <div className="flex flex-col gap-4">
-                                    {[1, 2, 3, 4, 5, 6].map(i => (
-                                        <div key={i} className="h-24 rounded-2xl bg-slate-200/50 dark:bg-slate-800/50 animate-pulse"></div>
-                                    ))}
+                                <div className="flex flex-col gap-6">
+                                    {[1, 2, 3].map(i => <SkeletonCard key={i} />)}
                                 </div>
                             ) : error && activeDomain !== 'saved' ? (
                                 <EmptyState
@@ -936,6 +1259,8 @@
                                             isFavorite={isFavorite}
                                             onToggleFavorite={toggleFavorite}
                                             color={activeDomainColor}
+                                            highlight={searchQuery}
+                                            letpubIndex={letpubIndex}
                                         />
                                     ))
                                 )
@@ -945,7 +1270,7 @@
                                         message={activeDomain === 'saved' ? '还没有收藏任何文章，点击卡片上的书签图标即可收藏。' : 'No updates found matching your filters.'}
                                     />
                                 ) : (
-                                    <div className="flex flex-col gap-4">
+                                    <div className="flex flex-col gap-6">
                                         {filteredArticles.map((article, idx) => (
                                             <NewsCard
                                                 key={`${article.url}-${idx}`}
@@ -955,6 +1280,8 @@
                                                 onToggleFavorite={toggleFavorite}
                                                 color={getDomainColor(article)}
                                                 articleId={article._anchorId || buildArticleAnchorId(article)}
+                                                highlight={searchQuery}
+                                                letpubIndex={letpubIndex}
                                             />
                                         ))}
                                     </div>

@@ -1,0 +1,293 @@
+{
+  "date": "2026-03-21",
+  "articles": [
+    {
+      "title": "jarrodwatts/claude-hud",
+      "summary": "GitHub 日榜热门仓库：Star jarrodwatts / claude-hud A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-21",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "langchain-ai/open-swe",
+      "summary": "GitHub 日榜热门仓库：Star langchain-ai / open-swe An Open-Source Asynchronous Coding Agent",
+      "url": "https://github.com/langchain-ai/open-swe",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-21",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "summary": "GitHub 日榜热门仓库：Star opendataloader-project / opendataloader-pdf PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-21",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Show HN: Agent Use Interface (AUI) – let users bring their own AI agent",
+      "summary": "Show HN 新项目，社区热度 4 points。",
+      "url": "https://github.com/FRE-Studios/Agent-Use-Interface",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Show HN: Qwack – Collaborative steering for AI agents built on OpenCode",
+      "summary": "Show HN 新项目，社区热度 2 points。",
+      "url": "https://qwack.ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Show HN: LiteParse, a fast open-source document parser for AI agents",
+      "summary": "Show HN 新项目，社区热度 9 points。",
+      "url": "https://github.com/run-llama/liteparse",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Show HN: MUP – Stop making LLMs rebuild UI from scratch every time",
+      "summary": "Show HN 新项目，社区热度 1 points。",
+      "url": "https://news.ycombinator.com/item?id=47454246",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Why subagents help: a visual guide",
+      "summary": "Reddit 社区工程讨论帖，当前约 1 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzcl79/why_subagents_help_a_visual_guide/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "What is your favorite blog, write up, or youtube video about LLMs?",
+      "summary": "Reddit 社区工程讨论帖，当前约 5 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzbojr/what_is_your_favorite_blog_write_up_or_youtube/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "ContextLattice v3.2.3: private-by-default memory/context layer for agents (Go/Rust runtime - open source)",
+      "summary": "Reddit 社区工程讨论帖，当前约 0 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzbd20/contextlattice_v323_privatebydefault/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "How are you handling agent persona loss when switching LLM providers? Is anyone solving this properly?",
+      "summary": "Reddit 社区工程讨论帖，当前约 0 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzb8q6/how_are_you_handling_agent_persona_loss_when/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "A history of local LLMs",
+      "summary": "Reddit 社区工程讨论帖，当前约 3 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzaksb/a_history_of_local_llms/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Qwen3.5 27B and 35B with 2x AMD 7900 XTX vLLM bench serve results",
+      "summary": "Reddit 社区工程讨论帖，当前约 9 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rz9lne/qwen35_27b_and_35b_with_2x_amd_7900_xtx_vllm/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "We beat Whisper Large v3 on LibriSpeech with a 634 MB model running entirely on Apple Silicon — open source Swift library",
+      "summary": "Reddit 社区工程讨论帖，当前约 1 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rz920q/we_beat_whisper_large_v3_on_librispeech_with_a/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "I run 5 local LLM agents on Mac Minis that I text from my phone — zero API cost",
+      "summary": "Reddit 社区工程讨论帖，当前约 0 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rz8htq/i_run_5_local_llm_agents_on_mac_minis_that_i_text/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-20",
+      "date": "2026-03-21"
+    },
+    {
+      "title": "[D] Breaking down MiroThinker H1's verification centric reasoning: why fewer interaction rounds produce better agent performance",
+      "summary": "Reddit 社区工程讨论帖，当前约 3 赞，聚焦实作与部署。",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rxz4xk/d_breaking_down_mirothinker_h1s_verification/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-21"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-21T00:03:11+00:00",
+    "version": 1,
+    "summary": "Captured 16 AI items. Preference focus is new models and new technical architecture: 3 high-priority, 12 medium-priority, 1 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 16,
+      "high_priority": 3,
+      "medium_priority": 12,
+      "low_priority": 1
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 8
+      },
+      {
+        "topic": "new architecture",
+        "count": 10
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "jarrodwatts/claude-hud",
+        "url": "https://github.com/jarrodwatts/claude-hud",
+        "published_date": "2026-03-21",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "I run 5 local LLM agents on Mac Minis that I text from my phone — zero API cost",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rz8htq/i_run_5_local_llm_agents_on_mac_minis_that_i_text/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "How are you handling agent persona loss when switching LLM providers? Is anyone solving this properly?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzb8q6/how_are_you_handling_agent_persona_loss_when/",
+        "published_date": "2026-03-20",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "What is your favorite blog, write up, or youtube video about LLMs?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzbojr/what_is_your_favorite_blog_write_up_or_youtube/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "We beat Whisper Large v3 on LibriSpeech with a 634 MB model running entirely on Apple Silicon — open source Swift library",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rz920q/we_beat_whisper_large_v3_on_librispeech_with_a/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: MUP – Stop making LLMs rebuild UI from scratch every time",
+        "url": "https://news.ycombinator.com/item?id=47454246",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Qwen3.5 27B and 35B with 2x AMD 7900 XTX vLLM bench serve results",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rz9lne/qwen35_27b_and_35b_with_2x_amd_7900_xtx_vllm/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "A history of local LLMs",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzaksb/a_history_of_local_llms/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "langchain-ai/open-swe",
+        "url": "https://github.com/langchain-ai/open-swe",
+        "published_date": "2026-03-21",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Why subagents help: a visual guide",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzcl79/why_subagents_help_a_visual_guide/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Qwack – Collaborative steering for AI agents built on OpenCode",
+        "url": "https://qwack.ai",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: LiteParse, a fast open-source document parser for AI agents",
+        "url": "https://github.com/run-llama/liteparse",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agent Use Interface (AUI) – let users bring their own AI agent",
+        "url": "https://github.com/FRE-Studios/Agent-Use-Interface",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "ContextLattice v3.2.3: private-by-default memory/context layer for agents (Go/Rust runtime - open source)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rzbd20/contextlattice_v323_privatebydefault/",
+        "published_date": "2026-03-20",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "[D] Breaking down MiroThinker H1's verification centric reasoning: why fewer interaction rounds produce better agent performance",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rxz4xk/d_breaking_down_mirothinker_h1s_verification/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "opendataloader-project/opendataloader-pdf",
+        "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+        "published_date": "2026-03-21",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

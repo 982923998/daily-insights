@@ -1,0 +1,777 @@
+{
+  "date": "2026-03-05",
+  "articles": [
+    {
+      "title": "GitHub Trending: KeygraphHQ/shannon",
+      "summary": "Star KeygraphHQ / shannon Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-05",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "GitHub Trending: sponsors/msitarzewski",
+      "summary": "Sponsor Star msitarzewski / agency-agents A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "url": "https://github.com/sponsors/msitarzewski",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-05",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "GitHub Trending: K-Dense-AI/claude-scientific-skills",
+      "summary": "Star K-Dense-AI / claude-scientific-skills A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-05",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "GitHub Trending: agentscope-ai/ReMe",
+      "summary": "Star agentscope-ai / ReMe ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
+      "url": "https://github.com/agentscope-ai/ReMe",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-05",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "GitHub Trending: alibaba/OpenSandbox",
+      "summary": "Star alibaba / OpenSandbox OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-05",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Extending single-minus amplitudes to gravitons",
+      "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+      "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Residuum | Agentic AI with continuous context",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/Grizzly-Endeavors/residuum",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: RustyRAG lowest-latency open-source RAG on GitHub",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/AlphaCorp-AI/RustyRAG",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: MoatRadar – AI investment research through Warren Buffett's principles",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://www.moatradar.com/?promo=HACKERNEWS",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: I built CLI for developer docs locally working with any Coding Agent",
+      "summary": "Show HN 项目，社区反馈 2 points、1 comments。",
+      "url": "https://github.com/lifez/docsearch",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Kvlar – Open-source firewall for AI agent tool calls",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/kvlar-io/kvlar",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: A universal protocol for AI agents to interact with any desktop UI",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://github.com/computeruseprotocol/computeruseprotocol",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Paste a URL and watch multiple AI models redesign it side-by-side",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://shuffle.dev/ai-website-redesign",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AI-powered WCAG color contrast checker that preserves brand colors",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/Danishmk1286/WCAG-Contrast-Checker-Ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Elite Coders – AI devs that join your Slack, GitHub, and Jira",
+      "summary": "Show HN 项目，社区反馈 3 points、0 comments。",
+      "url": "https://www.elitecoders.ai/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: I built a quick AI skills test that generates a LinkedIn certificate",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://www.skillgrade.ai/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Agentica – open-source coding agent with more models, less cost",
+      "summary": "Show HN 项目，社区反馈 3 points、0 comments。",
+      "url": "https://agentica.genlabs.dev",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: I built a browser game where you compete against OpenAI, Anthropic, etc",
+      "summary": "Show HN 项目，社区反馈 3 points、0 comments。",
+      "url": "https://thefrontier.pages.dev",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: LearnCodeGuide- AI tool that analyzes you code and gives a health score",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://www.learncodeguide.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Sentinel – Go LLM Proxy with 13ms Semantic Cache and PII Scrubbing",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://sentinelgateway.ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Athena Flow – a workflow runtime for Claude Code with a terminal UI",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://news.ycombinator.com/item?id=47254449",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: yoyo - a 200 line baby coding agent evolving in its own Truman Show",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://github.com/yologdev/yoyo-evolve",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AI Keyboard iOS App",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://apps.apple.com/us/app/ai-keyboard-chatwrite/id6756589549",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: I built a tamper-evident evidence system for AI agents",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://guardianreplay.pages.dev/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: TrashAlert – I asked AI when my trash gets picked up. It hallucinated",
+      "summary": "Show HN 项目，社区反馈 2 points、1 comments。",
+      "url": "https://trashalert.io/?hn=1",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Composable middleware for LLM inference Optimization Passes",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://github.com/liquidos-ai/AutoAgents",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AI Voice typing assistant $9/mo",
+      "summary": "Show HN 项目，社区反馈 3 points、1 comments。",
+      "url": "https://dictatorflow.com",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: FadNote – Zero-knowledge secret sharing for your CLI and AI workflows",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/easyFloyd/fadnote",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AI Town – Your Claude conversation history as a living pixel city",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://aitown-seven.vercel.app",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: OpenTimelineEngine – Shared local memory for Claude Code and codex",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/JOELJOSEPHCHALAKUDY/open-timeline-engine",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: We want to kill SaaS glue code with one shared infrastructure model",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://wacht.dev/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: A zero-dependency multi-agent AI that negotiates instead of agreeing",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://github.com/ProjectPortmanteau/Execution",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: MomentSurfer – AI Scrolling Agent for Social Media",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://www.momentsurfer.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: SmartAgentKit – policy-governed smart wallets for AI agents",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://news.ycombinator.com/item?id=47252765",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: I built a CLI to sync AI agent skills and MCPs across coding agents",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/ryanreh99/skills-sync",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Kryfto – Self-hosted MCP server with 42 tools for AI agent web access",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://github.com/ExceptionRegret/Kryfto",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Lexio – AI-Native PDF Reader (Ollama, Claude, OpenAI, Gemini)",
+      "summary": "Show HN 项目，社区反馈 2 points、1 comments。",
+      "url": "https://github.com/nikodemseb/lexio",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AgentsMesh – AI agent fleet command center",
+      "summary": "Show HN 项目，社区反馈 2 points、3 comments。",
+      "url": "https://github.com/AgentsMesh/AgentsMesh",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: I made Claude Code block my distractions and track everything I ship",
+      "summary": "Show HN 项目，社区反馈 1 points、1 comments。",
+      "url": "https://twitter.com/daxaur/status/2029258604084158559",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AutosClaw – security first *claw with live chat to any agent session",
+      "summary": "Show HN 项目，社区反馈 1 points、0 comments。",
+      "url": "https://github.com/BreuerFlorian/autosclaw",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: Mistral Raid – AI-powered dungeon crawler with AI companion",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://hackiterate.com/mistral-worldwide-hackathons?tab=submissions&submission=f780e075-74e3-4363-96d6-a5da51032e72",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Show HN: AutoManus MCP Server – create a sales rep agent from Claude in 1 min [video]",
+      "summary": "Show HN 项目，社区反馈 2 points、0 comments。",
+      "url": "https://www.youtube.com/watch?v=4Mdzehq4ghg&list=PLE9hy4A7ZTmpGq7GHf5tgGFWh2277AeDR&index=37",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-04",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "GPT-5.3 Instant System Card",
+      "summary": "OpenAI 发布了新的模型或平台能力更新。",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "summary": "OpenAI 发布了新的模型或平台能力更新。",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Create new worlds in Project Genie with these 4 tips",
+      "summary": "Learn more about Google DeepMind’s Project Genie and how to write prompts to create your own worlds.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-05"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-05T00:05:29+00:00",
+    "version": 1,
+    "summary": "Captured 46 AI items. Preference focus is new models and new technical architecture: 9 high-priority, 24 medium-priority, 13 low-priority. 1 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 46,
+      "high_priority": 9,
+      "medium_priority": 24,
+      "low_priority": 13
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 17
+      },
+      {
+        "topic": "new architecture",
+        "count": 21
+      },
+      {
+        "topic": "business-heavy",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Lexio – AI-Native PDF Reader (Ollama, Claude, OpenAI, Gemini)",
+        "url": "https://github.com/nikodemseb/lexio",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Extending single-minus amplitudes to gravitons",
+        "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+        "url": "https://openai.com/index/gpt-5-3-instant",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GPT-5.3 Instant System Card",
+        "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GitHub Trending: K-Dense-AI/claude-scientific-skills",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "published_date": "2026-03-05",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Composable middleware for LLM inference Optimization Passes",
+        "url": "https://github.com/liquidos-ai/AutoAgents",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AutoManus MCP Server – create a sales rep agent from Claude in 1 min [video]",
+        "url": "https://www.youtube.com/watch?v=4Mdzehq4ghg&list=PLE9hy4A7ZTmpGq7GHf5tgGFWh2277AeDR&index=37",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agentica – open-source coding agent with more models, less cost",
+        "url": "https://agentica.genlabs.dev",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: A zero-dependency multi-agent AI that negotiates instead of agreeing",
+        "url": "https://github.com/ProjectPortmanteau/Execution",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: We want to kill SaaS glue code with one shared infrastructure model",
+        "url": "https://wacht.dev/",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Sentinel – Go LLM Proxy with 13ms Semantic Cache and PII Scrubbing",
+        "url": "https://sentinelgateway.ai",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Paste a URL and watch multiple AI models redesign it side-by-side",
+        "url": "https://shuffle.dev/ai-website-redesign",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: OpenTimelineEngine – Shared local memory for Claude Code and codex",
+        "url": "https://github.com/JOELJOSEPHCHALAKUDY/open-timeline-engine",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: I made Claude Code block my distractions and track everything I ship",
+        "url": "https://twitter.com/daxaur/status/2029258604084158559",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Athena Flow – a workflow runtime for Claude Code with a terminal UI",
+        "url": "https://news.ycombinator.com/item?id=47254449",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: AI Town – Your Claude conversation history as a living pixel city",
+        "url": "https://aitown-seven.vercel.app",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Create new worlds in Project Genie with these 4 tips",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GitHub Trending: sponsors/msitarzewski",
+        "url": "https://github.com/sponsors/msitarzewski",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: agentscope-ai/ReMe",
+        "url": "https://github.com/agentscope-ai/ReMe",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: KeygraphHQ/shannon",
+        "url": "https://github.com/KeygraphHQ/shannon",
+        "published_date": "2026-03-05",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: yoyo - a 200 line baby coding agent evolving in its own Truman Show",
+        "url": "https://github.com/yologdev/yoyo-evolve",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: SmartAgentKit – policy-governed smart wallets for AI agents",
+        "url": "https://news.ycombinator.com/item?id=47252765",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Residuum | Agentic AI with continuous context",
+        "url": "https://github.com/Grizzly-Endeavors/residuum",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: MomentSurfer – AI Scrolling Agent for Social Media",
+        "url": "https://www.momentsurfer.com/",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Kvlar – Open-source firewall for AI agent tool calls",
+        "url": "https://github.com/kvlar-io/kvlar",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Kryfto – Self-hosted MCP server with 42 tools for AI agent web access",
+        "url": "https://github.com/ExceptionRegret/Kryfto",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: I built a tamper-evident evidence system for AI agents",
+        "url": "https://guardianreplay.pages.dev/",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: I built a CLI to sync AI agent skills and MCPs across coding agents",
+        "url": "https://github.com/ryanreh99/skills-sync",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: I built CLI for developer docs locally working with any Coding Agent",
+        "url": "https://github.com/lifez/docsearch",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AutosClaw – security first *claw with live chat to any agent session",
+        "url": "https://github.com/BreuerFlorian/autosclaw",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AgentsMesh – AI agent fleet command center",
+        "url": "https://github.com/AgentsMesh/AgentsMesh",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: A universal protocol for AI agents to interact with any desktop UI",
+        "url": "https://github.com/computeruseprotocol/computeruseprotocol",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GitHub Trending: alibaba/OpenSandbox",
+        "url": "https://github.com/alibaba/OpenSandbox",
+        "published_date": "2026-03-05",
+        "priority": "low",
+        "reason": "contains architecture/agent/framework signals; business-heavy content (deprioritized)"
+      },
+      {
+        "title": "Show HN: TrashAlert – I asked AI when my trash gets picked up. It hallucinated",
+        "url": "https://trashalert.io/?hn=1",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: RustyRAG lowest-latency open-source RAG on GitHub",
+        "url": "https://github.com/AlphaCorp-AI/RustyRAG",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: MoatRadar – AI investment research through Warren Buffett's principles",
+        "url": "https://www.moatradar.com/?promo=HACKERNEWS",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Mistral Raid – AI-powered dungeon crawler with AI companion",
+        "url": "https://hackiterate.com/mistral-worldwide-hackathons?tab=submissions&submission=f780e075-74e3-4363-96d6-a5da51032e72",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: LearnCodeGuide- AI tool that analyzes you code and gives a health score",
+        "url": "https://www.learncodeguide.com/",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: I built a quick AI skills test that generates a LinkedIn certificate",
+        "url": "https://www.skillgrade.ai/",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: I built a browser game where you compete against OpenAI, Anthropic, etc",
+        "url": "https://thefrontier.pages.dev",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: FadNote – Zero-knowledge secret sharing for your CLI and AI workflows",
+        "url": "https://github.com/easyFloyd/fadnote",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Elite Coders – AI devs that join your Slack, GitHub, and Jira",
+        "url": "https://www.elitecoders.ai/",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: AI-powered WCAG color contrast checker that preserves brand colors",
+        "url": "https://github.com/Danishmk1286/WCAG-Contrast-Checker-Ai",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: AI Voice typing assistant $9/mo",
+        "url": "https://dictatorflow.com",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: AI Keyboard iOS App",
+        "url": "https://apps.apple.com/us/app/ai-keyboard-chatwrite/id6756589549",
+        "published_date": "2026-03-04",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

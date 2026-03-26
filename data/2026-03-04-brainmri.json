@@ -1,0 +1,258 @@
+{
+  "date": "2026-03-04",
+  "articles": [
+    {
+      "title": "[Cognitive and psychiatric evolution in autoimmune encephalitis in a school-aged child: Clinical case].",
+      "summary": "BACKGROUND: Autoimmune encephalitis (AE) is a rare entity in children and can manifest psychiatric symptoms without evident neurological signs. CLINIC CASE: A 10-year-old female with a subacute case of 3 weeks of evolution, denotating disinhibition, behavioral errors, mood swings with irritability, auditory stimuli intolerance, restlessness in social situations; sleep cycle disturbances, right arm weakness upon physical exertion that progressed into right hemiparesis, adynamia, verbal apraxia, and agraphia. The patient was hospitalized, and infectious processes were excluded. Brain imaging with nuclear magnetic resonance showed lesions compatible with basal leptomeningitis. The electroencephalogram did not show cortical irritability. Suspecting an autoimmune etiology, the patient received therapy with immunomodulators, showing a gradual response without reaching to previous functionality state. Sertraline and second-generation antipsychotics were added, with the patient being discharged due to overall improvement. At 3 months of follow-up, the patient persisted with moderate cognitive impairment. Fifteen months after disease debut, the patient's cognitive status score was normal, with mild irritability, and continued avoidance of intense auditory stimuli and crowded places. CONCLUSIONS: AE diagnosis is challenging for pediatricians, as a high suspicion level is required when facing nonspecific symptoms; the prognosis depends on early identification and initiation of immunotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774902/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Rev Med Inst Mex Seguro Soc",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "[Pediatric parasagittal meningioma, case report].",
+      "summary": "BACKGROUND: Meningiomas are the most common primary tumors of the central nervous system in adults, accounting for up to 40% of intracranial neoplasms. In the pediatric population, however, they are rare, representing only 1-2% of cases. Diagnosis is often delayed due to clinical variability, lack of predisposing factors, and similarity with more frequent conditions such as migraine or demyelinating diseases. CLINICAL CASE: A previously healthy 16-year-old female with no significant medical history presented with a nine-month history of recurrent headaches, episodes of transient visual loss, and weakness in the lower extremities. An initial clinical suspicion of a demyelinating disease led to a contrast-enhanced magnetic resonance imaging, which revealed an extra-axial interhemispheric parasagittal lesion consistent with meningioma. A bilateral frontal craniotomy with complete resection was performed. In the immediate postoperative period, the patient developed a transient motor deficit and persistent bilateral temporal visual field loss. Histopathological analysis confirmed a WHO grade I meningioma. CONCLUSION: This case highlights the importance of considering intracranial structural processes in adolescents with progressive neurological symptoms and reinforces that complete surgical resection remains the cornerstone of treatment and the main determinant of functional prognosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774884/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Rev Med Inst Mex Seguro Soc",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Brain-Adhesive Bioelectronics With Shape-Morphable and Biodegradable Properties for Stable Brain Signal Monitoring.",
+      "summary": "Accurate and temporary monitoring of brain activity is essential for diagnosing and treating neurological diseases. Conventional nondegradable electrocorticogram (ECoG) devices require removal surgery, thus increasing the risk of infection and tissue damage. Moreover, existing devices typically fail to conform to soft, dynamic brain tissue, thus resulting in unsatisfactory adhesion, signal loss, and mechanical mismatch. Herein, we present the development of a brain-adhesive sensor (B-Sensor) with shape-morphable and biodegradable characteristics, enabling stable ECoG signal monitoring within a clinically feasible window for patient application. The B-Sensor is fabricated on a polyurethane elastomer incorporated with polycarbonate, which possesses a low glass transition temperature and dynamic bonding, thereby providing biodegradability, stretchability, stress relaxation, and even self-healing capabilities. A tissue-adhesive hydrogel in the B-Sensor ensures conformal cortical adhesion, whereas ultrathin molybdenum electrodes in an open-mesh layout maintain stable performance under cyclic strain and minimize magnetic resonance imaging (MRI) artifacts. The device degrades naturally under physiological conditions, retains impedance stability during use, and exhibits excellent cell viability. In vivo experiments show that the B-Sensor reliably records baseline activity, somatosensory evoked potentials, and 4-aminopyridine-induced epileptiform discharges with high precision. This study demonstrates a bioresorbable, tissue-adhesive ECoG platform that enables safe, artifact-free monitoring of both normal and pathological brain activity, thus offering a new design paradigm for next-generation implantable bioelectronics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774867/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Adv Sci (Weinh)",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "MLC-GCN: Multi-Level Generated Connectome Based GCN for AD Detection.",
+      "summary": "Resting state fMRI (rsfMRI) is widely used to differentiate Alzheimer's Disease (AD) and identify biomarkers but its obscure features and noises challenge the present models. Brain graph convolution network (GCN) provides a good interpretation but suffers from the inferior performance due to the insufficient feature representation. Population GCN improves the precision of detection by involving the phenotypic information but fails in the bio logical interpretation. The GCN taking a single generated connectome as input focuses only on the low-level inter regional temporal correlation and is incapable to exploit hierarchical spatial functional features. In this paper, we propose a multi-level connectome-generated GCN (MLC GCN) to enhance the feature extraction for the individual connectome. First, we construct multiple connectomes in parallel through stacked spatiotemporal feature extractors (STFEs), effectively enhancing the hierarchical features and reducing the noise. Each generated connectome is then input into the GCN for further feature extraction, and the output of all GCNs is concatenated for a multilayer percep tron to predict AD. We use independent cohort validations ontwomedicaldatasetsADNIandOASIS-3,andexperiment results demonstrate MLC-GCN obtains better performance for differentiating normal control, mild cognitive impairment and AD than current GCN architectures and other AD classifiers. The proposed MLC-GCNrevealshighinterpreta tion in terms of learning clinically reasonable connectome nodes and connectivity features.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774666/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE Trans Biomed Eng",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Old Lesions and New Targets: sEEG-Identified Onsets in Traditionally Inoperable Epilepsy Lesions and Associated Surgical Outcomes.",
+      "summary": "Patients with epilepsy who do not respond to pharmacotherapy are often offered a noninvasive diagnostic workup to localize an epileptogenic focus that might be treated with resection, neuromodulation, or ablation. Yet in many cases, this evaluation fails to identify surgical candidates. For example, patients with tuberous sclerosis, periventricular nodular heterotopia, or polymicrogyria may have clearly visible lesions on MRI, but the resulting epileptogenic onset zones/networks are often too complex for scalp electroencephalography to decode. Similarly, seizures arising from the cingulate gyrus originate in deep structures that are inaccessible to noninvasive techniques. In post-traumatic epilepsy without a dominant lesion such as mesial temporal sclerosis, injury is often too diffuse to define a clear seizure-onset zone. Stereoelectroencephalography (sEEG), with its ability to map deep brain networks in detail, offers a unique solution for these challenging cases. In this review, we highlight how sEEG has expanded surgical options and provided hope for seizure freedom in patients once considered medically and surgically untreatable, and we aim to encourage further study into its potential applications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774607/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Pediatr Neurosurg",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Low-flow vascular malformations without arteriovenous shunting of the central nervous system: a pictorial review.",
+      "summary": "This review aims to provide a comprehensive pictorial review of low-flow vascular malformations (LFVMs) of the central nervous system (CNS) without arteriovenous shunting, focusing on their epidemiology, pathophysiology, imaging features, and associations with other vascular anomalies. LFVMs - developmental venous anomalies (DVAs), cavernous malformations (CMs), brain capillary telangiectasias (BCTs), and sinus pericranii (SP) - are typically benign and incidental but may cause symptoms or hemorrhage. Differentiating LFVMs from neoplastic, inflammatory, or high-flow vascular lesions is critical to avoid misdiagnosis and inappropriate treatment. MRI is the reference technique. DVAs show a \"caput medusae\" venous pattern; CMs have a mulberry-like core with a complete hemosiderin rim on T2*/SWI; BCTs are often occult on routine MRI but may display brush-like enhancement and subtle SWI hypointensity; SP consists of an extracranial venous mass communicating with a dural sinus through a transosseous vein. Familiarity with the imaging spectrum and typical associations of CNS LFVMs enables confident diagnosis and helps avoid unnecessary invasive procedures. CRITICAL RELEVANCE STATEMENT: By illustrating key imaging features of low-flow CNS vascular malformations, this article critically addresses frequent diagnostic pitfalls. It advances radiological practice by guiding differentiation from neoplastic or high-flow lesions and improving multidisciplinary patient care. KEY POINTS: LFVMs (DVAs, CMs, capillary telangiectasia, SP) are frequently incidental but may cause hemorrhage, seizures, or neurological deficits. DVAs are typically benign drainage variants; hemodynamic congestion on perfusion weighted imaging explains occasional symptoms and the frequent association with acquired CMs. CMS presents as \"mulberry-shaped\" lesions with a hemosiderin rim on SWI sequences, reflecting microhemorrhages and the absence of intervening brain parenchyma. Capillary telangiectasia most often occurs in the pons; recognition of the characteristic SWI hypointensity with faint enhancement prevents misdiagnosis as a neoplasm or ischemia. AP shows trans‑osseous venous channels connecting dural sinuses to epicranial varices; CT characterizes bony defects, and MRI depicts venous communication.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774335/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Insights Imaging",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Correlation between the neutrophil-to-lymphocyte ratio and enlarged perivascular spaces in type 2 diabetes mellitus.",
+      "summary": "AIMS: To determine the relationship between the neutrophil-to-lymphocyte ratio and enlarged perivascular spaces in patients with type 2 diabetes mellitus. MATERIALS AND METHODS: Cranial magnetic resonance imaging data from 200 patients with type 2 diabetes mellitus were analyzed to categorize enlarged perivascular spaces in the basal ganglia and centrum semiovale (CSO) by severity. Mild and moderate-to-severe enlarged perivascular spaces groups were compared. RESULTS: The neutrophil-to-lymphocyte ratio (NLR) was notably elevated in the moderate-to-severe group compared with the mild group, for both basal ganglia (BG) (P < 0.01) and CSO (P < 0.01) enlarged perivascular spaces. Spearman analyses demonstrated strong positive correlations between the NLR and the severity of both BG (r = 0.545, P < 0.001) and CSO (r = 0.440, P < 0.001) enlarged perivascular spaces. Binary logistic regression analysis identified the NLR as an independent risk factor for BG (P < 0.01) and CSO (P < 0.01) enlarged perivascular spaces in patients with type 2 diabetes mellitus. Receiver operating characteristic curve analysis demonstrated that the NLR had an area under the curve of 0.824 for predicting moderate-to-severe BG enlarged perivascular spaces and 0.768 for predicting moderate-to-severe CSO enlarged perivascular spaces. CONCLUSIONS: The NLR independently predicts moderate-to-severe BG and CSO enlarged perivascular spaces in patients with type 2 diabetes mellitus and exhibits diagnostic accuracy for cerebral small vessel disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41773905/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Diabetes Investig",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Post-traumatic Hypertrophic Olivary Degeneration with Palatal Myoclonus-A Case Report.",
+      "summary": "This is a case report of a 7-year-old boy with a medical history of a motor vehicle accident (MVA) 2 years previously. Two years post-MVA, he developed quivering and twitching of the right side of his lip, palate, and neck. Multiple antiseizure medications were attempted with no effect. However, carbamazepine was started with marked improvement. The most recent brain magnetic resonance imaging showed findings suggestive of hypertrophic olivary degeneration (HOD). Electroencephalography captured the abnormal facial twitching with audible palatal clicking, but was not associated with electrographic changes. This case demonstrates the anatomic importance of the Guillain-Mollaret triangle, as traumatic disruption of this pathway resulted in palatal myoclonus. HOD occurring due to trauma is an incredibly rare etiology, with only 1 other case reported in the literature in a 27-year-old man, with no previous reports of posttraumatic HOD occurring in an individual under 18 discovered during our literature review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41773572/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Child Neurol",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Predictors of Hearing Recovery in Sudden Sensorineural Hearing Loss: Focus on Lipids, Glucocorticoids, and Predictive Model Performance.",
+      "summary": "OBJECTIVE: To explore the key factors influencing hearing recovery in patients with sudden sensorineural hearing loss (SSNHL) and provide a basis for clinical prognosis evaluation and individualized treatment. METHODS: Clinical data of 164 inpatients with SSNHL at a tertiary hospital in Fujian Province from January 2022 to December 2024 were retrospectively analyzed, including basic characteristics, hearing features, examination findings, and treatment measures. Univariate analyses (Chi-square test, Kruskal-Wallis H test) and a multivariate logistic regression model were used to identify prognostic factors, and a neural network model was constructed to evaluate its predictive performance. RESULTS: Among the 164 patients, 27 (16.46%) showed no response, 61 (37.20%) responded, 32 (19.51%) showed marked response, and 44 (26.83%) were cured. Univariate analysis revealed that age, length of hospital stay, degree of hearing loss, type of hearing loss, brain MRI findings, triglyceride (TG) levels, low-density lipoprotein (LDL-C) levels, and the use of glucocorticoids and batroxobin were associated with treatment outcomes (all P < .05). Multivariate logistic regression indicated that TG (OR = 0.559, P = .002) and LDL-C (OR = 0.352, P = .001) were independent risk factors, while glucocorticoid use was a protective factor (OR = 8.564, P = .004). The neural network model exhibited good predictive performance (AUC = 0.889, accuracy rate 86.5%). CONCLUSION: Advanced age, severe hearing loss (especially total deafness), abnormal brain MRI findings, and elevated TG and LDL-C levels may lead to poor prognosis in SSNHL, while early use of glucocorticoids can improve outcomes. The neural network model can effectively evaluate patients' potential for hearing recovery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41773060/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Ear Nose Throat J",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Prenatal experience of greater neighborhood disadvantage is associated with altered fetal volumetric brain growth in utero.",
+      "summary": "Neighborhood disadvantage is associated with worse health outcomes and rates of neurodevelopmental disorders. In childhood, experience of greater neighborhood disadvantage is associated with atypical structural and functional brain development, especially within the limbic system. Although these differences are observed throughout the lifespan, there is a profound gap in our understanding of how early neighborhood disadvantage impacts brain development. Using a prospective cohort of 199 healthy pregnancies from around Washington, DC, we performed serial fetal brain MRIs during pregnancy. Using nested linear mixed-effects models, we assess the impact of neighborhood disadvantage on brain volumes throughout fetal development. We found that greater neighborhood disadvantage was associated with significant differences in brain volumes, especially limbic areas. Increases in neighborhood disadvantage were linearly associated with larger volumes earlier in gestation and smaller volumes approaching term age. Importantly, these relationships vary depending on fetal sex, with different regions exhibiting sex-dependent vulnerabilities. These results suggest that even prior to birth, neighborhood disadvantage is associated with altered structural brain development. While the cause of this relationship is unclear, it may stem from the impact of maternal stress and adverse environmental exposures. Our findings provide an important lens to understand the impacts of how socioeconomic inequalities can influence development beginnings prenatally.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772840/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cereb Cortex",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "The clinical efficacy of virtual reality technology based on the mirror neuron theory in upper limb rehabilitation of stroke patients: a protocol for a randomized clinical trial.",
+      "summary": "BACKGROUND: While mirror neuron-based rehabilitation approaches demonstrate efficacy in post-stroke upper limb motor recovery. Crucially, whether sequential activation of sensory mirror neurons preceding motor mirror neurons enhances functional outcomes remains unsubstantiated. Furthermore, conventional protocols require auditory-controlled environments and sustained high-attentional engagement for optimal efficacy. This study proposes a novel integrated intervention incorporating somatosensory observation (SO) components into Graded Motor Imagery (GMI), augmented by virtual reality (VR) technology to enhance participant engagement and attentional allocation. This synergistic approach aims to potentiate sensorimotor cortical integration, thereby optimizing upper limb recovery trajectory and clinical outcomes in stroke patients. METHODS: Sixty patients were randomized into four experimental groups: the conventional GMI Group received standard graded motor imagery; the SO-GMI Group incorporated SO with GMI; the VR-GMI Group implemented GMI through virtual reality; and the VR-SO-GMI Group combined SO and GMI within a VR environment. All interventions followed a standardized 4-week protocol. Resting-state functional MRI (rs-fMRI) assessed neuroplastic changes at baseline and post-intervention. Upper limb functional recovery was evaluated using three validated metrics: Fugl-Meyer Assessment for Upper Extremity (FMA-UE), Action Research Arm Test (ARAT), and Modified Barthel Index (MBI), administered at treatment initiation, week 2 (mid-intervention), and week 4 (conclusion) to track therapeutic efficacy. The study flow diagram is Fig. 1. DISCUSSION: The purpose of this clinical trial is to observe the efficacy of increased SO in GMI on the recovery of upper limb motor function after cerebral stroke through a randomized controlled clinical trial, and to explore the clinical efficacy after implementing the above therapy using immersive VR technology, as well as to further investigate whether this research protocol can achieve the neurophysiological mechanism of \"sensory-motor\" linkage in the brain. This research method is widely applicable to patients with poor motor function and those with limitations in active movement. At the same time, VR technology allows for one-to-many training. At the same time, VR technology can conduct one-to-many training. This study aims to improve the efficacy of graded exercise therapy for upper limb rehabilitation in cerebral stroke and provide a new method that requires less physical effort, saves manpower, and has a wide range of applicability. TRIAL REGISTRATION: China Clinical Trial Registry ChiCTR2400084611. Registered on 21 May 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772702/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Trials",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Combined hemodynamic and cerebrospinal fluid alterations contribute to the occurrence of sigmoid sinus diverticulum-pulsatile tinnitus.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772138/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuroradiology",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI.",
+      "summary": "To study human attentional fluctuations, this study introduces Sustained Attention Task (the gradual onset continuous performance: gradCPT) multimodal dataset combining electroencephalography (EEG), functional magnetic resonance imaging (fMRI), and diffusion-weighted imaging (DWI). The dataset contains neuroimaging data from 28 participants across the attentional tasks (gradCPT, gradCPT with imagery), imagery task, visual task (flickering checkerboard), and resting-states (eyes-open and eyes-closed). We publicly share raw and preprocessed data from each modality to expand the scope of exploring the brain states during attentional fluctuations in the human brain. The accessibility of this dataset will provide opportunities for future research in investigating the relationship between attention dynamics and brain activity across different imaging modalities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771931/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Sci Data",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-04T00:32:18+00:00",
+    "version": 1,
+    "summary": "Captured 13 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 3 medium-priority, 0 low-priority. Mechanism-related items: 9; analysis-method items: 13.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 13,
+      "high_priority": 10,
+      "medium_priority": 3,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 9
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 13
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "MLC-GCN: Multi-Level Generated Connectome Based GCN for AD Detection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774666/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41771931/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Predictors of Hearing Recovery in Sudden Sensorineural Hearing Loss: Focus on Lipids, Glucocorticoids, and Predictive Model Performance.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41773060/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The clinical efficacy of virtual reality technology based on the mirror neuron theory in upper limb rehabilitation of stroke patients: a protocol for a randomized clinical trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772702/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Pediatric parasagittal meningioma, case report].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774884/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Cognitive and psychiatric evolution in autoimmune encephalitis in a school-aged child: Clinical case].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774902/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Old Lesions and New Targets: sEEG-Identified Onsets in Traditionally Inoperable Epilepsy Lesions and Associated Surgical Outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774607/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Low-flow vascular malformations without arteriovenous shunting of the central nervous system: a pictorial review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774335/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Correlation between the neutrophil-to-lymphocyte ratio and enlarged perivascular spaces in type 2 diabetes mellitus.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41773905/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain-Adhesive Bioelectronics With Shape-Morphable and Biodegradable Properties for Stable Brain Signal Monitoring.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41774867/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Post-traumatic Hypertrophic Olivary Degeneration with Palatal Myoclonus-A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41773572/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Prenatal experience of greater neighborhood disadvantage is associated with altered fetal volumetric brain growth in utero.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772840/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Combined hemodynamic and cerebrospinal fluid alterations contribute to the occurrence of sigmoid sinus diverticulum-pulsatile tinnitus.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772138/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

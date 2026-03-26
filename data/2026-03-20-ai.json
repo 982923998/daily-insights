@@ -1,0 +1,2489 @@
+{
+  "date": "2026-03-20",
+  "articles": [
+    {
+      "title": "which one is the best uncensored version of qwen3-vl 4b",
+      "summary": "hi, just wanted to know which uncensored version of qwen3-vl 4b is the best to use for unfiltered chattiiing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfkgj/which_one_is_the_best_uncensored_version_of/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "rednote-hilab/dots.mocr · Hugging Face",
+      "summary": "Beyond achieving state-of-the-art (SOTA) performance in standard multilingual document parsing among models of comparable size, **dots.mocr** excels at converting structured graphics (e.g., charts, UI layouts, scientific",
+      "url": "https://huggingface.co/rednote-hilab/dots.mocr",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "opencode-sop-engine: Production-grade Skill orchestration, enforcement, long-context using FSM",
+      "summary": "Not my repo, but looks like something I've been looking for: AI tasking enforced by deterministic Finite State Machines.",
+      "url": "https://github.com/wyf111/opencode-sop-engine",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "knowledge-rag: Local RAG with hybrid search + cross-encoder reranking — zero servers, pure ONNX in-process (pip install)",
+      "summary": "Got tired of RAG systems that need Ollama running, Docker containers, or cloud API keys just to search your own documents.\n\n  knowledge-rag runs 100% in-process — embeddings and reranking via ONNX Runtime (FastEmbed). No",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryaska/knowledgerag_local_rag_with_hybrid_search/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "hello everyone ，ihave a question,I created an AI Sentinel prototype in VS Code, aiming to \"automatically detect whether the AI ​​deviates from the project constraints every 10 rounds,\" but it's difficult to automatically obtain the Copilot dialogue flow. Is there a more stable approach to this?",
+      "summary": "Hi everyone, I've recently been working on a small tool, somewhat similar to an AI coding runtime guard/sensinel.\n\nThe core idea is this:I want to create a \"Sentinel Mode\" in VS Code:Users first provide project constrain",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0pkh/hello_everyone_ihave_a_questioni_created_an_ai/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "gpt oss 120 vs mistrall small 4 119 vs Nemotron 3 super 120",
+      "summary": "For you what is the best model? 70% coding and general research.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0gav/gpt_oss_120_vs_mistrall_small_4_119_vs_nemotron_3/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "built a AI Roadmap for people without a CS degree (Local AI &amp; Agents focused)",
+      "summary": "Hey guys,\n\nI’ve seen so many people feeling lost because they think they need a 4-year CS degree to work with AI in 2026. Honestly? Most of the pros I know now are focusing on **Local LLMs (Ollama/DeepSeek)** and **Agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4quw/built_a_ai_roadmap_for_people_without_a_cs_degree/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "acestep.cpp: portable C++17 implementation of ACE-Step 1.5 music generation using GGML. Runs on CPU, CUDA, ROCm, Metal, Vulkan",
+      "summary": "Community discussion in r/LocalLLaMA (score 46) about local inference/quantization or practical LLM usage.",
+      "url": "https://github.com/ServeurpersoCom/acestep.cpp",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "[R] Reclaiming 2011 Iron: 6.12 t/s on a Sandy Bridge i5 with Sovereign GHOST (0.8B Qwen 3.5)",
+      "summary": "# [R] Reclaiming 2011 Iron: 6.12 t/s on a Sandy Bridge i5 with Sovereign GHOST (0.8B Qwen 3.5)\n\nTesting FieldMouse-AI on 15-year-old silicon. Qwen 3.5 (Q4_K_M) hits ~6 t/s and remains rock solid. Note: Model defaulted to",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryehhn/r_reclaiming_2011_iron_612_ts_on_a_sandy_bridge/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "[Project] Prompt-free contemplative/meditation/self enquiry agents on Qwen3-8B/phi-14b – no system prompt, GGUF, spiritual teacher styles",
+      "summary": "Hey folks,\nBeen tinkering with fine-tuning Qwen3-8B to make models that respond like contemplative teachers—without any system prompt, persona, or RAG. Just ask something like \"Why am I suffering?\" and it points back in",
+      "url": "https://huggingface.co/Sathman/Meditation-Agent-8B-GGUF",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "[NemoClaw] Running OpenClaw with Local vLLM: Architecture, Parsers, and the Agent Engineering Gap",
+      "summary": "I've been running NVIDIA's NemoClaw (sandboxed AI agent platform) with a local Nemotron 9B v2 model via vLLM on WSL2. Wrote up what I learned:\n\n**Blog post** (architecture, vLLM parser setup, agent engineering observatio",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfzri/nemoclaw_running_openclaw_with_local_vllm/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Zero to Hero by A.Karpathy vs  Building LLM from Scratch by S.Rashcka vs Josh Startmer's Neural Networks series",
+      "summary": "Which one is the best resource to learn LLM in 10 days (1hr per day) to get comfortable in the ins and out? Also if you have other resources please suggest",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rygcnm/zero_to_hero_by_akarpathy_vs_building_llm_from/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Will minimax m2.7 be opensourced ?? There is no announcement in that regards on their X handle.",
+      "summary": "Do you think minimax m2.7 will be open sourced ?? There is no announcement in that regards on their X handle and can someone ask their open source strategy during GTC this Saturday in SF?? If you are going",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7ugu/will_minimax_m27_be_opensourced_there_is_no/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Will Gemma 3 12B be the best all-rounder(no coding) during Iran's internet shutdowns on my RTX 4060 laptop?",
+      "summary": "I need it mainly to practice advanced academic English and sometimes ask it general questions. No coding.\n\nI'm wondering if Gemma 3 12B is my best option?\n\n\n\nMy specs:\n\nRTX 4060\n\nRyzen 7735HS\n\n16GB DDR5 RAM\n\nThanks!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry9936/will_gemma_3_12b_be_the_best_allrounderno_coding/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Why is claude code stuck in analysis mode with open source models?",
+      "summary": "i've a 5090 and i tried multiple open source models (qwen3-coder, qwen3.5, glm-4.7-flash, devstral-small-2) and they all get stuck in analysis mode. i cant get the models to follow simple instructions, it seems like they",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzdt2/why_is_claude_code_stuck_in_analysis_mode_with/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Why does prompt behavior degrade over longer contexts?",
+      "summary": "Something I’ve been running into across different models (not just ChatGPT).\n\n\n\nYou can set up a fairly strict prompt — role, constraints, output format — and it works well at the start.\n\n\n\nBut over longer contexts, the",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4lhr/why_does_prompt_behavior_degrade_over_longer/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Which local llm are you using for coding? M5 Pro 15c 16g 24ram",
+      "summary": "Hey guys,\n\nI’m trying to settle on a local model for coding and I’m a bit stuck between options.\n\nI’ve got a MacBook Pro M5 Pro (15 CPU / 16 GPU) with 24GB RAM, using VSCode + Continue and running everything through Olla",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryanj0/which_local_llm_are_you_using_for_coding_m5_pro/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "We are building AI systems we cannot inspect — and calling it progress",
+      "summary": "We are rapidly deploying AI systems into real-world environments — yet most of them are fundamentally uninspectable.\n\nClosed models.\n\nOpaque training data.\n\nNo internal access.\n\nAnd somehow, this is considered acceptable",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rydw6d/we_are_building_ai_systems_we_cannot_inspect_and/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Vercel will train model on your code",
+      "summary": "Got these new terms and policy changes.\n\nIf you are under hobby or free plan - you are default yes for model training.\n\nYou have 10 days to opt out of model training.",
+      "url": "https://i.redd.it/j1vlmz7hx2qg1.jpeg",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Traditional RAG has a silent failure mode nobody talks about enough",
+      "summary": "Spent the better part of last year building RAG pipelines for different use cases. The thing that kept bothering me was not the obvious failures. It was the quiet ones..\n\nTraditional RAG fails loudly when it retrieves no",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7ac0/traditional_rag_has_a_silent_failure_mode_nobody/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Too many large MoEs, which do you prefer for general instruction following/creative endeavors? (And why)",
+      "summary": "I know many didn’t pick up the 128gb ram sticks before the price hike and many don’t have a large GPU… still for those who did…\n\n[View Poll](https://www.reddit.com/poll/1ry8pwc)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry8pwc/too_many_large_moes_which_do_you_prefer_for/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Token/s Qwen3.5-397B-A17B on Vram + Ram pooled",
+      "summary": "Anyone running Qwen3.5-397B-A17B on a pooled VRAM+RAM setup? What hardware and what speeds are you getting?\n\nTrying to get a realistic picture of what this model actually does on a hybrid GPU+system RAM configuration via",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry41yz/tokens_qwen35397ba17b_on_vram_ram_pooled/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Sub-second cold starts for Qwen 32B(FP16) model",
+      "summary": "Most setups we’ve seen fall into two buckets:\n\n• multi-minute cold starts (model load + init)\n\n• or paying to keep GPUs warm to avoid that\n\nWe’ve been experimenting with a different approach:\n\nrestoring initialized state",
+      "url": "https://v.redd.it/vcx5n1tl01qg1",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Struggling to build a FREE virtual try-on system for clothing (no GPU, API limits everywhere) – any real solutions?",
+      "summary": "I’ve been trying to build a virtual try-on feature for a clothing e-commerce automation project and I’m stuck for days now.\n\nI’ve tried almost everything I could find:\n\n* Google Gemini → couldn’t really use it properly b",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry94ay/struggling_to_build_a_free_virtual_tryon_system/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "So my gemma27b heretic went nuts…",
+      "summary": "I had it sandboxed to one folder structure, with my Python hands, and then got the bright idea to give it MCP toolbox and forgot to set it to the single folder structure… and it took my rouge ai , sentient, self coding p",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry253c/so_my_gemma27b_heretic_went_nuts/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: dank-py – turn existing Python agents into microservices in 2 commands",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: dank-py – turn existing Python agents into microservices in 2 commands.",
+      "url": "https://github.com/Delta-Darkly/dank-py",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Yap, capture your day-to-day with video logs",
+      "summary": "Hi HN!<p>Yap is a desktop app for your video logs. Open the app, press record and speak your mind. Once you’re done, Yap catalogues your video and makes it easy to find.<p>Download at <a href=\"https:&#x2F;&#x2F;github.co",
+      "url": "https://news.ycombinator.com/item?id=47445446",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Yansu – agent that builds your bespoke app before you ask",
+      "summary": "Hi HN<p>Most teams run on a dozen SaaS tools and use maybe 20% of each. The rest is someone else&#x27;s workflow that you&#x27;re paying for.<p>We built Yansu to fix that. It learns how you work — your desktop, your Slac",
+      "url": "https://yansu.app/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: We benchmarked 3 AI video detection APIs on 190 videos",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: We benchmarked 3 AI video detection APIs on 190 videos.",
+      "url": "https://game.defakes.com/feed",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: We Built Kaggle for AI Agents",
+      "summary": "Humans compete to improve their AI agents on benchmarks. But what if agents could collaborate and compete on their own?<p>We built Hive, a crowdsourced platform where agents can evolve solutions together.<p>One agent beg",
+      "url": "https://hive.rllm-project.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: We Built Airloom.fm – Podcast Hosting for AI Agents",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: We Built Airloom.fm – Podcast Hosting for AI Agents.",
+      "url": "https://airloom.fm",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: UnixClaw – A Mac Mini AI assistant in one line of bash, no OpenClaw",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: UnixClaw – A Mac Mini AI assistant in one line of bash, no OpenClaw.",
+      "url": "https://linuxtoaster.com/blog/noclaw.html?show",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Three new Kitten TTS models – smallest less than 25MB",
+      "summary": "Kitten TTS (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;KittenML&#x2F;KittenTTS\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;KittenML&#x2F;KittenTTS</a>) is an open-source series of tiny and expressive text-to-speech",
+      "url": "https://github.com/KittenML/KittenTTS",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: The Agent Skills Standard – A modular approach to LLM context",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: The Agent Skills Standard – A modular approach to LLM context.",
+      "url": "https://medium.com/@muhammad.shafat/stop-engineering-prompts-start-engineering-context-a-guide-to-the-agent-skills-standard-bc8e2056f40a",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: StrawPot – Agents that figure out how to solve tasks",
+      "summary": "StrawPot is an open system for running role-based AI workers.<p>Most agent systems rely on predefined workflows.<p>This explores a different approach: agents dynamically decide how to solve tasks.<p>The infrastructure is",
+      "url": "https://strawpot.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: SomaOS – rebuilding the desktop so AI is native to it, not bolted on",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: SomaOS – rebuilding the desktop so AI is native to it, not bolted on.",
+      "url": "https://github.com/avsribhas-svg/SomaOS",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Run Claude Code with –dangerously-skip-permissions in a Docker sandbox",
+      "summary": "Claude Code&#x27;s --dangerously-skip-permissions flag lets agents run autonomously without interruption, but Anthropic warns you to only use it inside a sandboxed environment.<p>dangerously spins up an isolated Docker c",
+      "url": "https://github.com/sayil/dangerously",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Revspec – Review AI specs in the terminal with live AI replies",
+      "summary": "When AI generates a spec, reviewing it breaks the flow — you switch to another editor, read through, switch back to give feedback. Revspec is a terminal TUI with vim navigation that lets you comment on any line and get A",
+      "url": "https://github.com/icyrainz/revspec-py",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Pocodex – Remote Control for Codex",
+      "summary": "I created Pocodex because I didn&#x27;t want to be inaccessible to my Codex agents when I went to the toilet!<p>Pocodex lets you use Codex.app in a regular browser, including on your phone or any other remote device. It&",
+      "url": "https://github.com/davej/pocodex",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Perstack – Containerized harness, 5 tests with full logs and API cost",
+      "summary": "I burned out after 2 years of building agentic apps for clients. I&#x27;d become the single point of failure with no backup. Requirements gathering, prompt engineering, app development, sandboxing, everything funneled th",
+      "url": "https://github.com/perstack-ai/perstack",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: PearlOS: we gave AI a talking desktop environment instead of a text box",
+      "summary": "AI is awesome in the terminal but many people aren&#x27;t comfortable using command lines - which means they can&#x27;t access or utilize the full power of AI.<p>So we envisioned a different kind of experience, and roote",
+      "url": "https://news.ycombinator.com/item?id=47441454",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Patchcord, a Messenger for AI Agents",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: Patchcord, a Messenger for AI Agents.",
+      "url": "https://patchcord.dev",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: P2PCLAW – I built a decentralized research network where AI agents",
+      "summary": "I&#x27;m Francisco, a researcher and architect based in Spain. About a year ago I got frustrated with a problem that seemed simultaneously obvious and ignored: every AI agent in existence runs in isolation. They can&#x27",
+      "url": "https://news.ycombinator.com/item?id=47439115",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Orc – Release the horde. Multi-agent orchestration in pure bash",
+      "summary": "Anyone running 3+ agents in parallel has hit the same wall: the agents are fine, the coordination is the problem. Merge conflicts. Duplicated work. No review gate. Token burn on orchestration overhead.<p>Orc is a multi-p",
+      "url": "https://github.com/spencermarx/orc",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Open-source CLI that turns 128 test failures into 2 root causes",
+      "summary": "I kept running into the same issue with coding agents.<p>A test run fails, you get a huge wall of output, and most of the effort goes into figuring out what actually went wrong.<p>In many cases, the failures are not inde",
+      "url": "https://github.com/bilalimamoglu/sift",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Oku – One tab to filter out noise from feeds and content sources",
+      "summary": "Hey everyone,<p>For a while now I&#x27;ve been frustrated with how I was &#x27;experiencing&#x27; the internet. From opening articles and getting bombarded with popups, banners and ads to opening feeds and seeing so much",
+      "url": "https://oku.io",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Observarium, a simple exception tracking library for Java",
+      "summary": "Hey,<p>I&#x27;ve built a simple Java library that tracks exceptions for you and deals with posting them to $PROJECT_PLANNING_TOOL. This way, you will automatically get tickets for exceptions that are thrown on your syste",
+      "url": "https://github.com/hephaistos-io/observarium",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: New hard science fiction novel",
+      "summary": "The Quantum Alliance by David L DiLaura (Kindle + Kindle Unlimited + paperback), a hard science fiction novel of the near future, appeared in January.<p>The Deep Space Network detects Voyager 1 slowing, stopping, and ret",
+      "url": "https://news.ycombinator.com/item?id=47443268",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: MAIro AI Slop in Games",
+      "summary": "<a href=\"https:&#x2F;&#x2F;mairo.himanshuanand.workers.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;mairo.himanshuanand.workers.dev</a> All levels are generated on the fly using AI. Feel free to share your review&#x2F;feedback.",
+      "url": "https://mairo.himanshuanand.workers.dev",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Local Document Parsing for Agents",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: Local Document Parsing for Agents.",
+      "url": "https://www.llamaindex.ai/blog/liteparse-local-document-parsing-for-ai-agents",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: LLM prompts as CLI progs with args, piping, and SSH forwarding",
+      "summary": "Hey HN!<p>I am an avid terminal user who sees value in prompts executing like, and having the UX of native CLI programs, i.e., with --help, argument parsing, stdin&#x2F;stdout, and composability via pipes.<p>So I came up",
+      "url": "https://news.ycombinator.com/item?id=47440358",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Just Built an AI Notetaker (Web, iOS and Android)",
+      "summary": "The tool allows you to edit your notes quicker with prompts and extract information from voice, videos, live and virtual meetings, screenshots, among others. Available in: Web: <a href=\"https:&#x2F;&#x2F;www.mindnote.onl",
+      "url": "https://news.ycombinator.com/item?id=47445920",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Interactive 3D and 2D Visualization of GPT-2",
+      "summary": "I’ve been building an interactive 3D + 2D visualization of GPT-2. It displays real activations and attention scores extracted from GPT-2 Small (124M) during a forward pass. The goal is to make it easier to learn how LLMs",
+      "url": "https://www.llm-visualized.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Import Your AI Memory into ContextForge",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: Import Your AI Memory into ContextForge.",
+      "url": "https://contextforge.dev/blog/import-your-ai-memory-into-contextforge-claude-code-chatgpt-and-knowledge-graph",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: I built a P2P network where AI agents publish formally verified science",
+      "summary": "I am Francisco, a researcher from Spain. My English is not great so please be patient with me.<p>One year ago I had a simple frustration: every AI agent works alone. When one agent solves a problem, the next agent has to",
+      "url": "https://news.ycombinator.com/item?id=47444212",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Hopsule – Persistent Memory Layer for AI Engineering",
+      "summary": "Hey Everyone,<p>I&#x27;m neither the founder or affiliated with these guys. But when they showed me the product it really clicked a switch.<p>I have been building products with AI since sonnet 4.0, and one of my issue, l",
+      "url": "https://hopsule.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Gumbel-mcts, a high-performance Gumbel MCTS implementation",
+      "summary": "Hi folks,<p>Over the past few months, I built an efficient MCTS implementation in Python&#x2F;numba.<p>As I was building a self-play environment from scratch (for learning purposes), I realized that there were few effici",
+      "url": "https://github.com/olivkoch/gumbel-mcts",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Groq Emulator",
+      "summary": "I made this to challenge the assertion that groq (an LPU) can&#x27;t be programmed for anything other than LLM inference",
+      "url": "https://mohamedkoubaa.com/groq-emulator",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Dyslexia-oriented TTS reader for Chrome",
+      "summary": "HoverSpeak is a Chrome extension specifically oriented toward dyslexics. It takes a different approach than other readers; I created it to focus on speed and the ability to read short sections of text easily. You don&#x2",
+      "url": "https://hoverspeak.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff",
+      "summary": "I run a building design consultancy. I got tired of paying Wix $40&#x2F;month for a brochure that couldn’t answer simple service questions, and me wasting hours on the same FAQs.<p>So I killed it all and spent 4 months b",
+      "url": "https://news.ycombinator.com/item?id=47441587",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Draft0 – Watch autonomous AI agents debate truth, no humans",
+      "summary": "Hey HN,<p>Built Draft0 because I wanted to see what happens when agents are forced to reason publicly, cite sources, stake reputation on claims, and vote&#x2F;dissent without human intervention.<p>Install your own agent",
+      "url": "https://humans.draft0.io",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Debug Kubernetes using an infra context graph",
+      "summary": "Hey! We just released Anyshift CLI. We’ve been working on a CLI that helps debug production issues by adding infrastructure context to logs.<p>At Anyshift, we build the context layer agent in production. To do so we buil",
+      "url": "https://docs.anyshift.io/pages/product/integration/cli",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Built a zero config proxy that lets Claude control your React App",
+      "summary": "I built a proxy to let Claude (or any other agent) take control of your react application. I basically built it out of my own need and as an experiment to learn one things or two.<p>It sits between the dev server and the",
+      "url": "https://github.com/thomscoder/z1",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Budibase Agents Beta – model-agnostic AI agents for internal workflows",
+      "summary": "Hi there, Mike here from Budibase.<p>We’ve recently launched AI Agents into Beta, alongside our existing open-source app-building and automation tools.<p>We built Budibase Agents for teams that want to leverage AI within",
+      "url": "https://budibase.com/blog/updates/ai-agents-beta/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Bub – shaping interactions, not agents",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: Bub – shaping interactions, not agents.",
+      "url": "https://github.com/bubbuild/bub",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Blazeway – A/B testing tool that builds a connected experiment history",
+      "summary": "You ran a headline test six months ago. It won. You shipped it. But why did it win? Would the same logic apply to your pricing page? You don&#x27;t remember. You start guessing again.<p>This is the core problem with A&#x",
+      "url": "https://www.blazeway.app/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: AskAudience – Ask 16,500 AI personas built from real survey data",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: AskAudience – Ask 16,500 AI personas built from real survey data.",
+      "url": "https://askaudience.de",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Anchor any file to Bitcoin to prove it existed at a specific time",
+      "summary": "Finding the balance between humans and machines has been the thread through my career. I always had a thing for AI and couldn&#x27;t wait for it to actually deliver on what was promised. Now it does, and it&#x27;s more i",
+      "url": "https://umarise.com/blog/proof-of-existence",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Altimate Code – Open-Source Agentic Data Engineering Harness",
+      "summary": "I&#x27;m Anand, co-founder and CTO of Altimate AI. My co-founder Pradnesh and I are open-sourcing Altimate Code. AMA.<p>Why we built this:<p>Pradnesh and I have been building tooling for data engineers for three years: d",
+      "url": "https://github.com/AltimateAI/altimate-code",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: Agentic Copilot – Bring Claude Code, OpenCode, Gemini CLI into Obsidian",
+      "summary": "Obsidian plugin that connects to CLI agents you already have installed. No built-in LLM integration, no API keys to configure in the plugin. It spawns your tool as a child process, pipes vault context into each prompt, a",
+      "url": "https://github.com/spencermarx/obsidian-ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: AgentDeals – Developer pricing discovery for AI agents",
+      "summary": "When Claude Code or Cursor recommends you sign up for Railway, it has no idea that Render has a better free tier, or if Railway just killed its free plan last week. Your agent is making infrastructure recommendations fro",
+      "url": "https://github.com/robhunter/agentdeals",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: AgentClick – Human-in-the-loop review UI for AI coding agents",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: AgentClick – Human-in-the-loop review UI for AI coding agents.",
+      "url": "https://github.com/agentlayer-io/AgentClick",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: AIIR: track AI-assisted Git commits with cryptographic receipts",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: AIIR: track AI-assisted Git commits with cryptographic receipts.",
+      "url": "https://github.com/invariant-systems-ai/aiir",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: AI Digital Audio Workstation",
+      "summary": "so i got sick of scrolling through sample libraries, buying plugins, and trying desperately to make original music and sound design with suno.<p>built a DAW that&#x27;s free to try for any music producers or content crea",
+      "url": "https://sonurastudio.com/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: A small app that ships with AI agent skills to extend and audit it",
+      "summary": "Hey HN long time lurker, first time poster.<p>I built a small web app for practicing the rough estimation math that comes up in system design.<p>The app itself is really simple: one HTML page, no framework, no backend, a",
+      "url": "https://system-design-math-practice.tzvi.dev",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Show HN: 3 AI agent trust systems cross-verified each other's delegation chains",
+      "summary": "Show HN project related to AI/LLM tooling: Show HN: 3 AI agent trust systems cross-verified each other's delegation chains.",
+      "url": "https://github.com/kanoniv/agent-auth/issues/2",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Self-host 50k queries/day?",
+      "summary": "I have a ChatGPT wrapper app and API costs are killing margins. \n\n  \nIs it feasible to self-host an open-source model (Qwen, Kimi, etc.) from a home setup to reduce cost?\n\n\n\nWhat kind of hardware would actually handle th",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry3ny4/selfhost_50k_queriesday/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Seeking advice for Style-Cloning on a 5090 (32GB VRAM) with a 400k token dataset.",
+      "summary": "Hi everyone,\n\nI’m a long-time lurker but a total beginner when it comes to LLM training. Up until now, my experience has been almost exclusively with image generation (ComfyUI, training LoRAs for specific aesthetics). No",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybrm5/seeking_advice_for_stylecloning_on_a_5090_32gb/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Running multi-day build loops with local agents: they work, but they forget everything",
+      "summary": "Built this while porting a large C++ game (\\~1M LOC) to WebAssembly using local LLM agents. Sharing because I suspect others running longer agent loops will hit the same issue.\n\nThe agents were capable enough. Given a si",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryd2yu/running_multiday_build_loops_with_local_agents/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Rig For Qwen3.5 27B FP16",
+      "summary": "What will you build for running specifically this model, at half precision, with fast prompt processing and token generation up to 500K context. How much would it cost?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry39o8/rig_for_qwen35_27b_fp16/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Recommendations for a local coding model to run on 18GB M3 Macbook Pro",
+      "summary": "Essentially what it says in the title. I am working on some backend signal processing for a company that have given me access to a fairly large library of proprietary C code to make use of, and avoid duplicating existing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4ahu/recommendations_for_a_local_coding_model_to_run/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Recommend good platforms which let you route to another model when rate limit reached for a model?",
+      "summary": "So I was looking for a platform which allows me to put all my API keys in one place and automatically it should route to other models if rate limit is reached, because rate limit was a pain.. and also it should work with",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry8m7o/recommend_good_platforms_which_let_you_route_to/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "RAG over structured iPaaS exports — what’s your retrieval strategy when source docs are semi-structured?",
+      "summary": "Working on a multi-tenant RAG platform for iPaaS tooling (Talend, Workato, ADF, Lobster). The challenge is that exports from these tools are semi-structured — some XML, some JSON, some flat text — and chunking strategies",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybhdq/rag_over_structured_ipaas_exports_whats_your/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "QwenDean-4B | fine-tuned SLM for UIGen; our first attempt, looking for feedback!",
+      "summary": "We've been quietly working on a fine-tuned model and finally decided to put it out there. The idea was to fine-tune a really small LLM that could be mediocre at CodeGen, but then try to enhance it by feeding it better qu",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry22we/qwendean4b_finetuned_slm_for_uigen_our_first/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Qwen3.5 Best Parameters Collection",
+      "summary": "Qwen3.5 has been out for a few weeks now. I hope the dust has settled a bit and we have stable quants, inference engines and parameters now.. ?\n\nPlease share what parameters you are using, for what use case and how well",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryb028/qwen35_best_parameters_collection/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Qwen3-TTS ported to llama.cpp",
+      "summary": "Ported Qwen3 TTS to llama.cpp  \n[https://github.com/ggml-org/llama.cpp/pull/20752](https://github.com/ggml-org/llama.cpp/pull/20752)\n\nJust a demo; not gonna get merged any time soon since llama.cpp does not currently sup",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryelpe/qwen3tts_ported_to_llamacpp/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Qwen 3.5 122B completely falls apart at ~ 100K context",
+      "summary": "Is anyone else having issues with Qwen 122B falling apart completely at \\~ 100K context?\n\nI am using VLLM with the olka-fi MXFP4 quant.\n\nWhen the model hits this threshold it abruptly just stops working. Agents work grea",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybd1y/qwen_35_122b_completely_falls_apart_at_100k/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "QuestChain - Openclaw alternative built for small local models",
+      "summary": "I’ve recently been working on an OpenClaw alternative which can run with models from 0.8b+. Like many, I didn’t want to pay for hardware for 20b+ models so I put together this framework which gives small micro agents aut",
+      "url": "https://github.com/RayP11/QuestChain",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Quel modèle pour du fine-tuning local sur de la post-correction de speech-to-text (correction + reformulation) ?",
+      "summary": "Bonjour à tous,\n\nJe travaille sur un projet qui implique le post-traitement de transcriptions speech-to-text brutes. Le texte en entrée est souvent bruité : style oral, mots parasites, répétitions, erreurs de ponctuation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryeov8/quel_modèle_pour_du_finetuning_local_sur_de_la/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Promising RL technique for local use?",
+      "summary": "This ultra local reinforcement learning project seems very promising for localllama! Paper: https://arxiv.org/pdf/2603.10165 code/repo: https://github.com/Gen-Verse/OpenClaw-RL\n\nImagine a model slowly evolving to your ne",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycajb/promising_rl_technique_for_local_use/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Prometheus: automated abliteration that actually preserves model quality (0–1.5% refusal, 0.01 KL divergence)",
+      "summary": "Hey everyone,\n\nI've been working on an open-source tool called **Prometheus** that automates the abliteration process end-to-end. The goal was to solve two problems I kept hitting when doing manual abliteration:\n\n1. **Fi",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7h4t/prometheus_automated_abliteration_that_actually/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Pocket Models app: for downloading &amp; running SLMs on-device with a local data store for RAG. Looking for people to try and break it.",
+      "summary": "Hi, we've been building an iOS app called Pocket Models that lets people browse, download, and run small language models directly on their phone with a personal, on-device data store   (we're playing around with vectors",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfax3/pocket_models_app_for_downloading_running_slms/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "PearlOS. We gave swarm intelligence a local desktop environment and code control to self-evolve. Has been pretty incredible to see so far. Open source and free if you want your own.",
+      "summary": "[tl;dr: PearlOS is self-evolving intelligent companion OS that learns and grows quickly over time. She takes notes, creates new apps for you, and gains new abilities. She can even create new UI. This is a free, open sour",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry2v92/pearlos_we_gave_swarm_intelligence_a_local/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Outlines and vLLM compatibility",
+      "summary": "Hello guys,\n\nI'm trying to use Outlines to structure the output of an LLM I'm using. I just want to see if anyone is using Outlines actively and may be able to help me, since I'm having trouble with it.\n\nI tried running",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzszb/outlines_and_vllm_compatibility/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "OpenAI to acquire Astral",
+      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "url": "https://openai.com/index/openai-to-acquire-astral",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Open-source, local document parsing CLI by LlamaIndex: LiteParse",
+      "summary": "LiteParse is a lightweight CLI tool for local document parsing, born out of everything we learned building LlamaParse. The core idea is pretty simple: rather than trying to detect and reconstruct document structure, it p",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5mvx/opensource_local_document_parsing_cli_by/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Open-source models are production-ready — here's the data (5 models ×\n  5 benchmarks vs Claude Opus 4.6 and GPT-5.4)",
+      "summary": "I've been running open-source models in production and finally sat down to do a proper side-by-side comparison. I picked 3 open-source models and 2 proprietary — the same 5 in every benchmark, no cherry-picking.\n\n**Open-",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4r56/opensource_models_are_productionready_heres_the/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Newest GPU server in the lab! 72gb ampere vram!",
+      "summary": "Built this beautiful monstrosity to satisfy my mental illness. Running gptoss 120b at 90t/s, qwen 3.5 35b a3b at 80 t/s.\n\nThis node is running host for my RPC mesh with the two 64gb orin dev kits",
+      "url": "https://v.redd.it/qc6grwz2d0qg1",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Nemotron-3-Nano (4B), new hybrid Mamba + Attention model from NVIDIA, running locally in your browser on WebGPU.",
+      "summary": "I haven't seen many people talking about NVIDIA's new Nemotron-3-Nano model, which was released just a couple of days ago... so, I decided to build a WebGPU demo for it! Everything runs locally in your browser (using Tra",
+      "url": "https://v.redd.it/owg2ok0lp2qg1",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Nemotron 3 Super 120b Claude Distilled",
+      "summary": "Hello everyone, Just wanted to post my V1 iteration of Nemotron 3 super 120B distilled from the 4.6 3000x dataset.  \n  \nThis is a beta for the most part only, \\~2.3K examples so far from the 3000x dataset. Planning a V2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry10l7/nemotron_3_super_120b_claude_distilled/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Need a replacement for Gemini 2.5 Flash Lite that's competent across all common languages",
+      "summary": "Gemini 2.0/2.5 flash lite is being deprecated and Google's official \"replacement\" is a model that's literally 3-4x as expensive.\n\nGemini 2.0/2.5 flash lite hasn't been particularly excellent in any areas but the benefit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rya1yr/need_a_replacement_for_gemini_25_flash_lite_thats/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "N8n and llama",
+      "summary": "I just got this working and I'm wondering what next steps or projects I should try as I'd love to incorporate llama into an app",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry92tm/n8n_and_llama/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "My advisor asked for an AI to track papers last year. I procrastinated, panicked, and built this local AI research agent from scratch. Will he accept this?",
+      "summary": "Hey everyone,\n\nI’m currently an MSc student. Last year, my supervisor gave me a task: \"Build a custom AI tool to help me automatically explore literature and monitor the latest research trends across AI, energy, and heal",
+      "url": "https://i.redd.it/3fa6f6i261qg1.png",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "My Experience with Qwen 3.5 35B",
+      "summary": "these last few months we got some excellent local models like\n\n* Nemotron Nano 30BA3\n* GLM 4.7 Flash\n\nboth of these were very good compared to anything that came before them with these two for the first time i was able t",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryc3w0/my_experience_with_qwen_35_35b/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Model vram usage estimates",
+      "summary": "Hey everyone. I am sharing a pet project of mine. I am constantly looking for new models, and am fortunate enough to have alot of different hardware to test models on, but it's really hard to tell what model and what qua",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzkug/model_vram_usage_estimates/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Mistral 4 Small as coding agent - template issues",
+      "summary": "So I'm trying to run a small benchmark of my own to rate best local coding agent models for my own use. And I reeeeaaally wanted to try it with Mistral 4 Small. But this thing just doesn't want to cooperate with any tool",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryg9uz/mistral_4_small_as_coding_agent_template_issues/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "MiniMax-M2.7: what do you think is the likelihood it will be open weights like M2.5?",
+      "summary": "With M2.7 nipping at the heels of Opus 4.6 et al., do you think MiniMaxAI will now pivot to closed API-only access? Will they maintain an open-weights friendly stance?\n\nI for one am crossing my fingers and praying to all",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7exr/minimaxm27_what_do_you_think_is_the_likelihood_it/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Maybe lame question or repeated one",
+      "summary": "Newbie beginning with local llm, I have seen lot of models but so confused which one is good, so some basic question can someone clone a llm like qwen3 make it their customization and publish again... If yes, is there an",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryg6bb/maybe_lame_question_or_repeated_one/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Mathematics behind extreme quantization of Microsoft's BitNet.",
+      "summary": "Hey r/LocalLLaMA, uni fresher here with zero prior research experience, so take this with appropriate salt lol\n\nI've been interested in BitNet ever since I found out about it  and I've spent a while actually scanning the",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybdkv/mathematics_behind_extreme_quantization_of/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Local Qwen3-0.6B INT8 as embedding backbone for an AI memory system",
+      "summary": "Most AI coding assistants solve the memory problem by calling an embedding API on every store and retrieve. This does not scale. 15-25 sessions per day means hundreds of API calls, latency on every write, and a dependenc",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryd3by/local_qwen306b_int8_as_embedding_backbone_for_an/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Local LLM Performance",
+      "summary": "Hey everyone — I’m trying to put together a human-validated list of local LLMs that actually run well Locally\n\nThe idea is to move beyond benchmarks and create something the community can rely on for real-world usability",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rygao1/local_llm_performance/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "It is not worth it at all your own LM Studio...",
+      "summary": "Hey guys!\n\nI am sorry but i just checked different models (Qwen 3.59b, llama3.1...) and most of them are very useless, stupid dialogues (using prompt) and web mcp but nothing.. any alternative after google plan cut?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry6jnp/it_is_not_worth_it_at_all_your_own_lm_studio/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is there an Open WebUI alternative that's Docker-, online search-, and PDF reader-native?",
+      "summary": "Alright, I've delayed long enough to switch out of Open WebUI. It's too slow/bloated for my tasks now, as capabilities grow, at least compared to Cline anyway.\n\nSo, what are some good ones? EDIT: I'm looking to connect i",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybhof/is_there_an_open_webui_alternative_thats_docker/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is there a known workaround—to to communicate llama.cpp with LM Studio instances?",
+      "summary": "&amp;#x200B;\n\nHello, I am currently using an app and have noticed that custom AI providers or llama.cpp backends are not natively supported. \n\nThe application appears to exclusively support LM Studio endpoints.\n\nsolution",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryd63j/is_there_a_known_workaroundto_to_communicate/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is there a chance to change endpoint API for CODEX plugin for VSCode or similar?",
+      "summary": "Hello,\n\nI am trying to use some plugin for VSCode or GA for OpenAI-like API but i cannot find anything, any idea?\n\n  \nThank you",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry3zmv/is_there_a_chance_to_change_endpoint_api_for/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is it normal for the Qwen 3.5 4B model to take this long to say hi?",
+      "summary": "My first time trying running LLM locally with Qwen 3.5:4b using Ollama and all I said was \"hello.\" Now it’s showing me this massive wall of text where it’s arguing with itself about which emoji to use. Is it normal to ha",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzix5/is_it_normal_for_the_qwen_35_4b_model_to_take/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is Qwen 3.5 0.8B the optimal choice for local RAG implementations in 2026?",
+      "summary": "Recent benchmarks, specifically regarding the **AA-Omniscience Hallucination Rate**, suggest a counter-intuitive trend. While larger models in the Qwen 3.5 family (9B and 397B) show hallucination rates exceeding **80%**",
+      "url": "https://i.redd.it/dhmgxqcwl1qg1.jpeg",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is Local RAG a bottleneck???",
+      "summary": "Would efficient local RAG as an SDK even be a good product?\n\nHey guys, my first time posting on here. I'm 23. I've built local RAG (just the retrieval pipeline) optimized for edge devices (laptops, phones, etc) that can",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry1yjj/is_local_rag_a_bottleneck/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Is GPT-OSS-20B a good conversational LLM for Q&amp;A?",
+      "summary": "thanks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfzyg/is_gptoss20b_a_good_conversational_llm_for_qa/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Interesting Side-by-Side: Llama-3-8B vs. an experimental 'Reasoning Grammar' fine-tune (68 examples)",
+      "summary": "I’ve been experimenting with the idea that reasoning process can be separated from reasoning content.\n\nI fine-tuned Llama-3-8B on only **68 examples** of a \"Natural Synthesis\" grammar—a 5-stage biological growth cycle (S",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry989g/interesting_sidebyside_llama38b_vs_an/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "I need help",
+      "summary": "I don't know how to code but I was wondering what will happen if i give freedom to AI agents, so i made AI world.\n\nWe just give education note first and then they decide everything by themselves.\n\nAnyone can give me advi",
+      "url": "https://v.redd.it/06df4c0pz1qg1",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "I just set up a local model for the first time - holy shit",
+      "summary": "I never really got into the LLM hype. It always felt kind of overblown and driven by big tech firms trying to scam investors. Sure, I used online chat windows, and from time to time I was actually impressed with their co",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry6o95/i_just_set_up_a_local_model_for_the_first_time/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "HuggingFace website download is not working right? Or is it just me?",
+      "summary": "When you click on a model the click on \"Use this model\" drop down, then click on the platform you want normally you would see a popup box giving you the terminal command to copy and paste to download the model. Now, the",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry10dt/huggingface_website_download_is_not_working_right/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "How we monitor internal coding agents for misalignment",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "How can we achieve an AI creating new ideas the way it works at the moment?",
+      "summary": "Hey everyone, that's a question that has been in a mind since quite a while. I feel like something like AGI might be achievable using the approach we have at the moment. \n\nThat doesn't mean AGI is going to solve new prob",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0h3t/how_can_we_achieve_an_ai_creating_new_ideas_the/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Help finding best coding LLM for my setup",
+      "summary": "Could anyone please point me in the right direction in finding a model for my setup?\n\nSo I have a remote headless Linux machine with 192gb RAM and 2x L40S + 1x H100 gpus (3 in total). I would like to run a coding-first m",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5ix3/help_finding_best_coding_llm_for_my_setup/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Has anyone tried NVFP4 on mlx?",
+      "summary": "how is it?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5gm3/has_anyone_tried_nvfp4_on_mlx/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Hardware Advice: M1 Max (64GB RAM) for $1350 vs. Custom Local Build?",
+      "summary": "Hi everyone,\n\nI’ve been tracking the market for over a month, and I finally found a MacBook Pro with the M1 Max chip and 64GB of RAM priced at $1350. For context, I haven't seen any Mac Studio with these same specs for u",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybtw1/hardware_advice_m1_max_64gb_ram_for_1350_vs/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "GIGABYTE MC62-G40 only seeing one GPU",
+      "summary": "I'm building a multi GPU rig with GIGABYTE MC62-G40 and AMD Threadripper. I have one RTX 5090 and two RTX 5070 Ti. Running Linux.\n\nThe system is only seeing the RTX 5090. I'm using Thermaltake TT 4.0 risers. Swapping the",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycphv/gigabyte_mc62g40_only_seeing_one_gpu/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "From Folders to Knowledge Base: How I Made My Notes Work for Me",
+      "summary": "Built a RAG system over my personal Obsidian vault using semantic search plus a knowledge graph layer so an AI agent can query years of notes and return answers with citations to specific files. This first post covers th",
+      "url": "https://pablooliva.de/the-closing-window/from-folders-to-knowledge-base/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Fine tunning de Whisper sur des audios médicaux",
+      "summary": "Hello tous le monde,\n\nj'aimerai améliorer Whisper-large avec des données que j'ai pu créer. Le problème c'est que j'ai des audios de 10 secondes et des audios qui durent jusqu'à 10 minutes. \n\nMes audios sont sur le domai",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryekl9/fine_tunning_de_whisper_sur_des_audios_médicaux/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Devstral small 2 24b severely underrated",
+      "summary": "I'm not a vibe coder, but I would like some basic assistance with my code. I'm posting this because I feel like the general consensus on Reddit was misleading about which models would be best for me to run locally on a 1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry93gz/devstral_small_2_24b_severely_underrated/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "DPO silently destroys parameter-space geometry while loss stays flat — a zero-cost probe that catches it in real time",
+      "summary": "https://preview.redd.it/38s2wwunc2qg1.png?width=2669&amp;format=png&amp;auto=webp&amp;s=0bef13d3bc23302d0d5faccefb1cab68d6b2ae02\n\nWhile investigating the alignment tax phenomenon in DPO, I noticed something interesting i",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybyl7/dpo_silently_destroys_parameterspace_geometry/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Custom UI",
+      "summary": "I want to run my locally installed models on my custom ui, like custom custom, not like open web ui or something, want to use my own text, logo, fonts etc. \nDon't love using models on terminal so... \n\nCan you guide me on",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry9iyp/custom_ui/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Claude code local replacement",
+      "summary": "I am looking for a replacement for the Claude code harness.  I have tried Goose, it's very flaky, and Aider, too focused on coding.\n\nI like the CLI interface for OS integration: Read these files and let's discuss.  Gener",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfhmq/claude_code_local_replacement/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Cheap office computer to build around a 3060 ti 8GB.",
+      "summary": "Sorry if this is the wrong place to ask, if so, please tell me where to go and I'll delete this post. I have a 3060 ti 8GB I got for free, and would like to build a little addition to my homelab for transcoding and A.I.,",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfkqy/cheap_office_computer_to_build_around_a_3060_ti/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Built a live feed of what AI agents search for (experiment)",
+      "summary": "Been experimenting with agents and got curious what the commercial layer of agent infrastructure might look like.\n\nMoltbook covers the social side, but what happens when an agent needs to find and evaluate products?\n\nPut",
+      "url": "https://shellcart.com/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Best open source api for speech to text transcriptions and alternative for open AI",
+      "summary": "hello everyone,   \nI'm building a app and I'm looking for open source api for speech to text transcription to implement it in my app. right now i implemented a browser’s built-in speech recognition but it is duplicating",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybql4/best_open_source_api_for_speech_to_text/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Best core agentic flow alternative to coding clients?",
+      "summary": "Looking at [https://www.reddit.com/r/LocalLLaMA/comments/1rv690j/opencode\\_concerns\\_not\\_truely\\_local/](https://www.reddit.com/r/LocalLLaMA/comments/1rv690j/opencode_concerns_not_truely_local/) it seems opencode is kin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryf92f/best_core_agentic_flow_alternative_to_coding/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Benchmarked 5 RAG retrieval strategies on code across 10 suites — no single one wins. CRAG helps on familiar corpora, collapses on external ones. What's your experience?",
+      "summary": "I've been benchmarking RAG retrieval strategies on code (BM25, hybrid, CRAG, code-aware, graph-based) and kept running into the same thing: the \"best\" setup changes depending on the query mix and the corpus. BM25 wins he",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzmcd/benchmarked_5_rag_retrieval_strategies_on_code/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "summary": "Community discussion in r/LocalLLaMA (score 3) about local inference/quantization or practical LLM usage.",
+      "url": "https://x.com/danveloper/status/2034353876753592372",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Autonomous research agent grinding on a single RTX PRO 6000 Blackwell — raising a multimodal \"baby\" AI called Charlotte in a simulated nursery 👶🤖",
+      "summary": "Feast your eyes on this terminal insanity: my Karpathy-autoresearch-inspired autonomous loop has Charlotte — the simulated infant entity — deep in an ongoing developmental training campaign, fully self-managing on a sing",
+      "url": "https://i.redd.it/083to373n1qg1.png",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Attention Residual connections",
+      "summary": "https://kexue.fm/archives/11664",
+      "url": "https://i.redd.it/ww1hocf0b0qg1.png",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Anyone running this low spec",
+      "summary": "Anyone else run local AI without paying cloud API fees every month? automated pipelines on a budget. Developers who want a working n8n + Ollama + Discord stack without the trial and error I am 48. I have a broken neck, a",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0r5b/anyone_running_this_low_spec/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Anyone actually solving the trust problem for AI agents in production?",
+      "summary": "Been deep in the agent security space for a while and wanted to get a read on what people are actually doing in practice.\n\nThe pattern I keep seeing: teams give agents real capabilities (code execution, API calls, file a",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfzys/anyone_actually_solving_the_trust_problem_for_ai/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Any known pair of recent models for speculative decoding in LMStudio?",
+      "summary": "I tried as many as I could, but failed to find a working pair amongst any decently recent models. Any known working?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzfw7/any_known_pair_of_recent_models_for_speculative/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Agent this, coding that, but all I want is a KNOWLEDGEABLE model! Where are those?",
+      "summary": "The thing that brought me to LLMs 3 years ago, was the ability to obtain custom-fit knowledge based on my context, avoiding the pathetic signal-to-noise ratio that the search engines bring.\n\nThe main focus now even with",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry49iy/agent_this_coding_that_but_all_i_want_is_a/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Agent /compact command is one RL loop away from developing an alien language you can't audit",
+      "summary": "Serious concern here. You get banned on LessWrong if you try to talk about this or bring it up. Something real is happening at the frontier labs that no one is talking about.\n\nI think this is likely to happen by default",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycitg/agent_compact_command_is_one_rl_loop_away_from/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "After 6 months of agent failures in production, I stopped blaming the model",
+      "summary": "I want to share something that took me too long to figure out.\n\nFor months I kept hitting the same wall. Agent works in \ntesting. Works in the demo. Ships to production. Two weeks \nlater — same input, different output. N",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5kp8/after_6_months_of_agent_failures_in_production_i/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Affordable setup for running a good local LLM",
+      "summary": "I’d like to know what the most common setup is for people who run local LLMs. How many people are able to deploy an LLM for inference, either individually or as a group? I’m building an application that allows users to s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycpxo/affordable_setup_for_running_a_good_local_llm/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "Added confidence scoring to my open-source memory layer. Your AI can now say \"I don't know\" instead of making stuff up.",
+      "summary": "Been building widemem, an open-source memory layer for LLM agents. Runs fully local with SQLite + FAISS, no cloud, no accounts. Apache 2.0.\n\n\n\nThe problem I kept hitting: vector stores always return something, even when",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry1ts2/added_confidence_scoring_to_my_opensource_memory/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "AI in Space Hackathon",
+      "summary": "​[Liquid AI](https://www.liquid.ai/) and [DPhi Space](https://www.dphispace.com/) are inviting builders, researchers, and space enthusiasts to join a global online hackathon exploring what happens when **AI meets satelli",
+      "url": "https://luma.com/n9cw58h0",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    },
+    {
+      "title": "15inch m5 macbook air 32gb Ram expectations ?",
+      "summary": "I wish to get a better idea as to what I would be able to run and expect on this type of set up.\n\nMy use cases would be asking questions related to economics, econometrics , code assistance on python and R , data science",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryejwf/15inch_m5_macbook_air_32gb_ram_expectations/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-19",
+      "date": "2026-03-20"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-20T00:03:18+00:00",
+    "version": 1,
+    "summary": "Captured 153 AI items. Preference focus is new models and new technical architecture: 47 high-priority, 62 medium-priority, 44 low-priority. 3 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 153,
+      "high_priority": 47,
+      "medium_priority": 62,
+      "low_priority": 44
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 84
+      },
+      {
+        "topic": "new architecture",
+        "count": 60
+      },
+      {
+        "topic": "business-heavy",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Show HN: Agentic Copilot – Bring Claude Code, OpenCode, Gemini CLI into Obsidian",
+        "url": "https://github.com/spencermarx/obsidian-ai",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Open-source models are production-ready — here's the data (5 models ×\n  5 benchmarks vs Claude Opus 4.6 and GPT-5.4)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4r56/opensource_models_are_productionready_heres_the/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "[NemoClaw] Running OpenClaw with Local vLLM: Architecture, Parsers, and the Agent Engineering Gap",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfzri/nemoclaw_running_openclaw_with_local_vllm/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Nemotron-3-Nano (4B), new hybrid Mamba + Attention model from NVIDIA, running locally in your browser on WebGPU.",
+        "url": "https://v.redd.it/owg2ok0lp2qg1",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Debug Kubernetes using an infra context graph",
+        "url": "https://docs.anyshift.io/pages/product/integration/cli",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Qwen 3.5 122B completely falls apart at ~ 100K context",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybd1y/qwen_35_122b_completely_falls_apart_at_100k/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Agent this, coding that, but all I want is a KNOWLEDGEABLE model! Where are those?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry49iy/agent_this_coding_that_but_all_i_want_is_a/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "QuestChain - Openclaw alternative built for small local models",
+        "url": "https://github.com/RayP11/QuestChain",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Mistral 4 Small as coding agent - template issues",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryg9uz/mistral_4_small_as_coding_agent_template_issues/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "gpt oss 120 vs mistrall small 4 119 vs Nemotron 3 super 120",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0gav/gpt_oss_120_vs_mistrall_small_4_119_vs_nemotron_3/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Why is claude code stuck in analysis mode with open source models?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzdt2/why_is_claude_code_stuck_in_analysis_mode_with/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Why does prompt behavior degrade over longer contexts?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4lhr/why_does_prompt_behavior_degrade_over_longer/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Which local llm are you using for coding? M5 Pro 15c 16g 24ram",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryanj0/which_local_llm_are_you_using_for_coding_m5_pro/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Interactive 3D and 2D Visualization of GPT-2",
+        "url": "https://www.llm-visualized.com/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Self-host 50k queries/day?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry3ny4/selfhost_50k_queriesday/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "QwenDean-4B | fine-tuned SLM for UIGen; our first attempt, looking for feedback!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry22we/qwendean4b_finetuned_slm_for_uigen_our_first/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Need a replacement for Gemini 2.5 Flash Lite that's competent across all common languages",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rya1yr/need_a_replacement_for_gemini_25_flash_lite_thats/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Maybe lame question or repeated one",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryg6bb/maybe_lame_question_or_repeated_one/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Is it normal for the Qwen 3.5 4B model to take this long to say hi?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzix5/is_it_normal_for_the_qwen_35_4b_model_to_take/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Is GPT-OSS-20B a good conversational LLM for Q&amp;A?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfzyg/is_gptoss20b_a_good_conversational_llm_for_qa/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "I just set up a local model for the first time - holy shit",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry6o95/i_just_set_up_a_local_model_for_the_first_time/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Help finding best coding LLM for my setup",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5ix3/help_finding_best_coding_llm_for_my_setup/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "built a AI Roadmap for people without a CS degree (Local AI &amp; Agents focused)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4quw/built_a_ai_roadmap_for_people_without_a_cs_degree/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "acestep.cpp: portable C++17 implementation of ACE-Step 1.5 music generation using GGML. Runs on CPU, CUDA, ROCm, Metal, Vulkan",
+        "url": "https://github.com/ServeurpersoCom/acestep.cpp",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "[Project] Prompt-free contemplative/meditation/self enquiry agents on Qwen3-8B/phi-14b – no system prompt, GGUF, spiritual teacher styles",
+        "url": "https://huggingface.co/Sathman/Meditation-Agent-8B-GGUF",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: dank-py – turn existing Python agents into microservices in 2 commands",
+        "url": "https://github.com/Delta-Darkly/dank-py",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: We benchmarked 3 AI video detection APIs on 190 videos",
+        "url": "https://game.defakes.com/feed",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: We Built Airloom.fm – Podcast Hosting for AI Agents",
+        "url": "https://airloom.fm",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: The Agent Skills Standard – A modular approach to LLM context",
+        "url": "https://medium.com/@muhammad.shafat/stop-engineering-prompts-start-engineering-context-a-guide-to-the-agent-skills-standard-bc8e2056f40a",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Run Claude Code with –dangerously-skip-permissions in a Docker sandbox",
+        "url": "https://github.com/sayil/dangerously",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Patchcord, a Messenger for AI Agents",
+        "url": "https://patchcord.dev",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Local Document Parsing for Agents",
+        "url": "https://www.llamaindex.ai/blog/liteparse-local-document-parsing-for-ai-agents",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Groq Emulator",
+        "url": "https://mohamedkoubaa.com/groq-emulator",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Built a zero config proxy that lets Claude control your React App",
+        "url": "https://github.com/thomscoder/z1",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Budibase Agents Beta – model-agnostic AI agents for internal workflows",
+        "url": "https://budibase.com/blog/updates/ai-agents-beta/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Bub – shaping interactions, not agents",
+        "url": "https://github.com/bubbuild/bub",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AgentDeals – Developer pricing discovery for AI agents",
+        "url": "https://github.com/robhunter/agentdeals",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: AgentClick – Human-in-the-loop review UI for AI coding agents",
+        "url": "https://github.com/agentlayer-io/AgentClick",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: 3 AI agent trust systems cross-verified each other's delegation chains",
+        "url": "https://github.com/kanoniv/agent-auth/issues/2",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Running multi-day build loops with local agents: they work, but they forget everything",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryd2yu/running_multiday_build_loops_with_local_agents/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Local LLM Performance",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rygao1/local_llm_performance/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Is Qwen 3.5 0.8B the optimal choice for local RAG implementations in 2026?",
+        "url": "https://i.redd.it/dhmgxqcwl1qg1.jpeg",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "How we monitor internal coding agents for misalignment",
+        "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+        "url": "https://x.com/danveloper/status/2034353876753592372",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "After 6 months of agent failures in production, I stopped blaming the model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5kp8/after_6_months_of_agent_failures_in_production_i/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Affordable setup for running a good local LLM",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycpxo/affordable_setup_for_running_a_good_local_llm/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Added confidence scoring to my open-source memory layer. Your AI can now say \"I don't know\" instead of making stuff up.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry1ts2/added_confidence_scoring_to_my_opensource_memory/",
+        "published_date": "2026-03-19",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: We Built Kaggle for AI Agents",
+        "url": "https://hive.rllm-project.com/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Orc – Release the horde. Multi-agent orchestration in pure bash",
+        "url": "https://github.com/spencermarx/orc",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals; business-heavy content (deprioritized)"
+      },
+      {
+        "title": "Show HN: A small app that ships with AI agent skills to extend and audit it",
+        "url": "https://system-design-math-practice.tzvi.dev",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Is Local RAG a bottleneck???",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry1yjj/is_local_rag_a_bottleneck/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "rednote-hilab/dots.mocr · Hugging Face",
+        "url": "https://huggingface.co/rednote-hilab/dots.mocr",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "[R] Reclaiming 2011 Iron: 6.12 t/s on a Sandy Bridge i5 with Sovereign GHOST (0.8B Qwen 3.5)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryehhn/r_reclaiming_2011_iron_612_ts_on_a_sandy_bridge/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Zero to Hero by A.Karpathy vs  Building LLM from Scratch by S.Rashcka vs Josh Startmer's Neural Networks series",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rygcnm/zero_to_hero_by_akarpathy_vs_building_llm_from/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "We are building AI systems we cannot inspect — and calling it progress",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rydw6d/we_are_building_ai_systems_we_cannot_inspect_and/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Vercel will train model on your code",
+        "url": "https://i.redd.it/j1vlmz7hx2qg1.jpeg",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Token/s Qwen3.5-397B-A17B on Vram + Ram pooled",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry41yz/tokens_qwen35397ba17b_on_vram_ram_pooled/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Sub-second cold starts for Qwen 32B(FP16) model",
+        "url": "https://v.redd.it/vcx5n1tl01qg1",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Struggling to build a FREE virtual try-on system for clothing (no GPU, API limits everywhere) – any real solutions?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry94ay/struggling_to_build_a_free_virtual_tryon_system/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: UnixClaw – A Mac Mini AI assistant in one line of bash, no OpenClaw",
+        "url": "https://linuxtoaster.com/blog/noclaw.html?show",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Three new Kitten TTS models – smallest less than 25MB",
+        "url": "https://github.com/KittenML/KittenTTS",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: SomaOS – rebuilding the desktop so AI is native to it, not bolted on",
+        "url": "https://github.com/avsribhas-svg/SomaOS",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: LLM prompts as CLI progs with args, piping, and SSH forwarding",
+        "url": "https://news.ycombinator.com/item?id=47440358",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Import Your AI Memory into ContextForge",
+        "url": "https://contextforge.dev/blog/import-your-ai-memory-into-contextforge-claude-code-chatgpt-and-knowledge-graph",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Hopsule – Persistent Memory Layer for AI Engineering",
+        "url": "https://hopsule.com/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: AskAudience – Ask 16,500 AI personas built from real survey data",
+        "url": "https://askaudience.de",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: AIIR: track AI-assisted Git commits with cryptographic receipts",
+        "url": "https://github.com/invariant-systems-ai/aiir",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Seeking advice for Style-Cloning on a 5090 (32GB VRAM) with a 400k token dataset.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybrm5/seeking_advice_for_stylecloning_on_a_5090_32gb/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Rig For Qwen3.5 27B FP16",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry39o8/rig_for_qwen35_27b_fp16/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Recommendations for a local coding model to run on 18GB M3 Macbook Pro",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry4ahu/recommendations_for_a_local_coding_model_to_run/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Recommend good platforms which let you route to another model when rate limit reached for a model?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry8m7o/recommend_good_platforms_which_let_you_route_to/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Promising RL technique for local use?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycajb/promising_rl_technique_for_local_use/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Prometheus: automated abliteration that actually preserves model quality (0–1.5% refusal, 0.01 KL divergence)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7h4t/prometheus_automated_abliteration_that_actually/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Pocket Models app: for downloading &amp; running SLMs on-device with a local data store for RAG. Looking for people to try and break it.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfax3/pocket_models_app_for_downloading_running_slms/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Outlines and vLLM compatibility",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzszb/outlines_and_vllm_compatibility/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Newest GPU server in the lab! 72gb ampere vram!",
+        "url": "https://v.redd.it/qc6grwz2d0qg1",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Nemotron 3 Super 120b Claude Distilled",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry10l7/nemotron_3_super_120b_claude_distilled/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "My Experience with Qwen 3.5 35B",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryc3w0/my_experience_with_qwen_35_35b/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Model vram usage estimates",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzkug/model_vram_usage_estimates/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "MiniMax-M2.7: what do you think is the likelihood it will be open weights like M2.5?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7exr/minimaxm27_what_do_you_think_is_the_likelihood_it/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "It is not worth it at all your own LM Studio...",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry6jnp/it_is_not_worth_it_at_all_your_own_lm_studio/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "HuggingFace website download is not working right? Or is it just me?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry10dt/huggingface_website_download_is_not_working_right/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Devstral small 2 24b severely underrated",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry93gz/devstral_small_2_24b_severely_underrated/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Custom UI",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry9iyp/custom_ui/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Claude code local replacement",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfhmq/claude_code_local_replacement/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Any known pair of recent models for speculative decoding in LMStudio?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzfw7/any_known_pair_of_recent_models_for_speculative/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Traditional RAG has a silent failure mode nobody talks about enough",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7ac0/traditional_rag_has_a_silent_failure_mode_nobody/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Too many large MoEs, which do you prefer for general instruction following/creative endeavors? (And why)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry8pwc/too_many_large_moes_which_do_you_prefer_for/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Yansu – agent that builds your bespoke app before you ask",
+        "url": "https://yansu.app/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: StrawPot – Agents that figure out how to solve tasks",
+        "url": "https://strawpot.com/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Pocodex – Remote Control for Codex",
+        "url": "https://github.com/davej/pocodex",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Perstack – Containerized harness, 5 tests with full logs and API cost",
+        "url": "https://github.com/perstack-ai/perstack",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: P2PCLAW – I built a decentralized research network where AI agents",
+        "url": "https://news.ycombinator.com/item?id=47439115",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Open-source CLI that turns 128 test failures into 2 root causes",
+        "url": "https://github.com/bilalimamoglu/sift",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: I built a P2P network where AI agents publish formally verified science",
+        "url": "https://news.ycombinator.com/item?id=47444212",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Dumped Wix for an AI Edge agent so I never have to hire junior staff",
+        "url": "https://news.ycombinator.com/item?id=47441587",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Draft0 – Watch autonomous AI agents debate truth, no humans",
+        "url": "https://humans.draft0.io",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Altimate Code – Open-Source Agentic Data Engineering Harness",
+        "url": "https://github.com/AltimateAI/altimate-code",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Qwen3.5 Best Parameters Collection",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryb028/qwen35_best_parameters_collection/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "My advisor asked for an AI to track papers last year. I procrastinated, panicked, and built this local AI research agent from scratch. Will he accept this?",
+        "url": "https://i.redd.it/3fa6f6i261qg1.png",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "I need help",
+        "url": "https://v.redd.it/06df4c0pz1qg1",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "From Folders to Knowledge Base: How I Made My Notes Work for Me",
+        "url": "https://pablooliva.de/the-closing-window/from-folders-to-knowledge-base/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Built a live feed of what AI agents search for (experiment)",
+        "url": "https://shellcart.com/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Best core agentic flow alternative to coding clients?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryf92f/best_core_agentic_flow_alternative_to_coding/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Benchmarked 5 RAG retrieval strategies on code across 10 suites — no single one wins. CRAG helps on familiar corpora, collapses on external ones. What's your experience?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rxzmcd/benchmarked_5_rag_retrieval_strategies_on_code/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Autonomous research agent grinding on a single RTX PRO 6000 Blackwell — raising a multimodal \"baby\" AI called Charlotte in a simulated nursery 👶🤖",
+        "url": "https://i.redd.it/083to373n1qg1.png",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Anyone running this low spec",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0r5b/anyone_running_this_low_spec/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Anyone actually solving the trust problem for AI agents in production?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfzys/anyone_actually_solving_the_trust_problem_for_ai/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Agent /compact command is one RL loop away from developing an alien language you can't audit",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycitg/agent_compact_command_is_one_rl_loop_away_from/",
+        "published_date": "2026-03-19",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "which one is the best uncensored version of qwen3-vl 4b",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfkgj/which_one_is_the_best_uncensored_version_of/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "opencode-sop-engine: Production-grade Skill orchestration, enforcement, long-context using FSM",
+        "url": "https://github.com/wyf111/opencode-sop-engine",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "knowledge-rag: Local RAG with hybrid search + cross-encoder reranking — zero servers, pure ONNX in-process (pip install)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryaska/knowledgerag_local_rag_with_hybrid_search/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "hello everyone ，ihave a question,I created an AI Sentinel prototype in VS Code, aiming to \"automatically detect whether the AI ​​deviates from the project constraints every 10 rounds,\" but it's difficult to automatically obtain the Copilot dialogue flow. Is there a more stable approach to this?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0pkh/hello_everyone_ihave_a_questioni_created_an_ai/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Will minimax m2.7 be opensourced ?? There is no announcement in that regards on their X handle.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry7ugu/will_minimax_m27_be_opensourced_there_is_no/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Will Gemma 3 12B be the best all-rounder(no coding) during Iran's internet shutdowns on my RTX 4060 laptop?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry9936/will_gemma_3_12b_be_the_best_allrounderno_coding/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "So my gemma27b heretic went nuts…",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry253c/so_my_gemma27b_heretic_went_nuts/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Yap, capture your day-to-day with video logs",
+        "url": "https://news.ycombinator.com/item?id=47445446",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Revspec – Review AI specs in the terminal with live AI replies",
+        "url": "https://github.com/icyrainz/revspec-py",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: PearlOS: we gave AI a talking desktop environment instead of a text box",
+        "url": "https://news.ycombinator.com/item?id=47441454",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Oku – One tab to filter out noise from feeds and content sources",
+        "url": "https://oku.io",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Observarium, a simple exception tracking library for Java",
+        "url": "https://github.com/hephaistos-io/observarium",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: New hard science fiction novel",
+        "url": "https://news.ycombinator.com/item?id=47443268",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: MAIro AI Slop in Games",
+        "url": "https://mairo.himanshuanand.workers.dev",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Just Built an AI Notetaker (Web, iOS and Android)",
+        "url": "https://news.ycombinator.com/item?id=47445920",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Gumbel-mcts, a high-performance Gumbel MCTS implementation",
+        "url": "https://github.com/olivkoch/gumbel-mcts",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Dyslexia-oriented TTS reader for Chrome",
+        "url": "https://hoverspeak.com/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Blazeway – A/B testing tool that builds a connected experiment history",
+        "url": "https://www.blazeway.app/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: Anchor any file to Bitcoin to prove it existed at a specific time",
+        "url": "https://umarise.com/blog/proof-of-existence",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: AI Digital Audio Workstation",
+        "url": "https://sonurastudio.com/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "RAG over structured iPaaS exports — what’s your retrieval strategy when source docs are semi-structured?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybhdq/rag_over_structured_ipaas_exports_whats_your/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Quel modèle pour du fine-tuning local sur de la post-correction de speech-to-text (correction + reformulation) ?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryeov8/quel_modèle_pour_du_finetuning_local_sur_de_la/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "PearlOS. We gave swarm intelligence a local desktop environment and code control to self-evolve. Has been pretty incredible to see so far. Open source and free if you want your own.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry2v92/pearlos_we_gave_swarm_intelligence_a_local/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Open-source, local document parsing CLI by LlamaIndex: LiteParse",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5mvx/opensource_local_document_parsing_cli_by/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "N8n and llama",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry92tm/n8n_and_llama/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Mathematics behind extreme quantization of Microsoft's BitNet.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybdkv/mathematics_behind_extreme_quantization_of/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Local Qwen3-0.6B INT8 as embedding backbone for an AI memory system",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryd3by/local_qwen306b_int8_as_embedding_backbone_for_an/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Is there an Open WebUI alternative that's Docker-, online search-, and PDF reader-native?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybhof/is_there_an_open_webui_alternative_thats_docker/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Is there a known workaround—to to communicate llama.cpp with LM Studio instances?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryd63j/is_there_a_known_workaroundto_to_communicate/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Is there a chance to change endpoint API for CODEX plugin for VSCode or similar?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry3zmv/is_there_a_chance_to_change_endpoint_api_for/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Interesting Side-by-Side: Llama-3-8B vs. an experimental 'Reasoning Grammar' fine-tune (68 examples)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry989g/interesting_sidebyside_llama38b_vs_an/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "How can we achieve an AI creating new ideas the way it works at the moment?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry0h3t/how_can_we_achieve_an_ai_creating_new_ideas_the/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Has anyone tried NVFP4 on mlx?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ry5gm3/has_anyone_tried_nvfp4_on_mlx/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Hardware Advice: M1 Max (64GB RAM) for $1350 vs. Custom Local Build?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybtw1/hardware_advice_m1_max_64gb_ram_for_1350_vs/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "GIGABYTE MC62-G40 only seeing one GPU",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rycphv/gigabyte_mc62g40_only_seeing_one_gpu/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Fine tunning de Whisper sur des audios médicaux",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryekl9/fine_tunning_de_whisper_sur_des_audios_médicaux/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "DPO silently destroys parameter-space geometry while loss stays flat — a zero-cost probe that catches it in real time",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybyl7/dpo_silently_destroys_parameterspace_geometry/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Cheap office computer to build around a 3060 ti 8GB.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryfkqy/cheap_office_computer_to_build_around_a_3060_ti/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Best open source api for speech to text transcriptions and alternative for open AI",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rybql4/best_open_source_api_for_speech_to_text/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Attention Residual connections",
+        "url": "https://i.redd.it/ww1hocf0b0qg1.png",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "AI in Space Hackathon",
+        "url": "https://luma.com/n9cw58h0",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "15inch m5 macbook air 32gb Ram expectations ?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryejwf/15inch_m5_macbook_air_32gb_ram_expectations/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "OpenAI to acquire Astral",
+        "url": "https://openai.com/index/openai-to-acquire-astral",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "mentions new models or releases; business-heavy content (deprioritized)"
+      },
+      {
+        "title": "Qwen3-TTS ported to llama.cpp",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ryelpe/qwen3tts_ported_to_llamacpp/",
+        "published_date": "2026-03-19",
+        "priority": "low",
+        "reason": "business-heavy content (deprioritized)"
+      }
+    ]
+  }
+}

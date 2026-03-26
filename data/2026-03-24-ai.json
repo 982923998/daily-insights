@@ -1,0 +1,149 @@
+{
+  "date": "2026-03-24",
+  "articles": [
+    {
+      "title": "Zero-knowledge LLM proxy for Ollama/vLLM with team access control",
+      "summary": "社区一线工程讨论，包含本地部署/推理优化或开源实现细节。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s1xfrf/zeroknowledge_llm_proxy_for_ollamavllm_with_team/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Show HN: Littlebird – Screenreading is the missing link in AI",
+      "summary": "Show HN 项目，聚焦可直接使用的 AI 工具/框架；HN 积分 34。",
+      "url": "https://littlebird.ai/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Show HN: Cq – Stack Overflow for AI coding agents",
+      "summary": "Show HN 项目，聚焦可直接使用的 AI 工具/框架；HN 积分 24。",
+      "url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
+      "summary": "Show HN 项目，聚焦可直接使用的 AI 工具/框架；HN 积分 37。",
+      "url": "https://github.com/oguzbilgic/agent-kernel",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Native V100 CUDA kernels for FLA ops on NVIDIA Volta (sm_70) GPUs",
+      "summary": "社区一线工程讨论，包含本地部署/推理优化或开源实现细节。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s1wtwh/native_v100_cuda_kernels_for_fla_ops_on_nvidia/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "I reverse-engineered Claude Code",
+      "summary": "社区一线工程讨论，包含本地部署/推理优化或开源实现细节。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s1x17j/i_reverseengineered_claude_code/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Creating with Sora Safely",
+      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
+      "url": "https://openai.com/index/creating-with-sora-safely",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-23",
+      "date": "2026-03-24"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-24T00:02:38+00:00",
+    "version": 1,
+    "summary": "Captured 7 AI items. Preference focus is new models and new technical architecture: 1 high-priority, 4 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 1,
+      "medium_priority": 4,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 3
+      },
+      {
+        "topic": "new architecture",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Creating with Sora Safely",
+        "url": "https://openai.com/index/creating-with-sora-safely",
+        "published_date": "2026-03-23",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Zero-knowledge LLM proxy for Ollama/vLLM with team access control",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s1xfrf/zeroknowledge_llm_proxy_for_ollamavllm_with_team/",
+        "published_date": "2026-03-23",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "I reverse-engineered Claude Code",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s1x17j/i_reverseengineered_claude_code/",
+        "published_date": "2026-03-23",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Cq – Stack Overflow for AI coding agents",
+        "url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+        "published_date": "2026-03-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
+        "url": "https://github.com/oguzbilgic/agent-kernel",
+        "published_date": "2026-03-23",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Littlebird – Screenreading is the missing link in AI",
+        "url": "https://littlebird.ai/",
+        "published_date": "2026-03-23",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Native V100 CUDA kernels for FLA ops on NVIDIA Volta (sm_70) GPUs",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s1wtwh/native_v100_cuda_kernels_for_fla_ops_on_nvidia/",
+        "published_date": "2026-03-23",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "reference": "unresolved-retry-20260312",
+  "source": "letpub_reference_task",
+  "updated_at": "2026-03-12T04:53:46+00:00",
+  "journals": [
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0185-1063",
+      "journal_name": "Revista Medica del Hospital General de Mexico",
+      "journal_name_short": "Rev Med Inst Mex Seguro Soc",
+      "journal_id": 36212,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=36212&page=journalapp&view=detail",
+      "overall_score": 3.2,
+      "impact_factor": 0.0,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 0.0,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=36212&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Revista Medica del Hospital General de Mexico",
+      "reference": "unresolved-retry-20260312",
+      "references": [
+        "unresolved-retry-20260312"
+      ],
+      "matched_query": "name:Revista Medica del Hospital General de Mexico",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:53:19+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2666-6065",
+      "journal_name": "The Lancet Regional Health Western Pacific",
+      "journal_name_short": "Lancet Reg Health West Pac",
+      "journal_id": 30284,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=30284&page=journalapp&view=detail",
+      "overall_score": 6.2,
+      "impact_factor": 0.0,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 11.4,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=30284&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "The Lancet Regional Health Western Pacific",
+      "reference": "unresolved-retry-20260312",
+      "references": [
+        "unresolved-retry-20260312"
+      ],
+      "matched_query": "name:The Lancet Regional Health Western Pacific",
+      "source": "letpub_unresolved_crawler",
+      "updated_at": "2026-03-12T04:53:18+00:00"
+    }
+  ]
+}

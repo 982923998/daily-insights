@@ -1,0 +1,292 @@
+{
+  "date": "2026-03-13",
+  "articles": [
+    {
+      "title": "Seal and sea lion brains have evolved to support volitional control of vocal behavior and learning.",
+      "summary": "Seals and sea lions have highly developed volitional breathing control, to which the phocid seals add vocal production learning, including mimicry. In this work, using histology and ex vivo diffusion magnetic resonance imaging tractography, we provide evidence for a phylogenetic spectrum of accumulative neural adaptations supporting aspects of volitional vocal control across pinnipeds. Otariids and phocid seals, but not coyotes, have a direct connection between the vocal motor cortex and phonatory brainstem nuclei. Harbor seals showed hypertrophic connectivity between the anterior ventrolateral thalamus and the vocal premotor cortex-part of a forebrain circuit related to vocal learning in birds and mimicry in humans and parrots. We demonstrate that phocid seals have auditory-premotor pathways potentially related to developmental call learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41818371/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Science",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Spatio-Temporal Hypergraph Attention Networks for Brain Disease Analysis.",
+      "summary": "Functional brain connectivity networks capture complex relationships and temporal evolution between brain regions, which have become increasingly important for diagnosing neurological disorders. However, existing methods, which are primarily based on vector or graph representations, struggle to adequately characterize the intricate spatio-temporal topological architecture of functional brain networks. Additionally, they predominantly rely on data-driven paradigms and lack priors pertaining to cross-windows network interactions. To address these issues, we propose a spatio-temporal hypergraph attention network framework for brain network analysis. Specifically, we first propose a temporal attention network architecture embedded with temporal similarity-driven prior knowledge, which effectively extracts long-range dependency information from fMRI by combining multi-head self-attention mechanisms and cross-window temporal prior knowledge. Second, we design a hierarchical hypergraph generation module that fuses local and global brain topological information to achieve multi-scale modeling of high-order spatio-temporal structures. Additionally, the spatial attention network, developed based on transformer architecture, employs hypergraph message passing mechanisms to effectively construct multi-level spatial interaction relationships between brain regions. Finally, a multi-layer perceptron (MLP) is adopted for classification. Experiments on the ADNI and PD datasets demonstrate that our method outperforms several state-of-the-art approaches in diagnostic performance and provides discriminative graph features for relevant brain disease diagnosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41818003/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE Trans Image Process",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "From sunburst to mother-in-law sign in intracranial meningioma: a matter of time.",
+      "summary": "BACKGROUND: Arterial supply of intracranial meningiomas is a complex issues and it affects the treatment and surgical complications. On the other hand, some classic angiographic signs can be useful for the diagnosis and found using noninvasinve imaging too.\nMETHODS: We reported a case of a 53 years old man with a huge olphactory groove meningioma studies using Magnetic Resonance Imaging (MRI) and Digital Subtraction Angiography (DSA). Both MRI and DSA were able to image two calssic angiographic signs of meningioma, i.e. mother-in-law sign and sunburst sign, with different time frames.\nCONCLUSIONS: The identification of classic DSA signs of arterial supply in cranial meningiomas using noninvasive imaging techniques can support the diagnosis and help in the planning of treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817851/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Acta Neurol Belg",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Risk Stratification and Ventilator Liberation in Neuromyelitis Optica Spectrum Disorder-Related Central Respiratory Failure.",
+      "summary": "OBJECTIVE: This study aimed to identify risk factors for central respiratory failure (CRF) in neuromyelitis optica spectrum disorder (NMOSD) and investigate predictors of successful mechanical ventilator liberation in affected patients.\nMETHODS: This retrospective cohort analysis included 280 active patients with NMOSD admitted between 2020 and 2024. CRF was defined as respiratory failure caused by direct neurological injury to the brainstem or high cervical spinal cord. Among these patients, 28 developed CRF and were matched with 57 non-CRF controls (n = 85). Multivariable Cox proportional hazards regression was used to identify independent CRF risk factors, and a nomogram was generated. Predictors of successful weaning (liberation > 48 h) were examined in the 28 patients with CRF using descriptive statistics and exploratory Fine-Gray competing risk analysis.\nRESULTS: The incidence of CRF in NMOSD was 10.0% (28/280). Multivariable Cox analysis identified two independent predictors of CRF: elevated platelet-lymphocyte ratio (PLR) [hazard ratio (HR) = 1.003, 95% confidence interval (CI) 1.001-1.005; p = 0.003] and medullary lesion on magnetic resonance imaging (MRI) (HR = 5.23, 95% CI 2.03-13.45; p = 0.001). The nomogram showed good discrimination (C-index = 0.779) and enabled effective risk stratification. Among patients with CRF, 75.0% (21/28) achieved successful ventilator liberation. Patients who achieved successful weaning had a significantly shorter time to glucocorticoid treatment and higher baseline PLR than those who failed (both p < 0.05). In the multivariate competing risk model, higher hemoglobin subdistribution HR (sHR = 1.02) was a positive predictor, whereas higher body mass index (BMI) (sHR = 0.76), AQP4-IgG seropositivity (sHR = 0.39), and sepsis (sHR = 0.17) were independent negative predictors.\nCONCLUSIONS: Elevated PLR and medullary lesions are independent risk factors for CRF in NMOSD, which can be predicted by the generated nomogram. Furthermore, successful ventilator liberation is achievable in most patients with CRF, and early glucocorticoid treatment alongside monitoring of prognostic factors such as BMI, AQP4-IgG status, and infection may guide clinical management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817834/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurocrit Care",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Characterization of Arterial and Sinus Blood Flow Dynamics in the Rat Brain Using Phase-Contrast MRI.",
+      "summary": "Phase-contrast magnetic resonance imaging (PC-MRI) is a widely used technique for measuring cerebral blood flow dynamics in humans. However, the application of this technique for velocity mapping of cerebral blood flow in rats has been very limited thus far. This study aimed to determine the accuracy of PC-MRI flow measurements and to establish reference flow values for the main intracerebral feeding and draining vessels in rats. PC-MRI velocimetry was conducted on a flow phantom and 12 adult Sprague Dawley rats. A semi-automatic segmentation was applied to the velocity images to enable the quantification of flows and the calculation of pulsatility index. PC-MRI flow measurements showed good agreement with the reference flow from the pump. The main findings of the in vivo measurements were as follows: the mean blood flow values in the internal carotid artery (ICA), external carotid artery (ECA), basilar artery (BA), and transverse sinuses were 9.6 ± 3.4, 5.7 ± 2.4, 2.0 ± 0.6, and 10.5 ± 3.6 ml/min, respectively. Mean ICA flow was higher than ECA flow, while the ICA pulsatility index was lower than the ECA pulsatility index. There was no significant difference in the mean cerebral inflow (combined ICA and BA flows) and cerebral outflow (left and right transverse sinus flows) measures. No differences in arterial or sinus flow were observed between the left and right sides of the brain. These reference flow values and pulsatility index may be useful for understanding flow dynamics in healthy and pathological conditions in rats.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817813/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Ann Biomed Eng",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Longitudinal changes of neurocognitive function and ALPS-index in patients with brain tumors receiving brain irradiation.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817788/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurooncol",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "FLAIR vascular hyperintensity: association with infarction and vascular lesion burden in patients with middle cerebral artery stenosis.",
+      "summary": "OBJECTIVES: Fluid-attenuated inversion recovery (FLAIR) vascular hyperintensity (FVH) is a marker of hemodynamic impairment linked to poor outcomes. However, its underlying vascular pathology remains unclear. We aimed to evaluate the relationships between FVH, infarction, and vascular lesion burden, and explore whether infarction and vascular lesion burden can discriminate FVH presence and burden.\nMATERIALS AND METHODS: A total of 253 consecutive patients with middle cerebral artery lesions who underwent vessel wall imaging were retrospectively enrolled. Multivariate logistic regressions were performed to identify discriminatory factors for FVH presence or burden; area under the curve (AUC), sensitivity and specificity assessed the discriminatory ability of combined models.\nRESULTS: Infarction, severe stenosis, and vascular wall marked enhancement were independently associated with FVH (ORs 2.995, 4.074, 2.141; all p < 0.05). Infarction, severe stenosis, max wall thickness, and max vascular lesion length were independently correlated with higher FVH burden (ORs 2.966, 8.785, 2.344, 1.049; all p < 0.05). The combined model (infarction + severe stenosis + marked enhancement) discriminated FVH presence with an excellent AUC of 0.803 (95% CI: 0.749-0.850, p < 0.001; sensitivity 76.6%; specificity 76.7%). The combined model (infarction + severe stenosis + max wall thickness + max vascular lesion length) discriminated higher FVH burden with an AUC of 0.801 (95% CI: 0.746-0.848, p < 0.001; sensitivity 80.8%; specificity 70.9%).\nCONCLUSION: Infarction and vascular lesion burden are key factors associated with FVH. Our findings suggest a pathophysiological link between FVH and underlying vessel wall pathology, positioning FVH as a potential integrative MRI biomarker.\nKEY POINTS: Question While FLAIR vascular hyperintensity (FVH) indicates hemodynamic compromise and slow collateral flow, how the underlying vascular lesion burden contributes to FVH formation remains unclear. Findings Infarction, severe stenosis, and vascular lesion burden features effectively distinguished both FVH presence and higher burden, with combined models demonstrating excellent discriminatory performance. Clinical relevance FVH may serve as a valuable and readily accessible biomarker on conventional MRI that integrates infarction and specific vascular characteristics, suggesting its potential to enhance risk stratification and guide personalized therapeutic decisions in clinical practice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817708/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Radiol",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "ESR Essentials: neuroimaging of pediatric headaches in the emergent and non-emergent setting-practice recommendations by the European Society of Neuroradiology.",
+      "summary": "This article reviews the key concepts in pediatric headaches and provides a guide for neuroimaging assessment of children (≥ 2 years) and adolescents presenting with this chief complaint in both emergent and non-emergent settings. Contemporary imaging approaches (such as upfront utilization of abbreviated brain MR imaging) have been incorporated in the provided flow charts whenever appropriate. Our aim is to improve patient care and clinical outcomes by identifying the cases that need additional examinations and rapidly depicting any underlying serious disease (especially those requiring acute interventions) while at the same time reducing overuse of neuroimaging (especially irradiating CT) and associated risks and costs, thereby contributing to health system efficiency. KEY POINTS: Clinical history and physical/neurological exam are paramount in the initial evaluation/triage of children with headaches. Imaging should be avoided in children with primary headaches and low-risk mild traumatic brain injury. When imaging is required, prioritize ionization- and sedation-free techniques whenever feasible or minimize radiation dose.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817704/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Radiol",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Brain volume and functional connectivity in firefighters with posttraumatic stress disorder.",
+      "summary": "OBJECTIVE: Firefighters are at an elevated risk of developing posttraumatic stress disorder (PTSD) compared with the general population. The roles of traumatic stress versus individual's predisposition in PTSD development are unclear, and neuroimaging can help identify key brain regions. This study aimed to identify altered brain volumes and connectivity in firefighters with PTSD.\nMETHOD: We recruited 11 firefighters with PTSD, 12 firefighters without PTSD, and 25 age- and sex-matched male healthy controls. Participants completed clinical scales assessing depression, anxiety, perceived stress, job stress, somatic symptoms, sleep, suicidality, and alcohol use disorder. Magnetic resonance imaging scans, including brain anatomy and resting-state brain function, were conducted.\nRESULTS: Firefighters with PTSD showed higher depression and anxiety scores than those without PTSD. Volumetric analysis revealed a reduced gray matter volume in the right thalamus, which was subsequently used as a seed region for functional connectivity analysis. This analysis demonstrated that increased thalamic-prefrontal connectivity in firefighters was positively correlated with PTSD and depression scores.\nCONCLUSION: Our findings suggest that, in firefighters with PTSD, decreased thalamic volume and increased thalamocortical connectivity are closely associated with symptom severity. Depressive symptoms were the most crucial comorbid condition in terms of clinical symptoms and brain connectivity in firefighters with PTSD. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817604/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Psychol Trauma",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Nerve-rattling infections! Clinical and radiological tracing of cranial nerve palsies to infectious skull base osteomyelitis.",
+      "summary": "PURPOSE: To analyze skull base osteomyelitis as a cause of isolated and multiple cranial nerve palsies. Report presentations of otogenic and non-otogenic types. Emphasize the importance of neuroimaging with contrast at the first visit.\nDESIGN: Single-center retrospective observational study.\nSETTING: Institutional.\nSTUDY POPULATION: A total of 276 patients with cranial nerve palsies over a period of four months. Of these, 20 patients with SBO were included in the study.\nOBSERVATION PROCEDURE: Complete ocular examination and magnetic resonance imaging (MRI) of the brain and orbit with contrast for all patients.\nMAIN OUTCOME MEASURE: Radiological/microbiological diagnosis of SBO.\nRESULTS: Most of our patients were between 70 and 75 years. Time from the onset of symptoms to presentation was between one week and one month. A total of 75% had diabetes mellitus. A total of 90% had unilateral presentation. Most common presenting symptom was double vision and headache seen in 45%. A total of 70% had a non-otogenic source of infection. Sphenoid sinus was involved in 50%. MRI of brain and orbit with contrast showed sinusitis in 45% and otomastoiditis in 35%. Fungi were isolated on biopsy in 30%, bacteria in 15%, acid-fast bacilli in 5%. Intravenous antibiotics were given to 55% and intravenous antifungal was given to 25%. Transnasal sinus surgery was performed in 30%.\nCONCLUSION: Isolated cranial palsy does not exclude infectious etiology even if patient has comorbidities like uncontrolled diabetes, particularly if associated with headache and pain. Hence, neuroimaging with contrast is required.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41817546/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Indian J Ophthalmol",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Advanced MRI of the choroid plexus: Applications in aging and dementia.",
+      "summary": "The choroid plexus (ChP), a highly vascularized epithelial organ within the brain ventricles, sustains cerebrospinal fluid (CSF) production, regulates the blood-CSF barrier (BCSFB), and coordinates neuroimmune responses. Beyond these classical roles, the ChP is increasingly recognized as an active interface within brain clearance pathways, facilitating CSF-interstitial fluid (ISF) exchange and contributing to metabolic waste removal. Structural and functional disruption of the ChP/BCSFB accompanies aging and has been linked to the pathogenesis of neurodegenerative disorders. Magnetic resonance imaging (MRI) provides a powerful, non-invasive platform for in vivo characterization of the ChP. This review summarizes recent advances in MRI techniques tailored to ChP imaging, including quantitative assessments of microstructure, perfusion, permeability, and dynamic water exchange, and highlights their applications in aging and dementia. Converging evidence suggests that MRI-derived indices of ChP integrity are associated with cognitive status and may facilitate early detection and longitudinal monitoring of disease trajectories, particularly in Alzheimer's disease and related dementias (AD/ADRD). Continued development and application of advanced MRI approaches will be essential for further elucidating the role of the ChP in neurodegeneration and for evaluating its potential clinical utility.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41816863/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Cereb Blood Flow Metab",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Posterior communicating artery variation is linked to compromised cerebral hemodynamics in middle-aged and older adults.",
+      "summary": "We investigate whether common circle of Willis (CoW) variants relate to cerebral blood flow (CBF) characteristics among aging adults. Vanderbilt Memory and Aging Project participants free of clinical stroke (n = 390, 71 ± 8 years, 55% male) completed magnetic resonance angiography to assess cerebral artery variants and pseudocontinuous arterial spin labeling to quantify resting CBF and spatial coefficient of variation (sCoV), a marker of perfusion heterogeneity or stability. Linear regression models related categorical variants to regional CBF and sCoV, adjusting for age, sex, race/ethnicity, education, cognitive status, Framingham Stroke Risk Profile, and APOE-ε4 status. Absence of at least one posterior communicating artery (PcoA) related to lower occipital lobe CBF (p = 0.001) and higher global (p = 0.003), temporal (p = 0.001), and occipital lobe sCoV (p = 0.01). Bilateral PcoA absence related to lower global (p = 0.01), parietal (p = 0.01), and occipital lobe CBF (p = 0.0001) and higher global (p < 0.0001), temporal (p < 0.0001), and occipital lobe sCoV (p = 0.0003). Hypoplastic and fetal-type variants did not relate to outcomes (p > 0.22). Findings demonstrate that missing PcoAs influence both perfusion magnitude and efficiency, suggesting that common CoW variants may produce regionally coherent hemodynamic effects in heart-healthy aging adults and represent markers of early cerebrovascular vulnerability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41816815/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Cereb Blood Flow Metab",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "Ultra-high field (31)P functional magnetic resonance spectroscopy reveals NAD(+) dynamics in brain energy metabolism during visual stimulation.",
+      "summary": "We investigated dynamic changes in nicotinamide adenine dinucleotide (NAD+) metabolism in the human occipital lobe using ultra-high field 31P functional magnetic resonance spectroscopy (fMRS) at 7 T. Twenty-five healthy volunteers (mean age 24 ± 4 years, 10 females) performed a visual task alternating between fixation and flashing checkerboard stimuli. 31P MRS spectra were acquired from a visual cortex voxel functionally localized by prior functional magnetic resonance imaging (fMRI). Linear mixed-effects modeling revealed a significant reduction in NAD+ concentrations during the first stimulation block, while no significant change was observed during the second block. No significant changes were observed for other high-energy phosphate metabolites (ATP, phosphocreatine, and inorganic phosphate), indicating specificity in the NAD+ response. Exploratory analyses, dividing the blocks in two halves, suggested further reductions in NAD+ and tNAD in the second halves of both stimulation blocks, though these trends were not statistically significant. Our findings demonstrate the feasibility of using fMRS at 7 T to detect stimulus-induced dynamics in cerebral NAD+ metabolism in vivo, providing insights into the interplay between glycolysis and oxidative phosphorylation during neural activation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41816808/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Cereb Blood Flow Metab",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "A rapid educational intervention to enhance brain MRI interpretation skills of radiology professionals for dementia diagnosis in Uganda: a pre- and post-intervention study.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41814350/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Med Educ",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    },
+    {
+      "title": "[Expert Consensus on Multidisciplinary Diagnosis and Treatment of Small Cell Carcinoma of the Esophagus (2026 Edition)].",
+      "summary": "Small cell carcinoma of the esophagus (SCEC) is a rare and highly aggressive neuroendocrine tumor with poor prognosis. The clinical manifestations are lack of specificity, and the diagnosis depends on gastroscopic biopsy pathology and immunohistochemistry. Ultrasonic gastroscope+-, enhanced CT or PET-CT, and brain MRI are recommended for accurate staging. The combination of American Joint Committee on Cancer - Tumor, Node, Metastasis (AJCC-TNM) staging system and Veterans Administration Lung Study Group (VALSG) staging systems is recommended to guide the treatment. The treatment emphasizes the multidisciplinary comprehensive mode of chemotherapy, radiotherapy and surgery. For the patients with limited disease, chemotherapy combined with local treatment (surgery or radiotherapy) is recommended. For operable patients, radical chemoradiotherapy or perioperative treatment combined with surgery is recommended. The unresectable patients were treated with radical chemoradiotherapy. Patients with extensive stage were treated with systemic chemotherapy. Etoposide combined with platinum is the first choice for chemotherapy. If systemic treatment was effective, additional local treatment could be performed for residual lesions, and symptomatic metastatic lesions are recommended for palliative care. There is still a lack of high-level evidence-based medical evidence for immunotherapy, and relevant clinical trials are recommended. This consensus aims to promote the standardization of diagnosis and treatment of SCEC and improve the quality of life and long-term survival of patients through multidisciplinary collaboration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41813228/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Zhonghua Zhong Liu Za Zhi",
+      "published_date": "2026-03-12",
+      "date": "2026-03-13"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-13T03:05:51+00:00",
+    "version": 1,
+    "summary": "Captured 15 research items. Preference focus is brain-imaging analysis and disease mechanisms: 8 high-priority, 7 medium-priority, 0 low-priority. Mechanism-related items: 7; analysis-method items: 15.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 15,
+      "high_priority": 8,
+      "medium_priority": 7,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 7
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 15
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Spatio-Temporal Hypergraph Attention Networks for Brain Disease Analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41818003/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Seal and sea lion brains have evolved to support volitional control of vocal behavior and learning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41818371/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain volume and functional connectivity in firefighters with posttraumatic stress disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817604/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Ultra-high field (31)P functional magnetic resonance spectroscopy reveals NAD(+) dynamics in brain energy metabolism during visual stimulation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41816808/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Advanced MRI of the choroid plexus: Applications in aging and dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41816863/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Posterior communicating artery variation is linked to compromised cerebral hemodynamics in middle-aged and older adults.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41816815/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Expert Consensus on Multidisciplinary Diagnosis and Treatment of Small Cell Carcinoma of the Esophagus (2026 Edition)].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41813228/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "ESR Essentials: neuroimaging of pediatric headaches in the emergent and non-emergent setting-practice recommendations by the European Society of Neuroradiology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817704/",
+        "published_date": "2026-03-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Risk Stratification and Ventilator Liberation in Neuromyelitis Optica Spectrum Disorder-Related Central Respiratory Failure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817834/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "From sunburst to mother-in-law sign in intracranial meningioma: a matter of time.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817851/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "FLAIR vascular hyperintensity: association with infarction and vascular lesion burden in patients with middle cerebral artery stenosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817708/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Nerve-rattling infections! Clinical and radiological tracing of cranial nerve palsies to infectious skull base osteomyelitis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817546/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Longitudinal changes of neurocognitive function and ALPS-index in patients with brain tumors receiving brain irradiation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817788/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Characterization of Arterial and Sinus Blood Flow Dynamics in the Rat Brain Using Phase-Contrast MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41817813/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A rapid educational intervention to enhance brain MRI interpretation skills of radiology professionals for dementia diagnosis in Uganda: a pre- and post-intervention study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41814350/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

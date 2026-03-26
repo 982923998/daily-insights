@@ -1,0 +1,173 @@
+{
+  "date": "2026-03-12",
+  "articles": [
+    {
+      "title": "Functional and structural connectivity of thalamic subnuclei in major depressive disorder at 7 Tesla.",
+      "summary": "AIMS: Major depressive disorder (MDD) is widely considered to be a mood disorder characterized by altered connectivity. The thalamus plays an important role in MDD by connecting large areas of the brain. Here, we explored thalamic connectivity in MDD at the subnuclear level using ultra-high-field MRI. METHODS: We combined ultra-high-field functional and diffusion MRI at 7.0 Tesla to map the connectivity of thalamic subnuclei in MDD patients (n = 47) and healthy controls (n = 13). We segmented thalamic subnuclei and calculated the functional and structural connectivity of thalamic subnuclei and tested for group differences and associations with clinical characteristics. RESULTS: MDD patients showed increased functional connectivity of the right thalamic central lateral nucleus with the right amygdala, bilateral inferior occipital lobe, and right transverse temporal gyrus, which was accompanied by increased structural connectivity between the right thalamic central lateral nucleus and the right inferior occipital lobe. Medicated MDD patients had a greater streamline count of the right thalamic central lateral nucleus-right inferior occipital lobe tract than healthy controls. CONCLUSIONS: Thalamic subnuclear connectivity with cortical and subcortical brain regions is perturbed in MDD. These results further support increased thalamic connectivity in MDD and suggest that this is related to a specific subnucleus.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41808598/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Psychiatry Clin Neurosci",
+      "published_date": "2026-03-11",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Negative symptoms and resting state functional connectivity: Leveraging ecological momentary assessment and individual-specific techniques.",
+      "summary": "There are indications that motivational deficits in psychotic and mood disorders are related to differences in functional connectivity. However, the literature is mixed, partly due to the limitations of traditional methods in accounting for individual variability. Ecological momentary assessment (EMA) and individual-specific techniques can account for such variability. By leveraging these methods, this study aims to elucidate transdiagnostic relationships between motivational deficits and resting-state functional connectivity. 144 participants (29 schizophrenia/schizoaffective; 38 bipolar, 37 major depressive, 40 controls) completed EMA on motivation and pleasure (MAP) and resting-state BOLD scans. Individual-specific network connectivity matrices were calculated with an empirically validated template-matching technique. Bayesian hierarchical regression models assessed relationships between anticipatory and consummatory MAP and within-network connectivity, participation coefficient, and number of vertices for eight networks (default mode, cingulo-opercular, dorsal attention, ventral attention, salience, fronto-parietal, dorsal somato-motor, ventral somato-motor). Analyses demonstrated intact MAP for bipolar and major depressive disorders, and elevated MAP for schizophrenia/schizoaffective disorder. Moreover, MAP was positively related to within-network connectivity of the dorsal attention network, positively related to participation coefficient of the ventral attention network in schizophrenia/schizoaffective disorder, negatively related to within-network connectivity of the salience network in schizophrenia/schizoaffective disorder, and positively related to spatial extent of the salience network in controls. Overall, the findings highlight the role of attentional processes in MAP and suggest that underlying neural mechanisms vary by diagnosis. The results emphasize the complexity of MAP deficits and underscore the need for research to consider inter-individual variability to fully understand their phenomenology and neural basis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41812485/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Schizophr Res",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Directed Functional Connectivity Based on EEG During Emotional Music Perception for Major Depressive Disorder Analysis and Classification.",
+      "summary": "Major depressive disorder (MDD) is associated with impaired emotional processing and dysregulation of large-scale brain networks. While electroencephalography (EEG) studies have reported altered functional connectivity in depression, the directional organization of information flow during emotional processing remains insufficiently characterized. This study investigated emotion-evoked directed functional connectivity (DFC) during emotional music perception in individuals with MDD using EEG. EEG data were collected from 18 individuals with MDD and 18 healthy controls while listening to music with positive, neutral, and negative emotional valence. Frequency-specific DFC patterns were estimated using the directed transfer function. Group differences were assessed using generalized estimating equations and non-parametric permutation tests, and associations between DFC features and depressive symptom severity were examined using partial correlation analysis. A subject-level validation framework was employed to evaluate the discriminative properties of DFC features that demonstrated both group-level differences and clinical relevance. The results showed a significant increase in delta-band DFC strength in individuals with MDD across all emotional music conditions, with spatially distributed alterations in the frontal, central, and parieto-occipital regions. Under the positive music condition, delta-band DFC features were significantly associated with depressive symptom severity and reliably distinguished individuals with MDD from healthy controls at the individual level. In addition, behavioral analysis revealed significant negative correlations between music liking ratings and depressive symptom severity. These findings characterize task-evoked alterations in directional brain network organization during emotional music processing in MDD and support the utility of EEG-based DFC analysis for system-level investigation of affective network dysfunctions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41805506/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "IEEE Trans Neural Syst Rehabil Eng",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "When the clock shifts: menopause timing is associated with reduced cognitive performance and gray matter volume in a population-based cohort.",
+      "summary": "OBJECTIVES: This study investigated whether earlier menopause is associated with reduced later-life cognitive performance and brain structure in a population-based cohort. It is among a few studies examining both cognition and neuroimaging within the same postmenopausal sample, and the first to test whether gray matter volume mediates the relationship between menopause timing and cognitive performance within the same sample. METHODS: We analyzed data from the Cambridge Centre of Neuroscience and Aging, including 747 postmenopausal women who underwent cognitive testing. A subset was additionally tested with a fluid intelligence test and structural brain scans. Multiple linear regression models evaluated the association between menopause age, cognitive performance, and gray matter volume, controlling for chronological age, education, depressive symptoms, and physical activity. RESULTS: Earlier menopause was associated with lower cognitive performance (t717=2.2, P=0.028) and fluid intelligence (t153=1.59, P=0.026). Structural imaging analyses (n=182) revealed that earlier menopause was associated with decreased total gray matter volume (t182=0.152, P=0.024). Exploratory mediation analysis showed that total gray matter volume partially mediated the relationship between age at menopause and cognitive performance (P=0.006). CONCLUSIONS: In this population-based cohort, earlier menopause was associated with both lower cognitive performance and reduced gray matter volume, suggesting a potential mechanism linking earlier menopause to cognitive decline. However, the cross-sectional nature of this study prevents causal conclusions, and longitudinal research is needed to establish causal links and explore potential targeted interventions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41805147/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Menopause",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Characteristics of Australian cognitive super-agers using different measurement approaches.",
+      "summary": "OBJECTIVES: To explore the characteristics of cognitive super-agers and determine which definition best explains variance in outcomes. METHOD: 'Super-agers', defined as (i) performance in at least one cognitive domain comparable to adults in their 30s-40s and at least average performance in other domains (SA1), (ii) superior performance for age (SA2) or (iii) no cognitive decline over time (SA3), were compared with 'typical agers' in a sample of 1611 Australian adults aged 65-106. Logistic regression was used to determine which variables best discriminated between super-agers and typical agers for each definition. Separate generalised linear models were used to determine variance in functional, physical and psychosocial outcomes. RESULTS: SA1 (n = 459) and SA2 (n = 236) had higher education and occupational complexity, less hypertension and lower depression scores; SA3 (n = 266) had higher physical activity, lower depression and hearing impairment. All cohorts had greater brain volumes and white matter integrity. Super-ageing was associated with less functional impairment (10.1-16.1%, p < 0.001). SA1 and SA2 were associated with faster walking speed (5.4-6.4%, p < 0.001) and better psychological wellbeing (5-6.5%, p = 0.001-0.003). CONCLUSION: This study demonstrates differences in factors associated with either superior cognition in older age or maintaining cognitive abilities. SA1 and SA2 were most strongly associated with positive outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41804826/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Aging Ment Health",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Effect of Ketamine on Reward Processing in Depressive Disorders: A Systematic Review of Neuroimaging Studies.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41804256/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "CNS Spectr",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Structural network alterations in adolescent major depression and bipolar disorder: a graph-theoretical and fixel-based analysis.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41803759/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "BMC Psychiatry",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    },
+    {
+      "title": "Changes of regional brain activity associated with the occurrence and severity of depression in diminished ovarian reserve patients.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41803307/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-10",
+      "date": "2026-03-12"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-12T14:14:22+00:00",
+    "version": 1,
+    "summary": "Captured 8 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 2 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 8,
+      "high_priority": 6,
+      "medium_priority": 2,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Negative symptoms and resting state functional connectivity: Leveraging ecological momentary assessment and individual-specific techniques.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41812485/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Directed Functional Connectivity Based on EEG During Emotional Music Perception for Major Depressive Disorder Analysis and Classification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41805506/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Functional and structural connectivity of thalamic subnuclei in major depressive disorder at 7 Tesla.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41808598/",
+        "published_date": "2026-03-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "When the clock shifts: menopause timing is associated with reduced cognitive performance and gray matter volume in a population-based cohort.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41805147/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Structural network alterations in adolescent major depression and bipolar disorder: a graph-theoretical and fixel-based analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41803759/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Characteristics of Australian cognitive super-agers using different measurement approaches.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41804826/",
+        "published_date": "2026-03-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Effect of Ketamine on Reward Processing in Depressive Disorders: A Systematic Review of Neuroimaging Studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41804256/",
+        "published_date": "2026-03-10",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Changes of regional brain activity associated with the occurrence and severity of depression in diminished ovarian reserve patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41803307/",
+        "published_date": "2026-03-10",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

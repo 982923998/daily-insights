@@ -1,0 +1,277 @@
+{
+  "date": "2026-03-04",
+  "articles": [
+    {
+      "title": "moeru-ai/airi",
+      "summary": "Star moeru-ai / airi 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "url": "https://github.com/moeru-ai/airi",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-04",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "K-Dense-AI/claude-scientific-skills",
+      "summary": "Star K-Dense-AI / claude-scientific-skills A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-04",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "agentscope-ai/ReMe",
+      "summary": "Star agentscope-ai / ReMe ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
+      "url": "https://github.com/agentscope-ai/ReMe",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-04",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "agentscope-ai/agentscope",
+      "summary": "Star agentscope-ai / agentscope Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-04",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Would you be interested in a fully local AI 3D model generator ?",
+      "summary": "LocalLLaMA 社区讨论：Would you be interested in a fully local AI 3D model generator ?。聚焦本地推理/量化/部署实践，当前得分 125。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjuccw/would_you_be_interested_in_a_fully_local_ai_3d/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Show HN: Spidra – AI web scraper that adapts to any website",
+      "summary": "Show HN 发布：Show HN: Spidra – AI web scraper that adapts to any website。社区热度 1 分，偏向可实操的 AI/LLM 工具。",
+      "url": "https://spidra.io",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Show HN: Pane – Give your AI access to your financial data via MCP",
+      "summary": "Show HN 发布：Show HN: Pane – Give your AI access to your financial data via MCP。社区热度 6 分，偏向可实操的 AI/LLM 工具。",
+      "url": "https://pane.money",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Show HN: Autonomous Agent That Uses Your Tools Without Complex Setups",
+      "summary": "Show HN 发布：Show HN: Autonomous Agent That Uses Your Tools Without Complex Setups。社区热度 1 分，偏向可实操的 AI/LLM 工具。",
+      "url": "https://heycody.ink",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Qwen3.5-9B abliterated — 0% refusals + vision",
+      "summary": "LocalLLaMA 社区讨论：Qwen3.5-9B abliterated — 0% refusals + vision。聚焦本地推理/量化/部署实践，当前得分 81。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjwm8i/qwen359b_abliterated_0_refusals_vision/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "summary": "OpenAI 发布更新：GPT-5.3 Instant: Smoother, more useful everyday conversations。",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "GPT-5.3 Instant System Card",
+      "summary": "OpenAI 发布更新：GPT-5.3 Instant System Card。",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Create new worlds in Project Genie with these 4 tips",
+      "summary": "Learn more about Google DeepMind’s Project Genie and how to write prompts to create your own worlds.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Catching an AI Red Teamer in the Wild: Using Reverse Prompt Injection as a Honeypot Detection Mechanism",
+      "summary": "LocalLLaMA 社区讨论：Catching an AI Red Teamer in the Wild: Using Reverse Prompt Injection as a Honeypot Detection Mechanism。聚焦本地推理/量化/部署实践，当前得分 74。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjq8w1/catching_an_ai_red_teamer_in_the_wild_using/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Apple unveils M5 Pro and M5 Max, citing up to 4× faster LLM prompt processing than M4 Pro and M4 Max",
+      "summary": "LocalLLaMA 社区讨论：Apple unveils M5 Pro and M5 Max, citing up to 4× faster LLM prompt processing than M4 Pro and M4 Max。聚焦本地推理/量化/部署实践，当前得分 493。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjqsv6/apple_unveils_m5_pro_and_m5_max_citing_up_to_4/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-03",
+      "date": "2026-03-04"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-04T00:04:41+00:00",
+    "version": 1,
+    "summary": "Captured 15 AI items. Preference focus is new models and new technical architecture: 5 high-priority, 8 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 15,
+      "high_priority": 5,
+      "medium_priority": 8,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 10
+      },
+      {
+        "topic": "new architecture",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+        "url": "https://openai.com/index/gpt-5-3-instant",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "GPT-5.3 Instant System Card",
+        "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "K-Dense-AI/claude-scientific-skills",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "published_date": "2026-03-04",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Autonomous Agent That Uses Your Tools Without Complex Setups",
+        "url": "https://heycody.ink",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Would you be interested in a fully local AI 3D model generator ?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjuccw/would_you_be_interested_in_a_fully_local_ai_3d/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Spidra – AI web scraper that adapts to any website",
+        "url": "https://spidra.io",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Pane – Give your AI access to your financial data via MCP",
+        "url": "https://pane.money",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Create new worlds in Project Genie with these 4 tips",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Apple unveils M5 Pro and M5 Max, citing up to 4× faster LLM prompt processing than M4 Pro and M4 Max",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjqsv6/apple_unveils_m5_pro_and_m5_max_citing_up_to_4/",
+        "published_date": "2026-03-03",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "moeru-ai/airi",
+        "url": "https://github.com/moeru-ai/airi",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "agentscope-ai/agentscope",
+        "url": "https://github.com/agentscope-ai/agentscope",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "agentscope-ai/ReMe",
+        "url": "https://github.com/agentscope-ai/ReMe",
+        "published_date": "2026-03-04",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Qwen3.5-9B abliterated — 0% refusals + vision",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjwm8i/qwen359b_abliterated_0_refusals_vision/",
+        "published_date": "2026-03-03",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Catching an AI Red Teamer in the Wild: Using Reverse Prompt Injection as a Honeypot Detection Mechanism",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjq8w1/catching_an_ai_red_teamer_in_the_wild_using/",
+        "published_date": "2026-03-03",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

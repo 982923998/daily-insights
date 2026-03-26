@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-24",
+  "articles": [
+    {
+      "title": "Sensitivity comparison of longitudinal cognitive function indicators of Alzheimer's disease after mild cognitive impairment: a prospective cohort study.",
+      "summary": "Accurate prediction of progression from mild cognitive impairment (MCI) to Alzheimer's disease (AD) is critical for early intervention. Many existing models lack the ability to capture the nonlinear nature of cognitive decline and individual heterogeneity. This study employed a semi‑parametric joint model to analyze longitudinal cognitive trajectories and identify robust predictors of conversion. Data from 596 participants (184 AD converters, 412 stable MCI) were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Longitudinal assessments included ADAS‑Cog13, ADAS‑Cog11, CDR‑SB, FAQ, RAVLT‑IR, RAVLT‑L, and MMSE. A semi‑parametric joint model combining B‑splines for the longitudinal process with a Cox survival submodel was fitted for each cognitive measure. Model performance was evaluated using AIC, BIC, intraclass correlation coefficient (ICC), time‑dependent C‑index, dynamic AUC, and calibration curves. Subgroup analyses were conducted by APOE‑ε4 carrier status. In multivariable joint models, APOE‑ε4 carriage was a consistent risk factor (HR range: 1.38-1.77). Higher scores on ADAS‑Cog13 (HR = 3.71 per SD), ADAS‑Cog11 (HR = 2.71), CDR‑SB (HR = 3.79), and FAQ (HR = 2.85) increased the hazard of conversion, whereas higher scores on RAVLT‑IR (HR = 0.23), RAVLT‑L (HR = 0.14), and MMSE (HR = 0.53) were protective. All models showed high ICCs (0.94-0.98) and moderate‑to‑good predictive accuracy over 2, 5, and 8 year horizons (C‑index: 0.585-0.668). CDR‑SB and FAQ exhibited the strongest effect sizes and clearest dose‑dependent trajectories across APOE‑ε4 subgroups. Calibration curves demonstrated good agreement between predicted and observed survival. The semi‑parametric joint model effectively captures nonlinear cognitive‑functional decline and provides validated predictions of AD risk. APOE‑ε4 genotype combined with longitudinal monitoring of CDR‑SB and FAQ offers a robust framework for stratifying progression risk in clinical MCI management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41866365/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-22",
+      "date": "2026-03-24"
+    },
+    {
+      "title": "Neuropathological measures of increased tau phosphorylation across the Down syndrome lifespan.",
+      "summary": "Individuals with Down syndrome (DS) have an increased risk of developing Alzheimer disease (AD), with nearly all individuals exhibiting AD neuropathology, including amyloid beta (Aβ) plaques and neurofibrillary tangles (NFT), by age 40 years. Fluid AD biomarker studies highlight an increase in several phosphorylated tau (p-tau) epitopes in DS. However, neuropathological measures of p-tau epitopes in DS have not been examined. Therefore, our main objective was to characterize p-tau epitope burdens across the DS lifespan at autopsy. We analyzed postmortem brain samples of 98 individuals with late-onset AD (LOAD), DS with AD neuropathology (DSAD), young DS (below 40 years of age), and age-matched neurotypical controls, ranging from 1 to 96 years of age. Immunohistochemical and digital pathology measures of p-tau epitopes at threonine 181 (pThr181), threonine 217 (pThr217), and threonine 231 (pThr231) burdens in the frontal cortex were compared across groups. We observed similar pThr181, pThr217, and pThr231 burdens between DSAD and LOAD, despite DSAD cases being younger on average. Observed pThr181, pThr217, and pThr231 burdens were higher in DSAD compared to young DS and neurotypical controls. Generalized additive models (GAMs) were used to model the cross-sectional trajectory of p-tau epitope burdens across the DS lifespan. Estimated age breakpoints revealed a significant rise in frontal cortex pThr231 at age 40, followed by pThr181 and pThr217 at age 42. In summary, our findings revealed an age-associated increase in p-tau epitopes across the DS lifespan. Our results have the potential to inform future associations between neuropathological and biofluid and neuroimaging biomarker measures of p-tau epitopes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865347/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Acta Neuropathol",
+      "published_date": "2026-03-22",
+      "date": "2026-03-24"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-24T01:09:01+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neuropathological measures of increased tau phosphorylation across the Down syndrome lifespan.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41865347/",
+        "published_date": "2026-03-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Sensitivity comparison of longitudinal cognitive function indicators of Alzheimer's disease after mild cognitive impairment: a prospective cohort study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41866365/",
+        "published_date": "2026-03-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

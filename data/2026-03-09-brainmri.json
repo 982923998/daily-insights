@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-09",
+  "articles": [
+    {
+      "title": "Multimodal evidence for hippocampal engagement and modulation by functional connectivity-guided parietal TMS.",
+      "summary": "Hippocampal activity supports memory and many other brain functions. Transcranial magnetic stimulation (TMS) guided by hippocampal functional connectivity (FC) shows promise in improving memory, but direct neural evidence of its capacity to engage and modulate hippocampal activity is lacking. Here we combined TMS with intracranial electroencephalography (iEEG) in 8 neurosurgical patients and with functional magnetic resonance imaging (fMRI) in 79 neurologically healthy participants. We identified that (1) single-pulse TMS to individualized parietal cortex guided by hippocampal-FC preferentially evoked distinct temporal and spectral activity patterns in the hippocampus, (2) variability in TMS-evoked hippocampal responses related to individual differences in parietal-hippocampus FC strength, and (3) repetitive TMS to hippocampal-FC-guided parietal cortex selectively suppressed hippocampal theta oscillations. These findings provide multimodal causal neural evidence and important mechanistic insights supporting the development of personalized neuromodulation strategies aimed at improving hippocampus-dependent functions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41794924/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "published_date": "2026-03-08",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Genetic testing for familial epilepsies: Diagnostic yield and genetic findings.",
+      "summary": "OBJECTIVE: Genetic testing has become a routine part of clinical epilepsy care. Family history is an indication for genetic testing, but the diagnostic yield, predictors of a genetic diagnosis, and association with familial patterns are not well understood. METHODS: This was a retrospective cohort study of genetic testing performed at pediatric and adult epilepsy genetics clinics. Eligible patients (probands) had epilepsy and one or more first-degree relatives or two or more other relatives with epilepsy. Genetic testing strategies were patient specific, reflecting real-world clinical practice. Familial patterns were classified based on affected relatives of the proband. Diagnostic variants were tested in the proband's parents when possible. RESULTS: We studied 484 probands and their families. A genetic diagnosis was identified in 99 of 484 (20%). Predictors of a genetic diagnosis were presence of neurodevelopmental disorder (X2(1) = 9.6, p = .002) and earlier age at seizure onset (Mann-Whitney U test, p < .001). The likelihood of a genetic diagnosis was not associated with epilepsy type, drug resistance, brain magnetic resonance imaging (MRI) findings, number of affected first-degree relatives, total number of affected relatives, or having an affected parent with epilepsy. Among those with genetic diagnoses, variant segregation matched the familial pattern of affected individuals in 79%. The other 21% of families had unexpected segregation, including de novo variants in patients with affected ancestors and inherited variants in patients with no known affected ancestors. SIGNIFICANCE: Familial epilepsy has a substantial rate of genetic diagnosis and is an appropriate indication for genetic testing. Pedigree-related factors did not influence the likelihood of genetic diagnosis, suggesting that all families can be considered for genetic testing, independent of inheritance patterns and number of affected relatives. Familial patterns can help interpret genetic test results, while also revealing the complexities of incomplete penetrance and independent epilepsy etiologies in families.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41795712/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Epilepsia",
+      "published_date": "2026-03-08",
+      "date": "2026-03-09"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-09T00:33:24+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 1,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Multimodal evidence for hippocampal engagement and modulation by functional connectivity-guided parietal TMS.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41794924/",
+        "published_date": "2026-03-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Genetic testing for familial epilepsies: Diagnostic yield and genetic findings.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41795712/",
+        "published_date": "2026-03-08",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "date": "2026-03-03",
+  "articles": [
+    {
+      "title": "A Novel Eigen-Volume-based Co-Activation Pattern Framework for Dynamic Functional Biomarkers of Multiple Sclerosis.",
+      "summary": "Imaging biomarkers are essential for monitoring multiple sclerosis (MS), wand resting-state functional MRI (rs-fMRI) offers functional insights that complement structural imaging. This study investigates whether a novel co-activation pattern (CAP) approach for dynamic rs-fMRI can function as a dual-purpose biomarker in MS, aiding diagnosis and tracking disease severity. RS-fMRI scans from 25 relapsing-remitting MS patients and 41 healthy controls (HCs) were analyzed using a novel CAP-based approach. CAPs derived from individual time frames to capture dynamic brain activity patterns incorporated a bivariate similarity assessment, eigen volume-based dimensionality reduction, and consensus clustering. We evaluated the framework in two analyses: (1) a diagnostic evaluation, using dynamic CAP features-dwell time, persistence, and transition probabilities-for group comparisons and classification; and (2) a severity-prediction analysis, relating these CAP-derived measures to clinical disability (EDSS) in MS using LASSO regression. Method performance was benchmarked against standard CAP and sliding-window (SW) approaches. It revealed significant differences in brain activity between MS and HCs, within the default mode, sensorimotor, and language networks (p < 0.05), highlighting alterations relevant to motor, cognitive, and sensory functions affected in MS. Transition probabilities showed strong correlations with EDSS (r > 0.75) and yielded better classification performance than standard CAP and SW approaches in classifying MS from HCs. These results suggest that dynamic brain activity patterns are altered in MS and linked to clinical disability. The proposed CAP provided improved performance in distinguishing MS patients, offering enhanced clinical monitoring. Transition probabilities emerged as a potential biomarker for tracking MS progression, with network shifts reflecting disease severity. As MS advances, increased transitions toward sensory, motor, and executive networks suggest compensatory recruitment. Conversely, reduced transitions from default mode and salience networks to sensorimotor and frontoparietal systems were associated with greater disability and diminished adaptive reorganization.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770960/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE J Biomed Health Inform",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Methodological comparison of fetal brain (1)H-MRS data analysis techniques and gestational age analysis using LCModel in the fetal sheep brain.",
+      "summary": "Proton (1H) magnetic resonance spectroscopy (MRS) is a non-invasive imaging technique that can be used to assess brain metabolism. Establishing reference levels of fetal brain metabolites in a translatable preclinical model is crucial for identifying subtle deviations from normal cerebral development. Herein, we developed a 1H-MRS protocol for fetal sheep across three gestational periods (109 ± 2, 120 ± 5 and 139 ± 2 days gestation; term is 150 days gestation). Using this protocol, we established reference metabolic levels using recommended 1H-MRS data analysis techniques. Objectives included adapting protocols for reliable metabolite detection despite the challenges of fetal 1H-MRS, applying the protocol at multiple gestational ages, using recommended processing techniques and comparing two analysis software packages for robustness. MRI scans were performed on a 3 T Siemens clinical system (Magnetom Skyra, Siemens Healthineers, Germany) while the ewe was ventilated. 1H-MRS was performed using a point-resolved spectroscopy sequence at an echo time of 135 ms and a voxel size of 15 mm × 15 mm × 15 mm, gated to maternal respiration. We showed that TARQUIN metabolite level estimates had a significantly higher Cramér-Rao lower bound uncertainty compared with LCModel in N-acetyl aspartate and choline, with differences in fit quality, while also underestimating metabolites. LCModel was then used to determine reference levels for N-acetyl aspartate, choline, creatine and lactate across three gestational time points in late gestation. Our findings demonstrate the feasibility and reproducibility of non-invasive fetal sheep brain 1H-MRS. The study highlights the importance of objective criteria for accurate data interpretation, providing insights into fetal brain development and potential non-invasive applications for earlier detection of poor neurodevelopmental outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770610/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Exp Physiol",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Lower Plasma Serotonin is Associated with Higher Amyloid Burden, Hippocampal Atrophy, and Cognitive decline in Alzheimer's Disease: A 24-Month Longitudinal Study.",
+      "summary": "This study investigated longitudinal plasma serotonin dynamics across the Alzheimer's disease (AD) continuum (cognitively normal [CN], mild cognitive impairment [MCI], and AD) to determine whether baseline serotonin and its 24-month change are associated with CSF amyloid-β (Aβ42), tau biomarkers, amyloid PET burden, structural brain integrity, and cognitive decline. Data from 959 ADNI participants (CN = 306, MCI = 421, AD = 232) with baseline and 24-month follow-up were analyzed. Measures included plasma serotonin, CSF biomarkers (Aβ42, total tau, p-tau181), florbetapir PET, MRI (hippocampal volume, cortical thickness), and cognitive tests (MMSE, ADAS-Cog 11, CDR-SB). Group differences were tested using ANOVA or Kruskal-Wallis, and associations were examined via partial correlations and mixed-effects models adjusted for age, sex, education, and APOE ε4, with FDR correction. The results revealed that baseline plasma serotonin levels showed a stepwise decline across the clinical continuum (CN > MCI > AD; p ≤ 0.05), consistent with progressive serotonergic dysregulation. In AD participants, higher baseline serotonin was significantly associated with less amyloid pathology and preserved brain structure, including higher CSF Aβ42 (β = 0.28, FDR p = 0.01), lower florbetapir PET SUVR (β = -0.31, FDR p = 0.02), and larger hippocampal volume (β = 0.33, FDR p = 0.02). Higher serotonin was also linked to better cognitive performance (MMSE: β = 0.22, FDR p = 0.02; ADAS-Cog 11: β = -0.24, FDR p = 0.02). Longitudinally, decreases in serotonin over 24 months in AD were associated with worsening amyloid burden (ΔPET SUVR: β = -0.29, FDR p = 0.02) and accelerated hippocampal atrophy (β = 0.32, FDR p = 0.01). Baseline serotonin predicted smaller 24-month declines in CSF Aβ42 (β = 0.28, FDR p = 0.01) and reduced hippocampal volume loss (β = 0.31, FDR p = 0.01). In CN and MCI groups, associations between serotonin and AD biomarkers or cognitive outcomes were not significant after FDR correction. On the whole, lower plasma serotonin levels are linked to amyloid pathology, hippocampal neurodegeneration, and cognitive decline in AD, supporting serotonin's potential as a stage-specific biomarker and mechanistic contributor to disease progression. Integrative longitudinal studies are needed to clarify causality and evaluate serotonergic pathways as therapeutic targets.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770485/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Mol Neurosci",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Quantification of fractional tumor burden for the early detection of post-treatment glioblastoma progression.",
+      "summary": "Quantitative postprocessing of perfusion-weighted magnetic resonance imaging, including fractional tumor burden (FTB) maps, provides better visualization of the heterogeneous nature of glioblastomas. This study aimed to determine whether FTB maps help in distinguishing tumor progression (TP) from treatment-related abnormalities (TRA) in post-treatment glioblastoma patients. Unenhanced and contrast-enhanced T1-weighted and perfusion-weighted sequences of patients with new contrast-enhancing lesions were retrospectively included. Semiautomatic segmentation of these lesions was performed. Using predefined relative cerebral blood volume (rCBV) thresholds, voxels within this segmentation were classified as FTBlow, FTBmid, or FTBhigh. Patient outcome was determined by clinical and radiological follow-up. Non-parametric statistics were used to compare the FTB quantification. Diagnostic accuracy was evaluated with the area under the receiver operating characteristic curve (AUROC) and Youden's J. The difference between AUROCs was tested using bootstrapping. Fifty-nine patients were included, 35 of them showing TP (59%). The percentages of voxels classified as FTBlow and FTBhigh were significantly different between the groups (p = 0.031 and p = 0.010, respectively). Using the percentage of voxels classified as FTBhigh as a cutoff to differentiate TP from TRA yielded an AUROC of 0.70 (95% confidence interval: 0.56‒0.84), while FTBlow yielded 0.67 (0.52-0.82), without a significant difference (p = 0.466). The highest sensitivity and specificity based on the cutoff of 24% of voxels classified as FTBhigh coverage, were 63% and 79%, respectively. FTB quantification yielded fair accuracy in the early detection of glioblastoma TP. Future research is needed to investigate how to use FTB maps in clinical practice. Early discrimination between TP and TRA, even with fair accuracy, can help in alleviating some uncertainty in glioblastoma patients. A clear visualization of lesion heterogeneity provided by FTB-maps could allow for more targeted treatment options and targeted follow-up. Follow-up of patients with glioblastoma is complicated by the similar appearance of treatment effects and tumor growth on MRI. Perfusion imaging provides a basis for the creation of FTB maps. These visualize the heterogeneity of brain lesions. Quantitative analysis of FTB maps can help differentiate tumor growth from treatment effect with reasonable accuracy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770432/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Radiol Exp",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Olfactory Bulb Volume Reflects Olfactory Dysfunction and Network Organization: Insights From the Population-Based Rhineland Study.",
+      "summary": "Olfactory dysfunction is common in aging and an early symptom of neurodegenerative diseases, but how structural (olfactory bulb [OB] volume) and functional (olfactory network [OFN] functional connectivity [FC]) brain features interact to shape odor identification ability remains unclear. Therefore, we assessed the interrelations among OB volume, OFN FC, and odor identification ability in a large population-based cohort. Using cross-sectional data from 5605 participants of the Rhineland Study (age range: 30-95 years), we extracted OB volume and OFN FC from 3T MRI scans. Odor identification was examined with the 12-item \"Sniffin' Sticks\" test. Using linear regression, we examined the relations between OB volume, OFN FC, and odor identification. A smaller OB was associated with worse odor identification (standardized β = 0.09, 95% confidence interval: 0.06-0.12). This association was stronger in men and strongest in older individuals of both sexes. Only in participants with a large OB, lower OFN FC was significantly associated with worse odor identification (standardized β between 0.03 and 0.12), especially among older participants (62-95 years) and in memory-related regions (hippocampus, amygdala, and orbitofrontal cortex). Our findings demonstrate the importance of OB volume in detecting olfactory dysfunction. Moreover, they reveal that the OB contributes to odor identification both directly and by modulating central network function, offering new insights into olfactory dysfunction as a potential biomarker for neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41769923/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Int Forum Allergy Rhinol",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Time is brain: Impact of early intervention on neurodevelopment after Fetomaternal hemorrhage.",
+      "summary": "BackgroundFetomaternal hemorrhage (FMH) is a rare but serious condition. Early recognition and intervention are critical to reduce morbidity and mortality. This study aimed to evaluate the clinical presentations, management strategies and outcomes associated with FMH.MethodsA retrospective case series (2009-2025) was conducted in a tertiary care hospital.ResultsTen mother-infant dyads were analyzed. All neonates presented with pallor and/or hypotonia and required intensive care. Hemoglobin ranged from 2.1-9.5 g/dL (median 4.2 g/dL). Four neonates received red blood cell transfusion within the first hour of life. One neonate underwent therapeutic hypothermia. Favorable neurological outcomes were observed in three of the four neonates transfused within the first hour; the most severe long-term sequelae occurred among those who received later transfusions. Placental pathology (five cases) revealed features suggestive of fetal anemia/hypoxic stress.ConclusionFMH should be considered in any pale and/or hypotonic neonate. In this case series, earlier transfusion was more frequently observed among infants with favorable outcomes, but causality cannot be established. Placental pathology did not clarify the underlying pathogenesis of FMH. Brain MRI remains essential for prognosis. When feasible, therapeutic hypothermia should be considered when standard criteria are met and no contraindications are present.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41766584/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neonatal Perinatal Med",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "UMIAD-EGMF: unsupervised medical image anomaly detection based on edge guidance and multi-scale flow fusion.",
+      "summary": "Medical imaging technology has advanced rapidly in recent years; however, abnormalities in medical images are often rare and complex, making sample labels difficult to obtain for supervised learning of detection models. Existing unsupervised anomaly detection methods, which are the mainstream approaches, often struggle with issues such as blurred edges and varying scales of abnormal regions. To address these issues, a novel unsupervised method for medical image anomaly detection is proposed: unsupervised medical image anomaly detection based on edge guidance and multi-scale flow fusion (UMIAD-EGMF). This method excavates rich edge information with scale adaptation and progressively identifies discriminative information for anomaly detection. UMIAD-EGMF captures contextual information around anomaly boundaries via low-level feature fusion (enhancing boundary details with the edge guidance module; EGM), integrates EGM-extracted edge information into deeper features using the edge aggregation module, and merges multi-scale feature maps to capture common anomaly features (subtle and significant) through multi-scale flow fusion. Experiments on breast ultrasound images (BUSI), brain magnetic resonance imaging (brain MRI), and head computed tomography (head CT) datasets demonstrate that UMIAD-EGMF outperforms the state-of-the-art methods. Specifically, on the BUSI dataset, the segmentation area under the precision-recall curve for object localization (AUPRO) of UMIAD-EGMF reaches 63.36%, surpassing that of the multi-scale low-level feature enhancement U-Net (MLFEU-net) by 0.01%; on the brain MRI dataset, its segmentation AUPRO is 90.83%, outperforming that of MLFEU-net by 0.33%; and on the head CT dataset, its segmentation AUPRO is 62.24%, exceeding that of MedMAE by 2.37%.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41766050/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Vis Comput Ind Biomed Art",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-03T00:32:24+00:00",
+    "version": 1,
+    "summary": "Captured 7 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 2 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 7.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 5,
+      "medium_priority": 2,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 7
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Lower Plasma Serotonin is Associated with Higher Amyloid Burden, Hippocampal Atrophy, and Cognitive decline in Alzheimer's Disease: A 24-Month Longitudinal Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770485/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Novel Eigen-Volume-based Co-Activation Pattern Framework for Dynamic Functional Biomarkers of Multiple Sclerosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770960/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Olfactory Bulb Volume Reflects Olfactory Dysfunction and Network Organization: Insights From the Population-Based Rhineland Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41769923/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Quantification of fractional tumor burden for the early detection of post-treatment glioblastoma progression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770432/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Methodological comparison of fetal brain (1)H-MRS data analysis techniques and gestational age analysis using LCModel in the fetal sheep brain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770610/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "UMIAD-EGMF: unsupervised medical image anomaly detection based on edge guidance and multi-scale flow fusion.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41766050/",
+        "published_date": "2026-03-02",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Time is brain: Impact of early intervention on neurodevelopment after Fetomaternal hemorrhage.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41766584/",
+        "published_date": "2026-03-02",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

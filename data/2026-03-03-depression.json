@@ -1,0 +1,156 @@
+{
+  "date": "2026-03-03",
+  "articles": [
+    {
+      "title": "Elucidating biopsychosocial mechanisms in migraine: an integrative analytics approach combining genetics, neuroimaging, and machine learning.",
+      "summary": "BACKGROUND: Migraine is a complex and disabling neurological disorder shaped by the interplay of biological, psychological, and behavioral factors. Current evidence lacks an integrated causal perspective spanning macro-level epidemiology, micro-level causal mechanisms, and clinical prediction. METHODS: We employed a multilevel analytical approach integrating genetic causal inference and neuroimaging. First, we used a two-step mediation framework to investigate causal pathways from biological markers to migraine via psychological intermediaries. Second, we examined the mediating role of brain imaging phenotypes in linking psychological factors to migraine risk. Finally, we developed a machine learning prediction model based on the identified biopsychosocial features. RESULTS: Genetic causal inference revealed that several biological factors influence migraine risk indirectly through psychological mediators, including neuroticism and depressive symptoms. Neuroimaging mediation analysis further identified that these psychological effects operate through structural alterations in key brain regions, including amygdala volume and the microstructural integrity of fronto-limbic white matter pathways. A random forest model incorporating the identified biopsychosocial features achieved exceptional predictive performance in classifying migraine status (Area under the receiver operating characteristic curve [AUROC] = 0.995), with psychological traits and body mass index among the most important predictors. CONCLUSIONS: This study systematically elucidates the biopsychosocial mechanisms of migraine for the first time through a multi-dimensional chain of evidence, supporting a shift toward integrated biopsychosocial approaches in the clinical management of migraine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772412/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Headache Pain",
+      "published_date": "2026-03-03",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Enhancing depression diagnosis with augmented brain signal driven decorrelated graph neural networks.",
+      "summary": "BACKGROUND: Major Depressive Disorder (MDD) is a leading global neuropsychiatric disorder, requiring precise diagnosis for effective intervention. Developing accurate diagnostic models for MDD remains a critical but challenging task. This study introduces a graph-based deep learning framework that addresses the issue of limited training data and facilitates robust training for identifying MDD across diverse episode patterns. METHODS: We introduce Brain Augmented-Decorrelated Network (BrainADNet), a framework designed to address data scarcity by augmenting brain signal inputs. BrainADNet builds upon the Skip-Graph Convolutional Network to aggregate informative multi-layer features, enriching its representational capacity. Recognizing the clinical relevance of demographic factors such as age, education, and gender in depression, we incorporate these attributes into the training process and examine their effect on diagnosis. To further improve feature diversity and reduce overfitting, we use a decorrelation regularizer to the model training. This encourages GCN embeddings to learn complementary, non-redundant representations from input graphs. RESULTS: As far as we are aware, the framework surpasses existing models in accurately identifying MDD cases across depressive stages. We present a detailed ablation study demonstrating the contribution of each component to diagnostic precision. Our study highlights the top-10 brain regions influential in diagnosing MDD in males and females, addressing a crucial gap in understanding gender-specific neural mechanisms. We also uncover distinct patterns in latent-space brain connectivity, derived from GCN embeddings, between individuals experiencing single versus multiple depression episodes. CONCLUSIONS: This study underscores the potential of graph methods to advance diagnostic precision for MDD. By integrating gender-specific and stage-wise insights, our framework equips medical professionals and researchers to design personalized and targeted therapeutic strategies, offering transformative implications for patient care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772142/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Commun Med (Lond)",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "3DViT-GAT: a unified atlas-based 3D vision transformer and graph learning framework for major depressive disorder detection using structural MRI data.",
+      "summary": "Major depressive disorder (MDD) is a prevalent mental health condition that negatively impacts both individual well-being and global public health. Automated detection of MDD using structural magnetic resonance imaging (sMRI) and deep learning (DL) methods holds increasing promise for improving diagnostic accuracy and enabling early intervention. Most existing methods employ either voxel-level features or handcrafted regional representations built from predefined brain atlases, limiting their ability to capture complex brain patterns. This paper develops a unified pipeline that utilizes Vision Transformers (ViTs) for extracting 3D region embeddings from sMRI data and Graph Neural Network (GNN) for classification. We explore two strategies for defining regions: (1) an atlas-based approach using predefined structural and functional brain atlases, and (2) an cube-based method by which ViTs are trained directly to identify regions from uniformly extracted 3D patches. Further, cosine similarity graphs are generated to model inter-regional relationships, and guide GNN-based classification. Extensive experiments were conducted using the REST-meta-MDD dataset to demonstrate the effectiveness of our model. With stratified 10-fold cross-validation, the best model obtained 81.51% accuracy, 85.94% sensitivity, 76.36% specificity, 80.88% precision, and 83.33% F1-score. Further, atlas-based models consistently outperformed the cube-based approach, highlighting the importance of using domain-specific anatomical priors for MDD detection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772023/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Protocol of the randomized double blind sham controlled AddVNS study of transcutaneous vagus nerve stimulation mechanisms in depression.",
+      "summary": "Depression is among the most prevalent mental disorders worldwide, carrying one of the highest burden of disease among all mental disorders. While invasive vagus nerve stimulation has been approved for treatment-resistant depression for decades, its clinical use is limited by surgical risks and heterogeneous clinical efficacy. Transcutaneous auricular VNS (tVNS) may offer a non-invasive alternative, but to date it remains experimental due to limited high-quality evidence, unclear biological mechanisms of action, and rudimentary knowledge on optimal stimulation parameters. To address these gaps, we initiated the AddVNS study. The AddVNS study (Add-on tVNS in depression) is a monocentric, exploratory, prospective, randomized, double-blind, sham-controlled interventional trial conducted at the Max Planck Institute of Psychiatry's research hospital. Adult patients with a depressive episode (ICD-10: F31-33) were assigned to receive active or sham transcutaneous vagus nerve stimulation (tVNS) in addition to treatment-as-usual (TAU) over a six-week period. Stimulation is administered three times daily (30 to 60 min each), five days per week. A deep phenotyping strategy is applied, including repeated psychophysiological measures (e.g., pupillometry, ECG, photoplethysmography, electrogastrogram) and neuroimaging (structural and functional MRI) at baseline and post-intervention, continuous actigraphy, repeated blood and stool sample acquisition (pre-, mid-, and post-intervention) for multiomic investigation, comprehensive neuropsychology including self-rated personality assessment, and closely monitored clinical evaluations. The patient-reported outcomes are collected weekly, the clinician-rated scales pre-, mid-, and post-intervention. In addition, follow-up self-ratings are obtained at 6 and 12 weeks post-tVNS. The main objective of AddVNS is to improve our understanding of the biological effects elicited by tVNS in depression. By combining rigorous methodology with an extensive and longitudinal multimodal approach, AddVNS represents the most comprehensive investigation of tVNS effects and markers in depression to date. We believe it to significantly advance our mechanistic understanding and subsequently clinical translation of this promising intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771997/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Sci Rep",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Mapping neurophysiological biotypes of postpartum depression and underlying neural and molecular basis.",
+      "summary": "BACKGROUND: Postpartum depression is a common and disabling condition that differs from major depressive disorder and shows marked variation in symptoms and outcomes. Identifying distinct biological subtypes could improve diagnosis and treatment. The present study aims to uncover neurophysiological subtypes of postpartum depression and explore their underlying neural and molecular features. METHODS: We analyzed structural brain images from a cohort of postpartum women recruited at the West China Second Hospital, Sichuan University, including 76 patients with postpartum depression (age range: 24-39 years) and 62 healthy postpartum women (age range: 23-40 years). An unsupervised clustering approach was applied to gray matter volume patterns to identify neurobiological subtypes. Individualized structural covariance networks were then constructed to compare subtype-specific connectivity. Transcriptomic profiles and neurotransmitter density maps were further integrated to examine molecular mechanisms underlying the structural alterations. RESULTS: Here we show that postpartum depression can be divided into two neurobiological subtypes. Subtype 1 displays reduced gray matter volume in the dorsal attention network, consistent with cognitive impairments. Subtype 2 shows increased gray matter volume in the default mode network, reflecting emotional dysregulation. Subtype 2 also exhibits weaker structural connectivity between the middle temporal gyrus, parahippocampus, and amygdala. Molecular analysis indicates that Subtype 1 is related to energy metabolism and the neurotransmitter receptor mGluR5, whereas Subtype 2 is associated with synaptic regulation, neuroplasticity, and neurotransmitter receptors such as 5-HT1B, dopamine D2, cholinergic M1 and μ-opioid receptor (MOR). CONCLUSIONS: These findings suggest that postpartum depression comprises two biologically distinct forms with different cognitive and emotional characteristics. Recognizing these subtypes may enhance our understanding of its neuropathology and support the development of personalized therapeutic strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771982/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Commun Med (Lond)",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Electroconvulsive therapy induces rapid microstructural and macrostructural changes, but microstructural changes are longer-lasting.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770312/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Eur Arch Psychiatry Clin Neurosci",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "Combining neurobiological markers and a sociodemographic risk score to predict adolescent depression - An IDEA RiSCo prospective cohort study.",
+      "summary": "The prevention of adolescent depression is a critical global challenge, hindered by the difficulty of identifying those at increased risk. We previously developed a sociodemographic-based risk score (IDEA-RS), which has proven to successfully predict depression onset in adolescents across five continents. This study aims to 1) improve the predictive accuracy by integrating biological and sociodemographic factors, and 2) generate a biological risk score, by combining biological information, to complement IDEA-RS. Derived from screening over 7000 adolescents aged 14-16 years old in Brazil, we recruited 100 adolescents representing the extremes of the sociodemographic risk score and including 50 adolescents at low-risk and 50 at high-risk of developing depression according to IDEA-RS. Baseline blood samples and fMRI scan were performed to measure selected biological markers: cytokines, kynurenine pathway metabolites and amygdala reactivity to negative stimuli. Adolescents were followed up over three years to identify those who would transition to develop depression. The primary outcome of depression incidence was assessed using the Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL). A composite biological risk score (IDEA-BIO-RS) was created incorporating the above biomarkers. Combining biological factors with IDEA-RS significantly improved the accuracy of predicting depression onset compared with IDEA-RS alone. Among adolescents classified as high-risk by both IDEA-RS and IDEA-BIO-RS, 44% developed depression over three years, while none of those classified as low-risk by both scores developed depression. This combined approach shows promise as a screening tool to identify adolescents at risk of developing depression and aid in prevention efforts.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41765970/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "published_date": "2026-03-02",
+      "date": "2026-03-03"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-03T05:53:14+00:00",
+    "version": 1,
+    "summary": "Captured 7 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 7; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 6,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 7
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Protocol of the randomized double blind sham controlled AddVNS study of transcutaneous vagus nerve stimulation mechanisms in depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41771997/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Enhancing depression diagnosis with augmented brain signal driven decorrelated graph neural networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772142/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "3DViT-GAT: a unified atlas-based 3D vision transformer and graph learning framework for major depressive disorder detection using structural MRI data.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772023/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Mapping neurophysiological biotypes of postpartum depression and underlying neural and molecular basis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41771982/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Combining neurobiological markers and a sociodemographic risk score to predict adolescent depression - An IDEA RiSCo prospective cohort study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41765970/",
+        "published_date": "2026-03-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Elucidating biopsychosocial mechanisms in migraine: an integrative analytics approach combining genetics, neuroimaging, and machine learning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41772412/",
+        "published_date": "2026-03-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Electroconvulsive therapy induces rapid microstructural and macrostructural changes, but microstructural changes are longer-lasting.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41770312/",
+        "published_date": "2026-03-02",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

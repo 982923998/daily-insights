@@ -1,0 +1,181 @@
+{
+  "date": "2026-03-10",
+  "articles": [
+    {
+      "title": "openclaw / openclaw",
+      "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞（总星标 289,801，今日新增 9,164）。",
+      "url": "https://github.com/openclaw/openclaw",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-10",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "msitarzewski / agency-agents",
+      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.（总星标 19,032，今日新增 4,415）。",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-10",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "pbakaus / impeccable",
+      "summary": "The design language that makes your AI harness better at design.（总星标 2,929，今日新增 1,288）。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-10",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "GoogleCloudPlatform / generative-ai",
+      "summary": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI（总星标 15,257，今日新增 1,282）。",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-10",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "alibaba / page-agent",
+      "summary": "JavaScript in-page GUI agent. Control web interfaces with natural language.（总星标 2,536，今日新增 465）。",
+      "url": "https://github.com/alibaba/page-agent",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-10",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "OpenClix, Agent friendly, open-source retention tooling",
+      "summary": "Show HN 社区项目，围绕 AI/LLM 工程实践发布，HN 分数 5。",
+      "url": "https://github.com/openclix/openclix",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "MindfulClaude – Guided breathing during Claude Code's thinking time",
+      "summary": "Show HN 社区项目，围绕 AI/LLM 工程实践发布，HN 分数 4。",
+      "url": "https://github.com/halluton/Mindful-Claude",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "We forked KuzuDB and added concurrent writes for AI agent memory",
+      "summary": "Show HN 社区项目，围绕 AI/LLM 工程实践发布，HN 分数 4。",
+      "url": "https://www.vela.partners/blog/kuzudb-ai-agent-memory-graph-database",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Nikui – An LLM-Powered \"Stench Guard\" for Your CI/CD",
+      "summary": "Show HN 社区项目，围绕 AI/LLM 工程实践发布，HN 分数 4。",
+      "url": "https://github.com/Blue-Bear-Security/nikui",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-09",
+      "date": "2026-03-10"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-10T00:05:58+00:00",
+    "version": 1,
+    "summary": "Captured 9 AI items. Preference focus is new models and new technical architecture: 3 high-priority, 4 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 9,
+      "high_priority": 3,
+      "medium_priority": 4,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 5
+      },
+      {
+        "topic": "new architecture",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "MindfulClaude – Guided breathing during Claude Code's thinking time",
+        "url": "https://github.com/halluton/Mindful-Claude",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "We forked KuzuDB and added concurrent writes for AI agent memory",
+        "url": "https://www.vela.partners/blog/kuzudb-ai-agent-memory-graph-database",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "OpenClix, Agent friendly, open-source retention tooling",
+        "url": "https://github.com/openclix/openclix",
+        "published_date": "2026-03-09",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "GoogleCloudPlatform / generative-ai",
+        "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+        "published_date": "2026-03-10",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Nikui – An LLM-Powered \"Stench Guard\" for Your CI/CD",
+        "url": "https://github.com/Blue-Bear-Security/nikui",
+        "published_date": "2026-03-09",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "msitarzewski / agency-agents",
+        "url": "https://github.com/msitarzewski/agency-agents",
+        "published_date": "2026-03-10",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "alibaba / page-agent",
+        "url": "https://github.com/alibaba/page-agent",
+        "published_date": "2026-03-10",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "pbakaus / impeccable",
+        "url": "https://github.com/pbakaus/impeccable",
+        "published_date": "2026-03-10",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "openclaw / openclaw",
+        "url": "https://github.com/openclaw/openclaw",
+        "published_date": "2026-03-10",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

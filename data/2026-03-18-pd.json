@@ -1,0 +1,105 @@
+{
+  "date": "2026-03-18",
+  "articles": [
+    {
+      "title": "Macroscale Gradient-Informed Neural Oscillation Topography in Parkinson's Disease.",
+      "summary": "Parkinson's disease (PD) is characterized by large-scale disruptions in beta and gamma oscillations. Although subcortical beta power is an established biomarker for current adaptive deep brain stimulation (aDBS), it may not fully capture the global pathophysiological burden and the macroscale hierarchical reorganization of the cortex. We characterize the frequency-specific reorganization of the cortical hierarchy across resting and motor states using functional gradients. We sought to identify topographic biomarkers that emerge across different behavioral states and determine whether these hierarchical features provide predictive power for global motor severity. High-density electroencephalography and magnetic resonance imaging-based source reconstruction were employed in patients with PD (n&#x2009;=&#x2009;35) and healthy control subjects (n&#x2009;=&#x2009;34). To characterize cortical connectivity transitions, we applied a manifold learning framework to derive frequency-specific functional gradients. We quantified the diagnostic and predictive utility of these hierarchical features and performed transcriptomic enrichment analysis to validate the biological relevance of the alterations. Patients with PD exhibited a macroscale reorganization of the cortical hierarchy that was both frequency specific and state dependent. These gradient-based biomarkers effectively differentiated patient groups and significantly predicted global Unified Parkinson's Disease Rating Scale Part III severity. Findings showed a robust framework with distinct topographical signatures, manifesting as a redistribution of informative signals across cortical regions. This work demonstrates that PD induces a macroscale reorganization of the cortical hierarchy. State-dependent topographical biomarkers effectively predict clinical severity and align with the disease pathological landscape. By identifying optimal sensing sites across distributed networks, our findings provide a principled reference to support next-generation, cortical-guided aDBS. &#xa9; 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41837317/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mov Disord",
+      "published_date": "2026-03-16",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "[Basal ganglia and movement disorders : Part 1: the parkinsonian spectrum-Neuroradiological patterns and diagnostic considerations].",
+      "summary": "Movement disorders are a&#xa0;frequent yet diagnostically unspecific reason for referral in routine neuroradiological practice. Hypokinetic syndromes with parkinsonism in particular regularly raise the question of an underlying neurodegenerative disorder, while requiring careful differentiation from atypical parkinsonian syndromes and secondary causes. This first part of the review focuses on the neuroradiological assessment of degenerative movement disorders, with an emphasis on the parkinsonian spectrum. It is grounded in the functional anatomy of the basal ganglia and their integration into motor networks. Building on this framework, a&#xa0;practice-oriented diagnostic approach is presented in which clinical phenotypes, temporal evolution, and accompanying symptoms serve as guiding criteria for targeted image interpretation. The article addresses idiopathic Parkinson's disease as well as atypical parkinsonian syndromes, in particular progressive supranuclear palsy, multiple system atrophy, and corticobasal syndrome. Typical and atypical magnetic resonance imaging (MRI) patterns, established morphometric markers, and the diagnostic limitations of visual signs such as the swallow-tail sign are critically discussed. In addition, neuromelanin-sensitive MRI, susceptibility-based techniques, and artificial intelligence (AI)-supported approaches are reviewed, with explicit consideration of their current limitations. The aim of this contribution is to enable a&#xa0;structured and clinically robust neuroradiological assessment of parkinsonism and to use imaging in a&#xa0;targeted manner for differential diagnosis and guidance of further diagnostic work-up. Bewegungsst&#xf6;rungen geh&#xf6;ren zu den h&#xe4;ufigen, zugleich aber unspezifischen Zuweisungsgr&#xfc;nden in der neuroradiologischen Routine. Gerade hypokinetische Syndrome mit Parkinsonismus werfen regelm&#xe4;&#xdf;ig die Frage nach einer zugrunde liegenden neurodegenerativen Erkrankung auf, erfordern jedoch eine sorgf&#xe4;ltige Abgrenzung gegen&#xfc;ber atypischen Parkinson-Syndromen und sekund&#xe4;ren Ursachen. Der vorliegende erste Teil der &#xdc;bersichtsarbeit widmet sich der neuroradiologischen Einordnung degenerativer Bewegungsst&#xf6;rungen mit Schwerpunkt auf dem Parkinson-Spektrum. Ausgangspunkt ist die funktionelle Anatomie der Basalganglien und ihre Einbindung in motorische Netzwerke. Darauf aufbauend wird ein praxisorientierter diagnostischer Ansatz vorgestellt, bei dem klinische Ph&#xe4;notypen, zeitlicher Verlauf und Begleitsymptome als leitende Kriterien f&#xfc;r die gezielte Bildanalyse dienen. Im Fokus stehen das idiopathische Parkinson-Syndrom sowie atypische Parkinson-Syndrome, insbesondere die progressive supranukle&#xe4;re Blickparese, die Multisystematrophie und das kortikobasale Syndrom. Typische und atypische Muster in der Magnetresonanztomographie (MRT), etablierte morphometrische Marker sowie die diagnostischen Grenzen visueller Zeichen wie des Swallow-tail-Zeichens werden kritisch eingeordnet. Erg&#xe4;nzend werden Neuromelanin-sensitive MRT, suszeptibilit&#xe4;tsbasierte Verfahren und KI-gest&#xfc;tzte Ans&#xe4;tze inklusive ihrer Limitationen diskutiert. Ziel dieses Beitrags ist es, eine strukturierte und klinisch belastbare neuroradiologische Befundung bei Parkinsonismus zu erm&#xf6;glichen und die Bildgebung gezielt zur Differenzialdiagnostik und zur Steuerung weiterf&#xfc;hrender Untersuchungen einzusetzen.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41838078/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Radiologie (Heidelb)",
+      "published_date": "2026-03-16",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "[Basal ganglia and movement disorders-Part 2: … and if it is not Parkinson's disease? : Nondegenerative causes and neuroradiological patterns].",
+      "summary": "Nondegenerative disorders involving the basal ganglia frequently do not present clinically as a&#xa0;primary parkinsonian syndrome, but rather in the context of acute or subacute neurological symptoms such as altered level of consciousness, epileptic seizures, encephalopathy, or newly emerging hyperkinetic movement disorders. In these clinical scenarios, neuroimaging is often performed without a&#xa0;clear etiological hypothesis and primarily serves as an initial diagnostic orientation. Due to their end-arterial vascular supply, high metabolic demand, and central role within distributed motor and cognitive networks, the basal ganglia are particularly vulnerable to vascular, metabolic-toxic, inflammatory, and genetic insults. Accordingly, nondegenerative disorders often exhibit characteristic-and in some cases highly specific-patterns of involvement, the systematic analysis of which allows for rapid etiological stratification. This article provides a&#xa0;structured overview of the most relevant nondegenerative causes of movement disorders with basal ganglia involvement and describes typical neuroradiological patterns observed in vascular, metabolic-toxic, genetic, neoplastic, and infectious-inflammatory conditions. In addition, current developments in magnetic resonance imaging are discussed with respect to their potential and inherent limitations. Neuroradiological imaging remains a&#xa0;central tool in the evaluation of nondegenerative movement disorders, guiding etiological classification, and directing further diagnostic work-up. Nichtdegenerative Erkrankungen mit Basalganglienbeteiligung pr&#xe4;sentieren sich klinisch h&#xe4;ufig nicht prim&#xe4;r als Parkinson-Syndrom, sondern im Rahmen akuter oder subakuter neurologischer Symptome wie Vigilanzst&#xf6;rungen, epileptische Anf&#xe4;lle, Enzephalopathien oder neu aufgetretene hyperkinetische Bewegungsst&#xf6;rungen. Die Bildgebung erfolgt in diesen Konstellationen meist ohne klare &#xe4;tiologische Fragestellung und dient der initialen diagnostischen Orientierung. Die Basalganglien sind aufgrund ihrer endarteriellen Gef&#xe4;&#xdf;versorgung, ihres hohen Energiebedarfs und ihrer zentralen Netzwerkfunktion besonders vulnerabel gegen&#xfc;ber vaskul&#xe4;ren, metabolisch-toxischen, entz&#xfc;ndlichen und genetischen Sch&#xe4;digungen. Entsprechend zeigen sich bei nichtdegenerativen Erkrankungen h&#xe4;ufig charakteristische, teils hochspezifische Befallsmuster, deren systematische Analyse eine rasche &#xe4;tiologische Einordnung erlaubt. Dieser Artikel gibt einen strukturierten &#xdc;berblick &#xfc;ber die wichtigsten nichtdegenerativen Ursachen von Bewegungsst&#xf6;rungen mit Basalganglienbeteiligung und beschreibt typische neuroradiologische Muster bei vaskul&#xe4;ren, metabolisch-toxischen, genetischen, tumor&#xf6;sen sowie infekti&#xf6;s-entz&#xfc;ndlichen Erkrankungen. Dar&#xfc;ber hinaus werden aktuelle Entwicklungen der MRT im Hinblick auf ihr Potenzial und ihre Limitationen diskutiert. Die neuroradiologische Bildgebung bleibt bei nichtdegenerativen Bewegungsst&#xf6;rungen ein zentrales Instrument zur &#xe4;tiologischen Orientierung und zur Steuerung weiterf&#xfc;hrender Diagnostik.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41838079/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Radiologie (Heidelb)",
+      "published_date": "2026-03-16",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Normative modeling of MEG brain oscillations across the human lifespan.",
+      "summary": "Normative modeling provides a principled framework for quantifying individual deviations from typical brain development and is increasingly used to study heterogeneity in neuropsychiatric conditions. While widely applied to structural phenotypes, functional normative models remain underdeveloped. Here, we introduce MEGaNorm, a normative modeling framework for charting lifespan trajectories of resting-state magnetoencephalography (MEG) brain oscillations. Using a large, multi-site dataset comprising 1846 individuals aged 6-88 and spanning three MEG systems, we model relative oscillatory power in canonical frequency bands using hierarchical Bayesian regression, accounting for age, sex, and site effects. To support interpretation at multiple scales, we introduce Neuro-Oscillo Charts, visual tools that summarize normative trajectories at the population level and quantify individual-level deviations, enabling personalized assessment of functional brain dynamics. Applying this framework to a Parkinson's disease cohort (n = 160), we demonstrate that normative deviation scores reveal disease-related abnormalities and identify a continuum of patients in the theta-beta deviation space. This work establishes a multi-site normative reference for resting-state MEG oscillations (3-40 Hz) across a broad age range, enabling population-level characterization and individualized benchmarking. All models and tools are openly available and designed for federated, continual adaptation as new data become available, providing a methodological foundation toward precision neuropsychiatry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41840141/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Commun Biol",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-18T00:50:22+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 4 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 4.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Macroscale Gradient-Informed Neural Oscillation Topography in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41837317/",
+        "published_date": "2026-03-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Basal ganglia and movement disorders : Part 1: the parkinsonian spectrum-Neuroradiological patterns and diagnostic considerations].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41838078/",
+        "published_date": "2026-03-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Basal ganglia and movement disorders-Part 2: … and if it is not Parkinson's disease? : Nondegenerative causes and neuroradiological patterns].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41838079/",
+        "published_date": "2026-03-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Normative modeling of MEG brain oscillations across the human lifespan.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41840141/",
+        "published_date": "2026-03-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

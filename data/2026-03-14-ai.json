@@ -1,0 +1,181 @@
+{
+  "date": "2026-03-14",
+  "articles": [
+    {
+      "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+      "summary": "Show HN 项目：Context Gateway – Compress agent context before it hits the LLM。社区热度 58 points，43 条评论。",
+      "url": "https://github.com/Compresr-ai/Context-Gateway",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "Show HN: Mesa – A collaborative canvas IDE built for agent-first development",
+      "summary": "Show HN 项目：Mesa – A collaborative canvas IDE built for agent-first development。社区热度 15 points，1 条评论。",
+      "url": "https://www.getmesa.dev/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "Show HN: Simple plugin to get Claude Code to listen to you",
+      "summary": "Show HN 项目：Simple plugin to get Claude Code to listen to you。社区热度 8 points，1 条评论。",
+      "url": "https://www.gopeek.ai",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "Show HN: Userland local agent sandbox with real-time network control dashboard",
+      "summary": "Show HN 项目：Userland local agent sandbox with real-time network control dashboard。社区热度 6 points，1 条评论。",
+      "url": "https://greywall.io/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "Show HN: Agent wrapped, like Spotify wrapped",
+      "summary": "Show HN 项目：Agent wrapped, like Spotify wrapped。社区热度 4 points，3 条评论。",
+      "url": "https://swarmpack.github.io/landing-page/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "Omnicoder-9b SLAPS in Opencode",
+      "summary": "LocalLLaMA 社区讨论：Omnicoder-9b SLAPS in Opencode。热度 214 赞，65 条评论。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsa8wd/omnicoder9b_slaps_in_opencode/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "I'm fully blind, and AI is a game changer for me. Are there any local LLMS that can rival claude code and codex?",
+      "summary": "LocalLLaMA 社区讨论：I'm fully blind, and AI is a game changer for me. Are there any local LLMS that can rival claude code and codex?。热度 209 赞，98 条评论。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsuhwl/im_fully_blind_and_ai_is_a_game_changer_for_me/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "Rick Beato: \"How AI Will Fail Like The Music Industry\" (and why local LLMs will take over \"commercial\" ones)",
+      "summary": "LocalLLaMA 社区讨论：Rick Beato: \"How AI Will Fail Like The Music Industry\" (and why local LLMs will take over \"commercial\" ones)。热度 123 赞，55 条评论。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rselsf/rick_beato_how_ai_will_fail_like_the_music/",
+      "category": "AI",
+      "subcategory": "Reddit",
+      "published_date": "2026-03-13",
+      "date": "2026-03-14"
+    },
+    {
+      "title": "How AI is helping improve heart health in rural Australia",
+      "summary": "A new Google AI initiative aims to improve heart health outcomes for people living in remote Australian communities.",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-12",
+      "date": "2026-03-14"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-14T00:47:22+00:00",
+    "version": 1,
+    "summary": "Captured 9 AI items. Preference focus is new models and new technical architecture: 2 high-priority, 6 medium-priority, 1 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 9,
+      "high_priority": 2,
+      "medium_priority": 6,
+      "low_priority": 1
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 5
+      },
+      {
+        "topic": "new architecture",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "I'm fully blind, and AI is a game changer for me. Are there any local LLMS that can rival claude code and codex?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsuhwl/im_fully_blind_and_ai_is_a_game_changer_for_me/",
+        "published_date": "2026-03-13",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+        "url": "https://github.com/Compresr-ai/Context-Gateway",
+        "published_date": "2026-03-13",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Simple plugin to get Claude Code to listen to you",
+        "url": "https://www.gopeek.ai",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Rick Beato: \"How AI Will Fail Like The Music Industry\" (and why local LLMs will take over \"commercial\" ones)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rselsf/rick_beato_how_ai_will_fail_like_the_music/",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "How AI is helping improve heart health in rural Australia",
+        "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+        "published_date": "2026-03-12",
+        "priority": "medium",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: Userland local agent sandbox with real-time network control dashboard",
+        "url": "https://greywall.io/",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Mesa – A collaborative canvas IDE built for agent-first development",
+        "url": "https://www.getmesa.dev/",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Agent wrapped, like Spotify wrapped",
+        "url": "https://swarmpack.github.io/landing-page/",
+        "published_date": "2026-03-13",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Omnicoder-9b SLAPS in Opencode",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsa8wd/omnicoder9b_slaps_in_opencode/",
+        "published_date": "2026-03-13",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}

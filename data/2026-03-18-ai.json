@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-18",
+  "articles": [
+    {
+      "title": "langchain-ai/deepagents",
+      "summary": "GitHub 日榜热门的 LangChain/LangGraph agent harness，内置规划工具、文件系统后端与子代理能力，面向复杂多步 agent 任务。",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-18",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "jarrodwatts/claude-hud",
+      "summary": "Claude Code 插件，提供上下文占用、活跃工具、运行中的 agent 与 todo 进度可视化，方便开发时观察 agent 执行状态。",
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-18",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "abhigyanpatwari/GitNexus",
+      "summary": "浏览器端零服务器代码智能引擎，可将仓库构造成交互式知识图谱并结合 Graph RAG Agent 做代码探索。",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "category": "AI",
+      "subcategory": "GitHub Trending",
+      "published_date": "2026-03-18",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Show HN: Soros – AI for geopolitical macro investing",
+      "summary": "Show HN 展示将地缘政治与宏观投资场景结合的 AI 分析产品，提供面向投资决策的自动化情报能力。",
+      "url": "https://www.asksoros.com",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Show HN: AI-native memory, recall and reminder on CLI – 100% local with Ollama",
+      "summary": "本地优先的命令行记忆与提醒工具，基于 Ollama 做离线 AI 记忆检索，强调隐私与本地部署体验。",
+      "url": "https://github.com/KunalSin9h/yaad",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Show HN: ToolGuard – Pytest for AI agent tool calls",
+      "summary": "面向 AI agent 工具调用的测试框架，类比 Pytest 的开发体验，用于约束和回归验证 agent 调用行为。",
+      "url": "https://news.ycombinator.com/show",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Introducing GPT-5.4 mini and nano",
+      "summary": "OpenAI 发布 GPT-5.4 mini 与 nano，强调更高吞吐与更低成本，面向编码、工具调用、多模态推理和高并发 API/子代理负载。",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    },
+    {
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "summary": "Google 扩展 Personal Intelligence 到 Search AI Mode、Gemini App 与 Gemini in Chrome，推进跨产品的个性化 AI 能力。",
+      "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-17",
+      "date": "2026-03-18"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-18T00:02:35+00:00",
+    "version": 1,
+    "summary": "Captured 8 AI items. Preference focus is new models and new technical architecture: 3 high-priority, 3 medium-priority, 2 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 8,
+      "high_priority": 3,
+      "medium_priority": 3,
+      "low_priority": 2
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 3
+      },
+      {
+        "topic": "new architecture",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Introducing GPT-5.4 mini and nano",
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+        "published_date": "2026-03-17",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Bringing the power of Personal Intelligence to more people",
+        "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+        "published_date": "2026-03-17",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "jarrodwatts/claude-hud",
+        "url": "https://github.com/jarrodwatts/claude-hud",
+        "published_date": "2026-03-18",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "langchain-ai/deepagents",
+        "url": "https://github.com/langchain-ai/deepagents",
+        "published_date": "2026-03-18",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "abhigyanpatwari/GitNexus",
+        "url": "https://github.com/abhigyanpatwari/GitNexus",
+        "published_date": "2026-03-18",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: ToolGuard – Pytest for AI agent tool calls",
+        "url": "https://news.ycombinator.com/show",
+        "published_date": "2026-03-17",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Soros – AI for geopolitical macro investing",
+        "url": "https://www.asksoros.com",
+        "published_date": "2026-03-17",
+        "priority": "low",
+        "reason": "general AI update"
+      },
+      {
+        "title": "Show HN: AI-native memory, recall and reminder on CLI – 100% local with Ollama",
+        "url": "https://github.com/KunalSin9h/yaad",
+        "published_date": "2026-03-17",
+        "priority": "low",
+        "reason": "general AI update"
+      }
+    ]
+  }
+}
