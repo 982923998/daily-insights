@@ -72,6 +72,15 @@ class MinimalIfPipelineContractTests(unittest.TestCase):
         )
         self.assertIn('python3 "$SYNC_IF_SCRIPT" "$@"', self.source)
 
+    def test_mixed_domain_route_has_no_global_sync_after_mri_pipeline(self):
+        main_case = self.source.split('case "$MODE" in', 1)[1]
+        task_tail = main_case.rsplit("esac", 1)[1]
+
+        self.assertIn('run_academic_domain "$domain_id" || exit $?', main_case)
+        self.assertIn("needs_mri=1", main_case)
+        self.assertIn("run_mri_pipeline || exit $?", main_case)
+        self.assertNotIn("run_post_fetch_if_sync", task_tail)
+
 
 if __name__ == "__main__":
     unittest.main()

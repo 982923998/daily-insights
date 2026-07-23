@@ -576,8 +576,6 @@ case "$MODE" in
         ;;
 esac
 
-run_post_fetch_if_sync "$MODE"
-
 log "✅ Task finished."
 if ! git_sync_data "$MODE"; then
     log "[WARN] Git sync failed, but local fetch artifacts are already generated."
