@@ -1,0 +1,186 @@
+{
+  "date": "2026-06-12",
+  "articles": [
+    {
+      "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+      "summary": "BACKGROUND: Dementia with Lewy bodies shares clinical and pathological features with both Parkinson's disease and Alzheimer's disease, but the local biological factors that render specific cortical regions vulnerable to atrophy remain poorly defined. In particular, it is unclear whether cortical thinning in dementia with Lewy bodies reflects generic neurodegenerative mechanisms, processes shared with Parkinson's disease and Alzheimer's disease, or dementia with Lewy bodies-specific molecular and network susceptibilities. METHODS: A total of 89 patients with dementia with Lewy bodies and 89 matched controls underwent T1-weighted brain MRI. Scans were processed to generate surface-based cortical thickness maps. Regional cortical thickness estimates, after slice-by-slice manual correction, were mapped to gene expression data from healthy postmortem human brains to identify transcriptomic signatures associated with decreased thickness in dementia with Lewy bodies. We assessed whether genes whose expression was increased with regional thinning converged onto established Parkinson's disease- and Alzheimer's disease-related pathways and identified genes uniquely implicated in dementia with Lewy bodies. Spatial annotation mapping was then used to test whether patterns of cortical thinning overlapped with in vivo neurotransmitter system distributions and whether the observed thickness pattern was constrained by large-scale structural connectivity, consistent with a network-based propagation process. RESULTS: Cortical thinning predominated in regions that, in the healthy brain, show higher expression of genes involved in mitochondrial function and synaptic transmission. The transcriptomic profile associated with thinning significantly overlapped with genes belonging to Parkinson's disease and Alzheimer's disease pathways, supporting shared pathogenic mechanisms across Lewy body- and Alzheimer-type neurodegeneration. However, 90 genes associated with cortical thinning did not overlap with Parkinson's disease or Alzheimer's disease pathways and were enriched for GABAergic signalling. Spatial mapping analyses showed that regions with greatest thickness reductions colocalized with GABAA, serotoninergic 5-HT1A, 5-HT1B, 5-HT4, and dopaminergic D2 receptor distributions, and that the thickness pattern followed structural connectivity. CONCLUSIONS: MRI-derived cortical thickness changes in dementia with Lewy bodies reflect selective molecular and network vulnerabilities rather than a non-specific degenerative process. Mitochondrial and synaptic genes, together with a distinct GABAergic association and connectivity constraints, delineate mechanisms explaining why some cortical territories are more affected in dementia with Lewy bodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Biomed Sci",
+      "journal_issn": "1423-0127",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Human peripheral nerve xenografts and rat peripheral nerve allografts implanted to the striatum: Methodology and initial findings of cell-based therapy.",
+      "summary": "BACKGROUND: Peripheral nerve tissue engrafted into the central nervous system may provide regenerative effects in various CNS injury models or in a clinical trial using autologous sural nerve tissue grafts implanted into the substantia nigra of patients with Parkinson's disease (PD) as an adjuvant to Deep Brain Stimulation (DBS). NEW METHOD: We describe a proof-of-concept neuro-avatar animal model to inform ongoing and future clinical trials and study the survival, biodistribution, and host responses to allografts or xenografts of human peripheral nerve fascicles. Human peripheral nerve tissue (PNT) was prepared as either injury-naïve or injured and then nerve fascicles were implanted into the rat naïve dorsal striatum or striatum pretreated with a fibril-seeding model of synucleinopathies. RESULTS: At post-implantation, immunohistochemistry and MRI-imaging indicated both injury-naïve and injured nerve xenografts appeared to remain viable and stable at their implantation site with no evidence of nerve cell migration. Proton magnetic resonance spectroscopy of the xenografted brain identified increases in N-acetyl aspartate (NAA), a marker of neuronal integrity, in regions surrounding the xenograft. Preliminary RNAscope analysis of the xenografted brain indicates xenografts express mRNA for NGF and mitochondrial marker, ALDH2. Likewise, allografts of sciatic nerve implanted into the fibril-seeded brain were viable grafts 60 days after being placed into the degenerating brain and induced a sprouting response in the fibril-seeded brain. CONCLUSION: We believe the neuro-avatar rodent model described in this study may be an asset for studying the possible regenerative effects of PNT engrafted into the degenerating brain.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42269778/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Neurosci Methods",
+      "journal_issn": "1872-678X",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "MRI mapping of nigrostriatal pathway degeneration in early-stage Parkinson's disease.",
+      "summary": "Neuronal degeneration in Parkinson's disease begins mainly in the ventrolateral region of the substantia nigra pars compacta and progressively spreads out to other mesencephalic areas. Concurrently, striatal dopaminergic denervation follows a distinct gradient, beginning in the posterior putamen and extending to the anterior putamen and the caudate nucleus as the disease progresses. However, changes along the nigrostriatal projections remain poorly characterized. In this study, we reconstructed the nigrostriatal pathway using a healthy control dataset and we explored the topographic distribution of changes associated with the onset of Parkinson's disease. Two independent cohorts of patients with recently diagnosed early-stage Parkinson's disease underwent magnetic resonance imaging sessions to assess different aspects putatively linked to neurodegeneration, including markers for microstructural integrity (fractional anisotropy and mean diffusivity) and iron content (R2* and R2). We also included the T1w/T2w ratio, a metric that has been scarcely explored in Parkinson's disease and may reflect microstructural and myelin-related changes, among other neurodegenerative-related features. We found widespread changes in microstructure, iron load, and T1w/T2w along the entire projection, with greater prominence near the substantia nigra pars compacta. These changes affected both hemispheres but had greater severity in the side contralateral to the more clinically affected hemibody. The spatial distribution and magnitude of these alterations in Parkinson's disease patients closely aligned with the iron load in controls. Interestingly, the T1w/T2w ratio demonstrated the strongest effects across cohorts, highlighting its potential as a biomarker for neurodegeneration. These findings provide a promising framework for tracking nigrostriatal degeneration in vivo.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42269976/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Clinical Spectrum of Anti-SEZ6L2 Syndrome: A Case Report With Brain Volumetry and Systematic Literature Review.",
+      "summary": "BACKGROUND AND OBJECTIVES: Anti-seizure-related 6 homolog like 2 (SEZ6L2) antibodies are a rare cause of immune-mediated cerebellar syndromes. The clinical phenotype, diagnostic features, and outcomes have not been systematically synthesized, and the evidence is limited to case reports and case series. We, therefore, aimed to (1) characterize the clinical course and longitudinal brain volumetric changes in a patient with anti-SEZ6L2 syndrome and (2) systematically review the published evidence regarding clinical features, diagnostics, treatment, and outcomes. METHODS: We performed a single-patient observational study with serial clinical assessments and cross-sectional and longitudinal MRI volumetry and compared the findings with those from age-matched and sex-matched healthy controls. In addition, we conducted a PRISMA-compliant systematic review of MEDLINE and EMBASE from 1964 to December 1, 2025, including published reports of patients with anti-SEZ6L2 antibodies. Data were synthesized descriptively, and because of disease rarity, this case was included in aggregated analyses. RESULTS: A 45-year-old man developed a severe subacute cerebellar syndrome with cognitive, psychiatric, pyramidal, and parkinsonian features. The peak SARA score was 30, and the peak modified Rankin Scale (mRS) score was 5. Despite sequential immunotherapy, only mild improvement occurred and substantial disability persisted. Longitudinal MRI volumetry demonstrated progressive cerebellar atrophy relative to healthy controls, while whole-brain and subcortical volumes remained within normal range. The systematic review identified 21 previously reported patients, yielding 22 including the current case. Cerebellar syndrome was present in all patients; cognitive symptoms were reported in 14 of 22 (64%), parkinsonism in 8 of 22 (36%), and psychiatric symptoms in 6 of 22 (27%). Cerebellar atrophy was reported in 19 of 22 (86%). Two patients had temporally associated tumors. CSF pleocytosis was present in 7 of 21 (33%). The median peak SARA score was 27 (interquartile range [IQR] 23-30; n = 7) and improved to 20 (IQR 18-22), whereas the median mRS score remained 4 at both peak disease and follow-up (n = 11). Among 21 patients with outcome data, 2 (9.5%) died of tumor-related complications, 2 (9.5%) deteriorated neurologically, 8 (38.1%) stabilized, and 9 (42.9%) improved. DISCUSSION: Anti-SEZ6L2 syndrome is characterized by severe cerebellar dysfunction frequently accompanied by parkinsonism, cognitive, and psychiatric features. This case demonstrated progressive cerebellar atrophy on longitudinal volumetry despite immunotherapy. Our systematic synthesis highlights that noncerebellar manifestations are common, and that substantial long-term disability often persists despite partial improvement in ataxia severity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42275617/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurol Neuroimmunol Neuroinflamm",
+      "journal_issn": "2332-7812",
+      "published_date": "2026-06-11",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Associations of DTI-ALPS index and choroid plexus volume with clinical severity across the Parkinson's disease spectrum.",
+      "summary": "Impaired clearance of pathogenic proteins may contribute to Parkinson's disease (PD) progression, but the clinical relevance of brain clearance-associated processes in humans remains incompletely understood. Using cross-sectional data from 1,861 participants (704 PD, 997 prodromal, 160 healthy controls) in Parkinson Progression Marker Initiative, we investigated whether the magnetic resonance imaging (MRI)-based indirect markers linked to brain clearance-related processes, diffusion tensor imaging analysis along the perivascular space (DTI-ALPS) index and normalized choroid plexus volume (NCPV), are associated with disease stage and motor/non-motor manifestations across the PD spectrum. The ALPS index declined with age, was lower in males, and showed a stepwise reduction from controls to prodromal individuals and PD patients. Clinically, lower ALPS index correlated with greater motor severity in prodromal and PD groups, with stronger associations at advanced stages. Lower ALPS index also correlated with rapid eye movement sleep behavior disorder, cognitive impairment, and depressive symptoms. NCPV showed a complementary trend, demonstrating positive associations with clinical severity measures and a significant negative correlation with the ALPS index. Together, these findings suggest that MRI markers linked to brain clearance processes are associated with clinical progression across the PD continuum and may provide imaging biomarkers relevant to disease staging and pathophysiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42277056/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-11",
+      "date": "2026-06-12",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "Outcomes of Bilateral Deep Brain Stimulation After Magnetic Resonance‑Guided Focused Ultrasound Thalamotomy: A Case Series.",
+      "summary": "BACKGROUND AND OBJECTIVES: Despite its efficacy in treating medically refractory movement disorders, magnetic resonance‑guided focused ultrasound (MRgFUS) thalamotomy may result in tremor recurrence, requiring additional interventions. The aim of this study was to evaluate the safety and efficacy of subsequent deep brain stimulation (DBS) as a management strategy for patients with recurrent or residual symptoms after MRgFUS thalamotomy. METHODS: We retrospectively reviewed 8 patients who underwent bilateral DBS after unilateral MRgFUS thalamotomy for medically refractory essential tremor (n = 7) or tremor-dominant Parkinson disease (n = 1) between January 2021 and August 2025. During this time frame, we performed 529 MRgFUS thalamotomies in 461 patients and 108 DBS procedures in 100 patients. We analyzed clinical indications, complications, and functional outcomes using the Fahn-Tolosa-Marin (FTM) Tremor Rating Scale and the Unified Parkinson's Disease Rating Scale Part III. RESULTS: The mean time from MRgFUS to bilateral DBS was 19.2 months (range: 6-48 months). Indications for DBS included tremor recurrence (n = 4), technical inability to complete MRgFUS ablation because of anatomical limitation (n = 2), and progression of contralateral symptoms (n = 2). All patients tolerated the DBS procedure well. Postoperative functional outcomes were favorable, with FTM scores in available cases improving from a mean pre-DBS score of 52.3 to 15.3 (mean FTM reduction of 70.7%). The patient with tremor-dominant Parkinson disease experienced a reduction of 64.9% in the Unified Parkinson's Disease Rating Scale Part III OFF score, improving from 57 before DBS to 20. CONCLUSION: Prior unilateral MRgFUS thalamotomy does not limit the safety and effectiveness of subsequent bilateral DBS. DBS serves as a viable treatment option in case of suboptimal MRgFUS outcomes, providing adjustable therapy and a flexible approach for managing progressive disease. In some patients, the residual MRgFUS lesion may enhance DBS efficacy, allowing adequate tremor control at lower ipsilateral stimulation thresholds.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42282950/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurosurg Pract",
+      "journal_issn": "2834-4383",
+      "published_date": "2026-06-11",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:41+00:00",
+    "version": 1,
+    "summary": "Captured 6 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 6,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Associations of DTI-ALPS index and choroid plexus volume with clinical severity across the Parkinson's disease spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42277056/",
+        "published_date": "2026-06-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "MRI mapping of nigrostriatal pathway degeneration in early-stage Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42269976/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Human peripheral nerve xenografts and rat peripheral nerve allografts implanted to the striatum: Methodology and initial findings of cell-based therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42269778/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical Spectrum of Anti-SEZ6L2 Syndrome: A Case Report With Brain Volumetry and Systematic Literature Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42275617/",
+        "published_date": "2026-06-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Outcomes of Bilateral Deep Brain Stimulation After Magnetic Resonance‑Guided Focused Ultrasound Thalamotomy: A Case Series.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42282950/",
+        "published_date": "2026-06-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

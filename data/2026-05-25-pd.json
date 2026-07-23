@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-25",
+  "articles": [
+    {
+      "title": "Post-gadolinium T1 alterations in Parkinson's disease and essential tremor.",
+      "summary": "Post-contrast T1 changes (ΔT1) on brain MRI may reflect alterations in cerebrospinal fluid dynamics and microvascular exchange in movement disorders. We investigated regional post-contrast ΔT1 differences in patients with idiopathic Parkinson's disease (IPD) and essential tremor (ET). In this retrospective single-center study, 277 patients who underwent brain MRI for suspected movement disorders between November 2023 and February 2025 were classified as ET (n = 109), early IPD (n = 81), or advanced IPD (n = 87). Post-contrast ΔT1 values were calculated by subtracting pre-contrast from post-contrast T1 measurements in the choroid plexus (CP), basal ganglia perivascular spaces, cerebral cortex, cerebellar cortex, and thalamus. Advanced IPD demonstrated significantly greater T1 shortening in the CP compared with ET, while showing reduced T1 shortening in the cerebellar cortex and thalamus. No significant differences were observed in other regions. These findings suggest region-specific alterations in contrast kinetics in advanced IPD, potentially reflecting disease-related changes in contrast distribution and microvascular permeability. Quantitative post-contrast T1 mapping may provide complementary imaging markers for distinguishing Parkinson's disease from essential tremor.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177191/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-05-23",
+      "date": "2026-05-25",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "Multiparametric MRI and imaging transcriptomics reveal molecular and cellular correlates of neurodegeneration in experimental Parkinsonism.",
+      "summary": "Multiple system atrophy (MSA) is an atypical Parkinsonian disorder marked by oligodendroglial α-synucleinopathy and selective neurodegeneration. Although MRI can capture regional atrophy and microstructural alterations in the MSA brain, the molecular substrates underlying these phenotypes remain poorly defined. Imaging transcriptomics provides a computational framework to relate spatial imaging patterns to brain-wide gene expression. While this approach has been applied to human MSA, interpretation is constrained by limited experimental control and a lack of disease-matched molecular validation. Here, we apply imaging transcriptomics in a controlled preclinical setting by integrating high-resolution ex vivo multimodal MRI with transcriptomic mapping in the PLP-αSyn mouse model of MSA. Structural and diffusion MRI revealed distinct patterns of regional atrophy and microstructural abnormalities. Atlas-based analyses associated imaging phenotypes with gene programs related to oligodendrocyte biology, energy metabolism, and neuroinflammation, with modality-specific signatures. These associations were supported by independent RNA-sequencing and showed convergence with human MSA findings. Our work benchmarks MRI-transcriptomic relationships in MSA and provides a translational framework for interpreting imaging biomarkers in synucleinopathies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42185343/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-05-25",
+      "date": "2026-05-25",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:30+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Multiparametric MRI and imaging transcriptomics reveal molecular and cellular correlates of neurodegeneration in experimental Parkinsonism.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42185343/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Post-gadolinium T1 alterations in Parkinson's disease and essential tremor.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42177191/",
+        "published_date": "2026-05-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

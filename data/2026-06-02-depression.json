@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-02",
+  "articles": [
+    {
+      "title": "Consistent Brain Entropy Changes During Rumination Across Three Magnetic Resonance Imaging Scanners.",
+      "summary": "Rumination, characterized by repetitive and self-referential thinking, is closely linked to depression and a broad range of psychiatric disorders. However, previous research has predominantly relied on task activation or network-level approaches, leaving critical gaps in our understanding of local brain activity dynamics during ruminative states. To address this, we employed brain entropy (BEN), a novel functional magnetic resonance imaging (fMRI)-based neuroimaging measure, to quantify the temporal irregularity and complexity of local brain activity during rumination. We analyzed a publicly available dataset comprising 41 healthy adults who completed identical fMRI tasks across three MRI scanners. Each scanning session included four conditions: resting state, sad memory, rumination, and distraction. Voxel-wise BEN analyses were conducted to examine condition-related differences, with brain regions showing consistent patterns across all three scanners at p < 0.05 considered statistically significant. Our findings revealed distinct neural signatures associated with different cognitive states. Compared to sad memory, rumination was associated with decreased BEN in the visual cortex (VC), whereas distraction was associated with decreased BEN in the posterior cingulate cortex/precuneus (PCC/PCu). Furthermore, rumination exhibited significantly increased BEN in the PCC/PCu relative to distraction. These results suggest that rumination is characterized by heightened temporal irregularity in regions supporting internal self-referential processing, accompanied by reduced engagement with external environmental information. The present study demonstrates the utility of BEN in elucidating the neural mechanisms of rumination, providing novel insights into how cognitive states are reflected in local brain activity patterns. These findings carry implications for both theoretical frameworks of ruminative cognition and the development of neuroimaging biomarkers for clinical applications in depression and related disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223178/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neural Plast",
+      "journal_issn": "1687-5443",
+      "published_date": "2026-06-01",
+      "date": "2026-06-02",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "[Progress in prognostic assessment methods for mild cognitive impairment].",
+      "summary": "Mild cognitive impairment (MCI), a key prodromal stage of dementia, requires precise prognostic assessment to delay disease progression. Given the high heterogeneity of MCI, any single indicator has limited predictive efficacy. Different clinical subtypes of MCI, such as amnestic MCI, non-amnestic MCI, and subjective cognitive decline, exhibit fundamental differences in pathological mechanisms and outcomes, forming the basis for stratified prognostic assessment. Abnormal sleep duration, physical functional decline, and psychiatric symptoms (depression, anxiety, apathy) are indicative of cognitive decline risk to varying degrees and can serve as clinical observational indicators for evaluating MCI prognosis. Neuropsychological assessment scales and instrumental activities of daily living assessments can characterize the features of cognitive impairment, but their results are susceptible to educational and cultural influences. Core cerebrospinal fluid (CSF) biomarkers, including amyloid β-protein (Aβ) 42, phosphorylated Tau protein (P-tau)181, and total tau protein (T-tau), are highly correlated with the core pathology of Alzheimer's disease and can accurately predict MCI prognosis. Plasma biomarkers such as P-tau217, neurofilament light chain, glial fibrillary acidic protein (GFAP), and the Aβ42/Aβ40 ratio are suitable for screening and follow-up; combining CSF and plasma biomarkers enhances predictive performance. In contrast, Serum markers like Klotho and insulin-like growth factor-1 lack specificity, and their independent predictive value requires further validation. Multimodal neuroimaging, including structural magnetic resonance imaging (MRI), functional MRI (revealing neural network compensation and decompensation), and positron emission tomography (PET) showing molecular pathological changes (Aβ deposition, Tau aggregation), can form a complete chain of evidence linking molecular events to clinical phenotypes. Intelligent prediction models, ranging from basic risk stratification and static integrated models to longitudinal dynamic prediction, significantly improve the fusion predictive performance of multimodal data. Consequently, the prognostic assessment of MCI is moving away from a single modality toward a stepwise integrated approach: primary screening adopts the combination of \"clinical information (including MCI subtype characteristics)+core neuropsychological assessment (focusing on delayed recall and executive function subtests of the Montreal Cognitive Assessment)+blood biomarkers (plasma P-tau217 and GFAP testing)\"; the precise diagnostic phase adds structural MRI to assess hippocampal atrophy; for difficult cases and research settings, CSF testing, Aβ-PET, and Tau-PET are further introduced. Future research should focus on constructing dynamic monitoring frameworks and deepening mechanistic exploration of modifiable risk factors, thereby advancing individualized prognostic management and early intervention strategies for MCI.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42226490/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Zhejiang Da Xue Xue Bao Yi Xue Ban",
+      "journal_issn": "1008-9292",
+      "published_date": "2026-05-31",
+      "date": "2026-06-02",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Spatio-temporal dynamics of brain function across depression severity in binge-type eating disorders.",
+      "summary": "Functional connectivity (FC) and intrinsic neural timescales (INT) characterize the spatio-temporal neural dynamics of binge-type eating disorders (EDs). We examined FC and INT abnormalities in visual-related regions of patients with binge-type EDs, focusing on the impact of depression severity. We recruited 72 patients with binge-type EDs and 39 healthy controls (HCs). Patients were divided into two groups: Group 1 (minimal/mild depression) and Group 2 (moderate/severe depression). FC alterations in key visual-related regions across three groups were analyzed using ANCOVA (P < 0.05, FWE-corrected). INT was further assessed in regions with significant FC changes (P < 0.05, FDR-corrected). Correlations of FC and INT with clinical measures, as well as between FC and INT, were examined. Seventeen brain subregions exhibited altered FC, with Group 2 showing more pronounced disruptions than Group 1 and HCs. These alterations primarily involved nodes within the sensorimotor, reward, and inhibitory control networks. Additionally, significant INT differences in the sensorimotor and heteromodal regions were observed between Group 2 and HCs. Correlation analyses suggested trend-level associations between FC and clinical characteristics, as well as between FC and INT in Group 2. Collectively, these findings indicate that FC and INT disruptions in visual-related regions are aggravated by depression severity in binge-type EDs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229637/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-02",
+      "date": "2026-06-02",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:35+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "[Progress in prognostic assessment methods for mild cognitive impairment].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42226490/",
+        "published_date": "2026-05-31",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Consistent Brain Entropy Changes During Rumination Across Three Magnetic Resonance Imaging Scanners.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223178/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Spatio-temporal dynamics of brain function across depression severity in binge-type eating disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42229637/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

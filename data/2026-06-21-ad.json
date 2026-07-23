@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-21",
+  "articles": [
+    {
+      "title": "Neuroimaging in older-age bipolar disorder.",
+      "summary": "PURPOSE OF REVIEW: This review summarizes neuroimaging studies designed to investigate cortical and subcortical brain changes in older adults with bipolar disorder (OABD). The imaging modalities discussed in the review include structural MRI, functional MRI (fMRI), diffusion tensor imaging (DTI) addressing white-matter microstructure, and functional and molecular neuroimaging with PET (18-F-FDG-PET, amyloid-PET, and tau-PET). RECENT FINDINGS: Although limited, the neuroimaging evidence in OABD points to cortical thinning, reduced gray matter volume, subcortical alterations, and decreased fractional anisotropy in white-matter tracts. Studies also report a 'brain age gap' in bipolar disorder, in which predicted brain age (as per neuroimaging scans) exceeds chronological age. SUMMARY: Neuroimaging research in OABD remains limited by methodological heterogeneity, including variable imaging protocols, differences in episode severity and frequency, the effects of pharmacological treatment and neurobiological changes associated with disease chronicity. These factors restrict comparability and generalizability across studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319208/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Curr Opin Psychiatry",
+      "journal_issn": "1473-6578",
+      "published_date": "2026-06-19",
+      "date": "2026-06-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:47+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neuroimaging in older-age bipolar disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42319208/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

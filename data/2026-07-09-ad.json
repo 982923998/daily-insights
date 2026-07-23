@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-09",
+  "articles": [
+    {
+      "title": "Microglial TDP-43 mediates myelin refinement and represses Tyrobp cryptic exon inclusion in mice.",
+      "summary": "TDP-43 proteinopathy is a hallmark of neurodegenerative disorders such as amyotrophic lateral sclerosis and frontotemporal dementia where mislocalization of TDP-43 has been observed in neurons and glial cells. However, the role of TDP-43 in microglia and the consequences of its loss of function remain unexplored. Combining magnetic resonance imaging, and confocal, and electron microscopy, we uncovered structural changes and myelin abnormalities in the early postnatal brain of mice lacking microglial TDP-43. Spatial transcriptomics further revealed an enriched interferon-responsive signature associated with oligodendrocyte dysfunction. Early depletion of microglial TDP-43 led to motor deficits in adult mice. Mechanistically, knocking out TDP-43 impaired microglial ability to engulf and degrade myelin. It also led to cryptic exon inclusion in the Tyrobp mRNA, resulting in truncated DAP12 protein, thus causing defective TREM2 signaling. Our findings reveal a role for TDP-43 in regulating the TREM2-DAP12 axis in mice, highlighting a previously unrecognized mechanism through which TDP-43 controls microglial function.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42420559/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "journal_issn": "1546-1726",
+      "published_date": "2026-07-08",
+      "date": "2026-07-09",
+      "impact_factor": 20.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NATURE NEUROSCIENCE"
+    },
+    {
+      "title": "The choroid plexus, cognitive decline, and incident dementia: insights from the UK Biobank.",
+      "summary": "The choroid plexus (CP) plays a crucial role in cerebrospinal fluid secretion and the maintenance of brain homeostasis. Its structure and function have been implicated in the pathogenesis of dementia; however, the longitudinal associations of CP with dementia and structural brain biomarkers remain unclear. This prospective cohort study utilized data from the UK Biobank, including 45,306 participants (mean age, 64 years; 47.2% men) who underwent 3.0 T multiparametric brain MRI scans. CP volume and signal intensity were quantified by FreeSurfer software. Measures of grey or white matter macrostructures or microstructures were derived from structural or diffusion MRI. Dementia outcomes were identified using linkage of hospital admission records or death register. Tests for global and domain-specific cognitive functions were administrated at baseline and follow up. Data were analyzed using Cox proportional hazards, Mendelian randomization, linear mixed-effects models, and mediation models. Advancing age was correlated with increased CP volume (R = 0.49, P < 0.001) and decreased CP signal intensity (R = -0.44, P < 0.001). Meanwhile, greater CP volume was associated with an increased risk of all-cause dementia (hazard ratio, 1.61; 95% confidence interval, 1.32-1.97), while higher CP intensity was correlated with a reduced dementia risk (0.44; 0.36-0.55). Reduced volumes of the hippocampus, amygdala, and nucleus accumbens, increased white matter hyperintensity volume, mean diffusivity, and isotropic compartment volume fraction, and decreased intracellular volume fraction significantly mediated up to 42.9% of these associations. This study provides evidence supporting a causal relationship between CP morphological parameters and dementia risk that is partly mediated by specific brain phenotypes, and further suggests that the CP parameters may be valuable biomarkers for structural brain aging and dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42426212/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-09",
+      "date": "2026-07-09",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:58+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The choroid plexus, cognitive decline, and incident dementia: insights from the UK Biobank.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42426212/",
+        "published_date": "2026-07-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Microglial TDP-43 mediates myelin refinement and represses Tyrobp cryptic exon inclusion in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42420559/",
+        "published_date": "2026-07-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

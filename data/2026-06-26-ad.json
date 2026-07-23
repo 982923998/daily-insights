@@ -1,0 +1,185 @@
+{
+  "date": "2026-06-26",
+  "articles": [
+    {
+      "title": "Decreased Nonpolar Amino Acids in Cerebrospinal Fluid of Alzheimer's Disease Patients Revealed by Very High-Field NMR Spectroscopy.",
+      "summary": "Alzheimer's disease (AD) is characterized by metabolic dysfunctions, making cerebrospinal fluid (CSF) an ideal biological matrix for characterizing brain metabolism. Very high-field 900 MHz nuclear magnetic resonance (NMR) spectroscopy was used to profile CSF metabolites from 47 patients (n = 27 AD, n = 20 non-AD). A total of forty-eight metabolites were identified and quantified. CSF concentrations of four nonpolar amino acids were reduced in AD: l-alanine (p = 0.001), l-valine (p = 0.02), l-leucine (p = 0.04), and l-phenylalanine (p = 0.04) (two-way ANOVA, pathology and sex as factors). No significant differences were observed for the other identified metabolites. A nonpolar amino acid factor (NAAF) was computed as the sum of these four metabolites (p < 0.001). Partial least-squares discriminant analysis (PLS-DA) based on the NAAF yielded moderate group separation (accuracy = 72%, Q2 = 0.22, p = 0.006). Receiver operating characteristic (ROC) analysis demonstrated that the NAAF achieved the highest discriminatory performance over individual nonpolar amino acids (AUC = 0.83). l-Alanine correlated negatively with CSF tau markers (p-tau: r = -0.40, p = 0.005; t-tau: r = -0.42, p = 0.003); the NAAF displayed similar patterns (p-tau: r = -0.38, p = 0.009; t-tau: r = -0.40, p = 0.006). Very high-field NMR spectroscopy revealed a depletion of nonpolar amino acids in AD CSF, reflecting metabolic dysregulation in this neurodegenerative disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42339780/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Proteome Res",
+      "journal_issn": "1535-3907",
+      "published_date": "2026-06-24",
+      "date": "2026-06-26",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The blood metabolome of brain health in midlife and influences of genes, microbiome and exposome.",
+      "summary": "Metabolic alterations are increasingly implicated in neurological disorders, including Alzheimer's disease (AD), highlighting the relevance of the peripheral metabolome, shaped by genetic and environmental exposures, for brain health. We examined the relation of 991 blood metabolites with cognition and magnetic resonance imaging (MRI) measures cross-sectionally in 1,082 dementia-free middle-aged participants of the population-based Rotterdam Study and quantified contributions of genetic variation, lifestyle, comorbidities, medication and gut microbiota to metabolite variance. Cognition-associated metabolites were replicated in two independent cohorts of older adults and tested for associations with incident AD longitudinally in one cohort. Twenty-two metabolites were associated with MRI measures. Fourteen metabolites showed replicated associations with cognition, with ergothioneine exhibiting the largest effect. The metabolite signature of cognition mirrored that of incident AD. Lifestyle, clinical variables and medication were the strongest determinants of cognition-associated and MRI-associated metabolites, explaining up to 28.6% of their variance. Antacid use was associated with worse cognition and lower ergothioneine levels, which mediated 31.5% of the negative medication effect, suggesting implications for AD prevention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42342913/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Aging",
+      "journal_issn": "2662-8465",
+      "published_date": "2026-06-24",
+      "date": "2026-06-26",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Reinforcement learning-driven adaptive game therapy for cognitive impairment patients with improved vision transformer based detection model.",
+      "summary": "BACKGROUND: Cognitive impairment is the growing challenge that requires early diagnosis and personalized management of neurodegenerative conditions like Alzheimer's disease. Neuroimaging modalities like Magnetic Resonance Imaging (MRI) provide valuable structural and functional insights into brain changes associated with cognitive decline. However, existing deep learning (DL) based diagnostic models have the challenges in non-consideration of long-range spatial dependencies and contextual information across brain slices that lead to suboptimal classification accuracy. METHODS: To overcome the limitations, this research introduces the framework that combines an Improved Vision Transformer (Im-ViT) with the Residual Simple Recurrent Unit (ResNet-SRU) based Multilayer Perceptron (MLP) to capture spatial and temporal dependencies in neuroimaging data. Preprocessing using Multiscale Gaussian Filter (MGF) enhances feature clarity by removing multiscale noise. In addition, the system integrates the Visual Working Memory (VWM)-based game therapy, where difficulty levels dynamically adapt using the proposed Iterative Hiking-based Reinforcement Learning (ItHRL) approach. RESULTS: The analysis of the proposed model based on various assessment measures like Accuracy, Recall, Precision, F-Score, Specificity, and Mean Squared Error (MSE) acquired the values of 99.62%, 99.33%, 98.97%, 99.56%, 99.62% and 0.018 respectively. CONCLUSIONS: The proposed model with combined detection and game therapy approach yield higher classification accuracy, faster convergence and patient engagement.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42351233/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "BMC Psychol",
+      "journal_issn": "2050-7283",
+      "published_date": "2026-06-25",
+      "date": "2026-06-26",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Incidental DWI-Positive Lesions in 2 Cohorts of CAA and CADASIL: Prevalence, Distribution, and Associations With Clinical Variables.",
+      "summary": "BACKGROUND AND OBJECTIVES: Incidental hyperintense lesions on diffusion-weighted imaging (DWI) are suggested as emerging marker of cerebral small vessel disease (SVD). To further determine their role in SVD, we aimed to describe their prevalence on high-resolution DWI in 2 distinct SVD types. Second, in each SVD type, we aimed to assess incidental DWI-positive lesion distribution and associations with clinical variables. METHODS: Data from 2 hospital-based prospective cohorts in the Netherlands and Germany were used, which included patients meeting the modified Boston criteria for probable cerebral amyloid angiopathy (CAA, BIONIC study) and patients with a confirmed diagnosis of cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL, VASCAMY study). In case of a stroke history, patients ≤3 months poststroke were excluded. 3T high-resolution baseline MRIs of patients with probable CAA and baseline, 18-month, and 36-month MRIs of patients with CADASIL were included. All MRI markers were rated following STRIVE-2. Within patient groups, we explored in univariable analyses the association between cardiovascular risk factors and MRI markers and incidental DWI-positive lesions and in multiple regression the association between fluid biomarkers and incidental DWI-positive lesions. RESULTS: Baseline data were available for 43 CAA patients (mean baseline age 71 ± 6 years, 44% female) and 75 CADASIL patients (mean baseline age 53 ± 9.9 years, 62% female). Cross-sectionally, incidental DWI-positive lesions were detected in 24/43 (56% [95% CI 41%-70%]) CAA patients and 16/75 (21% [95% CI 14%-32%]) CADASIL patients. In CAA, 65% of lesions were located in the cortex, whereas in CADASIL, 95% of lesions were located in the subcortical white or gray matter. In CAA patients, DWI-positive lesions were significantly associated with increased neurofilament light chain (NfL) in serum and CSF, but not with other CSF, MRI, or cardiovascular risk factors. In CADASIL patients, DWI-positive lesions were significantly associated with increased serum NfL, increased white matter hyperintensity volume and lacune presence. DISCUSSION: In CAA and CADASIL, the prevalence of incidental DWI-positive lesions is high, and lesions have disease-specific distribution, and associations with serum, CSF, and MRI biomarkers, suggesting that incidental DWI-positive lesions are a feature of SVD. Future studies should investigate their prognostic value.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42361280/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-26",
+      "date": "2026-06-26",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Atrophy in preclinical Alzheimer's disease maps to a network that predicts longitudinal decline.",
+      "summary": "Brain atrophy may precede cognitive and functional impairment in Alzheimer's disease (AD), but at this \"preclinical\" stage, it remains unclear whether atrophy localizes to specific brain networks and whether such localization is associated with clinical outcomes. We investigated cortical thickness in 1778 cognitively unimpaired (CU) older adults with amyloid-β (Aβ) PET from the A4 (Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease) and LEARN (Longitudinal Evaluation of Amyloid Risk and Neurodegeneration) studies, with a subset (N = 445) with tau PET. We estimated the networks disrupted by each individual's cortical thinning using a large normative connectome database (N = 1000), and tested whether this preclinical AD atrophy network is associated with clinical manifestations and longitudinal cognitive (PACC) and functional (CDR) trajectories. Distinct networks connected to atrophy patterns were associated with Aβ and regional tau in CU older adults. These networks were similar to a previously published atrophy network for AD dementia (Aβ: r = 0.817, P = 0.006; tau: r = 0.712, P = 0.046). Atrophy connectivity to this preclinical AD network was associated with higher Aβ and tau, independent of total cortical atrophy, and cross-sectionally with lower cognition, greater subjective cognitive decline, and increased anxiety; longitudinally, it predicted faster cognitive and functional decline over ~5 years. After tau adjustment, the functional-decline effect was preserved while the cognitive-slope effect was largely attenuated. Atrophy in preclinical AD localizes to a network resembling AD dementia, and is independently associated with AD pathologies, clinical outcomes, and longitudinal decline. Network-level neurodegeneration is detectable and clinically informative in preclinical AD, supporting future network-based research and therapeutic development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42362770/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-26",
+      "date": "2026-06-26",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "40 Hz biparietal transcranial alternating current stimulation for Alzheimer's disease: a prospective study.",
+      "summary": "BACKGROUND: Alzheimer's disease (AD) is characterized by dysfunction in multiple cognitive domains. Patients with AD demonstrate a relative attenuation and dysregulation of theta and gamma oscillations in the temporal and parietal lobes at an early stage. Transcranial alternating current stimulation (tACS) has been shown to modulate neural oscillations in different regions of the brain, affecting higher cognitive functions such as motor function, memory, and learning. OBJECTIVE: To observe the clinical efficacy and after-effects of biparietal 40 Hz tACS in treating AD patients, to analyze its safety and feasibility, and to deeply explore the effects of tACS on time-varying brain networks and dynamic functional connectivity. METHODS: In the study, patients with mild AD who were treated in the First Hospital of Hebei Medical University from October 2022 to August 2023 were recruited, randomly divided into tACS group or Sham group, and then respectively received either biparietal 40 Hz tACS or sham stimulation for 15 consecutive days, each lasting 30 min. Neuropsychological assessment scales were collected to assess the efficacy at three time points: pre-stimulation, post-stimulation, and 10-week follow-up. Additionally, transcranial magnetic stimulation with electroencephalography (TMS-EEG) and functional magnetic resonance imaging (fMRI) were collected to explore time-varying brain networks and functional connectivity. RESULTS: Patients with AD exhibited improvements in global cognition, memory, language, attention, and executive functions following tACS treatment compared with those before treatment. Additionally, the neuropsychiatric inventory scores were decreased significantly after tACS treatment. The clinical efficacies were not obvious in Sham group. These results indicated that tACS treatment had significant short-term efficacy and good stability. The brain time-varying EEG network patterns were analyzed using the adaptive directed transfer function. The analysis showed enhanced information flows from the temporal and prefrontal regions and from the posterior to anterior regions after tACS treatment. In contrast, decreased information flow was observed from the left to right frontal regions. The fMRI analysis revealed enhanced connectivity within default mode network and between default mode network and Frontoparietal network after active treatment. CONCLUSIONS: The 40 Hz biparietal tACS is a potentially safe and effective treatment for AD with certain long-term efficacy by modulating dynamic functional connectivity. TRIAL REGISTRATION: The trial was retrospectively registered at the Chinese Clinical Trial Registry (registration number: ChiCTR2500115019).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42363162/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-26",
+      "date": "2026-06-26",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:50+00:00",
+    "version": 1,
+    "summary": "Captured 6 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 6,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "40 Hz biparietal transcranial alternating current stimulation for Alzheimer's disease: a prospective study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42363162/",
+        "published_date": "2026-06-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Atrophy in preclinical Alzheimer's disease maps to a network that predicts longitudinal decline.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42362770/",
+        "published_date": "2026-06-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Incidental DWI-Positive Lesions in 2 Cohorts of CAA and CADASIL: Prevalence, Distribution, and Associations With Clinical Variables.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42361280/",
+        "published_date": "2026-06-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Reinforcement learning-driven adaptive game therapy for cognitive impairment patients with improved vision transformer based detection model.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42351233/",
+        "published_date": "2026-06-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Decreased Nonpolar Amino Acids in Cerebrospinal Fluid of Alzheimer's Disease Patients Revealed by Very High-Field NMR Spectroscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42339780/",
+        "published_date": "2026-06-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The blood metabolome of brain health in midlife and influences of genes, microbiome and exposome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42342913/",
+        "published_date": "2026-06-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

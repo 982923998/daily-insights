@@ -1,0 +1,211 @@
+{
+  "date": "2026-06-12",
+  "articles": [
+    {
+      "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+      "summary": "BACKGROUND: Dementia with Lewy bodies shares clinical and pathological features with both Parkinson's disease and Alzheimer's disease, but the local biological factors that render specific cortical regions vulnerable to atrophy remain poorly defined. In particular, it is unclear whether cortical thinning in dementia with Lewy bodies reflects generic neurodegenerative mechanisms, processes shared with Parkinson's disease and Alzheimer's disease, or dementia with Lewy bodies-specific molecular and network susceptibilities. METHODS: A total of 89 patients with dementia with Lewy bodies and 89 matched controls underwent T1-weighted brain MRI. Scans were processed to generate surface-based cortical thickness maps. Regional cortical thickness estimates, after slice-by-slice manual correction, were mapped to gene expression data from healthy postmortem human brains to identify transcriptomic signatures associated with decreased thickness in dementia with Lewy bodies. We assessed whether genes whose expression was increased with regional thinning converged onto established Parkinson's disease- and Alzheimer's disease-related pathways and identified genes uniquely implicated in dementia with Lewy bodies. Spatial annotation mapping was then used to test whether patterns of cortical thinning overlapped with in vivo neurotransmitter system distributions and whether the observed thickness pattern was constrained by large-scale structural connectivity, consistent with a network-based propagation process. RESULTS: Cortical thinning predominated in regions that, in the healthy brain, show higher expression of genes involved in mitochondrial function and synaptic transmission. The transcriptomic profile associated with thinning significantly overlapped with genes belonging to Parkinson's disease and Alzheimer's disease pathways, supporting shared pathogenic mechanisms across Lewy body- and Alzheimer-type neurodegeneration. However, 90 genes associated with cortical thinning did not overlap with Parkinson's disease or Alzheimer's disease pathways and were enriched for GABAergic signalling. Spatial mapping analyses showed that regions with greatest thickness reductions colocalized with GABAA, serotoninergic 5-HT1A, 5-HT1B, 5-HT4, and dopaminergic D2 receptor distributions, and that the thickness pattern followed structural connectivity. CONCLUSIONS: MRI-derived cortical thickness changes in dementia with Lewy bodies reflect selective molecular and network vulnerabilities rather than a non-specific degenerative process. Mitochondrial and synaptic genes, together with a distinct GABAergic association and connectivity constraints, delineate mechanisms explaining why some cortical territories are more affected in dementia with Lewy bodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Biomed Sci",
+      "journal_issn": "1423-0127",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The 25-Year Evolution of Lithium as a Disease-Modifying Agent in Dementia: A Narrative Review.",
+      "summary": "IMPORTANCE: Lithium, a long-established cornerstone therapy for bipolar disorder, is a biologically plausible disease-modifying agent for neurodegenerative disorders, including mild cognitive impairment (MCI) and Alzheimer disease (AD). OBSERVATIONS: Rather than targeting a single pathology like amyloid or tau, lithium acts across multiple cellular resilience pathways. Chronic lithium exposure induces the anti-apoptotic protein B-cell lymphoma 2 (Bcl-2), enhances brain-derived neurotrophic factor (BDNF) signaling, inhibits glycogen synthase kinase-3β (GSK-3β), stabilizes mitochondrial function, and reduces oxidative stress. These convergent mechanisms promote neuronal survival and synaptic integrity. In humans, proton magnetic resonance spectroscopy studies found that lithium increased N-acetylaspartate levels, consistent with improved neuronal viability, and structural magnetic resonance imaging (MRI) studies found that lithium preserved gray matter and/or reversed illness-related atrophy in hippocampal and corticolimbic regions. In addition, extensive evidence demonstrates that low-dose lithium (approximately 0.3mM)-significantly lower than traditional psychiatric doses (0.6-1.0mM)-exerts robust neurotrophic and neuroprotective effects. Preclinical models have found that these concentrations stimulate hippocampal neurogenesis, promote structural plasticity, and protect against proteotoxic injury. Furthermore, epidemiological studies have associated cumulative lithium exposure with reduced dementia risk, and early randomized clinical trials in MCI suggest cognitive stabilization and favorable tau biomarker changes at low, well-tolerated doses. The recent repletion hypothesis suggests that lithium may also function as a physiological trace element, but these findings await independent replication. CONCLUSIONS AND RELEVANCE: These convergent data support a prospective clinical trial of low-dose lithium orotate to slow disease progression in MCI. Such an approach would prioritize established neuroprotective mechanisms while potentially mitigating the kidney and thyroid risks associated with higher-dose carbonate formulations. If low-dose lithium can indeed meaningfully alter disease trajectory, it would represent a much-needed, accessible, and inexpensive treatment that may be especially relevant in low- and middle-income countries.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42268602/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "JAMA Psychiatry",
+      "journal_issn": "2168-6238",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Bidirectional causal relationships between plasma proteins, neuroimaging metrics and risk of Alzheimer's disease.",
+      "summary": "BACKGROUND: Changes in neuroimaging metrics are among the first detectable pathophysiological alterations in Alzheimer's disease (AD). Proteins are closely linked to fluctuations in neuroimaging metrics. Therefore, the analysis of the proteomic signature associated with neuroimaging metrics holds significant promise for uncovering therapeutic targets that contribute to AD. METHODS: GWAS data concerning the Brain Imaging Data Structure (BIDs). The AD cohort comprised a total of 401,661 individuals diagnosed with AD, alongside 10,520 control participants. For a bidirectional MR analysis involving neuroimaging metrics, proteomics, and AD, the methods utilized included inverse variance weighted (IVW), MR Egger, weighted median, weighted mode, and the Wald ratio approaches. RESULTS: We identified 12 neuroimaging metrics that demonstrate significant relevance to AD (thickness of the left total hemisphere, volume of the right thalamus, and et al.). These metrics are structural magnetic resonance imaging (MRI) biomarkers that remain stable throughout the entire course of AD, from the preclinical stage through mild cognitive impairment (MCI) to dementia. Additionally, we found a substantial number of 1633 proteins that also show a noteworthy causal relationship with AD. Functional enrichment analysis indicated that these proteins were predominantly focused within various pathways linked to AD, encompassing those involved in the synaptic vesicle cycle, synaptic membranes, neurotransmitter release, and the activity of GABA receptors. In addition, our research indicates that the significant relationships observed between the identified proteins and AD are influenced by neuroimaging metrics. Notably, we found that these neuroimaging metrics play a crucial role in mediating a substantial 67% of the inverse relationship that exists between PTPRC and the phenotypic characteristics associated with AD. CONCLUSIONS: This study successfully establishes a connection between proteomic and neuroimaging metrics, as well as the AD that influence them. By creating this relationship, the research offers important information that aids in comprehending the intricate mechanisms involved in AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42269324/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Prev Alzheimers Dis",
+      "journal_issn": "2426-0266",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Cerebellar aging is spatially heterogeneous and supports cognitive resilience in later life.",
+      "summary": "The cerebellum contains most of the brain's neurons and supports many functions, yet how it changes with age remains unclear. Here we used three brain imaging studies spanning 47,000 adults and examined how different parts of the cerebellum age and their relation to cognition. We characterized cerebellar aging using volumetry and the T1-weighted/T2-weighted ratio, and corroborated these findings with quantitative magnetic resonance imaging in an independent sample. We show a spatially heterogeneous pattern of aging in which specific association and motor-related regions show steeper relationships with age than other lobules. Greater cerebellar volume was associated with higher cognitive scores with increasing age, suggesting that cerebellar structure may provide brain reserve that helps maintain function despite aging. In patients with Alzheimer's disease, cerebellar volume was linked to cognition in individuals with lower amyloid burden, especially in those carrying two copies of the APOE-ε4 risk gene. This supports a threshold-reserve model, in which the cerebellum helps sustain cognition until pathology becomes widespread. These results show that the cerebellum has an active role in healthy cognitive aging and resilience.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42271047/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "journal_issn": "1546-1726",
+      "published_date": "2026-06-10",
+      "date": "2026-06-12",
+      "impact_factor": 20.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NATURE NEUROSCIENCE"
+    },
+    {
+      "title": "Amyloid-Related Imaging Abnormalities in Anti-amyloid Therapy: Clinical Implications of Kinetics for Safer Use and Risk Stratification.",
+      "summary": "Anti-amyloid monoclonal antibodies have emerged as disease-modifying therapies for Alzheimer's disease. However, their broader clinical adoption is limited by amyloid-related imaging abnormalities, a key safety concern. Traditionally viewed as an unavoidable and dose-dependent adverse effect, amyloid-related imaging abnormalities often lead to treatment interruption or the exclusion of high-risk patients from therapy. Emerging evidence now suggests that amyloid-related imaging abnormalities may instead reflect a transient modifiable cerebrovascular response, primarily influenced by the kinetics of amyloid clearance rather than the absolute magnitude of amyloid removal. Recent data from titration-based dosing strategies demonstrate that gradual amyloid mobilization can significantly reduce the incidence of amyloid-related imaging abnormalities without compromising amyloid positron emission tomography responses or downstream biomarkers. This kinetic perspective may support a more nuanced re-evaluation of patient groups previously deemed unsuitable for therapy, including APOE ε4 carriers, individuals with cerebral microbleeds, and patients on antithrombotic treatment. In this Current Opinion, we propose a pragmatic clinical framework that integrates amyloid clearance kinetics, magnetic resonance imaging-based risk stratification, and individualized protocols for treatment interruption and re-challenge. By reframing amyloid-related imaging abnormalities as a modifiable clinical decision-making challenge rather than an inherent toxicity, anti-amyloid therapies may be optimized for safer use; however, whether such approaches can enable broader and more inclusive treatment strategies remains to be established in prospective studies, particularly in high-risk populations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42283996/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Clin Drug Investig",
+      "journal_issn": "1179-1918",
+      "published_date": "2026-06-12",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Relationships between glucose variability with white matter hyperintensity and cerebrovascular abnormalities.",
+      "summary": "OBJECTIVE: Epidemiological studies have revealed that glucose variability (GV) is a predictor of stroke, cognitive impairment, and dementia in patients with type 2 diabetes mellitus (T2DM). However, evidence on the associations of GV with white matter hyperintensity (WMH) and cerebrovascular abnormalities remains scarce. This study aimed to explore the relationships of GV with WMH and cerebrovascular abnormalities using epidemiological and Mendelian randomization (MR) approaches. The MR approach was used to assess the effects of genetic proxies for GV on MRI outcomes. SUBJECTS AND METHODS: This cross-sectional study was conducted at a medical center where patients with T2DM were recruited. The measures for fasting plasma glucose (FPG) and HbA1c variability included the standard deviation, coefficient of variation, average real variability (ARV), and variability independent of the mean (VIM). Brain magnetic resonance images were analyzed to assess WMHs and cerebrovascular abnormalities. For MR, instrumental variables were used to assess the causal relationships between glycemic variability and outcome based on two-stage regression analysis. RESULTS: This study included 2,247 subjects, of whom 1,122 had WMH and 957 had cerebrovascular abnormalities. We found 80 independent single-nucleotide polymorphisms associated with GV but not with WMH or cerebrovascular abnormalities, which were subsequently used as genetic instruments. Genetically increased, unweighted FPG-VIM was linked with WMH (odds ratio 1.17 [95% CI 1.08, 1.27] per standard deviation). All genetically increased, unweighted and weighted GV measures were associated with cerebrovascular abnormalities, except FPG-ARV. CONCLUSION: Our study provided evidence that genetically predicted GV was associated with WMH and cerebrovascular abnormalities, supporting a potential causal link under MR assumptions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42284519/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Arch Endocrinol Metab",
+      "journal_issn": "2359-4292",
+      "published_date": "2026-06-12",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Race and Ethnicity, Hypertension, and Neuroimaging Markers of Brain Aging: A Causal Mediation Analysis in the HABS-HD Study.",
+      "summary": "BACKGROUND AND OBJECTIVES: The mechanisms underlying racial/ethnic differences in dementia incidence and pathology are multifactorial, and hypertension represents an actionable target for reducing these differences. We aimed to estimate the extent to which controlling for hypertension mediates racial/ethnic inequities in neuroimaging markers of brain aging. METHODS: The Health and Aging Brain Study-Health Disparities cohort is a highly phenotyped, racially and ethnically diverse cohort of cognitive aging. We used marginal structural models with inverse probability weights to estimate total and controlled direct effects of race/ethnicity, hypertension, and systolic blood pressure (SBP) at baseline, with neuroimaging markers measured on average 2 years later. Neuroimaging markers of brain aging were measured at the 2-year follow-up. RESULTS: Among Black and Hispanic participants with any neuroimaging data at the second visit (overall N = 1,347), 68% and 71% were women, 75% and 67% had hypertension, and the mean age was 61 and 63 years, respectively. Black and Hispanic participants had greater white matter hyperintensity volume (WMHV) compared with non-Hispanic White (NHW) participants (n = 1,333, β [95% CI]: Black 2.08 [1.68-2.59], Hispanic 0.99 [0.91-1.08]). After analytically setting hypertension status to absent, Black-NHW inequities in WMHV were attenuated (β [95% CI]: 1.3 [1.01-1.65]). Black participants had lower amyloid deposition compared with NHW participants (n = 679, β [95% CI]: -0.29 [-0.46 to -0.12]), but analytically controlling for hypertension did not appreciably change estimates. Compared with NHW participants, Hispanic participants had lower Alzheimer disease meta-region of interest cortical thickness (n = 1,005, β [95% CI]: -0.20 [-0.34 to -0.07]), but neither hypertension nor SBP significantly mediated this difference. Medial temporal lobe tau-PET standardized uptake value ratio did not significantly differ in Black or Hispanic participants compared with NHW participants (n = 408). DISCUSSION: Black-NHW inequities in subclinical cerebral small vessel disease may be mitigated by population-level efforts to reduce hypertension prevalence. Future studies should extend this work to examine clinical outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42284535/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-12",
+      "date": "2026-06-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:41+00:00",
+    "version": 1,
+    "summary": "Captured 7 research items. Preference focus is brain-imaging analysis and disease mechanisms: 7 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 7; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 7,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 7
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The 25-Year Evolution of Lithium as a Disease-Modifying Agent in Dementia: A Narrative Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42268602/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Race and Ethnicity, Hypertension, and Neuroimaging Markers of Brain Aging: A Causal Mediation Analysis in the HABS-HD Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42284535/",
+        "published_date": "2026-06-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Bidirectional causal relationships between plasma proteins, neuroimaging metrics and risk of Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42269324/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Amyloid-Related Imaging Abnormalities in Anti-amyloid Therapy: Clinical Implications of Kinetics for Safer Use and Risk Stratification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42283996/",
+        "published_date": "2026-06-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebellar aging is spatially heterogeneous and supports cognitive resilience in later life.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42271047/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Relationships between glucose variability with white matter hyperintensity and cerebrovascular abnormalities.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42284519/",
+        "published_date": "2026-06-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

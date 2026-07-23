@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-21",
+  "articles": [
+    {
+      "title": "Aberrant Nodal Topological Properties and Functional Connectivity of Amygdala Subregions Underlie Emotion-Visceral Integration Impairment in IBS With Depressive Symptoms.",
+      "summary": "BACKGROUND: Irritable bowel syndrome (IBS) is a common disorder of brain-gut interaction frequently co-occurs with depressive symptoms (dIBS). The amygdala is a critical hub for emotion-visceral integration and exhibits functional heterogeneity across its subregions. However, subregion-specific network alterations in dIBS remain unclear. METHODS: Forty-nine IBS patients and 36 demographically matched healthy controls (HCs) completed resting-state functional magnetic resonance imaging (rs-fMRI) and clinical assessments. Patients were stratified into dIBS (n = 28) and nondepressive IBS (ndIBS, n = 21) groups. Bilateral lateral amygdala (lAmyg) and medial amygdala (mAmyg) were selected as seeds for graph-theoretical nodal metrics and seed-based functional connectivity (FC) analyses. One-way analysis of covariance with post hoc comparisons was performed to assess intergroup differences. Correlation, mediation, and receiver operating characteristic (ROC) analyses were further conducted. RESULTS: Compared with ndIBS patients, dIBS patients exhibited increased degree centrality (DC) and nodal efficiency (Ne) in the left lAmyg, which were positively associated with depressive symptom severity. In addition, dIBS patients showed widespread hypoconnectivity between amygdala subregions and prefrontal and sensorimotor regions, including the medial superior frontal gyrus, postcentral gyrus, and thalamus. These FC alterations were correlated with clinical symptoms severity. Notably, the mAmyg-related FC in superior frontal gyrus and thalamus showed mediation effects linking gastrointestinal symptoms and depressive symptoms and exhibited high accuracy in distinguishing dIBS from ndIBS (area under the curves, AUCs > 0.8). CONCLUSION: Aberrant nodal properties and disrupted connectivity of amygdala subregions may reflect altered emotion-visceral integration in dIBS. These findings provide neuroimaging evidence for brain-gut interaction abnormalities in dIBS and suggest that amygdala subregional networks may serve as potential markers for symptom stratification and targeted interventions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473891/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neural Plast",
+      "journal_issn": "1687-5443",
+      "published_date": "2026-07-20",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Brain contrastive modeling reveals depression subtypes with distinct treatment response and progression.",
+      "summary": "Major Depressive Disorder (MDD) is highly heterogeneous, limiting treatment efficacy. Despite efforts to delineate patient heterogeneity through subtyping, current approaches remain limited by noise, lack of clinical applicability, and insufficient external validation. Crucially, they focus on subtyping while neglecting staging information (e.g., illness duration). We developed BrainCVAE, a contrastive variational autoencoder, to disentangle MDD-specific neural features. Applying BrainCVAE to fALFF-derived resting-state fMRI from 1590 patients and 1308 controls identified two subtypes: Subtype 1 with hyperactivity in visual, attention, and default mode networks, and Subtype 2 with hypoactivity. Subtypes were validated in 1276 patients across independent centers. Subtype 1 showed superior responsiveness to pharmacological (SSRIs, SNRIs) and non-pharmacological (rTMS) interventions. Cross-sectional analyses revealed subtype-specific differences in DMN profiles across illness duration: Subtype 1 shifted from hyper- to hypoactivity, whereas Subtype 2 remained consistently hypoactive. In an independent dataset, illness duration correlated negatively with symptom reduction (r = -0.5565, 95% CI = (-0.8123, -0.1210), p = 0.0165). Datasets were ethically approved and registered on ClinicalTrials.gov: XJ_QG (NCT05577481, May 24, 2023), SAINT (NCT04653337, Oct 21, 2020), XJ_KG (NCT05544071, May 24, 2023). Integrating subtyping with illness staging bridges neurobiological heterogeneity and disease progression, providing a clinically actionable framework for precision treatment in MDD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477489/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "NPJ Digit Med",
+      "journal_issn": "2398-6352",
+      "published_date": "2026-07-20",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Brain aging patterns among nine neurological disorders: A case-control study.",
+      "summary": "BACKGROUND: The difference between neuroimaging-predicted brain age and chronological age, the predicted age difference (PAD), has been studied as a potential biomarker reflecting individual brain health. Although previous large-scale studies have shown that brain age deviations occur across multiple disorders, cross-disorder comparisons of PAD within a unified framework, together with identification of the neuroimaging features associated with these differences and their related gene expression profiles, remain limited. Our aims are to systematically compare brain aging across multiple common brain disorders and explore the brain patterns and biological processes underlying these differences. METHODS AND FINDINGS: In this study, structural MRI data from 45,900 healthy controls (HCs) and 2,698 patients with developmental disorders (attention-deficit/hyperactivity disorder [ADHD] and autism spectrum disorder [ASD]), addiction (alcohol use disorder [AUD], tobacco use disorder [TUD], and AUD&TUD-A&TUD), dementia (Alzheimer's disease [AD], and mild cognitive impairment [MCI]) or other psychiatric disorders (schizophrenia [SZ], bipolar disorder [BP], and major depressive disorder [MDD]), were collected to generate PAD, along with transcriptome data. Then, we calculated the PAD difference between patient and HC as Cohen's d effect sizes, derived from a linear model that accounted for age, age2, sex, and site, and further identified the interpretable brain patterns associated with the PAD difference for each diagnostic group. Finally, enrichment analyses was conducted to identify the biological function of genes relatively over- or underexpressed in association with these patterns. Results showed that while PAD was consistently greater across disorders, different brain disorders showed different degrees of abnormality, the highest effects in dementia (AD: d = 0.97, 95% confidence interval (CI) [0.82,1.13]; p < 0.001 and MCI: d = 0.45, 95% CI [0.34,0.56]; p < 0.001), followed by addiction (A&TUD: d = 0.84, 95% CI [0.44,1.23]; p < 0.001, TUD: d = 0.72, 95% CI [0.49,0.96]; p < 0.001, and AUD d = 0.62, 95% CI [0.39,0.84]; p < 0.001) and psychiatric disorders (SZ: d = 0.53, 95% CI [0.30,0.76]; p < 0.001, BP: d = 0.46, 95% CI [0.22,0.69]; p < 0.001 and MDD: d = 0.28, 95% CI [0.11,0.46]; p < 0.001), but not different from expected in developmental disorders (ASD: d = 0.06, 95% CI [-0.04,0.16]; p = 0.36) and ADHD: d = 0.01, 95% CI [-0.14,0.15]; p = 0.98). Furthermore, higher PAD values in patient groups were linked to specific spatial brain patterns, including the frontotemporal network in psychiatric disorders, default mode network-salience network-putamen-thalamus in addiction and fronto-occipital network in dementia. Prefrontal cortex involvement was common across disorders, and disorder-specific brain patterns associated genes were enriched in different biological processes. A limitation of our study is that psychiatric disorders and addiction have high comorbidity, and these potential confounders were not considered. CONCLUSIONS: In summary, the different brain aging patterns, each based around specific underlying circuits, may serve as neuroimaging biomarkers for understanding the neural aging mechanisms in commonly occurring brain disorders. Future studies should test whether these disorder-specific brain aging patterns can serve as useful biomarkers to guide critical clinical decision-making.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479667/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "PLoS Med",
+      "journal_issn": "1549-1676",
+      "published_date": "2026-07-21",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:05+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain aging patterns among nine neurological disorders: A case-control study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479667/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Aberrant Nodal Topological Properties and Functional Connectivity of Amygdala Subregions Underlie Emotion-Visceral Integration Impairment in IBS With Depressive Symptoms.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42473891/",
+        "published_date": "2026-07-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain contrastive modeling reveals depression subtypes with distinct treatment response and progression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42477489/",
+        "published_date": "2026-07-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

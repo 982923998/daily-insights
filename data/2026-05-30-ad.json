@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-30",
+  "articles": [
+    {
+      "title": "Integrated imaging and molecular profiling reveals APOE4-associated neurovascular and glial disruptions in young adult mice.",
+      "summary": "BACKGROUND: The Apolipoprotein-E ε4 (APOE4) allele is the strongest genetic risk factor for late-onset Alzheimer's disease (LOAD) and may contribute to neurodegeneration through a multi-hit hypothesis, in which vascular dysfunction, glial activation, and impaired lipid metabolism play central roles. Alterations in neurovascular unit (NVU) have emerged as an early APOE4-related phenotype, independent of amyloid and tau pathology. Astrocytes, as the primary source of APOE in the brain and key regulators of NVU homeostasis, may play a central role in these processes. This study investigates APOE4-associated NVU water exchange dynamics and astrocyte-vascular interactions using integrated in vivo MRI, ex vivo histology, and transcriptomic profiling. METHODS: Non-contrast multimodal MRI, including multi-echo time arterial spin labeling (multi-TE ASL), T1-weighted imaging, and diffusion-weighted MRI, were applied in 6-9-month-old APOE3-KI and APOE4-KI mice. Multi-TE ASL was used to estimate regional NVU water exchange dynamics, while diffusion MRI assessed tissue microstructural alterations. Immunohistochemistry evaluated perivascular matrix metalloproteinase-9 (MMP9) activity, vascular-associated markers, astrocytic AQP4 expression, and glial reactivity. Single-nucleus RNA sequencing (snRNAseq) characterized cell-type-specific transcriptional profiles, and inferred cell-cell communication analysis between astrocytes, pericytes, and other NVU components. Integrated analyses compared MRI-derived measures with molecular and cellular findings. RESULTS: APOE4-KI mice showed regionally specific alterations in NVU water exchange dynamics, particularly in the hippocampus, accompanied by trends toward altered microstructural complexity. Immunohistochemistry demonstrated increased perivascular MMP9 expression and evidence of extracellular matrix remodeling without prominent structural disruption of blood-brain barrier (BBB) markers in APOE4 mice. Astrocytes showed increased AQP4 expression, heightened proinflammatory gene signatures, and morphological reactivity. Molecular findings aligned with MRI, supporting the sensitivity of non-contrast MRI to early NVU alterations. Exploratory snRNAseq suggested an APOE4-enriched astrocyte subpopulation associated with immune activation and matrix-related pathways and suggested potential glial-vascular interactions that require validation in larger samples. CONCLUSIONS: This integrated imaging and molecular analysis suggests that non-contrast multimodal MRI detects early APOE4-related changes in NVU exchange dynamics and glial-vascular interactions. By providing converging multiscale neuroimaging and cellular observations, this work provides a foundation for developing non-invasive biomarkers to monitor neurovascular vulnerability and guide early intervention strategies in individuals at risk for LOAD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42210271/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neuroinflammation",
+      "journal_issn": "1742-2094",
+      "published_date": "2026-05-28",
+      "date": "2026-05-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A survey of deep learning techniques in detecting neurological disorders using MRI.",
+      "summary": "Magnetic resonance imaging (MRI) is widely regarded as the most reliable non-invasive imaging modality for detecting neurological disorders. However, manual interpretation of MRI scans is often time-consuming and prone to inter-observer variability, which can lead to inconsistencies in diagnosis. The global burden of neurological disorders-including Alzheimer's disease, brain tumors, Parkinson's disease, multiple sclerosis, and schizophrenia-continues to increase, creating an urgent demand for accurate, scalable, and automated diagnostic solutions. In recent years, deep learning (DL) has emerged as a powerful paradigm for medical image analysis, enabling automated feature extraction and improved diagnostic performance in neuroimaging applications. This survey provides a comprehensive analysis of deep learning approaches for MRI-based detection of neurological disorders. A systematic review of 47 research articles published between 2019 and 2025 is conducted, covering over 40 deep learning architectures evaluated on 34 publicly available and clinical datasets. The study categorizes and critically examines convolutional neural networks (CNNs), Vision Transformers (ViTs), hybrid CNN-Transformer models, and other specialized deep learning frameworks developed for neurological disease detection and classification. Comparative analyses are presented across different neurological conditions, highlighting model performance, dataset characteristics, evaluation protocols, and computational requirements. Furthermore, the survey identifies emerging architectural trends and evaluates the relative strengths and limitations of existing approaches with respect to generalization, interpretability, and clinical applicability. Key research gaps are highlighted, including limited cross-institutional validation, dataset heterogeneity, insufficient explainability, and challenges in real-world clinical deployment. Finally, the paper outlines promising research directions such as multimodal learning, self-supervised representation learning, and robust cross-domain generalization to enhance the reliability and clinical translation of MRI-based deep learning systems.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42216001/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Biomed Eng Online",
+      "journal_issn": "1475-925X",
+      "published_date": "2026-05-29",
+      "date": "2026-05-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The physiological effects of APOE genotype in healthy young/middle-aged individuals.",
+      "summary": "The apolipoprotein E ε4 (APOE4) allele is a risk factor for cardiovascular disease and for multiple neurodegenerative diseases, most notably Alzheimer's disease (AD). However, in healthy infants to adults, the encoded apolipoprotein E protein plays a role in many physiological functions, in both the periphery and in the brain, which can help us understand the biological contribution of this protein to disease. This review aims to describe the role of APOE genotype in a wide range of human physiological processes in healthy young/middle-aged individuals, including reproduction, cardiovascular health, inflammation, lipid metabolism, cognition, and brain structure/function, as well as how APOE genotype mediates the effects of external factors in these individuals, such as traumatic brain injury, pollution, lifestyle factors, and viral infections. The research covered in this review demonstrates that a person's APOE genotype affects a wide array of human physiological processes, from infancy to adulthood, with important differences observed in male and female study participants. We also discuss the evolutionary involvement and the 'antagonistic pleiotropy' hypothesis of APOE4. Understanding the biology and the mechanisms that are affected by APOE genotype in healthy young/middle-aged individuals is vital for understanding how this common allele contributes to the development of cardiovascular and neurodegenerative diseases, and how these diseases can be prevented.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42216420/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Biol Rev Camb Philos Soc",
+      "journal_issn": "1469-185X",
+      "published_date": "2026-05-29",
+      "date": "2026-05-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:33+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "A survey of deep learning techniques in detecting neurological disorders using MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42216001/",
+        "published_date": "2026-05-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Integrated imaging and molecular profiling reveals APOE4-associated neurovascular and glial disruptions in young adult mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42210271/",
+        "published_date": "2026-05-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The physiological effects of APOE genotype in healthy young/middle-aged individuals.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42216420/",
+        "published_date": "2026-05-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

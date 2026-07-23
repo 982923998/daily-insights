@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-03",
+  "articles": [
+    {
+      "title": "Consistent Brain Entropy Changes During Rumination Across Three Magnetic Resonance Imaging Scanners.",
+      "summary": "Rumination, characterized by repetitive and self-referential thinking, is closely linked to depression and a broad range of psychiatric disorders. However, previous research has predominantly relied on task activation or network-level approaches, leaving critical gaps in our understanding of local brain activity dynamics during ruminative states. To address this, we employed brain entropy (BEN), a novel functional magnetic resonance imaging (fMRI)-based neuroimaging measure, to quantify the temporal irregularity and complexity of local brain activity during rumination. We analyzed a publicly available dataset comprising 41 healthy adults who completed identical fMRI tasks across three MRI scanners. Each scanning session included four conditions: resting state, sad memory, rumination, and distraction. Voxel-wise BEN analyses were conducted to examine condition-related differences, with brain regions showing consistent patterns across all three scanners at p < 0.05 considered statistically significant. Our findings revealed distinct neural signatures associated with different cognitive states. Compared to sad memory, rumination was associated with decreased BEN in the visual cortex (VC), whereas distraction was associated with decreased BEN in the posterior cingulate cortex/precuneus (PCC/PCu). Furthermore, rumination exhibited significantly increased BEN in the PCC/PCu relative to distraction. These results suggest that rumination is characterized by heightened temporal irregularity in regions supporting internal self-referential processing, accompanied by reduced engagement with external environmental information. The present study demonstrates the utility of BEN in elucidating the neural mechanisms of rumination, providing novel insights into how cognitive states are reflected in local brain activity patterns. These findings carry implications for both theoretical frameworks of ruminative cognition and the development of neuroimaging biomarkers for clinical applications in depression and related disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223178/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neural Plast",
+      "journal_issn": "1687-5443",
+      "published_date": "2026-06-01",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Spatio-temporal dynamics of brain function across depression severity in binge-type eating disorders.",
+      "summary": "Functional connectivity (FC) and intrinsic neural timescales (INT) characterize the spatio-temporal neural dynamics of binge-type eating disorders (EDs). We examined FC and INT abnormalities in visual-related regions of patients with binge-type EDs, focusing on the impact of depression severity. We recruited 72 patients with binge-type EDs and 39 healthy controls (HCs). Patients were divided into two groups: Group 1 (minimal/mild depression) and Group 2 (moderate/severe depression). FC alterations in key visual-related regions across three groups were analyzed using ANCOVA (P < 0.05, FWE-corrected). INT was further assessed in regions with significant FC changes (P < 0.05, FDR-corrected). Correlations of FC and INT with clinical measures, as well as between FC and INT, were examined. Seventeen brain subregions exhibited altered FC, with Group 2 showing more pronounced disruptions than Group 1 and HCs. These alterations primarily involved nodes within the sensorimotor, reward, and inhibitory control networks. Additionally, significant INT differences in the sensorimotor and heteromodal regions were observed between Group 2 and HCs. Correlation analyses suggested trend-level associations between FC and clinical characteristics, as well as between FC and INT in Group 2. Collectively, these findings indicate that FC and INT disruptions in visual-related regions are aggravated by depression severity in binge-type EDs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229637/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-02",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Subacute frontoinsular-cingulate tract changes in unvaccinated COVID-19 survivors: A tract-based spatial statistics study of diffusion tensor imaging.",
+      "summary": "BACKGROUND AND OBJECTIVES: Post-recovery brain changes following Coronavirus Disease 2019 (COVID-19) have been reported using various imaging techniques. The objective was to identify microstructural abnormalities between groups in specific fiber tracts using tract-based spatial statistics (TBSS) of diffusion tensor imaging (DTI), along with region-specific quantitative analysis of T1 relaxation times (qT1) and volumes. METHODS: This single-center, prospective, observational case-control study included adults ≥ 3 months after severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) antigen positivity, matched by age and gender with seronegative controls, and categorized by initial infection severity and an age cut-off of 40. MRI included: (1) 2 mm DTI generating fractional anisotropy (FA), mean (MD), radial (RD), and axial diffusivity (AD) maps; (2) two 3D 1 mm³ gradient-echo datasets for mapping T1 relaxation times (qT1) and creating synthetic high-resolution T1 images; (3) 3 mm 2D fluid-attenuated inversion recovery (FLAIR) images. Baseline characteristics and neuro(psycho)logical assessments including olfactory function, Beck Depression Inventory, Epworth Sleepiness Scale, Pittsburgh Sleep Quality Index, EQ-5D, and Montreal cognitive assessment were also recorded. RESULTS: Between November 2020 and December 2021, 145 unvaccinated subjects (median age, 46 years [IQR, 33.5-53]; 73 women) were consecutively evaluated. TBSS showed no significant FA differences between all 69 cases and 76 age- and sex-matched controls. However, participants ≥ 40 years that required hospitalization due to COVID-19 (n = 23) had decreased FA, increased RD, and reduced qT1 values (all P ≤ 0.001) in specific voxels compared to controls ≥ 40 years (n = 47). These microstructural measures appeared in predominantly right-sided lateral orbitofrontal, frontal inferior, anterior insular, and rostral anterior cingulate white matter (WM) regions, without visually detectable abnormalities or region-specific volume loss in WM or cortical gray matter. This subgroup also showed significantly higher presence of fatigue, depressive symptoms, poorer sleep quality and reduced health-related quality of life. DISCUSSION: Advanced MRI revealed microstructural abnormalities along frontoinsular-cingulate WM fiber tracts in unvaccinated participants aged ≥ 40 with a history of COVID-19 requiring hospitalization. These findings may suggest ongoing reduced fiber integrity and persistent oxidative stress within the salience network, potentially contributing to functional sequelae.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42235760/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-02",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:35+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Subacute frontoinsular-cingulate tract changes in unvaccinated COVID-19 survivors: A tract-based spatial statistics study of diffusion tensor imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42235760/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Consistent Brain Entropy Changes During Rumination Across Three Magnetic Resonance Imaging Scanners.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223178/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Spatio-temporal dynamics of brain function across depression severity in binge-type eating disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42229637/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-01",
+  "articles": [
+    {
+      "title": "Radon-related increases in depressive symptoms are explained by amygdala morphology and external locus of control.",
+      "summary": "OBJECTIVE: Environmental toxins have been linked to depressive symptoms, potentially via brain morphology and cognition. In particular, the amygdala acts as an affective hub and may be especially sensitive to environmental insults such as radon. Radon has been associated with neurostructural differences and poorer emotion regulation. However, it is unknown whether radon is associated with amygdala volume, and in turn, subthreshold mental health symptoms. METHOD: A sample of 152 healthy participants (74 female) aged 8-to-17 years old completed a T1-weighted structural MRI scan from which amygdala volumes were extracted. Youth also completed the BASC-3, from which we assessed locus of control (LoC) and depressive symptomology. Families completed a home radon test. We then assessed whether amygdala volume and LoC serially mediated the relationship between radon exposure and depressive symptoms. RESULTS: We identified a significant indirect effect of radon exposure on depressive symptoms through amygdala volume and LoC (β = 0.02, b = 0.21, 95% CI [0.02, 0.61]). Specifically, participants with greater radon exposure tended to have larger amygdala volumes (β = 0.23, b = 0.02, SE = 0.01, p = .001), which was linked with a more external LoC (β = 0.16, b = 15.11, SE = 7.57, p = .046) and greater depressive symptoms (β = 0.58, b = 0.58, SE = 0.11, p < .001). CONCLUSIONS: This is the first study to link radon exposure to depressive symptomology via neurophysiological aberrations and cognitive factors in development, evidencing its negative neuropsychological effects.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42219041/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neurotoxicology",
+      "journal_issn": "1872-9711",
+      "published_date": "2026-05-30",
+      "date": "2026-06-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Consistent Brain Entropy Changes During Rumination Across Three Magnetic Resonance Imaging Scanners.",
+      "summary": "Rumination, characterized by repetitive and self-referential thinking, is closely linked to depression and a broad range of psychiatric disorders. However, previous research has predominantly relied on task activation or network-level approaches, leaving critical gaps in our understanding of local brain activity dynamics during ruminative states. To address this, we employed brain entropy (BEN), a novel functional magnetic resonance imaging (fMRI)-based neuroimaging measure, to quantify the temporal irregularity and complexity of local brain activity during rumination. We analyzed a publicly available dataset comprising 41 healthy adults who completed identical fMRI tasks across three MRI scanners. Each scanning session included four conditions: resting state, sad memory, rumination, and distraction. Voxel-wise BEN analyses were conducted to examine condition-related differences, with brain regions showing consistent patterns across all three scanners at p < 0.05 considered statistically significant. Our findings revealed distinct neural signatures associated with different cognitive states. Compared to sad memory, rumination was associated with decreased BEN in the visual cortex (VC), whereas distraction was associated with decreased BEN in the posterior cingulate cortex/precuneus (PCC/PCu). Furthermore, rumination exhibited significantly increased BEN in the PCC/PCu relative to distraction. These results suggest that rumination is characterized by heightened temporal irregularity in regions supporting internal self-referential processing, accompanied by reduced engagement with external environmental information. The present study demonstrates the utility of BEN in elucidating the neural mechanisms of rumination, providing novel insights into how cognitive states are reflected in local brain activity patterns. These findings carry implications for both theoretical frameworks of ruminative cognition and the development of neuroimaging biomarkers for clinical applications in depression and related disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223178/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neural Plast",
+      "journal_issn": "1687-5443",
+      "published_date": "2026-06-01",
+      "date": "2026-06-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:34+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Consistent Brain Entropy Changes During Rumination Across Three Magnetic Resonance Imaging Scanners.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223178/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Radon-related increases in depressive symptoms are explained by amygdala morphology and external locus of control.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42219041/",
+        "published_date": "2026-05-30",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

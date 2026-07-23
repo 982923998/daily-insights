@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-16",
+  "articles": [
+    {
+      "title": "Depressive symptoms and neuroimaging markers of brain aging in an ethno-racially diverse sample: a Bayesian analysis.",
+      "summary": "BACKGROUND: Depression has been associated with magnetic resonance imaging (MRI) measures of larger white matter hyperintensity (WMH) volumes and smaller cerebral grey matter volumes (GMV) in predominantly White samples. Recent findings suggest that some race/ethnicity groups may experience more severe health consequences due to depression when it is present compared with experience of depression in White samples. We investigated the association of depressive symptoms with WMH and GMV by race/ethnicity, using a continuous measure of depressive symptoms to more expansively capture participants' experience of depression versus clinical diagnosis alone. METHODS: A diverse sample of older, northern California Kaiser Healthy Aging and Diverse Life Experiences and Study of Healthy Aging in African Americans participants (n = 550) underwent MRI neuroimaging 2017-2022. Baseline depressive symptoms were measured in 2017 using the NIH PROMIS toolbox. We conducted a literature-informed Bayesian analysis, stratified by race/ethnicity, to examine the association between baseline depressive symptoms and post-baseline WMH and GMV. RESULTS: Our sample was 14% Asian, 54% Black, 16% Latino, and 17% White. Overall, we did not observe an association between depressive symptoms and log(WMH) (0.06, 95% Credible Interval [CrI]: -0.09,0.22) or GMV (-0.74, 95% CrI: -1.62,0.16). In stratified analyses, 1 SD higher depressive symptoms were associated with larger log(WMH) volume (0.21, 95%CrI: 0.002,0.42) among Black participants and smaller GMV among Latino participants (-2.92, 95% CrI: -4.31,-1.52). Unexpectedly, depressive symptoms were associated with larger GMV in Asian participants (2.41, 95% CrI: 0.87,3.95). DISCUSSION: More severe depressive symptoms were associated with MRI markers of brain aging among Black and Latino participants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42299687/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Am J Epidemiol",
+      "journal_issn": "1476-6256",
+      "published_date": "2026-06-16",
+      "date": "2026-06-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:43+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Depressive symptoms and neuroimaging markers of brain aging in an ethno-racially diverse sample: a Bayesian analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42299687/",
+        "published_date": "2026-06-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

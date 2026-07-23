@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-29",
+  "articles": [
+    {
+      "title": "Which assessment tools best distinguish between mild cognitive impairment and dementia? Lessons from a Slovak memory clinic cohort.",
+      "summary": "BACKGROUND: The utility of various cognitive assessment tools for distinguishing between mild impairment and dementia, as well as for determining cutoff values for specific populations, continues to be the subject of extensive research. Here, we assessed the utility and feasibility of these tools in the first Slovak memory clinic cohort. METHODS: We enrolled a Slovak memory clinic cohort of patients with MCI and dementia (MCI, n = 84; dementia, n = 55). The participants were characterized using a range of cognitive assessment tools-Auditory Verbal Learning (AVLT), Category and Letter Fluency (CFT, LFT), Digit Span (DSF, DSB), Digit-Symbol Coding (DS-C), Frontal Assessment Battery (FAB), MMSE, MoCA, Rey Osterrieth Complex Figure (ROCF), and Trail Making Test (TMTA, TMTB); clinical assessments-Amsterdam Instrumental Activities of Daily Living (A-IADL) and 5-level EuroQol questionnaire with 5 dimensions (EQ-5D-5 L); and scales for anxiety, dependency, depression, dignity, and MRI volumetry. The ability of the various assessments to distinguish between MCI and dementia was evaluated. RESULTS: Over the course of three years, at a single memory clinic, it was feasible to enrol and evaluate a total of 150 participants, 139 of whom fulfilled the definition of either MCI or nonvascular dementia. Of the employed cognitive and clinical assessment tools, the best differentiation between MCI and dementia was observed for the AVLT and A-IADL. The DSF and DSB tests did not reveal differences between the populations. No differences were observed in education, vital signs, or anthropometric measurements. Participants with dementia had greater degrees of brain atrophy in the hippocampi and frontal, parietal, and temporal cortex; lower total brain volumes; and greater ventricular dilation. CONCLUSIONS: This study confirms the utility of a range of cognitive assessment tools and scales for differentiating between MCI and dementia but reveals that some commonly employed tools, such as the DSF and DSB, may not be sensitive to these differences. This study highlights the importance of accurate assessment of the ability to perform activities of daily living and supports the development of objective, ecologically valid assessments of IADL.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42365239/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "BMC Geriatr",
+      "journal_issn": "1471-2318",
+      "published_date": "2026-06-27",
+      "date": "2026-06-29",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:52+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Which assessment tools best distinguish between mild cognitive impairment and dementia? Lessons from a Slovak memory clinic cohort.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42365239/",
+        "published_date": "2026-06-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

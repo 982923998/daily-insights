@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-20",
+  "articles": [
+    {
+      "title": "Cerebrospinal fluid α-synuclein and Aβ42 link with default mode and salience networks connectivity in dementia with Lewy bodies.",
+      "summary": "INTRODUCTION: Dementia with Lewy bodies (DLB) and Alzheimer's disease (AD) are neurocognitive disorders characterized by distinct but often overlapping pathological processes. These include α-synuclein, amyloid-beta 42 (Aβ42), and tau protein aggregation. While cerebrospinal fluid (CSF) biomarkers provide in vivo insight into these pathologies, their relationship with large-scale brain network dysfunction remains poorly understood. This study aimed to investigate the associations between CSF biomarker concentrations and resting-state functional connectivity in patients with DLB, AD, and mixed AD/DLB. METHODS: Sixty-nine DLB patients, 17 AD patients, and 24 patients with mixed AD/DLB underwent clinical and neuropsychological evaluations, lumbar puncture for CSF biomarker analysis (total α-synuclein, Aβ42, pTau181, and tTau), and resting-state functional MRI. Patients were stratified by disease stage for subgroup analyses. Besides CSF total α-synuclein levels, α-synuclein seeding activity was assessed using real-time quaking-induced conversion (RT-QuIC) assays. ROI-to-ROI analyses were conducted using the CONN toolbox to explore associations between CSF biomarker levels and functional connectivity within and between major brain networks. RESULTS: In DLB patients, lower CSF α-synuclein levels correlated with increased connectivity within the default mode network (DMN) (p FDR < 0.05). In dementia-stage DLB (d-DLB), lower Aβ42 levels correlated with reduced connectivity within the salience network (SN) (p FDR < 0.05). In AD, higher tTau levels correlated with decreased connectivity between the DMN and the SN (p FDR < 0.05). No significant associations were observed for CSF pTau181 or any RT-QuIC metric in any group, and the mixed AD/DLB group showed no biomarker-connectivity correlations at all. DISCUSSION: We identified distinct patterns of DMN and SN connectivity changes associated with CSF α-synuclein and Aβ42 levels, respectively. These findings reflect key functional disruptions that may contribute to core clinical symptoms. They underscore the value of combining CSF biomarkers with functional MRI to elucidate DLB pathophysiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473545/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Alzheimers Dement (N Y)",
+      "journal_issn": "2352-8737",
+      "published_date": "2026-07-18",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:05+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Cerebrospinal fluid α-synuclein and Aβ42 link with default mode and salience networks connectivity in dementia with Lewy bodies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42473545/",
+        "published_date": "2026-07-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

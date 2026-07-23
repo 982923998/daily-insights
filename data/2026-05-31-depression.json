@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-31",
+  "articles": [
+    {
+      "title": "Radon-related increases in depressive symptoms are explained by amygdala morphology and external locus of control.",
+      "summary": "OBJECTIVE: Environmental toxins have been linked to depressive symptoms, potentially via brain morphology and cognition. In particular, the amygdala acts as an affective hub and may be especially sensitive to environmental insults such as radon. Radon has been associated with neurostructural differences and poorer emotion regulation. However, it is unknown whether radon is associated with amygdala volume, and in turn, subthreshold mental health symptoms. METHOD: A sample of 152 healthy participants (74 female) aged 8-to-17 years old completed a T1-weighted structural MRI scan from which amygdala volumes were extracted. Youth also completed the BASC-3, from which we assessed locus of control (LoC) and depressive symptomology. Families completed a home radon test. We then assessed whether amygdala volume and LoC serially mediated the relationship between radon exposure and depressive symptoms. RESULTS: We identified a significant indirect effect of radon exposure on depressive symptoms through amygdala volume and LoC (β = 0.02, b = 0.21, 95% CI [0.02, 0.61]). Specifically, participants with greater radon exposure tended to have larger amygdala volumes (β = 0.23, b = 0.02, SE = 0.01, p = .001), which was linked with a more external LoC (β = 0.16, b = 15.11, SE = 7.57, p = .046) and greater depressive symptoms (β = 0.58, b = 0.58, SE = 0.11, p < .001). CONCLUSIONS: This is the first study to link radon exposure to depressive symptomology via neurophysiological aberrations and cognitive factors in development, evidencing its negative neuropsychological effects.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42219041/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neurotoxicology",
+      "journal_issn": "1872-9711",
+      "published_date": "2026-05-30",
+      "date": "2026-05-31",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:33+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Radon-related increases in depressive symptoms are explained by amygdala morphology and external locus of control.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42219041/",
+        "published_date": "2026-05-30",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

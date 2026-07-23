@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-11",
+  "articles": [
+    {
+      "title": "Associations of DTI-ALPS index and choroid plexus volume with clinical severity across the Parkinson's disease spectrum.",
+      "summary": "Impaired clearance of pathogenic proteins may contribute to Parkinson's disease (PD) progression, but the clinical relevance of brain clearance-associated processes in humans remains incompletely understood. Using cross-sectional data from 1,861 participants (704 PD, 997 prodromal, 160 healthy controls) in Parkinson Progression Marker Initiative, we investigated whether the magnetic resonance imaging (MRI)-based indirect markers linked to brain clearance-related processes, diffusion tensor imaging analysis along the perivascular space (DTI-ALPS) index and normalized choroid plexus volume (NCPV), are associated with disease stage and motor/non-motor manifestations across the PD spectrum. The ALPS index declined with age, was lower in males, and showed a stepwise reduction from controls to prodromal individuals and PD patients. Clinically, lower ALPS index correlated with greater motor severity in prodromal and PD groups, with stronger associations at advanced stages. Lower ALPS index also correlated with rapid eye movement sleep behavior disorder, cognitive impairment, and depressive symptoms. NCPV showed a complementary trend, demonstrating positive associations with clinical severity measures and a significant negative correlation with the ALPS index. Together, these findings suggest that MRI markers linked to brain clearance processes are associated with clinical progression across the PD continuum and may provide imaging biomarkers relevant to disease staging and pathophysiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42277056/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-11",
+      "date": "2026-06-11",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:40+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Associations of DTI-ALPS index and choroid plexus volume with clinical severity across the Parkinson's disease spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42277056/",
+        "published_date": "2026-06-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-29",
+  "articles": [
+    {
+      "title": "Targeting based on patient-specific 7 Tesla MRI connectivity analysis improves deep brain stimulation for Parkinson's disease.",
+      "summary": "Deep brain stimulation (DBS) of the subthalamic nucleus (STN) is an effective treatment for Parkinson's disease (PD), yet individual motor outcome remains insufficiently predictable. The effect of DBS depends on modulating brain networks, and this study evaluates whether targeting using patient-specific connectivity with 7-Tesla (7T) MRI probabilistic tractography enhances motor outcome. For connectivity analysis, selective visualization of STN connectivity to the primary cortical motor areas was performed before surgery, and electrode lead placement was directed at the connectivity-derived motor subdivision of the STN. Motor outcome, measured using the Movement Disorders Society Unified Parkinson Disease Rating Scale motor part (MDS-UPDRS part III), of 102 PD-DBS patients for whom 7T MRI connectivity analysis was used for DBS targeting, was compared to a matched control group of 118 PD-DBS patients for whom 7T MRI T2-weighted classical anatomical landmarks were used for targeting. Results of this prospective comparison show that patients operated with connectivity-guided targeting showed significantly more motor improvement compared to the control group: 56 ± 15% vs. 50 ± 20% (p = 0.015), and the connectivity-guided group showed a higher optimal response rate (96% vs. 86%, p = 0.008). Connectivity analysis enabled localization of DBS electrodes in reference to the motor subdivision. The leads that were optimally located inside the motor subdivision showed an average of 60 ± 11% motor improvement. Our findings demonstrate the clinical applicability of 7T MRI probabilistic tractography for visualizing connectivity between the STN and cortical motor areas to enable electrode lead placement directed at the motor subdivision of the STN, introducing patient-specific connectivity analysis guided DBS. This proved to be an individual biomarker for implantation location that increased the effectiveness of DBS in patients with PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204158/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-05-27",
+      "date": "2026-05-29",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "A generic, rapid and robust platform for personalized functional circuit-guided neuromodulation targeting.",
+      "summary": "Neuromodulation approaches can target specific brain functional circuits to treat various brain disorders, and resting-state functional magnetic resonance imaging is increasingly being used to map functional circuits in individual patients for target localization. However, this strategy faces three major hurdles for clinical translation: time-intensive resting-state functional magnetic resonance imaging processing, insufficient robustness for clinical use and a lack of automated targeting solutions. Here we cover the use of a generic, rapid, robust and automated platform for personalized functional circuit-guided target planning across different neuromodulation techniques, termed Unified Platform for Neuromodulation with Individualized Target Estimation (UNITE). UNITE is computationally efficiency and robust and uses DeepPrep, a recently developed end-to-end preprocessing pipeline that achieves a tenfold speedup and improved robustness compared with state-of-the-art clinical pipeline. Using DeepPrep's preprocessed data, UNITE maps functional circuits and localizes personalized targets through automated targeting algorithms. Currently, UNITE offers three built-in transcranial magnetic stimulation-targeting algorithms for post-stroke functional rehabilitation and one focused ultrasound stimulation-targeting algorithm for Parkinson's disease. Notably, it is designed to be adapted for other brain disorders and neuromodulation applications. To ensure quality and usability, UNITE generates a data quality control report and a visual verification report of the identified targets, with target coordinates exported in multiple formats for compatibility with different neuronavigation systems. Overall, this platform enables personalized neuromodulation target localization within 30 min on a local graphics processing unit-equipped workstation. A basic level of computer science proficiency, along with neuroimaging experience, is sufficient for its use.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204340/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Nat Protoc",
+      "journal_issn": "1750-2799",
+      "published_date": "2026-05-27",
+      "date": "2026-05-29",
+      "impact_factor": 16.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Protocols"
+    },
+    {
+      "title": "From phenotype to biology: a multi-modal roadmap of biofluid, tissue, imaging, and digital biomarkers in Parkinson's disease.",
+      "summary": "The definition of Parkinson's disease (PD) is undergoing a profound transformation from a \"clinical syndrome\" to a \"biological entity\", with development of two objective biological classification systems, the NSD-ISS (Neuronal Alpha-Synuclein Disease Integrated Staging System) and the SynNeurGe framework. Multimodal diagnostic tools further improve the detection of PD. This review synthesizes advances in three key domains of PD detection. First, fluid and tissue biomarkers, particularly using α-synuclein (αSyn) seed amplification assays, allow detection of synucleinopathy in cerebrospinal fluid, blood, saliva, and skin. This supports pathological diagnosis and differential classification. Extracellular vesicles provide cell-type-specific cargo profiles, while neurofilament light chain indicates neuroaxonal injury. Second, neuroimaging captures in vivo pathology. MRI identifies nigral degeneration (nigrosome-1 loss, iron accumulation, neuromelanin depletion), MRS reveals metabolic and neurotransmitter imbalances, and αSyn positron emission tomography tracers enable direct visualization of aggregation. Third, digital biomarkers derived from wearable devices, videos, and audios quantify real-world motor and non-motor symptoms, enabling continuous, ecological monitoring. Integration of these complementary biomarker streams is essential for biological definition and stratification of PD patients, and development of targeted therapies. Standardization of assays, multicenter validations, and clear guidance on who should be tested, when testing is appropriate, and how results should inform diagnosis, stratification, or monitoring are required for the translation of these methods into clinical practice in PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42210437/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Transl Neurodegener",
+      "journal_issn": "2047-9158",
+      "published_date": "2026-05-28",
+      "date": "2026-05-29",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A survey of deep learning techniques in detecting neurological disorders using MRI.",
+      "summary": "Magnetic resonance imaging (MRI) is widely regarded as the most reliable non-invasive imaging modality for detecting neurological disorders. However, manual interpretation of MRI scans is often time-consuming and prone to inter-observer variability, which can lead to inconsistencies in diagnosis. The global burden of neurological disorders-including Alzheimer's disease, brain tumors, Parkinson's disease, multiple sclerosis, and schizophrenia-continues to increase, creating an urgent demand for accurate, scalable, and automated diagnostic solutions. In recent years, deep learning (DL) has emerged as a powerful paradigm for medical image analysis, enabling automated feature extraction and improved diagnostic performance in neuroimaging applications. This survey provides a comprehensive analysis of deep learning approaches for MRI-based detection of neurological disorders. A systematic review of 47 research articles published between 2019 and 2025 is conducted, covering over 40 deep learning architectures evaluated on 34 publicly available and clinical datasets. The study categorizes and critically examines convolutional neural networks (CNNs), Vision Transformers (ViTs), hybrid CNN-Transformer models, and other specialized deep learning frameworks developed for neurological disease detection and classification. Comparative analyses are presented across different neurological conditions, highlighting model performance, dataset characteristics, evaluation protocols, and computational requirements. Furthermore, the survey identifies emerging architectural trends and evaluates the relative strengths and limitations of existing approaches with respect to generalization, interpretability, and clinical applicability. Key research gaps are highlighted, including limited cross-institutional validation, dataset heterogeneity, insufficient explainability, and challenges in real-world clinical deployment. Finally, the paper outlines promising research directions such as multimodal learning, self-supervised representation learning, and robust cross-domain generalization to enhance the reliability and clinical translation of MRI-based deep learning systems.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42216001/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Biomed Eng Online",
+      "journal_issn": "1475-925X",
+      "published_date": "2026-05-29",
+      "date": "2026-05-29",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:32+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 4 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 4.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "A survey of deep learning techniques in detecting neurological disorders using MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42216001/",
+        "published_date": "2026-05-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Targeting based on patient-specific 7 Tesla MRI connectivity analysis improves deep brain stimulation for Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42204158/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "From phenotype to biology: a multi-modal roadmap of biofluid, tissue, imaging, and digital biomarkers in Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42210437/",
+        "published_date": "2026-05-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A generic, rapid and robust platform for personalized functional circuit-guided neuromodulation targeting.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42204340/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

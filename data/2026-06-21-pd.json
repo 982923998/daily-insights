@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-21",
+  "articles": [
+    {
+      "title": "Disease modification in advanced Parkinson's disease: a review and roadmap for paving the way for next-generation interventions.",
+      "summary": "Parkinson's disease (PD) exhibits highly heterogeneous clinical trajectories, yet \"advanced PD\" (aPD) lacks a standardized definition. Current reliance on clinical milestones (e.g., motor fluctuations, cognitive decline) is limited by non-linear progression and the absence of objective measures. Although biomarkers like aggregated α-synuclein, MRI, and PET are under investigation, their correlation with clinical progression remains modest. Robust, reproducible endpoints are urgently needed to evaluate disease-modifying therapies across diverse phenotypes, accounting for genetic background, age of onset, co-pathologies, and motor/autonomic/cognitive domains. Given this complexity, single-target interventions are likely insufficient. We propose a multi-domain therapeutic framework for aPD that integrates: (A) simultaneous targeting of key pathological cascades, including α-synuclein aggregation, mitochondrial dysfunction, oxidative stress, proteostasis imbalance, neuroinflammation, and the gut-brain axis; (B) biology-driven patient stratification using emerging biomarkers to match subgroups with targeted interventions; and (C) systematic management of comorbidities and lifestyle factors, such as cardiovascular health and exercise, to enhance neuroresilience. Finally, advancing aPD care requires addressing systemic determinants, including global healthcare inequities, and prioritizing caregiver well-being. Mechanistically informed, patient-centered strategies that combine multi-target therapies with precision stratification and holistic support will be essential to modify disease progression and improve long-term outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319427/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Neural Transm (Vienna)",
+      "journal_issn": "1435-1463",
+      "published_date": "2026-06-19",
+      "date": "2026-06-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Auditory cueing modulates motor performance and brain activity in early Parkinson's disease-a kinematic and fMRI study.",
+      "summary": "Cues are specific references that support motor performance by improving speed, timing, and amplitude while reducing variability. This study aimed at investigating the effects of external auditory cueing on bradykinesia-related kinematic deficits and their neural correlates during a hand-tapping task in people with Parkinson's disease (pwPD) and healthy controls (HC). Twenty-six pwPD and 20 HC performed a right hand-tapping fMRI task either in a self-paced condition (NOCue) or following an auditory cue (Cue). Hand-tapping kinematics were objectively quantified using an optical-fiber glove. PwPD showed reduced hand-tapping amplitude and a greater sequence effect on amplitude than HC during NOCue condition. Cueing attenuated the sequence effect on amplitude in pwPD. During the NOCue condition, pwPD showed reduced activity of pallidum/thalamus relative to HC. No group differences emerged during Cue condition. During Cue relative to NOCue condition, pwPD showed higher activity of pallidum, parietal, temporal, sensorimotor, insular, and cerebellar regions, alongside reduced activation in of paracentral gyrus and cerebellum. Higher activity of pallidum correlated with better motor performance and higher positive effects of cueing. Our results demonstrated that auditory cueing reduces bradykinesia in pwPD possibly by facilitating basal ganglia activity and reducing the need of movement programming.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42321233/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-19",
+      "date": "2026-06-21",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:47+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Disease modification in advanced Parkinson's disease: a review and roadmap for paving the way for next-generation interventions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42319427/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Auditory cueing modulates motor performance and brain activity in early Parkinson's disease-a kinematic and fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42321233/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

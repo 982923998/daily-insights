@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-28",
+  "articles": [
+    {
+      "title": "Brain-wide Functional Connectivity Alterations in Major Depressive Disorder and Baseline Correlates of Treatment Response.",
+      "summary": "BACKGROUND: Major depressive disorder (MDD) has been linked to altered resting-state functional connectivity between the default mode, salience, and task-positive networks. This study aimed to identify resting-state networks with potential utility for distinguishing patients with MDD from healthy controls, and treatment responders from non-responders. METHODS: 108 unmedicated patients with moderate-to-severe MDD (aged 15-25; 67 female) and 100 healthy controls (aged 15-25; 55 female) underwent a 3T-resting-state fMRI scan. Patients were randomized to receive cognitive behavioral therapy for 12 weeks, plus either fluoxetine or placebo. Using whole-brain functional connectivity multivariate pattern analysis and post hoc seed-to-voxel analyses, we identified the brain networks containing at least 10% of classification-relevant information, their most important regions, and how their brain-wide functional connectivity differs across groups. RESULTS: Patients exhibited stronger negative connectivity between the default mode, salience, and dorsal attention networks. The strength of the negative connectivity between the default mode and salience network was associated with worse treatment response. Additionally, the visual network was informative for treatment response, showing weaker within-network positive connectivity in responders. CONCLUSIONS: Our data-driven approach replicated findings of functional connectivity alterations between task-negative networks and both the salience and task-positive networks in MDD. These patterns, together with alterations within the ventral visual stream, were associated with treatment response. These network-level disruptions may align with impairments in top-down regulation of emotion, rumination, and mood-congruent bias that characterize MDD. TRIAL REGISTRATION: Youth Depression Alleviation: A Randomised Controlled Trial of Cognitive Behavioural Therapy with Fluoxetine or Placebo (YoDA-C), ANZCTR (ACTRN12612001281886). https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12612001281886.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42208658/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+      "journal_issn": "2451-9030",
+      "published_date": "2026-05-27",
+      "date": "2026-05-28",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:31+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain-wide Functional Connectivity Alterations in Major Depressive Disorder and Baseline Correlates of Treatment Response.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42208658/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

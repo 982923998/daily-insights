@@ -1,0 +1,436 @@
+{
+  "date": "2026-07-05",
+  "articles": [
+    {
+      "title": "Hemichorea associated with nonketotic hyperglycemia: A case report with unremarkable neuroimaging at presentation.",
+      "summary": "Nonketotic hyperglycemic hemichorea is a rare neurological disorder. Neuroimaging may provide supportive evidence, typically demonstrating contralateral basal ganglia abnormalities corresponding to the side of involuntary movements. However, characteristic findings may be absent or highly subtle in some patients, which can complicate recognition and delay diagnosis. Herein, we report the case of a 76-year-old woman without a known history of diabetes mellitus who presented with a 7-day history of involuntary choreiform movements of the right hand. On admission, initial brain computed tomography was interpreted as unremarkable; however, retrospective review revealed a subtle, faint hyperdensity in the left striatum. Magnetic resonance imaging, including diffusion-weighted imaging, showed no obvious characteristic signal changes in the basal ganglia. Laboratory testing demonstrated marked hyperglycemia without ketosis. After alternative etiologies were excluded, the presentation was considered most consistent with nonketotic hyperglycemic hemichorea based on the clinical syndrome and metabolic profile. The patient's symptoms improved markedly after intensive glycemic control with insulin therapy. This case highlights that nonketotic hyperglycemic hemichorea should be considered in patients with acute hemichorea and hyperglycemia, even when neuroimaging initially appears unremarkable, and that prompt glycemic management remains the cornerstone of treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42396620/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Int Med Res",
+      "journal_issn": "1473-2300",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Opsoclonus revealing underlying multiple system atrophy: a case report.",
+      "summary": "BACKGROUND: Delayed emergence from general anesthesia has multiple etiologies; in rare cases, it may unmask an unrecognized neurodegenerative disorder. CASE PRESENTATION: A 64-year-old man underwent laparoscopic cholecystectomy under general anesthesia. No neurological abnormalities were identified preoperatively. After surgery, response to verbal stimuli was inadequate; however, other extubation criteria were met and he was extubated. Approximately 45 min later, rapid nystagmus-like eye movements consistent with opsoclonus developed, initially oscillating horizontally and then vertically, and persisted for about six minutes. A similar episode recurred 125 min after extubation. Head computed tomography showed no acute lesions but revealed marked cerebellar and brainstem atrophy. Subsequent neurological evaluation, including magnetic resonance imaging demonstrating the \"hot cross bun\" sign, fulfilled the Movement Disorder Society diagnostic criteria for clinically established multiple system atrophy with predominant parkinsonism. CONCLUSIONS: In unexplained delayed emergence from general anesthesia, opsoclonus should prompt evaluation for an underlying neurodegenerative disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42397654/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "JA Clin Rep",
+      "journal_issn": "2363-9024",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A multimodal deepsurv approach: integrating radiomics and clinical factors for brain metastasis survival prediction.",
+      "summary": "PURPOSE: Predicting survival outcomes for brain metastasis (BM) patients is crucial for tailoring treatment strategies and improving patient management. Radiomics and deep learning (DL) approaches offer potential for non-invasive survival predictions. In this retrospective cohort study, we aimed to develop and evaluate a radiomics-based DL model for predicting survival outcomes in patients with BM using pre-treatment MRI and clinical data. METHODS: This study analyzed 199 patients from the Pretreat-MetsToBrain-Masks dataset. Radiomic features were extracted from four MRI sequences using PyRadiomics, yielding 4872 features per patient. Dimensionality reduction was performed using Principal Component Analysis, reducing the features to 71 principal components. In addition to radiomic features, demographic and clinical features were included. The data was split into training (70%) and test (30%) sets. A DL-based survival model, DeepSurv, was trained and evaluated. Overall model performance was assessed using C-index, integrated Brier score, and integrated negative binomial log-likelihood (NBLL) scores. Time-dependent performance metrics for predicting 1-year, 3-year, and 5-year survival were also calculated, including the area under the receiver operating characteristic curve (AUROC). RESULTS: The DeepSurv model demonstrated robust predictive capability. The overall model performance showed a test set C-index of 0.725, an integrated Brier score of 0.212, and an integrated NBLL score of 1.112. Time-dependent AUROC metrics were 0.793 for 1-year, 0.770 for 3-year, and 0.807 for 5-year survival predictions. CONCLUSION: This study presents a radiomics-based DL approach for predicting survival outcomes in patients with BM using pre-treatment MRI and clinical data. The promising results highlight the model's potential as a non-invasive tool for personalized survival predictions. Key limitations include the relatively small, single-institution sample and class imbalance across primary tumor origins; external multi-institutional validation is needed before clinical deployment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398164/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Clin Neurosci",
+      "journal_issn": "1532-2653",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Multimodal neuromonitoring in neonatal hypoxic-ischemic encephalopathy and the association with neurodevelopmental outcomes: A Multicenter Study.",
+      "summary": "OBJECTIVE: To assess in neonates with hypoxic-ischemic encephalopathy (HIE) whether multimodal neuromonitoring, using near-infrared spectroscopy and amplitude-integrated electroencephalography (aEEG), correlates with cerebral injury observed on brain magnetic resonance imaging (MRI) as well as neurodevelopmental outcome. STUDY DESIGN: Neonates born at >35 weeks and >1800 gram undergoing therapeutic hypothermia were included in this prospective-retrospective, multicenter study. The aEEG pattern, cerebral tissue oxygenation (rScO2), burden of rScO2≥95%, arterial blood pressure, heart rate, and cerebrovascular autoregulation were monitored during therapeutic hypothermia and rewarming from 0-24, 24-48, 48-72, and 72-96 hours. Early cerebral MRI was assessed using a validated quali-quantitative score. Neurodevelopmental outcome was assessed using Bayley Scales of Infant Development (BSID-III) cognitive and motor scores at 24 months. RESULTS: In 128 neonates with a median Thompson score of 9, greater seizure burden (beta coefficient, B24-48h=3.21, 95% confidence interval limits, 95%CI [2.01, 4.41]), absent sleep-wake-cycling (B24-48h=-5.53, 95%CI [-8.29, -2.77]), and a higher burden of rScO2≥95% (B0-24h=0.34, 95%CI [0.07, 0.61]) were associated with worse cerebral injury on MRI. Cognitive and motor scores inversely correlated with aEEG abnormalities, rScO2, burden of rScO2≥95%, and absent sleep-wake-cycling, whereas higher arterial blood pressures between 0-24 hours were associated with higher neurodevelopmental outcome scores. CONCLUSIONS: Combined abnormal aEEG characteristics and rScO2, but not cerebrovascular autoregulation assessed as cerebral oximetry index or tissue oxygenation heart rate-reactivity index, correlated significantly with brain injury on MRI and neurodevelopmental outcome after HIE. These findings provide valuable clinical information and, in future studies, may support identification of infants who might benefit from adjuvant therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398806/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Pediatr",
+      "journal_issn": "1097-6833",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Unhealthy fat distribution as a sex-specific predictor of declining hippocampus insulin sensitivity.",
+      "summary": "AIMS/HYPOTHESIS: Impairments in peripheral glucose metabolism and reduced brain insulin sensitivity are linked to an increased risk of both metabolic and neurodegenerative diseases. Brain insulin resistance represents a shared pathological mechanism underlying these disorders. Notably, hippocampal insulin responsiveness declines with age and differs between men and women. This study aimed to identify clinically relevant metabolic predictors of hippocampal insulin sensitivity in the context of age and sex. METHODS: In 260 non-diabetic participants (165 women, mean BMI 29.7 ± 6.2 kg/m2, mean age 44.2 ± 16.6 years), functional MRI was performed before and after intranasal insulin administration to assess hippocampal insulin response. Metabolic phenotyping comprised laboratory assessments including oral glucose tolerance tests, whole-body MRI and 1H-MRS. In addition, participants were assigned to high- and low-risk prediabetes clusters using the Tübingen risk cluster tool. Prediabetes was defined as impaired fasting glucose and/or impaired glucose tolerance and/or elevated HbA1c. We used linear regression models to select the most relevant predictors, including interactions with sex and age. RESULTS: Fasting plasma glucose levels predicted lower hippocampal insulin response with age independently of sex (estimate 0.533, p=0.016). Significant interactions were present between age, sex and body fat distribution (waist-to-hip ratio [WHR]: estimate 0.233, p=0.010; visceral adipose tissue [VAT]: estimate 0.007, p=0.013; intrahepatic lipid content [IHL]: estimate 0.003, p=0.010). In women, higher WHR, VAT and IHL were predictors of lower hippocampal insulin responsiveness with increasing age. These effects remained significant after adjusting for BMI. Postmenopausal women showed lower hippocampal insulin responsiveness with higher WHR and IHL (p<0.05), and women in high-risk Tübingen prediabetes clusters also showed lower hippocampal insulin responsiveness than men (sex × cluster type: estimate 0.39, p=0.02). The hippocampal insulin response did not correlate with hippocampal volume (p>0.05). CONCLUSIONS/INTERPRETATION: Unhealthy body fat distribution was a sex-dependent predictor for decreased hippocampal insulin sensitivity with increasing age. Older women with high abdominal fat and/or those assigned to high-risk clusters were most vulnerable to impaired insulin responsiveness in the hippocampus. These findings may contribute to explaining sex differences in the development of type 2 diabetes and neurodegenerative diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399494/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Diabetologia",
+      "journal_issn": "1432-0428",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Pediatric head injury in the emergency department: balancing radiation risk, missed diagnoses, and decision-rule evolution.",
+      "summary": "BACKGROUND: Pediatric head injury is a frequent cause of emergency department neuroimaging worldwide and a major contributor to health care utilization. Although most children with minor head trauma do not sustain clinically important traumatic brain injury (ciTBI), the risk of acute complications necessitates accurate risk stratification. A central challenge is balancing the need to reliably exclude ciTBI against the potential harms of ionizing radiation. Despite high-sensitivity clinical decision rules, computed tomography (CT) remains the dominant imaging modality, with utilization rates approaching 40% in some settings. Current research focuses on AI-based triage tools, enhanced injury registries, and international efforts to standardize imaging thresholds. METHODS: A narrative literature review evaluated trends in CT utilization in pediatric head trauma, AI-based triage tools, and the emergence of rapid MRI. Findings are extrapolated from recent years and compared with historical data. Only peer-reviewed, English-language studies were included. KEY FINDINGS: The implementation of validated clinical decision rules - primarily PECARN - has contributed to a > 25% decline in unnecessary CT utilization in the pediatric head trauma population over the past decade. This reduction is attributed to the widespread adoption of evidence-based risk stratification, structured observation pathways, and parent-shared decision aids, which together maintain a high negative predictive value (NPV) > 99.9%. Emerging technologies including AI triage tools and rapid MRI are promising adjuncts but are not yet established standards of care. CONCLUSION: The PECARN algorithm with explicit age stratification safely reduces unnecessary neuroimaging, with no increase in readmissions for missed bleeding. Best practice involves applying PECARN criteria alongside careful clinical observation, shared decision-making, and the use of ultra-low CT or rapid MRI when imaging is indicated. CLINICAL TRIAL NUMBER: Not applicable.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399754/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Int J Emerg Med",
+      "journal_issn": "1865-1372",
+      "published_date": "2026-07-04",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Diagnostic accuracy of HINTS Plus test in the differential diagnosis of central and peripheral vertigo: a prospective, cross-sectional study.",
+      "summary": "BACKGROUND: We evaluated the diagnostic accuracy of the HINTS Plus tool in differentiating central vertigo from peripheral vertigo in the emergency department, using neuroimaging as the reference standard. METHODS: This cross-sectional study included adult patients with acute vestibular syndrome without focal neurological deficits. Crucially, all patients underwent neuroimaging with non-contrast brain tomography and magnetic resonance imaging to definitively exclude central pathology. Diagnostic accuracy of the HINTS Plus test was assessed by comparing bedside findings with neuroimaging results. RESULTS: Of 298 patients enrolled, 62 had central and 236 peripheral vertigo patients. The sensitivity and specificity of the HINTS Plus for detecting central vertigo were 80.65% (95% CI: 68.63-89.58) and 82.63% (95% CI: 77.18-87.24), respectively. The Head Impulse Test demonstrated the highest sensitivity (70.97%) among individual components. CONCLUSION: HINTS Plus demonstrated moderate diagnostic accuracy in a real-world emergency department setting. Although useful as a bedside adjunct, the observed false-negative rate and LR- suggest that HINTS Plus should not be used as the sole strategy to exclude central causes of acute vestibular syndrome. Neuroimaging and overall clinical assessment remain essential components of diagnostic decision-making.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399767/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Emerg Med",
+      "journal_issn": "1471-227X",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Enhancing decision-making in surgery for a large temporocorneal meningioma through an explainable human-AI collaboration: a case report.",
+      "summary": "BACKGROUND: Meningiomas, particularly large temporocorneal meningiomas, pose significant surgical challenges due to their proximity to critical brain structures. Achieving optimal tumor resection while minimizing neurological deficits requires advanced decision-making strategies. This case report explores the integration of an explainable artificial intelligence (AI) system into the neurosurgical workflow to enhance preoperative planning, intraoperative decision-making, and postoperative outcome prediction. CASE PRESENTATION: MAIN SYMPTOMS AND CLINICAL FINDINGS: We report the case of a 48-year-old Algerian Arab female with a one-year history of right-lateralized headaches that became generalized over time, along with episodes of loss of consciousness lasting 15-45 minutes, occurring 3-8 times daily. These episodes were characterized by a prodrome of palpitations and chest tightness, followed by transient unresponsiveness, urinary incontinence, and prolonged postictal periods. Neurological examination was unremarkable, with preserved motor and sensory functions. MAIN DIAGNOSES, THERAPEUTIC INTERVENTIONS, AND OUTCOMES: Initial evaluation in Algeria led to a diagnosis of epilepsy, for which the patient was prescribed multiple antiepileptic drugs. Further assessment in Belgium, including MRI and electroencephalogram (EEG), revealed a right temporal extra-axial mass (46 × 36 × 45 mm) consistent with meningioma. EEG findings were normal, suggesting psychogenic non-epileptic seizures (PNES) rather than epileptic seizures. A multidisciplinary approach, incorporating AI-driven imaging analysis and predictive modeling, was employed to optimize surgical strategies. The AI system provided insights into tumor segmentation, vascular involvement, and risk assessment, aiding in determining the safest resection trajectory. The patient underwent surgical resection of the tumor via a right pterional craniotomy, with total excision achieved with preserved neurological function. Intraoperative bleeding was significant (2 L), but the postoperative course was favorable. Antiepileptic medication withdrawal was initiated, and no recurrent seizures were reported postoperatively. CONCLUSION: This case demonstrates that explainable AI can enhance preoperative planning and surgical confidence by improving visualization and risk anticipation. However, its role remains supportive, as surgical outcomes continue to depend primarily on tumor characteristics and surgical expertise. The report also highlights the importance of accurate differentiation between PNES and epilepsy in patients with intracranial tumors. Overall, AI should be considered a complementary decision-support tool rather than a determinant of clinical outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400077/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Med Case Rep",
+      "journal_issn": "1752-1947",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Tumor location and morphological MRI features in relation to combined 1p/22q deletion in meningioma.",
+      "summary": "BACKGROUND: Combined chromosomal 1p/22q deletion is associated with aggressive tumor biology and an increased risk of recurrence in meningiomas. Since C-IMPACT-NOW Update 8, this molecular alteration has gained relevance in the stratification of WHO grade 2 tumors. However, reliable preoperative predictors of combined 1p/22q deletion remain limited. The present study aimed to identify clinical and radiological predictors of combined 1p/22q deletion in meningiomas. METHODS: In this retrospective single-center study, 197 patients with histopathologically confirmed meningiomas and available chromosomal status were analyzed. Preoperative MRI-based tumor characteristics, including tumor volume, surface area, roundness, flatness, and length of dural attachment, were assessed on gadolinium-enhanced T1-weighted MRI. Tumor volumetry was performed using the SmartBrush tool within the BrainLAB software (BrainLAB, Munich, Germany) via a semi-automatic segmentation flow. Surface area, roundness and flatness were derived using the open-source software 3D Slicer. Optimal cut-off values were determined using receiver operating characteristic (ROC) curve analysis with the Youden index. Variables were evaluated using uni- and multivariable analyses. Anatomical subgroup analysis was performed in non-skull base (NSB) meningiomas. RESULTS: In the overall cohort, NSB location was independently associated with combined 1p/22q deletion (OR 3.267, 95% CI 1.012-10.545; p = 0.048). In the NSB subgroup (n = 102), tumor volume (p = 0.027), tumor surface area (p = 0.020), and length of dural attachment (p = 0.042) were significantly associated with combined 1p/22q deletion in univariate analyses. CONCLUSION: NSB meningiomas are independently associated with combined 1p/22q deletion. Quantitative and anatomically interpretable MRI-based tumor characteristics, particularly in NSB tumors, may provide supplementary information for preoperative risk stratification. These characteristics may contribute to decision-making process and identifying those necessitating surgery due to potential aggressive biological behavior.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400710/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Discov Oncol",
+      "journal_issn": "2730-6011",
+      "published_date": "2026-07-04",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Blood-brain barrier permeability in diffuse large B-Cell lymphoma: associations with established risk factors for CNS relapse.",
+      "summary": "Central nervous system (CNS) relapse is a serious complication of diffuse large B-Cell lymphoma (DLBCL), often associated with poor clinical outcomes. Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) enables detection of subtle blood-brain barrier (BBB) leakage. We assessed BBB permeability, using the Patlak model, in 63 patients with DLBCL without CNS involvement and 11 healthy controls using DCE-MRI, and investigated associations with established risk factors for CNS relapse. Patients with high risk of CNS relapse (CNS-IPI ≥4) demonstrated near-significant increased BBB permeability in cortical gray matter (GM) compared with both low-risk patients (p = 0.053) and healthy controls (p = 0.02). BBB permeability in cortical GM and in cerebral white matter (WM) correlated positively with age (p < 0.001). After adjusting for age, patients with kidney and/or adrenal involvement exhibited significantly higher BBB permeability in cortical GM (p = 0.04). Furthermore, plasma albumin levels were inversely correlated with BBB permeability in both GM (p = 0.003) and WM (p = 0.005). These findings indicate that subclinical BBB dysfunction may contribute to CNS vulnerability in DLBCL, potentially predisposing patients to relapse even before CNS involvement occurs. The observed age-related increase in BBB permeability is consistent with previous reports and may represent an independent risk for CNS relapse. Collectively, these results suggest that BBB imaging could improve CNS risk stratification in DLBCL. Prospective studies are warranted to determine whether early BBB alterations can predict CNS relapse in individual patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400917/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Tissue Barriers",
+      "journal_issn": "2168-8370",
+      "published_date": "2026-07-04",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Neonatal brain-age models in full- and preterm infants.",
+      "summary": "Prematurity affects brain development and increases risk for neurodevelopmental impairments. Yet reliable biomarkers for at-risk infants remain limited. We developed brain-age prediction models using diffusion magnetic resonance imaging-derived white matter features from two datasets: (1) the developing Human Connectome Project (dHCP; 368 healthy infants) and (2) a clinical sample collected at the Lucile Packard Children's Hospital (LPCH; 162 high-risk preterm infants). The goals of this study were (1a) to construct a white matter neonatal brain-age model including full-term and preterm neonates from a large research data set, (1b) to evaluate the accuracy of a separate brain-age model using the same architecture but trained and evaluated via cross-validation on a restricted subset of very preterm infants (<32 weeks gestational age) from the same data set to improve comparability with our clinical cohort; (2) to determine if a similar model can predict brain-age based on clinical MRI scans from high-risk neonates born preterm; and (3) to evaluate whether this preterm white matter-based brain-age model provides information about the infant's health beyond conventional clinical and demographic measures. White matter features demonstrated strong predictive performance in the dHCP dataset (within 3.9 days) and the LPCH clinical dataset (within 6.6 days). However, brain-age metrics (i.e., brain-age gap) showed no significant associations with health complications measured by a composite score of common prematurity complications. While tractometry-derived brain-age models accurately characterize brain maturation in the neonatal brain, their sensitivity to clinical complications in preterm infants appears limited. Global white matter maturation measures derived from clinical grade data may be insufficiently sensitive to capture the cumulative burden of prematurity-related morbidities, suggesting need for multimodal or longitudinal biomarkers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400972/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Dev Cogn Neurosci",
+      "journal_issn": "1878-9307",
+      "published_date": "2026-07-04",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.",
+      "summary": "BACKGROUND: Brain connectivity abnormalities may underlie affective psychosis which may be influenced by sex. Using diffusion magnetic resonance imaging (dMRI) tractography, we assessed frontostriatal brain wiring connectivity patterns in 46 early psychosis affective and 56 healthy control young adult, male and female participants. METHODS: We collected harmonized whole brain tractography dMRI data from three sites and applied our novel fiber clustering methodology to identify 17 white matter fiber clusters connecting the frontal cortex and caudate per hemisphere in each group. By comparing cortical and caudate inter-cluster endpoint distances between groups, we assessed their patterns of frontostriatal connectivity. RESULTS: 1) In both males and females in early affective psychosis and healthy controls, bilaterally, the frontal cortex to caudate wiring pattern deviated from a topographic organization. 2) in a right hemisphere frontal pole fiber cluster, independent of sex, we found a significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.013); 3) in a left hemisphere inferior frontal gyrus, pars triangularis, fiber cluster, we found sex influenced the significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.0085), with the effect much greater in females (p < 0.00001) than in males (p = 0.97); and, 4) post-hoc tests showed a significant effect of diagnosis on the pattern of frontal cortex to caudate connectivity in specific subregions (ps ≤0.04). CONCLUSIONS: Importantly, while the frontostriatal wiring pattern in both early affective psychosis and healthy controls deviated from a topographic organization, we found in a right hemisphere fiber cluster, independent of sex, that a significant interaction effect of diagnosis was observed on the frontal cortex to caudate connectivity pattern, whereas, in a left hemisphere fiber cluster, the effect of diagnosis on connectivity pattern was influenced by sex, showing the importance of the role of sex in brain wiring patterns in early affective psychosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401715/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-04",
+      "date": "2026-07-05",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "Longitudinal effects of comorbidities on brain structure and cognition in older breast cancer survivors.",
+      "summary": "BACKGROUND: Neural substrates of cancer-related cognitive impairment (CRCI) remain poorly understood, especially in older adults facing aging-related cognitive decline and comorbid chronic conditions. METHODS: Breast cancer survivors aged ≥60 years (n = 64) and non-cancer controls (n = 62) completed structural MRI and neuropsychological testing and self-reported cognition and health information at pretreatment baseline and 12- and 24-month follow-ups. Regional gray matter volume and brain age were evaluated using FreeSurfer and brainageR. Longitudinal linear mixed models tested effects of group, time, and group-by-time interactions on volume. Secondary analyses examined relationships between group, comorbidities, age, gray matter volume, and cognition. RESULTS: Survivors exhibited frontal (p = 0.025, q = 0.058), thalamic (p = 0.008, q = 0.052), and limbic (p = 0.015, q = 0.052) gray matter decline relative to controls over 24 months, with smaller effects in parietal (p = 0.055, q = 0.097) and temporal (p = 0.091, q = 0.127) regions. Survivors showed average yearly frontal and thalamic volume loss at twice the rate of controls (p < 0.05). Survivors with a high comorbidity burden (≥3 comorbidities) exhibited the lowest frontal gray matter volume at all timepoints. A trend-level group-by-time interaction for brain age (p = 0.093) suggested accelerated brain aging in survivors. Survivors failed to show practice effects in the attention, processing speed, and executive functioning neuropsychological domain, whereas controls improved significantly over time (group-by-time interaction p = 0.030). CONCLUSIONS: Older breast cancer survivors tended to demonstrate gray matter decline and accelerated brain aging throughout the first two years of survivorship, with comorbidity burden amplifying frontal vulnerability. Findings highlight the need for longitudinal cognitive monitoring and targeted intervention, particularly for older survivors with high comorbidity burden.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402209/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Natl Cancer Inst",
+      "journal_issn": "1460-2105",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "[Successful treatment with rituximab in unilateral relapsing primary CNS vasculitis: a ‍case report].",
+      "summary": "We report a case of unilateral relapsing primary CNS vasculitis (PCNSV) treated with Rituximab. A 52-year old man initially diagnosed as PCNSV by brain biopsy. He was treated with corticosteroids and no recurrence had been recognized for 4 years. However, after the reduction of corticosteroids to 9 ‍mg, PCNSV recurred many times only in the right hemisphere. Mycophenolate mofetil and cyclophosphamide were not effective. We diagnosed this patient as unilateral relapsing PCNSV (UR-PCNSV), which is resistant to treatment and repeatedly relapses unilaterally. After rituximab was introduced, there was no clinical recurrence and abnormal lesions on head MRI improved. We emphasize that rituximab is a good candidate drug for treating the UR-PCNSV.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402381/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Rinsho Shinkeigaku",
+      "journal_issn": "1882-0654",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "[Utility of acute-phase cerebral blood flow single photon emission computed tomography (SPECT) for evaluating the pathophysiology of Bickerstaff brainstem encephalitis with decorticate posturing].",
+      "summary": "Bickerstaff's brainstem encephalitis (BBE) is an autoimmune disorder typically localized to the brainstem. While cortical involvement is rare, severe cases presenting with decorticate posturing and profound consciousness disturbance can mask typical clinical features, making early diagnosis challenging. A 22-year-old woman developed progressive numbness in her limbs and lips, visual impairment, and impaired consciousness 13 days after an episode of gastroenteritis. Upon admission, she exhibited a Japan Coma Scale score of III-200, decorticate posturing, absent brainstem reflexes, and hyperreflexia. Cerebrospinal fluid analysis revealed pleocytosis and elevated protein levels. Although contrast-enhanced MRI showed only faint enhancement along the leptomeninges of the cerebral cortex and midbrain, acute-phase 123I-IMP cerebral blood flow (CBF) single photon emission computed tomography (SPECT) demonstrated diffuse cortical hypoperfusion and paradoxical hyperperfusion in the bilateral basal ganglia. Furthermore, multiple autoantibodies associated with autoimmune encephalitis and demyelinating diseases-including anti-NMDAR, LGI1, CASPR2, AMPAR, GABABR, DPPX, GlyR, mGluR5, MOG, and AQP4 antibodies-were all negative in both serum and cerebrospinal fluid. Following aggressive immunotherapy, her consciousness improved rapidly. It was only during this recovery phase that the classic BBE triad of total ophthalmoplegia and ataxia became apparent, which had been masked by the initial severe consciousness disturbance. The diagnosis of BBE was retrospectively confirmed based on this clinical evolution and the high titers of serum anti-GQ1b and anti-GT1a IgG antibodies. Follow-up SPECT confirmed the normalization of CBF, correlating with her clinical recovery. This case demonstrates that cerebral perfusion SPECT is capable of detecting reversible dysfunction within the cortex and basal ganglia in BBE. It highlights the importance of considering BBE even in atypical cases with predominant cortical symptoms, where the diagnosis may only become clear through clinical evolution and ancillary functional imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402382/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Rinsho Shinkeigaku",
+      "journal_issn": "1882-0654",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A Temporal Pole Lesion in Neuronal Intranuclear Inclusion Disease: A Case Report.",
+      "summary": "An 81-year-old woman was transferred to our hospital due to a consciousness disorder. MRI of her cranium revealed white matter lesions and lesions in the cerebellar paravermis, splenium of the corpus callosum, and a left temporal pole on fluid-attenuated inversion recovery (FLAIR) sequences. Diffusion-weighted imaging (DWI) revealed hyperintensity at the left frontal corticomedullary junction of the brain. She was diagnosed with neuronal intranuclear inclusion disease (NIID) via a skin biopsy and genetic analysis. These lesions were evident before the DWI hyperintensity was clear. When a lesion in the temporal pole is observed, then NIID should be considered in the differential diagnosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402399/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Intern Med",
+      "journal_issn": "1349-7235",
+      "published_date": "2026-07-04",
+      "date": "2026-07-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:55+00:00",
+    "version": 1,
+    "summary": "Captured 16 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 6 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 16.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 16,
+      "high_priority": 10,
+      "medium_priority": 6,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 16
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "[Utility of acute-phase cerebral blood flow single photon emission computed tomography (SPECT) for evaluating the pathophysiology of Bickerstaff brainstem encephalitis with decorticate posturing].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402382/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neonatal brain-age models in full- and preterm infants.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400972/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A multimodal deepsurv approach: integrating radiomics and clinical factors for brain metastasis survival prediction.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42398164/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Temporal Pole Lesion in Neuronal Intranuclear Inclusion Disease: A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402399/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42401715/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Unhealthy fat distribution as a sex-specific predictor of declining hippocampus insulin sensitivity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42399494/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Multimodal neuromonitoring in neonatal hypoxic-ischemic encephalopathy and the association with neurodevelopmental outcomes: A Multicenter Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42398806/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Longitudinal effects of comorbidities on brain structure and cognition in older breast cancer survivors.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402209/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Opsoclonus revealing underlying multiple system atrophy: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42397654/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Hemichorea associated with nonketotic hyperglycemia: A case report with unremarkable neuroimaging at presentation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42396620/",
+        "published_date": "2026-07-03",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Tumor location and morphological MRI features in relation to combined 1p/22q deletion in meningioma.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400710/",
+        "published_date": "2026-07-04",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Pediatric head injury in the emergency department: balancing radiation risk, missed diagnoses, and decision-rule evolution.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42399754/",
+        "published_date": "2026-07-04",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Enhancing decision-making in surgery for a large temporocorneal meningioma through an explainable human-AI collaboration: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400077/",
+        "published_date": "2026-07-03",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diagnostic accuracy of HINTS Plus test in the differential diagnosis of central and peripheral vertigo: a prospective, cross-sectional study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42399767/",
+        "published_date": "2026-07-03",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Blood-brain barrier permeability in diffuse large B-Cell lymphoma: associations with established risk factors for CNS relapse.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400917/",
+        "published_date": "2026-07-04",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Successful treatment with rituximab in unilateral relapsing primary CNS vasculitis: a ‍case report].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402381/",
+        "published_date": "2026-07-03",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

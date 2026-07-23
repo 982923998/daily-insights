@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-24",
+  "articles": [
+    {
+      "title": "Effect of Parity and β-Amyloid on Cognition and Hippocampal Volume in Postmenopausal Women.",
+      "summary": "BACKGROUND AND OBJECTIVES: Epidemiologic studies exploring the effect of parity on Alzheimer disease (AD) yield mixed results, and little is known about how parity may modify the impact of AD pathology on brain and cognitive aging. We examined the effect of parity and AD pathology on hippocampal volume (HV) and cognitive changes in cognitively unimpaired (CU) postmenopausal women. METHODS: Analysis was performed on CU postmenopausal women from the ALFA+ observational cohort based in the BarcelonaBeta Brain research center, who completed 1 or 2 visits spaced by ∼3 years (mean = 3.38, SD = 0.55) with reproductive data, cognitive testing (modified Preclinical Alzheimer's Cognitive Composite), CSF biomarkers (Aβ42 and Aβ40), and structural MRI. We used linear mixed-effects models to investigate the interactive effects of parity, time, and Aβ status (based on CSF Aβ42/Aβ40) on cognition and HV. APOE-ε4 status, age, and total intracranial volume were included as covariates. RESULTS: A total of 254 women were included in our analyses ranging from 49.2 to 73.4 years (mean age = 61.2) at visit 1. A significant interaction between parity and Aβ status was observed for cognitive decline and HV. In women with positive amyloid status, higher parity was associated with steeper cognitive decline (β = -0.035, 95% CI -0.068 to -0.003, p = 0.033) and lower HV across time points (β = -0.134, 95% CI -0.263 to -0.005, p = 0.036). DISCUSSION: In CU postmenopausal women, higher parity interacts with AD pathology to influence cognitive decline and HV reductions. These findings suggest that parity may affect resilience to AD pathology in preclinical AD stages.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42330435/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-22",
+      "date": "2026-06-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Noninvasive Electrophysiological Biomarkers of Olfactory Responses Across Cognitive States in Alzheimer Dementia: Cross-Sectional Study.",
+      "summary": "BACKGROUND: Alzheimer disease (AD) is characterized by progressive cognitive decline, with olfactory dysfunction emerging among its earliest symptoms. Conventional olfactory tests rely on subjective self-reports and patient cooperation, limiting their clinical applicability. Noninvasive olfactory bulb (OB) recordings may provide objective physiological measures for early detection of cognitive decline. OBJECTIVE: This study investigated the relationship between olfactory dysfunction and cognitive decline across the AD spectrum and evaluated whether noninvasive OB recordings obtained via a wearable electroencephalography-based device could serve as digital biomarkers for early detection and home-based monitoring. METHODS: We recruited 71 participants, including individuals who were cognitively normal (CN; n=18), patients with mild cognitive impairment (MCI) subdivided into early MCI (n=30) and late MCI (n=9), and patients with dementia of the Alzheimer type (n=14). OB activity was recorded noninvasively during odor stimulation using a 6-channel wearable electroencephalography system. Behavioral olfactory function was assessed using a culturally adapted 6-item modified Brief Smell Identification Test and compared with electrophysiological responses. Time-frequency analyses identified disease-related components via nonparametric permutation testing (1000 iterations; P<.05). A support vector machine classifier was applied for group discrimination. Structural brain integrity was assessed through diffusion tensor imaging and magnetic resonance imaging, and cognitive performance was evaluated using comprehensive neuropsychological testing. Beta-band power (reflecting top-down cortical feedback) and gamma-band power (representing OB activity) were analyzed to characterize neural communication patterns. RESULTS: Beta-band power progressively declined from CN to dementia of the Alzheimer type, while gamma-band power decreased and response latency increased beginning in late MCI. Behavioral olfactory testing failed to differentiate CN from early MCI (P=.77), whereas electrophysiological recordings revealed significant differences (P=.02). The support vector machine classifier achieved 83.1% accuracy in distinguishing all groups based on olfactory spectral features. Reduced beta-band power showed a trend-level association with cingulum-hippocampal tract diffusivity (R²=0.28; P=.061), whereas gamma-band power correlated with OB volume in later disease stages (R²=0.21; P<.001). Electrophysiological features explained 91.7% of the variance in cognitive scores (Seoul Neuropsychological Screening Battery II; P<.001). The brief 5 to 10-minute testing protocol, requiring less than 2 minutes to fit the device, supports its feasibility for repeated, home-based assessments. CONCLUSIONS: Bidirectional interactions between the OB and higher-order brain regions appear altered early in the AD continuum, with beta-band changes emerging first and gamma-band alterations occurring later. Digital OB recordings offer objective, noninvasive biomarkers for detecting cognitive decline before overt structural changes. Their portability and short duration make this approach ideal for longitudinal, home-based cognitive assessments within mobile health frameworks and for evaluating therapeutic efficacy in future interventional studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42335456/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "JMIR Mhealth Uhealth",
+      "journal_issn": "2291-5222",
+      "published_date": "2026-06-23",
+      "date": "2026-06-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Metabolomic signatures of brain aging: A multimodal and genetic study.",
+      "summary": "Accelerated brain aging is increasingly recognized as a transdiagnostic risk factor for neuropsychiatric and neurodegenerative disorders, yet its metabolic underpinnings remain poorly understood. Here we integrated multimodal neuroimaging (MRI), plasma metabolomics, and genomic data from the UK Biobank to identify metabolic markers of brain aging and evaluate their causal relevance. Using 1079 imaging-derived phenotypes (IDPs) from 4333 healthy participants, we trained and validated machine learning models for brain age prediction, with a least absolute shrinkage and selection operator (LASSO) regression model achieving the best performance (mean absolute error = 3.26 years, R² = 0.68). Brain age gap (BAG) was then estimated in 37,458 participants. Association analyses in 21,780 individuals identified nine plasma metabolites significantly linked to BAG after Bonferroni correction, with glucose showing the strongest effect (β = 0.32, P = 9.90 × 10⁻¹²). Genome-wide association studies (GWAS) identified 392 BAG-associated single-nucleotide polymorphisms (SNPs) (P < 5 × 10⁻⁸), and two-sample Mendelian randomization (MR) provided evidence supporting a potential causal role of glucose in accelerating brain aging. Clinically, elevated plasma glucose was positively associated with seven brain disorders, including all-cause dementia, Alzheimer's disease, vascular dementia, Parkinson's disease, stroke, depression, and anxiety, and negatively associated with cognitive performance, movement function, and mental health outcomes. Higher glucose concentrations were also associated with reduced regional brain volumes across 80 cortical, subcortical, and cerebellar regions. These findings implicate glucose metabolism as a modifiable pathway in brain aging, with implications for early intervention strategies aimed at preserving brain health across the lifespan.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42337012/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-24",
+      "date": "2026-06-24",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "Decreased Nonpolar Amino Acids in Cerebrospinal Fluid of Alzheimer's Disease Patients Revealed by Very High-Field NMR Spectroscopy.",
+      "summary": "Alzheimer's disease (AD) is characterized by metabolic dysfunctions, making cerebrospinal fluid (CSF) an ideal biological matrix for characterizing brain metabolism. Very high-field 900 MHz nuclear magnetic resonance (NMR) spectroscopy was used to profile CSF metabolites from 47 patients (n = 27 AD, n = 20 non-AD). A total of forty-eight metabolites were identified and quantified. CSF concentrations of four nonpolar amino acids were reduced in AD: l-alanine (p = 0.001), l-valine (p = 0.02), l-leucine (p = 0.04), and l-phenylalanine (p = 0.04) (two-way ANOVA, pathology and sex as factors). No significant differences were observed for the other identified metabolites. A nonpolar amino acid factor (NAAF) was computed as the sum of these four metabolites (p < 0.001). Partial least-squares discriminant analysis (PLS-DA) based on the NAAF yielded moderate group separation (accuracy = 72%, Q2 = 0.22, p = 0.006). Receiver operating characteristic (ROC) analysis demonstrated that the NAAF achieved the highest discriminatory performance over individual nonpolar amino acids (AUC = 0.83). l-Alanine correlated negatively with CSF tau markers (p-tau: r = -0.40, p = 0.005; t-tau: r = -0.42, p = 0.003); the NAAF displayed similar patterns (p-tau: r = -0.38, p = 0.009; t-tau: r = -0.40, p = 0.006). Very high-field NMR spectroscopy revealed a depletion of nonpolar amino acids in AD CSF, reflecting metabolic dysregulation in this neurodegenerative disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42339780/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Proteome Res",
+      "journal_issn": "1535-3907",
+      "published_date": "2026-06-24",
+      "date": "2026-06-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The blood metabolome of brain health in midlife and influences of genes, microbiome and exposome.",
+      "summary": "Metabolic alterations are increasingly implicated in neurological disorders, including Alzheimer's disease (AD), highlighting the relevance of the peripheral metabolome, shaped by genetic and environmental exposures, for brain health. We examined the relation of 991 blood metabolites with cognition and magnetic resonance imaging (MRI) measures cross-sectionally in 1,082 dementia-free middle-aged participants of the population-based Rotterdam Study and quantified contributions of genetic variation, lifestyle, comorbidities, medication and gut microbiota to metabolite variance. Cognition-associated metabolites were replicated in two independent cohorts of older adults and tested for associations with incident AD longitudinally in one cohort. Twenty-two metabolites were associated with MRI measures. Fourteen metabolites showed replicated associations with cognition, with ergothioneine exhibiting the largest effect. The metabolite signature of cognition mirrored that of incident AD. Lifestyle, clinical variables and medication were the strongest determinants of cognition-associated and MRI-associated metabolites, explaining up to 28.6% of their variance. Antacid use was associated with worse cognition and lower ergothioneine levels, which mediated 31.5% of the negative medication effect, suggesting implications for AD prevention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42342913/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Aging",
+      "journal_issn": "2662-8465",
+      "published_date": "2026-06-24",
+      "date": "2026-06-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:48+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Noninvasive Electrophysiological Biomarkers of Olfactory Responses Across Cognitive States in Alzheimer Dementia: Cross-Sectional Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42335456/",
+        "published_date": "2026-06-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Metabolomic signatures of brain aging: A multimodal and genetic study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42337012/",
+        "published_date": "2026-06-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Effect of Parity and β-Amyloid on Cognition and Hippocampal Volume in Postmenopausal Women.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42330435/",
+        "published_date": "2026-06-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Decreased Nonpolar Amino Acids in Cerebrospinal Fluid of Alzheimer's Disease Patients Revealed by Very High-Field NMR Spectroscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42339780/",
+        "published_date": "2026-06-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The blood metabolome of brain health in midlife and influences of genes, microbiome and exposome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42342913/",
+        "published_date": "2026-06-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

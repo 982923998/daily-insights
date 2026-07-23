@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-01",
+  "articles": [
+    {
+      "title": "7 T MRI Connectivity-Guided Reprogramming Improves Deep Brain Stimulation Motor Outcome in Parkinson's Disease.",
+      "summary": "BACKGROUND: Deep brain stimulation (DBS) of the subthalamic nucleus (STN) is an established treatment for Parkinson's disease (PD). Using 7-Tesla (7 T) MRI connectivity analysis to visualize the patient-specific STN motor subdivision, we hypothesize that reprogramming patients who are stimulated outside of this subdivision can improve their motor outcome substantially, without occurrence of adverse effects. OBJECTIVES: To determine whether connectivity-guided reprogramming improves motor outcome in PD patients treated with STN-DBS. METHODS: Patients who underwent STN-DBS with 7 T MRI probabilistic tractography (2022-2024) were evaluated after standardized follow-up. Their volume of tissue activated (VTA) was visualized with clinical guided programming. Patients were reprogrammed if their VTA did not overlap with the connectivity-defined STN motor subdivision. Follow-up outcome was assessed using the Movement Disorders Society Unified Parkinson's Disease Rating Scale motor part (MDS-UPDRS III; OFF medication, ON stimulation state) and hours OFF per day (MDS-UPDRS IV). RESULTS: Twelve patients were included, of whom nine were reprogrammed. Mean MDS-UPDRS III score after classic programming improved by 16 ± 27% compared to baseline (48 ± 14 to 40 ± 13), and improved significantly further to 42 ± 26% after connectivity-guided reprogramming (28 ± 8; p = 0.005). Furthermore, OFF time after classic programming decreased from 5 ± 3 h at baseline to 3 ± 2 h, and decreased further to 2 ± 2 h after reprogramming. No stimulation-induced adverse effects were reported after parameter adjustments. CONCLUSIONS: 7 T MRI connectivity-guided (re)programming of STN-DBS can provide substantial improvement in motor outcome in PD patients and reduce OFF time, without occurrence of side-effects. Furthermore, response rate to DBS increases, enhancing overall DBS effectiveness in PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42374617/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mov Disord Clin Pract",
+      "journal_issn": "2330-1619",
+      "published_date": "2026-06-29",
+      "date": "2026-07-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Beyond Parkinson's: The Challenge of Diagnosing Multiple System Atrophy-C.",
+      "summary": "Multiple system atrophy (MSA) is a rare, rapidly progressive neurodegenerative disorder characterized by varying combinations of Parkinsonian features, cerebellar ataxia, and autonomic dysfunction. The disease is classified into two major subtypes based on predominant symptoms: The Parkinsonian variant (MSA-P) and the cerebellar variant (MSA-C). MSA-C, in particular, presents significant diagnostic challenges due to its overlapping clinical features with other neurodegenerative disorders, such as cerebellar ataxias and atypical Parkinsonian syndromes. Early stages of the disease may not show conclusive findings on conventional imaging, further complicating diagnosis. We report a case of a middle-aged woman who presented with progressive ataxia, dysarthria, orthostatic symptoms, and urinary disturbances. Initial clinical assessment and structural imaging were inconclusive. The patient showed poor response to standard pharmacological therapy, including levodopa. This prompted further evaluation with functional imaging, which demonstrated regional hypometabolism in the brainstem and cerebellum - findings supportive of a diagnosis of MSA-C. Comprehensive autoimmune and metabolic workups were negative, reinforcing the clinical suspicion. This case highlights the importance of a thorough diagnostic approach in patients with progressive cerebellar and autonomic symptoms. While definitive biomarkers for MSA are lacking, advanced imaging techniques such as fluorodeoxyglucose positron emission tomography can provide supportive evidence in challenging cases. Early identification of MSA, even when classic signs like the \"hot cross bun\" sign are absent on magnetic resonance imaging, is essential to initiate symptomatic treatment, plan supportive care, and guide patient and family counseling.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42381357/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Ann Afr Med",
+      "journal_issn": "0975-5764",
+      "published_date": "2026-06-30",
+      "date": "2026-07-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Variations of global brain asymmetry are associated with aging and related diseases.",
+      "summary": "Lateralization is a hallmark of brain organization, yet the structural basis underlying this phenomenon remains a critical, unresolved question in cognitive and systems neuroscience. In this study, we applied multivariate machine learning techniques to investigate variations of global brain asymmetry and their associations with cognitive functions, aging, and aging-related diseases, using large-scale datasets. Our findings revealed substantial and previously unknown structural differences between the hemispheres, and established key associations between structural asymmetries and lateralized functions. At the population level, we identified unique aging trajectories of hemispheric differences and uncovered diagnosis-specific variations in patients with Alzheimer's and Parkinson's disease, and in APOE ε4 carriers at genetic risk. Notably, we identified a \"left hemi-aging\" pattern that challenges the conventional \"right hemi-aging\" model. Together, these results advance our understanding of functional lateralization in the human brain and highlight the potential of global brain asymmetry as a biomarker for brain aging and related diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42384796/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Sci Adv",
+      "journal_issn": "2375-2548",
+      "published_date": "2026-07-01",
+      "date": "2026-07-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:53+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "7 T MRI Connectivity-Guided Reprogramming Improves Deep Brain Stimulation Motor Outcome in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42374617/",
+        "published_date": "2026-06-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Variations of global brain asymmetry are associated with aging and related diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42384796/",
+        "published_date": "2026-07-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Beyond Parkinson's: The Challenge of Diagnosing Multiple System Atrophy-C.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42381357/",
+        "published_date": "2026-06-30",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

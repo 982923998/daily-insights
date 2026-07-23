@@ -1,0 +1,86 @@
+{
+  "date": "2026-07-21",
+  "articles": [
+    {
+      "title": "Brain aging patterns among nine neurological disorders: A case-control study.",
+      "summary": "BACKGROUND: The difference between neuroimaging-predicted brain age and chronological age, the predicted age difference (PAD), has been studied as a potential biomarker reflecting individual brain health. Although previous large-scale studies have shown that brain age deviations occur across multiple disorders, cross-disorder comparisons of PAD within a unified framework, together with identification of the neuroimaging features associated with these differences and their related gene expression profiles, remain limited. Our aims are to systematically compare brain aging across multiple common brain disorders and explore the brain patterns and biological processes underlying these differences. METHODS AND FINDINGS: In this study, structural MRI data from 45,900 healthy controls (HCs) and 2,698 patients with developmental disorders (attention-deficit/hyperactivity disorder [ADHD] and autism spectrum disorder [ASD]), addiction (alcohol use disorder [AUD], tobacco use disorder [TUD], and AUD&TUD-A&TUD), dementia (Alzheimer's disease [AD], and mild cognitive impairment [MCI]) or other psychiatric disorders (schizophrenia [SZ], bipolar disorder [BP], and major depressive disorder [MDD]), were collected to generate PAD, along with transcriptome data. Then, we calculated the PAD difference between patient and HC as Cohen's d effect sizes, derived from a linear model that accounted for age, age2, sex, and site, and further identified the interpretable brain patterns associated with the PAD difference for each diagnostic group. Finally, enrichment analyses was conducted to identify the biological function of genes relatively over- or underexpressed in association with these patterns. Results showed that while PAD was consistently greater across disorders, different brain disorders showed different degrees of abnormality, the highest effects in dementia (AD: d = 0.97, 95% confidence interval (CI) [0.82,1.13]; p < 0.001 and MCI: d = 0.45, 95% CI [0.34,0.56]; p < 0.001), followed by addiction (A&TUD: d = 0.84, 95% CI [0.44,1.23]; p < 0.001, TUD: d = 0.72, 95% CI [0.49,0.96]; p < 0.001, and AUD d = 0.62, 95% CI [0.39,0.84]; p < 0.001) and psychiatric disorders (SZ: d = 0.53, 95% CI [0.30,0.76]; p < 0.001, BP: d = 0.46, 95% CI [0.22,0.69]; p < 0.001 and MDD: d = 0.28, 95% CI [0.11,0.46]; p < 0.001), but not different from expected in developmental disorders (ASD: d = 0.06, 95% CI [-0.04,0.16]; p = 0.36) and ADHD: d = 0.01, 95% CI [-0.14,0.15]; p = 0.98). Furthermore, higher PAD values in patient groups were linked to specific spatial brain patterns, including the frontotemporal network in psychiatric disorders, default mode network-salience network-putamen-thalamus in addiction and fronto-occipital network in dementia. Prefrontal cortex involvement was common across disorders, and disorder-specific brain patterns associated genes were enriched in different biological processes. A limitation of our study is that psychiatric disorders and addiction have high comorbidity, and these potential confounders were not considered. CONCLUSIONS: In summary, the different brain aging patterns, each based around specific underlying circuits, may serve as neuroimaging biomarkers for understanding the neural aging mechanisms in commonly occurring brain disorders. Future studies should test whether these disorder-specific brain aging patterns can serve as useful biomarkers to guide critical clinical decision-making.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479667/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "PLoS Med",
+      "journal_issn": "1549-1676",
+      "published_date": "2026-07-21",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The Mirror Neuron System in Typically and Atypically Developing Children: Evolution, Dysfunction and Rehabilitative Purpose. A Systematic Review.",
+      "summary": "Studies on the Mirror Neuron System (MNS), a network activated during both action execution and observation, suggest a key role in several functions. Although present from early postnatal life, its maturation across developmental stages remains unclear, as does its vulnerability to adverse conditions such as early brain injury or Neurodevelopmental Disorders affecting action planning, execution, and imitation. To better understand MNS development along the continuum from typical to atypical trajectories, a systematic review was conducted. The work, carried out in January 2026 across multiple databases, identified three main findings. First, the MNS is active in early infancy but becomes increasingly specialised and lateralised with development, influenced by goal-directed actions, social context, and motor experience. Second, the network appears to be susceptible to atypical neurodevelopmental processes, as evidenced by different activations in specific Neurodevelopmental Disorders, such as Developmental Coordination Disorder and Autism Spectrum Disorder, although findings are conflicting, or as shown by studies in children with Cerebral Palsy, in whom different activations are generally observed. Third, preliminary evidence suggests a link between rehabilitation outcomes and MNS-related neuroplasticity, particularly in Action Observation Treatment for children with Cerebral Palsy. The present systematic review serves as a first step in enhancing the importance of furthering knowledge of the evolution and peculiarities of MNS in children. Understanding how this system develops, adapts and changes in response to experience can have fundamental implications for clinical and rehabilitation purposes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42480680/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Neurosci Biobehav Rev",
+      "journal_issn": "1873-7528",
+      "published_date": "2026-07-21",
+      "date": "2026-07-21",
+      "impact_factor": 8.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:05+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain aging patterns among nine neurological disorders: A case-control study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479667/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The Mirror Neuron System in Typically and Atypically Developing Children: Evolution, Dysfunction and Rehabilitative Purpose. A Systematic Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42480680/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-25",
+  "articles": [
+    {
+      "title": "Response-predictive MRI biomarkers of low-dose lithium therapy: cortical thickness changes in patients with bipolar depression.",
+      "summary": "INTRODUCTION: Lithium remains a cornerstone treatment for bipolar disorder, yet response rates are variable and predicting outcomes remains challenging. This study examined whether cortical thickness changes during lithium treatment serve and their association with clinical outcomes in bipolar depression, aiming to characterize the neurobiological correlates of treatment response. METHODS: Twenty-three adult outpatients (17 female, 6 male; 74% bipolar II; mean age 28.5 years), medication-free and treatment-naïve, received six-week low-therapeutic lithium monotherapy (mean level 0.47±0.19 mmol/L). Cortical thickness was assessed via 3T MRI across 68 regions using multivariate Bayesian GLMMs controlling for age, sex, and subtype. RESULTS: Forty-two of 68 regions showed moderate-to-strong evidence for cortical change. Increased thickness in right rostral anterior cingulate, right isthmus cingulate, right lateral orbitofrontal cortex, and right frontal pole were associated with remission. Remitters showed decreased prefrontal-cingulate thickness but increased visual-temporal thickness, suggesting localized neuroplastic effects specific to lithium response. DISCUSSION: Regional cortical thickness changes during lithium treatment represent promising neurobiological correlates of therapeutic response in bipolar depression, advancing understanding of the pathways underlying lithium's effects. Future studies should validate these findings in larger, prospective cohorts to assess their potential translational relevance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42184576/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Psychiatry Res Neuroimaging",
+      "journal_issn": "1872-7506",
+      "published_date": "2026-05-23",
+      "date": "2026-05-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:30+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Response-predictive MRI biomarkers of low-dose lithium therapy: cortical thickness changes in patients with bipolar depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42184576/",
+        "published_date": "2026-05-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

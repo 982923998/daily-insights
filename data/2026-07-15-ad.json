@@ -1,0 +1,187 @@
+{
+  "date": "2026-07-15",
+  "articles": [
+    {
+      "title": "Ceperognastat in Early Symptomatic Alzheimer Disease: A Randomized Clinical Trial.",
+      "summary": "IMPORTANCE: Inhibiting O-linked N-acetylglucosaminidase (OGA) is hypothesized to slow accumulation of aggregated, hyperphosphorylated tau and neurofibrillary tangle formation. OBJECTIVE: To evaluate the efficacy and safety of the potent oral OGA inhibitor ceperognastat in early symptomatic Alzheimer disease (AD). DESIGN, SETTING, AND PARTICIPANTS: This double-blind, randomized, placebo-controlled phase 2 study was conducted at 72 sites in 5 countries from September 2021 to August 2024, with a posttreatment observational extension period through May 2025. The primary outcome population comprised participants with early symptomatic AD and biomarker evidence of tau pathology, including low to medium baseline tau levels (excluding individuals with high levels), as measured by positron emission tomography (PET) with flortaucipir F18. INTERVENTION: Participants were randomized 1:1:1 to receive once-daily, oral ceperognastat at doses of 0.75 mg (n = 110) or 3 mg (n = 108) or placebo (n = 108). MAIN OUTCOMES AND MEASURES: The primary outcome was change in Integrated AD Rating Scale (iADRS) score. The success criterion was a 60% or greater probability of achieving greater than or equal to 25% slower progression vs placebo using a bayesian probabilistic disease progression model. The 6 secondary outcomes were Alzheimer's Disease Assessment Scale-Cognitive Subscale, 13-item version; Alzheimer's Disease Cooperative Study-Activities of Daily Living scale; Clinical Dementia Rating-Sum of Boxes; Mini-Mental State Examination; tau PET; and volumetric magnetic resonance imaging. RESULTS: Of the 327 randomized participants (mean age, 73.4 years; 201 [61.5%] females), 259 (87 receiving ceperognastat 0.75 mg, 86 receiving ceperognastat 3 mg, and 86 receiving placebo) with low to medium baseline tau levels were included in the primary outcome population (mean age, 74.3 years; 161 [62.2%] females). In this population, no clinically meaningful benefit vs placebo was observed for the primary end point (iADRS score) at 100 weeks: posterior mean change from baseline was -8.39 with ceperognastat 0.75 mg, -13.27 with ceperognastat 3 mg, and -10.07 with placebo. The disease progression ratio relative to placebo was 0.84 (95% credible interval [CrI], 0.66-1.04) for the ceperognastat 0.75 mg group and 1.32 (CrI, 1.10-1.58) for the ceperognastat 3 mg group, corresponding to 16% less and 32% greater progression, respectively. No benefits were demonstrated for secondary clinical end points. From baseline to 76 weeks, least-squares mean change in standardized uptake value ratio on PET showed a statistically significantly smaller increase (P = .04) vs placebo only for the ceperognastat 3 mg group in the lateral temporal lobe. Volumetric magnetic resonance imaging showed less whole brain volume loss in participants treated with ceperognastat vs placebo (43.2% [ceperognastat 0.75 mg] and 49.5% [ceperognastat 3 mg] less vs placebo; both P < .001). The ceperognastat 3 mg group had more serious (ceperognastat 0.75 mg: n = 13 [12.0%]; ceperognastat 3 mg: n = 29 [26.4%]; placebo: n = 17 [15.7%]) and severe (ceperognastat 0.75 mg: n = 7 [6.5%]; ceperognastat 3 mg: n = 15 [13.6%]; placebo: n = 7 [6.5%]) treatment-emergent adverse events. CONCLUSIONS AND RELEVANCE: Ceperognastat did not slow disease progression of early symptomatic AD. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05063539.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441396/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "JAMA",
+      "journal_issn": "1538-3598",
+      "published_date": "2026-07-13",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Sporadic Creutzfeldt-jakob disease: a case report.",
+      "summary": "BACKGROUND: Creutzfeldt-Jakob disease is a rare, transmissible, and fatal degenerative disorder of the central nervous system. As the most common human prion disease, it typically presents with progressive dementia, visual impairment, cerebellar ataxia, pyramidal or extrapyramidal signs, myoclonus, and akinetic mutism. Although dizziness is a prevalent clinical symptom, it is an uncommon initial manifestation of Creutzfeldt-Jakob disease. CASE PRESENTATION: We report the case of a 71-year-old Chinese woman who presented to our hospital with dizziness. Brain magnetic resonance imaging revealed extensive cortical hyperintensity on diffusion-weighted imaging. Cerebrospinal fluid analysis was positive for the 14-3-3 protein. Collectively, these findings, along with additional supportive investigations, led to the diagnosis of possible sporadic Creutzfeldt-Jakob disease. CONCLUSIONS: This case illustrates that Creutzfeldt-Jakob disease can manifest with atypical symptoms like dizziness, highlighting the essential role of brain magnetic resonance imaging in securing the diagnosis. In light of the disease's rarity and clinical heterogeneity, detailed reporting of such cases provides valuable clinical insights that deepen physicians' understanding of this condition.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42443997/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Med Case Rep",
+      "journal_issn": "1752-1947",
+      "published_date": "2026-07-13",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Preparedness and quality of dementia care in an Italian health authority when introducing anti-Aβ therapies.",
+      "summary": "INTRODUCTION: We aimed to assess dementia care organizations within a southern Italian local health authority (Azienda Sanitaria Locale di Barletta Andria Trani) and to propose an equitable implementation framework for anti-amyloid therapies. METHODS: We performed a retrospective analysis of dementia-related outpatient activity in 2024 patients across 18 district clinics (primary care clinics) and three specialized centers for cognitive disorders and dementia (specialized memory centers), integrating booking, clinical, imaging, and prescribing data. RESULTS: Among 1158 initial evaluations, specialized memory centers showed substantially higher quality indicators than district clinics: Mini-Mental State Examination documentation (80.0% vs. 6.6%, p < 0.001), full clinical documentation (95.5% vs. 10.0%), higher use of magnetic resonance imaging and amyloid positron emission tomography, and 5-fold higher rate of prescribing acetylcholinesterase inhibitors. Validated radiological scoring and biomarker facilities (cerebrospinal fluid, apolipoprotein E genotyping) were largely unavailable. DISCUSSION: Major organizational gaps limit readiness for disease-modifying Alzheimer's disease therapies. A four-tier hub-and-spoke model may improve equity, efficiency, and safe implementation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42453112/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimers Dement (Amst)",
+      "journal_issn": "2352-8729",
+      "published_date": "2026-07-13",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Association of plasma irisin levels with amyloid burden in the Alzheimer's disease spectrum.",
+      "summary": "INTRODUCTION: This study investigated the association between plasma myokines, including irisin, and cerebral amyloid burden across the Alzheimer's disease (AD) continuum. METHODS: A total of 100 participants were classified into four groups: amyloid-negative cognitively unimpaired (A- CU), amyloid-positive CU (A+ CU), A+ mild cognitive impairment (MCI), and A+ dementia of the Alzheimer's disease type (DAT). All participants underwent neuropsychological testing, brain magnetic resonance imaging, amyloid positron emission tomography, and plasma myokine assessment. Multivariable linear regression and mediation analyses were performed adjusting for covariates. RESULTS: Irisin levels were significantly lower in all AD continuum groups compared to A- CU participants (p < 0.001), while brain-derived neurotrophic factor (BDNF) and fibroblast growth factor 21 (FGF21) showed no group differences. Higher irisin levels were associated with lower amyloid burden (r = -0.24, p = 0.019). Mediation analysis demonstrated that amyloid burden mediated the relationship between irisin and cognitive outcomes, whereas no such effects were observed for BDNF or FGF21. DISCUSSION: Irisin may play a key role in the muscle-brain axis by linking amyloid pathology to cognitive decline in AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42453113/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimers Dement (Amst)",
+      "journal_issn": "2352-8729",
+      "published_date": "2026-07-13",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Higher amyloid deposition and lower white matter volume in cognitively healthy seniors exceeding French alcohol recommendations.",
+      "summary": "BACKGROUND: Older adults are particularly vulnerable to alcohol's effects. Our aim was to establish whether differences in neurocognitive health exist between cognitively healthy seniors, depending on whether they follow recent French health recommendations for stricter drinking limits beyond age 65. METHODS: We conducted a retrospective cross-sectional study including 133 community-dwelling cognitively healthy participants aged over 65 from the Age-Well Study. Based on their compliance with recommendations, participants were classified as lower-risk or higher-risk. Neurocognitive health was assessed comprehensively through standard cognitive testing, and voxel-wise analyses of structural integrity and cortical amyloid PET burden. FINDINGS: Higher-risk participants displayed more neocortical amyloid deposition (F = 7.577; p = 0.007; d = 0.553) and lower cerebral volume, in the absence of a difference in cognition (p > 0.1). INTERPRETATION: These results highlight that alcohol consumption exceeding age-specific recommendations is associated with lower brain integrity, notably including elevated amyloid burden, a biomarker strongly linked with higher risk of Alzheimer's disease-related cognitive decline and dementia. Our findings emphasise the importance of strict adherence to lower-risk thresholds in older populations. FUNDING: European Union's Horizon 2020 Research and Innovation Programme (No 667696); Institut National de la Santé et de la Recherche Médicale (INSERM); Fondation Entrepreneurs MMA; FONDATION ALZHEIMER; Région Normandie; Fondation Recherche Alzheimer; Association France Alzheimer; Fondation de France; Institut pour la Recherche en Santé Publique (IRESP).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42456192/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "EBioMedicine",
+      "journal_issn": "2352-3964",
+      "published_date": "2026-07-15",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Neurovascular-metabolic coupling links hearing loss to cognitive impairment: Evidence from GABA and cerebral blood flow in presbycusis.",
+      "summary": "Hearing loss is recognized as the leading modifiable risk factor for dementia. However, the neurobiological pathways bridging auditory dysfunction and cognitive decline remain poorly understood. We hypothesized that a neurovascular-metabolic cascade, involving neurotransmitter imbalances and perfusion deficits, underlies this link. We recruited 124 patients with presbycusis and 91 age-matched health controls. Auditory GABA and glutamate levels were quantified using macromolecule-suppressed MEGA-PRESS, and cerebral blood flow (CBF) was quantified using pseudo-continuous arterial spin labeling. Participants underwent comprehensive neuropsychological assessments. Spatial correlation analysis was performed to align CBF alterations with established neurotransmitter maps. Presbycusis patients exhibited bilateral reductions in auditory GABA and glutamate, alongside widespread hypoperfusion across auditory, salience, and executive control networks. Mediation analysis demonstrated that right auditory GABA concentrations and regional CBF (specifically in the right superior parietal gyrus and left thalamus) sequentially mediated the association between hearing loss and cognitive deterioration. Furthermore, CBF alterations spatially co-localized with serotonergic, dopaminergic, and GABAergic systems, with these spatial couplings significantly correlating with cognitive performance. These findings delineate a systemic neurovascular-metabolic cascade linking hearing loss to cognitive impairment. By identifying GABAergic signaling and regional perfusion as key mediators, this study provides a multimodal framework for understanding sensory-cognitive aging and highlights potential biomarkers for early intervention in dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42456953/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-07-15",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:02+00:00",
+    "version": 1,
+    "summary": "Captured 6 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 6,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neurovascular-metabolic coupling links hearing loss to cognitive impairment: Evidence from GABA and cerebral blood flow in presbycusis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42456953/",
+        "published_date": "2026-07-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Higher amyloid deposition and lower white matter volume in cognitively healthy seniors exceeding French alcohol recommendations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42456192/",
+        "published_date": "2026-07-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Association of plasma irisin levels with amyloid burden in the Alzheimer's disease spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42453113/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Preparedness and quality of dementia care in an Italian health authority when introducing anti-Aβ therapies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42453112/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Ceperognastat in Early Symptomatic Alzheimer Disease: A Randomized Clinical Trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42441396/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Sporadic Creutzfeldt-jakob disease: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42443997/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-05-27",
+  "articles": [
+    {
+      "title": "Effects of electroacupuncture on brain functional connectivity in patients with subjective tinnitus: A randomized controlled clinical trial☆.",
+      "summary": "BACKGROUND: Subjective tinnitus (ST) often causes significant psychological and sleep disturbances, and limited treatment options are available. Neuroimaging suggests that acupuncture modulates brain activity. This study aimed to evaluate electroacupuncture (EA) for ST treatment using resting-state functional magnetic resonance imaging (rs-fMRI) to explore its central mechanisms. METHODS: This single-center, randomized, double-blind trial enrolled 90 patients with ST (aged 18-65 years), who were randomized at a 2:1 ratio to EA (n = 60) or sham acupuncture (SA, n = 30). Participants received 20 sessions over 7 weeks. EA applied electrical stimulation at seven fixed acupoints, while SA used non-penetrating needles. Primary outcome was change in Tinnitus Handicap Inventory (THI) score. Secondary outcomes included Pittsburgh Sleep Quality Index, Hospital Anxiety and Depression Scale (HADS), and audiometry. rs-fMRI assessed brain functional changes. RESULTS: The EA group showed significantly greater reduction in THI scores compared to the SA group at the end of the second treatment course (mean change: -30.38 to -21.76, P < 0.001). This improvement was maintained during the 3-month follow-up period (mean change: -29.13 to -19.53, P < 0.001). Resting-state functional magnetic resonance imaging analysis revealed that EA decreased the insula Regional Homogeneity (ReHo) value, and the change in insula ReHo values was positively correlated with improvements in HADS scores. Additionally, EA significantly improved sleep quality and emotional status compared to SA. CONCLUSION: EA effectively reduces ST severity, improving hearing, sleep, and mood and providing superior effects to SA. Its mechanism might involve modulating insular function and enhancing emotion-related brain regions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42191050/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Complement Ther Med",
+      "journal_issn": "1873-6963",
+      "published_date": "2026-05-25",
+      "date": "2026-05-27",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Prefrontal Structural Asymmetry Mediates Body Mass Index and Treatment Response in Major Depressive Disorder.",
+      "summary": "BACKGROUND: Elevated body mass index (BMI) predicts poor treatment response in major depressive disorder (MDD), yet the neurobiological mechanisms underlying this association remain poorly understood. Cortical thickness asymmetry has been proposed as a structural correlate of affective regulation and may represent a pathway through which metabolic factors influence treatment outcomes. We investigated whether BMI-related alterations in prefrontal cortical asymmetry mediate antidepressant treatment resistance in MDD. METHODS: We analyzed baseline structural MRI (sMRI) and 12-week clinical outcome data from 312 adults with MDD across a discovery cohort (n = 107) and an independent replication cohort (n = 205). Treatment response was operationalized as absolute reduction in Hamilton depression rating scale (HAMD-17) scores. Cortical thickness asymmetry indices were derived from regional parcellations. Associations between BMI and asymmetry were examined using linear regression models; mediation analyses tested whether BMI-related asymmetry statistically mediates the link between higher BMI and reduced treatment response. Sex-stratified analyses were conducted to identify divergent pathways. RESULTS: Across both cohorts, higher BMI was consistently associated with greater leftward cortical thickness asymmetry in the prefrontal cortex (PFC). This structural asymmetry significantly mediated the relationship between BMI and poorer treatment response. Sex-stratified analyses revealed additional female-specific mediation through prefrontal opercular regions, with no corresponding effect in males. Transcriptomic annotation of implicated regions identified enrichment for genes involved in metabolic and cytoplasmic signaling pathways. CONCLUSIONS: BMI-associated leftward prefrontal asymmetry statistically mediates antidepressant resistance in MDD via both a sex-shared structural pathway and a female-specific opercular circuit. These findings suggest that metabolic factors may influence treatment outcomes partly through hemispheric structural imbalance in prefrontal regions and position cortical thickness asymmetry as a candidate neuroimaging biomarker for patient stratification in precision psychiatry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42199997/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Depress Anxiety",
+      "journal_issn": "1520-6394",
+      "published_date": "2026-05-25",
+      "date": "2026-05-27",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:31+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Effects of electroacupuncture on brain functional connectivity in patients with subjective tinnitus: A randomized controlled clinical trial☆.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42191050/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Prefrontal Structural Asymmetry Mediates Body Mass Index and Treatment Response in Major Depressive Disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42199997/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

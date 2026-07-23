@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-16",
+  "articles": [
+    {
+      "title": "Postmortem cerebellar and brainstem alterations in episodic ataxia type 1 and 2: Expanding the clinicopathological spectrum.",
+      "summary": "BACKGROUND: Episodic ataxias (EAs) are rare autosomal-dominant channelopathies presenting with recurrent attacks of ataxia and variable neurological features. While MRI studies suggest mild cerebellar atrophy in some patients, detailed neuropathological descriptions are lacking. MATERIALS AND METHODS: We examined postmortem brains and spinal cords from two genetically confirmed patients: EA1 (KCNA1 Val174Phe mutation) and EA2 (CACNA1A A253Y mutation). Routine histology and immunohistochemistry were performed. RESULTS: In EA1, the cerebellar vermis and hemispheres showed narrowing of the folia, segmental Purkinje cell loss, Bergmann gliosis, and scattered torpedoes. The dentate nucleus contained focal lipofuscin-laden macrophages and Rosenthal fibers. Concurrently, α-synuclein pathology (Braak stage 3) was also present, along with sparse age-related tau tangles and minimal vascular amyloid. In EA2, only focal Purkinje cell loss was detected, but novel p62-positive axonal and dendritic inclusions were observed in the cerebellar cortex and inferior olive. No additional α-synuclein, tau, or amyloid pathology was found. A concurrent glioblastoma was identified as the immediate cause of death. CONCLUSION: These are the first detailed autopsy reports of EA1 and EA2. Both revealed cerebellar pathology, with EA1 showing more pronounced Purkinje cell degeneration, while EA2 demonstrated previously undescribed p62-positive inclusions. These findings expand the clinicopathological spectrum of EAs and highlight the value of postmortem studies in elucidating underlying disease mechanisms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42290287/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Clin Neuropathol",
+      "journal_issn": "0722-5091",
+      "published_date": "2026-06-15",
+      "date": "2026-06-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Orbitofrontal atrophy on MRI appears to be an indicator of C9orf72 repeat expansion status in FTD.",
+      "summary": "Frontotemporal dementia (FTD) is an important group of neurodegenerative diseases causing early onset dementia. While FTD is mostly sporadic, a common cause of genetic FTD is the C9orf72 hexanucleotide repeat expansion (C9exp). To date, no imaging biomarkers have been identified for differentiating between sporadic and hereditary cases. In this study, we focused on MRI-based neuroanatomical comparisons between FTD subtypes bvFTD and nfvPPA, as well as the C9exp status, to identify potential imaging biomarkers. Fifty-six patients with FTD (43 bvFTD and 13 nfvPPA) underwent clinical evaluation and magnetic resonance imaging (MRI) at 1,5T and 3,0T The genetically analysed subgroup consisted of 13 C9exp -positive and 22 C9exp -negative cases. cNeuro® cMRI software was used for comprehensive voxel-based morphometry (VBM) analyses of the MRI images for multiple brain regions, structures and their volumes. Our results show that orbitofrontal volumes, particularly of the right anterior and posterior orbital gyri, demonstrate high sensitivity (90,9-100%) and specificity (76,9%) in differentiating C9exp cases from sporadic FTD. Furthermore, we elucidated and corroborated several statistically significant volumetric differences in multiple brain regions between the FTD subtypes of bvFTD and nfvPPA, such as asymmetrical, right-sided atrophy in the former. This is the first demonstration that C9exp-positive FTD cases can be reliably differentiated from sporadic cases based solely on MRI atrophy patterns. Furthermore, we corroborate several diagnostically significant volumetric differences in brain regions between bvFTD and nfvPPA variants, providing evidence that advanced brain morphometry techniques constitute a valuable tool for identifying even more FTD subtypes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42302493/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neuroradiol",
+      "journal_issn": "0150-9861",
+      "published_date": "2026-06-16",
+      "date": "2026-06-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:43+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Postmortem cerebellar and brainstem alterations in episodic ataxia type 1 and 2: Expanding the clinicopathological spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42290287/",
+        "published_date": "2026-06-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Orbitofrontal atrophy on MRI appears to be an indicator of C9orf72 repeat expansion status in FTD.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42302493/",
+        "published_date": "2026-06-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

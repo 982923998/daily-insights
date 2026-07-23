@@ -1,0 +1,87 @@
+{
+  "date": "2026-07-15",
+  "articles": [
+    {
+      "title": "Developmental divergence in voice-reward circuitry differentiates autistic from typically developing children and adolescents.",
+      "summary": "Adolescence is a period of profound social change marked by a developmental shift in attention and motivation from parents toward nonfamilial peers. Autism is a neurodevelopmental condition characterized by lifelong challenges in social communication. However, the neurobiological signatures of adolescent social reorientation in autism are poorly understood. Human voice processing is a primary driver of social learning and communication, but it remains understudied in the autism literature, particularly as it relates to neurodevelopmental change. Here we used functional brain imaging of voice processing in children and adolescents with autism and matched controls (ages 7 to 17) to examine neural responses to mother's voice and nonfamilial voices. We identified divergent age-related patterns in autism across reward, salience, social evaluative, and frontoparietal processing regions consistent with models of an extended voice processing network. Results showed that while typically developing participants exhibited age-related increases in neural activity and connectivity within regions of the voice processing network, individuals with autism showed no age-related increases, and often decreases, in these regions. Adolescents with autism further revealed a reversal of the characteristic developmental pattern: with increasing age, they exhibited decreasing neural engagement with nonfamilial voices and increasing engagement with mother's voice, a pattern that was most pronounced in individuals with more severe social communication challenges. Findings suggest that disrupted organization of the extended voice processing network, including reward, salience, social evaluative, and frontoparietal circuitry, may underlie atypical social neurodevelopment in autism. More broadly, results suggest that individual differences in social communication shape age-related neural patterns supporting social reorientation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441858/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-07-13",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Factors linked to successful brain magnetic resonance imaging scans and data quality in autistic individuals across the functioning spectrum.",
+      "summary": "BACKGROUND: Neuroimaging research in autism often excludes individuals with co-occurring intellectual impairment or minimally verbal status, limiting the generalisability of findings. Understanding magnetic resonance imaging (MRI) scan success predictors in a representative autistic sample is crucial for equitable research. AIMS: This study identified factors predicting successful brain MRI acquisition and data quality in diverse autistic individuals, focusing on including those with intellectual impairment or minimally verbal status. METHOD: A total of 122 participants (83 autistic individuals (27 with intellectual impairment, 19 with minimally verbal status) and 39 typically developing controls) received multi-modal brain MRI scans (including structural, resting-state functional and diffusion MRI). Scan success, assessed using both binary criteria and quantitative data-quality metrics, was related to participant characteristics. RESULTS: Although overall scan success was high, specific factors differentiated success within subgroups. Key factors contributing to scan success included age, non-verbal intelligence and attention-deficit hyperactivity disorder (ADHD) symptoms. Older participants, those with fewer ADHD symptoms and those with higher non-verbal intelligence were more likely to achieve successful scans, regardless of autism diagnosis. Higher data quality, particularly in structural and functional MRI, was associated with higher intelligence, better adaptive functioning, fewer autistic and ADHD symptoms, and fewer behavioural problems. CONCLUSIONS: Identifying these factors is key to designing more inclusive and effective neuroimaging protocols. This work paves the way for more comprehensive research into the neurobiology of the full autism spectrum, and offers insights for improving the clinical MRI experience for autistic individuals with diverse support needs. Individualised strategies may also be useful in clinical settings, helping to improve the experience of MRI scanning for autistic individuals.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42444186/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "BJPsych Open",
+      "journal_issn": "2056-4724",
+      "published_date": "2026-07-14",
+      "date": "2026-07-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:01+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Developmental divergence in voice-reward circuitry differentiates autistic from typically developing children and adolescents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42441858/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Factors linked to successful brain magnetic resonance imaging scans and data quality in autistic individuals across the functioning spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42444186/",
+        "published_date": "2026-07-14",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

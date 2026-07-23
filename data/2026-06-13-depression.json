@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-13",
+  "articles": [
+    {
+      "title": "Associations of DTI-ALPS index and choroid plexus volume with clinical severity across the Parkinson's disease spectrum.",
+      "summary": "Impaired clearance of pathogenic proteins may contribute to Parkinson's disease (PD) progression, but the clinical relevance of brain clearance-associated processes in humans remains incompletely understood. Using cross-sectional data from 1,861 participants (704 PD, 997 prodromal, 160 healthy controls) in Parkinson Progression Marker Initiative, we investigated whether the magnetic resonance imaging (MRI)-based indirect markers linked to brain clearance-related processes, diffusion tensor imaging analysis along the perivascular space (DTI-ALPS) index and normalized choroid plexus volume (NCPV), are associated with disease stage and motor/non-motor manifestations across the PD spectrum. The ALPS index declined with age, was lower in males, and showed a stepwise reduction from controls to prodromal individuals and PD patients. Clinically, lower ALPS index correlated with greater motor severity in prodromal and PD groups, with stronger associations at advanced stages. Lower ALPS index also correlated with rapid eye movement sleep behavior disorder, cognitive impairment, and depressive symptoms. NCPV showed a complementary trend, demonstrating positive associations with clinical severity measures and a significant negative correlation with the ALPS index. Together, these findings suggest that MRI markers linked to brain clearance processes are associated with clinical progression across the PD continuum and may provide imaging biomarkers relevant to disease staging and pathophysiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42277056/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-11",
+      "date": "2026-06-13",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "Clinical Correlates of Resting-State Functional Magnetic Resonance Imaging in Military Personnel with Adulthood-Onset War-Related Post-Traumatic Stress Disorder.",
+      "summary": "BACKGROUND: Investigation of the neural substrates of post-traumatic stress disorder (PTSD) in military personnel using whole-brain approaches remains scarce, hindering the development of circuit-based neuromodulatory interventions. OBJECTIVES: This study aimed to identify potential associations between clinical symptoms and whole-brain resting-state functional connectivity with magnetic resonance imaging in military personnel with adulthood-onset war-related PTSD. METHODS: Thirty-seven soldiers from the Canadian Armed Forces with moderate to severe treatment-resistant PTSD participated in this study. We assessed PTSD, anxiety and depressive symptoms, quality of life, and time since trauma. We characterized the whole-brain functional connectome using independent component analysis and regions of interest (ROI)-to-ROI connectivity, as well as its topology using graph theory. RESULTS: Greater severity of PTSD and anxiety symptoms was associated with lower connectivity (r < 0) between the default mode network (DMN) and frontoparietal network. Greater severity of PTSD symptoms was also associated with a higher nodal clustering coefficient of the inferior parietal lobule from the DMN. Greater severity of anxiety symptoms and longer time since trauma was the only clinical variables that correlated with higher connectivity patterns, all involving the visual networks (the frontoparietal-visual, the visual-DMN, and within-visual networks). CONCLUSIONS: This work contributes to identifying brain targets for the development of personalized neuromodulatory interventions. In particular, the DMN may be a promising target to alleviate PTSD symptoms, and the visual network may be a target to treat comorbid anxiety symptoms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287083/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Connect",
+      "journal_issn": "2158-0022",
+      "published_date": "2026-06-13",
+      "date": "2026-06-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "In-patient treatment and structural dysconnectivity in major depression - A longitudinal connectome study.",
+      "summary": "Altered brain structural connectivity has been implicated in the pathophysiology of Major Depressive Disorder (MDD), yet its stability over time and responsiveness to treatment remain unclear. This study utilized network science to analyze the white matter connectome based on longitudinal magnetic resonance imaging data in MDD. In MDD patients (n = 109) undergoing various in-patient treatments (including n = 50 receiving electroconvulsive therapy (ECT)), we compared pre-treatment and six-week follow-up data to that of healthy controls (HC; n = 43). There was a significant group (MDD vs. HC)-by-time (pre vs. post) interaction (pFWE < 0.05; network based statistic t-threshold = 1.5, component size: 404 edges; Cohen's d = 0.104, 95% CI [0.102, 0.106]), which was driven by MDD patients showing significantly increased connectivity strength post-treatment in a widespread brain network. The observed changes in connectivity were not found in HC and were not confined to any specific treatment, indicating a general effect unrelated to particular therapies like ECT. Furthermore, the level of connectivity increase was linked to a reduction of depression symptoms (pFWE < 0.05; network based statistic t-threshold = 1.5, component size: 304 edges, partial η2 = 0.041, 95% CI [0.038, 0.044]), suggesting a link between neuroplastic effects and effective treatment. Brain connectome alterations show a dynamic pattern during treatment in MDD, indicative of a potential new biomarker for treatment response in MDD. Results underline the importance of considering brain connectome changes and neuroplastic mechanisms as potential treatment targets in MDD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287787/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Eur Neuropsychopharmacol",
+      "journal_issn": "1873-7862",
+      "published_date": "2026-06-13",
+      "date": "2026-06-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:41+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Associations of DTI-ALPS index and choroid plexus volume with clinical severity across the Parkinson's disease spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42277056/",
+        "published_date": "2026-06-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical Correlates of Resting-State Functional Magnetic Resonance Imaging in Military Personnel with Adulthood-Onset War-Related Post-Traumatic Stress Disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42287083/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "In-patient treatment and structural dysconnectivity in major depression - A longitudinal connectome study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42287787/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

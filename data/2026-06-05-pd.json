@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-05",
+  "articles": [
+    {
+      "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+      "summary": "BACKGROUND: Repetitive transcranial magnetic stimulation (rTMS) is widely used to modulate brain activity and treat neurological and psychiatric disorders, yet how diverse stimulation protocols shape cortical function-and whether they share common principles-remains unclear. METHODS: We combined resting-state fMRI acquired before and after single-session rTMS across nine distinct protocols targeting specific cortical regions to comprehensively map changes in the local amplitude of hemodynamic fluctuations. RESULTS: We found that after-effects co-varied across protocols, with similarity patterns constrained by structural and functional connectivity. Strikingly, a shared spatial pattern emerged across all protocols, closely aligned with the brain's sensory-association hierarchy. Both shared and protocol-specific effects exhibited significant correspondence with the distribution of neurotransmitter systems. Mapping to the Neurosynth cognitive atlas revealed many-to-many correspondences between rTMS effects and cognitive domains, primarily driven by stimulation of parietal and motor regions. These rTMS-induced changes also overlapped with functional abnormalities in major depressive disorder and Parkinson's disease, highlighting the parietal cortex as a potential transdiagnostic target. Key results were independently replicated in two datasets of multi-session rTMS. CONCLUSIONS: These findings reveal a unified organizational framework for rTMS after-effects, grounded in cortical hierarchy, neurochemistry, and cognitive activations, offering potential guidance for neuromodulations of brain disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-03",
+      "date": "2026-06-05",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    },
+    {
+      "title": "Neuroimaging evidence for a dopamine-independent association between motor cortex microstructure and Parkinson's disease severity.",
+      "summary": "We determined brain microstructure alterations in early-stage Parkinson's disease (PD) using diffusion tensor imaging and neurite orientation dispersion and density imaging (NODDI). Additionally, dopamine transporter (DAT) PET in PD was also performed to evaluate whether microstructural changes and dopaminergic losses within the brain contribute independently to PD motor severity. Mean diffusivity was significantly higher in PD in many mid-brain, nigrostriatal, sub-cortical, cortical and white matter regions. However, Viso (NODDI outcome for cerebrospinal-fluid volume fraction) in the motor cortices and parietal lobe were more strongly correlated (r ~ 0.5, p < 0.01) with PD motor severity. Most DAT PET and diffusion MRI measures were uncorrelated and stepwise multiple linear regression analysis determined a combination of DAT availability in the putamen and Viso in the precentral gyrus (motor cortex) as the best predictor of PD motor severity (55% variance explained); inclusion of Viso in precentral gyrus independently accounted for 11% variance in motor severity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42248873/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-05",
+      "date": "2026-06-05",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:37+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neuroimaging evidence for a dopamine-independent association between motor cortex microstructure and Parkinson's disease severity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42248873/",
+        "published_date": "2026-06-05",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

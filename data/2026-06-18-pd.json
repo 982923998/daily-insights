@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-18",
+  "articles": [
+    {
+      "title": "The Noradrenergic Brain in Parkinson's Disease.",
+      "summary": "PURPOSE OF REVIEW: Cerebral noradrenergic activity modulates physiological functions of behaviour, cognition, movement, arousal and sleep. This review aims to provide an accurate summary of the current knowledge on the involvement of the noradrenergic system in Parkinson's Disease (PD) and its clinical correlations based on neuroimaging studies. RECENT FINDINGS: Studies in PD highlight neuromelanin MRI signal loss in the locus coeruleus (LC), and positron emission tomography shows noradrenergic denervation across subcortical and cortical areas. More severe phenotypes of PD, manifesting with cognitive decline, apathy, REM sleep behaviour disorder and autonomic dysfunction, are associated with more severe noradrenergic dysfunction. Conversely more preserved noradrenergic transmission is common in tremulous PD. Furthermore, noradrenergic dysfunction, is also involved in transient motor manifestations such as tremor and freezing of gait. Recent neuroimaging advances greatly expanded the knowledge about noradrenergic dysfunction pathophysiology in PD. However, pharmacological treatment of its several associated manifestations is still lacking and needs further investigation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42301334/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Curr Neurol Neurosci Rep",
+      "journal_issn": "1534-6293",
+      "published_date": "2026-06-16",
+      "date": "2026-06-18",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:45+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The Noradrenergic Brain in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42301334/",
+        "published_date": "2026-06-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

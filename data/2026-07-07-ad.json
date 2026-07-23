@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-07",
+  "articles": [
+    {
+      "title": "Hippocampal asymmetry captures non-amyloid-related risk of memory decline and clinical progression.",
+      "summary": "BACKGROUND: Hippocampal atrophy is a key marker of Alzheimer's disease (AD)- related neurodegeneration; however, hippocampal volume alone may not fully capture heterogeneity in cognitive decline. Left-right hippocampal asymmetry may provide complementary information, but its prognostic value for long-term cognitive decline, particularly in relation to AD pathology, remains unclear. OBJECTIVES: To determine whether hippocampal total volume and left-right hippocampal asymmetry provide complementary and independent information in capturing cognitive decline and clinical progression, and to examine their relationship to AD pathology. DESIGN: Analysis of baseline MRI and longitudinal cognitive data over 10 years in four domains of memory, language, executive, and visuospatial function, using harmonized cognitive data from the Alzheimer's Disease Sequencing Project - Phenotype Harmonization Consortium (ADSP-PHC). SETTING: Participants from ADNI 1, ADNI GO, ADNI 2, and ADNI 3 PARTICIPANTS: A total of 1,142 dementia-free participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI) with available baseline structural MRI, cerebrospinal fluid (CSF) amyloid-β (Aβ42) and phosphorylated tau (p-tau-181), and longitudinal cognitive follow-up. MEASUREMENTS: Total hippocampal volume (left + right) and hemispheric asymmetry (absolute left-right volumetric difference) were modeled simultaneously. Linear mixed-effects models examined associations with baseline performance and longitudinal change across four cognitive domains. Cox proportional hazards models assessed risk of clinical progression to clinical dementia over up to 10 years of follow-up (median follow-up 4 years; median 5 visits per participant). All analyses adjusted for age, sex, education, APOE ε4 status, and CSF biomarkers, with stratification by amyloid status. RESULTS: The study cohort included 546 women (47.8%), with a mean age of 72.54 ± 6.98 years. Smaller total hippocampal volume was consistently associated with worse baseline performance and faster decline across all four cognitive domains, even after adjustment for amyloid and tau. In contrast, greater left-right hippocampal asymmetry was selectively associated with worse performance and faster decline in memory, independent of total hippocampal volume. In amyloid-stratified analyses, total hippocampal volume showed broad associations with cognitive performance across multiple domains in both amyloid-positive and amyloid-negative participants, whereas hippocampal left-right asymmetry demonstrated selective associations with memory performance, which were observed only among amyloid-negative individuals. With respect to clinical progression to dementia, smaller total hippocampal volume was associated with a higher risk of progression in the overall cohort and within both amyloid groups. In contrast, hippocampal asymmetry was associated with progression risk only among amyloid-negative individuals (hazard ratio per SD increase = 1.31, 95% CI: 1.03-1.65). CONCLUSIONS: Hippocampal total volume and asymmetry capture distinct aspects of neurodegeneration, with asymmetry providing additional prognostic information for memory decline and clinical progression in the absence of detectable amyloid pathology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42407430/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Prev Alzheimers Dis",
+      "journal_issn": "2426-0266",
+      "published_date": "2026-07-06",
+      "date": "2026-07-07",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:56+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Hippocampal asymmetry captures non-amyloid-related risk of memory decline and clinical progression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42407430/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

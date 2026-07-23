@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-10",
+  "articles": [
+    {
+      "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+      "summary": "BACKGROUND: Dementia with Lewy bodies shares clinical and pathological features with both Parkinson's disease and Alzheimer's disease, but the local biological factors that render specific cortical regions vulnerable to atrophy remain poorly defined. In particular, it is unclear whether cortical thinning in dementia with Lewy bodies reflects generic neurodegenerative mechanisms, processes shared with Parkinson's disease and Alzheimer's disease, or dementia with Lewy bodies-specific molecular and network susceptibilities. METHODS: A total of 89 patients with dementia with Lewy bodies and 89 matched controls underwent T1-weighted brain MRI. Scans were processed to generate surface-based cortical thickness maps. Regional cortical thickness estimates, after slice-by-slice manual correction, were mapped to gene expression data from healthy postmortem human brains to identify transcriptomic signatures associated with decreased thickness in dementia with Lewy bodies. We assessed whether genes whose expression was increased with regional thinning converged onto established Parkinson's disease- and Alzheimer's disease-related pathways and identified genes uniquely implicated in dementia with Lewy bodies. Spatial annotation mapping was then used to test whether patterns of cortical thinning overlapped with in vivo neurotransmitter system distributions and whether the observed thickness pattern was constrained by large-scale structural connectivity, consistent with a network-based propagation process. RESULTS: Cortical thinning predominated in regions that, in the healthy brain, show higher expression of genes involved in mitochondrial function and synaptic transmission. The transcriptomic profile associated with thinning significantly overlapped with genes belonging to Parkinson's disease and Alzheimer's disease pathways, supporting shared pathogenic mechanisms across Lewy body- and Alzheimer-type neurodegeneration. However, 90 genes associated with cortical thinning did not overlap with Parkinson's disease or Alzheimer's disease pathways and were enriched for GABAergic signalling. Spatial mapping analyses showed that regions with greatest thickness reductions colocalized with GABAA, serotoninergic 5-HT1A, 5-HT1B, 5-HT4, and dopaminergic D2 receptor distributions, and that the thickness pattern followed structural connectivity. CONCLUSIONS: MRI-derived cortical thickness changes in dementia with Lewy bodies reflect selective molecular and network vulnerabilities rather than a non-specific degenerative process. Mitochondrial and synaptic genes, together with a distinct GABAergic association and connectivity constraints, delineate mechanisms explaining why some cortical territories are more affected in dementia with Lewy bodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Biomed Sci",
+      "journal_issn": "1423-0127",
+      "published_date": "2026-06-10",
+      "date": "2026-06-10",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Human peripheral nerve xenografts and rat peripheral nerve allografts implanted to the striatum: Methodology and initial findings of cell-based therapy.",
+      "summary": "BACKGROUND: Peripheral nerve tissue engrafted into the central nervous system may provide regenerative effects in various CNS injury models or in a clinical trial using autologous sural nerve tissue grafts implanted into the substantia nigra of patients with Parkinson's disease (PD) as an adjuvant to Deep Brain Stimulation (DBS). NEW METHOD: We describe a proof-of-concept neuro-avatar animal model to inform ongoing and future clinical trials and study the survival, biodistribution, and host responses to allografts or xenografts of human peripheral nerve fascicles. Human peripheral nerve tissue (PNT) was prepared as either injury-naïve or injured and then nerve fascicles were implanted into the rat naïve dorsal striatum or striatum pretreated with a fibril-seeding model of synucleinopathies. RESULTS: At post-implantation, immunohistochemistry and MRI-imaging indicated both injury-naïve and injured nerve xenografts appeared to remain viable and stable at their implantation site with no evidence of nerve cell migration. Proton magnetic resonance spectroscopy of the xenografted brain identified increases in N-acetyl aspartate (NAA), a marker of neuronal integrity, in regions surrounding the xenograft. Preliminary RNAscope analysis of the xenografted brain indicates xenografts express mRNA for NGF and mitochondrial marker, ALDH2. Likewise, allografts of sciatic nerve implanted into the fibril-seeded brain were viable grafts 60 days after being placed into the degenerating brain and induced a sprouting response in the fibril-seeded brain. CONCLUSION: We believe the neuro-avatar rodent model described in this study may be an asset for studying the possible regenerative effects of PNT engrafted into the degenerating brain.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42269778/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Neurosci Methods",
+      "journal_issn": "1872-678X",
+      "published_date": "2026-06-10",
+      "date": "2026-06-10",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "MRI mapping of nigrostriatal pathway degeneration in early-stage Parkinson's disease.",
+      "summary": "Neuronal degeneration in Parkinson's disease begins mainly in the ventrolateral region of the substantia nigra pars compacta and progressively spreads out to other mesencephalic areas. Concurrently, striatal dopaminergic denervation follows a distinct gradient, beginning in the posterior putamen and extending to the anterior putamen and the caudate nucleus as the disease progresses. However, changes along the nigrostriatal projections remain poorly characterized. In this study, we reconstructed the nigrostriatal pathway using a healthy control dataset and we explored the topographic distribution of changes associated with the onset of Parkinson's disease. Two independent cohorts of patients with recently diagnosed early-stage Parkinson's disease underwent magnetic resonance imaging sessions to assess different aspects putatively linked to neurodegeneration, including markers for microstructural integrity (fractional anisotropy and mean diffusivity) and iron content (R2* and R2). We also included the T1w/T2w ratio, a metric that has been scarcely explored in Parkinson's disease and may reflect microstructural and myelin-related changes, among other neurodegenerative-related features. We found widespread changes in microstructure, iron load, and T1w/T2w along the entire projection, with greater prominence near the substantia nigra pars compacta. These changes affected both hemispheres but had greater severity in the side contralateral to the more clinically affected hemibody. The spatial distribution and magnitude of these alterations in Parkinson's disease patients closely aligned with the iron load in controls. Interestingly, the T1w/T2w ratio demonstrated the strongest effects across cohorts, highlighting its potential as a biomarker for neurodegeneration. These findings provide a promising framework for tracking nigrostriatal degeneration in vivo.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42269976/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-06-10",
+      "date": "2026-06-10",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:40+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "MRI mapping of nigrostriatal pathway degeneration in early-stage Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42269976/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Human peripheral nerve xenografts and rat peripheral nerve allografts implanted to the striatum: Methodology and initial findings of cell-based therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42269778/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-15",
+  "articles": [
+    {
+      "title": "Active electrode location does not influence weight gain after subthalamic nucleus deep brain stimulation surgery in Parkinson disease.",
+      "summary": "Weight change (WC) is a well-recognized and poorly understood side effect of deep brain stimulation (DBS). The aim of our study was to determine the relationship between active electrode location in the subthalamic nucleus (STN) and post-DBS WC. This was a single center retrospective study of 82 patients who underwent STN DBS. Two weeks after surgery, a head CT was obtained and co-registered to the patient's preoperative 3T MRI. The STN midpoint was identified, and the location of the active electrode was defined with respect to the STN midpoint in Talairach space. Least squares regression models were applied to evaluate the role of active electrode location on WC, as well as the relationships between WC and the explanatory variables sex, age, disease duration, change in levodopa equivalent dose (LED), change in MDS-UPDRS III scores, and change in dyskinesias before and after DBS. Active electrode contact location was not significantly associated with WC along any direction in either hemisphere. WC was significantly associated with change in dyskinesias (slope = -1.8 lbs/point, R2 = 0.072, p = 0.025), but only in a univariate model. Our findings suggest that active electrode contact location does not influence WC after STN DBS.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287370/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Neural Transm (Vienna)",
+      "journal_issn": "1435-1463",
+      "published_date": "2026-06-13",
+      "date": "2026-06-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Focused ultrasound-mediated nanocarrier delivery across the blood-brain barrier for neurodegenerative diseases.",
+      "summary": "The development of effective therapies for neurodegenerative disorders such as Alzheimer's disease, Parkinson's disease, Huntington's disease, and amyotrophic lateral sclerosis remains a major challenge due to the restrictive nature of the blood-brain barrier (BBB). Conventional systemic drug delivery strategies often fail to achieve sufficient central nervous system (CNS) penetration while avoiding peripheral toxicity. Focused ultrasound (FUS), particularly when combined with microbubbles or nanocarriers, has emerged as a non-invasive approach to transiently and precisely open the BBB, enabling targeted delivery of therapeutics to the brain parenchyma. This review provides a comprehensive overview of the mechanisms by which FUS enhances CNS drug delivery, with a dedicated focus on its integration with nanoparticle-based systems, including liposomes, polymeric nanoparticles, dendrimers, metallic nanoparticles, and exosomes. We discuss how these nanocarriers can be engineered for improved stability, targeting specificity, and stimulus-responsive release upon FUS exposure. Recent advances in ultrasound technology, image guidance (particularly MRI), and therapeutic formulations are summarized, along with preclinical and clinical evidence across key neurodegenerative conditions. Despite promising results, several challenges remain, including long-term BBB stability, regulatory standardization, and scalability for broad clinical application. By integrating principles from acoustics, pharmacology, and nanotechnology, FUS-mediated drug delivery, especially in combination with smart nano systems, represents a significant advancement in precision neurotherapeutics, offering new hope for previously untreatable CNS diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287757/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Biomed Pharmacother",
+      "journal_issn": "1950-6007",
+      "published_date": "2026-06-13",
+      "date": "2026-06-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Basal Ganglia and Thalamic Volumes as MRI Markers of Motor and Cognitive Dysfunction in Parkinson's Disease.",
+      "summary": "PURPOSE: To investigate volumetric alterations of the basal ganglia and thalamus in patients with Parkinson's disease (PD) and to evaluate the relationships between regional brain volumes, motor symptom severity, and cognitive performance. MATERIALS AND METHODS: 60 patients with PD (20 females, 40 males) and 51 age-matched healthy control participants (26 females, 25 males) were included. Patients with PD were classified according to initial motor phenotype (tremor-dominant vs. bradykinetic-rigid) and cognitive status based on Mini-Mental State Examination (MMSE) scores (21-26 indicating cognitive impairment; ≥27 indicating normal cognition). High-resolution three-dimensional T1-weighted SPGR MRI data were analyzed using the VolBrain automated segmentation pipeline to obtain volumetric measurements of the putamen, caudate nucleus, globus pallidus, and thalamus. All volumetric measures were normalized to total intracranial volume (TIV). Associations between regional brain volumes and Unified Parkinson's Disease Rating Scale (UPDRS) sub-scores were assessed. RESULTS: The mean age of the PD group was 61.2 ± 11.2 years, compared with 60.4 ± 12.0 years in the control group. Right (p = 0.001), left (p = 0.002), and total (p = 0.004) putamen volumes were significantly reduced in patients with PD relative to controls. No significant differences were observed in thalamic volumes between groups (p > 0.05). Within the PD cohort, individuals with MMSE-defined cognitive impairment exhibited significantly smaller thalamic volumes than cognitively normal patients (right: p = 0.002; left: p = 0.001; total: p = 0.001). UPDRS-III scores showed significant negative correlations with putamen volumes (right: r = -0.42, p = 0.001; left: r = -0.43, p = 0.001; total: r = -0.42, p = 0.001), while UPDRS-I scores were negatively correlated with thalamic volumes (right: r = -0.31, p = 0.016; left: r = -0.29, p = 0.041; total: r = -0.30, p = 0.015). CONCLUSION: Putamen volume reduction is associated with motor dysfunction in PD, whereas thalamic volumetric changes are more closely related to cognitive impairment. TIV-normalized automated MRI volumetry may provide complementary neuroimaging biomarkers for assessing disease severity and monitoring clinical progression. KEY POINTS: · Basal ganglia and thalamic volumes show distinct patterns in Parkinson's disease.. · Putamen volume reduction is associated with motor symptom severity.. · Thalamic volume changes are associated with cognitive impairment in PD.. · TIV-normalized VolBrain-based volumetric MRI analysis may support clinical disease assessment.. CITATION FORMAT: · Yıldız H, Atalay B, özdilek b. Basal Ganglia and Thalamic Volumes as MRI Markers of Motor and Cognitive Dysfunction in Parkinson's Disease. Rofo 2026; DOI 10.1055/a-2871-1475.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42296997/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Rofo",
+      "journal_issn": "1438-9010",
+      "published_date": "2026-06-15",
+      "date": "2026-06-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:43+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Focused ultrasound-mediated nanocarrier delivery across the blood-brain barrier for neurodegenerative diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42287757/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Basal Ganglia and Thalamic Volumes as MRI Markers of Motor and Cognitive Dysfunction in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42296997/",
+        "published_date": "2026-06-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Active electrode location does not influence weight gain after subthalamic nucleus deep brain stimulation surgery in Parkinson disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42287370/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

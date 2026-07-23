@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-27",
+  "articles": [
+    {
+      "title": "Multiparametric MRI and imaging transcriptomics reveal molecular and cellular correlates of neurodegeneration in experimental Parkinsonism.",
+      "summary": "Multiple system atrophy (MSA) is an atypical Parkinsonian disorder marked by oligodendroglial α-synucleinopathy and selective neurodegeneration. Although MRI can capture regional atrophy and microstructural alterations in the MSA brain, the molecular substrates underlying these phenotypes remain poorly defined. Imaging transcriptomics provides a computational framework to relate spatial imaging patterns to brain-wide gene expression. While this approach has been applied to human MSA, interpretation is constrained by limited experimental control and a lack of disease-matched molecular validation. Here, we apply imaging transcriptomics in a controlled preclinical setting by integrating high-resolution ex vivo multimodal MRI with transcriptomic mapping in the PLP-αSyn mouse model of MSA. Structural and diffusion MRI revealed distinct patterns of regional atrophy and microstructural abnormalities. Atlas-based analyses associated imaging phenotypes with gene programs related to oligodendrocyte biology, energy metabolism, and neuroinflammation, with modality-specific signatures. These associations were supported by independent RNA-sequencing and showed convergence with human MSA findings. Our work benchmarks MRI-transcriptomic relationships in MSA and provides a translational framework for interpreting imaging biomarkers in synucleinopathies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42185343/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-05-25",
+      "date": "2026-05-27",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "Iron accumulation in the substantia nigra is linked to functional network connectivity alterations in early-stage Parkinson's Disease: an exploratory study.",
+      "summary": "Parkinson's disease (PD) involves dopaminergic nigrostriatal pathways degeneration and early structural brain abnormalities, including iron accumulation in the substantia nigra (SN). Understanding how these neurodegenerative changes relate to functional network adaptations may clarify disease progression and symptom variability. We used a cross-sectional design to evaluate resting-state functional MRI, quantitative susceptibility mapping (QSM) and structural MRI measures in 38 early-stage PD patients (Hoehn&Yahr ≤2; disease duration 4.4 ± 2.3 years) and 30 age- and sex-matched healthy controls. The SN showed the earliest increase in magnetic susceptibility in PD, indicating elevated iron levels, without detectable volumetric changes. Within the PD group, higher QSM SN susceptibility was associated with increased resting-state connectivity in motor, visual, dorsal-attention, and executive-control networks. Notably, connectivity within the SN-related executive-control network cluster correlated with better executive function and visuospatial memory. These findings highlight the sensitivity of QSM in early PD and the value of multimodal imaging for characterising early functional and cognitive consequences of PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42192096/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-05-27",
+      "date": "2026-05-27",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "Targeting based on patient-specific 7 Tesla MRI connectivity analysis improves deep brain stimulation for Parkinson's disease.",
+      "summary": "Deep brain stimulation (DBS) of the subthalamic nucleus (STN) is an effective treatment for Parkinson's disease (PD), yet individual motor outcome remains insufficiently predictable. The effect of DBS depends on modulating brain networks, and this study evaluates whether targeting using patient-specific connectivity with 7-Tesla (7T) MRI probabilistic tractography enhances motor outcome. For connectivity analysis, selective visualization of STN connectivity to the primary cortical motor areas was performed before surgery, and electrode lead placement was directed at the connectivity-derived motor subdivision of the STN. Motor outcome, measured using the Movement Disorders Society Unified Parkinson Disease Rating Scale motor part (MDS-UPDRS part III), of 102 PD-DBS patients for whom 7T MRI connectivity analysis was used for DBS targeting, was compared to a matched control group of 118 PD-DBS patients for whom 7T MRI T2-weighted classical anatomical landmarks were used for targeting. Results of this prospective comparison show that patients operated with connectivity-guided targeting showed significantly more motor improvement compared to the control group: 56 ± 15% vs. 50 ± 20% (p = 0.015), and the connectivity-guided group showed a higher optimal response rate (96% vs. 86%, p = 0.008). Connectivity analysis enabled localization of DBS electrodes in reference to the motor subdivision. The leads that were optimally located inside the motor subdivision showed an average of 60 ± 11% motor improvement. Our findings demonstrate the clinical applicability of 7T MRI probabilistic tractography for visualizing connectivity between the STN and cortical motor areas to enable electrode lead placement directed at the motor subdivision of the STN, introducing patient-specific connectivity analysis guided DBS. This proved to be an individual biomarker for implantation location that increased the effectiveness of DBS in patients with PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204158/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-05-27",
+      "date": "2026-05-27",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "A generic, rapid and robust platform for personalized functional circuit-guided neuromodulation targeting.",
+      "summary": "Neuromodulation approaches can target specific brain functional circuits to treat various brain disorders, and resting-state functional magnetic resonance imaging is increasingly being used to map functional circuits in individual patients for target localization. However, this strategy faces three major hurdles for clinical translation: time-intensive resting-state functional magnetic resonance imaging processing, insufficient robustness for clinical use and a lack of automated targeting solutions. Here we cover the use of a generic, rapid, robust and automated platform for personalized functional circuit-guided target planning across different neuromodulation techniques, termed Unified Platform for Neuromodulation with Individualized Target Estimation (UNITE). UNITE is computationally efficiency and robust and uses DeepPrep, a recently developed end-to-end preprocessing pipeline that achieves a tenfold speedup and improved robustness compared with state-of-the-art clinical pipeline. Using DeepPrep's preprocessed data, UNITE maps functional circuits and localizes personalized targets through automated targeting algorithms. Currently, UNITE offers three built-in transcranial magnetic stimulation-targeting algorithms for post-stroke functional rehabilitation and one focused ultrasound stimulation-targeting algorithm for Parkinson's disease. Notably, it is designed to be adapted for other brain disorders and neuromodulation applications. To ensure quality and usability, UNITE generates a data quality control report and a visual verification report of the identified targets, with target coordinates exported in multiple formats for compatibility with different neuronavigation systems. Overall, this platform enables personalized neuromodulation target localization within 30 min on a local graphics processing unit-equipped workstation. A basic level of computer science proficiency, along with neuroimaging experience, is sufficient for its use.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204340/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Nat Protoc",
+      "journal_issn": "1750-2799",
+      "published_date": "2026-05-27",
+      "date": "2026-05-27",
+      "impact_factor": 16.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Protocols"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:31+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 4 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 4.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Targeting based on patient-specific 7 Tesla MRI connectivity analysis improves deep brain stimulation for Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42204158/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Iron accumulation in the substantia nigra is linked to functional network connectivity alterations in early-stage Parkinson's Disease: an exploratory study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42192096/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Multiparametric MRI and imaging transcriptomics reveal molecular and cellular correlates of neurodegeneration in experimental Parkinsonism.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42185343/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A generic, rapid and robust platform for personalized functional circuit-guided neuromodulation targeting.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42204340/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

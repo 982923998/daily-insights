@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-16",
+  "articles": [
+    {
+      "title": "Convergence and divergence of neuropsychological and brain functional changes in patients with type 1 and type 2 diabetes.",
+      "summary": "Although patients with type 1 or type 2 diabetes mellitus are at risk for developing the same neuropsychological disorders, their underlying pathogeneses might be heterogeneous. Here, leveraging the unique characteristics of diabetic epidemiology in China, a total of 92 participants were recruited, including 30 with type 1 and 33 with type 2 diabetes matched for age, sex, education, diabetes duration, and HbA1c, along with 29 healthy controls. Compared with controls, both type 1 and type 2 diabetes patients exhibited higher depressive symptom scores; however, no significant differences were observed between the two diabetes types. Based on functional magnetic resonance imaging and graph theory analyses, enhanced global efficiency of functional brain networks was exclusively observed in type 1 diabetes, which was negatively correlated with depression scores. Furthermore, it is only in type 1 diabetes that the increased glycemic variability negatively correlated to the functional connectivity of amygdala. These findings suggest a shared affective burden but divergent patterns of functional network organization underpinning each diabetes types and also reflect a functional reorganization potentially related to depression in type 1 diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42456952/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-07-15",
+      "date": "2026-07-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:02+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Convergence and divergence of neuropsychological and brain functional changes in patients with type 1 and type 2 diabetes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42456952/",
+        "published_date": "2026-07-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

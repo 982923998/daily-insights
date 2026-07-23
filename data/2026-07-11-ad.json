@@ -1,0 +1,86 @@
+{
+  "date": "2026-07-11",
+  "articles": [
+    {
+      "title": "The choroid plexus, cognitive decline, and incident dementia: insights from the UK Biobank.",
+      "summary": "The choroid plexus (CP) plays a crucial role in cerebrospinal fluid secretion and the maintenance of brain homeostasis. Its structure and function have been implicated in the pathogenesis of dementia; however, the longitudinal associations of CP with dementia and structural brain biomarkers remain unclear. This prospective cohort study utilized data from the UK Biobank, including 45,306 participants (mean age, 64 years; 47.2% men) who underwent 3.0 T multiparametric brain MRI scans. CP volume and signal intensity were quantified by FreeSurfer software. Measures of grey or white matter macrostructures or microstructures were derived from structural or diffusion MRI. Dementia outcomes were identified using linkage of hospital admission records or death register. Tests for global and domain-specific cognitive functions were administrated at baseline and follow up. Data were analyzed using Cox proportional hazards, Mendelian randomization, linear mixed-effects models, and mediation models. Advancing age was correlated with increased CP volume (R = 0.49, P < 0.001) and decreased CP signal intensity (R = -0.44, P < 0.001). Meanwhile, greater CP volume was associated with an increased risk of all-cause dementia (hazard ratio, 1.61; 95% confidence interval, 1.32-1.97), while higher CP intensity was correlated with a reduced dementia risk (0.44; 0.36-0.55). Reduced volumes of the hippocampus, amygdala, and nucleus accumbens, increased white matter hyperintensity volume, mean diffusivity, and isotropic compartment volume fraction, and decreased intracellular volume fraction significantly mediated up to 42.9% of these associations. This study provides evidence supporting a causal relationship between CP morphological parameters and dementia risk that is partly mediated by specific brain phenotypes, and further suggests that the CP parameters may be valuable biomarkers for structural brain aging and dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42426212/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-09",
+      "date": "2026-07-11",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "Muscle morphology and intramuscular fat after treatment-as-usual including botulinum neurotoxin A injections in children with cerebral palsy.",
+      "summary": "AIM: To explore lower leg muscle morphology and intramuscular fat content changes using magnetic resonance imaging (MRI) after 12 months of treatment-as-usual (TAU), after the first botulinum neurotoxin A (BoNT-A) injection in children with cerebral palsy (CP) naive to muscle tone reduction treatment. METHOD: This prospective longitudinal study included 10 children with spastic CP (five female, median age 8 years 11 months, unilateral CP/bilateral CP 7/3, Gross Motor Function Classification System levels I/II 8/2) and 10 typically developing peers (seven female, median age 9 years 6 months). Children with CP received two MRI scans (before and 12 months after the first injection), typically developing peers received one. Muscle volume (normalized by product of weight and height), fascicle length (normalized by height), pennation angle, and intramuscular fat fraction (IFF) of medial gastrocnemius, lateral gastrocnemius, soleus, and tibialis anterior were quantified. RESULTS: After 12 months of TAU, normalized muscle volume remained unchanged while IFF increased (medial gastrocnemius: p = 0.008). Compared to typically developing peers, children with CP had smaller normalized muscle volume (tibialis anterior: p = 0.027) and similar IFF at pre-injection timepoint. INTERPRETATION: Although normalized muscle volume remained unchanged after the 12-month TAU, concurrent fat infiltration was evident in medial gastrocnemius.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42434835/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Dev Med Child Neurol",
+      "journal_issn": "1469-8749",
+      "published_date": "2026-07-11",
+      "date": "2026-07-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:59+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The choroid plexus, cognitive decline, and incident dementia: insights from the UK Biobank.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42426212/",
+        "published_date": "2026-07-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Muscle morphology and intramuscular fat after treatment-as-usual including botulinum neurotoxin A injections in children with cerebral palsy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42434835/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

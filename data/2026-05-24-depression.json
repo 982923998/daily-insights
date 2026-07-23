@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-24",
+  "articles": [
+    {
+      "title": "Depression symptoms relate to altered brain connectivity and behavioral responses during self-referential judgments.",
+      "summary": "Negative self-evaluation is core to depression and increases one's risk of relapse. Behavioral research highlights depression-related differences in the content of self-evaluation and the process of making such evaluations; however, the brain function underlying these differences is unclear. The current study aimed to characterize depression-related alterations in behavioral and neural function that shape the content and process of self-evaluation. We recruited 119 adults ranging in depression symptom severity (n = 79 with at least mild depression or anxiety symptoms, 40 with no-minimal symptoms). During fMRI, participants rated how strongly they believed positive and negative statements about either themselves or another person. We used mixed-effects models to test interactions between task features (valence and person) and depression on behavior as well as on neural activity and connectivity in a priori regions of the social cognition and salience systems. Exploratory analyses examined whole brain effects. We replicated previous research, showing those with higher depression symptoms endorsed more negative beliefs about themselves and were slower to make self-evaluations. While no significant task-depression interactions emerged in BOLD activity, depression symptoms were associated with altered connectivity patterns among regions of the default mode network, salience network, and the frontal pole during self-evaluation, suggesting more elaborative processing. In sum, we provide evidence that the content and the process of self-evaluation are altered in depression. We offer intriguing, competing mechanistic hypotheses about self-related processing alterations in depression for future research. Targeting the mechanisms of self-related processing alterations in depression will improve interventions mechanisms and potentially reduce vulnerability to relapse.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42174340/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Cogn Affect Behav Neurosci",
+      "journal_issn": "1531-135X",
+      "published_date": "2026-05-23",
+      "date": "2026-05-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:30+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Depression symptoms relate to altered brain connectivity and behavioral responses during self-referential judgments.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42174340/",
+        "published_date": "2026-05-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

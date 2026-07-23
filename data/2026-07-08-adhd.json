@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-08",
+  "articles": [
+    {
+      "title": "Altered intrinsic connectivity in default mode and somatomotor networks in children and adolescents with ADHD: a neuroimaging meta-analysis.",
+      "summary": "Abundant resting-state fMRI studies have shown altered brain activation and functional connectivity (FC) in children and adolescents with Attention Deficit Hyperactivity Disorder (ADHD) compared with typically developing (TD) subjects, with specific disruptions in brain networks associated with attention and cognitive control. Most prior meta-analyses have focused on populations across all ages, leaving a significant gap in understanding how these alterations unfold during childhood and adolescence. The current meta-analysis reviewed 36 studies (1867 subjects, 989 with ADHD, 878 TD), including 20 seed-based connectivity (SBC) studies and 16 non-seed-based connectivity (Non-SBC) studies, with a particular focus on FC within and between seven major brain networks. Activation Likelihood Estimation (ALE) analyses were conducted separately for the SBC and Non-SBC datasets. In the SBC analysis, we found significant reductions in FC between the Default Mode Network (DMN) and the Dorsal Attention Network (DAN), as well as between the Somatomotor Network (SMN) and the Ventral Attention Network (VAN) in the ADHD group, whereas no significant alterations were identified in the Non-SBC analysis. Our findings are consistent with aspects of two theoretical frameworks, the DMN interference hypothesis and the multi-network model of ADHD, suggesting that weakened inter-network connectivity may contribute to the core cognitive and attentional difficulties observed in ADHD. These findings contribute to a better understanding of the network-level neural features of ADHD and may provide a basis for future studies on early intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42412230/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "Eur Child Adolesc Psychiatry",
+      "journal_issn": "1435-165X",
+      "published_date": "2026-07-07",
+      "date": "2026-07-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:57+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Altered intrinsic connectivity in default mode and somatomotor networks in children and adolescents with ADHD: a neuroimaging meta-analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42412230/",
+        "published_date": "2026-07-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

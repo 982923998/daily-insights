@@ -1,0 +1,334 @@
+{
+  "date": "2026-07-20",
+  "articles": [
+    {
+      "title": "Age-Related Brain Atrophy Mediates a Composite Outcome of One-Year Ischemic Stroke Recurrence and All-Cause Mortality Through YKL-40-Related Inflammatory Pathways: A Structural Equation Model.",
+      "summary": "Chronological age is a strong predictor of poor outcomes after ischemic stroke but may not fully capture underlying biological vulnerability. This study investigated whether age-related brain atrophy and plasma YKL-40, a marker of astroglial inflammation, mediate the association between age and the one-year risk of ischemic stroke recurrence or all-cause mortality. Data were obtained from 4,305 participants enrolled in the Third China National Stroke Registry. Baseline brain atrophy was quantified from structural T1-weighted MRI using an automated deep learning-based pipeline (FastSurfer), yielding hemispheric cortical and white matter volumes that were modeled as indicators of a latent atrophy construct. Structural equation modeling was applied to estimate direct and indirect pathways linking age, brain atrophy, YKL-40, and one-year composite outcomes, adjusting for sex, atrial fibrillation or flutter, hypertension, and diabetes, with indirect effects evaluated using 5,000 bootstrap resamples. The total effect of age on one-year outcomes was not significant (β = -0.011; 95% CI, - 0.060 to 0.038), whereas the total indirect effect was significant (β = 0.028; 95% CI, 0.005-0.050). Mediation was primarily attributable to YKL-40 (β = 0.026; 95% CI, 0.010-0.041), while the independent contribution of brain atrophy was minimal. The indirect effects accounted for approximately 255% of the total effect, indicating a suppressor-type mediation pattern in which direct and indirect effects operated in opposite directions. These findings suggest that advancing age confers increased long-term risk of stroke recurrence or death predominantly through astroglial inflammation rather than through a direct age effect, with brain atrophy modestly amplifying this risk, supporting the integration of neuroimaging and inflammatory biomarkers into translational stroke risk stratification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42470512/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Transl Stroke Res",
+      "journal_issn": "1868-601X",
+      "published_date": "2026-07-18",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Enhanced multimodal MRI classification of schizophrenia through cross-attention graph neural networks.",
+      "summary": "We propose TB-GCAN, a tri-branch cross-attention graph neural network for schizophrenia classification using multimodal MRI, including sMRI, fMRI, and DTI. Built on a multi-site dataset of 1191 samples from seven scanning sites, the model exploits atlas-defined one-to-one anatomical correspondence across modalities to enable node-level cross-attention during intermediate representation learning. In 7-site leave-one-site-out evaluation, TB-GCAN achieved 84.63% accuracy and outperformed GAT, GCN, CNN, SVM, and MMGNN in the tri-modal setting. Attention-based region ranking highlighted biologically plausible schizophrenia-related regions, and downstream analyses linked the learned imaging representations to PANSS dimensions and transcriptional programs. Unlike generic multimodal GNNs that learn cross-modal relations from data, TB-GCAN directly leverages atlas-aligned regional correspondence to perform anatomically constrained node-level interaction. These findings indicate that anatomically grounded node-level multimodal fusion can improve classification performance while preserving neurobiological interpretability, thereby providing a principled framework for multimodal schizophrenia classification and biomarker discovery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42470797/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Med Image Anal",
+      "journal_issn": "1361-8423",
+      "published_date": "2026-07-18",
+      "date": "2026-07-20",
+      "impact_factor": 11.8,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "MEDICAL IMAGE ANALYSIS"
+    },
+    {
+      "title": "Unique environmental and familial influence on amygdalar hyperresponsivity in post-traumatic stress disorder - a discordant monozygotic twin study.",
+      "summary": "BACKGROUND: The partially genetic nature of post-traumatic stress disorder (PTSD) emerges from both twin and recent molecular genetics studies and complicates the assessment of unique environmental influence on altered phenotypes in PTSD. Previous functional neuroimaging studies have reported heightened amygdalar responsivity in PTSD, but whether this abnormality relates to familial factors or PTSD-triggering environmental experiences is not fully understood. METHODS: We examined amygdalar responsivity in combat veterans with PTSD and their combat-unexposed monozygotic (MZ) co-twins (PTSD group, n = 10, 20 individuals), as well as in combat veterans without PTSD and their combat-unexposed co-twins (non-PTSD group, n = 16, 32 individuals). Within-pair comparisons were performed to isolate unique environmental influence under strict control of genetic factors. Comparisons between the unexposed co-twins of both groups were conducted to test for effects of familial vulnerability. RESULTS: Reflecting unique environmental influence, heightened amygdalar responsivity was observed in individuals with PTSD, compared to their unaffected co-twins. This was associated with the expression patterns of genes involved in brain glutamatergic synaptic transmission. Reflecting familial vulnerability, unexposed co-twins of combat veterans with PTSD showed reduced amygdalar activation, compared to unexposed co-twins of combat veterans without PTSD. CONCLUSIONS: Heightened amygdalar responsivity in PTSD is best explained by an interaction of unique environmental and familial influences, respectively, which is consistent with vulnerability-stress models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42471043/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry",
+      "journal_issn": "1873-2402",
+      "published_date": "2026-07-18",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Uncommon Pathogen, Fatal Consequence: Abiotrophia defectiva Infective Endocarditis.",
+      "summary": "A 28-year-old male with a recent history of stroke presented with fever and generalized weakness. His previous magnetic resonance imaging (MRI) demonstrated a subacute infarct in the right MCA territory with subarachnoid haemorrhage and distal M1 segment occlusion, along with mild narrowing and beading of the right supraclinoid internal carotid artery (ICA). Blood cultures yielded Abiotrophia defectiva, a fastidious organism associated with endovascular infections. Laboratory evaluation revealed markedly elevated inflammatory biomarkers. This case underscores the importance of considering uncommon pathogens such as A. defectiva in post-stroke patients with fever and highlights the need for vigilance for possible infective endocarditis or cerebrovascular complications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42471163/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Indian J Med Microbiol",
+      "journal_issn": "1998-3646",
+      "published_date": "2026-07-18",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Imaging suspected posterior circulation stroke in the emergency department: a practical modality-based review.",
+      "summary": "Posterior circulation stroke (PCS) accounts for 20-25% of ischemic strokes and is disproportionately missed at first presentation. This review summarizes brain parenchymal and neurovascular imaging modalities for the evaluation of suspected PCS in the emergency department (ED). We conducted a structured narrative review of established and emerging modalities, describing each modality's technical principles, clinical roles, performance estimates, evidence base, limitations, and real-world application. Searches emphasized ED populations and posterior fossa infarction; society guidelines and meta-analyses were prioritized. Non-contrast CT is insensitive for acute PCS (reported 16-44%) but remains essential for excluding hemorrhage. CT angiography is roughly 80% sensitive for vertebrobasilar occlusion in selected cohorts and ~ 44% sensitive for PCS overall. CT perfusion adds incremental sensitivity (around 70-75%). MRI with diffusion-weighted imaging is ~ 80% sensitive in pooled estimates; high-resolution DWI may approach 90-95% in single-center series. Emerging modalities - dual-energy CT (41-88% sensitive), portable low-field MRI (estimated 69% sensitive), and accelerated or abbreviated MRI (likely 80-95% sensitive) - are at varying stages of adoption. Performance metrics of emerging modalities derive from small, single-center cohorts with probable spectrum bias. Evaluation of the brain parenchyma and vasculature represent distinct clinical questions, for which dedicated imaging may be required. Accurate diagnosis of PCS requires careful selection and, often, a combination of imaging modalities tailored to the clinical question and local resources.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42472769/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Emerg Radiol",
+      "journal_issn": "1438-1435",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Endoscopic surgical treatment of sinonasal Schneiderian papillomas: our experience.",
+      "summary": "BACKGROUND: Sinonasal Schneiderian papillomas are uncommon epithelial tumors. Although benign, they may behave aggressively, recur after incomplete resection, and, particularly in the inverted subtype, be associated with carcinoma. Endoscopic surgery is now widely used when the site of attachment can be adequately exposed and treated. OBJECTIVE: To review recurrence, morbidity, attachment-site documentation, and metachronous carcinoma in a single-surgeon endoscopic series of sinonasal Schneiderian papillomas treated with an attachment-site-oriented technique. METHODS: We retrospectively reviewed 71 patients with histologically confirmed Schneiderian papilloma treated exclusively by endoscopic surgery between January 2017 and December 2023. Preoperative work-up included nasal endoscopy, CT, and MRI. Disease extent was classified according to the Krouse system. Surgery was planned according to tumor extension and the suspected attachment site. Follow-up was based on serial endoscopic examinations; annual MRI was advised for long-term surveillance. Median follow-up was 46 months. RESULTS: Krouse staging identified 3 T1, 24 T2, 40 T3, and 4 T4 lesions. Histology included 58 inverted, 8 exophytic, and 5 oncocytic papillomas. Recurrence occurred in 3 patients (4.2%), all with inverted papilloma and advanced-stage disease (T3-T4). Complications were observed in 4 patients (5.6%), including three arterial bleeding episodes and one cerebrospinal fluid leak. One patient developed metachronous squamous cell carcinoma during follow-up. CONCLUSION: In this single-surgeon series, attachment-site-oriented endoscopic surgery was followed by few recurrences and acceptable morbidity during the available follow-up. Recurrences were observed only in advanced-stage inverted papillomas. These findings support careful treatment of the attachment site and long-term surveillance, while remaining limited by the retrospective design and heterogeneous follow-up.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42472957/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "journal_issn": "1434-4726",
+      "published_date": "2026-07-19",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Organization of circuits linking descending input to motor output in the Drosophila Male Adult Nerve Cord connectome.",
+      "summary": "In most animals, a small number of descending neurons (DNs) connect the brain to circuits and motor neurons (MNs) in the nerve cord. To understand how brain signals generate behavior, it is critical to understand the organization of the neural pathways linking DNs to MNs. In companion papers, we introduced a densely reconstructed connectome of the Drosophila Male Adult Nerve Cord (MANC; Takemura et al., 2024), including cell types and developmental lineages (Marin et al., 2024), which provides complete connectivity of the ventral nerve cord (VNC) at synaptic resolution. Here, we present a first look at the organization of the networks connecting DNs to MNs. We first proofread and curated all DNs and MNs, then systematically matched their morphology to light microscopy data. We report both broad organizational patterns of the entire network and fine-scale analysis of selected circuits of interest. We discover that direct DN-MN connections are infrequent and identify neuron communities putatively linked to control of different motor systems, including walking, flight steering and power generation, and coordinated action of wings and legs. Our analyses generate hypotheses for future functional experiments and empowers others to investigate these and other circuits of the VNC in richer mechanistic detail.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42474298/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "journal_issn": "2050-084X",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "eLife"
+    },
+    {
+      "title": "Clinical usefulness of slab-selective three-dimensional magnetic resonance angiography using radial stack-of-stars acquisition and UTE sampling (STARS UTE-MRA) after treatment of cerebral aneurysms with metallic devices.",
+      "summary": "Three-dimensional time-of-flight magnetic resonance angiography (3D TOF-MRA) is widely used for follow-up after treatment of cerebral aneurysms, but signal loss around metallic devices often limits evaluation of the parent vessel. We clinically evaluated slab-selective three-dimensional magnetic resonance angiography using radial stack-of-stars acquisition and UTE sampling (STARS UTE-MRA) in 89 patients after coil embolization and surgical clipping. STARS UTE-MRA was compared with conventional 3D TOF-MRA using full width at half-minimum (FWHM) of signal-intensity profiles and visual scores assigned by four readers. STARS UTE-MRA showed significantly smaller FWHM values and higher visual scores than 3D TOF-MRA for coils 10-15 mm in long-axis length and for all clip-length subgroups, whereas no clear advantage was observed in smaller coil cases. STARS UTE-MRA may be a useful supplementary sequence for postoperative follow-up, particularly in aneurysms treated with larger coil or surgical clips.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42474979/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Radiol Phys Technol",
+      "journal_issn": "1865-0341",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Artificial intelligence (AI) uses in stereotactic radiosurgery (SRS): diagnosis with brain metastasis (BM) - A systematic review.",
+      "summary": "BACKGROUND: Brain metastases (BM) are the most common intracranial tumors in adults, and stereotactic radiosurgery (SRS) has become a mainstay of management. However, several diagnostic challenges persist in the SRS pathway, particularly the differentiation of radiation necrosis (RN) from true tumor progression, which conventional MRI and even advanced imaging techniques often cannot reliably resolve. Recent advances in artificial intelligence (AI) offer the potential to address these diagnostic limitations. This systematic review synthesizes current literature on AI applications for MRI-based diagnostic decision support in BM patients undergoing SRS, with a focus on radiomics and deep learning tools for distinguishing RN from progression, classifying molecular and histologic subtypes, and predicting treatment response. METHODS: A systematic review was performed in accordance with PRISMA guidelines. PubMed, Web of Science, and Scopus were searched using a targeted query combining terms related to AI, brain metastasis, diagnosis or imaging, and SRS. After screening 483 records and applying strict inclusion and exclusion criteria, 18 studies published between 2015 and 2025 were included. Data were extracted on study design, cohort characteristics, imaging modality, AI methodology, validation strategy, and reported diagnostic performance. RESULTS: Among the 18 included studies, AI models demonstrated strong performance across diagnostic tasks in the BM-SRS pathway. The differentiation of RN from true tumor progression was the most extensively studied application, addressed by 14 of 18 studies, with reported AUCs ranging from 0.71 to 0.94. Support vector machines, random-forest ensembles, convolutional neural networks, and transformer-based multimodal architectures were widely used. The literature evolved from single-sequence radiomic classifiers in 2018 to multimodal deep learning frameworks fusing imaging with clinical and genomic data in 2025. Contrast-enhanced T1-weighted MRI was the dominant imaging input, and texture-based radiomic features (GLCM, GLSZM, GLDM, and wavelet-derived features) were the most consistently predictive. The highest-performing models reached AUCs of 0.85-0.91 through multimodal integration of imaging with clinical and genomic features, and consistently outperformed expert neuroradiologist read on matched cases. Remaining studies addressed longitudinal segmentation-based detection of local failure and adverse radiation effects, BRAF mutation status in melanoma BM, early Gamma Knife treatment response, and primary tumor histology classification, with more variable performance. CONCLUSION: AI models, particularly those integrating MRI-derived radiomic features with clinical and genomic data, show high accuracy in supporting diagnostic decisions for BM patients treated with SRS. The post-SRS differentiation of radiation necrosis from true tumor progression has reached the greatest level of maturity and is closest to clinical translation, with potential to reduce unnecessary biopsies, personalize surveillance intervals, and rationalize treatment-pathway decisions. Other diagnostic applications, including molecular subtyping and primary tumor histology classification, remain exploratory and require further multicenter validation. Integration of AI tools into multidisciplinary tumor-board workflows, combined with prospective validation and standardized reporting, will be essential to realize the full clinical benefits of AI in SRS for brain metastases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42475791/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Clin Neurosci",
+      "journal_issn": "1532-2653",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "MRI-negative combined central and peripheral demyelination involving a spinal cord with anti-lactosylceramide antibody.",
+      "summary": "Combined central and peripheral demyelination (CCPD) is a rare neurological disorder affecting both the central and peripheral nervous systems, and its clinical features have yet to be fully characterized. Conventionally, MRI abnormalities have been used to identify central nervous system involvement in CCPD. We herein describe a patient who developed demyelinating peripheral neuropathy after being diagnosed with MRI-negative myelopathy and thereafter was definitively diagnosed with CCPD. The cerebrospinal fluid test was positive for anti-lactosylceramide antibodies, which are associated with CCPD. This study highlights the need to be aware of MRI-negative CCPD and encourages the active investigation of relevant antibodies to advance both understanding and treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42476769/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Intern Med",
+      "journal_issn": "1349-7235",
+      "published_date": "2026-07-18",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Ketamine-induced analgesia and dissociation show distinct behavioral and neural correlates.",
+      "summary": "Ketamine produces both analgesic and dissociative effects, but whether analgesia depends on dissociation remains debated. This question is part of a broader discussion on whether the subjective experiences elicited by psychoactive drugs are necessary for their therapeutic benefits. Here, we tested whether ketamine-induced analgesia and dissociation show separable behavioral and neural signatures. In a within-subject, placebo-controlled fMRI study, 37 healthy volunteers (21 female) underwent two sessions: intravenous ketamine (0.4 mg/kg bolus over 10 min followed by 0.4 mg/kg/h continuous infusion) or saline placebo. Individually calibrated thermal pain stimuli were applied to the right leg during scanning. Dissociative states were measured repeatedly using the Clinician-Administered Dissociative States Scale. Whole-brain univariate and multivariate analyses, as well as network-based functional connectivity analyses, were performed. Ketamine induced both analgesia (session × pain intensity interaction: F(1,54) = 11.22, p = 0.001) and dissociation (main effect of session: F(1,32) = 57.44, p < 0.001), and the two corresponded to distinct neural indices. Greater pain was associated with increased univariate activity in regions such as the anterior insula, as well as with stronger expression of a pain-predictive multivoxel pattern (ρ = 0.6, p < 0.001), whereas higher dissociation intensity was selectively associated with reduced default mode network connectivity (ρ = .49, p < 0.01). Neurobehavioral markers of pain and dissociation did not covary (ρ = -0.24 to 0.32, all p > 0.09), consistent with distinct neural correlates of ketamine's analgesic and dissociative effects.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477098/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuropsychopharmacology",
+      "journal_issn": "1740-634X",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NEUROPSYCHOPHARMACOLOGY; Neuropsychopharmacology",
+      "impact_factor_reason": "conflict"
+    },
+    {
+      "title": "Siibra: a software tool suite for realizing a Multilevel Human Brain Atlas from complex data resources.",
+      "summary": "Computational technology opens new possibilities toward understanding the complexity of the human brain, but it requires integrating measurements from different modalities and scales in an anatomical context and exposing them in an interoperable, actionable form. Especially with growing big data resources, accessing information from different scales and modalities coherently for visual exploration, reproducible analysis and application development remains challenging. Here we present siibra, a tool suite that connects diverse data from cloud resources to reference atlases and coordinate spaces. It supports different use cases by making contents accessible through a web viewer, Python library and HTTP application programming interface. Using siibra we implemented a Multilevel Human Brain Atlas linking macro-anatomical concepts and their inter-subject variability with measurements of the microstructural composition and intrinsic variance of brain regions, building on cytoarchitecture as a reference and supporting MRI-based and microscopic templates. The atlas is integrated with the EBRAINS research infrastructure. All software and content are openly accessible.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477446/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Methods",
+      "journal_issn": "1548-7105",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": 32.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NATURE METHODS"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:04+00:00",
+    "version": 1,
+    "summary": "Captured 12 research items. Preference focus is brain-imaging analysis and disease mechanisms: 7 high-priority, 5 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 12.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 12,
+      "high_priority": 7,
+      "medium_priority": 5,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 12
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Enhanced multimodal MRI classification of schizophrenia through cross-attention graph neural networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42470797/",
+        "published_date": "2026-07-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Ketamine-induced analgesia and dissociation show distinct behavioral and neural correlates.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42477098/",
+        "published_date": "2026-07-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Organization of circuits linking descending input to motor output in the Drosophila Male Adult Nerve Cord connectome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42474298/",
+        "published_date": "2026-07-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Artificial intelligence (AI) uses in stereotactic radiosurgery (SRS): diagnosis with brain metastasis (BM) - A systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42475791/",
+        "published_date": "2026-07-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Imaging suspected posterior circulation stroke in the emergency department: a practical modality-based review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42472769/",
+        "published_date": "2026-07-20",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Age-Related Brain Atrophy Mediates a Composite Outcome of One-Year Ischemic Stroke Recurrence and All-Cause Mortality Through YKL-40-Related Inflammatory Pathways: A Structural Equation Model.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42470512/",
+        "published_date": "2026-07-18",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Endoscopic surgical treatment of sinonasal Schneiderian papillomas: our experience.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42472957/",
+        "published_date": "2026-07-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Siibra: a software tool suite for realizing a Multilevel Human Brain Atlas from complex data resources.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42477446/",
+        "published_date": "2026-07-20",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical usefulness of slab-selective three-dimensional magnetic resonance angiography using radial stack-of-stars acquisition and UTE sampling (STARS UTE-MRA) after treatment of cerebral aneurysms with metallic devices.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42474979/",
+        "published_date": "2026-07-20",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Uncommon Pathogen, Fatal Consequence: Abiotrophia defectiva Infective Endocarditis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42471163/",
+        "published_date": "2026-07-18",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Unique environmental and familial influence on amygdalar hyperresponsivity in post-traumatic stress disorder - a discordant monozygotic twin study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42471043/",
+        "published_date": "2026-07-18",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "MRI-negative combined central and peripheral demyelination involving a spinal cord with anti-lactosylceramide antibody.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42476769/",
+        "published_date": "2026-07-18",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

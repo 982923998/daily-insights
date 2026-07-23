@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-17",
+  "articles": [
+    {
+      "title": "Basal Ganglia and Thalamic Volumes as MRI Markers of Motor and Cognitive Dysfunction in Parkinson's Disease.",
+      "summary": "PURPOSE: To investigate volumetric alterations of the basal ganglia and thalamus in patients with Parkinson's disease (PD) and to evaluate the relationships between regional brain volumes, motor symptom severity, and cognitive performance. MATERIALS AND METHODS: 60 patients with PD (20 females, 40 males) and 51 age-matched healthy control participants (26 females, 25 males) were included. Patients with PD were classified according to initial motor phenotype (tremor-dominant vs. bradykinetic-rigid) and cognitive status based on Mini-Mental State Examination (MMSE) scores (21-26 indicating cognitive impairment; ≥27 indicating normal cognition). High-resolution three-dimensional T1-weighted SPGR MRI data were analyzed using the VolBrain automated segmentation pipeline to obtain volumetric measurements of the putamen, caudate nucleus, globus pallidus, and thalamus. All volumetric measures were normalized to total intracranial volume (TIV). Associations between regional brain volumes and Unified Parkinson's Disease Rating Scale (UPDRS) sub-scores were assessed. RESULTS: The mean age of the PD group was 61.2 ± 11.2 years, compared with 60.4 ± 12.0 years in the control group. Right (p = 0.001), left (p = 0.002), and total (p = 0.004) putamen volumes were significantly reduced in patients with PD relative to controls. No significant differences were observed in thalamic volumes between groups (p > 0.05). Within the PD cohort, individuals with MMSE-defined cognitive impairment exhibited significantly smaller thalamic volumes than cognitively normal patients (right: p = 0.002; left: p = 0.001; total: p = 0.001). UPDRS-III scores showed significant negative correlations with putamen volumes (right: r = -0.42, p = 0.001; left: r = -0.43, p = 0.001; total: r = -0.42, p = 0.001), while UPDRS-I scores were negatively correlated with thalamic volumes (right: r = -0.31, p = 0.016; left: r = -0.29, p = 0.041; total: r = -0.30, p = 0.015). CONCLUSION: Putamen volume reduction is associated with motor dysfunction in PD, whereas thalamic volumetric changes are more closely related to cognitive impairment. TIV-normalized automated MRI volumetry may provide complementary neuroimaging biomarkers for assessing disease severity and monitoring clinical progression. KEY POINTS: · Basal ganglia and thalamic volumes show distinct patterns in Parkinson's disease.. · Putamen volume reduction is associated with motor symptom severity.. · Thalamic volume changes are associated with cognitive impairment in PD.. · TIV-normalized VolBrain-based volumetric MRI analysis may support clinical disease assessment.. CITATION FORMAT: · Yıldız H, Atalay B, özdilek b. Basal Ganglia and Thalamic Volumes as MRI Markers of Motor and Cognitive Dysfunction in Parkinson's Disease. Rofo 2026; DOI 10.1055/a-2871-1475.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42296997/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Rofo",
+      "journal_issn": "1438-9010",
+      "published_date": "2026-06-15",
+      "date": "2026-06-17",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The Noradrenergic Brain in Parkinson's Disease.",
+      "summary": "PURPOSE OF REVIEW: Cerebral noradrenergic activity modulates physiological functions of behaviour, cognition, movement, arousal and sleep. This review aims to provide an accurate summary of the current knowledge on the involvement of the noradrenergic system in Parkinson's Disease (PD) and its clinical correlations based on neuroimaging studies. RECENT FINDINGS: Studies in PD highlight neuromelanin MRI signal loss in the locus coeruleus (LC), and positron emission tomography shows noradrenergic denervation across subcortical and cortical areas. More severe phenotypes of PD, manifesting with cognitive decline, apathy, REM sleep behaviour disorder and autonomic dysfunction, are associated with more severe noradrenergic dysfunction. Conversely more preserved noradrenergic transmission is common in tremulous PD. Furthermore, noradrenergic dysfunction, is also involved in transient motor manifestations such as tremor and freezing of gait. Recent neuroimaging advances greatly expanded the knowledge about noradrenergic dysfunction pathophysiology in PD. However, pharmacological treatment of its several associated manifestations is still lacking and needs further investigation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42301334/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Curr Neurol Neurosci Rep",
+      "journal_issn": "1534-6293",
+      "published_date": "2026-06-16",
+      "date": "2026-06-17",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:44+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The Noradrenergic Brain in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42301334/",
+        "published_date": "2026-06-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Basal Ganglia and Thalamic Volumes as MRI Markers of Motor and Cognitive Dysfunction in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42296997/",
+        "published_date": "2026-06-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

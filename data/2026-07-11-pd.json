@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-11",
+  "articles": [
+    {
+      "title": "Dual Dopaminergic and Limbic-Cognitive Contributions to Gait Parameters in De Novo Parkinson Disease.",
+      "summary": "BACKGROUND AND OBJECTIVES: Parkinson disease (PD) is a progressive neurodegenerative disease in which gait impairment is a common and disabling clinical feature. We aimed to characterize the independent and mediated contributions of striatal dopamine transporter (DAT) availability and gray matter (GM) volume to quantitative gait impairment in de novo PD. METHODS: In this prospective study, we consecutively recruited patients with de novo PD fulfilling the UK Brain Bank clinical criteria and healthy controls (HCs) without focal neurologic symptoms and parkinsonism at Wonju Severance Christian Hospital. All participants underwent GAITRite-based gait analysis, and patients further underwent brain MRI for GM volumetry, 18F-FP-CIT PET for striatal DAT availability, and motor and cognitive assessments. After exploratory gait-related correlation analyses, causal mediation analyses tested whether the effects of neuroimaging biomarkers on gait parameters were mediated by cognition or motor symptom severity. RESULTS: A total of 122 patients with de novo PD (mean age, 69.66 years; 45.90% female) and 177 HCs (mean age, 72.07 years; 51.41% female) were enrolled. Compared with HCs, patients with PD showed slower velocity, shorter step/stride lengths, reduced swing and single-support time, increased double-support time, and greater dispersion across multiple gait domains. Limbic-related GM volumes were associated with step/stride lengths and temporal phase composition, and these associations were substantially mediated by global cognition (representative ACMEs [95% CIs] for stride length: posterior cingulate cortex, 1.9559 [0.5606-4.2238]; hippocampus, 3.6722 [1.0707-8.2118]; thalamus, 2.8794 [0.0408-7.2535]; amygdala, 4.9696 [1.8241-10.3405]; proportions mediated, 19%-50%). Lower putaminal DAT availability was associated with greater stance time and double-support time variability, whereas lower caudate DAT availability was associated with longer swing and single-support time and altered phase parameters. These associations were not significantly mediated by bradykinesia/rigidity scores; direct effects remained significant (ADEs [95% CIs]: caudate-swing time, -0.0237 [-0.0428 to -0.0086]; putamen-double-support time variability, -2.0249 [-3.1445 to -0.8835]). DISCUSSION: These findings support a dual-pathway model of gait regulation in patients with de novo PD, where striatal dopaminergic denervation directly affects gait rhythmicity, whereas limbic system atrophy affects gait through direct and cognition-mediated pathways. This medication-naïve cohort may limit generalizability to the broader PD spectrum.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42430674/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-07-10",
+      "date": "2026-07-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:59+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Dual Dopaminergic and Limbic-Cognitive Contributions to Gait Parameters in De Novo Parkinson Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42430674/",
+        "published_date": "2026-07-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

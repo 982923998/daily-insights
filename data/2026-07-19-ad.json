@@ -1,0 +1,162 @@
+{
+  "date": "2026-07-19",
+  "articles": [
+    {
+      "title": "Progressive leptomeningeal involvement on gadolinium-enhanced FLAIR MRI in hereditary transthyretin amyloidosis with the V30M (p.V50M) mutation.",
+      "summary": "BACKGROUND: Advances in disease-modifying therapies for hereditary transthyretin (ATTRv) amyloidosis have improved long-term survival. As a result, central nervous system (CNS) involvement, particularly leptomeningeal amyloidosis and cerebral amyloid angiopathy, is increasingly encountered in V30M (p.V50M) patients. However, the frequency, distribution, and progression of CNS involvement on MRI remain unclear. METHODS: We retrospectively analyzed patients with ATTR V30M amyloidosis who underwent brain MRI with gadolinium-enhanced FLAIR (Gd-FLAIR) or susceptibility-weighted imaging (SWI) between 2010 and 2025. Associations between leptomeningeal enhancement, cerebral microbleeds, and clinical parameters were evaluated. RESULTS: Leptomeningeal enhancement on Gd-FLAIR was observed in 13/44 patients (29.5%); disease duration was longer in patients with enhancement than in those without (15.0 [8.9-22.8] vs. 5.2 [2.4-10.5] years, p < 0.001). The semiquantitative Gd-FLAIR score correlated with disease duration (rs = 0.56, p < 0.001). In contrast, cerebral microbleeds were not associated with disease duration or progression. Leptomeningeal enhancement appeared as focal surface lesions in early stages and became diffuse in advanced stages, predominantly involving the posterior fossa. CONCLUSIONS: Leptomeningeal enhancement on Gd-FLAIR MRI is a frequent and progressive finding associated with disease duration and may precede cerebral microbleeds, supporting its role as an early and sensitive marker in ATTR V30M amyloidosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42464809/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Amyloid",
+      "journal_issn": "1744-2818",
+      "published_date": "2026-07-17",
+      "date": "2026-07-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Baseline and placebo-related imaging, cerebrospinal fluid, plasma biomarker, and cognitive findings in unimpaired PSEN1 E280A mutation carriers and non-carriers in the Alzheimer's Prevention Initiative Autosomal Dominant Alzheimer's Disease Colombia Trial.",
+      "summary": "BACKGROUND: The Alzheimer's Prevention Initiative Autosomal Dominant Alzheimer's Disease (ADAD) Colombia Trial evaluated the biological, cognitive, and clinical effects of crenezumab, an anti-oligomeric and monomeric amyloid-beta (Aβ) monoclonal antibody, in 30-60-year-old PSEN1 E280A mutation carriers without cognitive impairment from the world's largest ADAD kindred, finding no significant treatment effects on Alzheimer's disease progression. This article describes baseline biomarker, cognitive, and clinical measurements and placebo-related longitudinal changes in the randomised prevention trial's mutation carrier and non-carrier groups. METHODS: Crenezumab and placebo-treated mutation carriers and placebo-treated non-carriers were assessed using amyloid and fluorodeoxyglucose positron emission tomography (PET), magnetic resonance imaging, plasma, and optional tau PET and cerebrospinal fluid (CSF) biomarker, cognitive, and clinical measurements over 5-8 years. FINDINGS: 94% of the 252 kindred members (85 crenezumab-treated mutation carriers, 84 placebo-treated carriers, and 83 placebo-treated non-carriers) completed the trial. 55% of the carriers had baseline PET evidence of substantial Aβ plaques. 32.9% and 6.8% of amyloid PET-positive and PET-negative carriers, respectively, 36.5%, 13.2%, and 0% of pTau217-positive, pTau217-intermediate, and pTau217-negative carriers, respectively, and no non-carriers became cognitively impaired over the next 5 years. Carriers were distinguished from non-carriers by several baseline and longitudinal Aβ, tau, neurodegenerative, and inflammatory biomarker measures, but not by CSF oligomeric Aβ measurements. INTERPRETATION: Despite the absence of significant treatment effects, these findings and the trial itself continue to inform the course of preclinical ADAD, advance Alzheimer's disease prevention research, and provide a shared resource of data and samples for the field (ClinicalTrials.gov ID: NCT01998841; trial completed). FUNDING: National Institute on Aging, Banner Alzheimer's Institute, Genentech, Inc., and F. Hoffmann-La Roche Ltd.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42468111/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "EBioMedicine",
+      "journal_issn": "2352-3964",
+      "published_date": "2026-07-17",
+      "date": "2026-07-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Perivascular Spaces as Determinants of Amyloid, Tau, and Vascular Biomarker Progression.",
+      "summary": "OBJECTIVE: Magnetic resonance imaging (MRI)-visible enlarged perivascular spaces (PVS) are markers of cerebral small vessel disease (SVD) and aging, processes implicated in both neurodegenerative and cerebrovascular pathologies. However, longitudinal positron emission tomography (PET) studies examining PVS as a mechanism underlying Alzheimer's disease (AD) pathophysiological progression are lacking. Our overall objective was to investigate the associations of baseline PVS burden with white matter hyperintensity (WMH) volume, amyloid-PET, and tau-PET, both cross-sectionally and longitudinally. METHODS: We examined 2,229 participants across the aging-AD spectrum from the Mayo Clinic Study of Aging (MCSA) and the Mayo Alzheimer's Disease Research Center (ADRC) (mean age = 68.59 ± 12.70 and 48.94% women). PVS and WMH were quantified using a novel in-house algorithm. Amyloid on [11C]Pittsburgh Compound B (PiB)-PET and tau on AV1451-PET were measured. Cross-sectional regional and global associations were examined using canonical correlation analysis (CCA). Longitudinal associations were examined using age- and sex-adjusted linear mixed effect (LME) models with natural splines and subject-wise 10-fold cross-validation. RESULT: Three distinct associations were observed: (1) PVS in the basal ganglia (PVS-BG) was associated with greater WMH volume both cross-sectionally and longitudinally; (2) PVS-BG covaried with higher PiB standardized uptake value ratio (SUVR) cross-sectionally, with longitudinal trajectory associations limited to amyloid-negative individuals; (3) PVS in the centrum semiovale (PVS-CSO) was not associated with amyloid or tau, but was associated with occipital WMH, a pattern characteristic of CAA. INTERPRETATION: Findings lend support for PVS-BG as an early indicator of small vessel dysfunction and WMH pathogenesis. Individuals with higher PVS-BG burden exhibited higher WMH burden and faster WMH progression, suggesting that PVS-BG may identify individuals at increased risk of progressive SVD. Evidence linking PVS to downstream AD biomarker progression was weaker. Findings support the relevance of PVS-CSO to CAA, suggesting that they may reflect changes occurring early in the disease process. ANN NEUROL 2026.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42469606/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Ann Neurol",
+      "journal_issn": "1531-8249",
+      "published_date": "2026-07-17",
+      "date": "2026-07-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Multi-threshold polygenic risk improves hippocampal-based cognitive decline prediction.",
+      "summary": "BACKGROUND: Predicting cognitive decline from brain MRI is a central question in neuroscience. Hippocampal volume (HV) is a key cognitive biomarker, and normative models can be augmented with multimodal information. Here we augment normative models with genetic information and show improvements in cognitive decline prediction across multiple experimental setups. METHODS: We improve normative models for HV by integrating multi-threshold polygenic scores (PGS) with demographic and imaging data using Gaussian Process Regression (GPR). Models were trained on 23,997 participants from UK Biobank (UKBB) and validated on 3,000 out-of-sample participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the European Prevention of Alzheimer's Disease (EPAD) cohorts. RESULTS: Our genetically-informed models significantly strengthened associations across six experimental designs and 13 key neurocognitive measures, including Mini-Mental State Examination (MMSE), Clinical Dementia Rating (CDR), and Alzheimer's Disease Assessment Scale (ADAS), while enhancing prediction of future cognitive decline. CONCLUSIONS: Together, these findings underscore the promise of integrating multi-threshold PGS with neuroimaging-based predictive models to improve prognostication and early intervention strategies for neurodegenerative diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42469913/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Genome Med",
+      "journal_issn": "1756-994X",
+      "published_date": "2026-07-17",
+      "date": "2026-07-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "AQP4-dependent enhancement of glymphatic function attenuates tau pathology and neurodegeneration in PS19 mice.",
+      "summary": "BACKGROUND: The glymphatic system facilitates cerebrospinal fluid-interstitial fluid exchange and contributes to the clearance of pathogenic proteins from the brain. Glymphatic dysfunction has been associated with Alzheimer's disease and related tauopathies; however, whether impaired glymphatic transport causally drives tau accumulation and neurodegeneration, and whether its enhancement confers therapeutic benefit, remains unclear. METHODS: Glymphatic water dynamics in PS19 tau transgenic mice were assessed using JJVCPE, a novel MRI-based approach for evaluating brain water exchange. The effect of pharmacological activation of aquaporin-4 (AQP4) with TGN-073 on glymphatic cerebrospinal fluid influx was examined in wild-type mice using dynamic contrast-enhanced MRI. Tau pathology, neurodegeneration, and cerebrospinal fluid tau levels were analyzed in PS19 mice following chronic TGN-073 treatment. AQP4-deficient PS19 mice were examined to determine target specificity. RESULTS: PS19 mice exhibited significant impairment of glymphatic water exchange at early disease stages, which progressively worsened with ageing. Pharmacological activation of AQP4 with TGN-073 robustly enhanced glymphatic-related tracer influx, reduced tau accumulation, neuronal loss, and gliosis, and was accompanied by increased cerebrospinal fluid tau levels. TGN-073 also restored perivascular AQP4 enrichment without significantly altering overall AQP4 abundance. Importantly, these beneficial effects were abolished in AQP4-deficient PS19 mice, demonstrating that both glymphatic enhancement and suppression of tau pathology and neurodegeneration are AQP4-dependent. CONCLUSIONS: Our findings support a mechanistic contribution of impaired glymphatic function to tau accumulation and neuronal vulnerability in tauopathy. Pharmacological activation of AQP4 enhances glymphatic function, restores perivascular AQP4 organization, and ameliorates tau pathology, neurodegeneration, and gliosis. These findings identify AQP4-mediated glymphatic modulation as a disease-relevant and therapeutically tractable pathway for tau-related neurodegenerative disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42471719/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Mol Neurodegener",
+      "journal_issn": "1750-1326",
+      "published_date": "2026-07-18",
+      "date": "2026-07-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:04+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Perivascular Spaces as Determinants of Amyloid, Tau, and Vascular Biomarker Progression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42469606/",
+        "published_date": "2026-07-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Multi-threshold polygenic risk improves hippocampal-based cognitive decline prediction.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42469913/",
+        "published_date": "2026-07-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Baseline and placebo-related imaging, cerebrospinal fluid, plasma biomarker, and cognitive findings in unimpaired PSEN1 E280A mutation carriers and non-carriers in the Alzheimer's Prevention Initiative Autosomal Dominant Alzheimer's Disease Colombia Trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42468111/",
+        "published_date": "2026-07-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "AQP4-dependent enhancement of glymphatic function attenuates tau pathology and neurodegeneration in PS19 mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42471719/",
+        "published_date": "2026-07-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Progressive leptomeningeal involvement on gadolinium-enhanced FLAIR MRI in hereditary transthyretin amyloidosis with the V30M (p.V50M) mutation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42464809/",
+        "published_date": "2026-07-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

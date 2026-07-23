@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-17",
+  "articles": [
+    {
+      "title": "Functional segregation in Parkinson's disease.",
+      "summary": "The basal ganglia are characterized by somatotopic representation and are organized in parallel, functionally segregated corticostriatal circuits, but the impact of Parkinson's disease (PD) on this architecture is unknown. We mapped task-evoked dopamine release using [11C]raclopride positron emission tomography/magnetic resonance in 13 early PD and 15 healthy control (HC) subjects during the performance of motor, cognitive, and reward tasks. In PD, motor tasks elicited decreased relative dopamine release in dorsal putamen but increased in less affected caudate and ventral striatum compared to HC. HC showed distinct dopaminergic topographies for upper versus lower limb activation; this somatotopy was absent in PD. HC exhibited segregated patterns of dopamine release across all tasks, but both anatomical and functional segregation were lost in PD. Compensatory effects of altered dopamine release topography may help to maintain function in patients with PD, but loss of segregation may contribute to challenges in discrete selection of movement and in multitasking.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455915/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Sci Adv",
+      "journal_issn": "2375-2548",
+      "published_date": "2026-07-15",
+      "date": "2026-07-17",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:03+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Functional segregation in Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42455915/",
+        "published_date": "2026-07-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

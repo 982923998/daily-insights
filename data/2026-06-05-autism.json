@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-05",
+  "articles": [
+    {
+      "title": "Olfactory Valence-Processing Deficits and Aberrant Brain Network Connectivity Underlie Social Dysfunction in Shank3-/- ASD Model Mice.",
+      "summary": "Olfaction is crucial for rodent social behavior, and olfactory dysfunction has been observed in multiple autism spectrum disorder (ASD) models, but its phenotype in Shank3⁻/⁻ mice (a classic ASD model) remains unclear. We systematically assessed olfactory function in Shank3⁻/⁻ mice by using a modified olfactory three-chamber test and optimized ultrasonic vocalization (USV) detection in combination with resting-state functional magnetic resonance imaging (rs-fMRI), whole-brain c-Fos mapping, and three-dimensional (3D) behavioral analysis. Our results showed abnormal odor preference and hyperconnectivity in olfaction-associated brain networks. Upon exposure to neutral, appetitive, and social pheromone odors, Shank3⁻/⁻ mice displayed atypical whole-brain c-Fos activation patterns, which were coupled with synchronized locomotor suppression and stereotyped behaviors. This study maps the neural-behavioral responses to odors in Shank3-/- mice, linking olfactory deficits to autism-like behaviors, and highlights the olfactory system as a targetable pathway for sensory-based autism therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42240934/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Neurosci Bull",
+      "journal_issn": "1995-8218",
+      "published_date": "2026-06-04",
+      "date": "2026-06-05",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:36+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Olfactory Valence-Processing Deficits and Aberrant Brain Network Connectivity Underlie Social Dysfunction in Shank3-/- ASD Model Mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42240934/",
+        "published_date": "2026-06-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-15",
+  "articles": [
+    {
+      "title": "Focused ultrasound-mediated nanocarrier delivery across the blood-brain barrier for neurodegenerative diseases.",
+      "summary": "The development of effective therapies for neurodegenerative disorders such as Alzheimer's disease, Parkinson's disease, Huntington's disease, and amyotrophic lateral sclerosis remains a major challenge due to the restrictive nature of the blood-brain barrier (BBB). Conventional systemic drug delivery strategies often fail to achieve sufficient central nervous system (CNS) penetration while avoiding peripheral toxicity. Focused ultrasound (FUS), particularly when combined with microbubbles or nanocarriers, has emerged as a non-invasive approach to transiently and precisely open the BBB, enabling targeted delivery of therapeutics to the brain parenchyma. This review provides a comprehensive overview of the mechanisms by which FUS enhances CNS drug delivery, with a dedicated focus on its integration with nanoparticle-based systems, including liposomes, polymeric nanoparticles, dendrimers, metallic nanoparticles, and exosomes. We discuss how these nanocarriers can be engineered for improved stability, targeting specificity, and stimulus-responsive release upon FUS exposure. Recent advances in ultrasound technology, image guidance (particularly MRI), and therapeutic formulations are summarized, along with preclinical and clinical evidence across key neurodegenerative conditions. Despite promising results, several challenges remain, including long-term BBB stability, regulatory standardization, and scalability for broad clinical application. By integrating principles from acoustics, pharmacology, and nanotechnology, FUS-mediated drug delivery, especially in combination with smart nano systems, represents a significant advancement in precision neurotherapeutics, offering new hope for previously untreatable CNS diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287757/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Biomed Pharmacother",
+      "journal_issn": "1950-6007",
+      "published_date": "2026-06-13",
+      "date": "2026-06-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Molecular contextualization of the neural correlates of episodic memory.",
+      "summary": "BACKGROUND: Considerable neuroimaging effort has been dedicated to investigate the neural correlates of episodic memory, but the micro-scale molecular mechanisms that underlie the macro-scale neuroimaging correlates of episodic memory are still unclear. METHODS: Resting-state functional MRI data were obtained from a large cohort of 510 healthy young adults to calculate regional homogeneity (ReHo) to reflect spontaneous intrinsic brain activity. We then explored the relationship between California Verbal Learning Test-Ⅱ performance and ReHo across participants to delineate the neural substrates of episodic memory. Finally, we conducted the spatial relationship analyses between the neural correlates with gene expression and neurotransmitter atlases to further explore their potential genetic architecture and neurochemical underpinnings. RESULTS: Our analysis revealed a significant negative correlation between episodic memory and ReHo in the bilateral precuneus. Additional spatial correlation analyses revealed that the identified neural correlates of episodic memory were associated with expression of gene categories predominantly implicating signal transduction, immune system process, cellular metabolic process and anatomical structure development, as well as were linked to serotonin transporter. CONCLUSIONS: These findings may not only offer novel insights into the molecular substrates underlying the neural basis of episodic memory, but also help inform prevention and intervention strategies for individuals in at-risk and early phases of dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42288179/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-13",
+      "date": "2026-06-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Postmortem cerebellar and brainstem alterations in episodic ataxia type 1 and 2: Expanding the clinicopathological spectrum.",
+      "summary": "BACKGROUND: Episodic ataxias (EAs) are rare autosomal-dominant channelopathies presenting with recurrent attacks of ataxia and variable neurological features. While MRI studies suggest mild cerebellar atrophy in some patients, detailed neuropathological descriptions are lacking. MATERIALS AND METHODS: We examined postmortem brains and spinal cords from two genetically confirmed patients: EA1 (KCNA1 Val174Phe mutation) and EA2 (CACNA1A A253Y mutation). Routine histology and immunohistochemistry were performed. RESULTS: In EA1, the cerebellar vermis and hemispheres showed narrowing of the folia, segmental Purkinje cell loss, Bergmann gliosis, and scattered torpedoes. The dentate nucleus contained focal lipofuscin-laden macrophages and Rosenthal fibers. Concurrently, α-synuclein pathology (Braak stage 3) was also present, along with sparse age-related tau tangles and minimal vascular amyloid. In EA2, only focal Purkinje cell loss was detected, but novel p62-positive axonal and dendritic inclusions were observed in the cerebellar cortex and inferior olive. No additional α-synuclein, tau, or amyloid pathology was found. A concurrent glioblastoma was identified as the immediate cause of death. CONCLUSION: These are the first detailed autopsy reports of EA1 and EA2. Both revealed cerebellar pathology, with EA1 showing more pronounced Purkinje cell degeneration, while EA2 demonstrated previously undescribed p62-positive inclusions. These findings expand the clinicopathological spectrum of EAs and highlight the value of postmortem studies in elucidating underlying disease mechanisms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42290287/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Clin Neuropathol",
+      "journal_issn": "0722-5091",
+      "published_date": "2026-06-15",
+      "date": "2026-06-15",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:43+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Postmortem cerebellar and brainstem alterations in episodic ataxia type 1 and 2: Expanding the clinicopathological spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42290287/",
+        "published_date": "2026-06-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Molecular contextualization of the neural correlates of episodic memory.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42288179/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Focused ultrasound-mediated nanocarrier delivery across the blood-brain barrier for neurodegenerative diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42287757/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

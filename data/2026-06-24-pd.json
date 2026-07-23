@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-24",
+  "articles": [
+    {
+      "title": "Metabolomic signatures of brain aging: A multimodal and genetic study.",
+      "summary": "Accelerated brain aging is increasingly recognized as a transdiagnostic risk factor for neuropsychiatric and neurodegenerative disorders, yet its metabolic underpinnings remain poorly understood. Here we integrated multimodal neuroimaging (MRI), plasma metabolomics, and genomic data from the UK Biobank to identify metabolic markers of brain aging and evaluate their causal relevance. Using 1079 imaging-derived phenotypes (IDPs) from 4333 healthy participants, we trained and validated machine learning models for brain age prediction, with a least absolute shrinkage and selection operator (LASSO) regression model achieving the best performance (mean absolute error = 3.26 years, R² = 0.68). Brain age gap (BAG) was then estimated in 37,458 participants. Association analyses in 21,780 individuals identified nine plasma metabolites significantly linked to BAG after Bonferroni correction, with glucose showing the strongest effect (β = 0.32, P = 9.90 × 10⁻¹²). Genome-wide association studies (GWAS) identified 392 BAG-associated single-nucleotide polymorphisms (SNPs) (P < 5 × 10⁻⁸), and two-sample Mendelian randomization (MR) provided evidence supporting a potential causal role of glucose in accelerating brain aging. Clinically, elevated plasma glucose was positively associated with seven brain disorders, including all-cause dementia, Alzheimer's disease, vascular dementia, Parkinson's disease, stroke, depression, and anxiety, and negatively associated with cognitive performance, movement function, and mental health outcomes. Higher glucose concentrations were also associated with reduced regional brain volumes across 80 cortical, subcortical, and cerebellar regions. These findings implicate glucose metabolism as a modifiable pathway in brain aging, with implications for early intervention strategies aimed at preserving brain health across the lifespan.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42337012/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-24",
+      "date": "2026-06-24",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:49+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Metabolomic signatures of brain aging: A multimodal and genetic study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42337012/",
+        "published_date": "2026-06-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

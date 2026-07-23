@@ -1,0 +1,111 @@
+{
+  "date": "2026-05-24",
+  "articles": [
+    {
+      "title": "An Automated Framework and Medical Intelligent System for MRI-Based Alzheimer's Diagnosis Classification.",
+      "summary": "In the era of artificial intelligence (AI), Alzheimer's disease (AD) can be diagnosed through magnetic resonance imaging (MRI) at accurate times and with precision to make effective clinical interventions. Nevertheless, classification is still problematic because of low-contrast anatomical structures, inter-class variations, imbalances of the classes, and the possibility of data leakage in slice-based methods. To overcome these limitations, this paper will introduce a contrast-sensitive hybrid Swin Transformer V2 that employs a 3D Convolutional Neural Network that is trained with Harris Hawks Optimization (CA-Swin3DNet-HHO) to classify AD using MRI. The framework presented includes gamma-logarithmic contrast enhancement, skull stripping, and intensity normalization to enhance the visibility of disease-relevant features. A 3D-CNN module is used to encode volumetric structural features, and Swin Transformer V2 is trained to learn global contextual dependencies based on efficient window-based self-attention. Automatic hyperparameter tuning is done using Harris Hawks Optimization (HHO), which enhances convergence and generalization. A feature fusion approach combines both local and global features to improve the classification performance in cognitively normal (CN), mild cognitive impairment (MCI), and AD classes. Strict subject-level partitioning is used to evaluate the model on the ADNI-2 and OASIS-2 datasets to avoid data leakage. The experimental results show better performance with 99.3% accuracy, 99.1% F1-score, and 0.996 AUC on ADNI-2 and 98.7% accuracy, 98.3% F1-score, and 0.991 AUC on OASIS-2. Also, Grad-CAM-based visualization can emphasize clinically relevant parts of the brain, enhancing the interpretability and reliability of the model. In general, the suggested framework offers a precise, solid, and readable solution to automated diagnosis of Alzheimer's disease and has a high potential for clinical use in the real world.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42174284/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Imaging Inform Med",
+      "journal_issn": "2948-2933",
+      "published_date": "2026-05-22",
+      "date": "2026-05-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The clinical analysis of 3 patients diagnosed with sporadic Creutzfeldt-Jakob disease: A case report.",
+      "summary": "RATIONALE: Sporadic Creutzfeldt-Jakob disease (sCJD) is a rare and highly fatal neurodegenerative disorder with heterogeneous clinical presentations, making accurate early diagnosis challenging. Furthermore, there is a critical paucity of epidemiological and clinical data regarding sCJD in the Xinjiang region, contributing to frequent misdiagnoses. PATIENT CONCERNS: We present 3 patients who exhibited rapidly progressive dementia alongside multifocal neurological signs, including ataxia, extrapyramidal symptoms, and visual disturbances. DIAGNOSES: Comprehensive evaluations revealed positive cerebrospinal fluid 14-3-3 protein and the M/M genotype at prion protein gene codon 129 without pathogenic mutations in all cases. Cranial magnetic resonance imaging findings varied from early focal restrictions to typical widespread cortical \"ribbon signs,\" while electroencephalograms lacked classic periodic sharp-wave complexes. All 3 patients fulfilled the 2017 National CJD Research and Surveillance Unit diagnostic criteria for probable sCJD. INTERVENTIONS: The patients received multifaceted symptomatic and supportive treatments, including measures to improve cerebral circulation and metabolism, as well as comprehensive nutritional and neurological support. OUTCOMES: Despite targeted treatments, no significant clinical improvement was observed. All patients experienced rapid and fatal disease progression, passing away between 1 month and 1.5 years following hospital discharge. LESSONS: The absence of classic electroencephalogram findings, such as periodic sharp-wave complexes, should not delay an sCJD diagnosis. Recognizing clinical \"red flags\" and utilizing multimodal diagnostic approaches are essential for early recognition and minimizing misdiagnosis, especially in regions with limited clinical data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42175482/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Medicine (Baltimore)",
+      "journal_issn": "1536-5964",
+      "published_date": "2026-05-22",
+      "date": "2026-05-24",
+      "impact_factor": 78.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NEW ENGLAND JOURNAL OF MEDICINE"
+    },
+    {
+      "title": "A novel heterozygous GRN deletion (c.302_315del) associated with behavioral variant frontotemporal dementia.",
+      "summary": "We present the case of a 64-year-old woman who was evaluated for progressive behavioral and cognitive decline. Her clinical presentation was characterized by marked personality changes, apathy, and disinhibition, accompanied by irritability, executive dysfunction, and memory impairment. Neuropsychological assessment revealed significant cognitive impairment, with a Mini-Mental State Examination (MMSE) score of 14 and a Montreal Cognitive Assessment (MoCA) score of 11. Brain MRI revealed prominent asymmetric fronto-temporo-parietal atrophy, worse on the right. A heterozygous pathogenic granulin (GRN) mutation (c.302_315del) was identified via whole-exome sequencing and was also found in one of her sons. This case expands the mutational spectrum of GRN and underscores its diagnostic relevance in behavioral variant frontotemporal dementia (bvFTD).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42176028/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Amyotroph Lateral Scler Frontotemporal Degener",
+      "journal_issn": "2167-9223",
+      "published_date": "2026-05-23",
+      "date": "2026-05-24",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:30+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "An Automated Framework and Medical Intelligent System for MRI-Based Alzheimer's Diagnosis Classification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42174284/",
+        "published_date": "2026-05-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The clinical analysis of 3 patients diagnosed with sporadic Creutzfeldt-Jakob disease: A case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42175482/",
+        "published_date": "2026-05-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A novel heterozygous GRN deletion (c.302_315del) associated with behavioral variant frontotemporal dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42176028/",
+        "published_date": "2026-05-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

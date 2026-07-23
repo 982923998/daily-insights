@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-13",
+  "articles": [
+    {
+      "title": "Developmental divergence in voice-reward circuitry differentiates autistic from typically developing children and adolescents.",
+      "summary": "Adolescence is a period of profound social change marked by a developmental shift in attention and motivation from parents toward nonfamilial peers. Autism is a neurodevelopmental condition characterized by lifelong challenges in social communication. However, the neurobiological signatures of adolescent social reorientation in autism are poorly understood. Human voice processing is a primary driver of social learning and communication, but it remains understudied in the autism literature, particularly as it relates to neurodevelopmental change. Here we used functional brain imaging of voice processing in children and adolescents with autism and matched controls (ages 7 to 17) to examine neural responses to mother's voice and nonfamilial voices. We identified divergent age-related patterns in autism across reward, salience, social evaluative, and frontoparietal processing regions consistent with models of an extended voice processing network. Results showed that while typically developing participants exhibited age-related increases in neural activity and connectivity within regions of the voice processing network, individuals with autism showed no age-related increases, and often decreases, in these regions. Adolescents with autism further revealed a reversal of the characteristic developmental pattern: with increasing age, they exhibited decreasing neural engagement with nonfamilial voices and increasing engagement with mother's voice, a pattern that was most pronounced in individuals with more severe social communication challenges. Findings suggest that disrupted organization of the extended voice processing network, including reward, salience, social evaluative, and frontoparietal circuitry, may underlie atypical social neurodevelopment in autism. More broadly, results suggest that individual differences in social communication shape age-related neural patterns supporting social reorientation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441858/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-07-13",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:00+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Developmental divergence in voice-reward circuitry differentiates autistic from typically developing children and adolescents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42441858/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

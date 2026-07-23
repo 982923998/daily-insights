@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-03",
+  "articles": [
+    {
+      "title": "Neural Correlates of Anxiety in Alzheimer's Disease: An Analysis of the Amplitude of Low-Frequency Fluctuations in Resting-State fMRI.",
+      "summary": "OBJECTIVE: To characterise the neural correlates of anxiety in Alzheimer's disease (AD) using the amplitude of low-frequency fluctuations (ALFF) derived from resting-state fMRI. STUDY DESIGN: A cross-sectional study. Place and Duration of the Study: Department of Psychiatry, Tongde Hospital of Zhejiang Province, Affiliated to Zhejiang Chinese Medical University (College of Integrated Traditional Chinese and Western Medicine Clinical Medicine), Zhejiang, China, from May to November 2025. METHODOLOGY: Fifty-four participants were categorised into three groups: 20 AD patients with anxiety (AD-A), 14 without anxiety (AD-nA), and 20 healthy controls (HCs). Probable AD was diagnosed according to the NIA-AA criteria. Cognitive and anxiety symptoms were assessed using the Mini-Mental State Examination (MMSE) and Hamilton Anxiety Scale (HAMA). Based on normality testing, group comparisons were performed using Kruskal-Wallis tests, except for HAMA scores, which were normally distributed. All participants underwent fMRI scanning, and ALFF values were calculated. RESULTS: Groups did not differ in age or gender. HCs showed significantly higher MMSE scores compared to both AD groups. HAMA scores were significantly higher in the AD-A group than in the AD-nA group. In the AD-A group, there was a positive but non-significant correlation between MMSE and HAMA scores (r = 0.267, p = 0.255). Neuroimaging results revealed that compared to the AD-nA group, the AD-A group exhibited decreased ALFF in the left insula and left anterior cingulate cortex. Relative to HCs, the AD-A group showed decreased ALFF in the right fusiform gyrus. In contrast, the AD-nA group displayed decreased ALFF in the right lingual gyrus and left precuneus, alongside increased ALFF in the right dorsolateral superior frontal gyrus. CONCLUSION: The AD-A group shows a distinct pattern of intrinsic brain activity. In the AD-A group, ALFF is lower in the salience network than in the AD-nA group, and lower in the visual cortex compared to HCs; the AD-nA group shows complex ALFF changes. This suggests ALFF as a potential neuroimaging biomarker for neuropsychiatric symptoms in AD. KEY WORDS: Alzheimer's disease, Anxiety, Resting-state fMRI, Amplitude of low-frequency fluctuation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42219832/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Coll Physicians Surg Pak",
+      "journal_issn": "1681-7168",
+      "published_date": "2026-06-01",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Diffuse cerebral microhemorrhages in West Nile virus neuroinvasive disease: a case report.",
+      "summary": "West Nile virus neuroinvasive disease (WNND) most commonly presents as meningitis, encephalitis, or acute flaccid paralysis, with variable neuroimaging findings. While MRI abnormalities classically involve deep gray matter and brainstem structures, hemorrhagic manifestations are rarely reported. We report a 77-year-old woman who presented with rapidly progressive altered mental status following a brief febrile prodrome. Cerebrospinal fluid studies demonstrated a lymphocytic pleocytosis consistent with aseptic meningitis. Brain MRI revealed an acute lacunar infarct and diffuse cerebral microhemorrhages initially concerning for cerebral amyloid angiopathy. During hospitalization, she developed livedo reticularis-like peripheral skin changes prompting evaluation for autoimmune or vasculitic etiologies. Extensive infectious and autoimmune testing was ultimately notable for positive serum and CSF West Nile virus serologies, confirming neuroinvasive WNV infection. Despite transient neurologic improvement, her clinical course deteriorated, and she died following transition to comfort-focused care. This case highlights diffuse cerebral microhemorrhages as a potential finding in WNND, although their attribution remains uncertain. These findings may reflect underlying neurovascular inflammatory injury related to WNV or may represent coincident pathology and can mimic other small-vessel or autoimmune pathologies, complicating early diagnostic evaluation. Recognition of this expanded radiographic and clinical spectrum may aid timely diagnosis of WNND in patients with atypical presentations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223868/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neurovirol",
+      "journal_issn": "1538-2443",
+      "published_date": "2026-06-01",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Longitudinal Change in Blood-Based Biomarkers and the Association With MRI-Measured Neurodegeneration in Cognitively Unimpaired Individuals.",
+      "summary": "BACKGROUND AND OBJECTIVES: Blood-based biomarkers are reliable indicators of Alzheimer disease (AD)-related pathology in cognitively normal individuals. However, it remains unclear how changes in these biomarkers relate to emerging brain atrophy. We aimed to investigate longitudinal associations between blood-based biomarkers and brain atrophy, and the temporal sequence of these processes. METHODS: In the prospective observational Subjective Cognitive Impairment Cohort based in Amsterdam, individuals with subjective cognitive decline recruited from a memory clinic underwent repeated blood sampling (484 samples, follow-up 5 ± 3 years) and MRI scans (457 scans, follow-up 5 ± 3 years). We measured blood-based biomarkers (Aβ42/40 ratio [Aβ42/40], phosphorylated tau [pTau217], glial fibrillary acidic protein [GFAP], and neurofilament light [NfL]) using the SIMOA platform. AD-signature brain volumes (5 temporal, 4 parietal, and 2 frontal regions) were determined using the FreeSurfer pipeline. We used linear mixed models to examine associations between baseline or slope of biomarker and brain volume changes. In an exploratory analysis, extrapolated pTau217 trajectories were compared with hippocampal volume trajectories to estimate the temporal gap between these changes. RESULTS: A total of 167 individuals were included (49 amyloid-positive and 118 amyloid-negative), with amyloid-positive individuals being older (age: 66 ± 8 years, 57.1% female) than amyloid-negative individuals (61 ± 8 years, 33.9% female). Baseline levels and longitudinal increases in GFAP showed associations with higher rates of atrophy across nearly all AD-signature regions (β range -0.02 to -0.00, 95% CI range -0.04 to -0.00, pFDR < 0.05). Baseline pTau217 was associated with atrophy across several medial temporal regions (β range -0.03 to -0.01, 95% CI range -0.04 to -0.00, pFDR < 0.05), whereas increases in pTau217 were only associated with atrophy primarily in temporal regions (β range -0.02 to -0.01, 95% CI range -0.02 to -0.00), although the latter associations were only trend-level after FDR correction (pFDR = 0.077). Baseline concentrations, but not increases in NfL, showed associations with temporal regions (β range -0.02 to -0.01, 95% CI range -0.04 to -0.00, pFDR < 0.05). By contrast, baseline Aβ42/40 showed only associations with hippocampal atrophy (0.01 [0.00-0.03]), but not after FDR correction. Using baseline and (extrapolated) trajectories over time, we estimated that changes in pTau217 preceded hippocampal atrophy by 19.8 (10.7-43.7) years. DISCUSSION: Blood-based biomarkers capture distinct aspects of brain atrophy, with pTau217 primarily indicating atrophy in medial temporal regions and GFAP more widespread neurodegeneration. This supports the complementary use of both markers for early identification and monitoring in preventive trials and clinical care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42224636/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-01",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Cerebellar rTMS ameliorates cognitive impairment in Alzheimer's disease: A randomized trial.",
+      "summary": "BACKGROUND: Developing effective neuromodulatory therapies for Alzheimer's disease (AD) is a critical unmet need. While repetitive transcranial magnetic stimulation (rTMS) shows promise, its optimal targets and mechanisms remain incompletely understood. The cerebellum, a key modulator of large-scale brain network dynamics, represents a novel therapeutic target for addressing the distributed cognitive network dysfunction in AD. OBJECTIVE: This study aimed to evaluate the cognitive efficacy and safety of cerebellar rTMS in AD and to elucidate its potential mechanism of action through the lens of structural network topology. METHODS: In this randomized, double-blind, sham-controlled trial, patients with AD were assigned to receive active or sham rTMS targeting the bilateral cerebellar Crus II region. Cognitive assessments were conducted at baseline, post-treatment (4 weeks), and at a 12-week follow-up. Diffusion tensor imaging (DTI) was employed to analyze changes in whole-brain structural network topology. RESULTS: Compared to the sham group, the active rTMS group demonstrated significantly greater improvement in global and domain-specific cognitive function at 4 weeks, with benefits sustained at the 12-week follow-up. Response rates on the MMSE and MoCA were also significantly higher in the active group. Neuroimaging revealed that active rTMS enhanced global network efficiency, indicated by significant increases in global/local efficiency and clustering coefficient, alongside a decreased characteristic path length, signifying an optimization toward small-world topology. Furthermore, treatment selectively enhanced nodal efficiency within core hubs of the default mode, frontoparietal, and salience networks. Critically, these structural improvements correlated with cognitive gains; increased nodal efficiency in the precuneus and posterior cingulate cortex was associated with improved episodic memory and visuospatial function. CONCLUSION: Cerebellar rTMS is a safe and effective intervention that confers sustained cognitive benefits in AD. Its therapeutic mechanism likely involves the reinforcement of structural connectivity and enhanced integrative capacity within supraordinate cognitive networks, particularly the default mode network, via cerebello-cortical pathways.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229579/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-02",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Acupuncture for vascular mild cognitive impairment: an updated systematic review and meta-analysis of randomized controlled trials.",
+      "summary": "BACKGROUND: Vascular mild cognitive impairment (VMCI) is a potentially transitional state between normal aging and vascular dementia. The presence of macroscopic white matter lesions (WML) of moderate or severe extension on brain MRI is the hallmark of the vascular mild cognitive impairment. OBJECTIVE: To assess the effectiveness and safety of acupuncture for vascular mild cognitive impairment. METHODS: Six electronic databases and two clinical trial websites were searched for randomized controlled trials which investigated the effects of acupuncture compared with sham acupuncture, drugs or usual care (such as cognitive rehabilitation). Studies comparing acupuncture combined with other therapies with this therapy alone for VMCI were also included. The quality of the trials selected was evaluated according to the Cochrane 'risk of bias' tool. RevMan V.5.4 software was employed for data analysis. Risk ratio (RR) or mean difference (MD) and their 95% confidence interval (CI) were used for a dichotomous or continuous variable, respectively. RESULTS: Forty-nine trials with 3555 participants were included, with the exception of one trial judged to have a low risk of bias, 43 trials were all judged to have some concerns or a high risk of bias. Meta-analysis showed superior effect of acupuncture as add-on treatment to usual care on increasing the MMSE scores (MD 2.15, 95% CI 1.61 to 2.69, 7 trials, 536 participants, I2 = 22%, P < 0.00001). Five trials also found superior effect of body acupuncture as add-on treatment to usual care on increasing the MoCA scores (MD 2.50, 95% CI 1.80 to 3.20, 5 trials, 340 participants, I2 = 0%, P < 0.00001). Among the included studies, two studies reported adverse reactions. CONCLUSIONS: Acupuncture seems to be a promising treatment for vascular cognitive impairment to slow the progression of the disease and improve cognitive function. However, evidence is limited due to heterogeneity and the small number of included trials. SYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD42022382245.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42231492/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Syst Rev",
+      "journal_issn": "2046-4053",
+      "published_date": "2026-06-02",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Aging-related lateral ventricular shape changes and corresponding mechanical loading derived from longitudinal image registration.",
+      "summary": "Lateral ventricular enlargement is one of the most prominent features of the aging brain and is clearly visible on structural magnetic resonance imaging. Both longitudinal and cross-sectional imaging studies have shown that ventricular volume progressively increases with age and expands even faster in neurodegenerative diseases such as Alzheimer's disease and related dementias. Strikingly, however, we only have a limited understanding of ventricular shape changes and the corresponding mechanical loads that act on the ventricular wall as we age. Therefore, we propose a framework that uses nonlinear registration to quantify subject-specific brain deformations between two longitudinal scans, maps the resulting warp field onto a ventricular surface template mesh, and quantifies mechanical loading measures including displacement magnitude, curvature change, area stretch, and maximum principal wall strain. From the Alzheimer's Disease Neuroimaging Initiative, we selected a cohort of 50 cognitively normal subjects aged 70-75 years at baseline and with a follow-up scan 4-5 years later. In this group, we observed mostly uniform expansion of the lateral ventricles with an average displacement magnitude of 0.88 ± 0.3 mm across the whole ventricle. At the same time, there are distinct sections of the ventricular wall that experience high mechanical loads with respect to our mechanomarkers. Specifically, maximum mechanical loading consistently localizes along the ventricular edges and atrium while the ventricle's main body exhibits minimal loading. Based on the cohort included in this study, we did not observe sex-based differences with respect to any mechanomarker, noticed that on average 29.2 ± 9.3% of the ventricular wall experience wall area increase, and that on average only 4.4 ± 2.5% of the ventricular wall experience wall shrinking. Interestingly, regions of elevated mechanical loading showed reliable spatial correspondence with periventricular white matter hyperintensity locations in our subjects for whom FLAIR imaging was available (n = 39). Additionally, mechanomarkers showed increased magnitudes with periventricular white matter hyperintensity burden, with curvature change demonstrating the strongest group separation. These findings suggest that ventricular enlargement is associated with localized mechanical stresses that coincide with vulnerable white matter regions. Taken together, we present strong evidence in support of the hypothesis that the mechanical loading associated with age-related ventricular enlargement is intricately linked to periventricular white matter degeneration and corresponding cognitive decline.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42234183/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Biomech Model Mechanobiol",
+      "journal_issn": "1617-7940",
+      "published_date": "2026-06-03",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Emotion Perception in Behavioral Variant Frontotemporal Dementia and Alzheimer Disease: The Parahippocampal Conundrum.",
+      "summary": "BACKGROUND: Emotion perception is the capacity that enables humans to correctly identify the cues that guide interpersonal interactions, forming the basis for social behavior. The parahippocampal cortex may contribute to emotion perception by mediating the associations between context and emotion. Individuals with behavioral variant frontotemporal dementia (bvFTD) and Alzheimer disease (AD) appear to show deficits in this process. Investigating emotion perception impairment in these individuals could offer valuable insights into the underlying neurobiological mechanisms. METHODS: Participants included a convenience sample of 29 individuals with bvFTD, 25 with AD, and a comparison group of 15 individuals without bvFTD or AD. We performed an extensive neuropsychological assessment and administered the Comprehensive Affect Testing System (CATS) to evaluate the emotion perception process. We then used multiple regression analysis to assess the relationship between CATS main quotient scores and parahippocampal thickness (P ≤ 0.001) obtained from MRI analysis. RESULTS: Participants with bvFTD scored higher on cognitive tests than participants with AD but showed greater deficits in social behavior. On the CATS, participants with bvFTD had lower scores in all 3 emotional quotients (ie, face, prosody, and global), with a statistically significant correlation to parahippocampal thickness. Participants with AD showed milder deficits in all 3 emotion quotients, with no statistically significant correlation to parahippocampal thickness. DISCUSSION: Our data suggest a significant emotion perception deficit in individuals with bvFTD and support the importance of the parahippocampal gyrus in context-emotion associations. Targeted rehabilitation with the objective of improving emotion perception deficits may be beneficial for individuals with bvFTD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42235492/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Cogn Behav Neurol",
+      "journal_issn": "1543-3641",
+      "published_date": "2026-06-01",
+      "date": "2026-06-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:35+00:00",
+    "version": 1,
+    "summary": "Captured 7 research items. Preference focus is brain-imaging analysis and disease mechanisms: 7 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 7; analysis-method items: 6.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 7,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 7
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 6
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neural Correlates of Anxiety in Alzheimer's Disease: An Analysis of the Amplitude of Low-Frequency Fluctuations in Resting-State fMRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42219832/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Longitudinal Change in Blood-Based Biomarkers and the Association With MRI-Measured Neurodegeneration in Cognitively Unimpaired Individuals.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42224636/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebellar rTMS ameliorates cognitive impairment in Alzheimer's disease: A randomized trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42229579/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Emotion Perception in Behavioral Variant Frontotemporal Dementia and Alzheimer Disease: The Parahippocampal Conundrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42235492/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diffuse cerebral microhemorrhages in West Nile virus neuroinvasive disease: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223868/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Acupuncture for vascular mild cognitive impairment: an updated systematic review and meta-analysis of randomized controlled trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42231492/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Aging-related lateral ventricular shape changes and corresponding mechanical loading derived from longitudinal image registration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42234183/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

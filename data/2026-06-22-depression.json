@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "title": "Transdiagnostic mapping of brain structural abnormalities and network-constrained gray matter atrophy patterns across affective and psychotic disorders.",
+      "summary": "Major depressive disorder (MDD), bipolar disorder (BD), and schizophrenia (SZ) are severe psychiatric disorders with distinct and overlapping clinical and neurobiological features. Despite extensive evidence of brain structural abnormalities, the transdiagnostic neuropathological mechanisms remain poorly understood. A comprehensive literature search was performed for voxel-based morphometry (VBM) studies reporting altered gray matter volume (GMV) in MDD, BD or SZ. A transdiagnostic meta-analysis was conducted to identify common and disorder-specific GMV alterations using the Seed-based d Mapping toolbox. Disease epicenter and buffering mapping were further investigated using a normative functional connectome to understand the network-constrained GM atrophy patterns. A total of 221 studies (MDD: n = 66; BD: n = 59; SZ: n = 96) encompassing 10,485 patients and 12,128 healthy controls were included. Transdiagnostic GMV reductions were identified in the medial prefrontal cortex and superior temporal gyrus. Less atrophy in the limbic/paralimbic regions and temporoparietal junction were observed for MDD, whereas SZ patients exhibited more pronounced GMV reductions in these areas. The ventrolateral prefrontal cortex emerged as a shared disease epicenter and the precuneus as a common buffer across these affective and psychotic disorders. The visual and dorsal attention networks exhibited the most pronounced buffering effects, while epicenter effects were primarily concentrated within the limbic, frontoparietal, subcortical and default mode networks. These findings suggested that affective and psychotic disorders are characterized by both shared and unique network-constrained GM atrophy patterns, which might advance precision diagnostics and inform targeted therapeutic strategies in the future.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42332027/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-22",
+      "date": "2026-06-22",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:47+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Transdiagnostic mapping of brain structural abnormalities and network-constrained gray matter atrophy patterns across affective and psychotic disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42332027/",
+        "published_date": "2026-06-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-09",
+  "articles": [
+    {
+      "title": "Delayed-onset parkinsonism possibly associated with elranatamab treatment for relapsed/refractory multiple myeloma: a case report of a poorly characterized neurological event.",
+      "summary": "T cell-redirecting therapies directed against B-cell maturation antigen (BCMA) have revolutionized the treatment of relapsed or refractory multiple myeloma (MM). BCMA-directed CAR-T cell therapy has been reported to cause a parkinsonism-predominant neurotoxicity referred to as movement and neurocognitive toxicity (MNT). MNT is considered distinct from immune effector cell-associated neurotoxicity syndrome (ICANS) in terms of its clinical features and time to onset. However, MNT-like delayed-onset parkinsonism has not been well documented after BCMA-directed bispecific antibody (BsAb) therapy. We report the case of a woman with relapsed/refractory MM who developed parkinsonism following elranatamab. She experienced neither cytokine release syndrome nor ICANS. Beginning the day after the Week 7 dose, she developed bradykinesia, repeated falls, gait disturbance, and cognitive decline. Neurological examination revealed hypomimia, bradykinesia, upper extremity rigidity, postural instability, and a shuffling gait, consistent with parkinsonism. Brain MRI and dopamine transporter single-photon emission computed tomography findings showed no findings suggestive of degenerative Parkinson's disease. Her symptoms gradually improved after discontinuation of elranatamab. This case highlights the possibility of delayed-onset parkinsonism with neurocognitive symptoms following treatment with a BCMA-directed BsAb. Clinicians should recognize the potential for delayed-onset parkinsonism and ensure close neurological monitoring in patients receiving these agents.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42412128/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Ann Hematol",
+      "journal_issn": "1432-0584",
+      "published_date": "2026-07-07",
+      "date": "2026-07-09",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Iron dyshomeostasis and enhanced myelination in the prefrontal cortex and ventral basal ganglia of a DJ-1 knockout model of early-onset Parkinson's disease.",
+      "summary": "BACKGROUND: Early-onset Parkinson's disease (EOPD) differs from late-onset PD in clinical progression and neurodegenerative patterns. DJ-1 mutations are a known genetic cause of EOPD. Despite the recognized role of iron dyshomeostasis in PD pathogenesis, its spatial distribution and associated tissue alterations in EOPD remain unclear. This study investigated whole-brain iron distribution and related pathological changes in 9-month-old DJ-1-/- mice. METHODS: In vivo quantitative susceptibility mapping (QSM) was performed to characterize whole-brain iron distribution, complemented by ex vivo laser ablation inductively coupled plasma mass spectrometry imaging (LA-ICP-MSI) to validate abnormal iron deposition in secondary motor cortex (M2) and ventral orbital cortex (VO). Anatomical magnetic resonance imaging (MRI), diffusion tensor imaging (DTI), Western blotting, and immunohistochemistry were used to assess brain morphology, microstructural alterations, iron-related proteins, myelination, oxidative stress, and dopaminergic integrity. RESULTS: DJ-1-/- mice exhibited motor deficits without significant nigrostriatal dopaminergic degeneration. QSM revealed significantly increased magnetic susceptibility in the M2, VO, the core of nucleus accumbens (NAc), and ventral pallidum (VP). Elevated iron content in M2 and VO was further verified by LA-ICP-MSI. Regions with increased iron deposition were also shown to exhibit altered ferritin composition, increased fractional anisotropy and myelin basic protein expression, and elevated oxidative stress. CONCLUSION: 9-month-old DJ-1-/- mice show region-specific iron dyshomeostasis in parts of the prefrontal cortex and ventral basal ganglia, which precedes overt nigrostriatal dopaminergic degeneration. Iron accumulation, myelin remodeling, and oxidative stress occur in parallel in the affected brain regions, and may increase metabolic and redox demands, thereby contributing to early functional impairment independent of dopaminergic neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42413586/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-07-07",
+      "date": "2026-07-09",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Convergent Network Localization of Brain Stimulation Targets for Trait Anxiety.",
+      "summary": "OBJECTIVE: Transcranial magnetic stimulation (TMS) and deep brain stimulation (DBS) can modulate brain circuits, and certain stimulation targets may relieve or exacerbate anxiety. The objective of this study was to localize circuit-based stimulation targets that modify anxiety by integrating causal sources of information, including lesion, TMS, and DBS datasets. METHODS: The authors leveraged a series of natural experiments across multiple datasets (N=936). First, patients with incidental brain lesions (N=451) and TMS-treated individuals with incidental variability in stimulation location for depression (N=111) were analyzed. Functional connectivity of these sites was estimated using a normative connectome. Next, a TMS dataset (N=300) with a common set of stimulation coordinates but individual variability in brain connectivity was analyzed. Finally, the authors examined subthalamic DBS locations in patients with Parkinson's disease (N=74). RESULTS: Similar brain circuits were derived from lesions associated with greater anxiety and TMS sites that decreased anxiety (spatial r=0.68). In an independent TMS dataset (N=300), individualized TMS site connectivity to this circuit was significantly correlated with treatment-induced anxiety change. In Parkinson's disease, overlap of subthalamic DBS (N=74) sites with the anxiety circuit significantly predicted greater anxiety increases, confirming network involvement despite the circuit being derived independently of DBS. The circuit was associated significantly with trait anxiety versus state anxiety in two datasets that measured both. The peak proposed TMS target for anxiety was in the right superior frontal gyrus. CONCLUSIONS: This study identified a convergent anxiety circuit across lesions, TMS, and DBS. This provides a potential therapeutic target for brain stimulation and represents a generalizable approach for identifying stimulation targets across neuropsychiatric conditions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42415252/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Am J Psychiatry",
+      "journal_issn": "1535-7228",
+      "published_date": "2026-07-08",
+      "date": "2026-07-09",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:58+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Convergent Network Localization of Brain Stimulation Targets for Trait Anxiety.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42415252/",
+        "published_date": "2026-07-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Iron dyshomeostasis and enhanced myelination in the prefrontal cortex and ventral basal ganglia of a DJ-1 knockout model of early-onset Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42413586/",
+        "published_date": "2026-07-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Delayed-onset parkinsonism possibly associated with elranatamab treatment for relapsed/refractory multiple myeloma: a case report of a poorly characterized neurological event.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42412128/",
+        "published_date": "2026-07-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "title": "Altered sensorimotor-association axis patterning of global functional connectivity in an autism subtype with low levels of language, intellectual, and adaptive functioning.",
+      "summary": "BACKGROUND: In early development autism can be stratified into subtypes differentiated by non-core language, intellectual, motor, and adaptive functioning features. In toddlerhood, these subtypes show different genomic patterning effects on brain structure and function that follow early primary axes of neurodevelopmental organization. This leads to the hypothesis that early cortical patterning differences may continue to be evident between subtypes in later development within hierarchical organization along the sensorimotor-association (S-A) axis. METHODS: Standardized phenotypic measures from the National Institute of Mental Health Data Archive (NDA; n=419) were used in unsupervised data-driven clustering analyses to build a phenotypic stratification model based on language, intellectual, and adaptive functioning (LIAF) features. This stratification model was then applied to independent multi-site resting state fMRI (rsfMRI) datasets (autism n=174; typically-developing (TD) n = 185) to test for subtype differences in global functional connectivity. Mass univariate and multivariate patterning analyses were used to test for differences between TD and autism subtypes. RESULTS: Clustering revealed 2 phenotypically distinct autism subtypes (high versus low) in late childhood to adulthood that generalize in independent data with 92% accuracy. Autism was associated with hyper-connectivity in association areas alongside hypo-connectivity in sensorimotor areas. However, these differences were most pronounced in the TD versus autism low LIAF group comparison and resemble patterning effects that follow the S-A axis. CONCLUSIONS: These findings suggest that cortical patterning of global functional connectivity along the S-A axis is different in autism relative to TD and may be relatively more pronounced in autism with low LIAF features.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42323050/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+      "journal_issn": "2451-9030",
+      "published_date": "2026-06-20",
+      "date": "2026-06-22",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Elucidation of Brain Morphogenesis Using Quantitative Brain Magnetic Resonance Imaging in Children.",
+      "summary": "Quantitative brain magnetic resonance imaging has revolutionized pediatric neurodevelopment research by enabling noninvasive, reproducible, and high-resolution assessments of brain morphology across the entire brain. Advances in anatomical structure analysis and diffusion-weighted tractography now permit detailed characterization of gray and white matter, cortical thickness, surface area, gyrification, and fiber integrity throughout development. Automated processing pipelines, including FreeSurfer, FSL, and CIVET, have supported large-scale analyses, while harmonization frameworks and normative growth curves have facilitated clinical translation. Diffusion tensor imaging (DTI) provides complementary insights into white matter microstructure, revealing neurodevelopmental trajectories and disorder-specific connectivity alterations. These approaches have identified structural biomarkers in multiple conditions, including reduced nucleus accumbens volume and ventricular enlargement in autism spectrum disorder (ASD), as well as early amygdala overgrowth and glymphatic dysfunction that may predict ASD onset. Despite these advances, several challenges remain, such as inter-scanner variability, age-dependent processing limitations, and the lack of validated individual-level biomarkers. Standardization of imaging protocols and robust statistical harmonization will be essential to overcome these obstacles and enable longitudinal, patient-specific assessments. The incorporation of quantitative magnetic resonance imaging into clinical workflows holds promise for early diagnosis, individualized monitoring, and therapeutic stratification of neurodevelopmental and genetic disorders. Ultimately, comprehensive morphometric and diffusion-based profiling will advance understanding of brain morphogenesis and drive precision medicine in pediatric neurology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42324486/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Pediatr Int",
+      "journal_issn": "1442-200X",
+      "published_date": "2026-06-22",
+      "date": "2026-06-22",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:47+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Elucidation of Brain Morphogenesis Using Quantitative Brain Magnetic Resonance Imaging in Children.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42324486/",
+        "published_date": "2026-06-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Altered sensorimotor-association axis patterning of global functional connectivity in an autism subtype with low levels of language, intellectual, and adaptive functioning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42323050/",
+        "published_date": "2026-06-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

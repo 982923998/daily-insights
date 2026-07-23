@@ -1,0 +1,136 @@
+{
+  "date": "2026-06-01",
+  "articles": [
+    {
+      "title": "Evidence for direct and sleep-moderated relationships between aquaporin-4 genetic variants and Alzheimer's disease phenotypes.",
+      "summary": "INTRODUCTION: Variants in the aquaporin-4 gene (AQP4) have been associated with Alzheimer's disease (AD) diagnosis, cognition, and brain amyloid beta (Aβ) and may affect the sleep and Aβ relationship. Their association with other AD-related phenotypes/disease progression remain largely unknown. METHODS: Associations between AQP4 variants, self-reported sleep measures, and AD-related phenotypes in cognitively unimpaired individuals with evidence of Aβ accumulation were examined using data from the Australian Imaging, Biomarkers and Lifestyle study. RESULTS: AQP4 variants were directly associated with regional brain volumes, atrophy, and cognition. They were also associated with differences in regional brain volumes and atrophy in interaction with sleep duration, latency, and quality. Finally, AQP4 variants were associated with cognitive decline in interaction with sleep disturbances. DISCUSSION: These findings support a relationship between AQP4 and AD phenotypes, both directly and through their interaction with sleep.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42216479/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimers Dement",
+      "journal_issn": "1552-5279",
+      "published_date": "2026-06-01",
+      "date": "2026-06-01",
+      "impact_factor": 11.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Alzheimer's & Dementia"
+    },
+    {
+      "title": "Neural Correlates of Anxiety in Alzheimer's Disease: An Analysis of the Amplitude of Low-Frequency Fluctuations in Resting-State fMRI.",
+      "summary": "OBJECTIVE: To characterise the neural correlates of anxiety in Alzheimer's disease (AD) using the amplitude of low-frequency fluctuations (ALFF) derived from resting-state fMRI. STUDY DESIGN: A cross-sectional study. Place and Duration of the Study: Department of Psychiatry, Tongde Hospital of Zhejiang Province, Affiliated to Zhejiang Chinese Medical University (College of Integrated Traditional Chinese and Western Medicine Clinical Medicine), Zhejiang, China, from May to November 2025. METHODOLOGY: Fifty-four participants were categorised into three groups: 20 AD patients with anxiety (AD-A), 14 without anxiety (AD-nA), and 20 healthy controls (HCs). Probable AD was diagnosed according to the NIA-AA criteria. Cognitive and anxiety symptoms were assessed using the Mini-Mental State Examination (MMSE) and Hamilton Anxiety Scale (HAMA). Based on normality testing, group comparisons were performed using Kruskal-Wallis tests, except for HAMA scores, which were normally distributed. All participants underwent fMRI scanning, and ALFF values were calculated. RESULTS: Groups did not differ in age or gender. HCs showed significantly higher MMSE scores compared to both AD groups. HAMA scores were significantly higher in the AD-A group than in the AD-nA group. In the AD-A group, there was a positive but non-significant correlation between MMSE and HAMA scores (r = 0.267, p = 0.255). Neuroimaging results revealed that compared to the AD-nA group, the AD-A group exhibited decreased ALFF in the left insula and left anterior cingulate cortex. Relative to HCs, the AD-A group showed decreased ALFF in the right fusiform gyrus. In contrast, the AD-nA group displayed decreased ALFF in the right lingual gyrus and left precuneus, alongside increased ALFF in the right dorsolateral superior frontal gyrus. CONCLUSION: The AD-A group shows a distinct pattern of intrinsic brain activity. In the AD-A group, ALFF is lower in the salience network than in the AD-nA group, and lower in the visual cortex compared to HCs; the AD-nA group shows complex ALFF changes. This suggests ALFF as a potential neuroimaging biomarker for neuropsychiatric symptoms in AD. KEY WORDS: Alzheimer's disease, Anxiety, Resting-state fMRI, Amplitude of low-frequency fluctuation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42219832/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Coll Physicians Surg Pak",
+      "journal_issn": "1681-7168",
+      "published_date": "2026-06-01",
+      "date": "2026-06-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Diffuse cerebral microhemorrhages in West Nile virus neuroinvasive disease: a case report.",
+      "summary": "West Nile virus neuroinvasive disease (WNND) most commonly presents as meningitis, encephalitis, or acute flaccid paralysis, with variable neuroimaging findings. While MRI abnormalities classically involve deep gray matter and brainstem structures, hemorrhagic manifestations are rarely reported. We report a 77-year-old woman who presented with rapidly progressive altered mental status following a brief febrile prodrome. Cerebrospinal fluid studies demonstrated a lymphocytic pleocytosis consistent with aseptic meningitis. Brain MRI revealed an acute lacunar infarct and diffuse cerebral microhemorrhages initially concerning for cerebral amyloid angiopathy. During hospitalization, she developed livedo reticularis-like peripheral skin changes prompting evaluation for autoimmune or vasculitic etiologies. Extensive infectious and autoimmune testing was ultimately notable for positive serum and CSF West Nile virus serologies, confirming neuroinvasive WNV infection. Despite transient neurologic improvement, her clinical course deteriorated, and she died following transition to comfort-focused care. This case highlights diffuse cerebral microhemorrhages as a potential finding in WNND, although their attribution remains uncertain. These findings may reflect underlying neurovascular inflammatory injury related to WNV or may represent coincident pathology and can mimic other small-vessel or autoimmune pathologies, complicating early diagnostic evaluation. Recognition of this expanded radiographic and clinical spectrum may aid timely diagnosis of WNND in patients with atypical presentations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223868/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neurovirol",
+      "journal_issn": "1538-2443",
+      "published_date": "2026-06-01",
+      "date": "2026-06-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Longitudinal Change in Blood-Based Biomarkers and the Association With MRI-Measured Neurodegeneration in Cognitively Unimpaired Individuals.",
+      "summary": "BACKGROUND AND OBJECTIVES: Blood-based biomarkers are reliable indicators of Alzheimer disease (AD)-related pathology in cognitively normal individuals. However, it remains unclear how changes in these biomarkers relate to emerging brain atrophy. We aimed to investigate longitudinal associations between blood-based biomarkers and brain atrophy, and the temporal sequence of these processes. METHODS: In the prospective observational Subjective Cognitive Impairment Cohort based in Amsterdam, individuals with subjective cognitive decline recruited from a memory clinic underwent repeated blood sampling (484 samples, follow-up 5 ± 3 years) and MRI scans (457 scans, follow-up 5 ± 3 years). We measured blood-based biomarkers (Aβ42/40 ratio [Aβ42/40], phosphorylated tau [pTau217], glial fibrillary acidic protein [GFAP], and neurofilament light [NfL]) using the SIMOA platform. AD-signature brain volumes (5 temporal, 4 parietal, and 2 frontal regions) were determined using the FreeSurfer pipeline. We used linear mixed models to examine associations between baseline or slope of biomarker and brain volume changes. In an exploratory analysis, extrapolated pTau217 trajectories were compared with hippocampal volume trajectories to estimate the temporal gap between these changes. RESULTS: A total of 167 individuals were included (49 amyloid-positive and 118 amyloid-negative), with amyloid-positive individuals being older (age: 66 ± 8 years, 57.1% female) than amyloid-negative individuals (61 ± 8 years, 33.9% female). Baseline levels and longitudinal increases in GFAP showed associations with higher rates of atrophy across nearly all AD-signature regions (β range -0.02 to -0.00, 95% CI range -0.04 to -0.00, pFDR < 0.05). Baseline pTau217 was associated with atrophy across several medial temporal regions (β range -0.03 to -0.01, 95% CI range -0.04 to -0.00, pFDR < 0.05), whereas increases in pTau217 were only associated with atrophy primarily in temporal regions (β range -0.02 to -0.01, 95% CI range -0.02 to -0.00), although the latter associations were only trend-level after FDR correction (pFDR = 0.077). Baseline concentrations, but not increases in NfL, showed associations with temporal regions (β range -0.02 to -0.01, 95% CI range -0.04 to -0.00, pFDR < 0.05). By contrast, baseline Aβ42/40 showed only associations with hippocampal atrophy (0.01 [0.00-0.03]), but not after FDR correction. Using baseline and (extrapolated) trajectories over time, we estimated that changes in pTau217 preceded hippocampal atrophy by 19.8 (10.7-43.7) years. DISCUSSION: Blood-based biomarkers capture distinct aspects of brain atrophy, with pTau217 primarily indicating atrophy in medial temporal regions and GFAP more widespread neurodegeneration. This supports the complementary use of both markers for early identification and monitoring in preventive trials and clinical care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42224636/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-01",
+      "date": "2026-06-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:34+00:00",
+    "version": 1,
+    "summary": "Captured 4 research items. Preference focus is brain-imaging analysis and disease mechanisms: 4 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 4; analysis-method items: 4.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 4,
+      "high_priority": 4,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 4
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neural Correlates of Anxiety in Alzheimer's Disease: An Analysis of the Amplitude of Low-Frequency Fluctuations in Resting-State fMRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42219832/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Longitudinal Change in Blood-Based Biomarkers and the Association With MRI-Measured Neurodegeneration in Cognitively Unimpaired Individuals.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42224636/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Evidence for direct and sleep-moderated relationships between aquaporin-4 genetic variants and Alzheimer's disease phenotypes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42216479/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diffuse cerebral microhemorrhages in West Nile virus neuroinvasive disease: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223868/",
+        "published_date": "2026-06-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

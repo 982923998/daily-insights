@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-22",
+  "articles": [
+    {
+      "title": "Effect of Parity and β-Amyloid on Cognition and Hippocampal Volume in Postmenopausal Women.",
+      "summary": "BACKGROUND AND OBJECTIVES: Epidemiologic studies exploring the effect of parity on Alzheimer disease (AD) yield mixed results, and little is known about how parity may modify the impact of AD pathology on brain and cognitive aging. We examined the effect of parity and AD pathology on hippocampal volume (HV) and cognitive changes in cognitively unimpaired (CU) postmenopausal women. METHODS: Analysis was performed on CU postmenopausal women from the ALFA+ observational cohort based in the BarcelonaBeta Brain research center, who completed 1 or 2 visits spaced by ∼3 years (mean = 3.38, SD = 0.55) with reproductive data, cognitive testing (modified Preclinical Alzheimer's Cognitive Composite), CSF biomarkers (Aβ42 and Aβ40), and structural MRI. We used linear mixed-effects models to investigate the interactive effects of parity, time, and Aβ status (based on CSF Aβ42/Aβ40) on cognition and HV. APOE-ε4 status, age, and total intracranial volume were included as covariates. RESULTS: A total of 254 women were included in our analyses ranging from 49.2 to 73.4 years (mean age = 61.2) at visit 1. A significant interaction between parity and Aβ status was observed for cognitive decline and HV. In women with positive amyloid status, higher parity was associated with steeper cognitive decline (β = -0.035, 95% CI -0.068 to -0.003, p = 0.033) and lower HV across time points (β = -0.134, 95% CI -0.263 to -0.005, p = 0.036). DISCUSSION: In CU postmenopausal women, higher parity interacts with AD pathology to influence cognitive decline and HV reductions. These findings suggest that parity may affect resilience to AD pathology in preclinical AD stages.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42330435/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-22",
+      "date": "2026-06-22",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:47+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Effect of Parity and β-Amyloid on Cognition and Hippocampal Volume in Postmenopausal Women.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42330435/",
+        "published_date": "2026-06-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

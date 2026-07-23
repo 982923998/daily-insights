@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-08",
+  "articles": [
+    {
+      "title": "Convergent Network Localization of Brain Stimulation Targets for Trait Anxiety.",
+      "summary": "OBJECTIVE: Transcranial magnetic stimulation (TMS) and deep brain stimulation (DBS) can modulate brain circuits, and certain stimulation targets may relieve or exacerbate anxiety. The objective of this study was to localize circuit-based stimulation targets that modify anxiety by integrating causal sources of information, including lesion, TMS, and DBS datasets. METHODS: The authors leveraged a series of natural experiments across multiple datasets (N=936). First, patients with incidental brain lesions (N=451) and TMS-treated individuals with incidental variability in stimulation location for depression (N=111) were analyzed. Functional connectivity of these sites was estimated using a normative connectome. Next, a TMS dataset (N=300) with a common set of stimulation coordinates but individual variability in brain connectivity was analyzed. Finally, the authors examined subthalamic DBS locations in patients with Parkinson's disease (N=74). RESULTS: Similar brain circuits were derived from lesions associated with greater anxiety and TMS sites that decreased anxiety (spatial r=0.68). In an independent TMS dataset (N=300), individualized TMS site connectivity to this circuit was significantly correlated with treatment-induced anxiety change. In Parkinson's disease, overlap of subthalamic DBS (N=74) sites with the anxiety circuit significantly predicted greater anxiety increases, confirming network involvement despite the circuit being derived independently of DBS. The circuit was associated significantly with trait anxiety versus state anxiety in two datasets that measured both. The peak proposed TMS target for anxiety was in the right superior frontal gyrus. CONCLUSIONS: This study identified a convergent anxiety circuit across lesions, TMS, and DBS. This provides a potential therapeutic target for brain stimulation and represents a generalizable approach for identifying stimulation targets across neuropsychiatric conditions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42415252/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Am J Psychiatry",
+      "journal_issn": "1535-7228",
+      "published_date": "2026-07-08",
+      "date": "2026-07-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:57+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Convergent Network Localization of Brain Stimulation Targets for Trait Anxiety.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42415252/",
+        "published_date": "2026-07-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

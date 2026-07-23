@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-26",
+  "articles": [
+    {
+      "title": "Adaptations of the limbic system and corpus callosum white matter in early-stage PD with RBD.",
+      "summary": "The white matter pathology in Parkinson's disease with REM sleep behavior disorder (PD-RBD) and its link to sleep disturbances remain poorly understood. In this study, advanced diffusion MRI techniques, including diffusion kurtosis imaging (DKI) and neurite orientation dispersion and density imaging (NODDI), were used to characterize microstructural integrity within the corpus callosum and key limbic white matter tracts in PD-RBD patients. The results revealed that DKI metrics, specifically fractional anisotropy (FA) and mean kurtosis (MK) in the corpus callosum and cingulate, were significantly higher in the PD-nRBD group than in both the PD-RBD and healthy controls, with no significant differences between PD-RBD and HCs. Furthermore, Epworth Sleepiness Scale (ESS) scores were negatively correlated with the MK value in the right cingulate in PD-RBD patients. We speculate that, as the disease progresses, their microstructural alterations may reflect a transition from compensation to decompensation, with changes in these regions serving as potential neuroimaging markers of early disease progression.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42361863/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-06-26",
+      "date": "2026-06-26",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:50+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Adaptations of the limbic system and corpus callosum white matter in early-stage PD with RBD.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42361863/",
+        "published_date": "2026-06-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

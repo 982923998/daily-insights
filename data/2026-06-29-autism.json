@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-29",
+  "articles": [
+    {
+      "title": "From brain scans to classifiers: A systematic review of ML-based autism diagnostic frameworks.",
+      "summary": "BACKGROUND: Autism Spectrum Disorder (ASD) is a lifelong neurodevelopmental condition affecting social interaction, communication, and behavior, with traditional diagnosis relying on subjective and time-consuming behavioral assessments. Advances in neuroimaging have enhanced understanding of the brain mechanisms underlying ASD. OBJECTIVE: This systematic review aimed to comprehensively examine ASD classification datasets and recent advancements in ASD diagnosis using neuroimaging modalities, and to analyze machine learning techniques for ASD diagnosis to evaluate their diagnostic performance in terms of accuracy and Area Under the Curve (AUC). METHODS: The review followed PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. A comprehensive literature search (2021-2025) was conducted across major databases, including Web of Science, IEEE Xplore, ACM, ScienceDirect, MDPI, and Springer. RESULTS: Out of 2,329 initially identified records, 825 were screened for eligibility after title and abstract review. The final analysis included 107 studies, which predominantly used structural and functional Magnetic Resonance Imaging, Electroencephalography, and multimodal datasets for ASD classification. The most common classifiers were Convolutional Neural Networks, Support Vector Machines, Random Forests, and hybrid Deep Learning (DL) models. Studies reported performance metrics such as accuracy and AUC, with many showing promising diagnostic results. Key limitations included small sample sizes, lack of external validation, dataset imbalance, and limited generalizability across multi-site datasets. CONCLUSION: Neuroimaging-based Machine Learning (ML) offers strong potential for improving ASD diagnosis but faces challenges in reproducibility, interpretability, dataset variability, and clinical translation. Future work should focus on multi-site validation, explainable AI, and standardized evaluation to ensure reliable, real-world applications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42371601/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Digit Health",
+      "journal_issn": "2055-2076",
+      "published_date": "2026-06-27",
+      "date": "2026-06-29",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:51+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "From brain scans to classifiers: A systematic review of ML-based autism diagnostic frameworks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42371601/",
+        "published_date": "2026-06-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

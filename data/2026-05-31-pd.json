@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-31",
+  "articles": [
+    {
+      "title": "A survey of deep learning techniques in detecting neurological disorders using MRI.",
+      "summary": "Magnetic resonance imaging (MRI) is widely regarded as the most reliable non-invasive imaging modality for detecting neurological disorders. However, manual interpretation of MRI scans is often time-consuming and prone to inter-observer variability, which can lead to inconsistencies in diagnosis. The global burden of neurological disorders-including Alzheimer's disease, brain tumors, Parkinson's disease, multiple sclerosis, and schizophrenia-continues to increase, creating an urgent demand for accurate, scalable, and automated diagnostic solutions. In recent years, deep learning (DL) has emerged as a powerful paradigm for medical image analysis, enabling automated feature extraction and improved diagnostic performance in neuroimaging applications. This survey provides a comprehensive analysis of deep learning approaches for MRI-based detection of neurological disorders. A systematic review of 47 research articles published between 2019 and 2025 is conducted, covering over 40 deep learning architectures evaluated on 34 publicly available and clinical datasets. The study categorizes and critically examines convolutional neural networks (CNNs), Vision Transformers (ViTs), hybrid CNN-Transformer models, and other specialized deep learning frameworks developed for neurological disease detection and classification. Comparative analyses are presented across different neurological conditions, highlighting model performance, dataset characteristics, evaluation protocols, and computational requirements. Furthermore, the survey identifies emerging architectural trends and evaluates the relative strengths and limitations of existing approaches with respect to generalization, interpretability, and clinical applicability. Key research gaps are highlighted, including limited cross-institutional validation, dataset heterogeneity, insufficient explainability, and challenges in real-world clinical deployment. Finally, the paper outlines promising research directions such as multimodal learning, self-supervised representation learning, and robust cross-domain generalization to enhance the reliability and clinical translation of MRI-based deep learning systems.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42216001/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Biomed Eng Online",
+      "journal_issn": "1475-925X",
+      "published_date": "2026-05-29",
+      "date": "2026-05-31",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:34+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "A survey of deep learning techniques in detecting neurological disorders using MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42216001/",
+        "published_date": "2026-05-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

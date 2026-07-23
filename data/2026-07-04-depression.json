@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-04",
+  "articles": [
+    {
+      "title": "A lesion-derived brain network of somatic symptoms for transdiagnostic individual application.",
+      "summary": "BACKGROUND: Somatic symptoms is an umbrella term that describes distressing somatic complaints occurring across a wide spectrum of diseases. However, their underlying neural mechanisms remain poorly understood. Elucidating their mechanisms could therefore benefit patients with diverse conditions. METHODS: Using a recently validated lesion network mapping method and a large-scale healthy connectome database (n = 652, recruited in Anhui Province, China), we identified a somatic network from brain lesions causing somatic symptoms. The lesion-derived network was validated using independent multimodal neuroimaging signatures of somatic symptoms and interoceptive processing. It was further characterized by transcriptomic, neurochemical, and cognitive meta-analytic mapping. We further assessed the therapeutic potential of the somatic network by quantifying its spatial convergence with empirically validated neuromodulation targets. Finally, to determine whether the group-level network can predict personalized symptom severity across diagnoses, we built a normative model of gray matter volume using Gaussian process regression based on 1,342 healthy controls from Anhui. This model was then used to generate personalized atrophy maps in 399 local somatic patients with anxiety, depression, schizophrenia and bipolar disorder. We then assessed whether individual atrophy volume within the somatic network was associated with somatic symptom severity. RESULTS: We found that 21 heterogeneous lesions associated somatic symptoms occurred in many different brain locations but were characterized by a common brain network, with the hub region of the right insula and putamen. The somatic network demonstrated strong spatial alignment with multimodal somatic imaging abnormalities from 66 independent studies and interoceptive processing circuits from 69 task-fMRI studies. 11 effective brain stimulation targets were colocalization with the somatic network. In individual transdiagnostic patients, greater atrophy volume within the somatic network was significantly correlated with somatic symptom severity (r = 0.182, p = 0.004), but not with anxiety or depression symptoms. CONCLUSIONS: These convergent findings establish a unified somatic network framework, advancing both mechanistic understanding and precision medicine applications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42393674/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-07-02",
+      "date": "2026-07-04",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    },
+    {
+      "title": "Joint trajectories of brain atrophy, white matter hyperintensities and cognition quantify brain maintenance.",
+      "summary": "Brain maintenance - the preservation of brain structure or function relevant to cognitive performance - remains challenging to quantify. Here, we propose a domain-general brain maintenance index derived by jointly modelling the longitudinal co-evolution of ageing-related atrophy (via medial temporal lobe to ventricle ratio, MTLV-ratio), white matter hyperintensities (WMH), and global cognition assessed by the preclinical Alzheimer's cognitive composite (PACC5) using latent growth curve modelling. We demonstrate its utility in 543 cognitively unimpaired older adults from the DELCODE cohort, followed annually over four years. We show that changes in MTLV-ratio and WMH additively predict cognitive change. We further show that higher neuroticism, depressive symptoms, lower openness, and faster biological ageing are related to unfavourable domain-specific trajectories and poorer brain maintenance. Our findings highlight the combined relevance of WMH and ageing-related atrophy dynamics for brain maintenance. Maintaining cerebrovascular and mental health alongside cognitive engagement could promote brain maintenance, delay cognitive decline and dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401584/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-07-04",
+      "date": "2026-07-04",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:54+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "A lesion-derived brain network of somatic symptoms for transdiagnostic individual application.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42393674/",
+        "published_date": "2026-07-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Joint trajectories of brain atrophy, white matter hyperintensities and cognition quantify brain maintenance.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42401584/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

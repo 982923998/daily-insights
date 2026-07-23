@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-20",
+  "articles": [
+    {
+      "title": "Male-Biased Social Deficits in Chd8+/R2219* Mouse Model of Autism Linked to Hippocampal Abnormalities.",
+      "summary": "Autism spectrum disorder (ASD) is a neurodevelopmental condition with a 4:1 male bias, yet the biological basis for this sex difference remains poorly understood. Heterozygous mutations in the chromatin remodeler CHD8 confer high risk for ASD, with phenotypes influenced by sex and genetic background. Here, we generated Chd8+/R2219* mice carrying a CRISPR-Cas9-generated mutation orthologous to a human variant. These mice recapitulated core ASD features, including macrocephaly and autistic-like behaviors. Notably, social deficits showed a male preponderance, directly mirroring the human sex bias. Structural magnetic resonance imaging (MRI) confirmed whole-brain enlargement in mutants, with voxel-based morphometry identifying bilateral hippocampal expansion. Crucially, hippocampal volume correlated with social deficit severity exclusively in male mutants. Functional connectivity analyses revealed disrupted hippocampal networks, and connectivity patterns within socially relevant circuits predicted behavioral outcomes. Together, our findings establish this model as exhibiting pronounced sexual dimorphism and implicate aberrant hippocampal structure and connectivity as key neural correlates of male-biased social deficits.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319573/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Neurosci Bull",
+      "journal_issn": "1995-8218",
+      "published_date": "2026-06-19",
+      "date": "2026-06-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Altered sensorimotor-association axis patterning of global functional connectivity in an autism subtype with low levels of language, intellectual, and adaptive functioning.",
+      "summary": "BACKGROUND: In early development autism can be stratified into subtypes differentiated by non-core language, intellectual, motor, and adaptive functioning features. In toddlerhood, these subtypes show different genomic patterning effects on brain structure and function that follow early primary axes of neurodevelopmental organization. This leads to the hypothesis that early cortical patterning differences may continue to be evident between subtypes in later development within hierarchical organization along the sensorimotor-association (S-A) axis. METHODS: Standardized phenotypic measures from the National Institute of Mental Health Data Archive (NDA; n=419) were used in unsupervised data-driven clustering analyses to build a phenotypic stratification model based on language, intellectual, and adaptive functioning (LIAF) features. This stratification model was then applied to independent multi-site resting state fMRI (rsfMRI) datasets (autism n=174; typically-developing (TD) n = 185) to test for subtype differences in global functional connectivity. Mass univariate and multivariate patterning analyses were used to test for differences between TD and autism subtypes. RESULTS: Clustering revealed 2 phenotypically distinct autism subtypes (high versus low) in late childhood to adulthood that generalize in independent data with 92% accuracy. Autism was associated with hyper-connectivity in association areas alongside hypo-connectivity in sensorimotor areas. However, these differences were most pronounced in the TD versus autism low LIAF group comparison and resemble patterning effects that follow the S-A axis. CONCLUSIONS: These findings suggest that cortical patterning of global functional connectivity along the S-A axis is different in autism relative to TD and may be relatively more pronounced in autism with low LIAF features.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42323050/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+      "journal_issn": "2451-9030",
+      "published_date": "2026-06-20",
+      "date": "2026-06-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:46+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Male-Biased Social Deficits in Chd8+/R2219* Mouse Model of Autism Linked to Hippocampal Abnormalities.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42319573/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Altered sensorimotor-association axis patterning of global functional connectivity in an autism subtype with low levels of language, intellectual, and adaptive functioning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42323050/",
+        "published_date": "2026-06-20",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

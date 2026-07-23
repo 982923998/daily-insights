@@ -1,0 +1,87 @@
+{
+  "date": "2026-07-11",
+  "articles": [
+    {
+      "title": "Mega-analysis of Structural Brain Imaging in Functional Neurological Disorder.",
+      "summary": "BACKGROUND: Despite recent advances, the pathophysiology of functional neurological disorder (FND) remains incompletely understood. Structural neuroimaging studies have identified grey matter alterations in somatomotor, salience, limbic, and default mode network associated areas, although findings are inconsistent. Mega-analyses, which combine individual-level data across studies, can help clarify structural alterations. METHODS: We conducted a mega-analysis of brain structural morphometrics derived from T1-weighed MRI scans from fifteen international research groups. After across-site harmonisation with ComBat, we compared 493 functional motor and seizure patients with 564 healthy controls. Euler numbers were included to account for head motion. RESULTS: The FND cohort showed reduced cortical thickness in the bilateral superior frontal gyri (left d = 0.22, right d = 0.21) and sulci (d = 0.22 & 0.23), bilateral superior precentral sulcus (d = 0.22 & 0.26), right precentral gyrus (d = 0.25), right paracentral gyrus and sulcus (d = 0.23), right cuneus (d = 0.23), and right inferior opercular gyrus (d = 0.21); reduced left postcentral gyrus surface area (d = 0.25) and right hippocampal volume (d = 0.22). No regions were different in relative surface area. There were no associations between morphometrics and illness duration, or lifetime history of depression or anxiety. Differences between motor and seizure variants were not identified. CONCLUSIONS: This large mega-analysis suggests subtle morphometric differences, particularly in prefrontal and motor regions. This may represent predisposing vulnerabilities, compensatory mechanisms, or FND-specific alterations. Improved neuropsychiatric characterisation of FND research cohorts will help further contextualise the biological relevance of structural alterations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42431438/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry",
+      "journal_issn": "1873-2402",
+      "published_date": "2026-07-10",
+      "date": "2026-07-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The neuroanatomy of depression: weak but replicable effects in 4021 individuals from three clinical cohorts.",
+      "summary": "The structural neuroanatomy underlying Major Depressive Disorder (MDD) remains elusive and even large-scale neuroimaging studies and meta-analyses produced inconsistent outcomes with marginal effect sizes. Furthermore, the replicability of brain-psychopathology associations is under scrutiny, attributable to inadequately powered sample sizes and inflated effect sizes. The present study aimed to examine the effect sizes, replicability, and generalizability of brain structural alterations in MDD, harnessing the wealth of three large-scale clinical cohorts. We used three independent cohorts totaling n = 4021 deeply characterized participants (aged 15-65 years), encompassing MDD patients (n = 1764), and healthy controls (HC; n = 2257) with individual MRI data. The diagnosis was confirmed by structured clinical interviews. Brain-wide case-control differences in voxel-based morphometry were tested. We conducted pooled analyses to maximize statistical power, and further investigated cross-cohort replicability and generalizability by inspecting 1) correlations between t-maps from each cohort, 2) converging significance across the three cohorts, and 3) by using a cross-validation framework, iterating through cohorts as independent test sets. Pooling all individuals together yielded reduced gray matter volumes in patients with MDD in widespread bilateral clusters, covering the insula, thalamus, orbitofrontal cortex, and a parahippocampal-fusiform-lingual complex. No evidence was found for differences within the hippocampus. The largest effect size was found in the bilateral anterior insula (partial R2 = 0.01). Analyzing cohorts separately yielded 1) t-map correlations between cohorts (r = 0.212 to r = 0.281), 2) replicability indicated by overlapping significance in multiple areas exceeding thresholds in each single cohort, and 3) generalizability of case-control differences in clusters that were deemed non-significant in single cohorts, implicating further frontal, temporal and cerebellar regions. Results indicate that gray matter correlates of MDD are subtle but nevertheless replicable and generalizable. These alterations are localized in an array of regions involved in emotion regulation and sensory processing. Our investigation underscores the need to investigate the replicability and generalizability of mental health neuroimaging findings and provides a tangible framework for this endeavor.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42432162/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neuropsychopharmacology",
+      "journal_issn": "1740-634X",
+      "published_date": "2026-07-10",
+      "date": "2026-07-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NEUROPSYCHOPHARMACOLOGY; Neuropsychopharmacology",
+      "impact_factor_reason": "conflict"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:59+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Mega-analysis of Structural Brain Imaging in Functional Neurological Disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42431438/",
+        "published_date": "2026-07-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The neuroanatomy of depression: weak but replicable effects in 4021 individuals from three clinical cohorts.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42432162/",
+        "published_date": "2026-07-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

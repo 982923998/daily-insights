@@ -1,0 +1,87 @@
+{
+  "date": "2026-05-25",
+  "articles": [
+    {
+      "title": "A novel heterozygous GRN deletion (c.302_315del) associated with behavioral variant frontotemporal dementia.",
+      "summary": "We present the case of a 64-year-old woman who was evaluated for progressive behavioral and cognitive decline. Her clinical presentation was characterized by marked personality changes, apathy, and disinhibition, accompanied by irritability, executive dysfunction, and memory impairment. Neuropsychological assessment revealed significant cognitive impairment, with a Mini-Mental State Examination (MMSE) score of 14 and a Montreal Cognitive Assessment (MoCA) score of 11. Brain MRI revealed prominent asymmetric fronto-temporo-parietal atrophy, worse on the right. A heterozygous pathogenic granulin (GRN) mutation (c.302_315del) was identified via whole-exome sequencing and was also found in one of her sons. This case expands the mutational spectrum of GRN and underscores its diagnostic relevance in behavioral variant frontotemporal dementia (bvFTD).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42176028/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Amyotroph Lateral Scler Frontotemporal Degener",
+      "journal_issn": "2167-9223",
+      "published_date": "2026-05-23",
+      "date": "2026-05-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Association between obstructive sleep apnea severity and glymphatic-related DTI-ALPS alterations in newly diagnosed, Drug-Naïve Alzheimer's disease.",
+      "summary": "BACKGROUND: Obstructive sleep apnea (OSA) is highly prevalent in Alzheimer's disease (AD) patients and is associated with cognitive decline. However, the mechanisms linking OSA to Alzheimer's pathophysiology, especially regarding glymphatic function, remain unclear. This study investigated the relationship between OSA severity and glymphatic-related diffusion abnormalities, as assessed by the DTI-ALPS index, in newly diagnosed, drug-naïve AD patients. METHODS: A total of 162 newly diagnosed, drug-naïve AD patients and 98 healthy controls were enrolled. Polysomnography (PSG) was used to assess OSA severity and sleep parameters, while diffusion tensor imaging along the perivascular space (DTI-ALPS) was employed to measure glymphatic function. Correlation analyses, multivariable regression models with interaction terms, and sensitivity analyses were performed to explore the relationship between OSA and glymphatic dysfunction, and whether this relationship was specific to AD. RESULTS: In AD patients, greater OSA severity was associated with lower ALPS-index values, including AHI (rho = -0.38, P < 0.001) and ODI (rho = -0.35, P < 0.001), whereas these associations were not observed in healthy controls. Lower ALPS-index values were also associated with more fragmented sleep, including higher N1 proportion and arousal index, and with reduced REM sleep. Clinically, the ALPS-index was positively correlated with better cognitive performance on MMSE (rho = 0.28, P = 0.001) and MoCA (rho = 0.31, P < 0.001), and negatively correlated with greater cognitive impairment on ADAS-Cog (rho = -0.34, P < 0.001). CONCLUSION: Glymphatic dysfunction is related to OSA severity in de novo AD but not in Healthy controls. The study demonstrated that OSA may contribute to neurodegeneration via glymphatic impairment in AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42184681/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Prev Alzheimers Dis",
+      "journal_issn": "2426-0266",
+      "published_date": "2026-05-25",
+      "date": "2026-05-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:30+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Association between obstructive sleep apnea severity and glymphatic-related DTI-ALPS alterations in newly diagnosed, Drug-Naïve Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42184681/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A novel heterozygous GRN deletion (c.302_315del) associated with behavioral variant frontotemporal dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42176028/",
+        "published_date": "2026-05-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

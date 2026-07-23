@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-10",
+  "articles": [
+    {
+      "title": "Social communication and brain network properties: cognitive predictors and modulation by autistic traits.",
+      "summary": "UNLABELLED: Social communication (SC) relies on the integration of linguistic processing, pragmatic inference, and theory of mind (ToM), yet its neural architecture remains insufficiently characterized. We propose and empirically test a unified SC network by integrating information neural graph theory metrics, multi-domain cognitive modeling, and autistic traits. Forty-five neurotypical adults completed a cognitive battery assessing language, executive functions, social cognition, perceptual reasoning, and the autism spectrum quotient (AQ). Global efficiency, local efficiency, and clustering coefficients were computed for language, pragmatic, and ToM networks, and their combined architecture. A replication analysis for graph-metrics and its relationship with AQ was performed using an independent sample (n = 73, 31 autistic). Results revealed that language abilities were the strongest and most consistent predictors of network efficiency, particularly within temporal-parietal nodes implicated in semantic integration and contextual interpretation. Executive functions selectively predicted efficiency within frontal control regions, while perceptual reasoning was associated with global efficiency of the precuneus, associated with social and inferential processing. Importantly, autistic traits moderated multiple brain-behavior relationships, indicating that trait-level variability shapes how cognitive abilities map onto neural efficiency within neurotypical population. The replication analysis showed partial overlap with graph-metric and AQ results. These findings advance a network-level account of SC, demonstrating that communicative competence emerges from dynamic interactions among linguistic, executive, and inferential systems, whose neural organization is tuned by individual cognitive profiles and autistic traits. This dimensional framework provides a foundation for understanding variability in social-cognitive functioning and has implications for personalized models of communication. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s11571-026-10481-9.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42266199/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Cogn Neurodyn",
+      "journal_issn": "1871-4080",
+      "published_date": "2026-06-08",
+      "date": "2026-06-10",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:39+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Social communication and brain network properties: cognitive predictors and modulation by autistic traits.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42266199/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

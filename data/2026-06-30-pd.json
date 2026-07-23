@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-30",
+  "articles": [
+    {
+      "title": "7 T MRI Connectivity-Guided Reprogramming Improves Deep Brain Stimulation Motor Outcome in Parkinson's Disease.",
+      "summary": "BACKGROUND: Deep brain stimulation (DBS) of the subthalamic nucleus (STN) is an established treatment for Parkinson's disease (PD). Using 7-Tesla (7 T) MRI connectivity analysis to visualize the patient-specific STN motor subdivision, we hypothesize that reprogramming patients who are stimulated outside of this subdivision can improve their motor outcome substantially, without occurrence of adverse effects. OBJECTIVES: To determine whether connectivity-guided reprogramming improves motor outcome in PD patients treated with STN-DBS. METHODS: Patients who underwent STN-DBS with 7 T MRI probabilistic tractography (2022-2024) were evaluated after standardized follow-up. Their volume of tissue activated (VTA) was visualized with clinical guided programming. Patients were reprogrammed if their VTA did not overlap with the connectivity-defined STN motor subdivision. Follow-up outcome was assessed using the Movement Disorders Society Unified Parkinson's Disease Rating Scale motor part (MDS-UPDRS III; OFF medication, ON stimulation state) and hours OFF per day (MDS-UPDRS IV). RESULTS: Twelve patients were included, of whom nine were reprogrammed. Mean MDS-UPDRS III score after classic programming improved by 16 ± 27% compared to baseline (48 ± 14 to 40 ± 13), and improved significantly further to 42 ± 26% after connectivity-guided reprogramming (28 ± 8; p = 0.005). Furthermore, OFF time after classic programming decreased from 5 ± 3 h at baseline to 3 ± 2 h, and decreased further to 2 ± 2 h after reprogramming. No stimulation-induced adverse effects were reported after parameter adjustments. CONCLUSIONS: 7 T MRI connectivity-guided (re)programming of STN-DBS can provide substantial improvement in motor outcome in PD patients and reduce OFF time, without occurrence of side-effects. Furthermore, response rate to DBS increases, enhancing overall DBS effectiveness in PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42374617/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Mov Disord Clin Pract",
+      "journal_issn": "2330-1619",
+      "published_date": "2026-06-29",
+      "date": "2026-06-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:52+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "7 T MRI Connectivity-Guided Reprogramming Improves Deep Brain Stimulation Motor Outcome in Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42374617/",
+        "published_date": "2026-06-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

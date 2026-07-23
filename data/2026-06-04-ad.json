@@ -1,0 +1,187 @@
+{
+  "date": "2026-06-04",
+  "articles": [
+    {
+      "title": "Cerebellar rTMS ameliorates cognitive impairment in Alzheimer's disease: A randomized trial.",
+      "summary": "BACKGROUND: Developing effective neuromodulatory therapies for Alzheimer's disease (AD) is a critical unmet need. While repetitive transcranial magnetic stimulation (rTMS) shows promise, its optimal targets and mechanisms remain incompletely understood. The cerebellum, a key modulator of large-scale brain network dynamics, represents a novel therapeutic target for addressing the distributed cognitive network dysfunction in AD. OBJECTIVE: This study aimed to evaluate the cognitive efficacy and safety of cerebellar rTMS in AD and to elucidate its potential mechanism of action through the lens of structural network topology. METHODS: In this randomized, double-blind, sham-controlled trial, patients with AD were assigned to receive active or sham rTMS targeting the bilateral cerebellar Crus II region. Cognitive assessments were conducted at baseline, post-treatment (4 weeks), and at a 12-week follow-up. Diffusion tensor imaging (DTI) was employed to analyze changes in whole-brain structural network topology. RESULTS: Compared to the sham group, the active rTMS group demonstrated significantly greater improvement in global and domain-specific cognitive function at 4 weeks, with benefits sustained at the 12-week follow-up. Response rates on the MMSE and MoCA were also significantly higher in the active group. Neuroimaging revealed that active rTMS enhanced global network efficiency, indicated by significant increases in global/local efficiency and clustering coefficient, alongside a decreased characteristic path length, signifying an optimization toward small-world topology. Furthermore, treatment selectively enhanced nodal efficiency within core hubs of the default mode, frontoparietal, and salience networks. Critically, these structural improvements correlated with cognitive gains; increased nodal efficiency in the precuneus and posterior cingulate cortex was associated with improved episodic memory and visuospatial function. CONCLUSION: Cerebellar rTMS is a safe and effective intervention that confers sustained cognitive benefits in AD. Its therapeutic mechanism likely involves the reinforcement of structural connectivity and enhanced integrative capacity within supraordinate cognitive networks, particularly the default mode network, via cerebello-cortical pathways.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229579/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-02",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Acupuncture for vascular mild cognitive impairment: an updated systematic review and meta-analysis of randomized controlled trials.",
+      "summary": "BACKGROUND: Vascular mild cognitive impairment (VMCI) is a potentially transitional state between normal aging and vascular dementia. The presence of macroscopic white matter lesions (WML) of moderate or severe extension on brain MRI is the hallmark of the vascular mild cognitive impairment. OBJECTIVE: To assess the effectiveness and safety of acupuncture for vascular mild cognitive impairment. METHODS: Six electronic databases and two clinical trial websites were searched for randomized controlled trials which investigated the effects of acupuncture compared with sham acupuncture, drugs or usual care (such as cognitive rehabilitation). Studies comparing acupuncture combined with other therapies with this therapy alone for VMCI were also included. The quality of the trials selected was evaluated according to the Cochrane 'risk of bias' tool. RevMan V.5.4 software was employed for data analysis. Risk ratio (RR) or mean difference (MD) and their 95% confidence interval (CI) were used for a dichotomous or continuous variable, respectively. RESULTS: Forty-nine trials with 3555 participants were included, with the exception of one trial judged to have a low risk of bias, 43 trials were all judged to have some concerns or a high risk of bias. Meta-analysis showed superior effect of acupuncture as add-on treatment to usual care on increasing the MMSE scores (MD 2.15, 95% CI 1.61 to 2.69, 7 trials, 536 participants, I2 = 22%, P < 0.00001). Five trials also found superior effect of body acupuncture as add-on treatment to usual care on increasing the MoCA scores (MD 2.50, 95% CI 1.80 to 3.20, 5 trials, 340 participants, I2 = 0%, P < 0.00001). Among the included studies, two studies reported adverse reactions. CONCLUSIONS: Acupuncture seems to be a promising treatment for vascular cognitive impairment to slow the progression of the disease and improve cognitive function. However, evidence is limited due to heterogeneity and the small number of included trials. SYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD42022382245.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42231492/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Syst Rev",
+      "journal_issn": "2046-4053",
+      "published_date": "2026-06-02",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Aging-related lateral ventricular shape changes and corresponding mechanical loading derived from longitudinal image registration.",
+      "summary": "Lateral ventricular enlargement is one of the most prominent features of the aging brain and is clearly visible on structural magnetic resonance imaging. Both longitudinal and cross-sectional imaging studies have shown that ventricular volume progressively increases with age and expands even faster in neurodegenerative diseases such as Alzheimer's disease and related dementias. Strikingly, however, we only have a limited understanding of ventricular shape changes and the corresponding mechanical loads that act on the ventricular wall as we age. Therefore, we propose a framework that uses nonlinear registration to quantify subject-specific brain deformations between two longitudinal scans, maps the resulting warp field onto a ventricular surface template mesh, and quantifies mechanical loading measures including displacement magnitude, curvature change, area stretch, and maximum principal wall strain. From the Alzheimer's Disease Neuroimaging Initiative, we selected a cohort of 50 cognitively normal subjects aged 70-75 years at baseline and with a follow-up scan 4-5 years later. In this group, we observed mostly uniform expansion of the lateral ventricles with an average displacement magnitude of 0.88 ± 0.3 mm across the whole ventricle. At the same time, there are distinct sections of the ventricular wall that experience high mechanical loads with respect to our mechanomarkers. Specifically, maximum mechanical loading consistently localizes along the ventricular edges and atrium while the ventricle's main body exhibits minimal loading. Based on the cohort included in this study, we did not observe sex-based differences with respect to any mechanomarker, noticed that on average 29.2 ± 9.3% of the ventricular wall experience wall area increase, and that on average only 4.4 ± 2.5% of the ventricular wall experience wall shrinking. Interestingly, regions of elevated mechanical loading showed reliable spatial correspondence with periventricular white matter hyperintensity locations in our subjects for whom FLAIR imaging was available (n = 39). Additionally, mechanomarkers showed increased magnitudes with periventricular white matter hyperintensity burden, with curvature change demonstrating the strongest group separation. These findings suggest that ventricular enlargement is associated with localized mechanical stresses that coincide with vulnerable white matter regions. Taken together, we present strong evidence in support of the hypothesis that the mechanical loading associated with age-related ventricular enlargement is intricately linked to periventricular white matter degeneration and corresponding cognitive decline.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42234183/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Biomech Model Mechanobiol",
+      "journal_issn": "1617-7940",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Plasma Amyloid Beta and Tau Associations with Cerebral Amyloid Angiopathy Presence and Severity.",
+      "summary": "OBJECTIVE: The aim was to determine whether plasma amyloid beta (Aβ) Aβ37, Aβ40, Aβ42, and p-tau217 differ in cerebral amyloid angiopathy (CAA) from controls and associate with specific magnetic resonance imaging (MRI) markers of CAA. METHODS: Single center hospital-based study (Massachusetts General Hospital) enrolling patients with probable or definite CAA per Boston 2.0 criteria among consecutive individuals presenting with spontaneous intracerebral hemorrhage (ICH) and non-acute ICH related symptoms. Control participants were identified among individuals 55 years or older without history of ICH attending outpatient clinics in the same catchment area and time as the CAA cases. Primary outcome tested whether plasma Aβ37, Aβ40, Aβ42, and p-tau217 differ between patients with CAA and controls. Secondary outcome evaluated the correlation with the severity of selected CAA neuroradiological hallmarks on brain MRI scans obtained within 1 year of sample collection. RESULTS: A total of 186 patients with CAA (mean age, 71.2 ± 8.3 years; males, 107 [58%]) and 401 controls (mean age, 73.9 ± 8.3 years; males, 211 [53%]) were included in the study. CAA cases had lower Aβ40 (β = -0.60, 95% CI = -0.80 to -0.40, P < 0.001), Aβ42 (β = -0.48, 95% CI = -0.70 to -0.27, P < 0.001), and higher p-tau217 (β = 0.73, 95 %CI = 0.54 to 0.91, P < 0.001) concentrations compared to controls. Aβ40 was the only fragment reduced independent of ptau217 levels. Within the CAA group, biomarkers were associated with both hemorrhagic (reduced Aβ42 with cortical superficial siderosis) and non-hemorrhagic (reduced Aβ40 and Aβ42 with enlarged perivascular spaces in centrum semiovale, reduced Aβ37 and increased p-tau217 with white matter hyperintensities) MRI hallmarks of CAA. INTERPRETATION: Plasma Aβ40, Aβ42, and p-tau217 differ between CAA patients and controls and are informative on CAA severity as inferred from brain MRI markers. ANN NEUROL 2026;100:380-390.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237156/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Ann Neurol",
+      "journal_issn": "1531-8249",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Two distinct patterns of progression of sporadic cerebral small vessel disease.",
+      "summary": "BACKGROUND: Sporadic cerebral small vessel disease (cSVD) is the most common cause of vascular dementia. cSVD features a wide range of neuroimaging markers, including white matter hyperintensity (WMH), lacunes, perivascular spaces, microbleeds, and diffusion magnetic resonance imaging (MRI)-based markers of white matter (WM) injury, and is accompanied by progressive cognitive decline. However, few studies have systematically investigated how and when various imaging and cognitive markers change along the complete cSVD progression trajectory. AIMS: To establish changes in imaging and cognitive markers along the cSVD progression trajectory. METHODS: In this cohort study, we selected 496 participants from the Radboud University Nijmegen Diffusion Tensor and Magnetic Resonance Imaging Cohort (RUNDMC) cohort as the discovery data set. The subtype and stage inference model was used to identify cSVD subtypes and their progression patterns. Five neuroimaging markers (WMH volume, median mean diffusivity (MD) in WM, WM volume, gray matter (GM) volume, and ventricle volume) were used in trajectory construction. The validation cohort was Cambridge cSVD (CamcSVD; n = 330). RESULTS: We identified two subtypes in RUNDMC and replicated this finding in CamcSVD. One subtype displayed early WMH increase, followed by increased WM MD and tissue volume loss. The other subtype, which we termed \"atrophy predominant,\" showed early loss of GM and WM and ventricle enlargement, followed by WMH increase and increased WM MD. This subtype displayed an increase in markers of idiopathic normal pressure hydrocephalus (iNPH). CONCLUSION: We have delineated two distinct progression patterns in sporadic cSVD. Further studies are needed to investigate the relationship between the atrophy-predominant cSVD subtype and iNPH.Data access statement:Datasets may be shared upon request to the corresponding author.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237534/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Int J Stroke",
+      "journal_issn": "1747-4949",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Severe amyloid-related imaging abnormalities associated with lecanemab in Hong Kong: a case report.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237657/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Hong Kong Med J",
+      "journal_issn": "1024-2708",
+      "published_date": "2026-06-04",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:36+00:00",
+    "version": 1,
+    "summary": "Captured 6 research items. Preference focus is brain-imaging analysis and disease mechanisms: 6 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 6; analysis-method items: 4.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 6,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 6
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Cerebellar rTMS ameliorates cognitive impairment in Alzheimer's disease: A randomized trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42229579/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Two distinct patterns of progression of sporadic cerebral small vessel disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237534/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Plasma Amyloid Beta and Tau Associations with Cerebral Amyloid Angiopathy Presence and Severity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237156/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Acupuncture for vascular mild cognitive impairment: an updated systematic review and meta-analysis of randomized controlled trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42231492/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Aging-related lateral ventricular shape changes and corresponding mechanical loading derived from longitudinal image registration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42234183/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "Severe amyloid-related imaging abnormalities associated with lecanemab in Hong Kong: a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237657/",
+        "published_date": "2026-06-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

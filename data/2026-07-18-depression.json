@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-18",
+  "articles": [
+    {
+      "title": "Brain Perivascular Space Morphometry Reflects Shared Familial Microvascular Architecture and Neuropsychiatric Influences.",
+      "summary": "BACKGROUND: Brain perivascular spaces (PVS) are emerging magnetic resonance imaging markers of microvascular function and waste metabolite clearance. Although PVS enlargement has been linked to aging and vascular risk, it remains unclear whether PVS morphometry reflects shared familial microvascular characteristics and how these are shaped by individual vascular, physiological, and neuropsychiatric factors. We investigated whether PVS morphometry captures these familial characteristics in addition to individual determinants. METHODS: We analyzed 1183 participants from the Stratifying Depression and Resilience Longitudinally family-based cohort, including 324 individuals with first-degree relatives. Automated magnetic resonance imaging segmentation quantified PVS volume, count, density, and median length in the centrum semiovale and basal ganglia. Linear mixed-effects models assessed associations with age, hypertension, hair cortisol, depressive symptom scores, and hand grip strength while accounting for familial clustering. RESULTS: In 1050 individuals (59.5% female; mean age, 59.3±10.1 years), PVS burden increased with age (PVSvolume%ROI, β=0.18 [95% CI, 0.11-0.26]; P<0.0001), current depressive symptoms across both regions (PVS density: centrum semiovale, β=0.092 [0.023-0.16]; P=0.009; BG, β=0.11 [0.043-0.18], P=0.002; largely robust to false discovery rate correction), and with higher hair cortisol (PVS count β=0.08 [0.003-0.15]; P=0.041; borderline after false discovery rate correction) and weaker grip strength (PVSvolume%ROI β=-0.09 [-0.16 to -0.02]; P=0.013), in the centrum semiovale. Familial clustering was significant for PVS volume (β=0.22 [0.096-0.52]; P=0.013) and median length (β=0.28 [0.16-0.49]; P=0.0003), independent of other factors. CONCLUSIONS: PVS morphometry reflects shared familial microvascular phenotypes and neuropsychiatric influences beyond hypertension, highlighting both familial and individual determinants of PVS burden and morphology. These findings support PVS morphometry as a neuroimaging marker of cerebral microvascular health.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42464807/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Stroke",
+      "journal_issn": "1524-4628",
+      "published_date": "2026-07-17",
+      "date": "2026-07-18",
+      "impact_factor": 8.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "STROKE"
+    },
+    {
+      "title": "Cerebral gray matter volumes in long-term post-COVID patients are associated with peripheral kynurenine pathway metabolites and the severity of depressive symptoms.",
+      "summary": "BACKGROUND: Structural brain changes and immune-metabolic alterations are widely reported in post-COVID condition (PCC), particularly among patients with depressive symptoms. Alterations in gray matter volume (GMV) and dysregulation of the peripheral kynurenine pathway have each been described independently in PCC; however, potential interactions remain unclear. This observational case-control study investigated associations between GMV and peripheral kynurenine-pathway metabolites in patients with PCC compared to unimpaired individuals who recovered after COVID-19. METHODS: The analysis is based on a sub-cohort from a multicentre, population-based study of individuals who tested positive for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) between October 2020 and April 2021. We compared 43 patients with PCC (age: M = 47.63 (SD = 13.01), 74.4% female) to 27 age- and sex-matched fully recovered controls (age: M = 47.44 (SD = 10.39), 77.8% female) on average 156 weeks after SARS-CoV-2 infection. GMV was assessed using isotropic T1-weighted magnetic resonance imaging (MRI) data (normalized to total intracranial volume, age, and sex). We analyzed the relation of normalized regional GMV to serum kynurenine-pathway metabolites (kynurenine, kynurenic acid, quinolinic acid, kynurenic/quinolinic acid ratio). Additionally, in patients with PCC, GMV and kynurenine-pathway metabolites were tested for correlations with the severity of depressive symptoms. RESULTS: No significant group-level differences in GMV were observed. Clinical case status moderated the association between the peripheral kynurenic acid/quinolinic acid ratio and GMV of the right cingulate gyrus and right parietal lobe. Post-hoc analyses showed a positive association in PCC. Furthermore, within the PCC group, 60.5% showed depressive symptoms according to the Patient Health Questionnaire-9, and larger bilateral hippocampal volumes were significantly associated with greater depressive symptom severity. None of the kynurenine pathway metabolites were significantly associated with depressive symptom severity. CONCLUSION: Our findings may indicate that the peripheral kynurenine metabolism is associated with GMV in PCC, suggesting the presence of facilitated immune-brain interactions. The association between higher hippocampal GMV and depressive symptom severity in PCC-associated depression points to a distinct neurobiological mechanism.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42471068/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Behav Immun",
+      "journal_issn": "1090-2139",
+      "published_date": "2026-07-18",
+      "date": "2026-07-18",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Breaking the norm: population-scale deviations of brain structure in depression and anxiety.",
+      "summary": "Structural brain alterations associated with depression and anxiety are subtle, heterogeneous, and difficult to characterize. We applied autoencoder-based normative modeling to contrastively learned structural MRI representations from two large population-based cohorts (German National Cohort, N ≈ 29,000; UK Biobank, N ≈ 25,000) to quantify individual deviations from normative brain structure across symptom dimensions of depression, anxiety, and, for contextualization, alcohol use.Deviation magnitude increased with symptom severity for depressive and anxiety symptoms and was most pronounced in individuals with high alcohol use. Directional analyses revealed shared deviation patterns for depression and anxiety that were largely distinct from alcohol-related deviations, and these patterns generalized across cohorts. These affective-symptom-related patterns implicated distributed regional brain-structural variation. Individual deviation profiles improved classification of symptomatic status beyond demographic covariates, with gains concentrated at higher symptom severity.Together, these findings indicate that affective symptoms are associated with reproducible, dimensional patterns of regional brain-structural deviation that extend beyond normative population variability, supporting transdiagnostic models of internalizing psychopathology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42471446/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-18",
+      "date": "2026-07-18",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:03+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 2,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Cerebral gray matter volumes in long-term post-COVID patients are associated with peripheral kynurenine pathway metabolites and the severity of depressive symptoms.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42471068/",
+        "published_date": "2026-07-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Breaking the norm: population-scale deviations of brain structure in depression and anxiety.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42471446/",
+        "published_date": "2026-07-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain Perivascular Space Morphometry Reflects Shared Familial Microvascular Architecture and Neuropsychiatric Influences.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42464807/",
+        "published_date": "2026-07-17",
+        "priority": "medium",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

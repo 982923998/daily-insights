@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-19",
+  "articles": [
+    {
+      "title": "QSM Measurement of Iron Deposition in the Substantia Nigra and Its Relationship to Brain Functional Connectivity in Patients with Early Stage and Advanced Stage Parkinson's Disease.",
+      "summary": "OBJECTIVE: Iron deposition is thought to be associated with the physiological mechanisms of Parkinson's disease (PD). However, the pathogenesis remains unclear, and the aim of this study was to investigate the relationship between the progression of iron deposition in the substantia nigra (SN) at different stages of PD and alterations in brain functional connectivity (FC). METHODS: MRI was performed for 106 patients with PD, who were divided into groups with Early Stage (ES) (51 patients) and Advanced Stage (AS) (55 patients) PD according to the Hoehn and Yahr (H&Y) score of clinical severity, along with 45 age and sex matched healthy controls (HC). The iron content of the SN was measured using Quantitative Susceptibility Mapping (QSM), and whole-brain functional connectivity (FC) analysis of functional Magnetic Resonance Imaging (rsfMRI) data was performed using the SN as a seed point. RESULTS: The groups of patients with ES and AS both had significantly increased iron concentration in SN compared to HC, and significantly greater iron in the AS group compared to the ES group. In addition, seed-based FC analysis showed significantly lower FC between the SN and major functional networks, including the sensorimotor network (SMN), the default mode network (DMN), the visual network (VN), the dorsal attentional network (DAN), and the frontal-parietal network (FPN) in the ES and AS compared with the HC group. DISCUSSION: These findings suggest that abnormal iron accumulation in the SN contributes to progressive disruption of brain networks, reflecting the underlying neurodegenerative process of PD. The association between increased iron load and decreased FC highlights the potential role of iron metabolism in driving network-level dysfunction. This provides new insights into the mechanisms linking microstructural pathology to functional disintegration in PD. CONCLUSION: The novelty in this work stems from the changing FC relationships with iron content in the SN and clinical symptoms for the early versus late stage PD subjects. The progression of PD and increase in iron content of the SN, along with the decrease in whole brain FC and increase in clinical symptoms, could provide stage-specific imaging biomarkers for monitoring PD progression. Furthermore, the identified relationship between iron deposition and network dysfunction may inform the future development of network-targeted therapeutic strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42316491/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Curr Neuropharmacol",
+      "journal_issn": "1875-6190",
+      "published_date": "2026-06-17",
+      "date": "2026-06-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Disease modification in advanced Parkinson's disease: a review and roadmap for paving the way for next-generation interventions.",
+      "summary": "Parkinson's disease (PD) exhibits highly heterogeneous clinical trajectories, yet \"advanced PD\" (aPD) lacks a standardized definition. Current reliance on clinical milestones (e.g., motor fluctuations, cognitive decline) is limited by non-linear progression and the absence of objective measures. Although biomarkers like aggregated α-synuclein, MRI, and PET are under investigation, their correlation with clinical progression remains modest. Robust, reproducible endpoints are urgently needed to evaluate disease-modifying therapies across diverse phenotypes, accounting for genetic background, age of onset, co-pathologies, and motor/autonomic/cognitive domains. Given this complexity, single-target interventions are likely insufficient. We propose a multi-domain therapeutic framework for aPD that integrates: (A) simultaneous targeting of key pathological cascades, including α-synuclein aggregation, mitochondrial dysfunction, oxidative stress, proteostasis imbalance, neuroinflammation, and the gut-brain axis; (B) biology-driven patient stratification using emerging biomarkers to match subgroups with targeted interventions; and (C) systematic management of comorbidities and lifestyle factors, such as cardiovascular health and exercise, to enhance neuroresilience. Finally, advancing aPD care requires addressing systemic determinants, including global healthcare inequities, and prioritizing caregiver well-being. Mechanistically informed, patient-centered strategies that combine multi-target therapies with precision stratification and holistic support will be essential to modify disease progression and improve long-term outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319427/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Neural Transm (Vienna)",
+      "journal_issn": "1435-1463",
+      "published_date": "2026-06-19",
+      "date": "2026-06-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Auditory cueing modulates motor performance and brain activity in early Parkinson's disease-a kinematic and fMRI study.",
+      "summary": "Cues are specific references that support motor performance by improving speed, timing, and amplitude while reducing variability. This study aimed at investigating the effects of external auditory cueing on bradykinesia-related kinematic deficits and their neural correlates during a hand-tapping task in people with Parkinson's disease (pwPD) and healthy controls (HC). Twenty-six pwPD and 20 HC performed a right hand-tapping fMRI task either in a self-paced condition (NOCue) or following an auditory cue (Cue). Hand-tapping kinematics were objectively quantified using an optical-fiber glove. PwPD showed reduced hand-tapping amplitude and a greater sequence effect on amplitude than HC during NOCue condition. Cueing attenuated the sequence effect on amplitude in pwPD. During the NOCue condition, pwPD showed reduced activity of pallidum/thalamus relative to HC. No group differences emerged during Cue condition. During Cue relative to NOCue condition, pwPD showed higher activity of pallidum, parietal, temporal, sensorimotor, insular, and cerebellar regions, alongside reduced activation in of paracentral gyrus and cerebellum. Higher activity of pallidum correlated with better motor performance and higher positive effects of cueing. Our results demonstrated that auditory cueing reduces bradykinesia in pwPD possibly by facilitating basal ganglia activity and reducing the need of movement programming.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42321233/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-19",
+      "date": "2026-06-19",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:45+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "QSM Measurement of Iron Deposition in the Substantia Nigra and Its Relationship to Brain Functional Connectivity in Patients with Early Stage and Advanced Stage Parkinson's Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42316491/",
+        "published_date": "2026-06-17",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Disease modification in advanced Parkinson's disease: a review and roadmap for paving the way for next-generation interventions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42319427/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Auditory cueing modulates motor performance and brain activity in early Parkinson's disease-a kinematic and fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42321233/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

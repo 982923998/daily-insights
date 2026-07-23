@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-14",
+  "articles": [
+    {
+      "title": "Spatiotemporal deep learning for early detection of isolated REM sleep behavior disorder and Parkinson's disease using functional MRI data.",
+      "summary": "This study aimed to develop and evaluate a spatiotemporal deep-neural-network (stDNN) using resting-state fMRI (rs-fMRI) data to identify brain biomarkers associated with isolated REM sleep behavior disorder (iRBD) and Parkinson's disease (PD) and to differentiate these conditions from controls. The final sample included 771 subjects, comprising 423 patients with PD, 144 with iRBD, and 204 healthy controls. stDNN model was applied to mean timeseries extracted for each subject from rs-fMRI data. By integrating spatio-temporal features, the network classified subjects based on distinct neural patterns. Model generalizability was assessed using subject-wise k-fold cross-validation. Explainable artificial intelligence (XAI) methods were applied. stDNN achieved balanced accuracy rates of 71.0% in distinguishing controls from PD and up to 71.9% in middle-stage PD cases. It also demonstrated over 80% accuracy in differentiating healthy controls from iRBD. XAI analysis highlighted the involvement of fronto-parietal and temporal regions, including the dorsolateral prefrontal cortex, and anterior temporal gyri, in distinguishing controls from PD. In the comparison with iRBD, key contributing areas included the bilateral superior and medial frontal gyri, dorsolateral prefrontal cortex, parietal and occipital regions (lingual gyri and cuneus). This study demonstrates the potential of stDNN to differentiate between iRBD, PD, and controls using rs-fMRI data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42443195/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-07-14",
+      "date": "2026-07-14",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "fMRI during active GPi DBS uncovers target-specific networks.",
+      "summary": "Improved understanding of target-specific changes in brain activity during deep-brain stimulation (DBS) for Parkinson's disease (PD) may refine target selection. Here, we study the network effects of active DBS using functional magnetic resonance imaging (fMRI) during stimulation of the subthalamic nucleus (STN) and globus pallidus internus (GPi). About 36 PD patients (62.5 ± 8.1 years, 18 GPi-DBS, 39% female) underwent prospective fMRI during active DBS. DBS produced distributed cortical modulation associated with clinical improvement at the group level. Network modeling revealed symptom-specific coupling, with somatomotor network modulation significantly associated with gait improvement (ΔR² = 0.40, pFDR = 0.03) and showing a weaker association with bradykinesia improvement (ΔR² = 0.32, pFDR = 0.06). Unexpectedly, somatomotor network modulation showed a nominal association with variability in verbal fluency outcomes (ΔR² = 0.28, pFDR = 0.08), whereas language and cognitive networks demonstrated minimal explanatory value. A comparable relationship between network modulation and verbal fluency was not observed in STN-DBS. These findings demonstrate that DBS therapeutic effects are best understood as modulation of distributed functional networks rather than focal regions, with target-dependent network coupling potentially underlying differential cognitive outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42448721/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-07-14",
+      "date": "2026-07-14",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:01+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Spatiotemporal deep learning for early detection of isolated REM sleep behavior disorder and Parkinson's disease using functional MRI data.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42443195/",
+        "published_date": "2026-07-14",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "fMRI during active GPi DBS uncovers target-specific networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42448721/",
+        "published_date": "2026-07-14",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

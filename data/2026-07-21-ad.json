@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-21",
+  "articles": [
+    {
+      "title": "Brain aging patterns among nine neurological disorders: A case-control study.",
+      "summary": "BACKGROUND: The difference between neuroimaging-predicted brain age and chronological age, the predicted age difference (PAD), has been studied as a potential biomarker reflecting individual brain health. Although previous large-scale studies have shown that brain age deviations occur across multiple disorders, cross-disorder comparisons of PAD within a unified framework, together with identification of the neuroimaging features associated with these differences and their related gene expression profiles, remain limited. Our aims are to systematically compare brain aging across multiple common brain disorders and explore the brain patterns and biological processes underlying these differences. METHODS AND FINDINGS: In this study, structural MRI data from 45,900 healthy controls (HCs) and 2,698 patients with developmental disorders (attention-deficit/hyperactivity disorder [ADHD] and autism spectrum disorder [ASD]), addiction (alcohol use disorder [AUD], tobacco use disorder [TUD], and AUD&TUD-A&TUD), dementia (Alzheimer's disease [AD], and mild cognitive impairment [MCI]) or other psychiatric disorders (schizophrenia [SZ], bipolar disorder [BP], and major depressive disorder [MDD]), were collected to generate PAD, along with transcriptome data. Then, we calculated the PAD difference between patient and HC as Cohen's d effect sizes, derived from a linear model that accounted for age, age2, sex, and site, and further identified the interpretable brain patterns associated with the PAD difference for each diagnostic group. Finally, enrichment analyses was conducted to identify the biological function of genes relatively over- or underexpressed in association with these patterns. Results showed that while PAD was consistently greater across disorders, different brain disorders showed different degrees of abnormality, the highest effects in dementia (AD: d = 0.97, 95% confidence interval (CI) [0.82,1.13]; p < 0.001 and MCI: d = 0.45, 95% CI [0.34,0.56]; p < 0.001), followed by addiction (A&TUD: d = 0.84, 95% CI [0.44,1.23]; p < 0.001, TUD: d = 0.72, 95% CI [0.49,0.96]; p < 0.001, and AUD d = 0.62, 95% CI [0.39,0.84]; p < 0.001) and psychiatric disorders (SZ: d = 0.53, 95% CI [0.30,0.76]; p < 0.001, BP: d = 0.46, 95% CI [0.22,0.69]; p < 0.001 and MDD: d = 0.28, 95% CI [0.11,0.46]; p < 0.001), but not different from expected in developmental disorders (ASD: d = 0.06, 95% CI [-0.04,0.16]; p = 0.36) and ADHD: d = 0.01, 95% CI [-0.14,0.15]; p = 0.98). Furthermore, higher PAD values in patient groups were linked to specific spatial brain patterns, including the frontotemporal network in psychiatric disorders, default mode network-salience network-putamen-thalamus in addiction and fronto-occipital network in dementia. Prefrontal cortex involvement was common across disorders, and disorder-specific brain patterns associated genes were enriched in different biological processes. A limitation of our study is that psychiatric disorders and addiction have high comorbidity, and these potential confounders were not considered. CONCLUSIONS: In summary, the different brain aging patterns, each based around specific underlying circuits, may serve as neuroimaging biomarkers for understanding the neural aging mechanisms in commonly occurring brain disorders. Future studies should test whether these disorder-specific brain aging patterns can serve as useful biomarkers to guide critical clinical decision-making.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479667/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "PLoS Med",
+      "journal_issn": "1549-1676",
+      "published_date": "2026-07-21",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "[Focus on limbic-predominant age-related TDP-43 encephalopathy (LATE)].",
+      "summary": "In 2019, an international working group described a new clinicopathological entity: limbic-predominant age-related TDP-43 encephalopathy (LATE). Neuropathologically, LATE is characterized by the abnormal accumulation of TDP-43 protein in limbic structures, particularly the hippocampus and parahippocampal regions. Clinically, LATE presents as a slowly progressive, isolated mesiotemporal amnestic syndrome, typically affecting individuals aged over 75 years. Brain MRI usually reveals marked hippocampal atrophy, while FDG-PET may demonstrate medial temporal hypometabolism. A diagnosis of probable LATE requires the exclusion of underlying amyloid pathology, although concomitant Alzheimer's disease pathology is common in older adults. To date, no symptomatic or disease-modifying pharmacological treatment has demonstrated efficacy in LATE. However, its clinical course appears to differ from that of typical Alzheimer's disease, with potentially slower progression and longer preservation of functional independence. LATE therefore represents a common and likely underrecognized cause of memory impairment in older adults, and its identification has important implications for diagnosis, prognosis, and therapeutic decision-making.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479714/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Geriatr Psychol Neuropsychiatr Vieil",
+      "journal_issn": "2115-7863",
+      "published_date": "2026-07-21",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Association Between Plasma GFAP and Medial Temporal Atrophy and Cognition in Amyloid-Negative Cerebrovascular Disease.",
+      "summary": "BACKGROUND AND OBJECTIVES: Plasma glial fibrillary acidic protein (GFAP), a marker of astrocyte reactivity, is elevated across multiple neurodegenerative conditions, including Alzheimer disease. However, its role in neurodegeneration and cognitive decline driven by cerebrovascular pathology, independent of β-amyloid (Aβ) copathology, remains poorly characterized. We investigated whether plasma GFAP is associated with medial temporal atrophy and cognition across a spectrum of cerebrovascular burden in Aβ-negative cognitively impaired individuals. METHODS: In this cross-sectional multicenter study, Aβ PET-negative cognitively impaired participants were recruited from South Korean memory clinics. Plasma GFAP was measured using ultrasensitive Simoa assays. White matter hyperintensity burden was graded using the Fazekas scale and stratified into low (LVP: Fazekas 1) and high (HVP: Fazekas 2-3) cerebrovascular burden groups. Medial temporal gray matter density was assessed using voxel-based morphometry, and hippocampal and amygdalar volumes were derived from T1-weighted MRI adjusted for intracranial volume. Linear regression, interaction, and bootstrap mediation models were used to assess associations among GFAP, brain structure, and cognition. RESULTS: A total of 324 participants were included (LVP n = 203; HVP n = 121; median age 73 years [interquartile range 66-78]; 67.9% female). Compared with LVP, HVP participants were older (75 vs 71 years; p < 0.0001), had lower Mini-Mental State Examination (MMSE) scores (22.7 vs 24.5; p = 0.005), and higher plasma GFAP (136.7 vs 112.1 pg/mL; p = 0.001). Higher GFAP was associated with lower medial temporal gray matter density in HVP (β = -0.311; p = 0.001) but not LVP (β = -0.012; p = 0.858), with a significant GFAP-vascular burden interaction (β = -0.309; p = 0.008). In HVP, higher GFAP was associated with smaller hippocampal (β = -0.179; p = 0.044) and amygdalar volumes (β = -0.169; p = 0.049) and lower MMSE (β = -0.194; p = 0.039). Medial temporal atrophy statistically explained the GFAP-MMSE association (indirect β = -0.071, 95% CI -0.140 to -0.010; p = 0.016). Vascular comorbidities (diabetes, dyslipidemia, hypertension) did not modify the GFAP-cognition association. DISCUSSION: In Aβ-negative cognitively impaired individuals with high cerebrovascular burden, elevated plasma GFAP is associated with medial temporal atrophy and cognitive decline, suggesting GFAP may capture astrocyte-reactivity relevant to vascular cognitive impairment beyond amyloid pathology. These cross-sectional findings require confirmation in longitudinal and ethnically diverse cohorts.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42479994/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-07-21",
+      "date": "2026-07-21",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:05+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain aging patterns among nine neurological disorders: A case-control study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479667/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Association Between Plasma GFAP and Medial Temporal Atrophy and Cognition in Amyloid-Negative Cerebrovascular Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479994/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Focus on limbic-predominant age-related TDP-43 encephalopathy (LATE)].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42479714/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

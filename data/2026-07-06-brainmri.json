@@ -1,0 +1,461 @@
+{
+  "date": "2026-07-06",
+  "articles": [
+    {
+      "title": "Accelerated Deep-Learning-Based Image Reconstruction for 3D T2 Dark-Fluid in Imaging of Multiple Sclerosis.",
+      "summary": "OBJECTIVES: Deep-learning (DL)-accelerated MRI can significantly reduce acquisition times. Studies evaluating interchangeability with conventional 3D data sets, particularly for monitoring disease activity in multiple sclerosis (MS), are lacking. This study investigated interchangeability and comparability between conventional fluid-attenuated 3D-T2-SPACE dark-fluid (c-3D-T2) and accelerated DL-based fluid-attenuated 3D-T2-SPACE dark-fluid (DL-3D-T2) in detecting new white matter lesions lesions on brain MRIs. MATERIALS AND METHODS: In this prospective study, 94 patients with confirmed MS (n=77) or suspected chronic inflammatory CNS disease (n=17), underwent clinically indicated brain MRI at 1.5T. Each participant underwent both c-3D-T2 (5:01 min) and DL-3D-T2 (2:48 min) imaging. Primary endpoint was interchangeability of both sequences for detecting new white matter lesions defined according to the 2024 revised McDonald criteria. Furthermore, comparability regarding total lesion count and image quality was evaluated. Lesions were assessed in 3 anatomic regions (periventricular, cortical/juxtacortical, and infratentorial) by 3 independent readers and 1 experienced neuroradiologist using an established, certified lesion-detection software. Equivalence margin for interchangeability was predefined at 5%. Gwet's AC1 and AC2 determined inter-reader reliability. RESULTS: The study comprised of 70 women and 24 men, with a mean age of 44.9 years (range: 24 to 72 y). In 73 patients, a comparable prior examination was available and met the technical requirements for AI-based lesion-detection software. In 13 patients new lesions were confirmed. Interchangeability for the primary endpoint was demonstrated for all readers and the experienced neuroradiologist, using certified lesion-detection software. Individual equivalence indices remained within the 5% margin. Detection of new white matter lesions demonstrated almost perfect inter-method agreement with overall Gwet's AC2 values between 0.85 [0.74; 0.96] and 0.98 [0.95; 1.00], and excellent inter-reader reliability, with overall new lesions of 0.85 [0.76; 0.94]. Total number of infratentorial and periventricular lesions demonstrated almost perfect agreement [(≥0.93 (0.91; 0.96)] and good agreement for cortical/juxtacortical lesions [0.71 (0.65; 0.77)]. Subjective analysis revealed that 2 readers rated c-3D-T2 as significantly superior in image quality (P<0.001) and 1 reader rated c-3D-T2 as significantly superior in diagnostic confidence (P=0.003). CONCLUSIONS: DL-accelerated 3D-T2-weighted imaging is interchangeable with conventional 3D imaging for detecting new white matter lesions, while reducing acquisition time by nearly 50%. This acceleration supports more efficient MRI protocols for routine MS surveillance, enabling inclusion of additional advanced sequences. However, as subjective image evaluation was slightly inferior in DL-accelerated data sets, and given the substantial time savings, it may be reasonable to slightly reduce the acceleration factor to enhance image quality.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400420/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Invest Radiol",
+      "journal_issn": "1536-0210",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Tumor location and morphological MRI features in relation to combined 1p/22q deletion in meningioma.",
+      "summary": "BACKGROUND: Combined chromosomal 1p/22q deletion is associated with aggressive tumor biology and an increased risk of recurrence in meningiomas. Since C-IMPACT-NOW Update 8, this molecular alteration has gained relevance in the stratification of WHO grade 2 tumors. However, reliable preoperative predictors of combined 1p/22q deletion remain limited. The present study aimed to identify clinical and radiological predictors of combined 1p/22q deletion in meningiomas. METHODS: In this retrospective single-center study, 197 patients with histopathologically confirmed meningiomas and available chromosomal status were analyzed. Preoperative MRI-based tumor characteristics, including tumor volume, surface area, roundness, flatness, and length of dural attachment, were assessed on gadolinium-enhanced T1-weighted MRI. Tumor volumetry was performed using the SmartBrush tool within the BrainLAB software (BrainLAB, Munich, Germany) via a semi-automatic segmentation flow. Surface area, roundness and flatness were derived using the open-source software 3D Slicer. Optimal cut-off values were determined using receiver operating characteristic (ROC) curve analysis with the Youden index. Variables were evaluated using uni- and multivariable analyses. Anatomical subgroup analysis was performed in non-skull base (NSB) meningiomas. RESULTS: In the overall cohort, NSB location was independently associated with combined 1p/22q deletion (OR 3.267, 95% CI 1.012-10.545; p = 0.048). In the NSB subgroup (n = 102), tumor volume (p = 0.027), tumor surface area (p = 0.020), and length of dural attachment (p = 0.042) were significantly associated with combined 1p/22q deletion in univariate analyses. CONCLUSION: NSB meningiomas are independently associated with combined 1p/22q deletion. Quantitative and anatomically interpretable MRI-based tumor characteristics, particularly in NSB tumors, may provide supplementary information for preoperative risk stratification. These characteristics may contribute to decision-making process and identifying those necessitating surgery due to potential aggressive biological behavior.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400710/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Discov Oncol",
+      "journal_issn": "2730-6011",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Blood-brain barrier permeability in diffuse large B-Cell lymphoma: associations with established risk factors for CNS relapse.",
+      "summary": "Central nervous system (CNS) relapse is a serious complication of diffuse large B-Cell lymphoma (DLBCL), often associated with poor clinical outcomes. Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) enables detection of subtle blood-brain barrier (BBB) leakage. We assessed BBB permeability, using the Patlak model, in 63 patients with DLBCL without CNS involvement and 11 healthy controls using DCE-MRI, and investigated associations with established risk factors for CNS relapse. Patients with high risk of CNS relapse (CNS-IPI ≥4) demonstrated near-significant increased BBB permeability in cortical gray matter (GM) compared with both low-risk patients (p = 0.053) and healthy controls (p = 0.02). BBB permeability in cortical GM and in cerebral white matter (WM) correlated positively with age (p < 0.001). After adjusting for age, patients with kidney and/or adrenal involvement exhibited significantly higher BBB permeability in cortical GM (p = 0.04). Furthermore, plasma albumin levels were inversely correlated with BBB permeability in both GM (p = 0.003) and WM (p = 0.005). These findings indicate that subclinical BBB dysfunction may contribute to CNS vulnerability in DLBCL, potentially predisposing patients to relapse even before CNS involvement occurs. The observed age-related increase in BBB permeability is consistent with previous reports and may represent an independent risk for CNS relapse. Collectively, these results suggest that BBB imaging could improve CNS risk stratification in DLBCL. Prospective studies are warranted to determine whether early BBB alterations can predict CNS relapse in individual patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400917/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Tissue Barriers",
+      "journal_issn": "2168-8370",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Neonatal brain-age models in full- and preterm infants.",
+      "summary": "Prematurity affects brain development and increases risk for neurodevelopmental impairments. Yet reliable biomarkers for at-risk infants remain limited. We developed brain-age prediction models using diffusion magnetic resonance imaging-derived white matter features from two datasets: (1) the developing Human Connectome Project (dHCP; 368 healthy infants) and (2) a clinical sample collected at the Lucile Packard Children's Hospital (LPCH; 162 high-risk preterm infants). The goals of this study were (1a) to construct a white matter neonatal brain-age model including full-term and preterm neonates from a large research data set, (1b) to evaluate the accuracy of a separate brain-age model using the same architecture but trained and evaluated via cross-validation on a restricted subset of very preterm infants (<32 weeks gestational age) from the same data set to improve comparability with our clinical cohort; (2) to determine if a similar model can predict brain-age based on clinical MRI scans from high-risk neonates born preterm; and (3) to evaluate whether this preterm white matter-based brain-age model provides information about the infant's health beyond conventional clinical and demographic measures. White matter features demonstrated strong predictive performance in the dHCP dataset (within 3.9 days) and the LPCH clinical dataset (within 6.6 days). However, brain-age metrics (i.e., brain-age gap) showed no significant associations with health complications measured by a composite score of common prematurity complications. While tractometry-derived brain-age models accurately characterize brain maturation in the neonatal brain, their sensitivity to clinical complications in preterm infants appears limited. Global white matter maturation measures derived from clinical grade data may be insufficiently sensitive to capture the cumulative burden of prematurity-related morbidities, suggesting need for multimodal or longitudinal biomarkers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42400972/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Dev Cogn Neurosci",
+      "journal_issn": "1878-9307",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.",
+      "summary": "BACKGROUND: Brain connectivity abnormalities may underlie affective psychosis which may be influenced by sex. Using diffusion magnetic resonance imaging (dMRI) tractography, we assessed frontostriatal brain wiring connectivity patterns in 46 early psychosis affective and 56 healthy control young adult, male and female participants. METHODS: We collected harmonized whole brain tractography dMRI data from three sites and applied our novel fiber clustering methodology to identify 17 white matter fiber clusters connecting the frontal cortex and caudate per hemisphere in each group. By comparing cortical and caudate inter-cluster endpoint distances between groups, we assessed their patterns of frontostriatal connectivity. RESULTS: 1) In both males and females in early affective psychosis and healthy controls, bilaterally, the frontal cortex to caudate wiring pattern deviated from a topographic organization. 2) in a right hemisphere frontal pole fiber cluster, independent of sex, we found a significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.013); 3) in a left hemisphere inferior frontal gyrus, pars triangularis, fiber cluster, we found sex influenced the significant interaction effect of diagnosis on the connectivity pattern between frontal cortex and caudate, (p = 0.0085), with the effect much greater in females (p < 0.00001) than in males (p = 0.97); and, 4) post-hoc tests showed a significant effect of diagnosis on the pattern of frontal cortex to caudate connectivity in specific subregions (ps ≤0.04). CONCLUSIONS: Importantly, while the frontostriatal wiring pattern in both early affective psychosis and healthy controls deviated from a topographic organization, we found in a right hemisphere fiber cluster, independent of sex, that a significant interaction effect of diagnosis was observed on the frontal cortex to caudate connectivity pattern, whereas, in a left hemisphere fiber cluster, the effect of diagnosis on connectivity pattern was influenced by sex, showing the importance of the role of sex in brain wiring patterns in early affective psychosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401715/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "A Temporal Pole Lesion in Neuronal Intranuclear Inclusion Disease: A Case Report.",
+      "summary": "An 81-year-old woman was transferred to our hospital due to a consciousness disorder. MRI of her cranium revealed white matter lesions and lesions in the cerebellar paravermis, splenium of the corpus callosum, and a left temporal pole on fluid-attenuated inversion recovery (FLAIR) sequences. Diffusion-weighted imaging (DWI) revealed hyperintensity at the left frontal corticomedullary junction of the brain. She was diagnosed with neuronal intranuclear inclusion disease (NIID) via a skin biopsy and genetic analysis. These lesions were evident before the DWI hyperintensity was clear. When a lesion in the temporal pole is observed, then NIID should be considered in the differential diagnosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402399/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Intern Med",
+      "journal_issn": "1349-7235",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Silent cerebral infarction after proximal thoracic aortic surgery under deep hypothermic circulatory arrest: an exploratory prospective DW-MRI study.",
+      "summary": "BACKGROUND: Deep hypothermic circulatory arrest (DHCA) is widely used in proximal thoracic aortic surgery; however, its association with subclinical cerebral ischemic changes remains poorly understood. Diffusion-weighted magnetic resonance imaging (DW-MRI) enables sensitive detection of silent cerebral infarction (SCI), which may occur in the absence of overt neurological deficits. METHODS: This prospective observational study included 35 consecutive adult patients undergoing proximal thoracic aortic surgery under DHCA at 18 °C without selective cerebral perfusion. Preoperative and postoperative DW-MRI scans were obtained in all patients. Silent cerebral infarction (SCI) was defined as the presence of at least one new ischemic lesion on postoperative DW-MRI not present preoperatively. Perioperative neuron-specific enolase (NSE) levels and intraoperative near-infrared spectroscopy (NIRS) measurements were recorded. Factors associated with SCI were explored using univariable and multivariable logistic regression analysis. RESULTS: Postoperative silent cerebral infarction was detected in 19 patients (54.3%), whereas no ischemic lesions were observed on preoperative DW-MRI. In univariable analysis, increasing age (OR 1.06, 95% CI 1.01-1.13; p = 0.021), Cardiopulmonary bypass time (CPB time) (OR 1.01, 95% CI 1.00-1.03; p = 0.024), and aortic cross-clamp time (CC time) (OR 1.04, 95% CI 1.01-1.07; p = 0.006) were associated with SCI. In age-adjusted multivariable models constructed separately for operative time variables, CC time remained independently associated with SCI (OR 1.03, 95% CI 1.01-1.06; p = 0.015), whereas CPB time did not retain statistical significance (OR 1.02, 95% CI 0.99-1.03; p = 0.089). Additional collinearity assessment showed a strong correlation between CPB time and CC time, and sensitivity analyses supported the persistence of the association between CC time and SCI. DHCA time, NIRS parameters, and NSE changes were not significantly associated with SCI. Although postoperative NSE levels increased compared with preoperative values, the change in NSE did not predict the occurrence of SCI. CONCLUSIONS: Silent cerebral infarction was frequently detected on postoperative DW-MRI following proximal thoracic aortic surgery performed under DHCA. Aortic cross-clamp time was associated with SCI development; however, this association should be interpreted cautiously, as it may reflect procedural complexity, cumulative aortic manipulation, and embolic burden rather than the isolated effect of circulatory arrest time. TRIAL REGISTRATION: NCT04755439. Date of trial registration: February 17, 2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402559/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Cardiovasc Disord",
+      "journal_issn": "1471-2261",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A pediatric case of varicella-associated cerebral venous sinus thrombosis with anti-GAD65 autoimmune encephalitis and multisystem complications - a case report.",
+      "summary": "BACKGROUND: Varicella-zoster virus infection is typically self-limited in children but can rarely lead to severe neurological and thrombotic complications. Post-infectious immune dysregulation may contribute to conditions such as cerebral venous sinus thrombosis (CVST) and autoimmune encephalitis. Reports describing the coexistence of these complications, particularly with anti-GAD65 antibodies, are exceedingly rare. CASE PRESENTATION: An 8-year-old boy developed seizures, headache, and right-sided hemiplegia twelve days after varicella infection. Neuroimaging revealed CVST with intracranial hemorrhage and cerebral edema, necessitating anticoagulation and decompressive craniectomy. Laboratory findings showed acquired protein S deficiency, suggesting a transient prothrombotic state. His course was complicated by deep vein thrombosis, cytopenias, and epidural abscess requiring antibiotics and surgical intervention. Despite initial stabilization, he developed progressive decline in consciousness and recurrent seizures. Brain MRI demonstrated multifocal T2 hyperintensities, and cerebrospinal fluid analysis showed lymphocytic pleocytosis. Markedly elevated anti-GAD65 antibodies were detected in both serum and CSF, confirming autoimmune encephalitis after exclusion of alternative etiologies. Treatment with high-dose corticosteroids followed by intravenous immunoglobulin resulted in rapid neurological improvement. The patient was discharged with mild residual deficits and showed near-complete recovery on follow-up. CONCLUSIONS: This case highlights a rare overlap of CVST and anti-GAD65 autoimmune encephalitis following varicella infection, emphasizing the role of infection-triggered immune and coagulation disturbances. Early recognition of evolving neurological symptoms and comprehensive evaluation for autoimmune mechanisms are critical. Prompt immunomodulatory therapy, alongside multidisciplinary management, can significantly improve outcomes in complex post-infectious neurological syndromes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402564/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Pediatr",
+      "journal_issn": "1471-2431",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Vestibular Paroxysmia Presenting With Atypical Positional Nystagmus Resembling Benign Paroxysmal Positional Vertigo.",
+      "summary": "A 69-year-old man presented with recurrent vertigo triggered by positional changes, left aural fullness, and left hemifacial spasm. The supine roll test showed direction-changing apogeotropic horizontal nystagmus lasting < 1 min. Brain MRI demonstrated neurovascular contact between the cranial nerve VII/VIII complex and the anterior inferior cerebellar artery. Carbamazepine 200 mg/day achieved complete symptom resolution within 2 weeks and remission at 6 months. This report describes vestibular paroxysmia presenting with nystagmus resembling that observed in benign paroxysmal positional vertigo and, to our knowledge, represents the first report of direction-changing apogeotropic horizontal nystagmus in this disorder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42403435/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Gen Fam Med",
+      "journal_issn": "2189-7948",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Super-refractory Status Epilepticus in Febrile Infection-Related Epilepsy Syndrome Triggered by Influenza A: A Pediatric Case Report.",
+      "summary": "Febrile infection-related epilepsy syndrome (FIRES) is a rare cause of new-onset refractory status epilepticus following a febrile illness. We report the case of a previously healthy three-year-old boy who developed focal seizures in the context of a confirmed Influenza A infection, rapidly progressing to super-refractory status epilepticus. Initial investigations, including cerebrospinal fluid analysis and neuroimaging, were unremarkable. Despite early multimodal therapy with multiple antiseizure medications, continuous anesthetic infusions, immunomodulatory treatments, and a ketogenic diet, seizure control remained transient. Continuous EEG confirmed persistent super-refractory status epilepticus, while cytokine analysis demonstrated elevated interleukin-6 and interleukin-8 levels. Follow-up MRI showed bilateral claustrum and hippocampal involvement, later progressing to diffuse cerebral atrophy. Despite escalation of therapy, including intrathecal corticosteroids and vagal nerve stimulation, the patient showed no sustained improvement. Care was ultimately redirected toward palliation, and the patient died after 50 days of intensive care. This case highlights the fulminant and refractory nature of FIRES, supports a potential role of cytokine-driven neuroinflammation, and suggests a possible association with a preceding viral infection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42404327/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cureus",
+      "journal_issn": "2168-8184",
+      "published_date": "2026-07-05",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Assessing Progression Independent of Relapse Activity in Multiple Sclerosis Using a Patient-Reported Disability Measure and Self-Administered Neuroperformance Outcomes.",
+      "summary": "OBJECTIVE: The objective of this study was to investigate the ability of patient-reported/administered outcomes to capture disability worsening and progression independent of relapse activity (PIRA) in multiple sclerosis (MS). METHODS: We included patients from the longitudinal multicenter MS PATHS cohort with ≥3 assessments and >6 months follow-up. PIRA was defined on the patient-determined disease steps (PDDS) and self-administered tests assessing walking speed, manual dexterity, and processing speed, in the absence of self-reported relapses. We assessed (i) prevalence of PDDS/self-administered test-based disability worsening and PIRA definitions; (ii) their concurrent validity, through the association with worsening and PIRA definitions based on the expanded disability status scale (EDSS; Barcelona subcohort); and (iii) their clinical meaningfulness, through the correlation with brain magnetic resonance imaging (MRI) and quality-of-life (QoL) data trajectories. RESULTS: We included 9,088 patients (73% female patients; age = 46.8 years; disease duration = 14.2 years). Over a 3-year follow-up, 4,066 (45%) patients worsened on ≥1 patient-reported/administered outcome, of which 2,357 (58%) developed PIRA. In the Barcelona subcohort (N = 279), 68 (24%) patients developed EDSS-based worsening, of which 30 (44%) developed EDSS-based PIRA; 99 of 279 (35%) worsened on ≥1 patient-reported/administered test, of which 78 of 99 (79%) had PIRA. Worsening (but not PIRA) on PDDS was associated with EDSS-based worsening (odds ratio = 3.03 [1.42; 6.43], p = 0.004). PDDS/self-administered-test-based worsening or PIRA strongly correlated with accelerated brain atrophy and T2 lesion volume increase compared to non-worseners (p < 0.05), and showed worse QoL (p < 0.05). INTERPRETATION: Despite only partial agreement with EDSS-based definitions, PDDS/self-administered test-based worsening and PIRA definitions were clinically meaningful, by identifying patients with greater brain damage and poorer QoL, supporting their use in clinical practice. ANN NEUROL 2026.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42405485/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Ann Neurol",
+      "journal_issn": "1531-8249",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Evidence from formal logical reasoning reveals that the language of thought is not natural language.",
+      "summary": "Humans are endowed with a powerful capacity for inductive and deductive logical thought: we easily form generalizations based on a few examples and draw conclusions from known premises. Humans also arguably have the most sophisticated communication system in the animal kingdom: natural language allows us to express complex and structured meanings. Some have therefore argued for a tight relationship between complex thought and language, postulating that reasoning, including logical reasoning, relies on linguistic representations. We systematically investigated the relationship between logical reasoning and language using two complementary approaches. First, we used noninvasive brain imaging (fMRI) to examine neural activity as healthy adults engaged in logical reasoning tasks. And second, we behaviorally evaluated logical abilities in individuals with extensive lesions to the language brain areas and consequent severe linguistic impairment. Our findings reveal that the language brain network is not engaged during logical reasoning, and patients with severe aphasia exhibit intact performance on logic tasks. Instead, inductive reasoning recruits the domain-general multiple demand network implicated broadly in goal-directed behaviors, whereas deductive reasoning draws on brain regions that are distinct from both the language and the multiple demand networks. Together, these results indicate that linguistic representations are neither utilized nor required for inductive or deductive logical reasoning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42406951/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Linking maternal blood pressure with fetal cerebral haemodynamics and cortical growth in congenital heart disease.",
+      "summary": "BACKGROUND: Children with congenital heart disease (CHD) experience neurodevelopmental challenges, arising in part from altered brain maturation beginning in utero. There are currently no prenatal interventions to mitigate this risk. Foetal CHD is associated with alterations in maternal blood pressure (BP), for which therapies are available, so we investigated associations between maternal BP, foetal cerebral haemodynamics, and brain growth in foetuses with and without CHD. METHODS: Our single-centre retrospective cohort study first analysed maternal BP during pregnancy stratified by foetal CHD (n = 494), other foetal anomalies (n = 769), or no foetal anomalies (n = 111). We then performed a prospective study linking maternal BP with foetal brain MRI and cerebral and umbilical Doppler measures in pregnancies with foetal CHD (n = 97 MRI; 121 Doppler) and those with no foetal anomalies (n = 111 MRI; 86 Doppler). FINDINGS: Mothers carrying a foetus with CHD showed a distinct BP profile compared with unaffected controls and non-CHD foetal anomaly pregnancies. In CHD pregnancies, but not in controls, lower maternal diastolic BP was associated with lower cerebrovascular resistance, lower cerebroplacental flow ratio, and an attenuated reduction in foetal cortical surface area in sensorimotor, frontal and temporal cortical regions. INTERPRETATION: Lower maternal diastolic BP may reflect adaptive maternal-foetal circulatory coupling that enhances foetal cerebral perfusion and mitigates cortical growth impairment in CHD. We observe a link between maternal haemodynamics and foetal brain maturation in CHD, warranting further exploration in interventional studies. FUNDING: Supported by the NINDS (R01NS114087, K23NS101120), NIBIB (R01EB031170), NHLBI (K08HL157653), AAN Clinical Research Training Fellowship, BBRF Young Investigator Awards, and the Farb Family Fund.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42407125/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "EBioMedicine",
+      "journal_issn": "2352-3964",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Cerebral Microvascular Injury and Physical Function in Older Patients With Atrial Fibrillation: Evidence for Sex-Specific Patterns.",
+      "summary": "OBJECTIVES: Atrial fibrillation (AF) has been linked to cerebral small vessel disease (CSVD). This study examined the sex-specific differences in CSVD between patients with and without AF and the implications for cognitive and physical performance. DESIGN: Observational cross-sectional cohort study. SETTING AND PARTICIPANTS: One thousand forty-four memory clinic patients (mean age, 79.2 ± 6.4 years, 51% men) from the Amsterdam Aging Cohort. METHODS: Participants underwent standardized geriatric and neuropsychological assessments and magnetic resonance imaging of the brain. CSVD was defined by white matter hyperintensities (WMHs, Fazekas ≥2), ≥1 lacune, and/or ≥3 cerebral microbleeds. Associations between AF, CSVD, cognitive performance, and physical performance were examined using logistic regression. Mediation analyses assessed whether CSVD markers mediated associations between AF and physical or cognitive performance. RESULTS: AF prevalence was 15.4% (n = 161). AF showed a significant association with WMH in men (adjusted odds ratio [aOR], 1.95; 95% CI, 1.20-3.15). Women with AF had higher odds of ≥3 cerebral microbleeds (aOR, 1.94; 95% CI, 1.00-3.76). AF was associated with reduced gait speed (aOR, 1.64; 95% CI, 1.14-2.37) and poor physical performance (Short Physical Performance Battery <10; aOR, 2.42; 95% CI, 1.66-3.53) but not with cognitive performance. WMH partially mediated the association between AF and reduced Short Physical Performance Battery (B = 0.27; P = .03), which was even stronger in men (B = 0.57; P = .012) but not with gait speed. CONCLUSIONS AND IMPLICATIONS: In older memory clinic patients, AF was associated with sex-specific CSVD patterns: greater WMH burden in men and more microbleeds in women. WMH substantially mediated AF-related decline in physical performance, particularly in men, suggesting that CSVD is an important pathway linking AF to physical dysfunction. These findings underscore the need for sex-specific risk stratification and highlight CSVD as a therapeutic target to preserve physical function in patients with AF.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42407388/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Am Med Dir Assoc",
+      "journal_issn": "1538-9375",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Legionnaire's disease with limbic encephalitis.",
+      "summary": "Legionnaires' disease is a severe primary pneumonia and is recognized as a major form of community-acquired pneumonias caused by Gram-negative bacteria, Legionella species which are globally ubiquitous, intracellular and freshwater bacteria. Cigarette smoking, chronic lung disease, alcohol, dialysis, immunosuppression and surgery have been consistently implicated as risk factors. The severity of legionellosis varies, and it can manifest as a potentially fatal form of pneumonia that can also occur in individuals with immune competence. Extra-pulmonary manifestations, including neurological symptoms are frequent, and the complications of transient lesions in the corpus callosum, as demonstrated by magnetic resonance imaging, are well known in Legionnaires' disease. Furthermore, there have been cases in which impaired mental have appeared before the onset of pneumonia. We herein present the case of a 52-year-old man with limbic encephalitis and Legionella pneumonia. The urinary antigen test for Legionella was positive. Legionella species were not detected in cerebrospinal fluid cultures using Wadowsky-Yee-Okuda agar. Furthermore, a sputum culture was negative, and Legionella species were not detected by a sputum molecular test using the Loop-mediated Isothermal Amplification method. Although both his pneumonia and brain magnetic resonance imaging abnormalities resolved, his short-term memory impairment remained. This case illustrates an exceptionally rare combination of Legionnaires' disease and limbic encephalitis, with few comparably detailed reports available.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42409172/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Infect Chemother",
+      "journal_issn": "1437-7780",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Antagonism shapes social maps in the human brain.",
+      "summary": "Human relationships form a complex web of affiliative and antagonistic ties. Yet how the brain represents their affective structures remains unclear. Here, using a television drama depicting intertwined friendships and rivalries, we examined how the brain encodes the valence of interpersonal relationships. Participants underwent fMRI scanning before and after watching the drama while viewing the faces of its central characters. They then rated each character pair for relationship strength and valence, and whole-brain representational similarity analysis (RSA) identified brain regions representing these relational structures. Relationship valence effects were most prominent for antagonistic (negative) relationships in the left anterior supramarginal gyrus and right medial prefrontal cortex. Univariate analyses revealed increased activation in the precuneus after drama viewing, suggesting enhanced retrieval of narrative-related person knowledge, though this region did not show statistically significant representational similarity patterns reflecting interpersonal relationships. These findings indicate that the human brain constructs a multidimensional social map from narrative experience, with antagonistic ties playing important role in shaping social relationship representations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42410040/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Commun Psychol",
+      "journal_issn": "2731-9121",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Tandem repeat polymorphisms are associated with brain structure: results of two large population-based studies.",
+      "summary": "BACKGROUND: Although genome-wide association studies (GWAS) have uncovered many genetic variants linked to brain structure, much of its heritability still remains unexplained. Short tandem repeats (STRs) are rarely considered in GWAS but may account for part of this \"missing heritability\". While the causal association of large pathogenic repeat expansions with a range of brain disorders is well established, the role of non-pathogenic STR variations in the general population is largely unknown. In this study, we systematically assessed the relationship between STR variations and brain imaging-derived phenotypes across the adult lifespan in the general population. METHODS: We used targeted deep sequencing to genotype approximately 3,000 polymorphic STRs across 2,958 individuals (mean age: 54.1 years, range: 30-90 years, 57.1% women) from the population-based Rhineland Study in Bonn, Germany. STR sizes at 2940 loci were estimated using ExpansionHunter v5, while 45 brain imaging-derived phenotypes were obtained from 3T T1-weighted MRI scans using the FreeSurfer processing pipeline. Associations between STR lengths and neuroimaging phenotypes were assessed using multiple linear regression models, adjusting for age, sex, population stratification, and other relevant covariates. Significant findings were independently assessed for directional consistency in the UK Biobank Imaging Substudy (N = 38,879), leveraging available whole-genome sequencing data. RESULTS: The expansion of an intronic AC repeat in PRR14L was associated with larger thalamic volume (standardized β [95% CI] = 0.15 [0.06-0.24]), while AATG repeat polymorphisms in NADK were associated with reduced subcortical gray matter volume (-0.05 [-0.08 to - 0.01]) and thalamic volume (-0.06 [-0.08 to - 0.04]). These associations were directionally consistent in the UK Biobank cohort. Beyond single loci, higher polygenic burden of moderate STR expansions was associated with increased total brain, gray matter, supratentorial, and thalamic volumes (all multiple-testing-corrected p < 0.05). CONCLUSIONS: Our findings indicate that moderate STR expansions are region-specific determinants of brain morphology and suggest that STR variability may have evolved to enhance neuroanatomical plasticity and cognitive function. By leveraging large population-based cohorts, our study extends current understanding of how repetitive genomic elements contribute to inter-individual variation in brain structure beyond the effects of single-nucleotide variation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42410459/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Genome Med",
+      "journal_issn": "1756-994X",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:55+00:00",
+    "version": 1,
+    "summary": "Captured 17 research items. Preference focus is brain-imaging analysis and disease mechanisms: 13 high-priority, 4 medium-priority, 0 low-priority. Mechanism-related items: 8; analysis-method items: 17.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 17,
+      "high_priority": 13,
+      "medium_priority": 4,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 8
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 17
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Silent cerebral infarction after proximal thoracic aortic surgery under deep hypothermic circulatory arrest: an exploratory prospective DW-MRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402559/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Evidence from formal logical reasoning reveals that the language of thought is not natural language.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42406951/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neonatal brain-age models in full- and preterm infants.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400972/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Temporal Pole Lesion in Neuronal Intranuclear Inclusion Disease: A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402399/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diagnostic and sex effects on frontostriatal brain wiring structural organization in early psychosis affective subjects compared to healthy controls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42401715/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Linking maternal blood pressure with fetal cerebral haemodynamics and cortical growth in congenital heart disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42407125/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Accelerated Deep-Learning-Based Image Reconstruction for 3D T2 Dark-Fluid in Imaging of Multiple Sclerosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400420/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A pediatric case of varicella-associated cerebral venous sinus thrombosis with anti-GAD65 autoimmune encephalitis and multisystem complications - a case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42402564/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Antagonism shapes social maps in the human brain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42410040/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Super-refractory Status Epilepticus in Febrile Infection-Related Epilepsy Syndrome Triggered by Influenza A: A Pediatric Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42404327/",
+        "published_date": "2026-07-05",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Legionnaire's disease with limbic encephalitis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42409172/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebral Microvascular Injury and Physical Function in Older Patients With Atrial Fibrillation: Evidence for Sex-Specific Patterns.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42407388/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Assessing Progression Independent of Relapse Activity in Multiple Sclerosis Using a Patient-Reported Disability Measure and Self-Administered Neuroperformance Outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42405485/",
+        "published_date": "2026-07-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Tumor location and morphological MRI features in relation to combined 1p/22q deletion in meningioma.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400710/",
+        "published_date": "2026-07-04",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Tandem repeat polymorphisms are associated with brain structure: results of two large population-based studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42410459/",
+        "published_date": "2026-07-06",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Vestibular Paroxysmia Presenting With Atypical Positional Nystagmus Resembling Benign Paroxysmal Positional Vertigo.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42403435/",
+        "published_date": "2026-07-04",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Blood-brain barrier permeability in diffuse large B-Cell lymphoma: associations with established risk factors for CNS relapse.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400917/",
+        "published_date": "2026-07-04",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

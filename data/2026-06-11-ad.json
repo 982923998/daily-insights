@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-11",
+  "articles": [
+    {
+      "title": "A rare homozygous mutation in TYROBP resulting in early-onset dementia with bone cysts.",
+      "summary": "Nasu-Hakola disease (NHD) is a rare autosomal recessive disorder characterized by progressive dementia and multiple bone cysts. The known pathogenic genes include TYRO protein tyrosine kinase binding protein (TYROBP) on chromosome 19q13.1 and triggering receptor expressed on myeloid cells 2 (TREM2) on chromosome 6p21.1. Until now, no case related to TYROBP gene mutation has been reported in the Chinese population. We report a 39-year-old Chinese Han patient who presented with early-onset dementia and cystic bone lesions. Brain magnetic resonance imaging showed extensive cerebral atrophy with ventricular enlargement and diffuse, symmetric white matter lesions. Whole-exome sequencing identified a nonsense mutation, c.214C > T (p.Arg72Ter), in the TYROBP gene. Minigene experiments suggested that this variant may partially affect TYROBP splicing, providing supplementary transcript-level evidence for NHD. This is the first genetically confirmed case of NHD associated with a homozygous TYROBP c.214C > T (p.Arg72Ter) variant in the Chinese population. Our findings expand the mutation spectrum of NHD and provide new reference evidence for its molecular diagnosis and genetic counseling.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42261647/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurocase",
+      "journal_issn": "1465-3656",
+      "published_date": "2026-06-09",
+      "date": "2026-06-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+      "summary": "BACKGROUND: Dementia with Lewy bodies shares clinical and pathological features with both Parkinson's disease and Alzheimer's disease, but the local biological factors that render specific cortical regions vulnerable to atrophy remain poorly defined. In particular, it is unclear whether cortical thinning in dementia with Lewy bodies reflects generic neurodegenerative mechanisms, processes shared with Parkinson's disease and Alzheimer's disease, or dementia with Lewy bodies-specific molecular and network susceptibilities. METHODS: A total of 89 patients with dementia with Lewy bodies and 89 matched controls underwent T1-weighted brain MRI. Scans were processed to generate surface-based cortical thickness maps. Regional cortical thickness estimates, after slice-by-slice manual correction, were mapped to gene expression data from healthy postmortem human brains to identify transcriptomic signatures associated with decreased thickness in dementia with Lewy bodies. We assessed whether genes whose expression was increased with regional thinning converged onto established Parkinson's disease- and Alzheimer's disease-related pathways and identified genes uniquely implicated in dementia with Lewy bodies. Spatial annotation mapping was then used to test whether patterns of cortical thinning overlapped with in vivo neurotransmitter system distributions and whether the observed thickness pattern was constrained by large-scale structural connectivity, consistent with a network-based propagation process. RESULTS: Cortical thinning predominated in regions that, in the healthy brain, show higher expression of genes involved in mitochondrial function and synaptic transmission. The transcriptomic profile associated with thinning significantly overlapped with genes belonging to Parkinson's disease and Alzheimer's disease pathways, supporting shared pathogenic mechanisms across Lewy body- and Alzheimer-type neurodegeneration. However, 90 genes associated with cortical thinning did not overlap with Parkinson's disease or Alzheimer's disease pathways and were enriched for GABAergic signalling. Spatial mapping analyses showed that regions with greatest thickness reductions colocalized with GABAA, serotoninergic 5-HT1A, 5-HT1B, 5-HT4, and dopaminergic D2 receptor distributions, and that the thickness pattern followed structural connectivity. CONCLUSIONS: MRI-derived cortical thickness changes in dementia with Lewy bodies reflect selective molecular and network vulnerabilities rather than a non-specific degenerative process. Mitochondrial and synaptic genes, together with a distinct GABAergic association and connectivity constraints, delineate mechanisms explaining why some cortical territories are more affected in dementia with Lewy bodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Biomed Sci",
+      "journal_issn": "1423-0127",
+      "published_date": "2026-06-10",
+      "date": "2026-06-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "The 25-Year Evolution of Lithium as a Disease-Modifying Agent in Dementia: A Narrative Review.",
+      "summary": "IMPORTANCE: Lithium, a long-established cornerstone therapy for bipolar disorder, is a biologically plausible disease-modifying agent for neurodegenerative disorders, including mild cognitive impairment (MCI) and Alzheimer disease (AD). OBSERVATIONS: Rather than targeting a single pathology like amyloid or tau, lithium acts across multiple cellular resilience pathways. Chronic lithium exposure induces the anti-apoptotic protein B-cell lymphoma 2 (Bcl-2), enhances brain-derived neurotrophic factor (BDNF) signaling, inhibits glycogen synthase kinase-3β (GSK-3β), stabilizes mitochondrial function, and reduces oxidative stress. These convergent mechanisms promote neuronal survival and synaptic integrity. In humans, proton magnetic resonance spectroscopy studies found that lithium increased N-acetylaspartate levels, consistent with improved neuronal viability, and structural magnetic resonance imaging (MRI) studies found that lithium preserved gray matter and/or reversed illness-related atrophy in hippocampal and corticolimbic regions. In addition, extensive evidence demonstrates that low-dose lithium (approximately 0.3mM)-significantly lower than traditional psychiatric doses (0.6-1.0mM)-exerts robust neurotrophic and neuroprotective effects. Preclinical models have found that these concentrations stimulate hippocampal neurogenesis, promote structural plasticity, and protect against proteotoxic injury. Furthermore, epidemiological studies have associated cumulative lithium exposure with reduced dementia risk, and early randomized clinical trials in MCI suggest cognitive stabilization and favorable tau biomarker changes at low, well-tolerated doses. The recent repletion hypothesis suggests that lithium may also function as a physiological trace element, but these findings await independent replication. CONCLUSIONS AND RELEVANCE: These convergent data support a prospective clinical trial of low-dose lithium orotate to slow disease progression in MCI. Such an approach would prioritize established neuroprotective mechanisms while potentially mitigating the kidney and thyroid risks associated with higher-dose carbonate formulations. If low-dose lithium can indeed meaningfully alter disease trajectory, it would represent a much-needed, accessible, and inexpensive treatment that may be especially relevant in low- and middle-income countries.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42268602/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "JAMA Psychiatry",
+      "journal_issn": "2168-6238",
+      "published_date": "2026-06-10",
+      "date": "2026-06-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Bidirectional causal relationships between plasma proteins, neuroimaging metrics and risk of Alzheimer's disease.",
+      "summary": "BACKGROUND: Changes in neuroimaging metrics are among the first detectable pathophysiological alterations in Alzheimer's disease (AD). Proteins are closely linked to fluctuations in neuroimaging metrics. Therefore, the analysis of the proteomic signature associated with neuroimaging metrics holds significant promise for uncovering therapeutic targets that contribute to AD. METHODS: GWAS data concerning the Brain Imaging Data Structure (BIDs). The AD cohort comprised a total of 401,661 individuals diagnosed with AD, alongside 10,520 control participants. For a bidirectional MR analysis involving neuroimaging metrics, proteomics, and AD, the methods utilized included inverse variance weighted (IVW), MR Egger, weighted median, weighted mode, and the Wald ratio approaches. RESULTS: We identified 12 neuroimaging metrics that demonstrate significant relevance to AD (thickness of the left total hemisphere, volume of the right thalamus, and et al.). These metrics are structural magnetic resonance imaging (MRI) biomarkers that remain stable throughout the entire course of AD, from the preclinical stage through mild cognitive impairment (MCI) to dementia. Additionally, we found a substantial number of 1633 proteins that also show a noteworthy causal relationship with AD. Functional enrichment analysis indicated that these proteins were predominantly focused within various pathways linked to AD, encompassing those involved in the synaptic vesicle cycle, synaptic membranes, neurotransmitter release, and the activity of GABA receptors. In addition, our research indicates that the significant relationships observed between the identified proteins and AD are influenced by neuroimaging metrics. Notably, we found that these neuroimaging metrics play a crucial role in mediating a substantial 67% of the inverse relationship that exists between PTPRC and the phenotypic characteristics associated with AD. CONCLUSIONS: This study successfully establishes a connection between proteomic and neuroimaging metrics, as well as the AD that influence them. By creating this relationship, the research offers important information that aids in comprehending the intricate mechanisms involved in AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42269324/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Prev Alzheimers Dis",
+      "journal_issn": "2426-0266",
+      "published_date": "2026-06-10",
+      "date": "2026-06-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Cerebellar aging is spatially heterogeneous and supports cognitive resilience in later life.",
+      "summary": "The cerebellum contains most of the brain's neurons and supports many functions, yet how it changes with age remains unclear. Here we used three brain imaging studies spanning 47,000 adults and examined how different parts of the cerebellum age and their relation to cognition. We characterized cerebellar aging using volumetry and the T1-weighted/T2-weighted ratio, and corroborated these findings with quantitative magnetic resonance imaging in an independent sample. We show a spatially heterogeneous pattern of aging in which specific association and motor-related regions show steeper relationships with age than other lobules. Greater cerebellar volume was associated with higher cognitive scores with increasing age, suggesting that cerebellar structure may provide brain reserve that helps maintain function despite aging. In patients with Alzheimer's disease, cerebellar volume was linked to cognition in individuals with lower amyloid burden, especially in those carrying two copies of the APOE-ε4 risk gene. This supports a threshold-reserve model, in which the cerebellum helps sustain cognition until pathology becomes widespread. These results show that the cerebellum has an active role in healthy cognitive aging and resilience.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42271047/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "journal_issn": "1546-1726",
+      "published_date": "2026-06-10",
+      "date": "2026-06-11",
+      "impact_factor": 20.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NATURE NEUROSCIENCE"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:40+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "The 25-Year Evolution of Lithium as a Disease-Modifying Agent in Dementia: A Narrative Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42268602/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Selective molecular and network architecture features underlie brain cortical atrophy in dementia with Lewy bodies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42265698/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Bidirectional causal relationships between plasma proteins, neuroimaging metrics and risk of Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42269324/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebellar aging is spatially heterogeneous and supports cognitive resilience in later life.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42271047/",
+        "published_date": "2026-06-10",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      },
+      {
+        "title": "A rare homozygous mutation in TYROBP resulting in early-onset dementia with bone cysts.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42261647/",
+        "published_date": "2026-06-09",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "title": "Cerebral Activation During Moral Decisions and Salience Network Coherence in Ideation of Suicide.",
+      "summary": "PURPOSE: To look for structural and/or functional deviations of the salience network in depressive patients that might help to identify individuals with ideation of suicide. MATERIAL AND METHODS: In 2 matched groups of patients with major depression and with and without ideation of suicide and in a healthy control group, structural and functional magnetic resonance imaging was performed during resting state and activation by a moral decision paradigm. Data were evaluated using voxel based morphometry, statistical parametric mapping, independent component analysis and network-based statistics (NBS) and related to the Clinical Analysis Questionnaire score of suicidality. RESULTS: Functional connectivity was reduced significantly (p<0.05, NBS corrected) within the salient network during resting state in patients with suicide ideation. Application of a moral paradigm activated nearly identical areas, and both anterior parts of the insulae correlated negatively to the score of suicidality. CONCLUSION: Because the cerebral areas activated during a moral decision paradigm are nearly identical to the salience network seen in our study and because selected areas within this network, mainly the anterior parts of the insula, correlate negatively to suicidality, a special training using moral tasks or possibly also religious reinforcement might help to reduce suicidality in depressive patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42331430/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Rev Colomb Psiquiatr (Engl Ed)",
+      "journal_issn": "2530-3120",
+      "published_date": "2026-06-23",
+      "date": "2026-06-23",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Transdiagnostic mapping of brain structural abnormalities and network-constrained gray matter atrophy patterns across affective and psychotic disorders.",
+      "summary": "Major depressive disorder (MDD), bipolar disorder (BD), and schizophrenia (SZ) are severe psychiatric disorders with distinct and overlapping clinical and neurobiological features. Despite extensive evidence of brain structural abnormalities, the transdiagnostic neuropathological mechanisms remain poorly understood. A comprehensive literature search was performed for voxel-based morphometry (VBM) studies reporting altered gray matter volume (GMV) in MDD, BD or SZ. A transdiagnostic meta-analysis was conducted to identify common and disorder-specific GMV alterations using the Seed-based d Mapping toolbox. Disease epicenter and buffering mapping were further investigated using a normative functional connectome to understand the network-constrained GM atrophy patterns. A total of 221 studies (MDD: n = 66; BD: n = 59; SZ: n = 96) encompassing 10,485 patients and 12,128 healthy controls were included. Transdiagnostic GMV reductions were identified in the medial prefrontal cortex and superior temporal gyrus. Less atrophy in the limbic/paralimbic regions and temporoparietal junction were observed for MDD, whereas SZ patients exhibited more pronounced GMV reductions in these areas. The ventrolateral prefrontal cortex emerged as a shared disease epicenter and the precuneus as a common buffer across these affective and psychotic disorders. The visual and dorsal attention networks exhibited the most pronounced buffering effects, while epicenter effects were primarily concentrated within the limbic, frontoparietal, subcortical and default mode networks. These findings suggested that affective and psychotic disorders are characterized by both shared and unique network-constrained GM atrophy patterns, which might advance precision diagnostics and inform targeted therapeutic strategies in the future.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42332027/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-22",
+      "date": "2026-06-23",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "When attention falters: Brain, breathing, and behavioral signals of lapses in interoceptive attention.",
+      "summary": "Mind‑body practices, such as meditation and yoga, involve paying attention to breathing sensations. During these practices, individuals report \"interoceptive lapses,\" moments when attention drifts away from internal bodily sensations. While lapses in attention to the external world have been widely studied, little is known about the physiological and neural mechanisms of interoceptive lapses. Interoceptive lapses may share markers with exteroceptive lapses-such as reaction time variability and default-mode network (DMN) connectivity-but may also depend on distinct brain systems and breathing physiology. We examined behavioral, physiological, and neural signals preceding lapses in a sample of 93 adolescents enriched for GAD and depression symptoms. Participants performed a 20-min breath counting task in the fMRI scanner with simultaneous breath recordings. Lapses were defined as moments when counting errors occurred. The sample was split into training and validation sets to test machine learning models predicting attentional lapses. The strongest predictors were timing and variability of button responses (AUCs > 0.75). Breathing variability and breathing-behavior synchronization showed smaller but generalizable predictive value (AUCs < 0.65). Whole-brain connectivity models also predicted lapses (AUC ≈ 0.65), incorporating the DMN, dorsal and ventral attention, and somatomotor networks. Furthermore, models that included brain connectivity marginally outperformed behavior-only models. Comparisons to previous exteroceptive findings indicate some common markers (e.g., reaction time variability) and some unique markers (e.g., selective perceptual coupling with attentional networks). Although limited by the clinical sample and lack of a control task, these results highlight brain-body markers of interoceptive attention that may inform real-time monitoring during mind-body interventions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42332286/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Cogn Affect Behav Neurosci",
+      "journal_issn": "1531-135X",
+      "published_date": "2026-06-23",
+      "date": "2026-06-23",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:48+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "When attention falters: Brain, breathing, and behavioral signals of lapses in interoceptive attention.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42332286/",
+        "published_date": "2026-06-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Transdiagnostic mapping of brain structural abnormalities and network-constrained gray matter atrophy patterns across affective and psychotic disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42332027/",
+        "published_date": "2026-06-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebral Activation During Moral Decisions and Salience Network Coherence in Ideation of Suicide.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42331430/",
+        "published_date": "2026-06-23",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

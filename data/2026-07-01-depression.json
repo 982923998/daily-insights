@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-01",
+  "articles": [
+    {
+      "title": "Assessment of diverse deep brain stimulation targets uncovers a common neural pathway for instantaneous antidepressant effects in rats.",
+      "summary": "Deep brain stimulation (DBS) is a promising therapeutic modality for managing treatment-resistant depression. Most DBS research has focused on single brain regions resulting in unclear optimal stimulation targets and vague mechanisms. Here, we introduce an experimental paradigm in which multiple graphene fiber stimulating electrodes were implanted in various brain regions of the same depressive animal for behavioral testing and DBS-functional MRI studies. We observed an instantaneous alleviation of depressive-like symptoms with a high response rate in Wistar-Kyoto rats following DBS at the medial forebrain bundle (MFB), lateral habenula (LHb), ventral tegmental area (VTA), and dorsal raphe nucleus (DRN), with a highly similar blood-oxygenation-level-dependent (BOLD) activation pattern, engaging the cortical areas, limbic, serotonin, and dopamine system where the BOLD activation levels in the medial prefrontal cortex (mPFC) and cingulate cortex showed strongest correlation with the degree of depression alleviation. No antidepressant effects were observed in DBS at the mPFC or nucleus accumbens. Lesion of VTA dopaminergic neurons resulted in a decrease in the extent of depression alleviation and BOLD activation levels. These results indicate that DBS targeting the MFB, LHb, VTA, and DRN might represent a rapid-acting antidepressant therapy by activating a highly overlapping dopamine-related neural network.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42372150/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-06-29",
+      "date": "2026-07-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:53+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Assessment of diverse deep brain stimulation targets uncovers a common neural pathway for instantaneous antidepressant effects in rats.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42372150/",
+        "published_date": "2026-06-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

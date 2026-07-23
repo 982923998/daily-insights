@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-22",
+  "articles": [
+    {
+      "title": "Dopamine-related alterations in functional brain network dynamic reconfiguration in Parkinson's disease.",
+      "summary": "Dopaminergic degeneration in Parkinson's disease disrupts large-scale brain networks, yet how dopamine loss and its treatment shape the brain's dynamic reconfiguration over time remains unknown. We combined resting-state fMRI with dopamine transporter scan in 136 drug-naive patients and 20 healthy controls from the PPMI cohort to determine how dopamine transporter availability relates to dynamic network reconfiguration, indexed by how brain regions switch communities over time. Patients showed reduced modular reconfiguration in the default-mode network. Dopamine transporter availability was differentially associated with reconfiguration, showing negative associations in visual and positive associations in limbic networks. Cognitive performance correlated with attention network reconfiguration, whereas motor impairment tracked dopamine loss. Longitudinal analyses in a subset with one year follow-up (n = 29) showed that network reconfiguration increased with dopaminergic decline, and medication modulated these dynamics toward the pattern seen in healthy controls. Our findings demonstrate that network reconfiguration captures dopamine-sensitive and cognition-relevant alterations in early Parkinson's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42481479/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-07-21",
+      "date": "2026-07-22",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:06+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Dopamine-related alterations in functional brain network dynamic reconfiguration in Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42481479/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

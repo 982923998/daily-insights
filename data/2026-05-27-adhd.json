@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-27",
+  "articles": [
+    {
+      "title": "Classification of familial and non-familial ADHD using auto-encoding network and binary hypothesis testing.",
+      "summary": "Family heritage is one of the most powerful risk factors for attention-deficit/hyperactivity disorder (ADHD). Children with familial ADHD (ADHD-F) and non-familial ADHD (ADHD-NF) have both shared and distinct behavioral characteristics and clinical outcomes, with their neuropathological underpinnings under-investigated. In this study, we utilized an autoencoder-based deep learning architecture within the binary hypothesis framework to identify the most important structural- and diffusion-MRI-based neural signatures that robustly discriminate 129 children with ADHD-F, 159 AHDH-NF, and 150 matched controls. Nested leave-one-out and five-fold methods were used for double cross-validations of the results. Classification accuracy, sensitivity, specificity, and area under the curve (AUC) were applied to evaluate the model performance. The model achieved accuracies of 65.4 ± 3.2, 67.0 ± 2.2, and 62.0 ± 4.9, with corresponding AUCs of 65.6 ± 4.8, 67.6 ± 5.2, and 65.8 ± 5.2, for ADHD-F vs. controls, ADHD-NF vs. controls, and ADHD-F vs. ADHD-NF, respectively. The most informative features for successful ADHD-F vs. control discrimination were mean diffusivity (MD) of right fornix, MD of left parahippocampal cingulum, and cortical thickness of right inferior parietal cortex. The key contributors for successful ADHD-NF vs. control discrimination were fractional anisotropy (FA) of left inferior fronto-occipital fasciculus, MD of right fornix, and cortical thickness of right medial orbitofrontal cortex. The highlighted features for successful ADHD-F vs. ADHD-NF discrimination were volume of left cingulate cingulum tract, volume of right parietal segment of the superior longitudinal fasciculus, and cortical thickness of right fusiform cortex. Our binary hypothesis semi-supervised deep learning framework robustly discriminated familial vs. non-familial ADHD and provided validated neural features that have potential to serve as distinct treatment targets of ADHD-F vs. ADHD-NF.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42190896/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-05-25",
+      "date": "2026-05-27",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:31+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Classification of familial and non-familial ADHD using auto-encoding network and binary hypothesis testing.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42190896/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

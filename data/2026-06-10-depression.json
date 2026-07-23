@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-10",
+  "articles": [
+    {
+      "title": "HMT + mediated visual motion perception deficits in treatment-resistant depression: a neuroimaging, genomic and neurochemical perspective.",
+      "summary": "BACKGROUND: Visual motion perception (VMP) deficit in depression is mediated by the human middle temporal complex (hMT+). However, the reorganization of neuroactivity-perception in treatment-resistant depression (TRD) and the underlying molecular basis remain unclear. Therefore, this study aimed to investigate VMP-related pathophysiological mechanism in TRD. METHOD: Cohort 1 consisted of 72 TRD, 157 non-treatment-resistant depression (nTRD) and 85 healthy controls (HCs), while the cohort 2 was involved in 30 TRD, 30 nTRD and 30 HCs. Amplitude of low-frequency fluctuations (ALFF) and functional connectivity (FC) with left hMT+ as seed was calculated for all participants. Using psychophysical task to test VMP in the cohort 2 and comparing the differences among groups in the fMRI measures. Their associations with genetic and neurotransmitter profiles were analysed by receptor/transporter density map and Allen Human Brain Atlas (AHBA). RESULTS: In the cohort 1, the left hMT+ of TRD exhibited decreased ALFF and its FC between the left inferior parietal lobule, right inferior temporal gyrus and middle frontal gyrus, but increased FC in the right fusiform gyrus. The ALFF of the left hMT+ were negatively correlated with cognitive impairment. Cohort 2 replicated and extended partial results from the cohort 1, underscoring the VMP-related ALFF abnormality of the left hMT+ in the TRD group. Moreover, the alterations of ALFF in left hMT+ was correlated with 10 neurotransmitters and expression map of specific genes which were enriched in synaptic structure and function. CONCLUSION: Deficits in VMP and cognitive processing of TRD are associated with hypoactivity in hMT+, accompanied by altered inter-regional connectivity. These alterations are linked to molecular and genetic factors, including the 5-HT1b receptor and PDCL3, implicating synaptic dysfunction as a potential pathophysiological basis. HMT+ is a promising neuroimaging biomarker for TRD and a novel therapeutic target for ameliorating the sensory and cognitive impairments.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42264368/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J Adv Res",
+      "journal_issn": "2090-1224",
+      "published_date": "2026-06-08",
+      "date": "2026-06-10",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Functional reorganisation of lingual gyrus mediates cognitive impairment in COPD: a multimodal neuroimaging study.",
+      "summary": "BACKGROUND: COPD is a systemic disorder associated with cognitive impairment and affective dysfunction. However, the underlying neurobiological mechanisms remain unclear. This study examines brain reorganisation in patients with COPD and investigates potential neural mediators of cognitive and affective deficits. METHODS: We enrolled 51 COPD patients and 50 age- and sex-matched healthy controls. All participants underwent high-resolution structural magnetic resonance imaging (MRI) and resting-state functional MRI. Comprehensive neuropsychological assessments for cognitive function (Montreal Cognitive Assessment (MoCA)) and affective symptoms (Beck Depression Inventory (BDI) and State-Trait Anxiety Inventory (STAI)) were conducted. Voxel-wise analyses compared grey matter volume, fractional amplitude of low-frequency fluctuations (fALFF) and functional connectivity strength between groups. Mediation analysis was performed to explore causal pathways linking COPD, brain alterations and cognitive-affective dysfunction. RESULTS: COPD patients exhibited significant cognitive deficits (lower MoCA scores) compared with healthy controls, and greater affective symptom burden (higher BDI and STAI scores). Neuroimaging revealed no grey matter volume differences, but distinct functional abnormalities: increased fALFF in bilateral lingual gyri and decreased fALFF in the right inferior orbitofrontal and left middle occipital regions, alongside enhanced long-range functional connectivity strength in the right frontal and fusiform areas (cluster-level p<0.05, family-wise error-corrected). Functional connectivity between bilateral lingual gyri was strengthened in those with COPD and correlated with anxiety symptoms. Critically, mediation analysis demonstrated that increased fALFF in the left lingual gyrus and enhanced interhemispheric connectivity in the lingual region mediated COPD-related cognitive decline, suggesting compensatory mechanisms. CONCLUSIONS: COPD is associated with functional brain reorganisation, particularly in cognitive and emotional regions, without overt structural changes. The lingual gyrus emerges as a key compensatory hub, where heightened activity and connectivity may mediate cognitive impairment. These findings illuminate neuroprotective pathways in COPD and propose the lingual gyrus as a potential target for interventions aimed at preserving cognitive function.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267372/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "ERJ Open Res",
+      "journal_issn": "2312-0541",
+      "published_date": "2026-06-08",
+      "date": "2026-06-10",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:39+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Functional reorganisation of lingual gyrus mediates cognitive impairment in COPD: a multimodal neuroimaging study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42267372/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "HMT + mediated visual motion perception deficits in treatment-resistant depression: a neuroimaging, genomic and neurochemical perspective.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42264368/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

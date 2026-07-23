@@ -1,0 +1,162 @@
+{
+  "date": "2026-06-14",
+  "articles": [
+    {
+      "title": "Amyloid-Related Imaging Abnormalities in Anti-amyloid Therapy: Clinical Implications of Kinetics for Safer Use and Risk Stratification.",
+      "summary": "Anti-amyloid monoclonal antibodies have emerged as disease-modifying therapies for Alzheimer's disease. However, their broader clinical adoption is limited by amyloid-related imaging abnormalities, a key safety concern. Traditionally viewed as an unavoidable and dose-dependent adverse effect, amyloid-related imaging abnormalities often lead to treatment interruption or the exclusion of high-risk patients from therapy. Emerging evidence now suggests that amyloid-related imaging abnormalities may instead reflect a transient modifiable cerebrovascular response, primarily influenced by the kinetics of amyloid clearance rather than the absolute magnitude of amyloid removal. Recent data from titration-based dosing strategies demonstrate that gradual amyloid mobilization can significantly reduce the incidence of amyloid-related imaging abnormalities without compromising amyloid positron emission tomography responses or downstream biomarkers. This kinetic perspective may support a more nuanced re-evaluation of patient groups previously deemed unsuitable for therapy, including APOE ε4 carriers, individuals with cerebral microbleeds, and patients on antithrombotic treatment. In this Current Opinion, we propose a pragmatic clinical framework that integrates amyloid clearance kinetics, magnetic resonance imaging-based risk stratification, and individualized protocols for treatment interruption and re-challenge. By reframing amyloid-related imaging abnormalities as a modifiable clinical decision-making challenge rather than an inherent toxicity, anti-amyloid therapies may be optimized for safer use; however, whether such approaches can enable broader and more inclusive treatment strategies remains to be established in prospective studies, particularly in high-risk populations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42283996/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Clin Drug Investig",
+      "journal_issn": "1179-1918",
+      "published_date": "2026-06-12",
+      "date": "2026-06-14",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Relationships between glucose variability with white matter hyperintensity and cerebrovascular abnormalities.",
+      "summary": "OBJECTIVE: Epidemiological studies have revealed that glucose variability (GV) is a predictor of stroke, cognitive impairment, and dementia in patients with type 2 diabetes mellitus (T2DM). However, evidence on the associations of GV with white matter hyperintensity (WMH) and cerebrovascular abnormalities remains scarce. This study aimed to explore the relationships of GV with WMH and cerebrovascular abnormalities using epidemiological and Mendelian randomization (MR) approaches. The MR approach was used to assess the effects of genetic proxies for GV on MRI outcomes. SUBJECTS AND METHODS: This cross-sectional study was conducted at a medical center where patients with T2DM were recruited. The measures for fasting plasma glucose (FPG) and HbA1c variability included the standard deviation, coefficient of variation, average real variability (ARV), and variability independent of the mean (VIM). Brain magnetic resonance images were analyzed to assess WMHs and cerebrovascular abnormalities. For MR, instrumental variables were used to assess the causal relationships between glycemic variability and outcome based on two-stage regression analysis. RESULTS: This study included 2,247 subjects, of whom 1,122 had WMH and 957 had cerebrovascular abnormalities. We found 80 independent single-nucleotide polymorphisms associated with GV but not with WMH or cerebrovascular abnormalities, which were subsequently used as genetic instruments. Genetically increased, unweighted FPG-VIM was linked with WMH (odds ratio 1.17 [95% CI 1.08, 1.27] per standard deviation). All genetically increased, unweighted and weighted GV measures were associated with cerebrovascular abnormalities, except FPG-ARV. CONCLUSION: Our study provided evidence that genetically predicted GV was associated with WMH and cerebrovascular abnormalities, supporting a potential causal link under MR assumptions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42284519/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Arch Endocrinol Metab",
+      "journal_issn": "2359-4292",
+      "published_date": "2026-06-12",
+      "date": "2026-06-14",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Race and Ethnicity, Hypertension, and Neuroimaging Markers of Brain Aging: A Causal Mediation Analysis in the HABS-HD Study.",
+      "summary": "BACKGROUND AND OBJECTIVES: The mechanisms underlying racial/ethnic differences in dementia incidence and pathology are multifactorial, and hypertension represents an actionable target for reducing these differences. We aimed to estimate the extent to which controlling for hypertension mediates racial/ethnic inequities in neuroimaging markers of brain aging. METHODS: The Health and Aging Brain Study-Health Disparities cohort is a highly phenotyped, racially and ethnically diverse cohort of cognitive aging. We used marginal structural models with inverse probability weights to estimate total and controlled direct effects of race/ethnicity, hypertension, and systolic blood pressure (SBP) at baseline, with neuroimaging markers measured on average 2 years later. Neuroimaging markers of brain aging were measured at the 2-year follow-up. RESULTS: Among Black and Hispanic participants with any neuroimaging data at the second visit (overall N = 1,347), 68% and 71% were women, 75% and 67% had hypertension, and the mean age was 61 and 63 years, respectively. Black and Hispanic participants had greater white matter hyperintensity volume (WMHV) compared with non-Hispanic White (NHW) participants (n = 1,333, β [95% CI]: Black 2.08 [1.68-2.59], Hispanic 0.99 [0.91-1.08]). After analytically setting hypertension status to absent, Black-NHW inequities in WMHV were attenuated (β [95% CI]: 1.3 [1.01-1.65]). Black participants had lower amyloid deposition compared with NHW participants (n = 679, β [95% CI]: -0.29 [-0.46 to -0.12]), but analytically controlling for hypertension did not appreciably change estimates. Compared with NHW participants, Hispanic participants had lower Alzheimer disease meta-region of interest cortical thickness (n = 1,005, β [95% CI]: -0.20 [-0.34 to -0.07]), but neither hypertension nor SBP significantly mediated this difference. Medial temporal lobe tau-PET standardized uptake value ratio did not significantly differ in Black or Hispanic participants compared with NHW participants (n = 408). DISCUSSION: Black-NHW inequities in subclinical cerebral small vessel disease may be mitigated by population-level efforts to reduce hypertension prevalence. Future studies should extend this work to examine clinical outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42284535/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-06-12",
+      "date": "2026-06-14",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Focused ultrasound-mediated nanocarrier delivery across the blood-brain barrier for neurodegenerative diseases.",
+      "summary": "The development of effective therapies for neurodegenerative disorders such as Alzheimer's disease, Parkinson's disease, Huntington's disease, and amyotrophic lateral sclerosis remains a major challenge due to the restrictive nature of the blood-brain barrier (BBB). Conventional systemic drug delivery strategies often fail to achieve sufficient central nervous system (CNS) penetration while avoiding peripheral toxicity. Focused ultrasound (FUS), particularly when combined with microbubbles or nanocarriers, has emerged as a non-invasive approach to transiently and precisely open the BBB, enabling targeted delivery of therapeutics to the brain parenchyma. This review provides a comprehensive overview of the mechanisms by which FUS enhances CNS drug delivery, with a dedicated focus on its integration with nanoparticle-based systems, including liposomes, polymeric nanoparticles, dendrimers, metallic nanoparticles, and exosomes. We discuss how these nanocarriers can be engineered for improved stability, targeting specificity, and stimulus-responsive release upon FUS exposure. Recent advances in ultrasound technology, image guidance (particularly MRI), and therapeutic formulations are summarized, along with preclinical and clinical evidence across key neurodegenerative conditions. Despite promising results, several challenges remain, including long-term BBB stability, regulatory standardization, and scalability for broad clinical application. By integrating principles from acoustics, pharmacology, and nanotechnology, FUS-mediated drug delivery, especially in combination with smart nano systems, represents a significant advancement in precision neurotherapeutics, offering new hope for previously untreatable CNS diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287757/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Biomed Pharmacother",
+      "journal_issn": "1950-6007",
+      "published_date": "2026-06-13",
+      "date": "2026-06-14",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Molecular contextualization of the neural correlates of episodic memory.",
+      "summary": "BACKGROUND: Considerable neuroimaging effort has been dedicated to investigate the neural correlates of episodic memory, but the micro-scale molecular mechanisms that underlie the macro-scale neuroimaging correlates of episodic memory are still unclear. METHODS: Resting-state functional MRI data were obtained from a large cohort of 510 healthy young adults to calculate regional homogeneity (ReHo) to reflect spontaneous intrinsic brain activity. We then explored the relationship between California Verbal Learning Test-Ⅱ performance and ReHo across participants to delineate the neural substrates of episodic memory. Finally, we conducted the spatial relationship analyses between the neural correlates with gene expression and neurotransmitter atlases to further explore their potential genetic architecture and neurochemical underpinnings. RESULTS: Our analysis revealed a significant negative correlation between episodic memory and ReHo in the bilateral precuneus. Additional spatial correlation analyses revealed that the identified neural correlates of episodic memory were associated with expression of gene categories predominantly implicating signal transduction, immune system process, cellular metabolic process and anatomical structure development, as well as were linked to serotonin transporter. CONCLUSIONS: These findings may not only offer novel insights into the molecular substrates underlying the neural basis of episodic memory, but also help inform prevention and intervention strategies for individuals in at-risk and early phases of dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42288179/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-13",
+      "date": "2026-06-14",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:42+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Race and Ethnicity, Hypertension, and Neuroimaging Markers of Brain Aging: A Causal Mediation Analysis in the HABS-HD Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42284535/",
+        "published_date": "2026-06-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Molecular contextualization of the neural correlates of episodic memory.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42288179/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Focused ultrasound-mediated nanocarrier delivery across the blood-brain barrier for neurodegenerative diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42287757/",
+        "published_date": "2026-06-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Amyloid-Related Imaging Abnormalities in Anti-amyloid Therapy: Clinical Implications of Kinetics for Safer Use and Risk Stratification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42283996/",
+        "published_date": "2026-06-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Relationships between glucose variability with white matter hyperintensity and cerebrovascular abnormalities.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42284519/",
+        "published_date": "2026-06-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

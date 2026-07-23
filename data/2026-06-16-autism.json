@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-16",
+  "articles": [
+    {
+      "title": "Contribution of attentional mechanisms to verbal and nonverbal communication in boys with ASD.",
+      "summary": "Communication deficits in Autism Spectrum Disorder (ASD) involve impairments in both verbal and nonverbal domains, potentially associated with altered brain network connectivity related to language, attention, and social cognition systems. This study investigated functional connectivity patterns among the Default Mode Network (DMN), Salience Network (SN), Dorsal Attention Network (DAN), and Language Network (LN) in male children with ASD using resting-state fMRI data and Principal Component Analysis (PCA) to define sample-specific regions of interest. The sample included 53 males with ASD and 27 typically developing controls aged 5 to 12 years. Group comparisons revealed underconnectivity between the SN and LN (p = 0.003, beta = -0.49; p = 0.04, beta = -0.38) and overconnectivity between the DMN and LN in the ASD group (p = 0.003, beta = 0.5; p = 0.02, beta = 0.4). Crucially, further analyses showed that impairments in verbal (p = 0.016, beta = -0.45; p = 0.02, beta = -0.46) and nonverbal (p = 0.03; beta = -0.42) communication in ASD were associated with reduced connectivity within the DAN and between the DAN and SN, rather than with the LN. These findings suggest that communication difficulties in ASD have a stronger attentional basis linked to disruptions in sustained and switching attention mechanisms, as opposed to isolated language network dysfunctions. Our results underscore the importance of considering the integrated functioning of attentional and social brain networks to better understand the neural substrates of communication challenges in ASD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42301279/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Eur Child Adolesc Psychiatry",
+      "journal_issn": "1435-165X",
+      "published_date": "2026-06-16",
+      "date": "2026-06-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:43+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Contribution of attentional mechanisms to verbal and nonverbal communication in boys with ASD.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42301279/",
+        "published_date": "2026-06-16",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

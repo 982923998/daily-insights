@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-30",
+  "articles": [
+    {
+      "title": "Cortical Thickness and Appetite Hormones in Adolescent Obesity and Binge Eating Disorder: A Comparative Study.",
+      "summary": "OBJECTIVE: This study examined cortical thickness and appetite-regulating hormones-neuropeptide Y (NPY) and ghrelin-to better understand the neurobiological mechanisms underlying binge eating disorder (BED) and obesity in adolescence. We compared adolescents with BED and obesity, adolescents with obesity without BED, and healthy controls (HCs), and explored the relationships among these measures, BMI, and psychological symptoms. METHOD: Seventy adolescents (aged 12-18 years) were included: 24 adolescents with BED and obesity, 24 adolescents with obesity without BED, and 22 HC. Cortical thickness was measured using 3.0 T structural MRI with FreeSurfer-based analysis, and fasting serum levels of NPY and ghrelin were quantified by ELISA. Participants also completed the Eating Attitudes Test-40 (EAT-40), the Eating Disorder Examination Questionnaire (EDE-Q), the Children's Depression Inventory (CDI), and the State-Trait Anxiety Inventory for Children (STAI-C). RESULTS: Both groups with obesity showed significantly elevated NPY levels compared to HCs (p < 0.001), with no difference between adolescents with and without BED; fasting total ghrelin levels did not differ across groups. Adolescents with BED exhibited reduced cortical thickness in the right posterior cingulate cortex relative to both comparison groups (p = 0.002), while left posterior cingulate thinning was observed in both groups with obesity versus HCs (p = 0.004). No significant group differences were found in insular or anterior cingulate thickness. Both groups with obesity showed greater depressive symptoms, disordered eating attitudes, and eating-related psychopathology than HCs. In multiple regression analyses adjusted for diagnostic group membership, higher BMI (β = 0.47, p < 0.001) and lower left insular cortical thickness (β = -0.45, p = 0.031) were independently associated with elevated NPY levels. CONCLUSION: Findings suggest that elevated NPY levels may represent a shared neurobiological feature of adolescent obesity, whereas reduced right posterior cingulate cortical thickness may be more specifically associated with the diagnosis of BED. These findings contribute to understanding the neurobiological correlates of disordered eating behaviors during adolescence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42365580/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Int J Eat Disord",
+      "journal_issn": "1098-108X",
+      "published_date": "2026-06-28",
+      "date": "2026-06-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Assessment of diverse deep brain stimulation targets uncovers a common neural pathway for instantaneous antidepressant effects in rats.",
+      "summary": "Deep brain stimulation (DBS) is a promising therapeutic modality for managing treatment-resistant depression. Most DBS research has focused on single brain regions resulting in unclear optimal stimulation targets and vague mechanisms. Here, we introduce an experimental paradigm in which multiple graphene fiber stimulating electrodes were implanted in various brain regions of the same depressive animal for behavioral testing and DBS-functional MRI studies. We observed an instantaneous alleviation of depressive-like symptoms with a high response rate in Wistar-Kyoto rats following DBS at the medial forebrain bundle (MFB), lateral habenula (LHb), ventral tegmental area (VTA), and dorsal raphe nucleus (DRN), with a highly similar blood-oxygenation-level-dependent (BOLD) activation pattern, engaging the cortical areas, limbic, serotonin, and dopamine system where the BOLD activation levels in the medial prefrontal cortex (mPFC) and cingulate cortex showed strongest correlation with the degree of depression alleviation. No antidepressant effects were observed in DBS at the mPFC or nucleus accumbens. Lesion of VTA dopaminergic neurons resulted in a decrease in the extent of depression alleviation and BOLD activation levels. These results indicate that DBS targeting the MFB, LHb, VTA, and DRN might represent a rapid-acting antidepressant therapy by activating a highly overlapping dopamine-related neural network.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42372150/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-06-29",
+      "date": "2026-06-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:52+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Assessment of diverse deep brain stimulation targets uncovers a common neural pathway for instantaneous antidepressant effects in rats.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42372150/",
+        "published_date": "2026-06-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cortical Thickness and Appetite Hormones in Adolescent Obesity and Binge Eating Disorder: A Comparative Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42365580/",
+        "published_date": "2026-06-28",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

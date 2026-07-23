@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-04",
+  "articles": [
+    {
+      "title": "Spatio-temporal dynamics of brain function across depression severity in binge-type eating disorders.",
+      "summary": "Functional connectivity (FC) and intrinsic neural timescales (INT) characterize the spatio-temporal neural dynamics of binge-type eating disorders (EDs). We examined FC and INT abnormalities in visual-related regions of patients with binge-type EDs, focusing on the impact of depression severity. We recruited 72 patients with binge-type EDs and 39 healthy controls (HCs). Patients were divided into two groups: Group 1 (minimal/mild depression) and Group 2 (moderate/severe depression). FC alterations in key visual-related regions across three groups were analyzed using ANCOVA (P < 0.05, FWE-corrected). INT was further assessed in regions with significant FC changes (P < 0.05, FDR-corrected). Correlations of FC and INT with clinical measures, as well as between FC and INT, were examined. Seventeen brain subregions exhibited altered FC, with Group 2 showing more pronounced disruptions than Group 1 and HCs. These alterations primarily involved nodes within the sensorimotor, reward, and inhibitory control networks. Additionally, significant INT differences in the sensorimotor and heteromodal regions were observed between Group 2 and HCs. Correlation analyses suggested trend-level associations between FC and clinical characteristics, as well as between FC and INT in Group 2. Collectively, these findings indicate that FC and INT disruptions in visual-related regions are aggravated by depression severity in binge-type EDs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229637/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-02",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Subacute frontoinsular-cingulate tract changes in unvaccinated COVID-19 survivors: A tract-based spatial statistics study of diffusion tensor imaging.",
+      "summary": "BACKGROUND AND OBJECTIVES: Post-recovery brain changes following Coronavirus Disease 2019 (COVID-19) have been reported using various imaging techniques. The objective was to identify microstructural abnormalities between groups in specific fiber tracts using tract-based spatial statistics (TBSS) of diffusion tensor imaging (DTI), along with region-specific quantitative analysis of T1 relaxation times (qT1) and volumes. METHODS: This single-center, prospective, observational case-control study included adults ≥ 3 months after severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) antigen positivity, matched by age and gender with seronegative controls, and categorized by initial infection severity and an age cut-off of 40. MRI included: (1) 2 mm DTI generating fractional anisotropy (FA), mean (MD), radial (RD), and axial diffusivity (AD) maps; (2) two 3D 1 mm³ gradient-echo datasets for mapping T1 relaxation times (qT1) and creating synthetic high-resolution T1 images; (3) 3 mm 2D fluid-attenuated inversion recovery (FLAIR) images. Baseline characteristics and neuro(psycho)logical assessments including olfactory function, Beck Depression Inventory, Epworth Sleepiness Scale, Pittsburgh Sleep Quality Index, EQ-5D, and Montreal cognitive assessment were also recorded. RESULTS: Between November 2020 and December 2021, 145 unvaccinated subjects (median age, 46 years [IQR, 33.5-53]; 73 women) were consecutively evaluated. TBSS showed no significant FA differences between all 69 cases and 76 age- and sex-matched controls. However, participants ≥ 40 years that required hospitalization due to COVID-19 (n = 23) had decreased FA, increased RD, and reduced qT1 values (all P ≤ 0.001) in specific voxels compared to controls ≥ 40 years (n = 47). These microstructural measures appeared in predominantly right-sided lateral orbitofrontal, frontal inferior, anterior insular, and rostral anterior cingulate white matter (WM) regions, without visually detectable abnormalities or region-specific volume loss in WM or cortical gray matter. This subgroup also showed significantly higher presence of fatigue, depressive symptoms, poorer sleep quality and reduced health-related quality of life. DISCUSSION: Advanced MRI revealed microstructural abnormalities along frontoinsular-cingulate WM fiber tracts in unvaccinated participants aged ≥ 40 with a history of COVID-19 requiring hospitalization. These findings may suggest ongoing reduced fiber integrity and persistent oxidative stress within the salience network, potentially contributing to functional sequelae.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42235760/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Res Bull",
+      "journal_issn": "1873-2747",
+      "published_date": "2026-06-02",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+      "summary": "BACKGROUND: Repetitive transcranial magnetic stimulation (rTMS) is widely used to modulate brain activity and treat neurological and psychiatric disorders, yet how diverse stimulation protocols shape cortical function-and whether they share common principles-remains unclear. METHODS: We combined resting-state fMRI acquired before and after single-session rTMS across nine distinct protocols targeting specific cortical regions to comprehensively map changes in the local amplitude of hemodynamic fluctuations. RESULTS: We found that after-effects co-varied across protocols, with similarity patterns constrained by structural and functional connectivity. Strikingly, a shared spatial pattern emerged across all protocols, closely aligned with the brain's sensory-association hierarchy. Both shared and protocol-specific effects exhibited significant correspondence with the distribution of neurotransmitter systems. Mapping to the Neurosynth cognitive atlas revealed many-to-many correspondences between rTMS effects and cognitive domains, primarily driven by stimulation of parietal and motor regions. These rTMS-induced changes also overlapped with functional abnormalities in major depressive disorder and Parkinson's disease, highlighting the parietal cortex as a potential transdiagnostic target. Key results were independently replicated in two datasets of multi-session rTMS. CONCLUSIONS: These findings reveal a unified organizational framework for rTMS after-effects, grounded in cortical hierarchy, neurochemistry, and cognitive activations, offering potential guidance for neuromodulations of brain disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    },
+    {
+      "title": "Electroconvulsive Therapy in the Presence of Cerebral Cavernous Hemangioma: A Case Report With Controlled Hemodynamic Strategy.",
+      "summary": "Electroconvulsive therapy (ECT) is an effective treatment for severe and treatment-resistant bipolar depression, yet intracranial vascular malformations such as cerebral cavernous malformations raise safety concerns due to transient ECT-induced increases in blood pressure and intracranial pressure, potentially elevating the risk of hemorrhage. We report a case of a woman in her mid-60s with treatment-resistant bipolar depression and severe symptom burden (MADRS 45; HAMD-17 35; HAMD-21 39) in whom brain MRI incidentally revealed a 6×4 mm cavernous hemangioma in the left precentral gyrus without signs of prior hemorrhage. Following interdisciplinary consultation with neurosurgery and anesthesiology, an index course of ECT was initiated with careful hemodynamic monitoring and pharmacological blood pressure control. The patient received 16 sessions; initial bifrontal stimulation yielded insufficient seizure quality despite maximal stimulus intensity, prompting a switch to right unilateral electrode placement, which produced adequate seizures. Hypertensive peaks up to 210/150 mmHg were successfully managed with metoprolol and intravenous urapidil. Apart from transient anisocoria after the first session with unremarkable cranial CT findings, no neurological complications occurred. Depressive symptoms markedly improved by the end of treatment (MADRS 12; HAMD-17 15; HAMD-21 17). This case suggests that ECT can be performed safely and effectively in patients with cerebral cavernous hemangioma when multidisciplinary assessment and targeted hemodynamic management are implemented, and that the combination of metoprolol and urapidil may represent a useful strategy to mitigate blood pressure surges during ECT.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42241585/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "J ECT",
+      "journal_issn": "1533-4112",
+      "published_date": "2026-06-04",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Focused ultrasound ablation for psychiatric disorders.",
+      "summary": "Modern circuit-based neurosurgical interventions address a critical unmet need for patients with treatment-resistant psychiatric illness. Magnetic resonance-guided high-intensity focused ultrasound (HIFU) enables incisionless, millimeter-precision thermoablation via staged sonications with real-time monitoring, reshaping the risk-benefit profile of traditional neurosurgical interventions for psychiatric disorders. Here, we review the clinical evidence for HIFU ablation and contrast it with alternative platforms, including radiofrequency ablation, radiosurgery, laser interstitial thermal therapy, and deep brain stimulation. Early-phase clinical trials with long-term follow-up demonstrate that HIFU ablation produces clinically meaningful symptom reduction and sustained quality of life improvements in severe, treatment-resistant obsessive-compulsive disorder and major depressive disorder, with a favourable safety profile and stable neurocognitive performance. Current challenges include patient-specific skull characteristics that can constrain transcranial energy delivery and limit lesion creation. Clinical outcomes are heterogenous and the field lacks both treatment predictors and consensus on optimal lesion morphology. Tractography-informed targeting, functional network mapping, and electrophysiologic signatures represent converging approaches to further optimize circuit engagement. Key questions remain about treatment durability, retreatment strategies, and integration into longitudinal psychiatric care pathways alongside psychotherapy, pharmacotherapy and other neuromodulation therapies. A translational roadmap should prioritize multicenter trials, standardized reporting of lesion metrics and international registries. Promising directions include strategic use of low-intensity focused ultrasound to probe circuit responsiveness prior to ablation, and the use of microbubble-mediated ablation to overcome limitations of skull penetration. Moving forward, systems-level frameworks for patient-centered outcomes, equitable access and ongoing trials will define the potential of HIFU treatments to meet broader psychiatric care needs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42242456/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry",
+      "journal_issn": "1873-2402",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:36+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Subacute frontoinsular-cingulate tract changes in unvaccinated COVID-19 survivors: A tract-based spatial statistics study of diffusion tensor imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42235760/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Spatio-temporal dynamics of brain function across depression severity in binge-type eating disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42229637/",
+        "published_date": "2026-06-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Focused ultrasound ablation for psychiatric disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42242456/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Electroconvulsive Therapy in the Presence of Cerebral Cavernous Hemangioma: A Case Report With Controlled Hemodynamic Strategy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42241585/",
+        "published_date": "2026-06-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

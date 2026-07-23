@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-26",
+  "articles": [
+    {
+      "title": "Effects of electroacupuncture on brain functional connectivity in patients with subjective tinnitus: A randomized controlled clinical trial☆.",
+      "summary": "BACKGROUND: Subjective tinnitus (ST) often causes significant psychological and sleep disturbances, and limited treatment options are available. Neuroimaging suggests that acupuncture modulates brain activity. This study aimed to evaluate electroacupuncture (EA) for ST treatment using resting-state functional magnetic resonance imaging (rs-fMRI) to explore its central mechanisms. METHODS: This single-center, randomized, double-blind trial enrolled 90 patients with ST (aged 18-65 years), who were randomized at a 2:1 ratio to EA (n = 60) or sham acupuncture (SA, n = 30). Participants received 20 sessions over 7 weeks. EA applied electrical stimulation at seven fixed acupoints, while SA used non-penetrating needles. Primary outcome was change in Tinnitus Handicap Inventory (THI) score. Secondary outcomes included Pittsburgh Sleep Quality Index, Hospital Anxiety and Depression Scale (HADS), and audiometry. rs-fMRI assessed brain functional changes. RESULTS: The EA group showed significantly greater reduction in THI scores compared to the SA group at the end of the second treatment course (mean change: -30.38 to -21.76, P < 0.001). This improvement was maintained during the 3-month follow-up period (mean change: -29.13 to -19.53, P < 0.001). Resting-state functional magnetic resonance imaging analysis revealed that EA decreased the insula Regional Homogeneity (ReHo) value, and the change in insula ReHo values was positively correlated with improvements in HADS scores. Additionally, EA significantly improved sleep quality and emotional status compared to SA. CONCLUSION: EA effectively reduces ST severity, improving hearing, sleep, and mood and providing superior effects to SA. Its mechanism might involve modulating insular function and enhancing emotion-related brain regions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42191050/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Complement Ther Med",
+      "journal_issn": "1873-6963",
+      "published_date": "2026-05-25",
+      "date": "2026-05-26",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:30+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Effects of electroacupuncture on brain functional connectivity in patients with subjective tinnitus: A randomized controlled clinical trial☆.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42191050/",
+        "published_date": "2026-05-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

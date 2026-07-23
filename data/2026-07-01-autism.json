@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-01",
+  "articles": [
+    {
+      "title": "Ventricular volumetry in relation to clinical response and overdrainage after shunt surgery in idiopathic normal-pressure hydrocephalus: a three-year prospective study.",
+      "summary": "BACKGROUND: Idiopathic normal pressure hydrocephalus (iNPH) is treated with shunt surgery, but long-term monitoring of shunt function and complications remains challenging. Traditional radiological measures such as the Evans index lack sensitivity for detecting subtle longitudinal ventricular changes. Ventricular volumetry may provide a more precise method, but prospective long-term data are scarce. OBJECTIVE: To evaluate ventricular volumetry in relation to clinical outcome, overdrainage, and valve adjustments during a structured three-year follow-up after shunting for iNPH. METHODS: Fifty patients who fulfilled the diagnostic criteria for iNPH and who underwent shunt surgery with an adjustable Codman Certas Plus® valve without an antisiphoning device (ASD) were enrolled in this prospective single-center study. Clinical outcomes were assessed with the Hellstrom iNPH scale and Mini-Mental State Examination (MMSE) at baseline and at 3, 12, and 36 months. Ventricular volumes were measured via quantitative magnetic resonance imaging (qMRI) and automated segmentation. Overdrainage was defined clinically and/or radiologically. RESULTS: Forty-two patients completed the 3-month follow-up, 86% of whom were classified as clinical responders. Gait improvement was sustained at 12 months, whereas cognitive gains were transient. The ventricular volume decreased significantly from baseline by a mean of 20% at 3 months (p < 0.001), with a further decreasing trend up to 36 months. The responders demonstrated greater relative ventricular reduction (21%) than the nonresponders did (10%) at 3 months, while ventricular reduction was equal at later timepoints. Overdrainage symptoms and events occurred in 12 out of 50 patients, including 7% with subdural collections. Patients with overdrainage symptoms showed markedly greater reductions in ventricular volume (35%) than asymptomatic patients did (16%; <0.001). Valve adjustments resulted in detectable volumetric changes, supporting volumetry as a noninvasive marker of shunt function. CONCLUSION: Ventricular volumetry is a sensitive tool for longitudinal follow-up after shunting in iNPH patients. A reduction of ventricular volume of approximately 20% is associated with clinical improvement, whereas a reduction exceeding 30% increases the risk of overdrainage symptoms. Routine baseline volumetry, early intensive follow-up and the routine use of ASDs could be used to optimize outcomes and minimize complications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42381066/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Fluids Barriers CNS",
+      "journal_issn": "2045-8118",
+      "published_date": "2026-06-30",
+      "date": "2026-07-01",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:52+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Ventricular volumetry in relation to clinical response and overdrainage after shunt surgery in idiopathic normal-pressure hydrocephalus: a three-year prospective study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42381066/",
+        "published_date": "2026-06-30",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

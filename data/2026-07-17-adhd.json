@@ -1,0 +1,87 @@
+{
+  "date": "2026-07-17",
+  "articles": [
+    {
+      "title": "Developmental Differences in White Matter Microarchitecture in Youth with ADHD: Longitudinal Findings from the ABCD Study.",
+      "summary": "BACKGROUND: Attention-deficit/hyperactivity disorder (ADHD) is the most common neurodevelopmental disorder and is a risk factor for later brain disorders. METHODS: Here, we characterize the relationship between ADHD status and white matter cellularity across development and examine associations with medication, using a novel biophysical diffusion MRI model in the ABCD Study® cohort (N=10,526; baseline MRI: 9.92±0.63 years, 12.2% with ADHD; MRI Wave 2: 11.95±0.65 years; 11.3% with ADHD, MRI Wave 3: 14.07±0.69 years, 11.8% with ADHD). Twenty-seven white matter tracts were delineated using multi-shell diffusion-weighted imaging and tractography, with intracellular isotropic (RNI) and directional (RND) diffusion quantified using the Restriction Spectrum Imaging (RSI) model. Longitudinal linear mixed-effect models characterize the effects of ADHD status and medication use on white matter RNI and RND across three biennial MRI waves. RESULTS: ADHD was associated with decreased RNI in 20 tracts at age 9, with evidence of developmental trajectory differences suggesting attenuation over early adolescence. Enduring ADHD-associated decreases in RND were observed spanning ages 9 to 14 years in 16 tracts, with methylphenidate effects on 2 tracts. RNI but not RND findings were robust in low-motion sensitivity analyses. Exploratory analyses of ADHD severity suggest attenuation of RNI differences were paralleled by reductions in ADHD symptoms. CONCLUSIONS: Altogether, ADHD was robustly associated with reductions in isotropic diffusion in white matter tracts, suggestive of atypical glial cellularity during late childhood. Complementary reductions in directional diffusion of select tracts may suggest atypical axonal organization enduring across early adolescence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42456942/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "Biol Psychiatry Cogn Neurosci Neuroimaging",
+      "journal_issn": "2451-9030",
+      "published_date": "2026-07-15",
+      "date": "2026-07-17",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Brain volumetric changes in pediatric patients with Tourette syndrome.",
+      "summary": "Tourette syndrome (TS), a common pediatric neurodevelopmental disorder characterized by motor and vocal tics, is often accompanied by high rates of comorbidities, including attention-deficit/hyperactivity disorder and obsessive-compulsive disorder. The TS pathophysiology remains incompletely understood, with current theories focusing on the basal ganglia and cortico-striatal-thalamo-cortical (CSTC) circuit dysfunction. However, discrepancies in the brain volumetric changes were reported by studies involving children with TS. Therefore, the present study aimed to analyze the brain volumetric changes in the treatment-naïve pediatric TS patients without comorbidities to reduce the possible effect of medications and comorbidities. Forty pediatric TS patients and 40 age- and sex-matched healthy controls underwent brain magnetic resonance imaging, and their brain volumes were measured using FreeSurfer software. Our results revealed the trend of volumetric reductions in the right short insular gyrus and right inferior circular insular sulcus among TS patients, suggesting possible insular involvement in TS pathophysiology. Additionally, the loss of normal asymmetry was observed in the subcortical gray matter regions, including the putamen and accumbens nucleus, in TS patients. By focusing on a carefully selected, comorbidity-free and treatment-naïve cohort, the present study provides a clearer picture of the structural brain alterations directly related to TS. Our study results offer new insights into the morphometric alterations associated with TS, highlighting the potential role of the insula and basal ganglia in its pathogenesis. Further studies exploring the relationship between the volumetric changes and clinical course are warranted.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42457502/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "J Formos Med Assoc",
+      "journal_issn": "0929-6646",
+      "published_date": "2026-07-15",
+      "date": "2026-07-17",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:03+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Developmental Differences in White Matter Microarchitecture in Youth with ADHD: Longitudinal Findings from the ABCD Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42456942/",
+        "published_date": "2026-07-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain volumetric changes in pediatric patients with Tourette syndrome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42457502/",
+        "published_date": "2026-07-15",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

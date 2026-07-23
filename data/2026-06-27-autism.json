@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-27",
+  "articles": [
+    {
+      "title": "From microstates to macroscales: A critical review of maximum entropy modeling and energy landscape analysis in functional MRI.",
+      "summary": "Functional magnetic resonance imaging has revolutionized neuroscience. Traditional analyses focusing on differences in regional activations and pairwise regional interactions (functional connectivity) cannot capture the collective nature of inherently time-variant network dynamics, which would be crucial to better understand the brain function at the systems level. This systematic review on maximum entropy models (MEMs), derived from statistical physics, critically appraises a principled framework that integrates regional activations and pairwise interactions to characterize patterns of dynamic functional network reorganizations at much shorter timescales. This method provides a global statistical structure of network configurations as energy landscapes enabling the tracking of evolution of network configurations over the duration of fMRI acquisition. Unlike correlation-based functional connectivity that assumes independence of regional correlations, MEMs capture the interdependent nature of network dynamics providing a statistically more persuasive picture of the network. The MEM utilizes binarized activation patterns to estimate the probability of network configurations, assigning \"energy\" values that represent the statistical likelihood of occurrence of specific brain states. MEMs reveal fundamentally altered dynamic functional network reconfigurations and energy landscapes in schizophrenia and other disorders where patients spend more time in high-energy (low-probability network configuration) brain states associated with cognitive dysfunction and more severe psychopathology. MEM also revealed distinct findings related to autism spectrum disorder, sleep, perception, and memory and show superior correspondence to structural connectivity compared to traditional methods, providing biologically grounded functional biomarkers. This approach bridges statistical physics with systems neuroscience, offering new perspectives on brain criticality and psychiatric pathophysiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42361933/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Neurosci Biobehav Rev",
+      "journal_issn": "1873-7528",
+      "published_date": "2026-06-26",
+      "date": "2026-06-27",
+      "impact_factor": 8.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:50+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "From microstates to macroscales: A critical review of maximum entropy modeling and energy landscape analysis in functional MRI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42361933/",
+        "published_date": "2026-06-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

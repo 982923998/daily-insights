@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-04",
+  "articles": [
+    {
+      "title": "Correlation of thalamic functional organization disturbances and genetic architecture in motor subtypes of Parkinson's disease.",
+      "summary": "The thalamus is a critical relay center in motor circuit and plays a key role in the pathophysiology of Parkinson's disease (PD). Hierarchical organization is a fundamental principle underlying human brain networks. However, how thalamic functional gradient relates to PD motor symptoms and their genetic modulation remains unclear. Here, we employed dimensional reduction techniques on thalamocortical functional connectome in two independent cohorts and derived lateral-medial and anterior-posterior thalamic functional axes. Dataset 1 included 46 healthy controls (HC), 72 postural instability and gait difficulty (PIGD) patients, and 71 tremor-dominant (TD) patients. Dataset 2 comprised 118 HC, 99 PIGD patients, and 101 TD patients. We observed expansions in TD subtype and contractions in PIGD subtype along lateral/medial principal axis, as well as contractions along anterior/posterior secondary axis in both two subtypes, reflecting potentially altered thalamocortical interactions across unimodal and transmodal networks. Thalamic network gradient analysis revealed widespread network-level gradient alterations in both PIGD and TD subtypes. Notably, ventral attention network gradients within the first two gradients were negatively correlated with motor impairment in both subtypes. Transcription-neuroimaging association analyses using Allen Human Brain Atlas data identified subtype-specific genes associated with thalamic gradient alterations, which were enriched in distinct biological processes and overexpressed in developmental periods as early as \"early fetal\" stage. These findings characterize alterations in thalamocortical functional organization in PD motor subtypes and provide a multiscale description linking thalamic functional gradients with gene expression patterns.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42230632/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "NPJ Parkinsons Dis",
+      "journal_issn": "2373-8057",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Parkinsons Disease"
+    },
+    {
+      "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+      "summary": "BACKGROUND: Repetitive transcranial magnetic stimulation (rTMS) is widely used to modulate brain activity and treat neurological and psychiatric disorders, yet how diverse stimulation protocols shape cortical function-and whether they share common principles-remains unclear. METHODS: We combined resting-state fMRI acquired before and after single-session rTMS across nine distinct protocols targeting specific cortical regions to comprehensively map changes in the local amplitude of hemodynamic fluctuations. RESULTS: We found that after-effects co-varied across protocols, with similarity patterns constrained by structural and functional connectivity. Strikingly, a shared spatial pattern emerged across all protocols, closely aligned with the brain's sensory-association hierarchy. Both shared and protocol-specific effects exhibited significant correspondence with the distribution of neurotransmitter systems. Mapping to the Neurosynth cognitive atlas revealed many-to-many correspondences between rTMS effects and cognitive domains, primarily driven by stimulation of parietal and motor regions. These rTMS-induced changes also overlapped with functional abnormalities in major depressive disorder and Parkinson's disease, highlighting the parietal cortex as a potential transdiagnostic target. Key results were independently replicated in two datasets of multi-session rTMS. CONCLUSIONS: These findings reveal a unified organizational framework for rTMS after-effects, grounded in cortical hierarchy, neurochemistry, and cognitive activations, offering potential guidance for neuromodulations of brain disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:36+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Correlation of thalamic functional organization disturbances and genetic architecture in motor subtypes of Parkinson's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42230632/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+        "published_date": "2026-06-03",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

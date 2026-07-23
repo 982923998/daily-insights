@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-07",
+  "articles": [
+    {
+      "title": "Hierarchical neural variability reveals adaptive and maladaptive mechanisms of non-suicidal self-injury.",
+      "summary": "Non-suicidal self-injury (NSSI) is a prevalent and clinically urgent condition in adolescence, marked by impairments in cognitive flexibility-a capacity thought to be supported by neural variability. However, most research to date has focused on static brain features, leaving the role of variability largely unexplored. Importantly, variability-based metrics have been emerging as promising biomarkers in psychiatry, offering superior test-retest and intersession reliability compared with traditional static metrics. Leveraging resting-state fMRI data from 160 psychiatric patients with NSSI, primarily diagnosed with major depressive disorder, bipolar disorder, or borderline personality disorder, and 50 psychiatric controls without a history of NSSI, primarily diagnosed with major depressive disorder or bipolar disorder, we examined neural variability at two hierarchical levels-connectivity and network topology-and evaluated their clinical relevance using cross-sectional and longitudinal data. Patients with NSSI consistently exhibited heightened variability at both the connectivity and topology levels, and these measures demonstrated moderate discriminative value in classifying NSSI from psychiatric controls. The functional implications, however, diverged between two levels. Greater connectivity-level variability was associated with better emotional and attentional functioning at baseline, and larger reductions in NSSI behaviors over three months. In contrast, greater topology-level variability was linked to higher impulsivity, and poorer behavioral improvement. These findings reveal that elevated neural variability in NSSI encompass both adaptive and dysregulated dynamics: increases in connectivity variability may promote flexible adaptation, serving as compensatory functions, whereas excessive large-scale reconfiguration in topology may indicate loss of global control, reflecting maladaptive mechanisms. Parallel analyses on conventional static brain features confirmed the complementary role of neural variability. Together, our findings indicate that disruptions in variability across two hierarchies may constitute a neural mechanism underlying NSSI and highlight neural variability as a potential prognostic marker.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42249070/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-05",
+      "date": "2026-06-07",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:38+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Hierarchical neural variability reveals adaptive and maladaptive mechanisms of non-suicidal self-injury.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42249070/",
+        "published_date": "2026-06-05",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

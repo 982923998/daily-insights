@@ -1,0 +1,385 @@
+{
+  "date": "2026-07-13",
+  "articles": [
+    {
+      "title": "Unified Brain Surface and Volume Registration.",
+      "summary": "Accurate registration of brain MRI scans is fundamental for cross-subject analysis in neuroscientific studies. This involves aligning both the cortical surface of the brain and the interior volume. Traditional methods treat volumetric and surface-based registration separately, which often leads to inconsistencies that limit downstream analyses. We propose a deep learning framework, NeurAlign, that registers 3D brain MRI images by jointly aligning both cortical and subcortical regions through a unified volume-and-surface-based representation. Our approach leverages an intermediate spherical coordinate space to bridge anatomical surface topology with volumetric anatomy, enabling consistent and anatomically accurate alignment. By integrating spherical registration into the learning, our method ensures geometric coherence between volume and surface domains. In a series of experiments on both in-domain and out-of-domain datasets, our method consistently outperforms both classical and machine learning-based registration methods-improving the Dice score by up to 7 points while maintaining regular deformation fields. Additionally, it is orders of magnitude faster than the standard method for this task, and is simpler to use because it requires no additional inputs beyond an MRI scan. With its superior accuracy, fast inference, and ease of use, NeurAlign sets a new standard for joint cortical and subcortical registration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42433295/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Int Conf Learn Represent",
+      "journal_issn": "",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Sustained remission of chronic post-traumatic arginine vasopressin deficiency despite absent posterior pituitary bright spot on MRI: a case series.",
+      "summary": "BACKGROUND: Absence of the posterior pituitary bright spot (PPBS) on T1-weighted MRI is often observed in chronic post-traumatic arginine vasopressin deficiency (AVP-D), but its association with permanent AVP-D remains unclear. CASE PRESENTATION: We report five patients with chronic-phase post-traumatic AVP-D (156-965 days post-injury) who were transferred to our rehabilitation center. All patients had received long-term desmopressin therapy and exhibited persistent absence of the PPBS on T1-weighted MRI at admission. Despite these findings, desmopressin therapy was successfully tapered and discontinued in all five cases. Case 3 presented a diagnostic challenge, in which resolution of post-traumatic AVP-D was obscured by concomitant adrenal insufficiency and was confirmed only after stabilization of glucocorticoid replacement. In Cases 3, 4, and 5, detectable plasma arginine vasopressin levels (1.0-1.9 pg/mL) were observed following desmopressin withdrawal despite persistent radiologic absence of the PPBS. All patients maintained stable water balance without desmopressin therapy, with no recurrence of polyuria or clinically significant hypernatremia during follow-up. CONCLUSION: Endogenous vasopressin secretion may be retained in selected patients with chronic TBI, even when MRI suggests persistent neurohypophyseal abnormalities. Our cases demonstrate that absence of the PPBS is not a definitive marker of lifelong post-traumatic AVP-D. These observations support periodic reassessment and supervised trial discontinuation of desmopressin therapy in the neurorehabilitation setting, suggesting that preserved endogenous vasopressin function may remain unrecognized years after the initial insult.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435120/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Pituitary",
+      "journal_issn": "1573-7403",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Neurofeedback intervention based on functional near-infrared spectroscopy compared with sham control to improve inhibitory cognitive control in patients with severe obesity and food addiction: The protocol of a monocentric prospective randomized parallel-group single-blind interventional study.",
+      "summary": "BACKGROUND & AIMS: Overconsumption of hyperpalatable foods and obesity are associated with reduced activity of brain regions involved in executive functions, including the dorsolateral prefrontal cortex (dlPFC). Neurofeedback (NF) based on functional near-infrared spectroscopy (fNIRS) appears as an easily feasible neuromodulation method to assist voluntary improvement of inhibitory cognitive control. This study is primarily designed to assess the efficacy of fNIRS-based NF training targeting the dlPFC for strengthening inhibitory control in patients with food addiction (FA) and obesity. METHODS: Fifty females eligible for obesity surgery and presenting FA will be recruited. The intervention will consist of eight fNIRS-based NF sessions over a month, with the first and last sessions conducted in combination with functional magnetic resonance imaging. Volunteers will be instructed to maintain as high as possible a visual gauge representing the real-time level of their dlPFC activity, by using their own mental strategies. Participants will be randomly assigned to either the \"neurofeedback\" group (n=25) or the \"control\" group (n=25; sham signal). Outcomes will include neuroimaging, clinical, fasting biological, and psychometric measures. These data will be compared between groups at baseline, just after the intervention, and three months post-intervention, except for neuroimaging measures. The primary endpoint will be the changes in cognitive control, assessed by variations in the cortico-striatal resting-state FC. CONCLUSION: This study protocol proposes a novel therapeutic approach for patients with obesity and FA. If NF proves to be effective in enhancing inhibitory control over eating behavior, this intervention could be proposed as part of the multidisciplinary obesity care pathway or for obesity prevention. TRIAL REGISTRATION: The study protocol was registered in ClinicalTrials.gov on March 11th 2022 (Identifier: NCT05277714; URL: https://clinicaltrials.gov/study/NCT05277714).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435898/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Clin Nutr ESPEN",
+      "journal_issn": "2405-4577",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Chronic subdural hematoma as failed resolution at the aged dura-subdural interface: Immune-vascular mechanisms, biomarker interpretation, and therapeutic translation.",
+      "summary": "Chronic subdural hematoma (CSDH) is a frequent disorder of older adults, yet its persistence and recurrence are not fully explained by retained clot, bridging-vein injury, or technical failure of evacuation. We propose an aging-informed failed-resolution framework for interpreting CSDH persistence and recurrence at the aged dura-subdural interface. In this model, brain atrophy can maintain a residual subdural space, while frailty, multimorbidity, immune aging, vascular aging, and local fibrinolytic excess may lower the threshold for persistent membrane activity and delayed resolution. These host-level vulnerabilities are proposed to shape the outer-membrane environment, where macrophage and dendritic-cell recruitment, cytokine signaling, pathological angiogenesis, vascular leakage, recurrent microhemorrhage, and fibrin turnover may interact as an immune-vascular-fibrinolytic niche. We distinguish direct CSDH evidence from aging-derived mechanisms that remain inferential. Current CT and MRI phenotypes define hematoma burden, architecture, mass effect, and membrane enhancement, but they do not yet identify biological endotypes or select treatment. Peripheral inflammatory indices, coagulation-fibrinolysis markers, hematoma-fluid mediators, and single-cell profiling should be interpreted according to biological proximity, age-related confounding, and treatment-response validation. Burr-hole evacuation with drainage remains the standard for symptomatic mass effect. Middle meningeal artery embolization (MMAE) currently has the most developed evidence base among membrane-directed adjuncts, whereas corticosteroid trials show that nonselective anti-inflammatory therapy can reduce reoperation yet worsen patient-centered outcomes. A key next step is to link frailty, lesion activity, functional recovery, safety, and treatment response in aging-informed cohorts and trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435940/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Ageing Res Rev",
+      "journal_issn": "1872-9649",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "PERK deficiency amplifies molecular, structural, and network vulnerability to repetitive mild traumatic brain injury.",
+      "summary": "Repetitive mild traumatic brain injury (rmTBI) produces cumulative cellular stress that can lead to progressive brain dysfunction, yet the mechanisms governing vulnerability to repeated injury remain unclear. Protein kinase RNA-like endoplasmic reticulum kinase (PERK) regulates cellular proteostasis through the unfolded protein response and is implicated in neurodegeneration and acute brain injury. Here, we directly tested the role of PERK deficiency in shaping the brain's response to rmTBI. Using a mouse model of neuronal PERK deficiency, we combined spatial protein profiling and tissue analyses with resting-state functional MRI and diffusion tensor imaging to assess molecular, functional, and structural outcomes after rmTBI. PERK deficiency increased susceptibility to rmTBI-induced disruption of protein homeostasis, altered large-scale functional connectivity, and exacerbated white matter microstructural changes consistent with axonal and myelin damage. Molecular alterations were spatially aligned with imaging-defined network and white matter abnormalities. These findings identify PERK signaling as a key determinant of brain resilience to repetitive mild injury and link ER stress dysregulation to network-level dysfunction following rmTBI.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435991/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Neurobiological subtypes in alcohol use disorder and their phenotypic and clinical profiles.",
+      "summary": "Alcohol Use Disorder (AUD) is associated with vast clinical, behavioral, and neurobiological heterogeneity that hinder both the efficacy of current interventions and future treatment development. While recent efforts have focused on stratifying psychiatric disorders based on underlying neurobiological markers, such approaches remain largely unexplored in AUD. To address this, we empirically-derived neurobiological subtypes of AUD and evaluated their reproducibility and clinical relevance. Participants with complete resting-state functional MRI (rs-fMRI), phenotypic and clinical data from the Human Connectome Project were included (N = 668; 58% Female; 22% AUD [mild AUD: n = 109; moderate-severe AUD: n = 38], 40% Female within AUD). Neurobiological subtypes of AUD were identified using a semi-supervised clustering approach based on graph theory metrics derived from whole-brain rs-fMRI. Subtypes were extensively validated for reproducibility using resampling, permutation testing, and temporal stability, and for clinical relevance using comprehensive assessments of multi-modal behaviors and clinical characteristics. Two robust and distinct neurobiological subtypes of AUD with unique clinical profiles emerged. Subtype 1 showed greater sensory-motor integration, but lower frontoparietal/salience integration, with elevated externalizing behaviors. Subtype 2 demonstrated the opposite pattern: greater integration in frontoparietal, salience, and default-mode networks, and lower sensory-motor integration, characterized primarily by internalizing behaviors. Subtypes did not differ by AUD symptoms or use characteristics. Importantly, the subtype structure and phenotypic profiles remained robust when including AUD individuals with comorbid cannabis dependence, supporting generalizability and translational relevance to clinically comorbid populations. In summary, we identified neurobiological subtypes of AUD with distinct phenotypic and clinical profiles, capturing greater nuance than previous phenotypically-derived subgroups, while remaining interpretable and clinically meaningful. These findings provide a robust framework for understanding AUD's underlying mechanisms and underscore their potential for a neurobiologically informed approach to nosology, treatment allocation, and personalized interventions in AUD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42436260/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "Differential Patterns of Brain Connectivity Alterations in Patients with Back Pain Chronification versus Recovery: A Resting-State FMRI Study.",
+      "summary": "Functional magnetic resonance imaging studies have demonstrated that back pain, particularly chronic back pain, is associated with altered functional brain connectivity, especially in regions involved in the modulation of pain and emotion regulation. Our study investigated dysconnectivity patterns in subacute back pain patients to distinguish those who develop chronic back pain from those who recover. This work utilized a publicly available longitudinal resting-state functional magnetic resonance imaging dataset from the OpenPain database, including clinical assessments collected across multiple sessions, and recorded pain scores. The dataset consists of 46 subacute back pain patients and 27 healthy controls. Based on longitudinal pain scores, patients were classified into recovery and chronic back pain groups. In contrast to prior analyses of the OpenPain dataset, which primarily relied on specific brain region's connectivity or predictive modeling, this study applies a voxel-wise dysconnectivity count framework combined with data-driven clustering to identify spatially precise, whole-brain signatures of abnormal functional connectivity. This approach enables detection of anatomically specific dysconnectivity patterns at a resolution not achieved in previous work. Our findings therefore extend the OpenPain literature by providing a fine-grained, network-wide characterization of early connectivity disturbances that distinguish recovery from back pain chronification. The results showed that the chronic back pain group exhibited greater dysconnectivity in regions linked to emotion regulation, pain processing, and attentional control. In contrast, the recovery group displayed connectivity deviations in sensorimotor, visual, and cognitive control regions. PERSPECTIVE: Baseline whole-brain dysconnectivity patterns differ between patients who recover and those who develop chronic pain. These findings highlight distributed network alterations associated with pain trajectories and provide insight into neural mechanisms underlying pain chronification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42437575/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Pain",
+      "journal_issn": "1528-8447",
+      "published_date": "2026-07-12",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Pontine autosomal dominant microangiopathy with leukoencephalopathy in a Hispanic man without a family history.",
+      "summary": "OBJECTIVE: To describe a case of pontine autosomal dominant microangiopathy with leukoencephalopathy (PADMAL), a rare COL4A1-related cerebral small vessel disease, in a Hispanic man with atypical clinical and radiographic features that posed diagnostic challenges. METHODS: Case report and literature review. RESULTS: A 49-year-old Hispanic man of Mexican ancestry without a family history or conventional cardiovascular risk factors developed recurrent ischemic events and multiple cranial nerve palsies beginning at age 35. Brain MRI demonstrated recurrent acute and chronic lacunar infarcts predominantly involving the pontine, thalamus, and basal ganglia, progressive supratentorial and infratentorial white matter hyperintensities, cerebral microbleeds, and a cervical spinal cord lesion. Despite repeated CSF analyses lacking inflammatory markers, he was treated for presumed multiple sclerosis and other inflammatory etiologies and continued to experience neurologic decline despite immunosuppressive therapies. Genetic testing identified a heterozygous pathogenic COL4A1 3' untranslated region variant (c.*31G>T), confirming the diagnosis of PADMAL. CONCLUSION: PADMAL may present without a family history and with atypical features such as cervical spinal cord involvement and cranial nerve palsies, mimicking inflammatory or demyelinating disorders. Early consideration of hereditary cerebral small vessel disease and timely genetic testing may prevent unnecessary immunotherapy and facilitate appropriate vascular-focused management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42437605/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Stroke Cerebrovasc Dis",
+      "journal_issn": "1532-8511",
+      "published_date": "2026-07-12",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Synergistic entrainment: a multiscale neurodynamic framework for closed-loop cross-modal neuromodulation.",
+      "summary": "The brain's higher cognitive functions rely on the dynamic integration of multimodal information, supported by coordinated neural oscillations. However, current neuromodulation approaches often fail to reliably control these dynamics due to high inter-individual variability and limited mechanistic grounding. To address this challenge, we introduce the Synergistic Entrainment Framework, which conceptualizes the brain as a dynamical system in which neural oscillations create periodic windows of excitability that regulate when information can be effectively processed. Within this framework, rhythmic inputs from different physical modalities (e.g., sensory streams and electromagnetic stimulation) can interact nonlinearly, leading to amplification or stabilization of neural responses, when their timing is aligned with ongoing cortical phase dynamics. We propose that this interaction operates across three coupled scales: (i) microscopic constructive interference that amplifies local neural responses, (ii) mesoscopic phase resetting that aligns regional excitability, and (iii) macroscopic network synchronization constrained by the brain's structural connectome. By explicitly linking these multiscale mechanisms, we propose the framework as a theoretical perspective and operational scaffold for formulating testable hypotheses about state-dependent, closed-loop neuromodulation. Rather than claiming empirical validation, it aims to organize operational criteria for future studies of how stimulation timing may be aligned with intrinsic brain dynamics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42438677/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Cogn Neurodyn",
+      "journal_issn": "1871-4080",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Human cerebellum and ventral tegmental area interact during extinction of learned fear.",
+      "summary": "The key elements for fear extinction learning are unexpected omissions of expected aversive events, which are considered to be rewarding. Given its reception of reward information, we tested the hypothesis that the cerebellum contributes to reward-like prediction error processing driving extinction learning via its connections with the ventral tegmental area (VTA). Forty-three young and healthy participants performed a three-day fear conditioning paradigm in a 7T MR scanner. The cerebellum and VTA were active during unexpected omissions of aversive unconditioned stimuli in the initial extinction trials and in other learning phases, in line with the proposed role of prediction-error processing. Increased functional connectivity was observed between the cerebellum and VTA, indicating that they are functionally coupled during fear extinction learning. These results suggest that an interaction between the cerebellum and VTA should be incorporated into the existing model of the fear extinction network.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42439193/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "journal_issn": "2050-084X",
+      "published_date": "2026-07-13",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "eLife"
+    },
+    {
+      "title": "Development of a Postoperative Delirium Risk Prediction Model for Elderly Patients by Integrating MRI Radiomics With Clinical Features.",
+      "summary": "PURPOSE: This study aims to explore the potential of magnetic resonance imaging (MRI) radiomics in assessing the risk of postoperative delirium in elderly patients and to construct an integrated postoperative delirium risk prediction model by integrating clinical characteristics. DESIGN: A prospective cohort study. METHODS: Three hundred elderly patients aged 65 and above who underwent elective general anesthesia surgery at the First People's Hospital of Xuzhou from January 2022 to December 2023 were prospectively included. MRI features were collected using a 3.0T Siemens magnetic resonance (MR) scanner, including hippocampal volume, intracranial volume, and diffuse white matter hyperintensity volume, along with clinical data. Statistical analysis was performed using R 4.2.2 software to construct and validate the predictive model. FINDINGS: ASA level III or above, intraoperative hypotension, surgical duration, age, history of diabetes, postoperative VAS score, hippocampal volume, intracranial volume, and diffuse white matter hyperintensity volume were significantly correlated with postoperative delirium. Multivariate analysis revealed that age, surgical duration, postoperative VAS score, hippocampal volume, white matter hyperintensity volume, and perivascular space dilation were independent risk factors for postoperative delirium. The constructed postoperative delirium risk prediction model showed good predictive ability in both the training and validation sets, with ROC curve areas of 0.973 and 0.966, respectively, and high sensitivity and specificity. CONCLUSIONS: The postoperative delirium nomogram prediction model developed in this study shows good predictive and validation effects and can serve as a clinical decision support tool to help clinicians identify high-risk patients, implement preventive measures, and reduce the incidence of postoperative delirium.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42439847/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Perianesth Nurs",
+      "journal_issn": "1532-8473",
+      "published_date": "2026-07-13",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A young pregnant woman with oesophageal cancer who responded to carboplatin plus nab-paclitaxel therapy.",
+      "summary": "The case involved a 35-year-old female patient in the fifth month of pregnancy. The patient complained of dysphagia in the early stages of pregnancy and was referred to our hospital after developing dyspnea. An MRI revealed an 8 cm tumor in the anterior mediastinum compressing the airway. The fetus was delivered via emergency cesarean section, and a cervical lymph node biopsy confirmed squamous cell carcinoma. The tumor was diagnosed as an anterior mediastinal tumor of unknown primary origin, and treatment with nanoparticle albumin-bound paclitaxel (nab-PTX) plus Carboplatin (CBDCA) resulted in significant tumor shrinkage. Following shrinkage, the tumor was ultimately diagnosed as esophageal cancer. Subsequently, recurrence in the esophagus and brain metastasis were detected. Still, after undergoing radiation therapy, surgical treatment, and chemotherapy, no recurrence was observed for more than one year after the final treatment. The results of this study demonstrate that the combination therapy of nab-PTX plus CBDCA is highly effective not only for lung squamous cell carcinoma but also for esophageal squamous cell carcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42440033/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Clin J Gastroenterol",
+      "journal_issn": "1865-7265",
+      "published_date": "2026-07-13",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Goal-directed modulation of the default network supports interactions between selective attention, working memory, and prior knowledge.",
+      "summary": "Memory is central to flexible, goal-directed behavior. Prior knowledge shapes our current decisions and future plans and guides our attention to selectively prioritize relevant information in our complex, noisy world. Yet, most research on the neural basis of selective attention has focused on novel stimuli and has defined goal relevance based on perceptual features rather than prior knowledge. We investigated how the brain supports selective attention when goal relevance depends on prior knowledge, and compared selection of novel (memory-independent) versus familiar (memory-enhanced) stimuli. Using multiecho fMRI, we recorded brain activity during a selective working memory task involving pictures of famous (familiar) and anonymous (novel) people and places. We manipulated the relevance of fame to task performance: In \"fame relevant\" task blocks, participants selectively attended to famous while ignoring anonymous stimuli; in \"fame irrelevant\" blocks, they attended to anonymous while ignoring famous stimuli. Compared to a nonselective, categorization task, the selective working memory task elicited sustained coactivation of frontoparietal control and dorsal attention networks. Task-relevant contrasted with task-irrelevant stimuli elicited transient coactivation of frontoparietal control and default network regions, irrespective of stimulus fame. Within the DN, this effect was driven by both enhanced activation for task-relevant stimuli and suppression for task-irrelevant stimuli, confirming attention-driven neuromodulation. Further, selective working memory coactivated these high-order, heteromodal brain networks while lowering activity in visual regions. Our findings elucidate the neural underpinnings of prior knowledge-guided selection of perceptual inputs for working memory, suggesting differences from those previously reported for perception-guided selection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441845/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-07-13",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Changes in Mamillopontine Distance and Pontomesencephalic angle following Treatment for Pediatric Idiopathic Intracranial Hypertension.",
+      "summary": "BACKGROUND: Pediatric idiopathic intracranial hypertension requires objective, noninvasive markers for diagnosis and follow-up. We aimed to determine whether mammillopontine distance and pontomesencephalic angle, two simple sagittal MRI measurements, reflect treatment-related changes. METHODS: This retrospective study included 40 children aged 5 to 15 years: 20 patients with idiopathic intracranial hypertension and 20 age-matched controls. Idiopathic intracranial hypertension diagnosis was based on clinical/radiological findings and a cerebrospinal fluid opening pressure of>28 cmH2O. All idiopathic intracranial hypertension patients underwent lumbar puncture with therapeutic cerebrospinal fluid drainage and acetazolamide therapy, with magnetic resonance imaging performed before treatment and after complete clinical and radiological resolution. Controls had normal cerebrospinal fluid pressure and normal serial magnetic resonance imaging findings. The mammillopontine distance and pontomesencephalic angle were measured on sagittal T2-weighted images by three experienced radiologists. Statistical analyses were performed using SPSS, with p<0.05 considered significant; inter-rater reliability was assessed using the intraclass correlation coefficient. RESULTS: Age and sex were comparable between groups. Before treatment, the pontomesencephalic angle and mammillopontine distance were significantly lower in the idiopathic intracranial hypertension group than in controls (both p<0.001), while the cerebrospinal fluid pressure was significantly higher (p<0.001). After treatment, the mammillopontine distance increased by a mean of 0.64 mm and the pontomesencephalic angle increased by a mean of 8.88°, accompanied by a mean cerebrospinal fluid pressure reduction of 21.60 mmH2O (all p<0.001). Serial measurements in controls remained unchanged (p>0.050). In controls, repeated-measurement reliability was high (intraclass correlation coefficient=0.970; 95% confidence interval: 0.925-0.988). CONCLUSIONS: Mammillopontine distance and pontomesencephalic angle demonstrate significant treatment-related changes in pediatric idiopathic intracranial hypertension and may be useful, reproducible magnetic resonance imaging-derived markers for follow-up. Although both parameters increased after therapy, the pontomesencephalic angle showed a more pronounced treatment-related change than the mammillopontine distance, suggesting greater responsiveness for monitoring treatment responses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42442406/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Klin Padiatr",
+      "journal_issn": "1439-3824",
+      "published_date": "2026-07-13",
+      "date": "2026-07-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:00+00:00",
+    "version": 1,
+    "summary": "Captured 14 research items. Preference focus is brain-imaging analysis and disease mechanisms: 10 high-priority, 4 medium-priority, 0 low-priority. Mechanism-related items: 9; analysis-method items: 14.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 14,
+      "high_priority": 10,
+      "medium_priority": 4,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 9
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 14
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Differential Patterns of Brain Connectivity Alterations in Patients with Back Pain Chronification versus Recovery: A Resting-State FMRI Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42437575/",
+        "published_date": "2026-07-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "PERK deficiency amplifies molecular, structural, and network vulnerability to repetitive mild traumatic brain injury.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42435991/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neurobiological subtypes in alcohol use disorder and their phenotypic and clinical profiles.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42436260/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Synergistic entrainment: a multiscale neurodynamic framework for closed-loop cross-modal neuromodulation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42438677/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Unified Brain Surface and Volume Registration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42433295/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Goal-directed modulation of the default network supports interactions between selective attention, working memory, and prior knowledge.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42441845/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Human cerebellum and ventral tegmental area interact during extinction of learned fear.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42439193/",
+        "published_date": "2026-07-13",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Pontine autosomal dominant microangiopathy with leukoencephalopathy in a Hispanic man without a family history.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42437605/",
+        "published_date": "2026-07-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Chronic subdural hematoma as failed resolution at the aged dura-subdural interface: Immune-vascular mechanisms, biomarker interpretation, and therapeutic translation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42435940/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neurofeedback intervention based on functional near-infrared spectroscopy compared with sham control to improve inhibitory cognitive control in patients with severe obesity and food addiction: The protocol of a monocentric prospective randomized parallel-group single-blind interventional study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42435898/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Development of a Postoperative Delirium Risk Prediction Model for Elderly Patients by Integrating MRI Radiomics With Clinical Features.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42439847/",
+        "published_date": "2026-07-13",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Changes in Mamillopontine Distance and Pontomesencephalic angle following Treatment for Pediatric Idiopathic Intracranial Hypertension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42442406/",
+        "published_date": "2026-07-13",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A young pregnant woman with oesophageal cancer who responded to carboplatin plus nab-paclitaxel therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42440033/",
+        "published_date": "2026-07-13",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Sustained remission of chronic post-traumatic arginine vasopressin deficiency despite absent posterior pituitary bright spot on MRI: a case series.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42435120/",
+        "published_date": "2026-07-11",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

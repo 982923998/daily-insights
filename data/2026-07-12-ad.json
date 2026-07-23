@@ -1,0 +1,87 @@
+{
+  "date": "2026-07-12",
+  "articles": [
+    {
+      "title": "Muscle morphology and intramuscular fat after treatment-as-usual including botulinum neurotoxin A injections in children with cerebral palsy.",
+      "summary": "AIM: To explore lower leg muscle morphology and intramuscular fat content changes using magnetic resonance imaging (MRI) after 12 months of treatment-as-usual (TAU), after the first botulinum neurotoxin A (BoNT-A) injection in children with cerebral palsy (CP) naive to muscle tone reduction treatment. METHOD: This prospective longitudinal study included 10 children with spastic CP (five female, median age 8 years 11 months, unilateral CP/bilateral CP 7/3, Gross Motor Function Classification System levels I/II 8/2) and 10 typically developing peers (seven female, median age 9 years 6 months). Children with CP received two MRI scans (before and 12 months after the first injection), typically developing peers received one. Muscle volume (normalized by product of weight and height), fascicle length (normalized by height), pennation angle, and intramuscular fat fraction (IFF) of medial gastrocnemius, lateral gastrocnemius, soleus, and tibialis anterior were quantified. RESULTS: After 12 months of TAU, normalized muscle volume remained unchanged while IFF increased (medial gastrocnemius: p = 0.008). Compared to typically developing peers, children with CP had smaller normalized muscle volume (tibialis anterior: p = 0.027) and similar IFF at pre-injection timepoint. INTERPRETATION: Although normalized muscle volume remained unchanged after the 12-month TAU, concurrent fat infiltration was evident in medial gastrocnemius.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42434835/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Dev Med Child Neurol",
+      "journal_issn": "1469-8749",
+      "published_date": "2026-07-11",
+      "date": "2026-07-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Clinicopathologic Evaluation of Amyloid Clearance in Alzheimer Disease.",
+      "summary": "IMPORTANCE: The long-term efficacy of amyloid-targeting therapies hinges on their ability to slow downstream neuropathologic change, but little is known about the influence of amyloid clearance on tau pathology and neurodegeneration. OBJECTIVE: To determine the postmortem and in vivo association between amyloid levels and downstream neuropathology after treatment with aducanumab in a patient with patchy areas showing minimal residual amyloid levels. DESIGN, SETTING, AND PARTICIPANTS: This clinicopathologic case report from a single academic memory center includes a male carrier of the p.R47H TREM2 variant, which is associated with a higher risk of Alzheimer disease, who was in his 50s, had mild cognitive impairment, and received aducanumab while participating in a randomized clinical trial. Fourteen untreated controls, who were matched by age or presence of the TREM2 variant, also are included. EXPOSURES: The male carrier of the p.R47H TREM2 variant had received 30 doses of aducanumab (cumulative dose of 280 mg/kg) over 4.5 years. MAIN OUTCOMES AND MEASURES: Neuropathologic evaluation at autopsy, positron emission tomography to measure standardized uptake value ratio as a measure of amyloid and tau levels, and magnetic resonance imaging to determine longitudinal change in cortical thickness. RESULTS: Four years after receiving the final dose of aducanumab, the patient died. An autopsy showed variable levels of amyloid pathology, including brain regions with very low levels of amyloid juxtaposed with brain regions that had typically high levels of amyloid in the deep cortical layers and only low levels of amyloid in the superficial cortical layers. Compared with the brain regions of the untreated controls, the brain regions of the patient after treatment with aducanumab showed low levels of amyloid that were preferentially found in the gyral crests, were associated with less tau pathology at autopsy, and were associated with slower longitudinal atrophy on in vivo magnetic resonance imaging (β = -0.50 [95% CI, -0.62 to -0.37]; t = -7.96 and P < .001). In contrast, the patient's brain regions with high amyloid burden were preferentially found in the sulcal depths and had similar levels of tau pathology as seen at autopsy in the untreated controls. CONCLUSIONS AND RELEVANCE: In this case report, areas of extensive amyloid clearance after amyloid-targeting therapy were associated with less downstream neuropathologic change. In addition, amyloid clearance appears to preferentially occur in the gyral crests. Future studies should evaluate the differential mechanisms involved in amyloid clearance from superficial and deep cortical layers and in gyri and sulci because extensive amyloid clearance may be necessary to achieve downstream neuropathologic benefit after removal of amyloid.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42437499/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "JAMA",
+      "journal_issn": "1538-3598",
+      "published_date": "2026-07-12",
+      "date": "2026-07-12",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:45:00+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Clinicopathologic Evaluation of Amyloid Clearance in Alzheimer Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42437499/",
+        "published_date": "2026-07-12",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Muscle morphology and intramuscular fat after treatment-as-usual including botulinum neurotoxin A injections in children with cerebral palsy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42434835/",
+        "published_date": "2026-07-11",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

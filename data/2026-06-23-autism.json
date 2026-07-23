@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-23",
+  "articles": [
+    {
+      "title": "Elucidation of Brain Morphogenesis Using Quantitative Brain Magnetic Resonance Imaging in Children.",
+      "summary": "Quantitative brain magnetic resonance imaging has revolutionized pediatric neurodevelopment research by enabling noninvasive, reproducible, and high-resolution assessments of brain morphology across the entire brain. Advances in anatomical structure analysis and diffusion-weighted tractography now permit detailed characterization of gray and white matter, cortical thickness, surface area, gyrification, and fiber integrity throughout development. Automated processing pipelines, including FreeSurfer, FSL, and CIVET, have supported large-scale analyses, while harmonization frameworks and normative growth curves have facilitated clinical translation. Diffusion tensor imaging (DTI) provides complementary insights into white matter microstructure, revealing neurodevelopmental trajectories and disorder-specific connectivity alterations. These approaches have identified structural biomarkers in multiple conditions, including reduced nucleus accumbens volume and ventricular enlargement in autism spectrum disorder (ASD), as well as early amygdala overgrowth and glymphatic dysfunction that may predict ASD onset. Despite these advances, several challenges remain, such as inter-scanner variability, age-dependent processing limitations, and the lack of validated individual-level biomarkers. Standardization of imaging protocols and robust statistical harmonization will be essential to overcome these obstacles and enable longitudinal, patient-specific assessments. The incorporation of quantitative magnetic resonance imaging into clinical workflows holds promise for early diagnosis, individualized monitoring, and therapeutic stratification of neurodevelopmental and genetic disorders. Ultimately, comprehensive morphometric and diffusion-based profiling will advance understanding of brain morphogenesis and drive precision medicine in pediatric neurology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42324486/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "Pediatr Int",
+      "journal_issn": "1442-200X",
+      "published_date": "2026-06-22",
+      "date": "2026-06-23",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:48+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Elucidation of Brain Morphogenesis Using Quantitative Brain Magnetic Resonance Imaging in Children.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42324486/",
+        "published_date": "2026-06-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

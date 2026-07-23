@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-03",
+  "articles": [
+    {
+      "title": "Variations of global brain asymmetry are associated with aging and related diseases.",
+      "summary": "Lateralization is a hallmark of brain organization, yet the structural basis underlying this phenomenon remains a critical, unresolved question in cognitive and systems neuroscience. In this study, we applied multivariate machine learning techniques to investigate variations of global brain asymmetry and their associations with cognitive functions, aging, and aging-related diseases, using large-scale datasets. Our findings revealed substantial and previously unknown structural differences between the hemispheres, and established key associations between structural asymmetries and lateralized functions. At the population level, we identified unique aging trajectories of hemispheric differences and uncovered diagnosis-specific variations in patients with Alzheimer's and Parkinson's disease, and in APOE ε4 carriers at genetic risk. Notably, we identified a \"left hemi-aging\" pattern that challenges the conventional \"right hemi-aging\" model. Together, these results advance our understanding of functional lateralization in the human brain and highlight the potential of global brain asymmetry as a biomarker for brain aging and related diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42384796/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Sci Adv",
+      "journal_issn": "2375-2548",
+      "published_date": "2026-07-01",
+      "date": "2026-07-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "In Vitro-Prepared A30P Alpha-Synuclein Fibrils Adopt the Conserved and Disease-Relevant Greek Key Fold.",
+      "summary": "The pathological hallmark of Parkinson disease (PD) is the formation of the protein alpha-synuclein (Asyn) into β-sheet-rich, self-templating fibrils in the brain. Since the first atomic structure of wild-type Asyn fibrils was determined nearly a decade ago, several other in vitro structures of hereditary mutant fibrils and structures derived from post-mortem diseased patient tissue have been determined by solid-state nuclear magnetic resonance (SSNMR) spectroscopy and cryo-electron microscopy. These structures have not only expanded the library of structures available for computational modeling of drug binding and therapeutic development but also given unprecedented insight into the disease specificity and structural polymorphism of Asyn fibrils. Here, we report the high-resolution SSNMR structure of the A30P hereditary mutant Asyn fibril, associated with early onset PD. Our structural model is calculated using several thousand distance restraints derived from one sample, primarily sourced through 3D 13C-13C-13C correlation experiments. The structure adopts a Greek key topology yet does not include the P30 mutation site within the fibril core. We also introduce a comprehensive method for the rapid comparison of SSNMR spectra between Asyn polymorphs of known structure and validate the A30P fold. Lastly, we find that the structure is highly similar to many other experimental structures of both in vitro and ex vivo Asyn fibrils, including those with other hereditary point mutations, suggesting a conserved accessible fold.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42389901/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "J Phys Chem B",
+      "journal_issn": "1520-5207",
+      "published_date": "2026-07-02",
+      "date": "2026-07-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "[Rare hereditary and acquired diseases with parkinson's syndrome].",
+      "summary": "BACKGROUND: Despite established clinical diagnostic criteria for Parkinson's disease and the neurodegeneration-related atypical parkinsonian syndromes (progressive supranuclear palsy/PSP, corticobasal degeneration syndrome/CBD, multiple system atrophy with parkinsonian or cerebellar predominance/MSA-P/C, and dementia with Lewy bodies/DLB), the differential diagnosis from rare hereditary and acquired disorders presenting with parkinsonism can be challenging. METHODS: Based on a PubMed search, relevant original studies and review articles were analyzed to identify rare hereditary and acquired disorders associated with parkinsonism. Secondary parkinsonian syndromes resulting from medication or toxin exposure were excluded but are summarized in an overview. RESULTS: Without claiming completeness, the major hereditary and acquired disorders associated with parkinsonism were summarized in tabular form. Selected entities were described in more detail in short profiles focusing on those with therapeutic modifiability, characteristic pattern-like constellations of findings, or notable pathophysiological mechanisms. Paradigmatic cerebral MRI patterns are illustrated. CONCLUSIONS: A broad spectrum of rare acquired and genetic entities can manifest with clinically relevant parkinsonian syndromes. Frequently, parkinsonism occurs in combination with other neurological features of variable severity, including extrapyramidal-hyperkinetic symptoms (dystonia/chorea), cerebellar signs (ataxia), pontomesencephalic involvement (oculomotor disturbances, bulbar dysarthria/dysphagia), motor neuron signs (spasticity and/or amyotrophic paresis), cognitive or neuropsychiatric symptoms, and epilepsy.For several disease groups - such as neurodegeneration with brain iron accumulation (NBIA), Wilson's disease, and primary familial brain calcification (PFBC) - distinctive MRI patterns are diagnostically informative.A relevant subset of disorders exhibits at least a partial and sometimes transient presynaptic dopaminergic deficit responsive to dopaminergic medication (e.g., certain NBIA forms, spinocerebellar ataxias/SCA, cerebrotendinous xanthomatosis/CTX).Neuropathologically, some of these disorders are associated with secondary synucleinopathies (e.g., MPAN), tauopathies (e.g., IgLON5 syndrome) or TDP-43 (e.g., Perry syndrome/DCTN1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42392185/",
+      "category": "Parkinson",
+      "source": "pubmed",
+      "journal": "Fortschr Neurol Psychiatr",
+      "journal_issn": "1439-3522",
+      "published_date": "2026-07-02",
+      "date": "2026-07-03",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:54+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "[Rare hereditary and acquired diseases with parkinson's syndrome].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42392185/",
+        "published_date": "2026-07-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Variations of global brain asymmetry are associated with aging and related diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42384796/",
+        "published_date": "2026-07-01",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "In Vitro-Prepared A30P Alpha-Synuclein Fibrils Adopt the Conserved and Disease-Relevant Greek Key Fold.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42389901/",
+        "published_date": "2026-07-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

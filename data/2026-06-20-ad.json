@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-20",
+  "articles": [
+    {
+      "title": "Air pollution is linked to divergent cortical thickness patterns in brain regions vulnerable to Alzheimer's disease.",
+      "summary": "INTRODUCTION: Ambient air pollution increases Alzheimer's disease (AD) risk, yet exposure associations with cortical thickness (CTh) in AD-vulnerable brain regions is unclear. Here we examined the associations between PM2.5 and NO2 with CTh in an AD meta-region of interest (ROI), and across the cortex, in participants from the Vietnam Era Twin Study of Aging (VETSA) and Women's Health Initiative Memory Study (WHIMS). METHODS: We conducted a cross-sectional study using data from 387 VETSA men (Mage=61.9 ± 2.6) and 1097 WHIMS women (Mage=77.9 ± 3.7) without dementia or stroke prior to MRI. Long-term residential exposures to PM2.5 and NO2 were quantified as the 3-year average of monthly estimates prior to MRI that were derived from spatiotemporal models with regionalized universal kriging. Brain MRI scans were processed using FreeSurfer-v.5.3.0 to estimate CTh in 34 bilateral regions parcellated with the Desikan-Killiany atlas. An AD meta-ROI was calculated as the surface-area weighted average of CTh in four bilateral regions (entorhinal, fusiform, inferior temporal, and middle temporal cortices) that are vulnerable to AD. Linear mixed models were conducted separately in each cohort with appropriate covariates. RESULTS: In WHIMS, exposures were negatively associated with CTh in the AD meta-ROI (pPM2.5<0.001; pNO2=0.018) and diffusely across the cortex. In VETSA, exposures were positively associated with CTh in the AD meta-ROI (pPM2.5=0.017; pNO2=0.021) and temporal pole, but effects were age-dependent, becoming negative (though nonsignificant) after age 64. DISCUSSION: Positive associations in younger VETSA men, coupled with negative associations in older WHIMS women, may suggest nonmonotonic AD-related neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42314912/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurotoxicology",
+      "journal_issn": "1872-9711",
+      "published_date": "2026-06-19",
+      "date": "2026-06-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Association of Cathepsin Proteins with Alzheimer's Disease Risk: An Integrated Observational and Genetic Analysis.",
+      "summary": "Alzheimer's disease (AD) involves complex lysosomal proteolytic dysfunction, but the specific roles of cathepsin family proteins remain unclear. This study aimed to systematically evaluate the association of cathepsins with AD risk and to explore underlying mechanistic pathways integrating neuroimaging, cognitive, and genetic evidence. We analyzed data from 52,988 UK Biobank participants. Plasma levels of 11 cathepsins were measured via Olink proteomics. Associations with AD diagnosis, cognitive performance, and brain structural measures were assessed using multivariable regression. Mediation analysis tested pathways through cognition and brain structure. Bidirectional two-sample Mendelian randomization (MR) was used to assess potential directional associations, and colocalization analysis was performed to identify shared genetic signals. Among the cathepsins analyzed, CTSL was the most coherent signal across observational analyses, showing associations with AD diagnosis, poorer cognitive performance, and reduced volume in AD-vulnerable regions including the hippocampus. Exploratory mediation analyses identified indirect associational patterns involving cognition and brain structure. Bidirectional MR provided genetic evidence for a positive directional association of genetically predicted CTSL with AD diagnosis (β = 1.2666 on the log-odds scale, p < 0.001) and for a reverse association of AD liability with higher CTSL levels (β = 0.5556, p < 0.001). Colocalization initially suggested a shared signal in the APOE/ZNF285 region, but this signal was not independent of APOE after sensitivity analysis. CTSL emerged as a candidate plasma molecule associated with AD across observational and genetic analyses. These findings support further longitudinal and experimental evaluation of CTSL, while the mechanistic interpretation remains preliminary.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42315799/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neuromolecular Med",
+      "journal_issn": "1559-1174",
+      "published_date": "2026-06-18",
+      "date": "2026-06-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Neuroimaging in older-age bipolar disorder.",
+      "summary": "PURPOSE OF REVIEW: This review summarizes neuroimaging studies designed to investigate cortical and subcortical brain changes in older adults with bipolar disorder (OABD). The imaging modalities discussed in the review include structural MRI, functional MRI (fMRI), diffusion tensor imaging (DTI) addressing white-matter microstructure, and functional and molecular neuroimaging with PET (18-F-FDG-PET, amyloid-PET, and tau-PET). RECENT FINDINGS: Although limited, the neuroimaging evidence in OABD points to cortical thinning, reduced gray matter volume, subcortical alterations, and decreased fractional anisotropy in white-matter tracts. Studies also report a 'brain age gap' in bipolar disorder, in which predicted brain age (as per neuroimaging scans) exceeds chronological age. SUMMARY: Neuroimaging research in OABD remains limited by methodological heterogeneity, including variable imaging protocols, differences in episode severity and frequency, the effects of pharmacological treatment and neurobiological changes associated with disease chronicity. These factors restrict comparability and generalizability across studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42319208/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Curr Opin Psychiatry",
+      "journal_issn": "1473-6578",
+      "published_date": "2026-06-19",
+      "date": "2026-06-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:46+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Neuroimaging in older-age bipolar disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42319208/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Air pollution is linked to divergent cortical thickness patterns in brain regions vulnerable to Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42314912/",
+        "published_date": "2026-06-19",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Association of Cathepsin Proteins with Alzheimer's Disease Risk: An Integrated Observational and Genetic Analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42315799/",
+        "published_date": "2026-06-18",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

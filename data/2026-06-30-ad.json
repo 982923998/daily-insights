@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-30",
+  "articles": [
+    {
+      "title": "Magnetic resonance imaging-based Alzheimer's disease detection using an EfficientNet-CMSACCN framework.",
+      "summary": "Alzheimer's Disease (AD) is a degenerative neurological condition characterized by memory loss, cognitive deterioration, and brain tissue shrinkage. Detecting it at an early stage is difficult due to variations in disease progression and the restricted scope of single-modality neuroimaging methods. Magnetic Resonance Imaging (MRI)-based Alzheimer's diagnosis, such as magnetic resonance imaging, offers complementary structural and functional insights, but existing deep learning methods often struggle with data imbalance, high computational complexity, and limited generalization. To fill these research gaps, design an MRI-based EfficientNet feature extraction framework for Alzheimer's stage classification. EfficientNet, equipped with compound scaling, depthwise-separable layers, and squeeze-and-excitation components, enables precise characterization of cortical structures and whole-brain variations while preserving computational efficiency. Extracted features are classified using a Compression-based Multi-Scale Attention Convolutional Network (C-MSACCN), which integrates attention mechanisms and compression strategies to enhance accuracy and reduce model complexity. Furthermore, the Improved Cellular Neighbours Optimiser (ICNO) fine-tunes hyperparameters, striking a balance between exploration and exploitation for optimal convergence and robustness. With 99.9% accuracy, precision, recall, and F1-score on datasets, the model outperforms prior work. Validation confirms consistency, and visualisation methods highlight disease-relevant regions to provide clinical insight.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42375925/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Cytotechnology",
+      "journal_issn": "0920-9069",
+      "published_date": "2026-06-29",
+      "date": "2026-06-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Near‑Infrared Photobiomodulation in White‑Matter Disease: From Microglial States to Measurable Endpoints.",
+      "summary": "White-matter (WM) injury contributes to disability across multiple sclerosis, traumatic brain injury, Alzheimer's disease and related dementias, and small-vessel disease. We use microglial state programs as an organizing axis for WM injury-to-repair logic, while emphasizing that WM outcomes are multicellular and involve oligodendrocyte-lineage cells, astrocytes, axons/neurons, and vascular factors. Microglia span an injury-repair continuum, from inflammatory programs that increase oxidative stress and debris burden to repair-competent programs that support debris handling, remyelination, and axonal integrity. Near-infrared photobiomodulation (PBM; ~800-1100 nm) is most consistently associated with modulation of mitochondrial redox/bioenergetic pathways and inflammatory tone. CCO-centered mechanistic framing is best established near ~ 800-850 nm, whereas longer wavelengths (e.g., ~ 1064-1070 nm) may involve additional initiating mechanisms with downstream convergence on shared redox/bioenergetic and inflammatory pathways. Across demyelination and spinal cord injury models, appropriately dosed PBM has been reported to reduce inflammatory glial readouts and to associate with improved myelin/axon-related endpoints and functional measures, although mechanistic certainty varies across models. Human evidence remains early but broadly supports safety; a randomized trial in moderate traumatic brain injury reported treatment-related changes in diffusion-MRI WM metrics, while small dementia and chronic-injury studies report heterogeneous cognitive and physiological signals. Given dose dependence and depth-limited transcranial delivery, we synthesize mechanism-informed, dose-aware reporting guidance and WM-anchored outcome frameworks that pair diffusion MRI/DTI with interpretable biomarkers (e.g., NfL, GFAP, sTREM2) and thermally controlled sham designs. We also note potential indirect/systemic contributions that could help reconcile depth-dose constraints with deeper WM effects.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42377668/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neuromolecular Med",
+      "journal_issn": "1559-1174",
+      "published_date": "2026-06-30",
+      "date": "2026-06-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "DTI-ALPS associations with regional amyloid deposition and glucose metabolism in mild cognitive impairment and Alzheimer's disease.",
+      "summary": "OBJECTIVES: The DTI analysis along the perivascular space (DTI-ALPS) index is widely used to assess water diffusion alterations in Alzheimer's disease (AD), yet its biological interpretation remains debated. We investigated DTI-ALPS associations with regional amyloid-β (Aβ) deposition, glucose metabolism, and cognitive function in Chinese patients with AD and mild cognitive impairment (MCI), offering finer-grained imaging evidence for its pathophysiological interpretation. METHODS: 34 AD dementia (ADD) patients, 40 MCI patients, and 52 cognitively normal controls (NCs) underwent MRI, 18F-florbetapir (18F-AV45) (standardized uptake value ratio, SUVR; centiloid values, CL), and 18F-FDG (SUVR) imaging. MRI volumetry and PET quantification used Neurophet SCALE PET software. Mediation analysis tested ALPS effects between pathology/metabolism and cognition. RESULTS: ALPS differed significantly across groups (ADD:1.152 ± 0.113; MCI:1.247 ± 0.122; NC:1.302 ± 0.121; p < 0.001). Adjusted for age, sex, education, and APOE4, ALPS correlated positively with MMSE (r = 0.324, p < 0.001) and MoCA (r = 0.311, p < 0.001) and negatively with CL (r=-0.415, p < 0.001). The ALPS index showed negative correlations with 18F-AV45 PET SUVR in nearly all brain regions, with the strongest negative associations observed in the posterior cingulate (r=-0.459), paracentral (r=-0.445), superior frontal (r=-0.441), and inferior temporal (r=-0.433) regions. For 18F-FDG PET SUVR, the ALPS index demonstrated bidirectional correlations: positive in regions including the inferior parietal (r = 0.396), isthmus of cingulate (r = 0.376), and precuneus (r = 0.369), but negative in the paracentral (r=-0.418), precentral (r=-0.406), and cerebellar white matter (r=-0.374) (all p < 0.001). Mediation analysis revealed that the ALPS index mediates the relationships between glucose metabolism/Aβ accumulation and both abstract thinking and memory. Parietal/cingulate isthmus/precuneus FDG metabolism showed significant ALPS-mediated indirect effects across cognitive domains (p < 0.05). CONCLUSIONS: The ALPS index correlates with Aβ deposition and exhibits region-specific metabolic associations in AD, mediating amyloid-metabolism-cognition pathways and predicting cognitive decline. These findings provide a region-wise correlation map of perivascular water diffusion alterations in AD, informing future research directions, though underlying mechanisms require validation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379471/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "J Neuroradiol",
+      "journal_issn": "0150-9861",
+      "published_date": "2026-06-30",
+      "date": "2026-06-30",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:52+00:00",
+    "version": 1,
+    "summary": "Captured 3 research items. Preference focus is brain-imaging analysis and disease mechanisms: 3 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 3.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 3,
+      "high_priority": 3,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "DTI-ALPS associations with regional amyloid deposition and glucose metabolism in mild cognitive impairment and Alzheimer's disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42379471/",
+        "published_date": "2026-06-30",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Near‑Infrared Photobiomodulation in White‑Matter Disease: From Microglial States to Measurable Endpoints.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42377668/",
+        "published_date": "2026-06-30",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Magnetic resonance imaging-based Alzheimer's disease detection using an EfficientNet-CMSACCN framework.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42375925/",
+        "published_date": "2026-06-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

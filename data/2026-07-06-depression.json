@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-06",
+  "articles": [
+    {
+      "title": "Joint trajectories of brain atrophy, white matter hyperintensities and cognition quantify brain maintenance.",
+      "summary": "Brain maintenance - the preservation of brain structure or function relevant to cognitive performance - remains challenging to quantify. Here, we propose a domain-general brain maintenance index derived by jointly modelling the longitudinal co-evolution of ageing-related atrophy (via medial temporal lobe to ventricle ratio, MTLV-ratio), white matter hyperintensities (WMH), and global cognition assessed by the preclinical Alzheimer's cognitive composite (PACC5) using latent growth curve modelling. We demonstrate its utility in 543 cognitively unimpaired older adults from the DELCODE cohort, followed annually over four years. We show that changes in MTLV-ratio and WMH additively predict cognitive change. We further show that higher neuroticism, depressive symptoms, lower openness, and faster biological ageing are related to unfavourable domain-specific trajectories and poorer brain maintenance. Our findings highlight the combined relevance of WMH and ageing-related atrophy dynamics for brain maintenance. Maintaining cerebrovascular and mental health alongside cognitive engagement could promote brain maintenance, delay cognitive decline and dementia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401584/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-07-04",
+      "date": "2026-07-06",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:56+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 0.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Joint trajectories of brain atrophy, white matter hyperintensities and cognition quantify brain maintenance.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42401584/",
+        "published_date": "2026-07-04",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance"
+      }
+    ]
+  }
+}

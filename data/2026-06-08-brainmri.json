@@ -1,0 +1,459 @@
+{
+  "date": "2026-06-08",
+  "articles": [
+    {
+      "title": "Emerging Applications of Artificial Intelligence in Pediatric Care.",
+      "summary": "Artificial intelligence (AI) technologies such as machine learning (ML), deep learning (DL), predictive analytics and other tools are rapidly changing pediatric health care, using large amounts of health data. AI tools aid in triage, real-time monitoring and risk stratification in acute care settings, towards improving overall outcomes and fewer complications. During newborn resuscitation, AI analyses real-time data, can guide decisions and enhance training. Computer vision systems with AI tools can generate reliable neonatal bilirubin estimates without the need for blood sampling. AI technology is also being used in the management of necrotising enterocolitis, respiratory distress syndrome, and screening and early diagnosis of retinopathy of prematurity. ML models assist in detecting brain injuries on MRI for conditions such as hypoxic-ischemic encephalopathy, intraventricular hemorrhage; MRI biomarkers can be analyzed using AI to predict neurodevelopmental outcomes. AI-based clinical decision support systems have been deployed to enhance workflows and outcomes by early detection of disease, reducing medication errors and help clinicians improve decision-making. However, there remain ethical and practical challenges in the use of AI including data privacy, the need for high-quality pediatric datasets, rigorous clinical validation and transparency, to ensure that AI strengthens clinical judgement and is trustworthy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42250093/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Indian J Pediatr",
+      "journal_issn": "0973-7693",
+      "published_date": "2026-06-06",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Glymphatic system dysfunction in epilepsy: a systematic review and meta-analysis.",
+      "summary": "BACKGROUND AND PURPOSE: The glymphatic system mediates clearance of metabolic waste via astrocytic aquaporin-4-mediated cerebrospinal fluid-interstitial fluid exchange. Structural prerequisites for glymphatic dysfunction are established in epilepsy, yet no quantitative neuroimaging synthesis exists. We performed a systematic review and meta-analysis to quantify DTI-ALPS-derived proxy marker of glymphatic impairment in epilepsy and assess its clinical correlates. MATERIALS AND METHODS: Following PRISMA 2020 guidelines and PROSPERO registration (CRD420251275885), PubMed, Embase, Web of Science, and Scopus were searched through December 2025 for human observational studies reporting DTI-ALPS indices in epilepsy with healthy controls. Pooled mean differences and correlation coefficients were estimated under random-effects models with REML. Newcastle-Ottawa Scale tools were used for quality assessment. Publication bias was assessed via Egger's test and trim-and-fill analysis. RESULTS: Seventeen studies were included; fifteen (n = 1,255; 675 patients with epilepsy, 580 controls) contributed to the primary meta-analysis. DTI-ALPS values were significantly reduced in epilepsy versus controls (MD -0.157, 95% CI -0.197 to -0.116; p < 0.0001, I2 = 73%). Reductions were consistent across epilepsy subtypes, but subgroup analyses were underpowered and should be interpreted cautiously (Q = 3.43, p = 0.18). Disease duration showed the strongest inverse correlation (r = - 0.392; p = 0.0014), while age at epilepsy onset showed a modest association (r = - 0.148; p = 0.020). Trim-and-fill-adjusted estimates remained significant (MD -0.107, 95% CI -0.156 to -0.059). CONCLUSIONS: DTI-ALPS, as an indirect proxy marker of glymphatic function, is consistently reduced in epilepsy syndromes and correlates with disease chronicity. These findings support DTI-ALPS as a candidate neuroimaging biomarker of cumulative glymphatic burden; however, its current biomarker potential is limited by substantial heterogeneity, possible medication confounding, and the exclusive East Asian representation of available evidence. Longitudinal, multicenter studies with standardized protocols across diverse populations are needed to determine its reproducibility.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42250499/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Epilepsy Behav",
+      "journal_issn": "1525-5069",
+      "published_date": "2026-06-06",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Updated French OFSEP recommendations for multiple sclerosis MRI: alignment with the 2024 McDonald criteria.",
+      "summary": "BACKGROUND: Magnetic resonance imaging (MRI) is central to the diagnosis and follow-up of multiple sclerosis (MS). Since the 2020 OFSEP recommendations, the 2024 McDonald criteria have introduced major changes, including recognition of the optic nerve as a fifth anatomical topography and integration of two specificity biomarkers - the central vein sign (CVS) and the paramagnetic rim lesion (PRL). OBJECTIVE: To update the French OFSEP MRI recommendations for MS while remaining feasible on every 1.5 T and 3 T scanner in France. METHODS: A multidisciplinary OFSEP-SFNR working group conducted a modified Delphi-like consensus process. RECOMMENDATIONS: The core brain protocol comprises isotropic fat-suppressed 3D FLAIR (1 mm³), DWI with ADC maps, and an optimised 3D susceptibility-sensitive sequence (3D T2* GRE or 3D SWI with filtered phase) for CVS and PRL. A contrast-enhanced 3D spin-echo T1 sequence and a dedicated orbital protocol for suspected optic neuritis are added at diagnosis. The spinal cord protocol includes at least two complementary sequences, with a high-contrast heavily T1-weighted sequence when available. Follow-up uses the same core protocol with strictly reproducible 3D FLAIR; gadolinium is restricted to targeted indications. CONCLUSION: This vendor-neutral framework supports earlier, more specific MS diagnosis and reduced gadolinium use across French centres.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42250869/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neuroradiol",
+      "journal_issn": "0150-9861",
+      "published_date": "2026-06-06",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Comment on \"Deep brain stimulation and magnetic resonance-guided focused ultrasound in Parkinsonism and related disorders: State-of-the-Art and future prospects\".",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42250967/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Formos Med Assoc",
+      "journal_issn": "0929-6646",
+      "published_date": "2026-06-06",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Brain neuromarkers predict self- and other-related mentalizing across adult, clinical, and developmental samples.",
+      "summary": "Human social interactions rely on the ability to reflect on one's own and others' internal states and traits-a process known as mentalizing. Impaired or altered mentalizing is a hallmark of multiple psychiatric and neurodevelopmental conditions. Yet, replicable and easily testable brain markers of mentalizing have so far been lacking. Here, we apply an interpretable machine learning approach to multiple datasets (total n = 390) to train and validate fMRI brain signatures that predict i) mentalizing about the self, ii) mentalizing about another person, and iii) both types of mentalizing. Self-mentalizing and other-mentalizing classifiers had positive weights in anterior/medial and posterior/lateral brain areas, respectively, with accuracy rates of 82% and 77% for out-of-sample prediction. The classifier trained across both types of mentalizing showed 98% predictive accuracy and separated (mental) attributional from factual inferences. Classifier patterns revealed better self/other separation in healthy adults compared to individuals with schizophrenia and with increasing age in adolescence. Together, our findings reveal consistent and separable neural patterns subserving trait-based mentalizing about self and others-present at least from the age of adolescence and functionally altered in severe neuropsychiatric disorders. These mentalizing signatures hold promise as candidate neuromarkers of social-cognitive processes in different contexts and clinical conditions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42251044/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-06-06",
+      "date": "2026-06-08",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    },
+    {
+      "title": "Resting-state functional connectivity and cognitive impairment after COVID-19 infection: Evidence from a large-scale fMRI study.",
+      "summary": "BACKGROUND: The development of cognitive impairment (CI) is a frequent and debilitating consequence of COVID-19 and can persist for more than 1 year after the acute infection stage. Previous neuroimaging studies in COVID-19 survivors with CI have revealed widespread alterations in functional connectivity (FC), particularly within fronto-parietal circuits and subcortical nuclei such as the hippocampus, basal ganglia, and thalamus. This study focuses on neural correlates of CI in subjects who recovered from COVID-19 and the relationship between FC patterns and discrete cognitive domains. METHODS: Resting-state functional MRI data from 136 subjects were analyzed using a ROI-to-ROI approach across 246 brain regions derived from the Human Brainnetome Atlas. Group comparisons were performed based on the presence or absence of CI, and correlation analyses were conducted between FC and scores obtained from a comprehensive neuropsychological test battery. RESULTS: Whole-brain FC showed no difference between patients with and without CI. In the whole study sample, hypoconnectivity between two basal ganglia regions and two frontal motor regions was associated with impaired performance in the cognitive domain \"Reasoning and Problem-Solving,\" while hyperconnectivity between the prefrontal thalamus and the postcentral gyrus was associated with impaired performance in the same cognitive domain. CONCLUSIONS: Our findings indicate that FC alterations within the cortico-striatal and thalamo-cortical circuits may subtend deficits in higher-order executive functions in post-COVID-19 patients and highlight the importance of examining discrete cognitive domains in relation to brain connectivity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42252837/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Eur Psychiatry",
+      "journal_issn": "1778-3585",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "A comprehensive mechanosensory connectome reveals a somatotopically organized neural circuit architecture controlling stimulus-aimed grooming of the Drosophila head.",
+      "summary": "Animals respond to tactile stimulations of the body with location-appropriate behavior, such as aimed grooming. These responses are mediated by mechanosensory neurons distributed across the body, whose axons project into somatotopically organized brain regions corresponding to body location. How mechanosensory neurons interface with brain circuits to transform mechanical stimulations into location-appropriate behavior is unclear. We previously described the somatotopic organization of bristle mechanosensory neurons (BMNs) around the Drosophila head that elicit a sequence of location-aimed grooming movements (Eichler et al., 2024). Here, we use a serial section electron microscopy reconstruction of a full adult fly brain to identify nearly all of BMN pre- and postsynaptic partners uncovering circuit pathways that control head grooming. Postsynaptic partners dominate the connectome and are both excitatory and inhibitory. We identified an excitatory cholinergic hemilineage (hemilineage 23b), a developmentally related group of neurons that elicits aimed head grooming and exhibits differential connectivity with BMNs from distinct head locations, revealing a lineage-based somatotopically organized parallel circuit architecture. Presynaptic partners provide extensive BMN presynaptic inhibition, consistent with models of sensory gain control as a mechanism of suppressing grooming movements and controlling the sequence. This work provides the first comprehensive map of a somatotopically organized connectome, and reveals how this organization could shape grooming. It also reveals the mechanosensory interface with the brain, illuminating fundamental features of mechanosensory processing, including feedforward excitation and inhibition, feedback inhibition, somatotopic circuit organization, and developmental origins.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42253234/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "journal_issn": "2050-084X",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "eLife"
+    },
+    {
+      "title": "Variability in medial prefrontal cortex responses to smiles in human infants is linked to genetic variation in the oxytocin system.",
+      "summary": "Smiling plays a critical role in guiding behavior during social interactions from early in human ontogeny. The current study examined whether genetic variation in the oxytocin system is linked to individual differences in medial prefrontal cortex (mPFC) responses to smiles in human infants. Results show that genetic variation in CD38 (rs3796863), linked in prior work to variation in oxytocin release, is associated with enhanced mPFC responses when 7-month-old infants were viewing smiles, but not when viewing angry or fearful faces. These findings provide novel evidence that oxytocin-related genetic variability contributes to early-emerging differences in social brain function and support the view that variability in processing of affiliative signals is influenced by neurogenetic mechanisms from early in human ontogeny.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42257672/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Soc Neurosci",
+      "journal_issn": "1747-0927",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Radiographic resolution of presumed cerebellar tuberculoma during extended BPaLM-based therapy for disseminated multidrug-resistant tuberculosis.",
+      "summary": "PURPOSE: Central nervous system (CNS) involvement in multidrug-resistant tuberculosis (MDR-TB) is associated with high morbidity, and evidence guiding the use of standardized all-oral regimens in intracranial disease is limited. We describe radiographic evolution of a presumed cerebellar tuberculoma during BPaLM-based therapy for MDR-TB. METHODS: We report the clinical course, microbiologic data, treatment regimen, and serial neuroimaging of a man in his 30s with pulmonary MDR-TB, pleural involvement, and a small peripherally enhancing cerebellar lesion compatible with a tuberculoma. RESULTS: The patient presented with respiratory symptoms and mild headache, and was diagnosed with cavitary pulmonary tuberculosis, pleural involvement, and a small left cerebellar lesion. Further evaluation showed no ataxia, dizziness, or focal neurologic deficits. Sputum acid-fast culture was positive for Mycobacterium tuberculosis, and rapid molecular testing demonstrated rifampin resistance. Whole-genome sequencing confirmed resistance to rifampin, isoniazid, and ethambutol, and did not identify mutations associated with resistance to pyrazinamide, fluoroquinolones, linezolid, clofazimine, or bedaquiline. Treatment was transitioned to BPaLM (bedaquiline, pretomanid, linezolid, moxifloxacin) with adjunctive corticosteroids early in the course. Sputum cultures converted to negative approximately 6 weeks after treatment initiation. Serial brain MRI demonstrated progressive reduction in lesion size at 9 weeks, residual punctate enhancement at 21 weeks, near-complete resolution by 44 weeks, and complete radiographic resolution on subsequent imaging. The patient completed 52 weeks of therapy and remained clinically stable, without neurologic deficits or relapse more than 2 years after treatment completion. CONCLUSION: This case describes radiographic resolution of a small presumed cerebellar tuberculoma during extended BPaLM/BPaL-based therapy for disseminated MDR-TB, highlighting the evidence gap for standardized all-oral regimens in CNS drug-resistant tuberculosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42257795/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Infection",
+      "journal_issn": "1439-0973",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Impaired Glymphatic Function and Post-stroke Cognitive Decline after Intracerebral Hemorrhage: A Serial Neuroimaging Study.",
+      "summary": "After an intracerebral hemorrhage (ICH), impaired glymphatic function (GF) can result in neurotoxin buildup in the brain. In this serial MRI imaging study, we investigated the association between impaired GF and post-stroke cognitive impairment (PSCI). The glymphatic system is a waste clearance mechanism in the brain, consisting of the perivascular space (PVS) formed by astroglial end-feet surrounding arteries and veins. Glymphatic dysfunction has been associated with cognitive decline in patients with neurodegenerative diseases. The diffusion tensor imaging along the perivascular space (DTI-ALPS) index is a non-invasive imaging biomarker to monitor GF. The progression of PSCI in patients after ICH has not been well reported. Here, we serially evaluated GF via measuring the DTI-ALPS index and its association with PSCI after ICH. We serially imaged 18 patients with deep ICH at 9.3 ± 9.1 (V1) and 109 ± 28 (V2) days after stroke on a 3T MRI system. Cognitive assessment and stroke severity were obtained via the Montreal Cognitive Assessment (MoCA) and NIHSS, respectively. The DTI-ALPS index was calculated by measuring diffusivity in three regions of interest (ROI) orthogonal to the PVS surrounding the medullary veins. Hematoma (HV) and edema (EV) volumes were measured. The ipsilesional DTI-ALPS index was correlated with MoCA, HV, and NIHSS. The contralesional DTI-ALPS index was used as a control. Normality of all continuous variables was assessed using the Shapiro-Wilk test. As several key variables were non-normally distributed, non-parametric analyses were used, including Wilcoxon signed-rank tests for paired comparisons, Mann-Whitney U tests for group comparisons, and partial Spearman rank correlations (rS) to examine associations between the DTI-ALPS index and clinical or volumetric measures while adjusting for age and hematoma volume. We enrolled 12 M/6F with an average age of 49 ± 13y. The ipsilesional DTI-ALPS index was significantly lower than the contralesional DTI-ALPS index (p = 0.041) at V2. Temporally, NIHSS (median [IQR] 8.5 [1.0-13.8] to 2.5 [1.0-4.0], p = 0.002), HV (5.03 [3.31-12.62] to 1.28 [0.80-2.73] mL, p < 0.001), and EV (20.34 [9.62-35.44] to 1.09 [0.41-4.79] mL, p < 0.001) were significantly decreased. After adjustment for age and hematoma volume using partial Spearman correlation, the ipsilesional DTI-ALPS index showed a near-significant negative association with NIHSS (partial rS = - 0.48, p = 0.057) and a positive but non-significant association with MoCA (partial rS = 0.28, p = 0.301) at V2. Our finding demonstrated that the DTI-ALPS index is a feasible imaging biomarker for assessing glymphatic dysfunction and it is positively associated with cognitive impairment following intracerebral hemorrhage.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42257804/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Transl Stroke Res",
+      "journal_issn": "1868-601X",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Psychedelics disrupt hierarchical cortical propagations in the default mode network of humans and mice.",
+      "summary": "Psychedelic drugs are poised to become mainstream treatments, yet we lack a circuit-level account of how they reshape brain activity. Emerging evidence suggests that multiple psychedelic compounds modulate activity in the brain's default mode network (DMN), often interpreted as either increased or decreased bottom-up hierarchical processing. Most imaging studies, however, quantify activity as if it were stationary, remaining agnostic to the ascending or descending movements of activity that defines hierarchical processing. Here, we adapt optical flow analyses to track frame-to-frame trajectories of DMN activity across four independent datasets (humans and mice; methylenedioxymethamphetamine, psilocybin, and lysergic acid diethylamide; nine drug-vs.-control contrasts). In functional magnetic resonance and calcium imaging, all psychedelics attenuate signal flow magnitude and bottom-up directionality within the DMN. Propagation attenuation is not attributable to data quality or previously documented effects of psychedelics and is uniquely associated with self-reported outcomes. This replicable and generalizable attenuation of bottom-up cortical propagations provides fundamental clarification of the effects of psychedelics on macroscale hierarchical processing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42258710/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Short-term effects of ocrelizumab on cortical pathology in patients with multiple sclerosis.",
+      "summary": "Cortical lesions (CLs) are a common finding in multiple sclerosis (MS) but data regarding the impact of treatment on their evolution are lacking. This study evaluates CLs status and new CLs accrual over two-year follow-up in a cohort of patients treated with ocrelizumab (OCR) and the correlation with brain structural metrics and clinical measures. 87 relapsing-remitting MS patients [59 (67.8%) women, mean (SD) age 39.2 (10) years, median (IQR) baseline EDSS 2.5 (1.75)] underwent clinical, neuropsychological assessment and brain 3T MRI at baseline and two years after OCR start. CLs were manually segmented using Artificial Intelligence-Driven Imaging Reconstruction (AIDIR) sequences. At baseline, 21 patients (24.1%) had no CLs, 30 (34.5%) had 1 CL, 17 (19.5%) had 2 CLs, and 19 (21.8%) had ≥ 3 CLs. Higher CLs number and volume were associated with lower normalized TBV (r = -0.29, p = 0.01; r = -0.23, p = 0.03) and SDMT-raw score (r = -0.28, p = 0.02; r = -0.26, p = 0.03). After multiple-comparison correction, CLs number remained associated with normalized TBV. 14 patients (16.1%) experienced white matter lesions (WMLs) accrual and 15 patients (17.2%) disability progression over follow-up, but none of them developed new CLs. We observed the formation of only one CL at follow-up in a female patient that showed improved physical disability and no cognitive decline without concurrent WMLs accrual. OCR might also prevent lesion-driven cortical atrophy. These data seem to confirm the role of cortical pathology as an early marker of disease severity in MS, support OCR efficacy in minimizing lesion accrual and suggest distinct mechanisms underlying CLs and WMLs development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42258988/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neurotherapeutics",
+      "journal_issn": "1878-7479",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Brain correlates of linguistic-cognitive stimulation in neurotypical and Atypical older adult populations: A systematic review.",
+      "summary": "BACKGROUND: Grounded in the perspective of language as a high-order cognitive organizer, language engages multiple domains, suggesting that linguistic stimulation may strengthen cognitive resources holistically. Despite its potential for promoting neuroplasticity and mitigating decline, the underlying neural mechanisms and their correlation with behavioral outcomes remain unclear. OBJECTIVE: To synthesize neuroimaging evidence on the effects of linguistic-cognitive interventions on brain structure and function across the cognitive aging continuum (healthy, SCD, MCI, and AD). METHODS: Following PRISMA 2020, we searched articles produced between 2009 and 2024 with randomized controlled trials evaluating neuroimaging outcomes following linguistic-cognitive interventions. Ten studies met inclusion criteria. Data were independently extracted by four reviewers, and risk of bias was assessed with Cochrane RoB 2.0. Neuroimaging modalities included structural measures (VBM, DTI) and functional measures (rs-fMRI, PET). RESULTS: Samples ranged from 30 to 160 participants, aged 64-82 years, with 3.4-17.1 years of education. Six studies reported significant post-intervention brain changes (five functional, one structural). Functional effects were mainly observed in the default mode network, frontoparietal regions, and hippocampal circuits. Structural findings included gray matter increases and improved white matter integrity. Neuroimaging effects were more frequent in MCI/AD and in in-person versus online/hybrid interventions. However, six studies found no significant behavioral improvement despite neural changes. Risk of bias was high in seven studies. CONCLUSIONS: Linguistic-cognitive interventions can modulate brain connectivity and, less consistently, structure in aging. Neuroimaging may be a sensitive biomarker of intervention efficacy, but larger, longitudinal, multimodal trials with ecologically valid outcomes are needed.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42259152/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Cogn",
+      "journal_issn": "1090-2147",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "[Rare very late-onset neuromyelitis optica].",
+      "summary": "BACKGROUND: Neuromyelitis optica (NMO) and its related forms, collectively referred to as neuromyelitis optica spectrum disorders (NMOSD), are rare but often severe autoimmune diseases of the central nervous system (CNS). NMOSD predominantly affects women, most commonly between the ages of 30 and 40 years. Aquaporin-4 antibodies (AQP4-IgG) are detectable in approximately 80% of patients with NMOSD.The cardinal clinical manifestations include transverse myelitis, optic neuritis (ON), as well as brainstem and diencephalic involvement.Most NMOSD cases follow a relapsing-remitting course without progression between relapses. NMOSD relapses are often severe and result in incomplete remission and permanent disability. Monophasic courses are rare. METHODS: We report the case of an 86-year-old female patient who presented with subacute occipital headache and right leg hemiparesis, which progressed to tetraparesis. RESULTS: Magnetic resonance imaging (MRI) revealed a longitudinally extensive transverse myelitis (LETM) from cervical vertebrae C1 to C5. Cerebrospinal fluid (CSF) analysis demonstrated mild pleocytosis, elevated protein levels, and the presence of oligoclonal bands. Aquaporin-4 antibody testing returned strongly positive, confirming the diagnosis of NMOSD. The disease was classified as very late-onset NMOSD (VLO-NMOSD). Treatment with high-dose intravenous methylprednisolone for five days resulted in symptom improvement. Approximately eleven weeks post-discharge, therapy with the anti-CD20 monoclonal antibody rituximab was initiated. The patient's condition remained stable under maintenance therapy, with no further relapses. CONCLUSIONS: NMOSD can manifest even in very advanced age, beyond 75 years. Given the patient's initial presentation with right leg hemiparesis, advanced age, and multiple vascular risk factors, NMOSD was not initially suspected. The accompanying occipital headaches often exhibit migraine-like characteristics.Treatment with intravenous methylprednisolone resulted in symptom improvement, and rituximab was well tolerated.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42259378/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Fortschr Neurol Psychiatr",
+      "journal_issn": "1439-3522",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Complementary cross-gated fusion framework for brain tumor segmentation using MR images (CoGFu Net).",
+      "summary": "BACKGROUND: Segmentation of brain tumors using magnetic resonance (MR) images is essential for early diagnosis and effective treatment planning, particularly in areas where tumor subregions exhibit diverse intensity patterns and overlapping boundaries between tumor and normal tissues. Existing methods mainly emphasize global and local contextual tumor representation, often overlooking critical features like structural boundary details and inter feature learning. NEW METHOD: A novel model that combines complementary feature learning with cross-gated fusion. Complementary learning focuses on both contextual and structural information through two parallel processes: contextual semantic learning and fine edge learning. These learnings extract global semantic context and local edge-aware details. A cross-gated fusion mechanism is introduced in the skip connections to effectively combine these complementary features, adaptively balancing semantic richness with structural precision. A graphical user interface is also developed to facilitate subregion-aware prediction and metric evaluation. RESULTS: On the BraTS2020 dataset, the proposed model achieved mean dice coefficient (DC) of 0.9489, 0.8581, and 0.8352 in whole tumor (WT), tumor core (TC), and enhanced tumor (ET) regions, respectively, and mean intersection over union (IOU) of 0.8961, 0.8572, and 0.8093 in WT, TC and ET regions. The model achieved DC of 0.9365 and IOU of 0.8893 on the LGG-MRI dataset. COMPARISON WITH EXISTING METHODS: In the comparative analysis, DC improved by 3.3%, 5.7%, and 3.3% on BraTS2020, BraTS2021, and LGG-MRI datasets respectively, demonstrating the robustness and adaptability of the model. CONCLUSIONS: The proposed framework addresses the challenges across multi-class and single-tumor regions and facilitates practical subregion-aware clinical deployment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42259446/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Neurosci Methods",
+      "journal_issn": "1872-678X",
+      "published_date": "2026-06-07",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Distributed control circuits across a brain-and-cord connectome.",
+      "summary": "Just as genomes revolutionized molecular genetics, connectomes (maps of neurons and synapses) are transforming neuroscience. To date, the only organisms with complete connectomes are worms1-3, sea squirts4, and comb jellies5 (103-104 synapses). By contrast, the fruit fly is more complex (108 synaptic connections), with a brain that supports learning and spatial memory6,7 and an intricate ventral nerve cord analogous to the vertebrate spinal cord8-12. Here we report the first densely-reconstructed adult fly connectome that unites the brain and ventral nerve cord, and we leverage this resource to investigate principles of neural control. We show that effector neurons (motor neurons, endocrine cells, and efferent neurons targeting the viscera) are primarily influenced by sensory neurons in the same body part, forming local feedback loops. These local loops are linked by long-range circuits involving ascending and descending neurons organized into behavior-centric modules. Single ascending and descending neurons are often positioned to influence the voluntary movements of multiple body parts, together with the endocrine cells or visceral organs that support those movements. Brain regions involved in learning and navigation supervise these circuits. These results reveal an architecture that is distributed, parallelized, and embodied, reminiscent of distributed control architectures in engineered systems13,14.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42259917/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nature",
+      "journal_issn": "1476-4687",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": 48.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NATURE"
+    },
+    {
+      "title": "Prognostic enrichment or treatment-target modification? Interpreting MRI-defined asymptomatic brain lesions in blood-pressure research.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42260108/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Hypertens Res",
+      "journal_issn": "1348-4214",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:38+00:00",
+    "version": 1,
+    "summary": "Captured 17 research items. Preference focus is brain-imaging analysis and disease mechanisms: 16 high-priority, 1 medium-priority, 0 low-priority. Mechanism-related items: 15; analysis-method items: 17.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 17,
+      "high_priority": 16,
+      "medium_priority": 1,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 15
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 17
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain correlates of linguistic-cognitive stimulation in neurotypical and Atypical older adult populations: A systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42259152/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Impaired Glymphatic Function and Post-stroke Cognitive Decline after Intracerebral Hemorrhage: A Serial Neuroimaging Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42257804/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Resting-state functional connectivity and cognitive impairment after COVID-19 infection: Evidence from a large-scale fMRI study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42252837/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A comprehensive mechanosensory connectome reveals a somatotopically organized neural circuit architecture controlling stimulus-aimed grooming of the Drosophila head.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42253234/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain neuromarkers predict self- and other-related mentalizing across adult, clinical, and developmental samples.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42251044/",
+        "published_date": "2026-06-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Short-term effects of ocrelizumab on cortical pathology in patients with multiple sclerosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42258988/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Glymphatic system dysfunction in epilepsy: a systematic review and meta-analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42250499/",
+        "published_date": "2026-06-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Emerging Applications of Artificial Intelligence in Pediatric Care.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42250093/",
+        "published_date": "2026-06-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Complementary cross-gated fusion framework for brain tumor segmentation using MR images (CoGFu Net).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42259446/",
+        "published_date": "2026-06-07",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Psychedelics disrupt hierarchical cortical propagations in the default mode network of humans and mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42258710/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Distributed control circuits across a brain-and-cord connectome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42259917/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "[Rare very late-onset neuromyelitis optica].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42259378/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Radiographic resolution of presumed cerebellar tuberculoma during extended BPaLM-based therapy for disseminated multidrug-resistant tuberculosis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42257795/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Updated French OFSEP recommendations for multiple sclerosis MRI: alignment with the 2024 McDonald criteria.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42250869/",
+        "published_date": "2026-06-06",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Variability in medial prefrontal cortex responses to smiles in human infants is linked to genetic variation in the oxytocin system.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42257672/",
+        "published_date": "2026-06-08",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Comment on \"Deep brain stimulation and magnetic resonance-guided focused ultrasound in Parkinsonism and related disorders: State-of-the-Art and future prospects\".",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42250967/",
+        "published_date": "2026-06-06",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Prognostic enrichment or treatment-target modification? Interpreting MRI-defined asymptomatic brain lesions in blood-pressure research.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42260108/",
+        "published_date": "2026-06-08",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

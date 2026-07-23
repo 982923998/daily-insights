@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-28",
+  "articles": [
+    {
+      "title": "Arrhythmias, dementia risk, and neurodegeneration: a cohort study.",
+      "summary": "BACKGROUND AND AIMS: Evidence linking arrhythmias to dementia predominantly focuses on atrial fibrillation/flutter (AF), leaving non-AF subtypes under-researched. This study investigated associations of multiple incident and accumulated arrhythmia exposures with dementia and brain magnetic resonance imaging (MRI) to address these gaps. METHODS: UK Biobank participants without baseline arrhythmias, dementia, or organic central nervous system diseases were included. Cox models estimated associations of incident arrhythmia (AR), AF, bradyarrhythmia/conduction block (Brady/Block), ventricular arrhythmia (VA), and accumulated arrhythmia exposure (types) with all-cause, vascular and Alzheimer's dementia. Specific subtypes-including atrioventricular block (AVB), sinus node dysfunction (SND), and bundle branch block (BBB)-were also evaluated. Arrhythmia-related brain MRI alterations were analysed. RESULTS: Among 391 078 participants (median follow-up 13.35 years), 50 243 (12.85%) developed incident AR (AF, n = 33 182; Brady/Block, n = 21 244; VA, n = 6296), and 10 564 (2.70%) developed all-cause dementia (vascular, n = 2034; Alzheimer, n = 4329). Incident AR, AF, Brady/Block, and VA were independently associated with increased risk of all dementia outcomes (fully adjusted Model 3). Accumulated arrhythmia exposure exhibited a positive dose-response relationship with dementia risk, driven largely by AF+Brady/Block. Concurrent AF and AVB/SND (or BBB) showed higher dementia risk than either exposure alone, whereas pacemaker implantation related to lower risk than AVB/SND without pacing. These associations remained robust to incident stroke or cardiac arrest, genetic dementia risk, baseline cognition, and sensitivity analyses. Non-AF arrhythmias provided incremental predictive value beyond conventional risk factors, similar to AF. Brain MRI analysis revealed arrhythmia-related neurodegenerative changes, including brain atrophy, choroid-plexus enlargement, and white-matter injury. CONCLUSIONS: Incident arrhythmias (both AF and non-AF) exhibit independent and accumulated associations with dementia risk and consistent neurodegeneration. These findings extend the arrhythmia-dementia association beyond AF and suggest multi-arrhythmic framework for dementia risk assessment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42200489/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Eur Heart J",
+      "journal_issn": "1522-9645",
+      "published_date": "2026-05-27",
+      "date": "2026-05-28",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Serum Lipoprotein Subclasses as Predictors of Tensor-Based Morphometry Atrophy in the Alzheimer Disease Continuum: A Brief Report.",
+      "summary": "OBJECTIVE: To evaluate whether serum lipoprotein subclasses and related metabolites quantified by nuclear magnetic resonance (NMR) are associated with longitudinal tensor-based morphometry (TBM) atrophy in mild cognitive impairment (MCI). METHODS: Secondary analysis of ADNI-GO and ADNI-2 participants with a baseline diagnosis of MCI, baseline serum Nightingale NMR metabolomics, and at least 2 quality-controlled T1-weighted MRI examinations processed with the Mayo TBM-SyN pipeline. The TBM-SyN summary score was the mean annualized log-Jacobian volume change across 31 Alzheimer disease (AD)-vulnerable regions, derived from baseline-to-follow-up symmetric registration. Linear mixed-effects models adjusted for age and included subject-level random intercepts. Associations with the Clinical Dementia Rating (CDR) and the Alzheimer Disease Assessment Scale (ADAS) were tested. RESULTS: The analytic cohort included 93 participants (mean age: 65.23 y, SD: 6.47; 51 male, 54.8%). Eight biomarkers were significantly associated with TBM-SyN atrophy: medium HDL free cholesterol percentage (M_HDL_FC_PCT; β =-0.0020, P =0.0016), apolipoprotein B ( P =0.005), apolipoprotein A1 ( P =0.017), extra-large HDL particle concentration (XL_HDL_P; P =0.029), medium HDL particle concentration ( P =0.028), medium HDL cholesterol ( P =0.025), medium HDL cholesterol esters ( P =0.031), and glycerol ( P =0.038). XL_HDL_P alone was associated with the CDR score ( P =0.03). CONCLUSIONS: Specific HDL-related lipoprotein subclasses, apolipoproteins, and glycerol are associated with TBM-derived structural atrophy in MCI, supporting peripheral lipid metabolism as a candidate scalable correlate of early neurodegeneration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42200516/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Alzheimer Dis Assoc Disord",
+      "journal_issn": "1546-4156",
+      "published_date": "2026-05-27",
+      "date": "2026-05-28",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Brain maintenance biomarkers from structural and functional interactions in aging and neurodegeneration.",
+      "summary": "Brain maintenance may help explain why some individuals remain cognitively resilient despite aging, but its biological basis is not well understood. Here, we show that brain maintenance can be quantified from the relationship between brain structure and function. Using structural MRI and resting-state functional MRI from 1280 older adults, we built a model based on young adults to estimate the functional capacity supported by preserved brain structure, and defined brain maintenance as the difference between predicted and observed function. Brain maintenance was most evident in prefrontal, cingulate, and precuneus regions and was enriched in higher-order functional networks. Higher brain maintenance was associated with slower cognitive decline, lower amyloid-β burden, and domain-specific variation in memory, attention, and processing speed. These findings provide a biologically grounded marker of resilience in healthy and pathological aging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204140/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-05-27",
+      "date": "2026-05-28",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    },
+    {
+      "title": "Lifespan normative modeling of brain microstructure.",
+      "summary": "Normative models of brain metrics based on large populations could be extremely valuable for detecting brain abnormalities in patients with a variety of disorders, including degenerative, psychiatric and neurodevelopmental conditions, but no such models exist for the brain's white matter (WM) microstructure. Here we present a large-scale normative model of brain WM microstructure - based on 19 international diffusion MRI datasets covering almost the entire lifespan (totaling N = 54,583 individuals; age: 4-91 years). We extracted regional diffusion tensor imaging (DTI) metrics using a standardized analysis and quality control protocol and used hierarchical Bayesian regression (HBR) to model the statistical distribution of derived WM metrics as a function of age and sex. We extracted the average lifespan trajectories and corresponding centile curves for each WM region. We illustrate the utility of the method by applying it to detect and visualize profiles of WM microstructural deviations in a variety of contexts: in mild cognitive impairment, Alzheimer's disease, and 22q11.2 deletion syndrome - a neurogenetic condition that markedly increases risk for schizophrenia. The resulting large-scale model provides a common reference to identify disease effects on the brain's microstructure in individuals or groups, and to compare disorders, and discover factors affecting WM abnormalities. The derived normative models are a valuable resource publicly available to the community, adaptable and extendable to future datasets as the available data expands.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204143/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-05-27",
+      "date": "2026-05-28",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    },
+    {
+      "title": "Ex vivo T2*-weighted MRI and quantitative susceptibility mapping reflect spatial iron accumulation observed on histology in frontotemporal lobar degeneration.",
+      "summary": "Iron accumulation is known to be involved in frontotemporal lobar degeneration (FTLD) and possibly with a different spatial pattern in FTLD with tau (FTLD-tau) versus TDP-43 (FTLD-TDP) pathology. In this study, we aimed to visualize the spatial distribution of iron in ex vivo brain tissue with FTLD and healthy controls using both histology and MRI. High resolution multi-echo T2*-weighted 7T MRI was performed on ex vivo tissue of the frontal and temporal cortex of 14 FTLD cases (6 FTLD-tau, 8 FTLD-TDP) and 11 healthy controls (HC) to obtain T2*-weighted images and quantitative susceptibility maps (QSM). These tissue blocks were then stained for iron. The spatial iron distribution was assessed visually by different scoring features on the three modalities (T2*-weighted MRI, QSM, and histology) and analyzing cortical layer profiles of the signal intensity. We found more iron accumulation in the temporal cortex of FTLD cases compared to HC, displayed by higher visual ratings and lower signal intensity values on cortical layer profiles. Histology showed a good correlation with T2*-weighted MRI. QSM offered complementary information compared to T2*-weighted MRI, particularly for identifying distinct histological features of iron accumulation within the subcortical U-fibers. We conclude that iron accumulation is involved in the disease process of FTLD and that T2*-weighted MRI and QSM can be used as a noninvasive imaging modality to study cortical and subcortical iron accumulation in FTLD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42208872/",
+      "category": "Alzheimer",
+      "source": "pubmed",
+      "journal": "Neurobiol Dis",
+      "journal_issn": "1095-953X",
+      "published_date": "2026-05-27",
+      "date": "2026-05-28",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:32+00:00",
+    "version": 1,
+    "summary": "Captured 5 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 5; analysis-method items: 5.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 5,
+      "high_priority": 5,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 5
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 5
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Lifespan normative modeling of brain microstructure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42204143/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Brain maintenance biomarkers from structural and functional interactions in aging and neurodegeneration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42204140/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Serum Lipoprotein Subclasses as Predictors of Tensor-Based Morphometry Atrophy in the Alzheimer Disease Continuum: A Brief Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42200516/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Ex vivo T2*-weighted MRI and quantitative susceptibility mapping reflect spatial iron accumulation observed on histology in frontotemporal lobar degeneration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42208872/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Arrhythmias, dementia risk, and neurodegeneration: a cohort study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42200489/",
+        "published_date": "2026-05-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

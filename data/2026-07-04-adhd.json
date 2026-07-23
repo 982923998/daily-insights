@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-04",
+  "articles": [
+    {
+      "title": "Sub-second fluctuations between top-down and bottom-up modes distinguish diverse human brain states.",
+      "summary": "Information continuously flows between regions of the human brain, forming patterns that shift across states of consciousness, cognitive modes, and neuropsychiatric conditions. While functional magnetic resonance imaging (fMRI) reveals large-scale activity changes over seconds, the electrophysiological dynamics governing sub-second reconfiguration remain poorly understood. Here, relative phase analysis (RPA), a method leveraging phase lead/lag relationships, is introduced to capture whole-brain dynamics with millisecond precision in real time from electroencephalography (EEG). RPA reveals sub-second alternations, occurring approximately every 200 ms, between two dominant modes of information flow: a top-down mode, where anterior regions drive posterior activity, and a bottom-up mode, characterized by reverse directionality. These dynamics are most prominent during wakefulness, gradually diminish under anesthesia, and exhibit pathological imbalance in attention-deficit/hyperactivity disorder (ADHD). Simultaneous EEG-fMRI recordings demonstrate that top-down dynamics coincide with increased activity of higher-order cognitive networks, whereas bottom-up dynamics correspond to heightened activity in sensory networks. A connectome-based coupled-oscillator model reproduces these transitions, indicating that sub-second fluctuations emerge naturally from inter-regional interactions shaped by underlying structural connectivity. This study establishes RPA as a framework for tracking whole-brain dynamics precisely in real time and identifies sub-second top-down/bottom-up alternations as a fundamental organizing principle of human brain function and consciousness.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42392069/",
+      "category": "ADHD",
+      "source": "pubmed",
+      "journal": "Curr Biol",
+      "journal_issn": "1879-0445",
+      "published_date": "2026-07-02",
+      "date": "2026-07-04",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T12:44:55+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Sub-second fluctuations between top-down and bottom-up modes distinguish diverse human brain states.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42392069/",
+        "published_date": "2026-07-02",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}
