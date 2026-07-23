@@ -1,14 +1,14 @@
 #!/bin/bash
 # 抓取配置：模型与提示词模板统一维护
 
-# 可用示例：gpt-5.3-codex、gpt-5.2-codex、gpt-5-codex、gpt-5
-MODEL_ID="${MODEL_ID:-gpt-5.3-codex}"
+# 可用示例：gpt-5.4、gpt-5.3-codex、gpt-5.2-codex、gpt-5
+MODEL_ID="${MODEL_ID:-gpt-5.4}"
 
 # 当天抓取失败时的降级模型（空则不降级）
 FALLBACK_MODEL_ID="${FALLBACK_MODEL_ID:-gpt-5.2-codex}"
 
-# 可选：指定 Codex provider（默认留空，使用你本机 codex 的默认 provider）
-CODEX_PROVIDER="${CODEX_PROVIDER:-}"
+# 指定 Codex provider。服务器全局配置可能指向过期中转，项目默认走 OpenAI。
+CODEX_PROVIDER="${CODEX_PROVIDER:-openai}"
 
 # 抓取完成后自动提交并推送 data/ 到 GitHub（1=开启，0=关闭）
 AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-1}"
@@ -19,35 +19,6 @@ CODEX_TIMEOUT_SECONDS="${CODEX_TIMEOUT_SECONDS:-600}"
 # codex 失败重试次数与重试间隔（秒）。
 CODEX_RETRY_ATTEMPTS="${CODEX_RETRY_ATTEMPTS:-3}"
 CODEX_RETRY_DELAY_SECONDS="${CODEX_RETRY_DELAY_SECONDS:-20}"
-
-AI_PROMPT_TEMPLATE='你必须严格执行 daily-ai-news 技能工作流，路径如下：
-- 技能文件：__AI_SKILL_PATH__
-- 来源目录：__AI_SOURCES_DIR__
-- 输出规范：__AI_OUTPUT_SPEC_PATH__
-
-强制步骤（不得跳过）：
-1. 先读取 __AI_SKILL_PATH__，按其中 Phase 0/1/2/3 顺序执行。
-2. 至少读取并遵循这些来源规则文件：github.md、hackernews.md、reddit.md、major-releases.md、output.md。
-3. 按技能中的日期确认、过滤与去重规则处理候选内容。
-4. 抓取范围为最近 3 天（含 __TODAY__）。
-
-执行限制（必须遵守）：
-1. 禁止开启子任务/子代理，不要做额外规划，直接执行抓取。
-2. 禁止扫描仓库、禁止读取历史 data 文件；除技能文件与来源文件外，不读其他本地文件。
-3. 最多执行 8 次外部请求（Web Search + WebFetch + curl 总和）。
-4. 优先使用结构化来源：OpenAI RSS、Google AI RSS、HN Algolia API、Reddit JSON、Anthropic News。
-5. 搜索结束后必须立即写文件并结束，不要无限重试、不要停在提问阶段。
-6. 必须在单次运行超时前写出结果文件。
-7. 若结果不足，允许输出较少条目；若完全无结果，写空数组。
-
-输出要求（必须遵守）：
-1. 必须直接写入 "__DATA_FILE__"（UTF-8 JSON，不要只在对话输出）。
-2. 若文件已存在，先读取后合并并按 title 去重；若不存在则直接新建。
-3. 每条 AI 文章必须包含：title、summary、url、category、subcategory、published_date、date；summary 不得为空。
-4. category 固定为 "AI"；published_date 为 YYYY-MM-DD 格式真实发布日期（最近 3 天内）。
-5. subcategory 取值范围：GitHub Trending / HN Show HN / HuggingFace Spaces / Product Hunt / Major Release / Twitter/X / Reddit / AI for Science。
-6. 顶层结构固定：{"date":"__TODAY__","articles":[...]}。
-'
 
 ACADEMIC_PROMPT_TEMPLATE='你的任务是检索 __DOMAIN_LABEL__ 领域的学术论文（今天：__TODAY__）。
 
@@ -81,11 +52,12 @@ Required exact structure:
   "date":"__TODAY__",
   "articles":[
     {
-      "title":"DeepMind Testing",
-      "summary":"Dummy entry for pipeline validation.",
-      "url":"https://example.com/deepmind-testing",
-      "category":"AI",
-      "subcategory":"Major Release",
+      "title":"Brain MRI Pipeline Testing",
+      "summary":"Dummy Brain MRI entry for pipeline validation.",
+      "url":"https://example.com/brain-mri-pipeline-testing",
+      "category":"Brain MRI",
+      "source":"pubmed",
+      "journal":"Test Journal",
       "published_date":"__TODAY__",
       "date":"__TODAY__"
     }

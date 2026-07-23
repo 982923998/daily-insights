@@ -9,7 +9,13 @@
       "source": "pubmed",
       "journal": "Science",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 45.8,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "SCIENCE"
     },
     {
       "title": "Spatio-Temporal Hypergraph Attention Networks for Brain Disease Analysis.",
@@ -19,7 +25,14 @@
       "source": "pubmed",
       "journal": "IEEE Trans Image Process",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "lookup_error",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "network_or_parse_error"
     },
     {
       "title": "From sunburst to mother-in-law sign in intracranial meningioma: a matter of time.",
@@ -29,7 +42,13 @@
       "source": "pubmed",
       "journal": "Acta Neurol Belg",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 2.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Acta Neurologica Belgica"
     },
     {
       "title": "Risk Stratification and Ventilator Liberation in Neuromyelitis Optica Spectrum Disorder-Related Central Respiratory Failure.",
@@ -39,7 +58,13 @@
       "source": "pubmed",
       "journal": "Neurocrit Care",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 3.6,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Neurocritical Care"
     },
     {
       "title": "Characterization of Arterial and Sinus Blood Flow Dynamics in the Rat Brain Using Phase-Contrast MRI.",
@@ -49,7 +74,13 @@
       "source": "pubmed",
       "journal": "Ann Biomed Eng",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 5.4,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "ANNALS OF BIOMEDICAL ENGINEERING"
     },
     {
       "title": "Longitudinal changes of neurocognitive function and ALPS-index in patients with brain tumors receiving brain irradiation.",
@@ -59,7 +90,13 @@
       "source": "pubmed",
       "journal": "J Neurooncol",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 3.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Journal of Neuro-Oncology"
     },
     {
       "title": "FLAIR vascular hyperintensity: association with infarction and vascular lesion burden in patients with middle cerebral artery stenosis.",
@@ -69,7 +106,13 @@
       "source": "pubmed",
       "journal": "Eur Radiol",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 4.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "European Radiology"
     },
     {
       "title": "ESR Essentials: neuroimaging of pediatric headaches in the emergent and non-emergent setting-practice recommendations by the European Society of Neuroradiology.",
@@ -79,7 +122,13 @@
       "source": "pubmed",
       "journal": "Eur Radiol",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 4.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "European Radiology"
     },
     {
       "title": "Brain volume and functional connectivity in firefighters with posttraumatic stress disorder.",
@@ -89,7 +138,13 @@
       "source": "pubmed",
       "journal": "Psychol Trauma",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 2.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Psychological Trauma-Theory Research Practice and Policy"
     },
     {
       "title": "Nerve-rattling infections! Clinical and radiological tracing of cranial nerve palsies to infectious skull base osteomyelitis.",
@@ -99,7 +154,13 @@
       "source": "pubmed",
       "journal": "Indian J Ophthalmol",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 1.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "INDIAN JOURNAL OF OPHTHALMOLOGY"
     },
     {
       "title": "Advanced MRI of the choroid plexus: Applications in aging and dementia.",
@@ -109,7 +170,13 @@
       "source": "pubmed",
       "journal": "J Cereb Blood Flow Metab",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 4.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF CEREBRAL BLOOD FLOW AND METABOLISM"
     },
     {
       "title": "Posterior communicating artery variation is linked to compromised cerebral hemodynamics in middle-aged and older adults.",
@@ -119,7 +186,13 @@
       "source": "pubmed",
       "journal": "J Cereb Blood Flow Metab",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 4.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF CEREBRAL BLOOD FLOW AND METABOLISM"
     },
     {
       "title": "Ultra-high field (31)P functional magnetic resonance spectroscopy reveals NAD(+) dynamics in brain energy metabolism during visual stimulation.",
@@ -129,7 +202,13 @@
       "source": "pubmed",
       "journal": "J Cereb Blood Flow Metab",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 4.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF CEREBRAL BLOOD FLOW AND METABOLISM"
     },
     {
       "title": "A rapid educational intervention to enhance brain MRI interpretation skills of radiology professionals for dementia diagnosis in Uganda: a pre- and post-intervention study.",
@@ -139,7 +218,13 @@
       "source": "pubmed",
       "journal": "BMC Med Educ",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": 3.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "BMC Medical Education"
     },
     {
       "title": "[Expert Consensus on Multidisciplinary Diagnosis and Treatment of Small Cell Carcinoma of the Esophagus (2026 Edition)].",
@@ -149,7 +234,14 @@
       "source": "pubmed",
       "journal": "Zhonghua Zhong Liu Za Zhi",
       "published_date": "2026-03-12",
-      "date": "2026-03-13"
+      "date": "2026-03-13",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "lookup_error",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "network_or_parse_error"
     }
   ],
   "digest": {

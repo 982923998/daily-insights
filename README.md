@@ -1,11 +1,11 @@
 # 每日资讯 · Daily Insights
 
-每日自动抓取 AI 与脑影像相关学术内容，生成可浏览的本地仪表盘（含推荐摘要、期刊与影响因子信息）。
+每日自动抓取 Brain MRI 相关学术内容，生成可浏览的本地仪表盘（含疾病分流、推荐摘要、期刊与影响因子信息）。
 
 ## 主要功能
 
-- AI 资讯抓取：按当天日期抓取并去重
-- 学术领域抓取：按领域配置文件执行 PubMed 检索
+- 单次 MRI 检索：每天只执行 `brainmri` PubMed 检索
+- 疾病分流：按关键词复制到 Autism / Depression / ADHD / Alzheimer's / Parkinson's；未命中疾病的保留在 Brain MRI
 - 自动增强学术条目：补全期刊、ISSN、影响因子状态
 - Digest 推荐：每个数据文件自动生成 `digest`（优先级与推荐项）
 - 数据质量门禁：抓取后执行 schema/字段/去重校验（不通过即中止后续处理）
@@ -22,7 +22,7 @@ Daily Insights/
 │   └── index.html                    # 前端（React + Tailwind 单文件）
 ├── scripts/
 │   ├── server.py                     # 本地 HTTP 服务（页面 + API + SSE）
-│   ├── fetch.sh                      # 抓取入口（ai/all/指定领域）
+│   ├── fetch.sh                      # 抓取入口（brainmri/all/指定领域）
 │   ├── fetch_config.sh               # 模型与 prompt、自动 git 同步开关
 │   ├── sync_impact_factors.py        # LetPub IF 同步（含 unresolved 在线补抓）
 │   ├── generate_digest.py            # 生成 digest 推荐
@@ -33,7 +33,6 @@ Daily Insights/
 │   └── letpub/                        # LetPub 主库 + 手工补抓补充库
 ├── logs/                             # 定时任务日志
 ├── .agents/skills/
-│   ├── daily-ai-news/
 │   └── academic-search/sources/*.md  # 学术领域配置
 ├── 启动.command                       # 双击启动本地服务并打开网页
 └── install.sh                        # 安装向导（含桌面 app）
@@ -64,30 +63,27 @@ python3 scripts/server.py
 3. 抓取数据
 
 ```bash
-./scripts/fetch.sh ai                 # 仅 AI
-./scripts/fetch.sh brainmri           # 仅 Brain MRI
-./scripts/fetch.sh autism depression  # 指定多个学术领域
-./scripts/fetch.sh all                # AI + 全部学术领域
+./scripts/fetch.sh brainmri           # Brain MRI + 疾病分流
+./scripts/fetch.sh autism depression  # 等价于 brainmri：不会分别检索疾病
+./scripts/fetch.sh all                # 等价于 brainmri
 ./scripts/fetch.sh if                 # 仅同步期刊 IF（不抓论文/新闻）
 ./scripts/fetch.sh if --reference user-manual-20260228 --journal "J Alzheimers Dis"
 ```
 
 ## 可抓取领域（当前）
 
-- `ai`（AI News）
+- `brainmri`（Brain MRI；未命中疾病的 MRI 文献）
 - `autism`
 - `depression`
 - `adhd`
 - `ad`（Alzheimer's）
 - `pd`（Parkinson's）
-- `mefmri`（Multi-Echo fMRI）
-- `brainmri`
 
 领域配置位于：`.agents/skills/academic-search/sources/*.md`
 
-## 抓取链路（学术）
+## 抓取链路
 
-`fetch.sh`（按领域触发）→ `sync_impact_factors.py`（LetPub IF 同步 + unresolved 维护）→ `generate_digest.py`（推荐摘要）
+`fetch.sh brainmri` → `split_brainmri_by_disease.py`（疾病分流）→ `sync_impact_factors.py`（LetPub IF 同步 + unresolved 维护）→ `generate_digest.py`（推荐摘要）
 
 IF 同步逻辑要点：
 
@@ -137,14 +133,14 @@ python3 scripts/sync_impact_factors.py \
 
 编辑 `scripts/fetch_config.sh`：
 
-- `MODEL_ID`：抓取使用的模型（默认 `gpt-5.3-codex`）
-- `CODEX_PROVIDER`：可选，指定 Codex provider（默认留空，跟随本机 `codex` 默认配置）
+- `MODEL_ID`：抓取使用的模型（默认 `gpt-5.4`）
+- `CODEX_PROVIDER`：指定 Codex provider（默认 `openai`，避免服务器全局配置走过期中转）
 - `AUTO_GIT_SYNC`：是否抓取后自动同步 GitHub（默认 `1`）
 - `CODEX_TIMEOUT_SECONDS`：单次抓取超时秒数（默认 `600`，即 10 分钟；`0` 为不限制）
 
 ```bash
-MODEL_ID="gpt-5.3-codex"
-CODEX_PROVIDER=""
+MODEL_ID="gpt-5.4"
+CODEX_PROVIDER="openai"
 AUTO_GIT_SYNC="1"
 CODEX_TIMEOUT_SECONDS="600"
 ```
@@ -158,19 +154,13 @@ CODEX_TIMEOUT_SECONDS="600"
 ```bash
 ./scripts/schedule.sh install
 ./scripts/schedule.sh status
-./scripts/schedule.sh run-now ai
 ./scripts/schedule.sh run-now brainmri
-./scripts/schedule.sh run-now academic
-./scripts/schedule.sh run-now mefmri
 ./scripts/schedule.sh uninstall
 ```
 
 当前计划：
 
-- AI：每天 `08:00`
-- Brain MRI：每天 `08:30`
-- 学术批量（autism/depression/adhd/ad/pd）：每 `3` 天
-- ME-fMRI：每 `7` 天
+- Brain MRI：每天 `08:30`，抓取后自动分流到疾病标签
 
 日志目录：`logs/`
 
@@ -179,7 +169,7 @@ CODEX_TIMEOUT_SECONDS="600"
 - `GET /api/dates`：可用日期
 - `GET /api/domains`：领域元数据
 - `GET /api/status`：抓取任务状态
-- `POST /api/fetch`：触发抓取（body: `{"mode":"ai"}` 等）
+- `POST /api/fetch`：触发抓取（body: `{"mode":"brainmri"}` 等）
 - `GET /api/events?mode=<id>`：SSE 日志流
 
 ## 数据格式
@@ -228,7 +218,7 @@ CODEX_TIMEOUT_SECONDS="600"
 
 4. 抓取长时间无响应
 - 默认单次抓取 10 分钟超时（`CODEX_TIMEOUT_SECONDS="600"`）
-- 可临时调小超时快速失败排查，例如：`CODEX_TIMEOUT_SECONDS=120 ./scripts/fetch.sh ai`
+- 可临时调小超时快速失败排查，例如：`CODEX_TIMEOUT_SECONDS=120 ./scripts/fetch.sh brainmri`
 - 设为 `0` 可关闭超时限制（不推荐）
 
 ## License

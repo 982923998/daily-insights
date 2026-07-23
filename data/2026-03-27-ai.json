@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-27",
+  "articles": [
+    {
+      "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "summary": "一个低成本部署案例：将 AI agent 运行在 7 美元 VPS，并用 IRC 作为通信层，强调轻量可运维的代理基础设施。",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: Orloj – agent infrastructure as code (YAML and GitOps)",
+      "summary": "面向 AI agent 的 IaC 工具，使用 YAML 与 GitOps 管理代理部署与生命周期，便于团队化交付与回滚。",
+      "url": "https://github.com/OrlojHQ/orloj",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "summary": "将 AI 编码代理编排到 Kubernetes 的开源方案，目标是从 issue 到 PR 的自动化工程流水线。",
+      "url": "https://github.com/jonwiggins/optio",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-25",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "summary": "提出面向 Claude Code 的纯文本认知架构，用结构化提示与流程约束提升代理执行一致性与可复现性。",
+      "url": "https://lab.puga.com.br/cog/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-25",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "summary": "Google 发布 Gemini 3.1 Flash Live，重点改进实时音频 AI 的自然度与稳定性，适合语音交互和实时应用场景。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Build with Lyria 3, our newest music generation model",
+      "summary": "Google 面向开发者开放 Lyria 3 音乐生成模型，强调可编程接入与在创作工具中的落地能力。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-25",
+      "date": "2026-03-27"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-27T00:02:22+00:00",
+    "version": 1,
+    "summary": "Captured 6 AI items. Preference focus is new models and new technical architecture: 3 high-priority, 3 medium-priority, 0 low-priority. 0 business-heavy items were deprioritized.",
+    "preference": {
+      "focus": [
+        "new models",
+        "new technical architecture"
+      ],
+      "deprioritize": [
+        "M&A and business-only updates"
+      ]
+    },
+    "stats": {
+      "total": 6,
+      "high_priority": 3,
+      "medium_priority": 3,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "new models",
+        "count": 3
+      },
+      {
+        "topic": "new architecture",
+        "count": 4
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Build with Lyria 3, our newest music generation model",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases"
+      },
+      {
+        "title": "Show HN: A plain-text cognitive architecture for Claude Code",
+        "url": "https://lab.puga.com.br/cog/",
+        "published_date": "2026-03-25",
+        "priority": "high",
+        "reason": "mentions new models or releases; contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Orloj – agent infrastructure as code (YAML and GitOps)",
+        "url": "https://github.com/OrlojHQ/orloj",
+        "published_date": "2026-03-26",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+        "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+        "published_date": "2026-03-26",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      },
+      {
+        "title": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+        "url": "https://github.com/jonwiggins/optio",
+        "published_date": "2026-03-25",
+        "priority": "medium",
+        "reason": "contains architecture/agent/framework signals"
+      }
+    ]
+  }
+}

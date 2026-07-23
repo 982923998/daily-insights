@@ -6,12 +6,13 @@ color: "#0ea5e9"
 icon: crosshair
 skill: academic-search
 platforms: pubmed
+date_filter_days: 3
 order: 8
 ---
 
 ## PubMed 检索（Entrez E-utilities）
 
-使用 `reldate=2&datetype=crdt` 动态获取最近 2 天入库的文献（覆盖今天与前一天），无需硬编码日期。
+使用 `reldate=3&datetype=crdt` 动态获取最近 3 天入库的文献（覆盖今天、昨天与前天），无需硬编码日期。
 
 ### 检索词
 
@@ -30,7 +31,7 @@ term = (%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle
 ```
 
 ```bash
-curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=2&datetype=crdt&retmax=100&retmode=json"
+curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)&reldate=3&datetype=crdt&retmax=100&retmode=json"
 ```
 
 从返回 JSON 的 `esearchresult.idlist` 取出 PMID 列表。
@@ -59,8 +60,8 @@ curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=
 
 ## 过滤策略
 
-- `reldate=2&datetype=crdt` 是初筛（按入库日期取最近 2 天）
-- **二次过滤（必须执行）**：只保留 `published_date` 为今天或前一天（YYYY-MM-DD）的文章，丢弃更早日期的
+- `reldate=3&datetype=crdt` 是初筛（按入库日期取最近 3 天）
+- **二次过滤（必须执行）**：只保留 `published_date` 为今天、昨天或前天（YYYY-MM-DD）的文章，丢弃更早日期的
 - 按 `url` 去重
 
 ---

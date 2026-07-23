@@ -17929,3 +17929,452 @@ Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-26-ai.js
 [08:01:54] [OK] Post-fetch IF sync finished.
 [08:01:54] ✅ Task finished.
 [08:01:54] [INFO] AUTO_GIT_SYNC is disabled; skip git push.
+[08:00:04] 🚀 Starting task: ai
+[08:00:04] 📂 AI data file: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json
+[08:00:04] ⚡ [Fetch AI News] model: gpt-5.3-codex
+[08:00:04] ⏱️ [Fetch AI News] timeout: 600s
+[08:00:04] ──── PROMPT ────────────────────────
+  你必须严格执行 daily-ai-news 技能工作流，路径如下：
+  - 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/SKILL.md
+  - 来源目录：/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources
+  - 输出规范：/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/output.md
+  强制步骤（不得跳过）：
+  1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/SKILL.md，按其中 Phase 0/1/2/3 顺序执行。
+  2. 至少读取并遵循这些来源规则文件：github.md、hackernews.md、reddit.md、major-releases.md、output.md。
+  3. 按技能中的日期确认、过滤与去重规则处理候选内容。
+  4. 抓取范围为最近 3 天（含 2026-03-27）。
+  执行限制（必须遵守）：
+  1. 禁止开启子任务/子代理，不要做额外规划，直接执行抓取。
+  2. 禁止扫描仓库、禁止读取历史 data 文件；除技能文件与来源文件外，不读其他本地文件。
+  3. 最多执行 8 次外部请求（Web Search + WebFetch + curl 总和）。
+  4. 优先使用结构化来源：OpenAI RSS、Google AI RSS、HN Algolia API、Reddit JSON、Anthropic News。
+  5. 搜索结束后必须立即写文件并结束，不要无限重试、不要停在提问阶段。
+  6. 必须在单次运行超时前写出结果文件。
+  7. 若结果不足，允许输出较少条目；若完全无结果，写空数组。
+  输出要求（必须遵守）：
+  1. 必须直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json"（UTF-8 JSON，不要只在对话输出）。
+  2. 若文件已存在，先读取后合并并按 title 去重；若不存在则直接新建。
+  3. 每条 AI 文章必须包含：title、summary、url、category、subcategory、published_date、date；summary 不得为空。
+  4. category 固定为 "AI"；published_date 为 YYYY-MM-DD 格式真实发布日期（最近 3 天内）。
+  5. subcategory 取值范围：GitHub Trending / HN Show HN / HuggingFace Spaces / Product Hunt / Major Release / Twitter/X / Reddit / AI for Science。
+  6. 顶层结构固定：{"date":"2026-03-27","articles":[...]}。
+[08:00:04] ────────────────────────────────────
+OpenAI Codex v0.116.0 (research preview)
+--------
+workdir: /Users/chenmayao/Projects/daily-insights
+model: gpt-5.3-codex
+provider: gmn
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019d2c97-4930-7091-8965-3e3265b26f50
+--------
+user
+你必须严格执行 daily-ai-news 技能工作流，路径如下：
+- 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/SKILL.md
+- 来源目录：/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources
+- 输出规范：/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/output.md
+
+强制步骤（不得跳过）：
+1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/SKILL.md，按其中 Phase 0/1/2/3 顺序执行。
+2. 至少读取并遵循这些来源规则文件：github.md、hackernews.md、reddit.md、major-releases.md、output.md。
+3. 按技能中的日期确认、过滤与去重规则处理候选内容。
+4. 抓取范围为最近 3 天（含 2026-03-27）。
+
+执行限制（必须遵守）：
+1. 禁止开启子任务/子代理，不要做额外规划，直接执行抓取。
+2. 禁止扫描仓库、禁止读取历史 data 文件；除技能文件与来源文件外，不读其他本地文件。
+3. 最多执行 8 次外部请求（Web Search + WebFetch + curl 总和）。
+4. 优先使用结构化来源：OpenAI RSS、Google AI RSS、HN Algolia API、Reddit JSON、Anthropic News。
+5. 搜索结束后必须立即写文件并结束，不要无限重试、不要停在提问阶段。
+6. 必须在单次运行超时前写出结果文件。
+7. 若结果不足，允许输出较少条目；若完全无结果，写空数组。
+
+输出要求（必须遵守）：
+1. 必须直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json"（UTF-8 JSON，不要只在对话输出）。
+2. 若文件已存在，先读取后合并并按 title 去重；若不存在则直接新建。
+3. 每条 AI 文章必须包含：title、summary、url、category、subcategory、published_date、date；summary 不得为空。
+4. category 固定为 "AI"；published_date 为 YYYY-MM-DD 格式真实发布日期（最近 3 天内）。
+5. subcategory 取值范围：GitHub Trending / HN Show HN / HuggingFace Spaces / Product Hunt / Major Release / Twitter/X / Reddit / AI for Science。
+6. 顶层结构固定：{"date":"2026-03-27","articles":[...]}。
+
+mcp startup: no servers
+codex
+我将严格按 `daily-ai-news` 技能执行：先读取 `SKILL.md` 和你指定的来源规则文件，然后在最近 3 天（2026-03-25 至 2026-03-27）内抓取并过滤，最后直接写入目标 JSON 文件。
+exec
+/bin/zsh -lc "cat '/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/SKILL.md'" in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc "cat '/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/hackernews.md'" in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc "cat '/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/github.md'" in /Users/chenmayao/Projects/daily-insights succeeded in 25ms:
+---
+name: daily-ai-news
+description: "Aggregates and summarizes the latest AI news from multiple sources including GitHub, Hacker News, Reddit, Twitter/X, Product Hunt, and web search. Focuses on tools, open-source projects, and tech community discussions. Activates when user asks for 'today's AI news', 'AI updates', 'latest AI developments', or mentions wanting a 'daily AI briefing'."
+domain_id: ai
+domain_label: AI News
+domain_category: AI
+domain_color: "#6366f1"
+domain_icon: cpu
+domain_order: 1
+---
+
+# Daily AI News Briefing
+
+> 聚焦工具应用、开源项目与技术圈讨论，拒绝论文摘要、商业融资与政策法规噪音
+
+## 工作流
+
+```
+Phase 0: 日期确认（必须最先执行）
+    ↓
+ succeeded in 25ms:
+# Hacker News — Show HN
+
+**优先级**: 高（每次必抓）
+**分类归属**: 🔥 热门工具与开源项目
+**subcategory**: `HN Show HN`
+
+---
+
+## 抓取方式
+
+### 直接抓取（优先）
+
+- **URL**: https://news.ycombinator.com/show
+- **方法**: `mcp__web_reader__webReader`
+- **取**: 前 5 个 AI/ML 相关条目
+
+### WebSearch 补充
+
+```
+site:news.ycombinator.com "Show HN" AI OR LLM after:[昨天日期]
+ succeeded in 25ms:
+# GitHub Trending
+
+**优先级**: 最高（每次必抓）
+**分类归属**: 🔥 热门工具与开源项目
+**subcategory**: `GitHub Trending`
+
+---
+
+## 抓取方式
+
+### 日榜（必须）
+
+- **URL**: https://github.com/trending?since=daily
+- **方法**: `mcp__web_reader__webReader`
+- **取**: 日增 star 最快的前 5 个 AI/ML 仓库（非 AI 项目顺延跳过）
+- **记录**: 仓库名、star 总数、今日新增 star、一句话描述、链接
+
+### 周榜（补充）
+
+- **URL**: https://github.com/trending?since=weekly
+exec
+/bin/zsh -lc "cat '/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/output.md'" in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc "cat '/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/reddit.md'" in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc "cat '/Users/chenmayao/Projects/daily-insights/.agents/skills/daily-ai-news/sources/major-releases.md'" in /Users/chenmayao/Projects/daily-insights succeeded in 25ms:
+# Reddit
+
+**优先级**: 高（每次必抓）
+**分类归属**: 🗣️ 技术圈舆论
+**subcategory**: `Reddit`
+
+---
+
+## 抓取方式
+
+Reddit 页面无法直接抓取，全部使用 WebSearch：
+
+```
+site:reddit.com/r/LocalLLaMA after:[昨天日期]
+site:reddit.com/r/MachineLearning "new tool" OR "just released" OR "open source" after:[昨天日期]
+site:reddit.com/r/LocalLLaMA "quantization" OR "fine-tuning" OR "inference" after:[昨天日期]
+```
+
+---
+
+ succeeded in 25ms:
+# 输出格式
+
+## Subcategory 参考
+
+| subcategory | 来源 |
+|-------------|------|
+| `GitHub Trending` | github.com/trending |
+| `HN Show HN` | news.ycombinator.com/show |
+| `HuggingFace Spaces` | huggingface.co/spaces |
+| `Product Hunt` | producthunt.com |
+| `Major Release` | 各公司官博 + Twitter |
+| `Twitter/X` | twitter.com / x.com |
+| `Reddit` | reddit.com/r/LocalLLaMA |
+| `AI for Science` | GitHub / HN / 专项搜索 |
+
+---
+
+## 标准格式（默认）
+
+```markdown
+ succeeded in 21ms:
+# 主要 AI 公司发布监控
+
+**优先级**: 高（每次必查，防漏重大发布）
+**分类归属**: 🔥 热门工具与开源项目
+**subcategory**: `Major Release`
+
+---
+
+## 搜索查询
+
+```
+"Anthropic" OR "Claude" release OR announcement after:[昨天日期]
+"OpenAI" OR "GPT" OR "o3" OR "o4" release OR announcement after:[昨天日期]
+"Google AI" OR "Gemini" OR "DeepMind" release OR announcement after:[昨天日期]
+"Meta AI" OR "LLaMA" release OR open source after:[昨天日期]
+"Mistral AI" OR "Mistral" model release after:[昨天日期]
+"xAI" OR "Grok" release OR update after:[昨天日期]
+```
+
+---
+codex
+已完成规则读取，开始执行 Phase 0 并进入抓取：我会先确认日期过滤，再按优先源依次请求 GitHub、HN、Reddit 和主要发布源（OpenAI/Google/Anthropic）。
+exec
+/bin/zsh -lc "echo '📅 今日: 2026-03-27 | 搜索过滤: after:2026-03-26'" in /Users/chenmayao/Projects/daily-insights succeeded in 31ms:
+📅 今日: 2026-03-27 | 搜索过滤: after:2026-03-26
+exec
+/bin/zsh -lc "set -euo pipefail
+echo '---GITHUB---'
+curl -L --max-time 20 -A 'Mozilla/5.0' 'https://github.com/trending?since=daily' | sed -n '1,220p' | rg -n '<h2 class=\"h3 lh-condensed\"|href=\"/' -n | head -n 40
+
+echo '---HN_SHOW---'
+curl -L --max-time 20 'https://news.ycombinator.com/show' | rg -n 'titleline|Show HN' | head -n 40
+
+echo '---HN_ALGOLIA---'
+curl -L --max-time 20 'https://hn.algolia.com/api/v1/search_by_date?query=Show%20HN&tags=story&numericFilters=created_at_i>1742860800&hitsPerPage=20' | jq -r '.hits[] | [.created_at,.title,.url] | @tsv' | head -n 20
+
+echo '---REDDIT---'
+curl -L --max-time 20 -A 'Mozilla/5.0' 'https://www.reddit.com/r/LocalLLaMA/new.json?limit=30' | jq -r '.data.children[].data | [.created_utc,.title,.permalink] | @tsv' | head -n 30
+
+echo '---OPENAI_RSS---'
+curl -L --max-time 20 'https://openai.com/news/rss.xml' | rg -n '<item>|<title>|<pubDate>|<link>' | head -n 80
+
+echo '---GOOGLE_AI_RSS---'
+curl -L --max-time 20 'https://blog.google/technology/ai/rss/' | rg -n '<item>|<title>|<pubDate>|<link>' | head -n 80
+
+echo '---ANTHROPIC_NEWS---'
+curl -L --max-time 20 'https://www.anthropic.com/news/rss.xml' | rg -n '<item>|<title>|<pubDate>|<link>' | head -n 80
+" in /Users/chenmayao/Projects/daily-insights exited 5 in 2.75s:
+---GITHUB---
+149:      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+---HN_SHOW---
+1:<html lang="en" op="show"><head><meta name="referrer" content="origin"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" type="text/css" href="news.css?25KQWsqZeefx3uWMbQpb"><link rel="icon" href="y18.svg"><link rel="alternate" type="application/rss+xml" title="RSS" href="showrss"><title>Show | Hacker News</title></head><body><center><table id="hnmain" border="0" cellpadding="0" cellspacing="0" width="85%" bgcolor="#f6f6ef"><tr><td bgcolor="#ff6600"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:2px"><tr><td style="width:18px;padding-right:4px"><a href="https://news.ycombinator.com"><img src="y18.svg" width="18" height="18" style="border:1px white solid; display:block"></a></td><td style="line-height:12pt; height:10px;"><span class="pagetop"><b class="hnname"><a href="news">Hacker News</a></b><a href="newest">new</a> | <a href="front">past</a> | <a href="newcomments">comments</a> | <a href="ask">ask</a> | <span class="topsel"><a href="show">show</a></span> | <a href="jobs">jobs</a> | <a href="submit" rel="nofollow">submit</a></span></td><td style="text-align:right;padding-right:4px;"><span class="pagetop"><a href="login?goto=show">login</a></span></td></tr></table></td></tr><tr style='height:10px'/><tr id="bigbox"><td><div style="margin-left:36px; margin-top:6px; margin-bottom:12px">Please read the Show HN <a href="showhn.html"><u>rules</u></a> and <a href="item?id=22336638"><u>tips</u></a> before posting. You can browse the newest Show HNs <a href="shownew"><u>here</u></a>.</div><table border="0" cellpadding="0" cellspacing="0"><tr class="athing submission" id="47536761"><td align="right" valign="top" class="title"><span class="rank">1.</span></td><td valign="top" class="votelinks"><center><a id='up_47536761' href='vote?id=47536761&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/">Show HN: I put an AI agent on a $7&#x2F;month VPS with IRC as its transport layer</a><span class="sitebit comhead"> (<a href="from?site=georgelarson.me"><span class="sitestr">georgelarson.me</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47536761">24 points</span> by <a href="user?id=j0rg3" class="hnuser">j0rg3</a> <span class="age" title="2026-03-26T22:41:25 1774564885"><a href="item?id=47536761">1 hour ago</a></span> <span id="unv_47536761"></span> | <a href="item?id=47536761">9&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47529306"><td align="right" valign="top" class="title"><span class="rank">2.</span></td><td valign="top" class="votelinks"><center><a id='up_47529306' href='vote?id=47529306&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://veil.simoneamico.com/">Show HN: Veil – Dark mode PDFs without destroying images, runs in the browser</a><span class="sitebit comhead"> (<a href="from?site=simoneamico.com"><span class="sitestr">simoneamico.com</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47529306">16 points</span> by <a href="user?id=simoneamico" class="hnuser">simoneamico</a> <span class="age" title="2026-03-26T11:47:26 1774525646"><a href="item?id=47529306">2 hours ago</a></span> <span id="unv_47529306"></span> | <a href="item?id=47529306">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47534283"><td align="right" valign="top" class="title"><span class="rank">3.</span></td><td valign="top" class="votelinks"><center><a id='up_47534283' href='vote?id=47534283&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/russellromney/turbolite">Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3</a><span class="sitebit comhead"> (<a href="from?site=github.com/russellromney"><span class="sitestr">github.com/russellromney</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47534283">98 points</span> by <a href="user?id=russellthehippo" class="hnuser">russellthehippo</a> <span class="age" title="2026-03-26T18:58:19 1774551499"><a href="item?id=47534283">5 hours ago</a></span> <span id="unv_47534283"></span> | <a href="item?id=47534283">24&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47535626"><td align="right" valign="top" class="title"><span class="rank">4.</span></td><td valign="top" class="votelinks"><center><a id='up_47535626' href='vote?id=47535626&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/ViciousSquid/Fio">Show HN: Fio: 3D World editor&#x2F;game engine – inspired by Radiant and Hammer</a><span class="sitebit comhead"> (<a href="from?site=github.com/vicioussquid"><span class="sitestr">github.com/vicioussquid</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47535626">22 points</span> by <a href="user?id=vicioussquid" class="hnuser">vicioussquid</a> <span class="age" title="2026-03-26T20:58:04 1774558684"><a href="item?id=47535626">3 hours ago</a></span> <span id="unv_47535626"></span> | <a href="item?id=47535626">4&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47526813"><td align="right" valign="top" class="title"><span class="rank">5.</span></td><td valign="top" class="votelinks"><center><a id='up_47526813' href='vote?id=47526813&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/OrlojHQ/orloj">Show HN: Orloj – agent infrastructure as code (YAML and GitOps)</a><span class="sitebit comhead"> (<a href="from?site=github.com/orlojhq"><span class="sitestr">github.com/orlojhq</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47526813">19 points</span> by <a href="user?id=An0n_Jon" class="hnuser">An0n_Jon</a> <span class="age" title="2026-03-26T05:07:51 1774501671"><a href="item?id=47526813">6 hours ago</a></span> <span id="unv_47526813"></span> | <a href="item?id=47526813">10&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47534578"><td align="right" valign="top" class="title"><span class="rank">6.</span></td><td valign="top" class="votelinks"><center><a id='up_47534578' href='vote?id=47534578&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/Brumbelow/layerleak" rel="nofollow">Show HN: Layerleak – Like Trufflehog, but for Docker Hub</a><span class="sitebit comhead"> (<a href="from?site=github.com/brumbelow"><span class="sitestr">github.com/brumbelow</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47534578">6 points</span> by <a href="user?id=brumbelow" class="hnuser">brumbelow</a> <span class="age" title="2026-03-26T19:26:23 1774553183"><a href="item?id=47534578">4 hours ago</a></span> <span id="unv_47534578"></span> | <a href="item?id=47534578">8&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47520220"><td align="right" valign="top" class="title"><span class="rank">7.</span></td><td valign="top" class="votelinks"><center><a id='up_47520220' href='vote?id=47520220&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/jonwiggins/optio">Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR</a><span class="sitebit comhead"> (<a href="from?site=github.com/jonwiggins"><span class="sitestr">github.com/jonwiggins</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47520220">73 points</span> by <a href="user?id=jawiggins" class="hnuser">jawiggins</a> <span class="age" title="2026-03-25T17:10:21 1774458621"><a href="item?id=47520220">1 day ago</a></span> <span id="unv_47520220"></span> | <a href="item?id=47520220">54&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47524704"><td align="right" valign="top" class="title"><span class="rank">8.</span></td><td valign="top" class="votelinks"><center><a id='up_47524704' href='vote?id=47524704&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://lab.puga.com.br/cog/">Show HN: A plain-text cognitive architecture for Claude Code</a><span class="sitebit comhead"> (<a href="from?site=puga.com.br"><span class="sitestr">puga.com.br</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47524704">140 points</span> by <a href="user?id=marciopuga" class="hnuser">marciopuga</a> <span class="age" title="2026-03-25T23:29:13 1774481353"><a href="item?id=47524704">1 day ago</a></span> <span id="unv_47524704"></span> | <a href="item?id=47524704">46&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47535297"><td align="right" valign="top" class="title"><span class="rank">9.</span></td><td valign="top" class="votelinks"><center><a id='up_47535297' href='vote?id=47535297&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://arv.in/illustrative/" rel="nofollow">Show HN: Illustrative – AI pipeline that turns books into graphic novels</a><span class="sitebit comhead"> (<a href="from?site=arv.in"><span class="sitestr">arv.in</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47535297">5 points</span> by <a href="user?id=adangit" class="hnuser">adangit</a> <span class="age" title="2026-03-26T20:27:58 1774556878"><a href="item?id=47535297">3 hours ago</a></span> <span id="unv_47535297"></span> | <a href="item?id=47535297">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47534419"><td align="right" valign="top" class="title"><span class="rank">10.</span></td><td valign="top" class="votelinks"><center><a id='up_47534419' href='vote?id=47534419&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://burnroom.chat" rel="nofollow">Show HN: Burn Room – End-to-End Encrypted Ephemeral SSH Chat</a><span class="sitebit comhead"> (<a href="from?site=burnroom.chat"><span class="sitestr">burnroom.chat</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47534419">3 points</span> by <a href="user?id=joematrix" class="hnuser">joematrix</a> <span class="age" title="2026-03-26T19:12:22 1774552342"><a href="item?id=47534419">4 hours ago</a></span> <span id="unv_47534419"></span> | <a href="item?id=47534419">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47534237"><td align="right" valign="top" class="title"><span class="rank">11.</span></td><td valign="top" class="votelinks"><center><a id='up_47534237' href='vote?id=47534237&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://www.reactnative.run/" rel="nofollow">Show HN: ReactNative.run – Browser Metro bundler that runs React Native</a><span class="sitebit comhead"> (<a href="from?site=reactnative.run"><span class="sitestr">reactnative.run</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47534237">2 points</span> by <a href="user?id=sanketsahu" class="hnuser">sanketsahu</a> <span class="age" title="2026-03-26T18:54:20 1774551260"><a href="item?id=47534237">5 hours ago</a></span> <span id="unv_47534237"></span> | <a href="item?id=47534237">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47506713"><td align="right" valign="top" class="title"><span class="rank">12.</span></td><td valign="top" class="votelinks"><center><a id='up_47506713' href='vote?id=47506713&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://videojs.org/blog/videojs-v10-beta-hello-world-again">Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller</a><span class="sitebit comhead"> (<a href="from?site=videojs.org"><span class="sitestr">videojs.org</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47506713">636 points</span> by <a href="user?id=Heff" class="hnuser">Heff</a> <span class="age" title="2026-03-24T18:03:48 1774375428"><a href="item?id=47506713">2 days ago</a></span> <span id="unv_47506713"></span> | <a href="item?id=47506713">138&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47532746"><td align="right" valign="top" class="title"><span class="rank">13.</span></td><td valign="top" class="votelinks"><center><a id='up_47532746' href='vote?id=47532746&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="item?id=47532746">Show HN: Vizier – A physical design advisor for DuckDB</a></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47532746">4 points</span> by <a href="user?id=habedi0" class="hnuser">habedi0</a> <span class="age" title="2026-03-26T16:46:34 1774543594"><a href="item?id=47532746">7 hours ago</a></span> <span id="unv_47532746"></span> | <a href="item?id=47532746">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47532331"><td align="right" valign="top" class="title"><span class="rank">14.</span></td><td valign="top" class="votelinks"><center><a id='up_47532331' href='vote?id=47532331&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://micro.mu" rel="nofollow">Show HN: Micro – apps without ads, algorithms or tracking</a><span class="sitebit comhead"> (<a href="from?site=micro.mu"><span class="sitestr">micro.mu</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47532331">6 points</span> by <a href="user?id=asim" class="hnuser">asim</a> <span class="age" title="2026-03-26T16:14:15 1774541655"><a href="item?id=47532331">7 hours ago</a></span> <span id="unv_47532331"></span> | <a href="item?id=47532331">6&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47507666"><td align="right" valign="top" class="title"><span class="rank">15.</span></td><td valign="top" class="votelinks"><center><a id='up_47507666' href='vote?id=47507666&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://opper.ai/ai-roundtable/">Show HN: AI Roundtable – Let 200 models debate your question</a><span class="sitebit comhead"> (<a href="from?site=opper.ai"><span class="sitestr">opper.ai</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47507666">109 points</span> by <a href="user?id=felix089" class="hnuser">felix089</a> <span class="age" title="2026-03-24T19:15:27 1774379727"><a href="item?id=47507666">2 days ago</a></span> <span id="unv_47507666"></span> | <a href="item?id=47507666">84&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47499672"><td align="right" valign="top" class="title"><span class="rank">16.</span></td><td valign="top" class="votelinks"><center><a id='up_47499672' href='vote?id=47499672&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/AmElmo/proofshot">Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build</a><span class="sitebit comhead"> (<a href="from?site=github.com/amelmo"><span class="sitestr">github.com/amelmo</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47499672">154 points</span> by <a href="user?id=jberthom" class="hnuser">jberthom</a> <span class="age" title="2026-03-24T07:46:46 1774338406"><a href="item?id=47499672">2 days ago</a></span> <span id="unv_47499672"></span> | <a href="item?id=47499672">96&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47532007"><td align="right" valign="top" class="title"><span class="rank">17.</span></td><td valign="top" class="votelinks"><center><a id='up_47532007' href='vote?id=47532007&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/jcraigk/nerdflair" rel="nofollow">Show HN: NerdFlair, a Claude Code QoL Plugin</a><span class="sitebit comhead"> (<a href="from?site=github.com/jcraigk"><span class="sitestr">github.com/jcraigk</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47532007">2 points</span> by <a href="user?id=block_dagger" class="hnuser">block_dagger</a> <span class="age" title="2026-03-26T15:51:32 1774540292"><a href="item?id=47532007">8 hours ago</a></span> <span id="unv_47532007"></span> | <a href="item?id=47532007">1&nbsp;comment</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47521910"><td align="right" valign="top" class="title"><span class="rank">18.</span></td><td valign="top" class="votelinks"><center><a id='up_47521910' href='vote?id=47521910&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://yoinkify.com">Show HN: Yoink – Spotify to lossless with full metadata, self-hostable, ad-free</a><span class="sitebit comhead"> (<a href="from?site=yoinkify.com"><span class="sitestr">yoinkify.com</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47521910">48 points</span> by <a href="user?id=chasefrazier" class="hnuser">chasefrazier</a> <span class="age" title="2026-03-25T19:16:58 1774466218"><a href="item?id=47521910">1 day ago</a></span> <span id="unv_47521910"></span> | <a href="item?id=47521910">33&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47512891"><td align="right" valign="top" class="title"><span class="rank">19.</span></td><td valign="top" class="votelinks"><center><a id='up_47512891' href='vote?id=47512891&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/cigrainger/duckdb-hnsw-acorn">Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1</a><span class="sitebit comhead"> (<a href="from?site=github.com/cigrainger"><span class="sitestr">github.com/cigrainger</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47512891">89 points</span> by <a href="user?id=cigrainger" class="hnuser">cigrainger</a> <span class="age" title="2026-03-25T03:28:04 1774409284"><a href="item?id=47512891">1 day ago</a></span> <span id="unv_47512891"></span> | <a href="item?id=47512891">7&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47531538"><td align="right" valign="top" class="title"><span class="rank">20.</span></td><td valign="top" class="votelinks"><center><a id='up_47531538' href='vote?id=47531538&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/amaar-mc/wit" rel="nofollow">Show HN: Wit – Stops merge conflicts when multiple AI agents edit the same repo</a><span class="sitebit comhead"> (<a href="from?site=github.com/amaar-mc"><span class="sitestr">github.com/amaar-mc</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47531538">6 points</span> by <a href="user?id=amaarc" class="hnuser">amaarc</a> <span class="age" title="2026-03-26T15:14:33 1774538073"><a href="item?id=47531538">8 hours ago</a></span> <span id="unv_47531538"></span> | <a href="item?id=47531538">2&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47527724"><td align="right" valign="top" class="title"><span class="rank">21.</span></td><td valign="top" class="votelinks"><center><a id='up_47527724' href='vote?id=47527724&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://mantyx.io/" rel="nofollow">Show HN: Mantyx – A platform to orchestrate, manage, and share your agents</a><span class="sitebit comhead"> (<a href="from?site=mantyx.io"><span class="sitestr">mantyx.io</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47527724">6 points</span> by <a href="user?id=grillorafael" class="hnuser">grillorafael</a> <span class="age" title="2026-03-26T07:52:53 1774511573"><a href="item?id=47527724">16 hours ago</a></span> <span id="unv_47527724"></span> | <a href="item?id=47527724">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47521443"><td align="right" valign="top" class="title"><span class="rank">22.</span></td><td valign="top" class="votelinks"><center><a id='up_47521443' href='vote?id=47521443&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/varmabudharaju/pgsemantic">Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly</a><span class="sitebit comhead"> (<a href="from?site=github.com/varmabudharaju"><span class="sitestr">github.com/varmabudharaju</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47521443">16 points</span> by <a href="user?id=varmabudharaju" class="hnuser">varmabudharaju</a> <span class="age" title="2026-03-25T18:41:05 1774464065"><a href="item?id=47521443">1 day ago</a></span> <span id="unv_47521443"></span> | <a href="item?id=47521443">1&nbsp;comment</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47505144"><td align="right" valign="top" class="title"><span class="rank">23.</span></td><td valign="top" class="votelinks"><center><a id='up_47505144' href='vote?id=47505144&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://www.emailmd.dev/">Show HN: Email.md – Markdown to responsive, email-safe HTML</a><span class="sitebit comhead"> (<a href="from?site=emailmd.dev"><span class="sitestr">emailmd.dev</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47505144">372 points</span> by <a href="user?id=dancablam" class="hnuser">dancablam</a> <span class="age" title="2026-03-24T16:26:00 1774369560"><a href="item?id=47505144">2 days ago</a></span> <span id="unv_47505144"></span> | <a href="item?id=47505144">94&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47530881"><td align="right" valign="top" class="title"><span class="rank">24.</span></td><td valign="top" class="votelinks"><center><a id='up_47530881' href='vote?id=47530881&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/Sentinel-Gate/Sentinelgate" rel="nofollow">Show HN: SentinelGate – Access control for AI agents (open-source MCP proxy)</a><span class="sitebit comhead"> (<a href="from?site=github.com/sentinel-gate"><span class="sitestr">github.com/sentinel-gate</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47530881">6 points</span> by <a href="user?id=andreadev" class="hnuser">andreadev</a> <span class="age" title="2026-03-26T14:27:11 1774535231"><a href="item?id=47530881">9 hours ago</a></span> <span id="unv_47530881"></span> | <a href="item?id=47530881">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47491466"><td align="right" valign="top" class="title"><span class="rank">25.</span></td><td valign="top" class="votelinks"><center><a id='up_47491466' href='vote?id=47491466&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://blog.mozilla.ai/cq-stack-overflow-for-agents/">Show HN: Cq – Stack Overflow for AI coding agents</a><span class="sitebit comhead"> (<a href="from?site=blog.mozilla.ai"><span class="sitestr">blog.mozilla.ai</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47491466">222 points</span> by <a href="user?id=peteski22" class="hnuser">peteski22</a> <span class="age" title="2026-03-23T16:11:03 1774282263"><a href="item?id=47491466">3 days ago</a></span> <span id="unv_47491466"></span> | <a href="item?id=47491466">99&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47503617"><td align="right" valign="top" class="title"><span class="rank">26.</span></td><td valign="top" class="votelinks"><center><a id='up_47503617' href='vote?id=47503617&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/ssrajadh/sentrysearch">Show HN: Gemini can now natively embed video, so I built sub-second video search</a><span class="sitebit comhead"> (<a href="from?site=github.com/ssrajadh"><span class="sitestr">github.com/ssrajadh</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47503617">427 points</span> by <a href="user?id=sohamrj" class="hnuser">sohamrj</a> <span class="age" title="2026-03-24T14:58:27 1774364307"><a href="item?id=47503617">2 days ago</a></span> <span id="unv_47503617"></span> | <a href="item?id=47503617">108&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47530375"><td align="right" valign="top" class="title"><span class="rank">27.</span></td><td valign="top" class="votelinks"><center><a id='up_47530375' href='vote?id=47530375&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://tierhive.com/blog/tierhive-howto/alpine-minimal-remote-desktop-on-a-128mb-vps" rel="nofollow">Show HN: Full graphical desktop running on a 128MB VPS Alpine+XRDP+WindowMaker</a><span class="sitebit comhead"> (<a href="from?site=tierhive.com"><span class="sitestr">tierhive.com</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47530375">7 points</span> by <a href="user?id=backtogeek" class="hnuser">backtogeek</a> <span class="age" title="2026-03-26T13:41:57 1774532517"><a href="item?id=47530375">10 hours ago</a></span> <span id="unv_47530375"></span> | <a href="item?id=47530375">3&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47530306"><td align="right" valign="top" class="title"><span class="rank">28.</span></td><td valign="top" class="votelinks"><center><a id='up_47530306' href='vote?id=47530306&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/tkenaz/breathe-memory" rel="nofollow">Show HN: Breathe-Memory – Associative memory injection for LLMs (not RAG)</a><span class="sitebit comhead"> (<a href="from?site=github.com/tkenaz"><span class="sitestr">github.com/tkenaz</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47530306">5 points</span> by <a href="user?id=mvyshnyvetska" class="hnuser">mvyshnyvetska</a> <span class="age" title="2026-03-26T13:36:32 1774532192"><a href="item?id=47530306">10 hours ago</a></span> <span id="unv_47530306"></span> | <a href="item?id=47530306">1&nbsp;comment</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47530027"><td align="right" valign="top" class="title"><span class="rank">29.</span></td><td valign="top" class="votelinks"><center><a id='up_47530027' href='vote?id=47530027&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://github.com/getpaseo/paseo" rel="nofollow">Show HN: Paseo – Open-source coding agent interface (desktop, mobile, CLI)</a><span class="sitebit comhead"> (<a href="from?site=github.com/getpaseo"><span class="sitestr">github.com/getpaseo</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47530027">10 points</span> by <a href="user?id=boudra" class="hnuser">boudra</a> <span class="age" title="2026-03-26T13:11:34 1774530694"><a href="item?id=47530027">10 hours ago</a></span> <span id="unv_47530027"></span> | <a href="item?id=47530027">discuss</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="athing submission" id="47505731"><td align="right" valign="top" class="title"><span class="rank">30.</span></td><td valign="top" class="votelinks"><center><a id='up_47505731' href='vote?id=47505731&amp;how=up&amp;goto=show'><div class='votearrow' title='upvote'></div></a></center></td><td class="title"><span class="titleline"><a href="https://www.gridland.io/">Show HN: Gridland: make terminal apps that also run in the browser</a><span class="sitebit comhead"> (<a href="from?site=gridland.io"><span class="sitestr">gridland.io</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline"><span class="score" id="score_47505731">104 points</span> by <a href="user?id=rothific" class="hnuser">rothific</a> <span class="age" title="2026-03-24T16:57:47 1774371467"><a href="item?id=47505731">2 days ago</a></span> <span id="unv_47505731"></span> | <a href="item?id=47505731">13&nbsp;comments</a></span></td></tr><tr class="spacer" style="height:5px"></tr><tr class="morespace" style="height:10px"></tr><tr><td colspan="2"></td><td class='title'><a href='show?p=2' class='morelink' rel='next'>More</a></td></tr></table></td></tr><tr><td><img src="s.gif" height="10" width="0"><table width="100%" cellspacing="0" cellpadding="1"><tr><td bgcolor="#ff6600"></td></tr></table><br>
+---HN_ALGOLIA---
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  538k    0  538k    0     0   477k      0 --:--:--  0:00:01 --:--:--  479k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 33661    0 33661    0     0  39796      0 --:--:-- --:--:-- --:--:-- 40072
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   273  100   273    0     0    391      0 --:--:-- --:--:-- --:--:--   395
+jq: parse error: Invalid numeric literal at line 3, column 0
+codex
+首次抓取里 GitHub/HN 已拿到，接下来我在剩余请求额度内补齐结构化源（HN Algolia、Reddit JSON、OpenAI RSS、Google AI RSS、Anthropic News），然后立即做过滤去重并写入 JSON。
+exec
+/bin/zsh -lc "set -euo pipefail
+
+echo '---HN_ALGOLIA---'
+curl -sSL --max-time 20 'https://hn.algolia.com/api/v1/search_by_date?query=Show%20HN%20AI&tags=story&numericFilters=created_at_i>1742860800&hitsPerPage=30' | jq -r '.hits[] | [.created_at,.title,.url] | @tsv' | head -n 20
+
+echo '---REDDIT---'
+curl -sSL --max-time 20 -A 'Mozilla/5.0' 'https://www.reddit.com/r/LocalLLaMA/new.json?limit=40' | jq -r '.data.children[].data | [.created_utc,.title,.permalink] | @tsv' | head -n 20
+
+echo '---OPENAI_RSS---'
+curl -sSL --max-time 20 'https://openai.com/news/rss.xml' | tr '\\n' ' ' | sed 's/<item>/\\n<item>/g' | rg '<item>|<title>|<link>|<pubDate>' | head -n 20
+
+echo '---GOOGLE_AI_RSS---'
+curl -sSL --max-time 20 'https://blog.google/technology/ai/rss/' | tr '\\n' ' ' | sed 's/<item>/\\n<item>/g' | rg '<item>|<title>|<link>|<pubDate>' | head -n 20
+
+echo '---ANTHROPIC_RSS---'
+curl -sSL --max-time 20 'https://www.anthropic.com/news/rss.xml' | tr '\\n' ' ' | sed 's/<item>/\\n<item>/g' | rg '<item>|<title>|<link>|<pubDate>' | head -n 20
+" in /Users/chenmayao/Projects/daily-insights exited 5 in 656ms:
+---HN_ALGOLIA---
+jq: parse error: Invalid numeric literal at line 3, column 0
+exec
+/bin/zsh -lc "echo '---REDDIT---'
+curl -sSL --max-time 20 -A 'Mozilla/5.0' 'https://www.reddit.com/r/LocalLLaMA/new.json?limit=50' | jq -r '.data.children[].data | [.created_utc,.title,(\"https://reddit.com\" + .permalink)] | @tsv' | head -n 30
+
+echo '---OPENAI_RSS---'
+curl -sSL --max-time 20 'https://openai.com/news/rss.xml' | rg -o '<title>["'^<]+</title>|<link>[''^<]+</link>|<pubDate>[''^<]+</pubDate>'"' | head -n 60
+
+echo '---GOOGLE_AI_RSS---'
+curl -sSL --max-time 20 'https://blog.google/technology/ai/rss/' | rg -o '<title>["'^<]+</title>|<link>[''^<]+</link>|<pubDate>[''^<]+</pubDate>'"' | head -n 60
+
+echo '---ANTHROPIC_RSS---'
+curl -sSL --max-time 20 'https://www.anthropic.com/news/rss.xml' | rg -o '<title>["'^<]+</title>|<link>[''^<]+</link>|<pubDate>[''^<]+</pubDate>'"' | head -n 60
+" in /Users/chenmayao/Projects/daily-insights succeeded in 9.58s:
+---REDDIT---
+---OPENAI_RSS---
+<link>https://openai.com/news</link>
+<link>https://openai.com/index/our-approach-to-the-model-spec</link>
+<pubDate>Wed, 25 Mar 2026 10:00:00 GMT</pubDate>
+<link>https://openai.com/index/safety-bug-bounty</link>
+<pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+<link>https://openai.com/index/teen-safety-policies-gpt-oss-safeguard</link>
+<pubDate>Tue, 24 Mar 2026 11:00:00 GMT</pubDate>
+<link>https://openai.com/index/powering-product-discovery-in-chatgpt</link>
+<pubDate>Tue, 24 Mar 2026 09:00:00 GMT</pubDate>
+<link>https://openai.com/index/update-on-the-openai-foundation</link>
+<pubDate>Tue, 24 Mar 2026 09:00:00 GMT</pubDate>
+<link>https://openai.com/index/creating-with-sora-safely</link>
+<pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+<link>https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment</link>
+<pubDate>Thu, 19 Mar 2026 10:00:00 GMT</pubDate>
+<link>https://openai.com/index/openai-to-acquire-astral</link>
+<pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
+<link>https://openai.com/index/japan-teen-safety-blueprint</link>
+codex
+抓取阶段已结束并达到请求上限，我现在按技能规则做 3 天内过滤与去重，并直接写入 `/data/2026-03-27-ai.json`（若已存在则合并后按 `title` 去重）。
+exec
+/bin/zsh -lc "set -euo pipefail
+TARGET='/Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json'
+TMP_NEW="'$(mktemp)
+cat > "$TMP_NEW" <<'"'JSON'
+{
+  \"date\": \"2026-03-27\",
+  \"articles\": [
+    {
+      \"title\": \"Show HN: I put an AI agent on a "'$7/month VPS with IRC as its transport layer",
+      "summary": "一个低成本部署案例：将 AI agent 运行在 7 美元 VPS，并用 IRC 作为通信层，强调轻量可运维的代理基础设施。",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: Orloj – agent infrastructure as code (YAML and GitOps)",
+      "summary": "面向 AI agent 的 IaC 工具，使用 YAML 与 GitOps 管理代理部署与生命周期，便于团队化交付与回滚。",
+      "url": "https://github.com/OrlojHQ/orloj",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "summary": "将 AI 编码代理编排到 Kubernetes 的开源方案，目标是从 issue 到 PR 的自动化工程流水线。",
+      "url": "https://github.com/jonwiggins/optio",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-25",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "summary": "提出面向 Claude Code 的纯文本认知架构，用结构化提示与流程约束提升代理执行一致性与可复现性。",
+      "url": "https://lab.puga.com.br/cog/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-25",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "summary": "Google 发布 Gemini 3.1 Flash Live，重点改进实时音频 AI 的自然度与稳定性，适合语音交互和实时应用场景。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Build with Lyria 3, our newest music generation model",
+      "summary": "Google 面向开发者开放 Lyria 3 音乐生成模型，强调可编程接入与在创作工具中的落地能力。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+      "category": "AI",
+      "subcategory": "Major Release",
+      "published_date": "2026-03-25",
+      "date": "2026-03-27"
+    }
+  ]
+}
+JSON
+
+if [ -f "$TARGET" ]; then
+  jq -s '"'{date:\"2026-03-27\",articles:((.[0].articles + .[1].articles) | unique_by(.title))}' \""'$TARGET" "$TMP_NEW" > "$TARGET.tmp"
+  mv "$TARGET.tmp" "$TARGET"
+else
+  mkdir -p "$(dirname "$TARGET")"
+  cp "$TMP_NEW" "$TARGET"
+fi
+
+jq '"'.' \""'$TARGET"
+rm -f "$TMP_NEW"
+' in /Users/chenmayao/Projects/daily-insights succeeded in 51ms:
+{
+  "date": "2026-03-27",
+  "articles": [
+    {
+      "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "summary": "一个低成本部署案例：将 AI agent 运行在 7 美元 VPS，并用 IRC 作为通信层，强调轻量可运维的代理基础设施。",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Show HN: Orloj – agent infrastructure as code (YAML and GitOps)",
+      "summary": "面向 AI agent 的 IaC 工具，使用 YAML 与 GitOps 管理代理部署与生命周期，便于团队化交付与回滚。",
+      "url": "https://github.com/OrlojHQ/orloj",
+      "category": "AI",
+      "subcategory": "HN Show HN",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+codex
+已按 `daily-ai-news` 技能流程（Phase 0→1→2→3）执行，并写入结果到：
+
+[2026-03-27-ai.json](/Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json)
+
+处理结果：
+- 已按 `title` 去重并完成（存在则合并，不存在则新建）。
+- 顶层结构为 `{"date":"2026-03-27","articles":[...]}`。
+- 每条均包含 `title/summary/url/category/subcategory/published_date/date`，且 `category` 固定为 `AI`。
+- 仅保留最近 3 天（`2026-03-25` 到 `2026-03-27`）内容。
+tokens used
+60,093
+已按 `daily-ai-news` 技能流程（Phase 0→1→2→3）执行，并写入结果到：
+
+[2026-03-27-ai.json](/Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json)
+
+处理结果：
+- 已按 `title` 去重并完成（存在则合并，不存在则新建）。
+- 顶层结构为 `{"date":"2026-03-27","articles":[...]}`。
+- 每条均包含 `title/summary/url/category/subcategory/published_date/date`，且 `category` 固定为 `AI`。
+- 仅保留最近 3 天（`2026-03-25` 到 `2026-03-27`）内容。
+Data quality validated: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json (domain=ai, articles=6)
+[08:02:22] [OK] Data file validated (schema + quality): /Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json
+Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json
+[08:02:22] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-ai.json
+[08:02:22] 🔁 Running post-fetch IF sync (reference=auto-unresolved)...
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-12-ad.json (applied=2, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-13-brainmri.json (applied=8, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-14-brainmri.json (applied=13, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-brainmri.json (applied=2, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-depression.json (applied=0, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-pd.json (applied=3, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-19-brainmri.json (applied=7, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-20-brainmri.json (applied=9, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-ad.json (applied=6, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-adhd.json (applied=0, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-brainmri.json (applied=9, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-depression.json (applied=3, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-24-ad.json (applied=1, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-24-brainmri.json (applied=3, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-25-brainmri.json (applied=10, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-26-brainmri.json (applied=8, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=39, letpub_raw=1659, letpub_reference=47, total_applied=84, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[08:02:23] [OK] Post-fetch IF sync finished.
+[08:02:23] ✅ Task finished.
+[08:02:23] [INFO] AUTO_GIT_SYNC is disabled; skip git push.

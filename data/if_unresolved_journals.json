@@ -1,396 +1,114 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-03-26T00:32:32+00:00",
+  "updated_at": "2026-07-23T10:33:51+00:00",
   "journals": {
-    "ACS Chem Neurosci": {
-      "journal_name": "ACS Chem Neurosci",
-      "journal_issn": "",
-      "first_seen": "2026-03-20",
-      "last_seen": "2026-03-20",
-      "seen_count": 17,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Acta Neuropathol": {
-      "journal_name": "Acta Neuropathol",
-      "journal_issn": "",
-      "first_seen": "2026-03-24",
-      "last_seen": "2026-03-24",
-      "seen_count": 6,
-      "last_file": "2026-03-24-ad.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Acta Neuropathol Commun": {
-      "journal_name": "Acta Neuropathol Commun",
-      "journal_issn": "",
-      "first_seen": "2026-03-12",
-      "last_seen": "2026-03-12",
-      "seen_count": 30,
-      "last_file": "2026-03-12-ad.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Acta Paediatr": {
-      "journal_name": "Acta Paediatr",
-      "journal_issn": "",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-21",
-      "seen_count": 15,
-      "last_file": "2026-03-21-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "AJR Am J Roentgenol": {
-      "journal_name": "AJR Am J Roentgenol",
-      "journal_issn": "",
-      "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
-      "seen_count": 2,
-      "last_file": "2026-03-26-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
     "Ann Clin Transl Neurol": {
       "journal_name": "Ann Clin Transl Neurol",
       "journal_issn": "",
-      "first_seen": "2026-03-18",
+      "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
-      "seen_count": 28,
-      "last_file": "2026-03-25-brainmri.json",
+      "seen_count": 3,
       "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-25-brainmri.json"
+      ]
     },
     "Br J Neurosurg": {
       "journal_name": "Br J Neurosurg",
-      "journal_issn": "",
+      "journal_issn": "0268-8697",
       "first_seen": "2026-03-20",
       "last_seen": "2026-03-20",
-      "seen_count": 17,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Brain Inform": {
-      "journal_name": "Brain Inform",
-      "journal_issn": "",
-      "first_seen": "2026-03-25",
-      "last_seen": "2026-03-25",
-      "seen_count": 4,
-      "last_file": "2026-03-25-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "seen_count": 23,
+      "manual_full_name": "British journal of neurosurgery",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-20-brainmri.json"
+      ]
     },
     "Can J Neurol Sci": {
       "journal_name": "Can J Neurol Sci",
-      "journal_issn": "",
+      "journal_issn": "0317-1671",
       "first_seen": "2026-03-26",
       "last_seen": "2026-03-26",
-      "seen_count": 2,
-      "last_file": "2026-03-26-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "seen_count": 8,
+      "manual_full_name": "Canadian Journal of Neurological Sciences",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-26-brainmri.json"
+      ]
     },
-    "Cerebellum": {
-      "journal_name": "Cerebellum",
-      "journal_issn": "",
-      "first_seen": "2026-03-24",
-      "last_seen": "2026-03-24",
-      "seen_count": 7,
-      "last_file": "2026-03-24-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Climacteric": {
-      "journal_name": "Climacteric",
-      "journal_issn": "",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-21",
-      "seen_count": 14,
-      "last_file": "2026-03-21-depression.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Clin Exp Pediatr": {
-      "journal_name": "Clin Exp Pediatr",
-      "journal_issn": "",
-      "first_seen": "2026-03-14",
-      "last_seen": "2026-03-14",
-      "seen_count": 28,
-      "last_file": "2026-03-14-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Clin Genet": {
-      "journal_name": "Clin Genet",
-      "journal_issn": "",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-21",
-      "seen_count": 15,
-      "last_file": "2026-03-21-adhd.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Commun Biol": {
-      "journal_name": "Commun Biol",
-      "journal_issn": "",
-      "first_seen": "2026-03-18",
-      "last_seen": "2026-03-18",
-      "seen_count": 21,
-      "last_file": "2026-03-18-pd.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Dev Psychol": {
-      "journal_name": "Dev Psychol",
-      "journal_issn": "",
-      "first_seen": "2026-03-20",
-      "last_seen": "2026-03-20",
-      "seen_count": 17,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Dysphagia": {
-      "journal_name": "Dysphagia",
-      "journal_issn": "",
-      "first_seen": "2026-03-25",
-      "last_seen": "2026-03-25",
-      "seen_count": 4,
-      "last_file": "2026-03-25-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Encephalitis": {
-      "journal_name": "Encephalitis",
-      "journal_issn": "",
-      "first_seen": "2026-03-24",
-      "last_seen": "2026-03-24",
-      "seen_count": 7,
-      "last_file": "2026-03-24-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Herzschrittmacherther Elektrophysiol": {
-      "journal_name": "Herzschrittmacherther Elektrophysiol",
-      "journal_issn": "",
-      "first_seen": "2026-03-18",
-      "last_seen": "2026-03-18",
-      "seen_count": 22,
-      "last_file": "2026-03-18-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+    "Discov Oncol": {
+      "journal_name": "Discov Oncol",
+      "journal_issn": "2730-6011",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "seen_count": 6,
+      "manual_full_name": "Discover oncology",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-27-brainmri.json"
+      ]
     },
     "IEEE Trans Image Process": {
       "journal_name": "IEEE Trans Image Process",
       "journal_issn": "",
       "first_seen": "2026-03-13",
       "last_seen": "2026-03-13",
-      "seen_count": 29,
-      "last_file": "2026-03-13-brainmri.json",
+      "seen_count": 1,
       "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-13-brainmri.json"
+      ]
     },
     "IEEE Trans Med Imaging": {
       "journal_name": "IEEE Trans Med Imaging",
       "journal_issn": "",
-      "first_seen": "2026-03-14",
+      "first_seen": "2026-03-20",
       "last_seen": "2026-03-25",
-      "seen_count": 63,
-      "last_file": "2026-03-25-brainmri.json",
+      "seen_count": 5,
       "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "J Am Geriatr Soc": {
-      "journal_name": "J Am Geriatr Soc",
-      "journal_issn": "",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-21",
-      "seen_count": 14,
-      "last_file": "2026-03-21-ad.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "J Cereb Blood Flow Metab": {
-      "journal_name": "J Cereb Blood Flow Metab",
-      "journal_issn": "",
-      "first_seen": "2026-03-12",
-      "last_seen": "2026-03-26",
-      "seen_count": 61,
-      "last_file": "2026-03-26-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "J Craniofac Surg": {
-      "journal_name": "J Craniofac Surg",
-      "journal_issn": "",
-      "first_seen": "2026-03-20",
-      "last_seen": "2026-03-20",
-      "seen_count": 17,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "J Neuropsychol": {
-      "journal_name": "J Neuropsychol",
-      "journal_issn": "",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-21",
-      "seen_count": 14,
-      "last_file": "2026-03-21-depression.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "J Pediatr Endocrinol Metab": {
-      "journal_name": "J Pediatr Endocrinol Metab",
-      "journal_issn": "",
-      "first_seen": "2026-03-19",
-      "last_seen": "2026-03-20",
-      "seen_count": 36,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "J Relig Health": {
-      "journal_name": "J Relig Health",
-      "journal_issn": "",
-      "first_seen": "2026-03-18",
-      "last_seen": "2026-03-18",
-      "seen_count": 21,
-      "last_file": "2026-03-18-depression.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Magn Reson Med Sci": {
-      "journal_name": "Magn Reson Med Sci",
-      "journal_issn": "",
-      "first_seen": "2026-03-20",
-      "last_seen": "2026-03-20",
-      "seen_count": 17,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Med Sci Monit": {
-      "journal_name": "Med Sci Monit",
-      "journal_issn": "",
-      "first_seen": "2026-03-20",
-      "last_seen": "2026-03-20",
-      "seen_count": 17,
-      "last_file": "2026-03-20-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Med Sci Sports Exerc": {
-      "journal_name": "Med Sci Sports Exerc",
-      "journal_issn": "",
-      "first_seen": "2026-03-25",
-      "last_seen": "2026-03-25",
-      "seen_count": 4,
-      "last_file": "2026-03-25-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Mol Neurobiol": {
-      "journal_name": "Mol Neurobiol",
-      "journal_issn": "",
-      "first_seen": "2026-03-18",
-      "last_seen": "2026-03-21",
-      "seen_count": 22,
-      "last_file": "2026-03-21-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-25-brainmri.json"
+      ]
     },
     "Mov Disord Clin Pract": {
       "journal_name": "Mov Disord Clin Pract",
-      "journal_issn": "",
+      "journal_issn": "2330-1619",
       "first_seen": "2026-03-18",
       "last_seen": "2026-03-18",
-      "seen_count": 22,
-      "last_file": "2026-03-18-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Neurocrit Care": {
-      "journal_name": "Neurocrit Care",
-      "journal_issn": "",
-      "first_seen": "2026-03-13",
-      "last_seen": "2026-03-13",
-      "seen_count": 29,
-      "last_file": "2026-03-13-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Oper Neurosurg": {
-      "journal_name": "Oper Neurosurg",
-      "journal_issn": "",
-      "first_seen": "2026-03-14",
-      "last_seen": "2026-03-14",
       "seen_count": 28,
-      "last_file": "2026-03-14-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Pediatr Infect Dis J": {
-      "journal_name": "Pediatr Infect Dis J",
-      "journal_issn": "",
-      "first_seen": "2026-03-14",
-      "last_seen": "2026-03-14",
-      "seen_count": 28,
-      "last_file": "2026-03-14-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "PLoS Biol": {
-      "journal_name": "PLoS Biol",
-      "journal_issn": "",
-      "first_seen": "2026-03-26",
-      "last_seen": "2026-03-26",
-      "seen_count": 2,
-      "last_file": "2026-03-26-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Psychol Trauma": {
-      "journal_name": "Psychol Trauma",
-      "journal_issn": "",
-      "first_seen": "2026-03-13",
-      "last_seen": "2026-03-13",
-      "seen_count": 29,
-      "last_file": "2026-03-13-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
-    },
-    "Radiat Prot Dosimetry": {
-      "journal_name": "Radiat Prot Dosimetry",
-      "journal_issn": "",
-      "first_seen": "2026-03-14",
-      "last_seen": "2026-03-14",
-      "seen_count": 28,
-      "last_file": "2026-03-14-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "manual_full_name": "Movement disorders clinical practice",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-18-brainmri.json"
+      ]
     },
     "Soc Cogn Affect Neurosci": {
       "journal_name": "Soc Cogn Affect Neurosci",
-      "journal_issn": "",
+      "journal_issn": "1749-5016",
       "first_seen": "2026-03-19",
       "last_seen": "2026-03-19",
-      "seen_count": 19,
-      "last_file": "2026-03-19-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "seen_count": 25,
+      "manual_full_name": "Social Cognitive and Affective Neuroscience",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-19-brainmri.json"
+      ]
     },
     "Zhonghua Zhong Liu Za Zhi": {
       "journal_name": "Zhonghua Zhong Liu Za Zhi",
-      "journal_issn": "",
+      "journal_issn": "0253-3766",
       "first_seen": "2026-03-13",
       "last_seen": "2026-03-13",
-      "seen_count": 29,
-      "last_file": "2026-03-13-brainmri.json",
-      "manual_full_name": "",
-      "notes": "未查到影响因子，待人工补充期刊全称或外部来源"
+      "seen_count": 35,
+      "manual_full_name": "Chinese Journal of Oncology",
+      "notes": "未查到影响因子，待人工补充期刊全称或外部来源",
+      "files": [
+        "2026-03-13-brainmri.json"
+      ]
     }
   }
 }

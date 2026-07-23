@@ -77,6 +77,9 @@ validate_data_file() {
     if [ -n "$stage" ]; then
         validator_args+=(--stage "$stage")
     fi
+    if [ "$stage" = "final" ]; then
+        validator_args+=(--minimum-impact-factor 8)
+    fi
     if ! validate_output=$(python3 "$VALIDATE_DATA_SCRIPT" "${validator_args[@]}" 2>&1); then
         log "[ERROR] Data quality check failed: $file"
         [ -n "$validate_output" ] && echo "$validate_output"
@@ -129,13 +132,13 @@ filter_impact_factors() {
         log "[ERROR] IF filter script not found: $FILTER_IF_SCRIPT"
         return 1
     fi
-    if ! filter_output=$(python3 "$FILTER_IF_SCRIPT" "$file" --minimum 6 2>&1); then
+    if ! filter_output=$(python3 "$FILTER_IF_SCRIPT" "$file" --minimum 8 2>&1); then
         log "[ERROR] IF filter failed: $file"
         [ -n "$filter_output" ] && echo "$filter_output"
         return 1
     fi
     [ -n "$filter_output" ] && echo "$filter_output"
-    log "[OK] Articles below IF 6 filtered: $file"
+    log "[OK] Articles below IF 8 filtered: $file"
     return 0
 }
 

@@ -9,7 +9,13 @@
       "source": "pubmed",
       "journal": "Amino Acids",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 2.4,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "AMINO ACIDS"
     },
     {
       "title": "The fetal taenia-tela choroidea complex: a radiologic-pathologic correlation from normal anatomy to Dandy-Walker malformation.",
@@ -19,7 +25,13 @@
       "source": "pubmed",
       "journal": "Pediatr Radiol",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 2.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "PEDIATRIC RADIOLOGY"
     },
     {
       "title": "Superficial and deep white matter brain alterations discriminate tinnitus in older adults.",
@@ -29,7 +41,13 @@
       "source": "pubmed",
       "journal": "Brain Struct Funct",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 2.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Structure & Function"
     },
     {
       "title": "Relationship of Behavioral Activation to Time-Varying Sub-Network Coherence in Attention and Reward Neural Networks.",
@@ -39,7 +57,13 @@
       "source": "pubmed",
       "journal": "Brain Topogr",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 2.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "BRAIN TOPOGRAPHY"
     },
     {
       "title": "Perivascular fluid clearance links choroid plexus changes to cognitive performance in cerebral small vessel disease.",
@@ -49,7 +73,13 @@
       "source": "pubmed",
       "journal": "Brain Inform",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 4.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Informatics"
     },
     {
       "title": "On the Origin of the Brain Semi-Heavy Water Deuterium MR Signal Following Administration of Deuterated Metabolic Substrate: A Cautionary Tale.",
@@ -59,7 +89,13 @@
       "source": "pubmed",
       "journal": "Magn Reson Med",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 3.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "MAGNETIC RESONANCE IN MEDICINE"
     },
     {
       "title": "Multidimensional Profiling of MRI-Negative Temporal Lobe Epilepsy Uncovers Distinct Phenotypes.",
@@ -69,7 +105,14 @@
       "source": "pubmed",
       "journal": "Ann Clin Transl Neurol",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
     },
     {
       "title": "Moderate-to-Vigorous Physical Activity and Cerebral Small Vessel Disease in Older Adults with Type 2 Diabetes: A Cross-Sectional Study.",
@@ -79,7 +122,13 @@
       "source": "pubmed",
       "journal": "Med Sci Sports Exerc",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 3.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "MEDICINE & SCIENCE IN SPORTS & EXERCISE"
     },
     {
       "title": "Imaging Venous Transit Time and Blood-Brain Barrier Permeability of the Deep Brain.",
@@ -89,7 +138,13 @@
       "source": "pubmed",
       "journal": "Magn Reson Med",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 3.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "MAGNETIC RESONANCE IN MEDICINE"
     },
     {
       "title": "Hinoki Cypress Aroma Facilitates Swallowing via Premotor and Hypothalamic Down-modulation: A Randomized Within-subject Crossover fMRI Study.",
@@ -99,7 +154,13 @@
       "source": "pubmed",
       "journal": "Dysphagia",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 3.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "DYSPHAGIA"
     },
     {
       "title": "Distinct brain volume abnormalities in clinical high-risk individuals: pre- and post-antipsychotic treatment.",
@@ -109,7 +170,13 @@
       "source": "pubmed",
       "journal": "Psychol Med",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 5.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "PSYCHOLOGICAL MEDICINE"
     },
     {
       "title": "Demonstration of CEST MRI in an Animal Model of Acute Ischemic Stroke at 15.2 T With Simple Linearization for B(1) Inhomogeneity Correction.",
@@ -119,7 +186,13 @@
       "source": "pubmed",
       "journal": "Magn Reson Med",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 3.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "MAGNETIC RESONANCE IN MEDICINE"
     },
     {
       "title": "Cooperative Multiplex GNN for High-Grade Glioma Survival Prediction from Preoperative Multi-Modal Radiomics-Based Brain Networks.",
@@ -129,7 +202,14 @@
       "source": "pubmed",
       "journal": "IEEE Trans Med Imaging",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "lookup_error",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "network_or_parse_error"
     },
     {
       "title": "Contributions of insula and superior temporal sulcus to interpersonal guilt and responsibility in social decisions.",
@@ -139,7 +219,13 @@
       "source": "pubmed",
       "journal": "Elife",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "eLife"
     },
     {
       "title": "Comparative Insights into (18)F-FDG and (68)Ga-FAPI PET Imaging in Glioma: Diagnostic Value, Tumor Grading, and Clinical Implications.",
@@ -149,7 +235,13 @@
       "source": "pubmed",
       "journal": "Mol Imaging Radionucl Ther",
       "published_date": "2026-03-24",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "impact_factor": 1.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Imaging and Radionuclide Therapy"
     }
   ],
   "digest": {

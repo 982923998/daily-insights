@@ -22,13 +22,14 @@ class MinimalIfPipelineContractTests(unittest.TestCase):
         self.assertIn('FILTER_IF_SCRIPT="$PROJECT_DIR/scripts/filter_impact_factor.py"', self.source)
 
         filter_body = function_body(self.source, "filter_impact_factors")
-        self.assertIn('python3 "$FILTER_IF_SCRIPT" "$file" --minimum 6', filter_body)
+        self.assertIn('python3 "$FILTER_IF_SCRIPT" "$file" --minimum 8', filter_body)
         self.assertIn("return 1", filter_body)
         self.assertNotIn("non-blocking", filter_body)
 
         validator_body = function_body(self.source, "validate_data_file")
         self.assertIn('local stage="${3:-}"', validator_body)
         self.assertIn('--stage "$stage"', validator_body)
+        self.assertIn('--minimum-impact-factor 8', validator_body)
         self.assertIn("return 1", validator_body)
 
     def test_brain_mri_pipeline_runs_local_if_and_filter_once_before_split(self):

@@ -9,7 +9,13 @@
       "source": "pubmed",
       "journal": "Sci Transl Med",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": 14.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Science Translational Medicine"
     },
     {
       "title": "Predicting Apathy Using Connectome-Based Models Derived from Static and Dynamic Brain Connectivity.",
@@ -19,7 +25,14 @@
       "source": "pubmed",
       "journal": "Soc Cogn Affect Neurosci",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "lookup_error",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "network_or_parse_error"
     },
     {
       "title": "Intraoperative Subdural and Postoperative Brainstem Hemorrhage in Glioma Surgery: A Case Report.",
@@ -29,7 +42,13 @@
       "source": "pubmed",
       "journal": "Am J Case Rep",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": 0.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "American Journal of Case Reports"
     },
     {
       "title": "Visual experience shapes functional connectivity between occipital and non-visual networks.",
@@ -39,7 +58,13 @@
       "source": "pubmed",
       "journal": "Elife",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "eLife"
     },
     {
       "title": "Functional connectivity-based attractor dynamics of the human brain in rest, task, and disease.",
@@ -49,7 +74,13 @@
       "source": "pubmed",
       "journal": "Elife",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "eLife"
     },
     {
       "title": "Number of Live Births as a Protective Factor Against Clinical and Covert Brain Infarcts: The Framingham Heart Study.",
@@ -59,7 +90,13 @@
       "source": "pubmed",
       "journal": "J Am Heart Assoc",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": 5.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Journal of the American Heart Association"
     },
     {
       "title": "Timing-Dependent Cleavage of Interleukin-1 Receptor Antagonist by Alteplase Impairs Neuroprotection in Ischemic Stroke.",
@@ -69,7 +106,13 @@
       "source": "pubmed",
       "journal": "Stroke",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": 8.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "STROKE"
     },
     {
       "title": "Volumetric MRI assessment of brain and pituitary structure in girls with central precocious puberty.",
@@ -79,7 +122,13 @@
       "source": "pubmed",
       "journal": "J Pediatr Endocrinol Metab",
       "published_date": "2026-03-19",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": 1.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF PEDIATRIC ENDOCRINOLOGY & METABOLISM"
     },
     {
       "title": "Transcranial alternating current stimulation over left DLPFC modulates feedback processing: a simultaneous tACS-fMRI study.",
@@ -89,7 +138,13 @@
       "source": "pubmed",
       "journal": "Transl Psychiatry",
       "published_date": "2026-03-18",
-      "date": "2026-03-19"
+      "date": "2026-03-19",
+      "impact_factor": 6.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Translational Psychiatry"
     }
   ],
   "digest": {

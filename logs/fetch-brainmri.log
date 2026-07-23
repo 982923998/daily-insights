@@ -12957,3 +12957,298 @@ Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-26-brain
 [08:32:32] [OK] Post-fetch IF sync finished.
 [08:32:32] ✅ Task finished.
 [08:32:32] [INFO] AUTO_GIT_SYNC is disabled; skip git push.
+[08:30:02] 🚀 Starting task: brainmri
+[08:30:02] 📚 Academic domain: brainmri (Brain MRI)
+[08:30:02] 📂 Data file: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json
+[08:30:02] ⚡ [Fetch Brain MRI] model: gpt-5.3-codex
+[08:30:02] ⏱️ [Fetch Brain MRI] timeout: 600s
+[08:30:02] ──── PROMPT ────────────────────────
+  你的任务是检索 Brain MRI 领域的学术论文（今天：2026-03-27）。
+  你必须严格执行 academic-search 技能工作流，路径如下：
+  - 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+  - 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  强制步骤（不得跳过）：
+  1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+  2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+  3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+  4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+  领域配置文件：
+  /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+  完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json"：
+  - 顶层结构：{"date":"2026-03-27","articles":[...]}
+  - 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+  - category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+  - 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+  - 若文件已存在，先读取后合并去重再写入
+  - 若当天无文章，写入 {"date":"2026-03-27","articles":[]}
+  不写文件 = 任务失败。
+[08:30:02] ────────────────────────────────────
+OpenAI Codex v0.116.0 (research preview)
+--------
+workdir: /Users/chenmayao/Projects/daily-insights
+model: gpt-5.3-codex
+provider: gmn
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019d2cb2-b724-7e60-9a0a-ed4aa37299c8
+--------
+user
+你的任务是检索 Brain MRI 领域的学术论文（今天：2026-03-27）。
+
+你必须严格执行 academic-search 技能工作流，路径如下：
+- 技能文件：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md
+- 领域配置：/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+
+强制步骤（不得跳过）：
+1. 先读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md，遵循技能中的通用流程和输出要求。
+2. 再读取 /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md，严格按其中检索方法、查询词、API 和过滤规则执行。
+3. 配置文件中的每条检索步骤都必须执行，不得跳过或替换为其他方法。
+4. 禁止开启子任务/子代理；必须直接用 Bash/curl 按配置步骤执行。
+
+领域配置文件：
+/Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md
+
+完成检索后，直接写入 "/Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json"：
+- 顶层结构：{"date":"2026-03-27","articles":[...]}
+- 每条文章：title、summary、url、category、source、journal、published_date、date（summary 不得为空）
+- category 固定为 "Brain MRI"；published_date 为 YYYY-MM-DD 格式；journal 为期刊名称（没有则空字符串）
+- 若某条记录没有 abstract，summary 必须填入可读回退文本：`No abstract available in source.`
+- 若文件已存在，先读取后合并去重再写入
+- 若当天无文章，写入 {"date":"2026-03-27","articles":[]}
+
+不写文件 = 任务失败。
+
+mcp startup: no servers
+codex
+我会严格按 `academic-search` 技能执行：先读取技能流程和 `brainmri` 配置，再逐条用 Bash/curl 完整跑完检索与过滤，最后合并去重写入目标 JSON 文件。先开始读取这两个文件。
+exec
+/bin/zsh -lc 'cat /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/sources/brainmri.md' in /Users/chenmayao/Projects/daily-insightsexec
+/bin/zsh -lc 'cat /Users/chenmayao/Projects/daily-insights/.agents/skills/academic-search/SKILL.md' in /Users/chenmayao/Projects/daily-insights succeeded in 25ms:
+---
+id: brainmri
+label: Brain MRI
+category: Brain MRI
+color: "#0ea5e9"
+icon: crosshair
+skill: academic-search
+platforms: pubmed
+order: 8
+---
+
+## PubMed 检索（Entrez E-utilities）
+
+使用 `reldate=2&datetype=crdt` 动态获取最近 2 天入库的文献（覆盖今天与前一天），无需硬编码日期。
+
+### 检索词
+
+```
+("Brain"[Mesh] OR brain*[Title/Abstract] OR cerebr*[Title/Abstract] OR encephalon[Title/Abstract] OR intracranial[Title/Abstract]) AND ("Magnetic Resonance Imaging"[Mesh] OR "MRI"[Title/Abstract] OR "magnetic resonance"[Title/Abstract] OR "fMRI"[Title/Abstract] OR "DTI"[Title/Abstract] OR "diffusion tensor"[Title/Abstract] OR "VBM"[Title/Abstract] OR "voxel-based morphometry"[Title/Abstract] OR "connectome"[Title/Abstract] OR "arterial spin labeling"[Title/Abstract] OR "magnetic resonance spectroscopy"[Title/Abstract])
+```
+ succeeded in 25ms:
+---
+name: academic-search
+description: Search academic papers on PubMed using domain-specific configurations. Each research domain is defined in sources/{id}.md with search queries and filtering rules.
+keywords:
+  - academic
+  - research
+  - pubmed
+  - papers
+  - literature
+license: MIT
+---
+
+# Academic Search
+
+Searches PubMed for papers in configured research domains.
+Domain configurations live in `sources/{id}.md` — each file defines what to search and filter rules.
+
+## Requirements
+
+1. Bash + curl (uses PubMed E-utilities directly, no external API key needed)
+codex
+我已经拿到技能与配置，下一步会严格按 3 个 API 步骤执行：`esearch → esummary → efetch(xml)`，并在本地做“仅今天/前一天发表”的二次过滤与去重后写文件。先检查解析工具可用性并开始抓取 PMID。
+exec
+/bin/zsh -lc 'set -e
+command -v jq >/dev/null && echo jq_ok || echo jq_missing
+command -v xmllint >/dev/null && echo xmllint_ok || echo xmllint_missing' in /Users/chenmayao/Projects/daily-insights succeeded in 30ms:
+jq_ok
+xmllint_ok
+codex
+现在开始执行配置里的每个检索步骤并落盘：先 `esearch` 拿 PMID，再 `esummary` 提取元数据、`efetch(xml)` 抽取摘要，最后按“2026-03-27/2026-03-26”过滤并与已有文件合并去重写入。
+exec
+/bin/zsh -lc 'set -euo pipefail
+TODAY="2026-03-27"
+YESTERDAY="2026-03-26"
+OUT="/Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json"
+TMPDIR="/tmp/brainmri-$$"
+mkdir -p "$TMPDIR"
+
+TERM_ENC='"'(%22Brain%22%5BMesh%5D+OR+brain*%5BTitle%2FAbstract%5D+OR+cerebr*%5BTitle%2FAbstract%5D+OR+encephalon%5BTitle%2FAbstract%5D+OR+intracranial%5BTitle%2FAbstract%5D)+AND+(%22Magnetic+Resonance+Imaging%22%5BMesh%5D+OR+%22MRI%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance%22%5BTitle%2FAbstract%5D+OR+%22fMRI%22%5BTitle%2FAbstract%5D+OR+%22DTI%22%5BTitle%2FAbstract%5D+OR+%22diffusion+tensor%22%5BTitle%2FAbstract%5D+OR+%22VBM%22%5BTitle%2FAbstract%5D+OR+%22voxel-based+morphometry%22%5BTitle%2FAbstract%5D+OR+%22connectome%22%5BTitle%2FAbstract%5D+OR+%22arterial+spin+labeling%22%5BTitle%2FAbstract%5D+OR+%22magnetic+resonance+spectroscopy%22%5BTitle%2FAbstract%5D)'
+
+# Step 1: esearch
+curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term="'${TERM_ENC}&reldate=2&datetype=crdt&retmax=100&retmode=json" > "$TMPDIR/esearch.json"
+IDS_CSV=$(jq -r '"'.esearchresult.idlist | join(\",\")' \""'$TMPDIR/esearch.json")
+
+if [ -z "$IDS_CSV" ]; then
+  echo '"'[]' > \""'$TMPDIR/new_articles.json"
+else
+  # Step 2: esummary
+  curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${IDS_CSV}&retmode=json" > "$TMPDIR/esummary.json"
+
+  # Step 3: efetch (xml abstracts)
+  curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=${IDS_CSV}&retmode=xml&rettype=abstract" > "$TMPDIR/efetch.xml"
+
+  # Build PMID->abstract map from XML
+  : > "$TMPDIR/abstracts.tsv"
+  COUNT=$(xmllint --xpath '"'count(//PubmedArticle)' \""'$TMPDIR/efetch.xml" 2>/dev/null | awk -F. '"'{print "'$1}'"')
+  if [ -z \""'$COUNT" ]; then COUNT=0; fi
+  if [ "$COUNT" -gt 0 ]; then
+    for i in $(seq 1 "$COUNT"); do
+      PMID=$(xmllint --xpath "normalize-space(string(//PubmedArticle[$i]/MedlineCitation/PMID))" "$TMPDIR/efetch.xml" 2>/dev/null || true)
+      ABSTRACT=$(xmllint --xpath "normalize-space(string(//PubmedArticle[$i]/MedlineCitation/Article/Abstract))" "$TMPDIR/efetch.xml" 2>/dev/null || true)
+      ABSTRACT=$(printf '"'%s' \""'$ABSTRACT" | tr '"'\\t\\r\\n' '   ' | sed 's/  */ /g;s/"'^ //;s/ $//'"')
+      if [ -n \""'$PMID" ]; then
+        printf '"'%s\\t%s\\n' \""'$PMID" "$ABSTRACT" >> "$TMPDIR/abstracts.tsv"
+      fi
+    done
+  fi
+
+  jq -Rn '"'reduce inputs as "'$line ({}; ($line | split("'"\\t\")) as "'$p | if ($p|length)>=2 and ($p[0]|length)>0 then . + {($p[0]): $p[1]} else . end)'"' \""'$TMPDIR/abstracts.tsv" > "$TMPDIR/abstracts.json"
+
+  jq --arg today "$TODAY" --arg y "$YESTERDAY" --arg date "$TODAY" --slurpfile abs "$TMPDIR/abstracts.json" '"'
+    def parse_date:
+      . as "'$d |
+      (try ($d | strptime("%Y-%m-%d") | strftime("%Y-%m-%d")) catch
+       try ($d | strptime("%Y %b %d") | strftime("%Y-%m-%d")) catch
+       try ($d | strptime("%Y %B %d") | strftime("%Y-%m-%d")) catch
+       try ($d | strptime("%Y %b") | strftime("%Y-%m-01")) catch
+       try ($d | strptime("%Y %B") | strftime("%Y-%m-01")) catch
+       try ($d | strptime("%Y") | strftime("%Y-01-01")) catch
+       null);
+
+    .result as $r
+    | [ $r.uids[] as $id
+        | $r[$id] as $it
+        | (($it.pubdate // "") | parse_date) as $pd
+        | select($pd == $today or $pd == $y)
+        | {
+            title: ($it.title // ""),
+            summary: ((($abs[0][$id] // "") | gsub("'"\\\\s+\"; \" \") | ltrimstr(\" \") | rtrimstr(\" \")) as "'$s | if $s == "" then "No abstract available in source." else $s end),
+            url: ("https://pubmed.ncbi.nlm.nih.gov/" + $id + "/"),
+            category: "Brain MRI",
+            source: "pubmed",
+            journal: ($it.source // ""),
+            published_date: $pd,
+            date: $date
+          }
+      ]
+  '"' \""'$TMPDIR/esummary.json" > "$TMPDIR/new_articles.json"
+fi
+
+if [ ! -f "$OUT" ]; then
+  printf '"'{\"date\":\"%s\",\"articles\":[]}' \""'$TODAY" > "$OUT"
+fi
+
+jq --arg today "$TODAY" --slurpfile new "$TMPDIR/new_articles.json" '"'
+  {
+    date: "'$today,
+    articles: (((.articles // []) + ($new[0] // [])) | unique_by(.url))
+  }
+'"' \""'$OUT" > "$TMPDIR/merged.json"
+
+mv "$TMPDIR/merged.json" "$OUT"
+
+# Print short stats for verification
+jq '"'{date, count:(.articles|length), sample:(.articles[0] // null)}' \""'$OUT"
+' in /Users/chenmayao/Projects/daily-insights succeeded in 6.64s:
+{
+  "date": "2026-03-27",
+  "count": 17,
+  "sample": {
+    "title": "Psilocybin shapes the slow, global propagation of brain activity over the cortical layout of 5HT2a receptors.",
+    "summary": "Uncovering the neural basis of psychedelics' potent effects on brain activity and conscious experience has great potential for understanding their therapeutic effects. Numerous studies using functional magnetic resonance imaging (fMRI) uncovered a strong effect of psychedelics on global properties of fMRI signal, but how they map to underlying neural phenomena remains to be further explored. In this article, we aimed to relate commonly reported findings from functional connectivity studies of psychedelics to changes in the spatio-temporal propagation of activity over the unimodal-transmodal cortical axis. We used data from an openly available dataset including baseline sessions, a control session with administration of methylphenidate, and psilocybin, a 5HT2a agonist. We found that faster propagation speed was related to increased total functional connectivity and a contraction of the principal gradient. The results support the view that these functional connectivity indices obtained from entire signal time courses reflect the modulation of specific global events of propagation. Furthermore, we found that the cortical distribution of 5HT2a receptors could contribute to the modulation of travelling wave propagation by psilocybin. These findings provide a link between macroscopic signatures of neuromodulatory activity, global brain events and receptor action, with relevance for understanding the mechanisms of psychedelic effects.© 2026. The Author(s).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41882058/",
+    "category": "Brain MRI",
+    "source": "pubmed",
+    "journal": "Commun Biol",
+    "published_date": "2026-03-26",
+    "date": "2026-03-27"
+  }
+}
+codex
+检索和写入已完成；我再做一次结构校验（字段完整性、日期格式、summary 非空）确保文件满足你的强制约束。
+exec
+/bin/zsh -lc "set -e
+OUT=\"/Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json\"
+jq -e '
+  .date==\"2026-03-27\" and
+  (.articles|type==\"array\") and
+  (all(.articles[];
+    (.category==\"Brain MRI\") and
+    (.source==\"pubmed\") and
+    (.title|type==\"string\") and
+    (.summary|type==\"string\" and length>0) and
+    (.url|type==\"string\" and startswith(\"https://pubmed.ncbi.nlm.nih.gov/\")) and
+    (.journal|type==\"string\") and
+    (.published_date|test(\""'^[0-9]{4}-[0-9]{2}-[0-9]{2}$")) and
+    (.date=="2026-03-27")
+  ))
+'"' \""'$OUT" >/dev/null
+jq '"'{date, articles_count:(.articles|length)}' \""'$OUT"' in /Users/chenmayao/Projects/daily-insights succeeded in 41ms:
+{
+  "date": "2026-03-27",
+  "articles_count": 17
+}
+codex
+已严格按 `academic-search` + `brainmri.md` 配置完成全流程检索（`esearch → esummary → efetch(xml)`）、二次日期过滤（仅 `2026-03-27` 与 `2026-03-26`）、按 `url` 去重、并与已有文件合并后写入：
+
+- [2026-03-27-brainmri.json](/Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json)
+
+结果概况：
+- `date`: `2026-03-27`
+- `articles` 数量：`17`
+- 每条均包含：`title, summary, url, category, source, journal, published_date, date`
+- `category` 固定为 `Brain MRI`，`summary` 均非空（缺摘要时会回退为指定文本）
+tokens used
+20,993
+已严格按 `academic-search` + `brainmri.md` 配置完成全流程检索（`esearch → esummary → efetch(xml)`）、二次日期过滤（仅 `2026-03-27` 与 `2026-03-26`）、按 `url` 去重、并与已有文件合并后写入：
+
+- [2026-03-27-brainmri.json](/Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json)
+
+结果概况：
+- `date`: `2026-03-27`
+- `articles` 数量：`17`
+- 每条均包含：`title, summary, url, category, source, journal, published_date, date`
+- `category` 固定为 `Brain MRI`，`summary` 均非空（缺摘要时会回退为指定文本）
+Data quality validated: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json (domain=brainmri, articles=17)
+[08:32:59] [OK] Data file validated (schema + quality): /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json (applied=8, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=45, letpub_raw=1659, letpub_reference=47, total_applied=8, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[08:32:59] [OK] Impact factors synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json
+Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json
+[08:32:59] [OK] Digest generated: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json
+[08:32:59] 🔁 Running post-fetch IF sync (reference=auto-unresolved)...
+[WARN] beautifulsoup4 is not installed; disable online crawling and fallback to local LetPub data only.
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-12-ad.json (applied=2, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-13-brainmri.json (applied=8, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-14-brainmri.json (applied=13, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-brainmri.json (applied=2, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-18-depression.json (applied=0, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-19-brainmri.json (applied=7, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-20-brainmri.json (applied=9, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-ad.json (applied=6, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-adhd.json (applied=0, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-brainmri.json (applied=9, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-21-depression.json (applied=3, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-24-ad.json (applied=1, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-24-brainmri.json (applied=3, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-25-brainmri.json (applied=10, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-26-brainmri.json (applied=8, letpub_updates=0)
+[OK] IF synced: /Users/chenmayao/Projects/daily-insights/data/2026-03-27-brainmri.json (applied=8, letpub_updates=0)
+[DONE] reference=auto-unresolved, unresolved=45, letpub_raw=1659, letpub_reference=47, total_applied=89, total_letpub_updates=0, manual_found=0, manual_unresolved_added=0
+[08:33:00] [OK] Post-fetch IF sync finished.
+[08:33:00] ✅ Task finished.
+[08:33:00] [INFO] AUTO_GIT_SYNC is disabled; skip git push.

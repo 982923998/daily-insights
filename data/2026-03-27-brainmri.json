@@ -1,0 +1,326 @@
+{
+  "date": "2026-03-27",
+  "articles": [
+    {
+      "title": "Psilocybin shapes the slow, global propagation of brain activity over the cortical layout of 5HT2a receptors.",
+      "summary": "Uncovering the neural basis of psychedelics' potent effects on brain activity and conscious experience has great potential for understanding their therapeutic effects. Numerous studies using functional magnetic resonance imaging (fMRI) uncovered a strong effect of psychedelics on global properties of fMRI signal, but how they map to underlying neural phenomena remains to be further explored. In this article, we aimed to relate commonly reported findings from functional connectivity studies of psychedelics to changes in the spatio-temporal propagation of activity over the unimodal-transmodal cortical axis. We used data from an openly available dataset including baseline sessions, a control session with administration of methylphenidate, and psilocybin, a 5HT2a agonist. We found that faster propagation speed was related to increased total functional connectivity and a contraction of the principal gradient. The results support the view that these functional connectivity indices obtained from entire signal time courses reflect the modulation of specific global events of propagation. Furthermore, we found that the cortical distribution of 5HT2a receptors could contribute to the modulation of travelling wave propagation by psilocybin. These findings provide a link between macroscopic signatures of neuromodulatory activity, global brain events and receptor action, with relevance for understanding the mechanisms of psychedelic effects.© 2026. The Author(s).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882058/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Commun Biol",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Clinical and imaging characteristics of NOTCH3-negative CADASIL-suspected patients with NOTCH2NLC GGC repeat expansions.",
+      "summary": "Neuronal intranuclear inclusion disease (NIID) is an autosomal dominant inherited neurodegenerative disease caused by NOTCH2NLC GGC repeat expansions. A high-intensity signal in the corticomedullary junction (CMJ) on magnetic resonance (MR) diffusion-weighted imaging (DWI) is a well-known characteristic of NIID. However, because of its diverse clinical symptoms and frequent presence of cerebral white matter hyperintensity (WMH) lesions on MRI, patients with NIID may be suspected of having other leukoencephalopathies. The aim of the present study was to identify patients with NOTCH2NLC GGC repeat expansions among those with undiagnosed leukoencephalopathies, recruited from NOTCH3-negative cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL)-suspected and GFAP-negative Alexander disease (AxD)-suspected patients. Among 459 NOTCH3-negative CADASIL-suspected patients, 18 (3.9%) showed NOTCH2NLC GGC repeat expansions; however, among 40 GFAP-negative AxD-suspected patients, none exhibited such repeat expansions. On comparing 17 patients with GGC repeat expansions, whose clinical information was available, with 179 CADASIL probands previously reported by us, the former showed significantly higher frequencies of seizure (23.5 vs. 6.9%, respectively), WMH in the corpus callosum (92.9 vs. 9.2%, respectively), paravermis (21.4 vs. 2.7%, respectively), and middle cerebellar peduncle (21.4 vs. 3.4%, respectively), and DWI high-intensity signals in CMJ (61.5 vs. 1.4%, respectively). In conclusion, not only DWI high-intensity signals in CMJ, but also the WMH distribution, particularly a high frequency in the corpus callosum, and presence of seizures are useful for detecting NIID in patients with undiagnosed leukoencephalopathies.© 2026. The Author(s), under exclusive licence to The Japan Society of Human Genetics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882342/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Hum Genet",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Longitudinal visualization tools for advanced characterization of multiple sclerosis lesions using diffusion MRI and magnetization transfer imaging metrics.",
+      "summary": "Understanding how white matter microstructure supports functional network organization requires tools capable of characterizing tissue properties across multiple complementary metrics and spatial scales simultaneously. White matter pathology disrupts the relationship between microstructural tissue organization and network-level function in spatial and temporal patterns that reveal fundamental principles of white matter organization. Multiple sclerosis (MS) exemplifies this principle through heterogeneous lesion formation, demyelination, and axonal injury that disrupts white matter at multiple scales and in multiple ways. Advanced neuroimaging techniques, particularly diffusion MRI (dMRI) and magnetization transfer imaging (MTI), provide sensitive measures of distinct microstructural properties. However, the high dimensionality and longitudinal complexity of multi-metric datasets pose significant challenges for analyzing how these tissue changes relate to white matter network organization. We introduce five complementary visualization tools designed to integrate fixel-based multi-tensor, magnetization transfer, and isotropic volume fraction across multiple time points while preserving the spatial organization of white matter tracts and tissue compartments. The framework enables investigation of structure-function relationships at multiple scales: patient-level network disruption patterns, tract-specific vulnerability, bundle-section-specific regional variations, lesion-specific microstructural dynamics, and microstructural characteristics in tissue regions where lesions subsequently develop. Applied to longitudinal datasets from multiple MS patients over five scanning periods, the visualization framework provides a descriptive characterization of microstructural heterogeneity and permits hypothesis-generating exploration of white matter structure-function relationships. The framework provides tools for exploratory investigation of microstructural heterogeneity at multiple scales and provides research tools for hypothesis-generating examination of white matter structure-function relationships in pathology. It has potential applications for understanding how tissue-level microstructural changes vary across patients, bundles, and lesions. The framework is designed as a research visualization tool for hypothesis generation and should not be interpreted as providing clinical prognostic utility for which further validation against clinical outcomes is needed.© 2026. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882380/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Struct Funct",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "First reported case in Brazil of intraventricular pilocytic astrocytoma in an adult patient with literature review.",
+      "summary": "Pilocytic astrocytomas (PAs) are central nervous system tumors that predominantly occur during the first two decades of life and typically arise in the cerebellum, optic pathways, hypothalamus, or brainstem. Intraventricular PAs are extremely uncommon, accounting for less than 4% of all cases, and adult presentations are particularly rare. We report the first documented case of an intraventricular PA in an adult patient in Brazil and highlight its clinical and therapeutic relevance.A 32-year-old Brazilian woman presented with a secondary epileptic seizure. Magnetic resonance imaging revealed an expansive lesion in the left lateral ventricle. The tumor was surgically resected, and histopathological examination showed a biphasic neoplasm with eosinophilic granular bodies and microcystic areas. Immunohistochemical analysis demonstrated positivity for glial fibrillary acidic protein (GFAP) and oligodendrocyte transcription factor 2 (OLIG2), with no expression of mutant isocitrate dehydrogenase 1 protein (IDH1 R132H). Expression of 5'-methylthioadenosine phosphorylase (MTAP), alpha-thalassemia/mental retardation syndrome X-linked (ATRX), and the tumor suppressor protein p16 (INK4a) was retained. The Ki-67 (MIB-1) proliferation index was low, at approximately 1%, consistent with a WHO Grade 1 glioma.This case illustrates a rare intraventricular PA in an adult, confirmed through clinical, radiological, and histopathological integration. It emphasizes the importance of including PA in the differential diagnosis of intraventricular tumors in adults and may contribute to guiding recognition and management of rare ventricular tumors in this population.© 2026. The Author(s).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882481/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Discov Oncol",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Topological disruptions of metabolic brain networks in early-stage chronic kidney disease.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882601/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "BMC Med Imaging",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Psychotherapy and inhibitory control: Insights from fMRI research.",
+      "summary": "Despite the widespread clinical use of psychotherapy, the neural mechanisms linking treatment to changes in inhibitory control networks supporting self-regulation remain unclear. This study addresses this gap by meta-analyzing neuroimaging research on how psychotherapy affects brain regions involved in inhibitory control.We conducted a systematic literature review, selecting functional magnetic resonance imaging (fMRI) studies that examined inhibitory control tasks before and after psychotherapeutic interventions. Fifteen studies met the inclusion criteria and were analyzed using the activation likelihood estimation (ALE) algorithm.Results revealed three significant clusters of activations, namely: the superior and medial frontal gyrus (including pre-supplementary motor area), anterior cingulate cortex (ACC), and subcortical regions, such as the thalamus and globus pallidus. These areas are commonly reported as key nodes of the inhibitory control brain network.Overall, our main result indicates that psychotherapy might modulate key brain region activations involved in inhibitory control, particularly the prefrontal cortex-anterior cingulate network. This suggests that psychotherapy enhances cognitive and emotional regulation through strengthening inhibitory mechanisms. Moreover, the observed neural changes appear to parallel those induced by pharmacologic interventions, pointing to potential convergent therapeutic targets despite differing mechanisms of action.© 2026 The Author(s). Psychiatry and Clinical Neurosciences published by John Wiley & Sons Australia, Ltd on behalf of Japanese Society of Psychiatry and Neurology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41883109/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Psychiatry Clin Neurosci",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Decreased BOLD Signal Variability in Middle-Aged and Older Adults on the Autism Spectrum.",
+      "summary": "Autism spectrum disorder (ASD) is a lifelong neurodevelopmental disorder. Preliminary evidence suggests an increased risk for early-onset cognitive and neurological decline in ASD. While brain development in children, adolescents, and young adults with ASD diverges from neurotypical (NT) peers, it remains unclear in older adults with ASD. Understanding age-related changes of brain function in ASD is crucial to establish best practices for cognitive and health screenings and develop interventions that might reduce the risk of accelerated decline. Decreases in blood-oxygenation-level-dependent (BOLD) signal variability (BSV) in typical aging have been shown across multiple studies and are associated with poorer cognitive performance. We hypothesized that adults with ASD would show reduced BSV compared to the NT group, with steeper negative age associations in the ASD than NT group. The study assessed BSV during resting state fMRI in adults (40-70 years), 28 with ASD and 39 age-matched NT. General linear models tested diagnostic group, age, and group-by-age interactions, controlling for motion. Significant group-by-age interactions were observed for the right insular, left temporal occipital fusiform, right frontal orbital, and right inferior lateral occipital cortex, with BSV showing strong negative associations with age in the ASD but not NT adults. These findings suggest that BSV decreases may occur earlier in adults with ASD compared to their NT peers. This would be consistent with accelerated aging; however, additional longitudinal analyses are necessary to determine if the results presented truly reflect accelerated aging or arise from lifelong persistent differences in brain function.© 2026 The Author(s). Autism Research published by International Society for Autism Research and Wiley Periodicals LLC.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885009/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Autism Res",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Temporal Dynamics of Parkinson's Disease Tremor: Clinical and Neuroimaging Insights.",
+      "summary": "Parkinson's disease (PD) is a progressive neurodegenerative disorder clinically defined by three cardinal motor symptoms: bradykinesia, rigidity, and tremor. Although the natural history of bradykinesia and rigidity is well described, the evolution of tremor as the disease progresses remains controversial.The goal was to clinically characterize long-term trajectories of rest, postural, and action tremor in PD and examine their neural network correlates using longitudinal resting-state functional magnetic resonance imaging (rs-fMRI).In this retrospective longitudinal cohort study, we analyzed 93 tremor-positive PD patients (mean disease duration: 3.6 years), each with up to six clinical assessments over 4.2 years. Linear mixed-effects models assessed temporal change in Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) and Fahn-Tolosa-Marín Tremor Rating Scale (FTM-TRS) scores. Rs-fMRI data from 30 tremor-affected patients (mean interval, 3.35 years) were analyzed for seed-to-whole-brain connectivity and connectivity between predefined brain regions.Bradykinesia (β = +0.09, P < 0.001) and rigidity (β = +0.06, P < 0.001) worsened, whereas total FTM-TRS scores declined by 0.49 points/year (P = 0.037), driven by reductions in postural (P < 0.001) and action tremor (P = 0.033); resting tremor remained stable. Rs-fMRI revealed longitudinal changes in cerebellar- and thalamic-seed-to-whole-brain connectivity.Tremor in PD evolves along distinct clinical courses, often stabilizing or improving as other motor features worsen. These findings are consistent with partially adaptive reorganization within tremor-related networks and underscore the importance of identifying patient subtypes with divergent trajectories to inform prognosis and optimize therapy. © 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.© 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885037/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Mov Disord",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "The Neurosurgical Stethoscope-Advancing Bedside Imaging in Neurosurgery Through Sonolucent Cranial Implants: A Case Series.",
+      "summary": "Postoperative imaging evaluation through ultrasound (US) in neurosurgical patients has been limited by the poor penetration of US waves through the intact skull. Translucent cranial implants (TCI) circumvent this limitation by creating an acoustic window through which US can be effectively transmitted, allowing for practical bedside transcranioplasty US (TCUS). We hypothesize that TCUS can provide a rapid, noninvasive postoperative diagnostic and screening tool, functioning as a potential \"neurosurgical stethoscope\" to guide immediate reliable diagnostic tool, and reduce reliance on frequent computed tomography (CT) or MRI scanning. In this study, we aimed to assess the feasibility and applicability of bedside TCUS as a bedside diagnostic tool.This is a retrospective case-series. Patients included were: (1) 18 years or more; (2) underwent a cranioplasty with a TCI after craniectomy or burr-hole craniectomy for brain-pathologies; (3) after cranioplasty with a TCI, the patient postoperative or long-term follow-up surveillance prompted for CT or MRI; (4) underwent a bedside TCUS before CT or MRI; and (5) immediately after bedside TCUS the patient underwent CT or MRI-imaging.Nine patients (age range 40-76) were included. All patients received TCI ranging from burr-hole covers to hemicraniectomy cranioplasties (2-16 cm). The TCUS assessment range time was 2-5 minutes. Cases included immediately postoperative surveillance, on patient deterioration prompting imaging evaluation, inpatient serial monitorization, predischarge evaluation and outpatient long-term follow-up evaluation. In all cases, TCUS and CT or MRI qualitative findings/reports were in agreement.This initial investigation demonstrates our preliminary results on the feasibility and applicability of TCUS as a diagnostic tool for the postoperative surveillance and long-term follow-up of patients who underwent cranioplasty with sonolucent cranial implants. As an initial investigation, with limited generalization, our findings indicate promising feasibility and applicability of TCUS as a \"neurosurgical stethoscope\" and provide a foundation and insights for further investigation.Copyright © Congress of Neurological Surgeons 2026. All rights reserved.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885469/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Oper Neurosurg",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Enhanced Precision in Personalized Intraoperative Monitoring of Facial Nerves: A Comparative Analysis of Functional MRI-Guided and Conventional Electrode Placement for Transcranial Motor-Evoked Potentials During Skull Base Surgery.",
+      "summary": "Facial nerve preservation is critical in skull base surgery. Transcranial facial motor-evoked potential (tfMEP) monitoring can be limited by interindividual primary motor cortex (M1) facial cortex variability and intraoperative perturbations. We evaluated a functional MRI (fMRI)-guided, neuronavigation-assisted montage to personalize stimulating electrode placement and reduce thresholds during cerebellopontine angle tumor surgery.In a prospective cohort (n = 20), tfMEPs were recorded simultaneously using 2 montages: (1) fMRI-guided electrode directly over the patient-specific M1 facial hotspot identified by preoperative task fMRI and (2) conventional C3/C4. Train-of-five stimulation elicited compound muscle action potentials from orbicularis oculi/oris. The primary end point was stimulation threshold (mA) to elicit >50 µV, measured at predefined stages (precraniotomy through closure). Secondary analyses assessed threshold changes after durotomy/cerebrospinal fluid (CSF) drainage and postoperative House-Brackmann (HB) grades.fMRI-guided placement yielded lower baseline thresholds than conventional within patients (mean 65.5 vs 73.5 mA; Δ = -8.9 mA; P < .0001). The advantage persisted at closure (85.3 vs 96.3 mA; P < .0001). After durotomy/CSF drainage, thresholds increased modestly with both montages (+3.3 vs +4.0 mA; between-group P = .65). Monitoring feasibility was 100%, providing continuous data early in the case when direct nerve stimulation was not yet possible. At the latest follow-up, 17/20 (85%) had HB I and 3/20 (15%) HB II; no patient had permanent moderate/severe palsy.Neuronavigation-assisted, fMRI-guided tfMEP reliably targets the individual M1 facial area and significantly lowers stimulation thresholds vs conventional C3/C4, without increasing susceptibility to threshold drift after CSF loss. This simple, adoptable workflow may enhance intraoperative decision making for facial nerve preservation. Larger multicenter studies are warranted to validate outcome prediction and refine threshold-based alarm criteria.Copyright © Congress of Neurological Surgeons 2026. All rights reserved.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885473/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Oper Neurosurg",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "The Relation of Home Literacy Environment to Brain Specialization and Sensitivity for Phonological and Semantic Processing of Spoken Words.",
+      "summary": "Neural specialization is a developmental phenomenon across multiple domains of language processing. The home literacy environment (HLE) is observed to relate to brain activation during language and reading tasks; however, whether HLE relates to phonological and semantic functional specialization and sensitivity remains unknown.Using an open-source data set, this study examined thirty-three 5- to 6-year-olds and seventy-six 7- to 8-year-olds. Data from functional magnetic resonance imaging sound and meaning judgment tasks were used to examine phonological and semantic functional specialization (contrasting tasks) and sensitivity (comparing conditions within a task). Then, voxel-wise regression analyses were used to test correlations between those brain indexes and HLE (i.e., family-to-child reading, child independent reading) measured using a parent survey.We observed weak evidence of phonological specialization at 5 years old and weak evidence of semantic specialization at 7 years old associated with family-to-child reading. We also observed weak evidence of phonological sensitivity at 5 years old and strong evidence of semantic sensitivity at 7 years old associated with family-to-child reading. Across the cohorts, a progression from temporal to frontal brain regions was observed in those relations, in line with prior literature on language specialization and sensitivity across development.Overall, our results suggest that HLE is linked to functional specialization and sensitivity, with family-to-child reading showing a weak relation to sound structure processing at 5 years old but a stronger relation to meaning processing at 7 years old. This finding supports the interactive specialization theory, which emphasizes the role of environmental inputs in neural specialization.https://doi.org/10.23641/asha.31606621.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885550/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Speech Lang Hear Res",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "A Revealing Case of SHQ1-Related Neurodevelopmental Disorder: Expanding the Genotypic and Phenotypic Frontier.",
+      "summary": "SHQ1-related neurodevelopmental disorder is a rare autosomal recessive condition linked to disrupted ribosome biogenesis, telomerase activity, and RNA modification. Among the few reported cases, typical clinical presentations consist of early-onset hypotonia, seizures, movement disorders, and progressive neurologic impairment. We present a male patient who, at 4 months, displayed global developmental delay, hypotonia, feeding difficulties, and impaired cervical motor control. He progressed to exhibit choreiform movements and oromotor hypotonia. Extensive metabolic and genetic workup was unrevealing; whole exome sequencing (WES) in 2022 was nondiagnostic, and supportive measures were continued. In 2024, WES reanalysis identified compound heterozygous variants in SHQ1, NM_018130.4:c.523G>T (p.Gly175Cys) and NM_018130.4:c.828_831del (p.Glu276fs*12), both now recognized as pathogenic. Brain MRI was normal, and cerebrospinal fluid neurotransmitter analysis revealed reduced homovanillic acid, suggesting dopaminergic pathways. This case expands the clinical spectrum of SHQ1-related disorder by illustrating a milder phenotype with functional developmental gains and emphasis on the diagnostic value of WES reanalysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885709/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "J Child Neurol",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Neurobehavioral differences in value-based decision making between people with cocaine use disorder and controls.",
+      "summary": "Decision making occurs in dynamic contexts in which the individual and reward attributes change, requiring that predicted reward values of options be updated continually and applied to future choices to maximize reward. Value processing relies on corticostriatal dopamine, which is dysregulated in people with cocaine use disorder (pwCocUD), but whether these individuals differ in value-based decision making has only recently been considered. A probabilistic concurrent monetary choice task with reversals, reinforcement learning modeling, and functional magnetic resonance imaging were used to assess value-based decision making in nontreatment-seeking pwCocUD and matched controls (n = 17 [8F and 9M] per group; n = 34 total). Both groups were sensitive to reinforcement probabilities, but pwCocUD made significantly fewer choices for the high probability reward option. Reinforcement learning modeling revealed that pwCocUD had lower β parameter estimates, indicating reduced consistency in using relative option values to make choices. Significant correlations between the application of value (i.e., β parameter) and value-modulated activity during choice deliberation were identified in brain regions previously linked to reinforcement learning and exploiting versus exploring choice options in both groups. A significant group difference in the strength of this relationship was found in medial frontal control regions, including the dorsal anterior cingulate cortex, which has been associated with the explore-exploit trade-off, suggesting that the differential engagement of these areas contributed to group differences in choice behavior. This research contributes to our understanding of suboptimal decisions made by pwCocUD in uncertain, low-reward contexts and support targeting networks involved in value-based decision making for neuromodulation intervention development. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41885880/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Exp Clin Psychopharmacol",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Neurovascular coupling dysfunction of the frontal‒thalamic circuit in postconcussion syndrome.",
+      "summary": "Postconcussion syndrome (PCS) is characterized by alterations in perfusion and neural activity within specific regions, such as the frontal‒thalamic circuit. Despite extensive research on the neurovascular coupling (NVC) function of the PCS, how the involved brain regions interact as a dynamic network in the processing of cognitive and behavioral functions is still elusive. We recruited 38 participant with PCS and 38 healthy controls for magnetic resonance imaging examinations. We subsequently investigated four types of NVC, namely, amplitude of low-frequency fluctuation (ALFF), fractional ALFF, regional homogeneity, degree centrality, cerebral blood perfusion, and associated functional networks, on the basis of dynamic causal modeling (DCM). NVC and spectral DCM analyses revealed a significant reduction in excitatory cortical connectivity from the left thalamus to the left middle frontal gyrus and from the right thalamus to the right middle frontal gyrus, whereas inhibitory cortical connectivity from the right middle frontal gyrus to the right thalamus also decreased. Notably, an increase in excitatory cortical connectivity from the left putamen to the left middle frontal gyrus was observed, which may represent a compensatory mechanism. The distinctive pattern of altered neurovascular coupling in the frontal‒thalamic circuit of PCS participant may underlie the observed executive and cognitive dysfunctions.© 2026. The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41886010/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "A comprehensive analysis of brain network complexity in task-based fMRI using entropy: systematic review.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41886027/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Brain Imaging Behav",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "An unusual variant of the anterior cerebral and anterior communicating arterial system: anatomical description with clinical and radiological implications.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41886088/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Surg Radiol Anat",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Localizing Target for Transcranial Direct Current Stimulation in Drug-Resistant Epilepsy using Dynamic EEG Source Network.",
+      "summary": "Epilepsy is a brain network disorder characterized by recurrent seizures. Transcranial direct current stimulation (tDCS) shows promise for treating drug-resistant epilepsy. The placement of the tDCS cathodal electrode is primarily on the scalp over the suspected epileptogenic zone; quantitative analysis is needed to support the selection. Additionally, identifying a target is difficult for patients with unclear focus or negative MRI findings. To address these issues, we proposed a non-invasive method to localize the target for tDCS based on the epileptogenic network. Interictal scalp EEG was used to estimate brain connectivity in the source space. To evaluate the effect of stimulation, we introduced a dynamic EEG source network for target localization based on neural mass models and the connectivity matrix. SimNIBS simulations further optimized the target location. Intracranial EEGs from 18 patients with drug-resistant epilepsy were used, and the forward-projected scalp EEGs were employed to validate our procedure rigorously. The results showed that the localized target overlapped with the resected brain area in 80% of seizure-free patients but in only 37.5% of non-seizure-free patients. This suggests that our proposed procedure can effectively localize the epileptogenic brain tissue. SimNIBS-based simulations further confirmed the significant reduction in seizure likelihood with cathodal stimulation at the target location compared to non-target locations. The results also showed that the signal-to-noise ratio significantly affects performance, underscoring the importance of selecting an interictal, low-noise segment. The proposed procedure offers a noninvasive, quantitative approach to tDCS target localization.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41886334/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "IEEE Trans Neural Syst Rehabil Eng",
+      "published_date": "2026-03-26",
+      "date": "2026-03-27"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-03-27T00:32:59+00:00",
+    "version": 1,
+    "summary": "Captured 17 research items. Preference focus is brain-imaging analysis and disease mechanisms: 13 high-priority, 4 medium-priority, 0 low-priority. Mechanism-related items: 12; analysis-method items: 17.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 17,
+      "high_priority": 13,
+      "medium_priority": 4,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 12
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 17
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Temporal Dynamics of Parkinson's Disease Tremor: Clinical and Neuroimaging Insights.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885037/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neurovascular coupling dysfunction of the frontal‒thalamic circuit in postconcussion syndrome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41886010/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Psilocybin shapes the slow, global propagation of brain activity over the cortical layout of 5HT2a receptors.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41882058/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Psychotherapy and inhibitory control: Insights from fMRI research.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41883109/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Localizing Target for Transcranial Direct Current Stimulation in Drug-Resistant Epilepsy using Dynamic EEG Source Network.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41886334/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Longitudinal visualization tools for advanced characterization of multiple sclerosis lesions using diffusion MRI and magnetization transfer imaging metrics.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41882380/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "A comprehensive analysis of brain network complexity in task-based fMRI using entropy: systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41886027/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Topological disruptions of metabolic brain networks in early-stage chronic kidney disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41882601/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The Relation of Home Literacy Environment to Brain Specialization and Sensitivity for Phonological and Semantic Processing of Spoken Words.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885550/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Decreased BOLD Signal Variability in Middle-Aged and Older Adults on the Autism Spectrum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885009/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Clinical and imaging characteristics of NOTCH3-negative CADASIL-suspected patients with NOTCH2NLC GGC repeat expansions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41882342/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Enhanced Precision in Personalized Intraoperative Monitoring of Facial Nerves: A Comparative Analysis of Functional MRI-Guided and Conventional Electrode Placement for Transcranial Motor-Evoked Potentials During Skull Base Surgery.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885473/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Neurobehavioral differences in value-based decision making between people with cocaine use disorder and controls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885880/",
+        "published_date": "2026-03-26",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "The Neurosurgical Stethoscope-Advancing Bedside Imaging in Neurosurgery Through Sonolucent Cranial Implants: A Case Series.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885469/",
+        "published_date": "2026-03-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "First reported case in Brazil of intraventricular pilocytic astrocytoma in an adult patient with literature review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41882481/",
+        "published_date": "2026-03-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "A Revealing Case of SHQ1-Related Neurodevelopmental Disorder: Expanding the Genotypic and Phenotypic Frontier.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41885709/",
+        "published_date": "2026-03-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "An unusual variant of the anterior cerebral and anterior communicating arterial system: anatomical description with clinical and radiological implications.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41886088/",
+        "published_date": "2026-03-26",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

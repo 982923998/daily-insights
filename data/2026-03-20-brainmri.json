@@ -9,7 +9,13 @@
       "source": "pubmed",
       "journal": "J Craniofac Surg",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 1.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF CRANIOFACIAL SURGERY"
     },
     {
       "title": "scBIT: Integrating Single-cell Transcriptomic Data into fMRI-based Prediction for Alzheimer's Disease Diagnosis.",
@@ -19,7 +25,14 @@
       "source": "pubmed",
       "journal": "IEEE Trans Med Imaging",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "lookup_error",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "network_or_parse_error"
     },
     {
       "title": "Psilocybin effects on brain functional connectivity: a systematic review of fMRI studies.",
@@ -29,7 +42,13 @@
       "source": "pubmed",
       "journal": "Discov Ment Health",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 2.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Discover Mental Health"
     },
     {
       "title": "The cerebellar cognitive affective syndrome scale in early multiple sclerosis.",
@@ -39,7 +58,13 @@
       "source": "pubmed",
       "journal": "J Neurol",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 4.6,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF NEUROLOGY"
     },
     {
       "title": "Neonatal brain abnormalities predict preschool executive functioning performance in children born very preterm.",
@@ -49,7 +74,13 @@
       "source": "pubmed",
       "journal": "Dev Psychol",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "DEVELOPMENTAL PSYCHOLOGY"
     },
     {
       "title": "NINS_QC: A Data Quality Checker in Neuroimaging.",
@@ -59,7 +90,13 @@
       "source": "pubmed",
       "journal": "ACS Chem Neurosci",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "ACS Chemical Neuroscience"
     },
     {
       "title": "Intracranial Pressure Dynamics and Cerebrospinal Fluid Outflow Resistance in the Elderly: Associations With 10-Year Changes in Cognitive Function and Ventricular Volume.",
@@ -69,7 +106,13 @@
       "source": "pubmed",
       "journal": "Neurosurgery",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NEUROSURGERY"
     },
     {
       "title": "RAGE Inhibition Reduces Surgery-Induced Cerebral Edema After Glioma Resection.",
@@ -79,7 +122,13 @@
       "source": "pubmed",
       "journal": "Neurosurgery",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NEUROSURGERY"
     },
     {
       "title": "Dural prostate adenocarcinoma metastases mimicking and driving subdural hematoma: mechanistic insights from a case series.",
@@ -89,7 +138,14 @@
       "source": "pubmed",
       "journal": "Br J Neurosurg",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "lookup_error",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "network_or_parse_error"
     },
     {
       "title": "Towards Clinical Translation of Intravoxel Incoherent Motion MRI: Acquisition and Analysis Consensus Recommendations.",
@@ -99,7 +155,13 @@
       "source": "pubmed",
       "journal": "J Magn Reson Imaging",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Journal of Magnetic Resonance Imaging"
     },
     {
       "title": "Associations of cannabis use, tobacco use and co-use with brain volume: A systematic review and meta-analysis.",
@@ -109,7 +171,13 @@
       "source": "pubmed",
       "journal": "Addiction",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 5.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "ADDICTION"
     },
     {
       "title": "The Role of Magnetic Resonance Spectroscopy (MRS), Diffusion-Tensor-Imaging (DTI) and Structural MRI in the Alzheimer's Disease and Mild Cognitive Impairment Diagnosis: A Review.",
@@ -119,7 +187,13 @@
       "source": "pubmed",
       "journal": "J Magn Reson Imaging",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Journal of Magnetic Resonance Imaging"
     },
     {
       "title": "Microcirculatory Dysfunction and Oxidative Stress in Sudden Sensorineural Hearing Loss: Insights From a Case-Control and Experimental Study.",
@@ -129,7 +203,13 @@
       "source": "pubmed",
       "journal": "Med Sci Monit",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 2.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "MEDICAL SCIENCE MONITOR"
     },
     {
       "title": "Acute cerebral blood flow and its connectivity in patients with anti-LGI1 autoimmune encephalitis: an arterial spin labeling study.",
@@ -139,7 +219,13 @@
       "source": "pubmed",
       "journal": "Brain Imaging Behav",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 2.4,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Imaging and Behavior"
     },
     {
       "title": "Neurostructural alterations, trait impulsivity, and genetic architecture in individuals with methamphetamine dependence: a multimodal imaging-genetics study.",
@@ -149,7 +235,13 @@
       "source": "pubmed",
       "journal": "Transl Psychiatry",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 6.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Translational Psychiatry"
     },
     {
       "title": "Visualization of the Trochlear Nerve Using Deep Learning-enhanced 3D T2-weighted MR Imaging at 3T.",
@@ -159,7 +251,13 @@
       "source": "pubmed",
       "journal": "Magn Reson Med Sci",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 3.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Magnetic Resonance in Medical Sciences"
     },
     {
       "title": "Volumetric MRI assessment of brain and pituitary structure in girls with central precocious puberty.",
@@ -169,7 +267,13 @@
       "source": "pubmed",
       "journal": "J Pediatr Endocrinol Metab",
       "published_date": "2026-03-19",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "impact_factor": 1.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF PEDIATRIC ENDOCRINOLOGY & METABOLISM"
     }
   ],
   "digest": {

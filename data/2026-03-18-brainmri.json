@@ -9,7 +9,13 @@
       "source": "pubmed",
       "journal": "BMC Neurol",
       "published_date": "2026-03-17",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "impact_factor": 2.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "BMC Neurology"
     },
     {
       "title": "A Depolarizing Leak in Sodium Bicarbonate Cotransporter NBCe1 Causes Brain Edema.",
@@ -19,7 +25,14 @@
       "source": "pubmed",
       "journal": "Ann Clin Transl Neurol",
       "published_date": "2026-03-17",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
     },
     {
       "title": "Paramagnetic Rim Lesions Are Associated With Trans-Synaptic Degeneration of the Visual Pathway in Multiple Sclerosis.",
@@ -29,7 +42,14 @@
       "source": "pubmed",
       "journal": "Ann Clin Transl Neurol",
       "published_date": "2026-03-17",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
     },
     {
       "title": "Gait Adaptability Training Improves Gait in Spinocerebellar Ataxia Patients.",
@@ -39,7 +59,13 @@
       "source": "pubmed",
       "journal": "Mov Disord Clin Pract",
       "published_date": "2026-03-17",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "impact_factor": 3.4,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "Movement Disorders Clinical Practice"
     },
     {
       "title": "[Risk of stroke during left atrial catheter ablation for atrial fibrillation].",
@@ -49,7 +75,13 @@
       "source": "pubmed",
       "journal": "Herzschrittmacherther Elektrophysiol",
       "published_date": "2026-03-17",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Herzschrittmachertherapie und Elektrophysiologie"
     },
     {
       "title": "Super-resolution MRI-derived brainstem and cerebellar volumes in fetuses between 22 weeks and 32 weeks of gestation.",
@@ -59,7 +91,13 @@
       "source": "pubmed",
       "journal": "Pediatr Radiol",
       "published_date": "2026-03-17",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "impact_factor": 2.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "PEDIATRIC RADIOLOGY"
     }
   ],
   "digest": {

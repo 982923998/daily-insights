@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "reference": "backfill-brainmri-20260723-3day",
+  "source": "letpub_reference_task",
+  "updated_at": "2026-07-23T10:28:34+00:00",
+  "journals": [
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "1381-3455",
+      "journal_name": "ARCHIVES OF PHYSIOLOGY AND BIOCHEMISTRY",
+      "journal_name_short": "Arch Physiol Biochem",
+      "journal_id": 9703,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=9703&page=journalapp&view=detail",
+      "overall_score": 5.4,
+      "impact_factor": 3.2,
+      "impact_factor_year": null,
+      "h_index": 44,
+      "citescore": 8.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=9703&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "",
+      "reference": "backfill-brainmri-20260723-3day",
+      "references": [
+        "backfill-brainmri-20260723-3day"
+      ],
+      "matched_query": "name:Arch Physiol Biochem",
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T10:27:37+00:00",
+      "audit_role": "reference_only"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0340-6199",
+      "journal_name": "EUROPEAN JOURNAL OF PEDIATRICS",
+      "journal_name_short": "Eur J Pediatr",
+      "journal_id": 2694,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=2694&page=journalapp&view=detail",
+      "overall_score": 5.7,
+      "impact_factor": 2.9,
+      "impact_factor_year": null,
+      "h_index": 86,
+      "citescore": 5.1,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2694&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "",
+      "reference": "backfill-brainmri-20260723-3day",
+      "references": [
+        "backfill-brainmri-20260723-3day"
+      ],
+      "matched_query": "name:Eur J Pediatr",
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T10:27:09+00:00",
+      "audit_role": "reference_only"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0730-725X",
+      "journal_name": "MAGNETIC RESONANCE IMAGING",
+      "journal_name_short": "Magn Reson Imaging",
+      "journal_id": 5631,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=5631&page=journalapp&view=detail",
+      "overall_score": 5.7,
+      "impact_factor": 2.1,
+      "impact_factor_year": null,
+      "h_index": 102,
+      "citescore": 3.9,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=5631&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "",
+      "reference": "backfill-brainmri-20260723-3day",
+      "references": [
+        "backfill-brainmri-20260723-3day"
+      ],
+      "matched_query": "name:Magn Reson Imaging",
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T10:28:29+00:00",
+      "audit_role": "reference_only"
+    }
+  ]
+}

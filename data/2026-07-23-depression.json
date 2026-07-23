@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-23",
+  "articles": [
+    {
+      "title": "Brain network-based stratification of mental health disorders: design and cohort description of the STRATIFY and ESTRA studies.",
+      "summary": "The STRATIFY (Brain Network-Based Stratification of Reinforcement-Related Disorders) and ESTRA (Eating Disorders Stratification) studies were established as harmonised \"sibling\" cohorts to develop a mechanistically informed framework for stratifying psychiatric disorders. Here, we describe the study design, methodology, and cohort characteristics. Both studies investigate how network properties of brain structure and function, together with biological markers derived from blood-based genomics, epigenetics, and proteomics, relate to reinforcement-related behaviours that cut across major depressive disorder, alcohol use disorder, psychosis, and eating disorders. A further objective is to identify discriminative multimodal features that predict disease onset, symptom course, and functional outcomes, thereby supporting the development of targeted interventions. STRATIFY and ESTRA recruited 674 patients and 70 healthy controls aged 18-30 years (76% females), supplemented by 199 age- and sex-matched healthy controls from the population-based IMAGEN cohort assessed at the same sites using harmonised protocols. Multimodal assessment included structured clinical interviews, self-report measures, cognitive testing, biosamples for molecular analyses, and multimodal MRI (structural, diffusion, resting-state, and task-based fMRI). ESTRA participants additionally completed longitudinal follow-up, and all cohorts were assessed during the COVID-19 pandemic. STRATIFY and ESTRA together constitute a large-scale, open-science resource integrating multimodal brain, behavioural, and biological data across transdiagnostic patient cohorts in early adulthood. The anonymised dataset is available to the research community through managed access, supporting international collaboration and accelerating the development of mechanistically informed classification systems and predictive tools in psychiatry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42486943/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "published_date": "2026-07-22",
+      "date": "2026-07-23",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T10:36:53+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain network-based stratification of mental health disorders: design and cohort description of the STRATIFY and ESTRA studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42486943/",
+        "published_date": "2026-07-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

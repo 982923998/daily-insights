@@ -15,6 +15,7 @@ WEB_DIR = os.path.join(PROJECT_DIR, "web")
 FETCH_SCRIPT = os.path.join(PROJECT_DIR, "scripts", "fetch.sh")
 ACADEMIC_SOURCES_DIR = os.path.join(PROJECT_DIR, ".agents", "skills", "academic-search", "sources")
 SKILLS_DIR = os.path.join(PROJECT_DIR, ".agents", "skills")
+HIDDEN_DOMAIN_IDS = {"ai", "mefmri"}
 
 # Global state for task logs
 task_logs = {}
@@ -54,7 +55,7 @@ def load_domains():
             if not fname.endswith('.md'):
                 continue
             domain = parse_frontmatter(os.path.join(ACADEMIC_SOURCES_DIR, fname))
-            if domain.get('id'):
+            if domain.get('id') and domain.get('id') not in HIDDEN_DOMAIN_IDS:
                 explicit[domain['id']] = domain
 
     # Step 2: skill-level domain configs (skills that declare domain_id in SKILL.md)
@@ -66,7 +67,7 @@ def load_domains():
                 continue
             meta = parse_frontmatter(skill_md)
             domain_id = meta.get('domain_id')
-            if not domain_id:
+            if not domain_id or domain_id in HIDDEN_DOMAIN_IDS:
                 continue
             skill_domains[domain_id] = {
                 'id': domain_id,
@@ -87,7 +88,9 @@ def load_domains():
             name = f[:-5]
             parts = name.rsplit('-', 1)
             if len(parts) == 2 and re.match(r'^\d{4}-\d{2}-\d{2}$', parts[0]):
-                discovered.add(parts[1])
+                domain_id = parts[1]
+                if domain_id not in HIDDEN_DOMAIN_IDS:
+                    discovered.add(domain_id)
 
     # Step 4: merge — explicit wins, then skill_domains, then minimal fallback
     all_domains = dict(explicit)
@@ -103,7 +106,7 @@ def load_domains():
                 'category': domain_id.upper(),
                 'color': '#6366f1',
                 'icon': 'layers',
-                'skill': 'daily-ai-news',
+                'skill': 'academic-search',
                 'order': '0',
             }
 
@@ -177,7 +180,7 @@ class DailyNewsHandler(http.server.SimpleHTTPRequestHandler):
     def _handle_events(self, parsed):
         # SSE endpoint
         query = parse_qs(parsed.query)
-        mode = query.get("mode", ["ai"])[0]
+        mode = query.get("mode", ["brainmri"])[0]
         task_key = f"fetch_{mode}"
 
         self.send_response(200)
@@ -242,11 +245,14 @@ class DailyNewsHandler(http.server.SimpleHTTPRequestHandler):
         except json.JSONDecodeError:
             params = {}
 
-        mode = params.get("mode", "ai")
+        mode = params.get("mode", "brainmri")
 
         # Validate: alphanumeric, hyphens, underscores only
         if not re.match(r'^[a-zA-Z0-9_-]+$', mode):
             self._json_response({"error": "invalid mode"}, 400)
+            return
+        if mode in HIDDEN_DOMAIN_IDS:
+            self._json_response({"error": "mode disabled", "mode": mode}, 400)
             return
 
         task_key = f"fetch_{mode}"

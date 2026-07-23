@@ -1,0 +1,198 @@
+{
+  "date": "2026-07-23",
+  "articles": [
+    {
+      "title": "Cerebral venous blood flow regulates intracerebral pressure and brain clearance via meningeal lymphatic vessels.",
+      "summary": "Idiopathic intracranial hypertension (IIH) is characterized by elevated intracranial pressure and dural venous sinus stenoses, which can be relieved by venous stenting. Here we investigated whether venous blood flow may play a role in controlling brain pressure. Using magnetic resonance imaging in patients with IIH and healthy controls, we identified that dural venous stenoses in IIH were associated with alterations of the perivenous fluid pattern and brain edema. We developed a mouse model of jugular vein ligation (JVL), which developed transient intracerebral hypertension, brain edema and impaired brain clearance, along with defective meningeal lymphatic vessels (MLVs). MLV depletion increased intracerebral pressure in control and JVL mice, but only MLV-deficient ligated mice failed to restore brain fluid clearance. These findings implicate MLVs in the control of intracerebral pressure and establish the dural venous sinuses as critical platforms where venous flow directs MLVs to ensure brain fluid clearance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42487032/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Neurosci",
+      "published_date": "2026-07-22",
+      "date": "2026-07-23",
+      "impact_factor": 20.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NATURE NEUROSCIENCE"
+    },
+    {
+      "title": "Two time scales of adaptation in human learning rates.",
+      "summary": "Different situations may require radically different information updating speeds (i.e., learning rates). Some demand fast learning rates while others benefit from using slower ones. To adjust learning rates, decision makers could rely on either global, meta-learned differences between environments, or faster but transient adaptations to locally experienced prediction errors. Here, we introduce a new paradigm that allows researchers to measure and empirically disentangle both forms of adaptation. Participants performed short blocks of trials of a continuous estimation task - fishing for crabs - on six different islands that required different optimal (initial) learning rates. Across two experiments, participants showed fast adaptations in learning rate within a block. Critically, participants also learned global environment-specific learning rates over the time course of the experiment, as evidenced by computational modelling and by the learning rates calculated on the very first trial when revisiting an environment (i.e., unconfounded by transient adaptations). Using representational similarity analyses of fMRI data, we found that differences in voxel pattern responses in the central orbitofrontal cortex (OFC) correlated with differences in these global environment-specific learning rates. Our findings show that humans adapt learning rates at both slow and fast time scales, and that the central OFC may support meta-learning by representing environment-specific task-relevant features such as learning rates.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42484629/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Elife",
+      "published_date": "2026-07-22",
+      "date": "2026-07-23",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "not_available_yet",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "eLife"
+    },
+    {
+      "title": "Diffusion MRI Identifies a Prolonged Pre-WMH Phase in Cerebral Small Vessel Disease.",
+      "summary": "BACKGROUND: White matter hyperintensities (WMH) are widely used to assess cerebral small vessel disease but reflect late-stage injury. Diffusion magnetic resonance imaging (MRI) biomarkers have been proposed to capture earlier small vessel disease-related microstructural damage but their temporal progression relative to WMH and risk factors associated with progression remain unexplored. METHODS: We identified 2077 participants from the population-based cohort study of the Mayo Clinic Study of Aging in Olmsted County, Minnesota (aged 50-101 years) collected between 05/2005 and 09/2024 with longitudinal neuroimaging. Using multioutput nonlinear mixed-effects models in those with at least 2 FLAIR-MRI and diffusion-MRI scans, we characterized the temporal progression of WMH and 4 diffusion MRI biomarkers: fractional anisotropy of the genu of the corpus callosum, peak width of skeletonized mean diffusivity, free water, and Arteriolosclerosis-score, which were automatically estimated. Models incorporated participant-specific time shifts, correlations between biomarkers, and effects of risk factors (sex, education, APOE ε 4 status, cardiometabolic conditions). RESULTS: The study population had a mean age of 78 years, 47% were female, 28% were APOE ε4 allele carriers, and 80% were cognitively unimpaired, with an average follow-up of 5.2 years (SD, 4.3 years) for FLAIR-MRI and 4.3 years (SD, 3.9 years) for diffusion MRI. Arteriolosclerosis-score, fractional anisotropy of the genu of the corpus callosum, free water, and peak width of skeletonized mean diffusivity became abnormal in 50% of the study population 16, 12, 10, and 7 years before WMH become abnormal (half-width of CI <1 year), respectively. Global markers (Arteriolosclerosis-score, free water, peak width of skeletonized mean diffusivity, and WMH) were correlated, indicating shared substrates of widespread white matter injury. Fractional anisotropy of the genu of the corpus callosum, a vascular risk microstructural injury biomarker, was weakly coupled with WMH and had an earlier but more linear worsening across adulthood. Cardiometabolic conditions predicted earlier worsening of all biomarkers. Females showed earlier WMH, fractional anisotropy of the genu of the corpus callosum, and Arteriolosclerosis-score abnormalities, whereas males exhibited earlier peak width of skeletonized mean diffusivity and free water abnormalities. CONCLUSIONS: Diffusion MRI biomarkers were abnormal at least a decade before WMH become abnormal in the population, revealing a prolonged phase of early small vessel disease and highlighting their potential for small vessel disease prevention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42483814/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Stroke",
+      "published_date": "2026-07-22",
+      "date": "2026-07-23",
+      "impact_factor": 8.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "STROKE"
+    },
+    {
+      "title": "Early increase in apparent diffusion coefficient predicts favorable response to Dordaviprone (ONC201) therapy in H3K27M-mutant diffuse midline glioma.",
+      "summary": "BACKGROUND: Dordaviprone (ONC201) is the first FDA-approved therapy for H3K27M-mutant diffuse midline glioma (DMG). However, therapeutic response varies among patients, and no imaging biomarkers currently predict long-term benefit. Diffusion-weighted MRI and apparent diffusion coefficient (ADC) obtained during standard clinical imaging reflects tissue cellularity and necrosis, offering potential as an early response indicator. METHODS: Clinical and imaging data from patients treated with dordaviprone (n = 83) on completed studies underwent centralized neuroradiology review, ADC histogram analysis, and Functional Diffusion Mapping (fDM), which were compared and correlated to CSF tumor DNA (tDNA) and metabolomics when available. Final analysis included 38 patients receiving standardized dordaviprone dosing and treatment schedule. RESULTS: In the pre-progression cohort, early changes in volumetric or cross-sectional RAPNO criteria were not predictive of overall (OS) or progression-free survival (PFS). Importantly, in patients treated pre-progression with dordaviprone post-radiation, tumors with increased diffusion ADC (reduced cellularity) at cycle 3 demonstrated median OS of 732 days versus 360 days for those with decreased ADC (increased cellularity, p = 0.0149); with corresponding PFS of 334 versus 110 days (p = 0.0132).fDM analysis of spatio-temporal changes of ADC did not correlate with outcomes in a sub-cohort analysis but demonstrated predictive patterns in individual patient time course series. CSF metabolomics stratified by ADC change revealed differences in reductive stress metabolites among dordaviprone responders, linking ADC elevation to dordaviprone -driven metabolic effects. CONCLUSION: Early increase in ADC correlates with improved response to dordaviprone in H3K27M-DMG and correlates with CSF metabolic changes, suggesting ADC warrants prospective validation as a biomarker.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42482168/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Neuro Oncol",
+      "published_date": "2026-07-21",
+      "date": "2026-07-23",
+      "impact_factor": 13.1,
+      "impact_factor_year": 2025,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Neuro-Oncology"
+    },
+    {
+      "title": "Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus.",
+      "summary": "Transcranial-focused ultrasound (FUS) is a non-invasive neuromodulation technique capable of targeting deep brain regions with high precision. However, its mechanisms of action - particularly how it modulates neuronal activity and relates to fMRI BOLD signals - remain poorly understood. Using the macaque monkey thalamus and insular cortex as a model system, we show that low-intensity FUS evokes localized BOLD increases and preferentially modulates low-frequency (Delta, Theta, and Alpha) local field potentials and single-unit spiking in the ventroposterior lateral (VPL) nucleus, as well as through remote stimulation of the insular cortex. Compared with vibrotactile stimulation, FUS-evoked responses exhibit slower peak latencies. Importantly, we observe strong spatial correspondence between ultrasound-induced changes in spiking, LFP activity, and BOLD signals. These findings define the temporal and spatial characteristics of FUS neuromodulation and demonstrate the feasibility of precise, non-invasive targeting of deep brain circuits, supporting its translational potential for neuroscience and therapeutic applications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42481515/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "published_date": "2026-07-21",
+      "date": "2026-07-23",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Communications"
+    },
+    {
+      "title": "Integrated device for optoacoustically-guided ultrasound surgery.",
+      "summary": "High-intensity focused ultrasound has emerged as a promising tool for treating tumors and other pathologies by inducing localized thermal lesions. However, treatment outcomes depend strongly on accurate coverage of the treated region and monitoring lesion formation in real time. While magnetic resonance imaging has successfully been used to guide high-intensity focused ultrasound therapy, it significantly increases the cost and complexity of the treatment. To address these limitations, we have developed a system that integrates real-time three-dimensional tomographic optoacoustic imaging with concurrent focused ultrasound emission using a high-frequency spherical array transducer. We evaluated the performance of the system in the mouse brain ex vivo and further assessed its clinical translatability in a living sheep, demonstrating successful induction of a confined thermal lesion beneath the cortical surface, as confirmed by magnetic resonance imaging and histology. The system enabled precise treatment targeting, while optoacoustic signal changes during sonication provided a reliable indicator of thermal lesion progression. This capability allowed on-the-fly adjustment of the thermal dose, helping to minimize the risk of vascular damage or adverse effects on off-target structures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42481492/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "published_date": "2026-07-21",
+      "date": "2026-07-23",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Communications"
+    },
+    {
+      "title": "Brain network dynamics reflect psychiatric illness status and transdiagnostic symptom profiles across health and disease.",
+      "summary": "The network organization of the human brain dynamically reconfigures in response to changing environmental demands, an adaptive process that may be disrupted in a symptom-relevant manner across psychiatric illnesses. Here, in a transdiagnostic sample of participants with (n = 134) and without (n = 85) psychiatric diagnoses, functional connectomes from intrinsic (resting-state) and task-evoked fMRI were decomposed to identify constraints on brain network dynamics across six cognitive states. Hierarchical clustering of 110 clinical, behavioral, and cognitive measures identified participant-specific symptom profiles, revealing four core dimensions of functioning: internalizing, externalizing, cognitive, and social/reward. Brain network dynamics were flattened across cognitive states in individuals with psychiatric illness and could be used to accurately separate dimensional symptom profiles more robustly than both case/control status and primary diagnostic grouping. A key role of inhibitory cognitive control and frontoparietal network interactions was uncovered through systematic model comparison. We provide evidence that brain network dynamics can accurately differentiate the extent that psychiatrically-relevant dimensions of functioning are exhibited across health and disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42481484/",
+      "category": "Brain MRI",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "published_date": "2026-07-21",
+      "date": "2026-07-23",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Communications"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-23T10:36:53+00:00",
+    "version": 1,
+    "summary": "Captured 7 research items. Preference focus is brain-imaging analysis and disease mechanisms: 5 high-priority, 2 medium-priority, 0 low-priority. Mechanism-related items: 3; analysis-method items: 7.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 7,
+      "high_priority": 5,
+      "medium_priority": 2,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 3
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 7
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Brain network dynamics reflect psychiatric illness status and transdiagnostic symptom profiles across health and disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42481484/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42481515/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Diffusion MRI Identifies a Prolonged Pre-WMH Phase in Cerebral Small Vessel Disease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42483814/",
+        "published_date": "2026-07-22",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Early increase in apparent diffusion coefficient predicts favorable response to Dordaviprone (ONC201) therapy in H3K27M-mutant diffuse midline glioma.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42482168/",
+        "published_date": "2026-07-21",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Two time scales of adaptation in human learning rates.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42484629/",
+        "published_date": "2026-07-22",
+        "priority": "high",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Integrated device for optoacoustically-guided ultrasound surgery.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42481492/",
+        "published_date": "2026-07-21",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      },
+      {
+        "title": "Cerebral venous blood flow regulates intracerebral pressure and brain clearance via meningeal lymphatic vessels.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42487032/",
+        "published_date": "2026-07-22",
+        "priority": "medium",
+        "reason": "has imaging analysis/method relevance"
+      }
+    ]
+  }
+}
