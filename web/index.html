@@ -746,8 +746,10 @@
 
         // --- App ---
         const App = () => {
+            const PAGE_SIZE = 20;
             const [activeDomain, setActiveDomain] = useState('all');
             const [searchQuery, setSearchQuery] = useState('');
+            const [currentPage, setCurrentPage] = useState(1);
             const [articles, setArticles] = useState([]);
             const [loading, setLoading] = useState(true);
             const [error, setError] = useState(null);
@@ -885,6 +887,20 @@
                 });
             }, [activeDomain, domains, articles, favorites, searchQuery]);
 
+            const totalPages = Math.max(1, Math.ceil(filteredArticles.length / PAGE_SIZE));
+            const paginatedArticles = filteredArticles.slice(
+                (currentPage - 1) * PAGE_SIZE,
+                currentPage * PAGE_SIZE
+            );
+
+            useEffect(() => {
+                setCurrentPage(1);
+            }, [activeDomain, searchQuery]);
+
+            useEffect(() => {
+                setCurrentPage(page => Math.min(page, totalPages));
+            }, [totalPages]);
+
             const anchorByUrl = useMemo(() => {
                 const map = {};
                 articles.forEach(article => {
@@ -910,11 +926,15 @@
             const jumpToArticle = useCallback((anchorId) => {
                 if (!anchorId) return;
                 setSearchQuery('');
+                const articleIndex = filteredArticles.findIndex(article => article._anchorId === anchorId);
+                if (articleIndex >= 0) {
+                    setCurrentPage(Math.floor(articleIndex / PAGE_SIZE) + 1);
+                }
                 window.setTimeout(() => {
                     const el = document.getElementById(anchorId);
                     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }, 80);
-            }, []);
+            }, [filteredArticles]);
 
             const activeDomainObj = domains.find(d => d.id === activeDomain);
             const activeDigest = activeDomainObj ? digestByDomain[activeDomainObj.id] : null;
@@ -1000,11 +1020,11 @@
                                     />
                                 ) : (
                                     <div className="flex flex-col gap-6">
-                                        {filteredArticles.map((article, idx) => (
+                                        {paginatedArticles.map((article, idx) => (
                                             <NewsCard
                                                 key={`${article.url}-${idx}`}
                                                 article={article}
-                                                index={idx}
+                                                index={(currentPage - 1) * PAGE_SIZE + idx}
                                                 isFavorited={isFavorite(article.url)}
                                                 onToggleFavorite={toggleFavorite}
                                                 color={getDomainColor(article)}
@@ -1012,6 +1032,29 @@
                                                 highlight={searchQuery}
                                             />
                                         ))}
+                                        {totalPages > 1 && (
+                                            <div className="flex items-center justify-center gap-4 pt-4">
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setCurrentPage(page => Math.max(1, page - 1))}
+                                                    disabled={currentPage === 1}
+                                                    className="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold disabled:opacity-40"
+                                                >
+                                                    上一页
+                                                </button>
+                                                <span className="text-sm text-slate-500 font-mono">
+                                                    第 {currentPage} / {totalPages} 页
+                                                </span>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => setCurrentPage(page => Math.min(totalPages, page + 1))}
+                                                    disabled={currentPage === totalPages}
+                                                    className="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold disabled:opacity-40"
+                                                >
+                                                    下一页
+                                                </button>
+                                            </div>
+                                        )}
                                     </div>
                                 )
                             )}
