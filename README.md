@@ -164,6 +164,12 @@ CODEX_TIMEOUT_SECONDS="600"
 
 日志目录：`logs/`
 
+## 华为云部署
+
+当前项目已部署到华为云。服务器位置、无删除同步流程、备份、验收与回滚说明见：
+
+- [docs/huawei-cloud-deployment.md](docs/huawei-cloud-deployment.md)
+
 ## API（由 `server.py` 提供）
 
 - `GET /api/dates`：可用日期
