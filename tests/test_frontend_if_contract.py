@@ -53,6 +53,17 @@ class FrontendIfContractTests(unittest.TestCase):
             self.source,
         )
 
+    def test_ai_articles_hide_impact_factor_badges(self):
+        digest_body = function_body(self.source, "DigestPanel")
+        self.assertIn("const isAiArticle =", digest_body)
+        self.assertIn("const showImpactBadge = !isAiArticle;", digest_body)
+        self.assertIn("{showImpactBadge && (", digest_body)
+
+        card_body = function_body(self.source, "NewsCard")
+        self.assertIn("const isAiArticle =", card_body)
+        self.assertIn("const showImpact = !isAiArticle;", card_body)
+        self.assertIn("{showImpact && (", card_body)
+
 
 if __name__ == "__main__":
     unittest.main()

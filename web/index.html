@@ -401,6 +401,9 @@
                                                         ? `IF ${impactFactor}${impactFactorYear ? ` (${impactFactorYear})` : ''}`
                                                         : (impactFactorStatus || '未查到影响因子');
                                                     const journalText = journalName || '期刊未知';
+                                                    const isAiArticle = (matchedArticle?._domainId === 'ai')
+                                                        || String(matchedArticle?.category || '').toLowerCase() === 'ai';
+                                                    const showImpactBadge = !isAiArticle;
 
                                                     const parsedIfValue = (() => {
                                                         if (typeof impactFactor === 'number') return impactFactor;
@@ -436,12 +439,14 @@
                                                                             <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
                                                                                 {journalText}
                                                                             </span>
-                                                                            <span
-                                                                                className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
-                                                                                style={currentIfStyle}
-                                                                            >
-                                                                                {impactText}
-                                                                            </span>
+                                                                            {showImpactBadge && (
+                                                                                <span
+                                                                                    className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
+                                                                                    style={currentIfStyle}
+                                                                                >
+                                                                                    {impactText}
+                                                                                </span>
+                                                                            )}
                                                                         </div>
                                                                     </div>
                                                                     <span className="shrink-0 text-[10px] font-medium text-slate-400 whitespace-nowrap">
@@ -467,12 +472,14 @@
                                                                         <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
                                                                             {journalText}
                                                                         </span>
-                                                                        <span
-                                                                            className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
-                                                                            style={currentIfStyle}
-                                                                        >
-                                                                            {impactText}
-                                                                        </span>
+                                                                        {showImpactBadge && (
+                                                                            <span
+                                                                                className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
+                                                                                style={currentIfStyle}
+                                                                            >
+                                                                                {impactText}
+                                                                            </span>
+                                                                        )}
                                                                     </div>
                                                                 </div>
                                                                 <span className="shrink-0 text-[10px] font-medium text-slate-400 whitespace-nowrap">
@@ -583,6 +590,10 @@
             };
             const ifStyle = getIfStyle(parsedIfValue);
 
+            const isAiArticle = (article._domainId === 'ai')
+                || String(article.category || '').toLowerCase() === 'ai';
+            const showImpact = !isAiArticle;
+
             return (
                 <article
                     id={articleId || article._anchorId || ''}
@@ -638,14 +649,18 @@
                             {sourceText}
                         </span>
                         <span className="text-slate-300">&bull;</span>
-                        <span
-                            className={`flex items-center gap-1.5 px-2 py-0.5 rounded-md border ${hasIf ? '' : 'text-slate-300 border-transparent'}`}
-                            style={ifStyle}
-                        >
-                            <Icon name="bar-chart-3" size={14} />
-                            {ifText}
-                        </span>
-                        <span className="text-slate-300">&bull;</span>
+                        {showImpact && (
+                            <>
+                                <span
+                                    className={`flex items-center gap-1.5 px-2 py-0.5 rounded-md border ${hasIf ? '' : 'text-slate-300 border-transparent'}`}
+                                    style={ifStyle}
+                                >
+                                    <Icon name="bar-chart-3" size={14} />
+                                    {ifText}
+                                </span>
+                                <span className="text-slate-300">&bull;</span>
+                            </>
+                        )}
                         <span className="flex items-center gap-1.5">
                             <Icon name="calendar" size={14} />
                             {article.published_date || '\u2014'}
