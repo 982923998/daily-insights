@@ -236,6 +236,15 @@ class CatalogAndPersistenceTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 sync.run(self.run_args(root, path.name))
 
+    def test_run_fails_when_required_raw_catalog_is_missing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            path = self.make_project(root, {"journal": "Journal"})
+            (root / "data" / "letpub" / "letpub_life_med_raw.json").unlink()
+
+            with self.assertRaises(FileNotFoundError):
+                sync.run(self.run_args(root, path.name))
+
     def test_run_excludes_reference_files_but_uses_persistent_manual_override(self):
         reference_row = catalog_row(
             "File Boundary Journal",
@@ -323,6 +332,51 @@ class CatalogAndPersistenceTests(unittest.TestCase):
         self.assertEqual(entry["files"], ["2026-07-20-brainmri.json", "2026-07-23-brainmri.json"])
         self.assertEqual(entry["seen_count"], 2)
         self.assertEqual(json.dumps(unresolved, sort_keys=True), first)
+
+    def test_registry_migration_converts_last_file_for_observed_and_unobserved_journals(self):
+        unresolved = {
+            "schema_version": 1,
+            "updated_at": "fixed",
+            "journals": {
+                "Touched": {
+                    "journal_name": "Touched",
+                    "first_seen": "2026-07-20",
+                    "last_seen": "2026-07-20",
+                    "seen_count": 1,
+                    "last_file": "2026-07-20-brainmri.json",
+                },
+                "Untouched": {
+                    "journal_name": "Untouched",
+                    "first_seen": "2026-07-19",
+                    "last_seen": "2026-07-19",
+                    "seen_count": 4,
+                    "last_file": "2026-07-19-ai.json",
+                    "files": ["2026-07-18-ai.json", "2026-07-19-ai.json"],
+                },
+            },
+        }
+
+        sync.update_unresolved_registry(
+            unresolved,
+            {"Touched": {"journal_issn": "", "manual_full_name": ""}},
+            set(),
+            "2026-07-23",
+            "2026-07-23-brainmri.json",
+        )
+
+        touched = unresolved["journals"]["Touched"]
+        untouched = unresolved["journals"]["Untouched"]
+        self.assertNotIn("last_file", touched)
+        self.assertNotIn("last_file", untouched)
+        self.assertEqual(
+            touched["files"],
+            ["2026-07-20-brainmri.json", "2026-07-23-brainmri.json"],
+        )
+        self.assertEqual(
+            untouched["files"],
+            ["2026-07-18-ai.json", "2026-07-19-ai.json"],
+        )
+        self.assertEqual(untouched["seen_count"], 4)
 
     def test_manual_unresolved_retry_is_idempotent_and_migrates_files(self):
         unresolved = {
@@ -456,6 +510,148 @@ class CatalogAndPersistenceTests(unittest.TestCase):
         self.assertEqual((found, updated, unresolved_added), (1, 2, 0))
         self.assertEqual(manual["journals"][0]["impact_factor_year"], 2024)
         self.assertEqual(reference["journals"][0]["audit_role"], "reference_only")
+
+    def test_manual_flow_keeps_local_conflict_unresolved_without_override_or_online_lookup(self):
+        conflict_index = sync.build_letpub_if_index(
+            [
+                catalog_row("Conflict Manual", 6.1, year=None, source="ordinary_raw"),
+                catalog_row("Conflict Manual", 8.4, year=2025, source="ordinary_raw"),
+            ]
+        )
+        manual = sync.default_supplement_payload()
+        reference = sync.default_reference_payload("audit")
+        unresolved = sync.default_unresolved_registry()
+
+        with patch.object(
+            sync,
+            "lookup_letpub_for_journal",
+            side_effect=AssertionError("conflict must not be looked up online"),
+        ):
+            result = sync.process_manual_journal_specs(
+                specs=[
+                    {
+                        "journal_name": "Conflict Manual",
+                        "journal_issn": "",
+                        "manual_full_name": "Conflict Manual",
+                    }
+                ],
+                letpub_index=conflict_index,
+                unresolved=unresolved,
+                supplement_payload=manual,
+                reference_payload=reference,
+                reference="audit",
+                crawl_online=True,
+                timeout=1,
+                workers=1,
+                query_cache={},
+            )
+
+        self.assertEqual(result, (0, 0, 1))
+        self.assertEqual(manual["journals"], [])
+        self.assertEqual(reference["journals"], [])
+        entry = unresolved["journals"]["Conflict Manual"]
+        self.assertEqual(entry["impact_factor_status"], "unresolved")
+        self.assertEqual(entry["impact_factor_reason"], "conflict")
+
+    def test_manual_online_lookup_exception_records_lookup_error_not_not_found(self):
+        manual = sync.default_supplement_payload()
+        reference = sync.default_reference_payload("audit")
+        unresolved = sync.default_unresolved_registry()
+
+        with patch.object(
+            sync,
+            "lookup_letpub_for_journal",
+            side_effect=RuntimeError("network failed"),
+        ):
+            result = sync.process_manual_journal_specs(
+                specs=[
+                    {
+                        "journal_name": "Lookup Failure",
+                        "journal_issn": "",
+                        "manual_full_name": "Lookup Failure",
+                    }
+                ],
+                letpub_index=sync.build_letpub_if_index([]),
+                unresolved=unresolved,
+                supplement_payload=manual,
+                reference_payload=reference,
+                reference="audit",
+                crawl_online=True,
+                timeout=1,
+                workers=1,
+                query_cache={},
+            )
+
+        self.assertEqual(result, (0, 0, 1))
+        self.assertEqual(manual["journals"], [])
+        self.assertEqual(reference["journals"], [])
+        entry = unresolved["journals"]["Lookup Failure"]
+        self.assertEqual(entry["impact_factor_status"], "lookup_error")
+        self.assertEqual(entry["impact_factor_reason"], "network_or_parse_error")
+
+    def test_repeated_manual_input_without_issn_reuses_first_online_canonical_identity(self):
+        spec = {
+            "journal_name": "Input Alias",
+            "journal_issn": "",
+            "manual_full_name": "Input Alias",
+        }
+        online_row = catalog_row(
+            "Canonical Journal",
+            9.1,
+            issn="2468-1357",
+            abbreviation="Input Alias",
+            source="letpub_online",
+        )
+        manual = sync.default_supplement_payload()
+        reference = sync.default_reference_payload("audit")
+        unresolved = sync.default_unresolved_registry()
+        kwargs = {
+            "specs": [spec],
+            "unresolved": unresolved,
+            "supplement_payload": manual,
+            "reference_payload": reference,
+            "reference": "audit",
+            "crawl_online": True,
+            "timeout": 1,
+            "workers": 1,
+            "query_cache": {},
+        }
+
+        with patch.object(
+            sync,
+            "lookup_letpub_for_journal",
+            return_value=(online_row, "name:Input Alias"),
+        ):
+            first = sync.process_manual_journal_specs(
+                letpub_index=sync.build_letpub_if_index([]),
+                **kwargs,
+            )
+        manual_bytes = (json.dumps(manual, ensure_ascii=False, indent=2) + "\n").encode()
+        reference_bytes = (json.dumps(reference, ensure_ascii=False, indent=2) + "\n").encode()
+
+        with patch.object(
+            sync,
+            "lookup_letpub_for_journal",
+            side_effect=AssertionError("persistent manual override must resolve locally"),
+        ):
+            second = sync.process_manual_journal_specs(
+                letpub_index=sync.build_letpub_if_index(manual["journals"]),
+                **kwargs,
+            )
+
+        self.assertEqual(first, (1, 2, 0))
+        self.assertEqual(second, (1, 0, 0))
+        self.assertEqual(len(manual["journals"]), 1)
+        self.assertEqual(len(reference["journals"]), 1)
+        self.assertEqual(manual["journals"][0]["issn"], "2468-1357")
+        self.assertEqual(
+            (json.dumps(manual, ensure_ascii=False, indent=2) + "\n").encode(),
+            manual_bytes,
+        )
+        self.assertEqual(
+            (json.dumps(reference, ensure_ascii=False, indent=2) + "\n").encode(),
+            reference_bytes,
+        )
 
     def test_reference_only_rows_never_enter_fact_index(self):
         reference_row = catalog_row("Audit Journal", 12.0, source="reference_audit")

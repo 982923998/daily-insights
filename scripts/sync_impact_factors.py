@@ -176,7 +176,7 @@ def default_raw_letpub_payload() -> dict:
 
 def load_raw_letpub_payload(path: Path) -> dict:
     if not path.exists():
-        return default_raw_letpub_payload()
+        raise FileNotFoundError(f"LetPub raw catalog not found: {path}")
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
@@ -430,6 +430,7 @@ def _candidate_from_row(item: dict) -> dict | None:
         "impact_factor_status": status,
         "impact_factor_source": source,
         "impact_factor_matched_journal": matched_journal,
+        "_matched_issn": format_issn(item.get("issn") or item.get("journal_issn") or ""),
         "_source_priority": _source_priority(source),
     }
 
@@ -441,6 +442,7 @@ def _candidate_identity(candidate: dict) -> tuple:
         candidate["impact_factor_status"],
         candidate["impact_factor_source"],
         candidate["impact_factor_matched_journal"],
+        candidate["_matched_issn"],
     )
 
 
@@ -865,6 +867,22 @@ def update_unresolved_registry(
     unresolved_journals = unresolved.get("journals", {})
     if not isinstance(unresolved_journals, dict):
         unresolved_journals = {}
+    for key, existing in list(unresolved_journals.items()):
+        if not isinstance(existing, dict):
+            continue
+        legacy_last_file = str(existing.get("last_file", "")).strip()
+        if not legacy_last_file:
+            continue
+        files = {
+            str(file_name).strip()
+            for file_name in existing.get("files", [])
+            if isinstance(file_name, str) and str(file_name).strip()
+        }
+        files.add(legacy_last_file)
+        migrated = dict(existing)
+        migrated.pop("last_file", None)
+        migrated["files"] = sorted(files)
+        unresolved_journals[key] = migrated
     for key in resolved_keys:
         unresolved_journals.pop(key, None)
     for key, meta in unresolved_observed.items():
@@ -1192,14 +1210,41 @@ def process_manual_journal_specs(
         if not local_match:
             local_match = by_name.get(normalize_journal_key(manual_full_name)) or by_name.get(normalize_journal_key(journal_name))
 
+        if local_match and local_match.get("impact_factor_status") not in (
+            IF_STATUS_AVAILABLE,
+            IF_STATUS_NOT_AVAILABLE_YET,
+        ):
+            existing = unresolved_journals.get(journal_name, {})
+            if not isinstance(existing, dict):
+                existing = {}
+            unresolved_entry = _manual_unresolved_entry(
+                existing,
+                journal_name,
+                journal_issn,
+                manual_full_name,
+                today,
+                reference,
+            )
+            unresolved_entry["impact_factor_status"] = IF_STATUS_UNRESOLVED
+            unresolved_entry["impact_factor_reason"] = str(
+                local_match.get("impact_factor_reason") or "catalog_unresolved"
+            )
+            unresolved_journals[journal_name] = unresolved_entry
+            unresolved_added += 1
+            continue
+
         if local_match:
             row = {
-                "issn": format_issn(journal_issn),
-                "journal_name": manual_full_name or journal_name,
+                "issn": format_issn(local_match.get("_matched_issn") or journal_issn),
+                "journal_name": str(
+                    local_match.get("impact_factor_matched_journal")
+                    or manual_full_name
+                    or journal_name
+                ).strip(),
                 "journal_name_short": journal_name,
                 "impact_factor": local_match.get("impact_factor"),
                 "impact_factor_year": local_match.get("impact_factor_year"),
-                "source": local_match.get("source", "letpub_local_index"),
+                "source": local_match.get("impact_factor_source", "letpub_local_index"),
             }
             found += 1
             new_entry = make_supplement_entry(
@@ -1210,6 +1255,21 @@ def process_manual_journal_specs(
                 query_trace="local-index",
                 reference=reference,
             )
+            if local_match.get("impact_factor_source") == "manual_override":
+                new_key = supplement_identity_key(new_entry)
+                existing_entry = next(
+                    (
+                        entry
+                        for entry in payload_journal_entries(supplement_payload)
+                        if isinstance(entry, dict)
+                        and supplement_identity_key(entry) == new_key
+                        and sanitize_reference(str(entry.get("reference", "")))
+                        == sanitize_reference(reference)
+                    ),
+                    None,
+                )
+                if existing_entry is not None:
+                    new_entry = dict(existing_entry)
             if upsert_supplement_entry(supplement_payload, new_entry):
                 updated += 1
             audit_entry = dict(new_entry)
@@ -1251,11 +1311,13 @@ def process_manual_journal_specs(
                 journal_name = spec["journal_name"]
                 manual_full_name = spec["manual_full_name"]
                 journal_issn = spec["journal_issn"]
+                lookup_failed = False
                 try:
                     _, row, trace = future.result()
                 except Exception as exc:
                     row = None
                     trace = f"error:{exc}"
+                    lookup_failed = True
 
                 if row:
                     found += 1
@@ -1282,7 +1344,7 @@ def process_manual_journal_specs(
                 existing = unresolved_journals.get(key, {})
                 if not isinstance(existing, dict):
                     existing = {}
-                unresolved_journals[key] = _manual_unresolved_entry(
+                unresolved_entry = _manual_unresolved_entry(
                     existing,
                     key,
                     journal_issn,
@@ -1290,8 +1352,16 @@ def process_manual_journal_specs(
                     today,
                     reference,
                 )
+                unresolved_entry["impact_factor_status"] = (
+                    IF_STATUS_LOOKUP_ERROR if lookup_failed else IF_STATUS_UNRESOLVED
+                )
+                unresolved_entry["impact_factor_reason"] = (
+                    "network_or_parse_error" if lookup_failed else "no_match"
+                )
+                unresolved_journals[key] = unresolved_entry
                 unresolved_added += 1
-                print(f"[PROGRESS] {done}/{total} not_found: {journal_name}", flush=True)
+                state = "lookup_error" if lookup_failed else "not_found"
+                print(f"[PROGRESS] {done}/{total} {state}: {journal_name}", flush=True)
     elif online_specs:
         for spec in online_specs:
             journal_name = spec["journal_name"]
