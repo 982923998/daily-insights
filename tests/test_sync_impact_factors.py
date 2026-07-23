@@ -419,6 +419,8 @@ class CatalogAndPersistenceTests(unittest.TestCase):
         self.assertNotIn("last_file", entry)
         self.assertEqual(entry["files"], ["2026-07-20-brainmri.json"])
         self.assertEqual(entry["seen_count"], 1)
+        self.assertEqual(entry["impact_factor_status"], "unresolved")
+        self.assertEqual(entry["impact_factor_reason"], "no_match")
         self.assertEqual(json.dumps(unresolved, sort_keys=True), first)
 
     def test_default_file_collection_reads_sorted_unique_files_registry(self):

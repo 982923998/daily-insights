@@ -1371,7 +1371,7 @@ def process_manual_journal_specs(
             existing = unresolved_journals.get(key, {})
             if not isinstance(existing, dict):
                 existing = {}
-            unresolved_journals[key] = _manual_unresolved_entry(
+            unresolved_entry = _manual_unresolved_entry(
                 existing,
                 key,
                 journal_issn,
@@ -1379,6 +1379,9 @@ def process_manual_journal_specs(
                 today,
                 reference,
             )
+            unresolved_entry["impact_factor_status"] = IF_STATUS_UNRESOLVED
+            unresolved_entry["impact_factor_reason"] = "no_match"
+            unresolved_journals[key] = unresolved_entry
             unresolved_added += 1
 
     unresolved["journals"] = {
