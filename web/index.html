@@ -90,6 +90,42 @@
             }
         };
 
+        // --- Timeline Helpers Start ---
+        const sortTimelineDates = (dates = []) =>
+            [...new Set(Array.isArray(dates) ? dates : [])]
+                .sort((a, b) => b.localeCompare(a));
+
+        const mergeTimelineFiles = (files = []) => {
+            const seen = new Set();
+            return (Array.isArray(files) ? files : [])
+                .flatMap(file => Array.isArray(file?.payload?.articles)
+                    ? file.payload.articles.map(article => ({
+                        ...article,
+                        _domainId: file.domainId,
+                        _timelineDate: article.published_date || article.date || file.payload.date || file.requestDate,
+                    }))
+                    : [])
+                .sort((a, b) => (b._timelineDate || '').localeCompare(a._timelineDate || ''))
+                .filter(article => {
+                    const identity = normalizeUrl(article.url) || (article.title || '').trim().toLowerCase();
+                    const key = `${article._domainId}|${identity}`;
+                    if (seen.has(key)) return false;
+                    seen.add(key);
+                    return true;
+                });
+        };
+
+        const selectTimelineDigests = (files = []) => {
+            const selected = {};
+            (Array.isArray(files) ? files : []).forEach(file => {
+                if (!selected[file?.domainId] && file?.payload?.digest && typeof file.payload.digest === 'object') {
+                    selected[file.domainId] = file.payload.digest;
+                }
+            });
+            return selected;
+        };
+        // --- Timeline Helpers End ---
+
         const getIfInfoForArticle = (article = {}) => ({
             impactFactor: article?.impact_factor ?? null,
             impactFactorYear: article?.impact_factor_year ?? null,
@@ -174,14 +210,12 @@
         };
 
         // --- Sidebar ---
-        const Sidebar = ({ domains, activeDomain, setActiveDomain, favCount, currentDate, onDateChange }) => {
+        const Sidebar = ({ domains, activeDomain, setActiveDomain, favCount }) => {
             const tabs = [
                 { key: 'all', icon: 'layout', label: 'All', color: null },
                 ...domains.map(d => ({ key: d.id, icon: d.icon || 'layers', label: d.label, color: d.color })),
                 { key: 'saved', icon: 'bookmark', label: `Saved${favCount > 0 ? ` (${favCount})` : ''}`, color: '#f59e0b' },
             ];
-            const isSavedView = activeDomain === 'saved';
-
             return (
                 <aside className="w-56 shrink-0 h-screen sticky top-0 flex flex-col border-r border-slate-200/60 dark:border-slate-700/40 bg-white/60 dark:bg-slate-900/60 backdrop-blur-xl">
                     {/* Logo */}
@@ -190,28 +224,6 @@
                             Research<span style={{ color: domains[0]?.color || '#6366f1' }}>.</span>Hub
                         </h1>
                         <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mt-1">Daily Briefing</p>
-                    </div>
-
-                    {/* Date picker */}
-                    <div className="px-3 mb-4">
-                        {isSavedView ? (
-                            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-50/80 dark:bg-amber-900/20 border border-amber-200/70 dark:border-amber-800/50">
-                                <Icon name="bookmark-check" size={14} className="text-amber-500" />
-                                <p className="text-xs font-medium text-amber-700 dark:text-amber-300">
-                                    Saved includes all dates
-                                </p>
-                            </div>
-                        ) : (
-                            <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 border border-slate-200/60 dark:border-slate-700/40">
-                                <Icon name="calendar" size={14} className="text-slate-400" />
-                                <input
-                                    type="date"
-                                    value={currentDate}
-                                    onChange={(e) => onDateChange(e.target.value)}
-                                    className="bg-transparent border-none focus:ring-0 text-slate-700 dark:text-slate-200 font-medium cursor-pointer font-mono text-xs w-full"
-                                />
-                            </div>
-                        )}
                     </div>
 
                     {/* Nav tabs */}
@@ -734,8 +746,6 @@
 
         // --- App ---
         const App = () => {
-            const today = new Date().toLocaleDateString('en-CA');
-            const [currentDate, setCurrentDate] = useState(today);
             const [activeDomain, setActiveDomain] = useState('all');
             const [searchQuery, setSearchQuery] = useState('');
             const [articles, setArticles] = useState([]);
@@ -824,39 +834,35 @@
                 setError(null);
                 setDigestByDomain({});
                 const t = Date.now();
-                const safeFetch = (path) =>
-                    fetch(path).then(r => r.ok ? r.json() : null).catch(() => null);
+                const safeFetch = path => fetch(path)
+                    .then(response => response.ok ? response.json() : null)
+                    .catch(() => null);
 
-                Promise.all(
-                    domains.map(d => safeFetch(`/data/${currentDate}-${d.id}.json?t=${t}`))
-                ).then(results => {
-                    const combined = [];
-                    const nextDigests = {};
-                    let anyData = false;
-                    results.forEach((data, i) => {
-                        if (data) {
-                            anyData = true;
-                            if (data.digest && typeof data.digest === 'object') {
-                                nextDigests[domains[i].id] = data.digest;
-                            }
-                            (data.articles || []).forEach(a => {
-                                const enriched = { ...a, _domainId: domains[i].id };
-                                enriched._anchorId = buildArticleAnchorId(enriched);
-                                combined.push(enriched);
-                            });
-                        }
-                    });
-                    setDigestByDomain(nextDigests);
-                    if (!anyData) {
-                        setError(`Report for ${currentDate} is not available.`);
+                safeFetch('/api/dates').then(async datesPayload => {
+                    if (!datesPayload || !Array.isArray(datesPayload.dates)) {
                         setArticles([]);
-                    } else {
-                        setArticles(combined);
-                        setError(null);
+                        setError('Data unavailable.');
+                        setLoading(false);
+                        return;
                     }
+                    const dates = sortTimelineDates(datesPayload.dates);
+                    const files = await Promise.all(
+                        dates.flatMap(date => domains.map(domain =>
+                            safeFetch(`/data/${date}-${domain.id}.json?t=${t}`)
+                                .then(payload => payload ? { requestDate: date, domainId: domain.id, payload } : null)
+                        ))
+                    );
+                    const combined = mergeTimelineFiles(files).map(article => ({
+                        ...article,
+                        _anchorId: buildArticleAnchorId(article),
+                    }));
+
+                    setArticles(combined);
+                    setDigestByDomain(selectTimelineDigests(files));
+                    setError(null);
                     setLoading(false);
                 });
-            }, [currentDate, domainsLoaded, domains]);
+            }, [domainsLoaded, domains]);
 
             // Active domain's color
             const activeDomainColor = useMemo(() => {
@@ -921,8 +927,6 @@
                         activeDomain={activeDomain}
                         setActiveDomain={setActiveDomain}
                         favCount={favorites.length}
-                        currentDate={currentDate}
-                        onDateChange={setCurrentDate}
                     />
 
                     {/* Main content */}
@@ -940,7 +944,7 @@
                                         <p className="text-sm text-slate-400 mt-0.5 font-mono">
                                             {activeDomain === 'saved'
                                                 ? `All saved items (${favorites.length})`
-                                                : currentDate}
+                                                : 'Newest first'}
                                         </p>
                                     </div>
                                     
@@ -987,7 +991,7 @@
                             ) : error && activeDomain !== 'saved' ? (
                                 <EmptyState
                                     type="error"
-                                    message={`No data for ${currentDate}. Try selecting a different date.`}
+                                    message="Data is unavailable. Please try again later."
                                 />
                             ) : (
                                 filteredArticles.length === 0 ? (
