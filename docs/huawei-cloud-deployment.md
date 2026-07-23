@@ -15,6 +15,8 @@
 | Web 服务 | `daily-insights.service` |
 | 每日任务定时器 | `daily-insights-fetch-all.timer` |
 | 每日任务时间 | 每天 08:30（Asia/Shanghai） |
+| IF 补查定时器 | `daily-insights-if-maintenance.timer` |
+| IF 补查时间 | 每天 11:00（Asia/Shanghai） |
 | 后端监听 | `127.0.0.1:8080`，由 Nginx 反向代理 |
 
 公网只提供页面和只读数据接口。`POST /api/fetch` 在 Nginx 层返回 `403`；每日抓取由 systemd 定时器触发。
@@ -99,6 +101,18 @@ systemctl disable --now daily-insights-fetch-brainmri.timer
 systemctl enable --now daily-insights-fetch-all.timer
 ```
 
+安装每日 unresolved IF 补查任务：
+
+```bash
+cp deploy/systemd/daily-insights-if-maintenance.timer /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable --now daily-insights-if-maintenance.timer
+```
+
+该任务复用 `daily-insights-fetch@.service`，运行 `fetch.sh if`。它只处理
+`autism/depression/tms` 中仍含 unresolved 期刊的文件，回填后重新执行 IF ≥ 8
+过滤、摘要生成和最终校验。
+
 ### 4. 远端测试与重启
 
 ```bash
@@ -113,6 +127,8 @@ systemctl is-active daily-insights.service
 systemctl is-enabled daily-insights.service
 systemctl is-active daily-insights-fetch-all.timer
 systemctl is-enabled daily-insights-fetch-all.timer
+systemctl is-active daily-insights-if-maintenance.timer
+systemctl is-enabled daily-insights-if-maintenance.timer
 ss -ltnp | grep ':8080'
 exit
 ```
@@ -158,3 +174,4 @@ tar -xzf /projects/backups/daily-insights-<时间戳>.tar.gz -C "$restore_dir"
 - 部署三领域迁移提交 `99f8dea`：仅保留 Autism + MRI、Depression + MRI、TMS，统一执行 IF ≥ 8 过滤。
 - 三领域迁移备份：`/projects/backups/daily-insights-20260723-214118.tar.gz`；SHA256：`f64bdb094622ecd6167dd9244c06503875ee154da868e5d8a01b2c5f7a6c262b`。
 - 三领域迁移验收：远端 49 项测试通过；`/api/domains` 精确返回 `autism/depression/tms`；`daily-insights-fetch-all.timer` 已启用，旧 `brainmri` timer 已禁用；历史 Brain MRI JSON 保留。
+- 增加 `daily-insights-if-maintenance.timer`：每天 11:00 复查三个活动领域的 unresolved IF，并在回填后重新执行 IF ≥ 8 过滤和最终校验。

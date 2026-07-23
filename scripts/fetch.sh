@@ -476,6 +476,74 @@ run_domain_batch() {
     return 0
 }
 
+run_if_maintenance() {
+    local unresolved_file="$PROJECT_DIR/data/if_unresolved_journals.json"
+    local unresolved_files=()
+    local file domain_id sync_output unresolved_file_list
+
+    if [ ! -f "$unresolved_file" ]; then
+        log "[INFO] No unresolved journal file; IF maintenance skipped."
+        return 0
+    fi
+
+    if ! unresolved_file_list=$(python3 - "$unresolved_file" "$PROJECT_DIR/data" <<'PY'
+import json
+import re
+import sys
+from pathlib import Path
+
+payload = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+journals = payload.get("journals", payload) if isinstance(payload, dict) else payload
+entries = journals.values() if isinstance(journals, dict) else journals
+data_dir = Path(sys.argv[2])
+active = re.compile(r"^\d{4}-\d{2}-\d{2}-(autism|depression|tms)\.json$")
+files = set()
+for entry in entries:
+    if not isinstance(entry, dict):
+        continue
+    names = list(entry.get("files") or [])
+    if entry.get("last_file"):
+        names.append(entry["last_file"])
+    for name in names:
+        path = data_dir / Path(str(name)).name
+        if active.match(path.name) and path.is_file():
+            files.add(path)
+for path in sorted(files):
+    print(path)
+PY
+); then
+        log "[ERROR] Failed to read unresolved journal files."
+        return 1
+    fi
+    while IFS= read -r file; do
+        [ -n "$file" ] && unresolved_files+=("$file")
+    done <<< "$unresolved_file_list"
+
+    if [ "${#unresolved_files[@]}" -eq 0 ]; then
+        log "[INFO] No unresolved active-domain files; IF maintenance skipped."
+        return 0
+    fi
+
+    log "[INFO] Daily IF maintenance: ${#unresolved_files[@]} active-domain files."
+    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" \
+        --reference auto-unresolved-daily \
+        "${unresolved_files[@]}" 2>&1); then
+        [ -n "$sync_output" ] && echo "$sync_output"
+        log "[ERROR] Daily unresolved IF lookup failed."
+        return 1
+    fi
+    [ -n "$sync_output" ] && echo "$sync_output"
+
+    for file in "${unresolved_files[@]}"; do
+        domain_id="${file##*-}"
+        domain_id="${domain_id%.json}"
+        filter_impact_factors "$file" || return 1
+        generate_digest "$file" "$domain_id" || return 1
+        validate_data_file "$file" "$domain_id" "final" || return 1
+    done
+    log "[OK] Daily unresolved IF maintenance finished."
+}
+
 run_test_mode() {
     local domain_id data_file category test_dir rc=0
 
@@ -547,7 +615,9 @@ case "$MODE" in
             exit 1
         fi
         shift || true
-        if ! python3 "$SYNC_IF_SCRIPT" "$@"; then
+        if [ "$#" -eq 0 ]; then
+            run_if_maintenance || exit $?
+        elif ! python3 "$SYNC_IF_SCRIPT" "$@"; then
             exit 1
         fi
         ;;

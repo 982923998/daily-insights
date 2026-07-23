@@ -54,8 +54,16 @@ class MinimalIfPipelineContractTests(unittest.TestCase):
         self.assertIn('run_domain_batch "${ACTIVE_DOMAINS[@]}"', main_case)
         self.assertIn('autism|depression|tms)', main_case)
         self.assertIn('run_domain_batch "$MODE"', main_case)
+        self.assertIn('run_if_maintenance', main_case)
         self.assertIn('python3 "$SYNC_IF_SCRIPT" "$@"', main_case)
         self.assertNotIn("journal-if|impact-factor", main_case)
+
+    def test_daily_if_maintenance_refilters_active_domain_files(self):
+        body = function_body(self.source, "run_if_maintenance")
+        self.assertIn('auto-unresolved-daily', body)
+        self.assertIn('autism|depression|tms', body)
+        self.assertIn('filter_impact_factors "$file"', body)
+        self.assertIn('validate_data_file "$file" "$domain_id" "final"', body)
 
     def test_test_mode_is_offline_and_writes_all_three_domains(self):
         body = function_body(self.source, "run_test_mode")

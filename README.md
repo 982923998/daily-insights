@@ -160,6 +160,7 @@ CODEX_TIMEOUT_SECONDS="600"
 当前计划：
 
 - 三个活动领域：每天 `08:30` 抓取
+- 华为云：每天 `11:00` 复查 unresolved IF，并重新执行 IF ≥ 8 过滤
 
 日志目录：`logs/`
 
