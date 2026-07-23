@@ -39,8 +39,8 @@ process.stdout.write(JSON.stringify(result));
     def test_header_explains_sort_order(self):
         self.assertIn("Newest first", self.source)
 
-    def test_articles_are_paginated_twenty_per_page(self):
-        self.assertIn("const PAGE_SIZE = 20;", self.source)
+    def test_articles_are_paginated_ten_per_page(self):
+        self.assertIn("const PAGE_SIZE = 10;", self.source)
         self.assertIn("const paginatedArticles = filteredArticles.slice(", self.source)
         self.assertIn("paginatedArticles.map", self.source)
         self.assertIn("第 {currentPage} / {totalPages} 页", self.source)
