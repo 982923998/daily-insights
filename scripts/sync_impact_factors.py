@@ -12,7 +12,9 @@ import argparse
 import concurrent.futures
 import json
 import math
+import os
 import re
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -33,7 +35,29 @@ LET_PUB_BASE_URL = "https://letpub.com.cn/"
 LETPUB_REFERENCE_DIRNAME = "references"
 IF_STATUS_AVAILABLE = "available"
 IF_STATUS_NOT_AVAILABLE_YET = "not_available_yet"
-IF_STATUS_NOT_FOUND = "not_found"
+IF_STATUS_UNRESOLVED = "unresolved"
+IF_STATUS_LOOKUP_ERROR = "lookup_error"
+
+IF_RESULT_FIELDS = (
+    "impact_factor",
+    "impact_factor_year",
+    "impact_factor_status",
+    "impact_factor_source",
+    "impact_factor_match_method",
+    "impact_factor_matched_journal",
+    "impact_factor_reason",
+)
+
+SOURCE_PRIORITIES = {
+    "ordinary_raw": 100,
+    "letpub": 100,
+    "letpub_raw": 100,
+    "unique_base": 200,
+    "letpub_unique_base": 200,
+    "legacy_crawler_supplement": 300,
+    "letpub_unresolved_crawler": 300,
+    "manual_override": 400,
+}
 
 
 def now_iso_utc() -> str:
@@ -108,20 +132,26 @@ def load_unresolved_registry(path: Path) -> dict:
 
 def load_letpub_journal_list(path: Path) -> list[dict]:
     if not path.exists():
-        return []
+        raise FileNotFoundError(f"LetPub catalog not found: {path}")
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return []
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"invalid LetPub catalog JSON: {path}") from exc
     if isinstance(payload, dict):
-        journals = payload.get("journals", [])
-        if isinstance(journals, list):
+        if "journals" in payload:
+            journals = payload["journals"]
+            if not isinstance(journals, list):
+                raise ValueError(f'LetPub catalog field "journals" must be an array: {path}')
             return journals
-        rows = payload.get("rows", [])
-        return rows if isinstance(rows, list) else []
+        if "rows" in payload:
+            rows = payload["rows"]
+            if not isinstance(rows, list):
+                raise ValueError(f'LetPub catalog field "rows" must be an array: {path}')
+            return rows
+        raise ValueError(f'LetPub catalog must contain "journals" or "rows": {path}')
     if isinstance(payload, list):
         return payload
-    return []
+    raise ValueError(f"LetPub catalog must be an object or array: {path}")
 
 
 def payload_journal_entries(payload: dict) -> list[dict]:
@@ -149,23 +179,25 @@ def load_raw_letpub_payload(path: Path) -> dict:
         return default_raw_letpub_payload()
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return default_raw_letpub_payload()
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"invalid LetPub raw catalog JSON: {path}") from exc
     if isinstance(payload, list):
         out = default_raw_letpub_payload()
         out["rows"] = payload
         out["raw_total"] = len(payload)
         return out
     if not isinstance(payload, dict):
-        return default_raw_letpub_payload()
+        raise ValueError(f"LetPub raw catalog must be an object or array: {path}")
     out = dict(payload)
     rows = out.get("rows")
-    if not isinstance(rows, list):
+    if rows is not None and not isinstance(rows, list):
+        raise ValueError(f'LetPub raw catalog field "rows" must be an array: {path}')
+    if rows is None:
         journals = out.get("journals")
         if isinstance(journals, list):
             rows = journals
         else:
-            rows = []
+            raise ValueError(f'LetPub raw catalog must contain "rows" or "journals": {path}')
     out["rows"] = rows
     if "source" not in out or not isinstance(out.get("source"), str) or not out.get("source"):
         out["source"] = LET_PUB_SEARCH_URL
@@ -178,7 +210,7 @@ def load_raw_letpub_payload(path: Path) -> dict:
 def default_supplement_payload() -> dict:
     return {
         "schema_version": 1,
-        "source": "letpub_unresolved_crawler",
+        "source": "manual_override",
         "updated_at": now_iso_utc(),
         "journals": [],
     }
@@ -189,16 +221,16 @@ def load_supplement_payload(path: Path) -> dict:
         return default_supplement_payload()
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return default_supplement_payload()
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"invalid manual override JSON: {path}") from exc
     if not isinstance(payload, dict):
-        return default_supplement_payload()
+        raise ValueError(f"manual override catalog must be an object: {path}")
     journals = payload.get("journals", [])
     if not isinstance(journals, list):
-        journals = []
+        raise ValueError(f'manual override field "journals" must be an array: {path}')
     return {
         "schema_version": int(payload.get("schema_version", 1)),
-        "source": str(payload.get("source", "letpub_unresolved_crawler")),
+        "source": str(payload.get("source", "manual_override")),
         "updated_at": str(payload.get("updated_at", now_iso_utc())),
         "journals": journals,
     }
@@ -233,18 +265,6 @@ def load_reference_payload(path: Path, reference: str) -> dict:
         "updated_at": str(payload.get("updated_at", now_iso_utc())),
         "journals": journals,
     }
-
-
-def load_all_reference_entries(reference_dir: Path) -> list[dict]:
-    if not reference_dir.exists():
-        return []
-    entries: list[dict] = []
-    for p in sorted(reference_dir.glob("*.json")):
-        payload = load_reference_payload(p, p.stem)
-        journals = payload.get("journals", [])
-        if isinstance(journals, list):
-            entries.extend(journals)
-    return entries
 
 
 def parse_manual_journal_line(raw: str) -> dict | None:
@@ -372,55 +392,186 @@ def load_unresolved_as_manual_specs(unresolved: dict) -> list[dict]:
     return dedupe_manual_specs(specs)
 
 
+def _source_priority(source: str) -> int:
+    return SOURCE_PRIORITIES.get(source, SOURCE_PRIORITIES["ordinary_raw"])
+
+
+def _candidate_from_row(item: dict) -> dict | None:
+    source = str(item.get("source") or "ordinary_raw").strip() or "ordinary_raw"
+    if source == "reference_audit" or item.get("audit_role") == "reference_only":
+        return None
+
+    explicit_status = str(item.get("impact_factor_status") or item.get("if_status") or "").strip()
+    raw_value = normalize_if_value_allow_zero(item.get("impact_factor"))
+    if raw_value is None:
+        if explicit_status != IF_STATUS_UNRESOLVED:
+            return None
+        status = IF_STATUS_UNRESOLVED
+        impact_factor = None
+    elif raw_value == 0:
+        status = IF_STATUS_NOT_AVAILABLE_YET
+        impact_factor = None
+    else:
+        status = IF_STATUS_AVAILABLE
+        impact_factor = raw_value
+
+    year = normalize_if_year(item.get("impact_factor_year"))
+    if year is None:
+        year = normalize_if_year(item.get("if_year"))
+    matched_journal = str(
+        item.get("journal_name")
+        or item.get("manual_full_name")
+        or item.get("journal_name_short")
+        or ""
+    ).strip()
+    return {
+        "impact_factor": impact_factor,
+        "impact_factor_year": year,
+        "impact_factor_status": status,
+        "impact_factor_source": source,
+        "impact_factor_matched_journal": matched_journal,
+        "_source_priority": _source_priority(source),
+    }
+
+
+def _candidate_identity(candidate: dict) -> tuple:
+    return (
+        candidate["impact_factor"],
+        candidate["impact_factor_year"],
+        candidate["impact_factor_status"],
+        candidate["impact_factor_source"],
+        candidate["impact_factor_matched_journal"],
+    )
+
+
+def _choose_catalog_candidate(candidates: list[dict]) -> dict:
+    unique = {_candidate_identity(candidate): candidate for candidate in candidates}
+    pool = list(unique.values())
+    top_priority = max(candidate["_source_priority"] for candidate in pool)
+    pool = [candidate for candidate in pool if candidate["_source_priority"] == top_priority]
+    if len(pool) == 1:
+        return dict(pool[0])
+
+    years = [candidate["impact_factor_year"] for candidate in pool]
+    if any(year is None for year in years):
+        selected = None
+    else:
+        newest_year = max(years)
+        newest = [candidate for candidate in pool if candidate["impact_factor_year"] == newest_year]
+        semantic = {
+            (candidate["impact_factor"], candidate["impact_factor_status"])
+            for candidate in newest
+        }
+        selected = min(
+            newest,
+            key=lambda candidate: candidate["impact_factor_matched_journal"].lower(),
+        ) if len(semantic) == 1 else None
+    if selected is not None:
+        return dict(selected)
+
+    sources = sorted({candidate["impact_factor_source"] for candidate in pool})
+    journals = sorted({candidate["impact_factor_matched_journal"] for candidate in pool})
+    return {
+        "impact_factor": None,
+        "impact_factor_year": None,
+        "impact_factor_status": IF_STATUS_UNRESOLVED,
+        "impact_factor_source": sources[0] if len(sources) == 1 else "+".join(sources),
+        "impact_factor_matched_journal": journals[0] if len(journals) == 1 else "; ".join(journals),
+        "impact_factor_reason": "conflict",
+        "_source_priority": top_priority,
+    }
+
+
 def build_letpub_if_index(journals: list[dict]) -> dict[str, dict]:
-    by_name: dict[str, dict] = {}
-    by_issn: dict[str, dict] = {}
+    """Build a deterministic fact index without using reference-audit rows."""
+    if not isinstance(journals, list):
+        raise ValueError("LetPub journals must be an array")
+
+    candidate_maps: dict[str, dict[str, list[dict]]] = {
+        "by_issn": {},
+        "by_name": {},
+        "by_abbreviation": {},
+    }
     for item in journals:
         if not isinstance(item, dict):
+            raise ValueError("each LetPub journal row must be an object")
+        candidate = _candidate_from_row(item)
+        if candidate is None:
             continue
-        impact_factor_raw = normalize_if_value_allow_zero(item.get("impact_factor"))
-        if impact_factor_raw is None:
+
+        issn = normalize_issn(str(item.get("issn") or item.get("journal_issn") or ""))
+        if issn:
+            candidate_maps["by_issn"].setdefault(issn, []).append(candidate)
+
+        for name in (item.get("journal_name"), item.get("manual_full_name")):
+            key = normalize_journal_key(str(name or ""))
+            if key:
+                candidate_maps["by_name"].setdefault(key, []).append(candidate)
+
+        abbreviation = normalize_journal_key(str(item.get("journal_name_short") or ""))
+        if abbreviation:
+            candidate_maps["by_abbreviation"].setdefault(abbreviation, []).append(candidate)
+
+    return {
+        map_name: {
+            key: _choose_catalog_candidate(candidates)
+            for key, candidates in sorted(candidate_map.items())
+        }
+        for map_name, candidate_map in candidate_maps.items()
+    }
+
+
+def _unresolved_result(reason: str, *, status: str = IF_STATUS_UNRESOLVED) -> dict:
+    return {
+        "impact_factor": None,
+        "impact_factor_year": None,
+        "impact_factor_status": status,
+        "impact_factor_source": None,
+        "impact_factor_match_method": "none",
+        "impact_factor_matched_journal": None,
+        "impact_factor_reason": reason,
+    }
+
+
+def resolve_article_if(article: dict, letpub_index: dict[str, dict]) -> dict:
+    """Resolve one article from local catalogs only."""
+    journal_name = str(article.get("journal") or "").strip()
+    if not journal_name:
+        return _unresolved_result("missing_journal")
+
+    matches = (
+        (
+            "exact_issn",
+            letpub_index.get("by_issn", {}).get(
+                normalize_issn(str(article.get("journal_issn") or article.get("issn") or ""))
+            ),
+        ),
+        ("canonical_name", letpub_index.get("by_name", {}).get(normalize_journal_key(journal_name))),
+        (
+            "abbreviation",
+            letpub_index.get("by_abbreviation", {}).get(normalize_journal_key(journal_name)),
+        ),
+    )
+    for method, match in matches:
+        if not match:
             continue
-        impact_factor = impact_factor_raw if impact_factor_raw > 0 else None
-        if_status = IF_STATUS_AVAILABLE if impact_factor_raw > 0 else IF_STATUS_NOT_AVAILABLE_YET
-        if_year = normalize_if_year(item.get("impact_factor_year"))
-        if if_year is None:
-            if_year = normalize_if_year(item.get("if_year"))
-        source = str(item.get("source", "letpub")).strip() or "letpub"
-        candidates = [
-            str(item.get("journal_name", "")).strip(),
-            str(item.get("journal_name_short", "")).strip(),
-            str(item.get("manual_full_name", "")).strip(),
-        ]
-        for candidate in candidates:
-            key = normalize_journal_key(candidate)
-            if not key:
-                continue
-            current = by_name.get(key)
-            current_if = normalize_if_value_allow_zero(current.get("impact_factor")) if current else None
-            if current_if is None:
-                current_if = -1
-            if impact_factor_raw > current_if:
-                by_name[key] = {
-                    "impact_factor": impact_factor,
-                    "impact_factor_year": if_year,
-                    "if_status": if_status,
-                    "source": source,
-                }
-        issn_key = normalize_issn(str(item.get("issn", "")).strip())
-        if issn_key:
-            current_issn = by_issn.get(issn_key)
-            current_if = normalize_if_value_allow_zero(current_issn.get("impact_factor")) if current_issn else None
-            if current_if is None:
-                current_if = -1
-            if impact_factor_raw > current_if:
-                by_issn[issn_key] = {
-                    "impact_factor": impact_factor,
-                    "impact_factor_year": if_year,
-                    "if_status": if_status,
-                    "source": source,
-                }
-    return {"by_name": by_name, "by_issn": by_issn}
+        result = {key: value for key, value in match.items() if not key.startswith("_")}
+        result["impact_factor_match_method"] = method
+        if result["impact_factor_status"] == IF_STATUS_UNRESOLVED:
+            result.setdefault("impact_factor_reason", "catalog_unresolved")
+        return result
+    return _unresolved_result("no_match")
+
+
+def apply_if_result(article: dict, result: dict) -> dict:
+    """Return an article copy with only IF machine-state/provenance fields changed."""
+    updated = dict(article)
+    for field in IF_RESULT_FIELDS:
+        updated.pop(field, None)
+    for field in IF_RESULT_FIELDS:
+        if field in result:
+            updated[field] = result[field]
+    return updated
 
 
 def _letpub_request_url(searchname: str = "", searchissn: str = "") -> str:
@@ -594,14 +745,11 @@ def lookup_letpub_for_journal(
     if cache_key in cache:
         rows = cache[cache_key]
     else:
-        try:
-            if qtype == "issn":
-                html = fetch_letpub_html(searchissn=qvalue, timeout=timeout)
-            else:
-                html = fetch_letpub_html(searchname=qvalue, timeout=timeout)
-            rows = parse_letpub_rows(html)
-        except Exception:
-            rows = []
+        if qtype == "issn":
+            html = fetch_letpub_html(searchissn=qvalue, timeout=timeout)
+        else:
+            html = fetch_letpub_html(searchname=qvalue, timeout=timeout)
+        rows = parse_letpub_rows(html)
         cache[cache_key] = rows
 
     best = choose_best_row(rows, journal_name=journal_name, manual_full_name=manual_full_name, journal_issn=journal_issn)
@@ -644,7 +792,7 @@ def make_supplement_entry(
         "detail_url": str(row.get("detail_url", "")).strip(),
         "overall_score": row.get("overall_score"),
         "impact_factor": impact_factor,
-        "impact_factor_year": None,
+        "impact_factor_year": normalize_if_year(row.get("impact_factor_year")),
         "h_index": row.get("h_index"),
         "citescore": row.get("citescore"),
         "cas_quartile": "",
@@ -661,7 +809,7 @@ def make_supplement_entry(
         "reference": ref,
         "references": [ref],
         "matched_query": query_trace,
-        "source": "letpub_unresolved_crawler",
+        "source": "manual_override",
         "updated_at": now_iso_utc(),
     }
 
@@ -696,6 +844,10 @@ def upsert_supplement_entry(payload: dict, new_entry: dict) -> bool:
             merged = dict(old)
             merged.update(new_entry)
             merged["references"] = sorted(refs)
+            old_without_time = {k: v for k, v in old.items() if k != "updated_at"}
+            merged_without_time = {k: v for k, v in merged.items() if k != "updated_at"}
+            if old_without_time == merged_without_time:
+                return False
             journals[i] = merged
             return True
     journals.append(new_entry)
@@ -709,6 +861,7 @@ def update_unresolved_registry(
     capture_date: str,
     last_file: str,
 ):
+    before_journals = json.dumps(unresolved.get("journals", {}), ensure_ascii=False, sort_keys=True)
     unresolved_journals = unresolved.get("journals", {})
     if not isinstance(unresolved_journals, dict):
         unresolved_journals = {}
@@ -719,6 +872,17 @@ def update_unresolved_registry(
         if not isinstance(existing, dict):
             existing = {}
         seen_count_prev = int(existing.get("seen_count", 0) or 0)
+        files = {
+            str(file_name).strip()
+            for file_name in existing.get("files", [])
+            if isinstance(file_name, str) and str(file_name).strip()
+        }
+        legacy_last_file = str(existing.get("last_file", "")).strip()
+        if legacy_last_file:
+            files.add(legacy_last_file)
+        is_new_file = bool(last_file and last_file not in files)
+        if last_file:
+            files.add(last_file)
         manual_full_name = str(meta.get("manual_full_name", "")).strip() or str(existing.get("manual_full_name", "")).strip()
         notes = (
             str(meta.get("notes", "")).strip()
@@ -729,16 +893,18 @@ def update_unresolved_registry(
             "journal_name": key,
             "journal_issn": str(meta.get("journal_issn", "")).strip() or str(existing.get("journal_issn", "")).strip(),
             "first_seen": str(existing.get("first_seen", capture_date)),
-            "last_seen": capture_date,
-            "seen_count": seen_count_prev + int(meta.get("hit_count", 1) or 1),
-            "last_file": last_file,
+            "last_seen": max(str(existing.get("last_seen", capture_date)), capture_date),
+            "seen_count": seen_count_prev + (1 if is_new_file else 0),
+            "files": sorted(files),
             "manual_full_name": manual_full_name,
             "notes": notes,
         }
     unresolved["journals"] = {
         k: unresolved_journals[k] for k in sorted(unresolved_journals.keys(), key=lambda s: s.lower())
     }
-    unresolved["updated_at"] = now_iso_utc()
+    after_journals = json.dumps(unresolved["journals"], ensure_ascii=False, sort_keys=True)
+    if after_journals != before_journals:
+        unresolved["updated_at"] = now_iso_utc()
 
 
 def infer_capture_date(path: Path) -> str:
@@ -746,6 +912,47 @@ def infer_capture_date(path: Path) -> str:
     if m:
         return m.group(1)
     return datetime.now().strftime("%Y-%m-%d")
+
+
+def _atomic_write_json(path: Path, payload: dict) -> None:
+    rendered = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    descriptor, temp_name = tempfile.mkstemp(
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    )
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8") as handle:
+            handle.write(rendered)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temp_name, path)
+    except Exception:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
+        raise
+
+
+def _annotate_catalog_source(entries: list[dict], default_source: str) -> list[dict]:
+    annotated = []
+    for entry in entries:
+        if not isinstance(entry, dict):
+            raise ValueError("each LetPub journal row must be an object")
+        row = dict(entry)
+        source = str(row.get("source") or "").strip()
+        if default_source == "ordinary_raw" and source == "letpub_unresolved_crawler":
+            row["source"] = "legacy_crawler_supplement"
+        else:
+            row["source"] = default_source
+        annotated.append(row)
+    return annotated
+
+
+def _if_projection(article: dict) -> dict:
+    return {field: article.get(field) for field in IF_RESULT_FIELDS if field in article}
 
 
 def process_data_file(
@@ -768,6 +975,9 @@ def process_data_file(
         return (0, 0)
 
     unresolved_journals = unresolved.get("journals", {})
+    if not isinstance(unresolved_journals, dict):
+        unresolved_journals = {}
+        unresolved["journals"] = unresolved_journals
     unresolved_key_index = {
         str(k).strip().lower(): str(k).strip()
         for k in unresolved_journals.keys()
@@ -776,11 +986,7 @@ def process_data_file(
     unresolved_observed: dict[str, dict[str, object]] = {}
     resolved_keys: set[str] = set()
     supplement_changed = 0
-    applied_count = 0
     capture_date = infer_capture_date(path)
-
-    by_name = letpub_index["by_name"]
-    by_issn = letpub_index["by_issn"]
 
     def resolve_key(journal_name: str) -> str:
         existing = unresolved_key_index.get(journal_name.strip().lower())
@@ -789,11 +995,15 @@ def process_data_file(
         unresolved_key_index[journal_name.strip().lower()] = journal_name.strip()
         return journal_name.strip()
 
+    before_articles = [dict(article) if isinstance(article, dict) else article for article in articles]
+    updated_articles = []
     for article in articles:
         if not isinstance(article, dict):
+            updated_articles.append(article)
             continue
         journal_name = str(article.get("journal", "")).strip()
         if not journal_name:
+            updated_articles.append(apply_if_result(article, _unresolved_result("missing_journal")))
             continue
         key = resolve_key(journal_name)
         article_issn = normalize_issn(str(article.get("journal_issn", "")).strip())
@@ -801,22 +1011,27 @@ def process_data_file(
         manual_full_name = ""
         if isinstance(unresolved_entry, dict):
             manual_full_name = str(unresolved_entry.get("manual_full_name", "")).strip()
-        match = None
-        if article_issn:
-            match = by_issn.get(article_issn)
-        if not match and manual_full_name:
-            match = by_name.get(normalize_journal_key(manual_full_name))
-        if not match:
-            match = by_name.get(normalize_journal_key(journal_name))
+        resolution_article = dict(article)
+        if manual_full_name and normalize_journal_key(journal_name) not in letpub_index.get("by_name", {}):
+            resolution_article["journal"] = manual_full_name
+        result = resolve_article_if(resolution_article, letpub_index)
 
-        if not match and crawl_online:
-            row, trace = lookup_letpub_for_journal(
-                journal_name=journal_name,
-                journal_issn=article_issn,
-                manual_full_name=manual_full_name,
-                cache=query_cache,
-                timeout=timeout,
-            )
+        if result.get("impact_factor_reason") == "no_match" and crawl_online:
+            try:
+                row, trace = lookup_letpub_for_journal(
+                    journal_name=journal_name,
+                    journal_issn=article_issn,
+                    manual_full_name=manual_full_name,
+                    cache=query_cache,
+                    timeout=timeout,
+                )
+            except Exception:
+                row = None
+                trace = ""
+                result = _unresolved_result(
+                    "network_or_parse_error",
+                    status=IF_STATUS_LOOKUP_ERROR,
+                )
             if row:
                 new_entry = make_supplement_entry(
                     row=row,
@@ -828,38 +1043,43 @@ def process_data_file(
                 )
                 if upsert_supplement_entry(supplement_payload, new_entry):
                     supplement_changed += 1
-                if upsert_supplement_entry(reference_payload, new_entry):
+                audit_entry = dict(new_entry)
+                audit_entry["source"] = "reference_audit"
+                audit_entry["audit_role"] = "reference_only"
+                if upsert_supplement_entry(reference_payload, audit_entry):
                     supplement_changed += 1
                 letpub_index = build_letpub_if_index(
                     base_entries
-                    + payload_journal_entries(supplement_payload)
-                    + reference_payload.get("journals", [])
+                    + _annotate_catalog_source(
+                        payload_journal_entries(supplement_payload),
+                        "manual_override",
+                    )
                 )
-                by_name = letpub_index["by_name"]
-                by_issn = letpub_index["by_issn"]
-                if article_issn:
-                    match = by_issn.get(article_issn)
-                if not match and manual_full_name:
-                    match = by_name.get(normalize_journal_key(manual_full_name))
-                if not match:
-                    match = by_name.get(normalize_journal_key(journal_name))
+                result = resolve_article_if(resolution_article, letpub_index)
 
-        if match:
-            applied_count += 1
-            if match.get("if_status") != IF_STATUS_NOT_FOUND:
-                resolved_keys.add(key)
-            else:
-                unresolved_observed[key] = {
-                    "journal_issn": format_issn(article_issn),
-                    "hit_count": 1,
-                    "manual_full_name": manual_full_name,
-                }
+        updated_article = apply_if_result(article, result)
+        updated_articles.append(updated_article)
+        if result["impact_factor_status"] in (IF_STATUS_AVAILABLE, IF_STATUS_NOT_AVAILABLE_YET):
+            resolved_keys.add(key)
         else:
             unresolved_observed[key] = {
                 "journal_issn": format_issn(article_issn),
                 "hit_count": 1,
                 "manual_full_name": manual_full_name,
+                "notes": f"impact_factor_reason={result.get('impact_factor_reason', 'unresolved')}",
             }
+
+    data["articles"] = updated_articles
+    _atomic_write_json(path, data)
+    readback = json.loads(path.read_text(encoding="utf-8"))
+    readback_articles = readback.get("articles", [])
+    changed_count = sum(
+        1
+        for before, after in zip(before_articles, readback_articles)
+        if isinstance(before, dict)
+        and isinstance(after, dict)
+        and _if_projection(before) != _if_projection(after)
+    )
 
     update_unresolved_registry(
         unresolved=unresolved,
@@ -868,7 +1088,7 @@ def process_data_file(
         capture_date=capture_date,
         last_file=path.name,
     )
-    return (applied_count, supplement_changed)
+    return (changed_count, supplement_changed)
 
 
 def collect_default_files(data_dir: Path, unresolved: dict) -> list[Path]:
@@ -879,16 +1099,55 @@ def collect_default_files(data_dir: Path, unresolved: dict) -> list[Path]:
     for entry in journals.values():
         if not isinstance(entry, dict):
             continue
-        last_file = str(entry.get("last_file", "")).strip()
-        if not last_file:
-            continue
-        if not last_file.lower().endswith(".json"):
-            continue
-        p = data_dir / last_file
-        if p.exists():
-            files.append(p)
+        registered_files = entry.get("files", [])
+        if not isinstance(registered_files, list):
+            registered_files = []
+        legacy_last_file = str(entry.get("last_file", "")).strip()
+        if legacy_last_file:
+            registered_files = [*registered_files, legacy_last_file]
+        for file_name in registered_files:
+            file_name = str(file_name).strip()
+            if not file_name.lower().endswith(".json"):
+                continue
+            p = data_dir / file_name
+            if p.exists():
+                files.append(p)
     dedup = sorted({str(p): p for p in files}.values(), key=lambda p: p.name)
     return dedup
+
+
+def _manual_unresolved_entry(
+    existing: dict,
+    journal_name: str,
+    journal_issn: str,
+    manual_full_name: str,
+    today: str,
+    reference: str,
+) -> dict:
+    files = {
+        str(file_name).strip()
+        for file_name in existing.get("files", [])
+        if isinstance(file_name, str) and str(file_name).strip()
+    }
+    legacy_last_file = str(existing.get("last_file", "")).strip()
+    if legacy_last_file:
+        files.add(legacy_last_file)
+    return {
+        "journal_name": journal_name,
+        "journal_issn": format_issn(journal_issn)
+        or str(existing.get("journal_issn", "")).strip(),
+        "first_seen": str(existing.get("first_seen", today)),
+        "last_seen": max(str(existing.get("last_seen", today)), today),
+        "seen_count": max(1, int(existing.get("seen_count", 0) or 0)),
+        "files": sorted(files),
+        "manual_full_name": manual_full_name,
+        "notes": str(
+            existing.get(
+                "notes",
+                f"手动输入期刊（reference={sanitize_reference(reference)}）未在 LetPub 命中",
+            )
+        ),
+    }
 
 
 def process_manual_journal_specs(
@@ -909,6 +1168,7 @@ def process_manual_journal_specs(
     if not specs:
         return (0, 0, 0)
 
+    before_journals = json.dumps(unresolved.get("journals", {}), ensure_ascii=False, sort_keys=True)
     unresolved_journals = unresolved.get("journals", {})
     if not isinstance(unresolved_journals, dict):
         unresolved_journals = {}
@@ -938,6 +1198,7 @@ def process_manual_journal_specs(
                 "journal_name": manual_full_name or journal_name,
                 "journal_name_short": journal_name,
                 "impact_factor": local_match.get("impact_factor"),
+                "impact_factor_year": local_match.get("impact_factor_year"),
                 "source": local_match.get("source", "letpub_local_index"),
             }
             found += 1
@@ -951,7 +1212,10 @@ def process_manual_journal_specs(
             )
             if upsert_supplement_entry(supplement_payload, new_entry):
                 updated += 1
-            if upsert_supplement_entry(reference_payload, new_entry):
+            audit_entry = dict(new_entry)
+            audit_entry["source"] = "reference_audit"
+            audit_entry["audit_role"] = "reference_only"
+            if upsert_supplement_entry(reference_payload, audit_entry):
                 updated += 1
             unresolved_journals.pop(journal_name, None)
             continue
@@ -1005,7 +1269,10 @@ def process_manual_journal_specs(
                     )
                     if upsert_supplement_entry(supplement_payload, new_entry):
                         updated += 1
-                    if upsert_supplement_entry(reference_payload, new_entry):
+                    audit_entry = dict(new_entry)
+                    audit_entry["source"] = "reference_audit"
+                    audit_entry["audit_role"] = "reference_only"
+                    if upsert_supplement_entry(reference_payload, audit_entry):
                         updated += 1
                     unresolved_journals.pop(journal_name, None)
                     print(f"[PROGRESS] {done}/{total} found: {journal_name}", flush=True)
@@ -1015,21 +1282,14 @@ def process_manual_journal_specs(
                 existing = unresolved_journals.get(key, {})
                 if not isinstance(existing, dict):
                     existing = {}
-                unresolved_journals[key] = {
-                    "journal_name": key,
-                    "journal_issn": format_issn(journal_issn),
-                    "first_seen": str(existing.get("first_seen", today)),
-                    "last_seen": today,
-                    "seen_count": int(existing.get("seen_count", 0) or 0) + 1,
-                    "last_file": str(existing.get("last_file", "")),
-                    "manual_full_name": manual_full_name,
-                    "notes": str(
-                        existing.get(
-                            "notes",
-                            f"手动输入期刊（reference={sanitize_reference(reference)}）未在 LetPub 命中",
-                        )
-                    ),
-                }
+                unresolved_journals[key] = _manual_unresolved_entry(
+                    existing,
+                    key,
+                    journal_issn,
+                    manual_full_name,
+                    today,
+                    reference,
+                )
                 unresolved_added += 1
                 print(f"[PROGRESS] {done}/{total} not_found: {journal_name}", flush=True)
     elif online_specs:
@@ -1041,30 +1301,38 @@ def process_manual_journal_specs(
             existing = unresolved_journals.get(key, {})
             if not isinstance(existing, dict):
                 existing = {}
-            unresolved_journals[key] = {
-                "journal_name": key,
-                "journal_issn": format_issn(journal_issn),
-                "first_seen": str(existing.get("first_seen", today)),
-                "last_seen": today,
-                "seen_count": int(existing.get("seen_count", 0) or 0) + 1,
-                "last_file": str(existing.get("last_file", "")),
-                "manual_full_name": manual_full_name,
-                "notes": str(
-                    existing.get(
-                        "notes",
-                        f"手动输入期刊（reference={sanitize_reference(reference)}）未在 LetPub 命中",
-                    )
-                ),
-            }
+            unresolved_journals[key] = _manual_unresolved_entry(
+                existing,
+                key,
+                journal_issn,
+                manual_full_name,
+                today,
+                reference,
+            )
             unresolved_added += 1
 
     unresolved["journals"] = {
         k: unresolved_journals[k] for k in sorted(unresolved_journals.keys(), key=lambda s: s.lower())
     }
-    unresolved["updated_at"] = now_iso_utc()
+    after_journals = json.dumps(unresolved["journals"], ensure_ascii=False, sort_keys=True)
+    if after_journals != before_journals:
+        unresolved["updated_at"] = now_iso_utc()
     elapsed = time.time() - start_ts
     print(f"[INFO] manual lookup elapsed={elapsed:.1f}s", flush=True)
     return (found, updated, unresolved_added)
+
+
+def _semantic_payload(payload: dict) -> str:
+    stable = {key: value for key, value in payload.items() if key != "updated_at"}
+    return json.dumps(stable, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+
+def _write_payload_if_changed(path: Path, payload: dict, before_semantic: str) -> bool:
+    if _semantic_payload(payload) == before_semantic:
+        return False
+    payload["updated_at"] = now_iso_utc()
+    _atomic_write_json(path, payload)
+    return True
 
 
 def run(args: argparse.Namespace) -> int:
@@ -1075,7 +1343,7 @@ def run(args: argparse.Namespace) -> int:
     reference_dir = letpub_dir / LETPUB_REFERENCE_DIRNAME
     base_letpub_path = letpub_dir / "letpub_life_med_unique.json"
     raw_letpub_path = letpub_dir / "letpub_life_med_raw.json"
-    legacy_supplement_path = letpub_dir / "letpub_manual_overrides.json"
+    manual_override_path = letpub_dir / "letpub_manual_overrides.json"
     reference = sanitize_reference(args.reference)
     reference_path = reference_dir / f"{reference}.json"
 
@@ -1090,22 +1358,17 @@ def run(args: argparse.Namespace) -> int:
         print("[WARN] --retries is deprecated and ignored; each journal is queried only once.")
 
     unresolved = load_unresolved_registry(unresolved_path)
-    supplement_payload = load_raw_letpub_payload(raw_letpub_path)
-    legacy_supplement_payload = load_supplement_payload(legacy_supplement_path)
-    legacy_migrated = 0
-    for legacy_entry in payload_journal_entries(legacy_supplement_payload):
-        if not isinstance(legacy_entry, dict):
-            continue
-        if upsert_supplement_entry(supplement_payload, legacy_entry):
-            legacy_migrated += 1
-    if legacy_migrated:
-        print(
-            f"[INFO] migrated legacy overrides into letpub_life_med_raw.json: count={legacy_migrated}",
-            flush=True,
-        )
+    raw_payload = load_raw_letpub_payload(raw_letpub_path)
+    supplement_payload = load_supplement_payload(manual_override_path)
     reference_payload = load_reference_payload(reference_path, reference)
     base_entries = load_letpub_journal_list(base_letpub_path)
-    all_reference_entries = load_all_reference_entries(reference_dir)
+    local_catalog_entries = (
+        _annotate_catalog_source(base_entries, "unique_base")
+        + _annotate_catalog_source(payload_journal_entries(raw_payload), "ordinary_raw")
+    )
+    manual_before = _semantic_payload(supplement_payload)
+    reference_before = _semantic_payload(reference_payload)
+    unresolved_before = _semantic_payload(unresolved)
 
     for file_arg in args.journals_file:
         p = Path(file_arg)
@@ -1138,10 +1401,11 @@ def run(args: argparse.Namespace) -> int:
 
     if manual_specs:
         manual_index = build_letpub_if_index(
-            base_entries
-            + payload_journal_entries(supplement_payload)
-            + all_reference_entries
-            + reference_payload.get("journals", [])
+            local_catalog_entries
+            + _annotate_catalog_source(
+                payload_journal_entries(supplement_payload),
+                "manual_override",
+            )
         )
         mf, mu, mu_unresolved = process_manual_journal_specs(
             specs=manual_specs,
@@ -1165,14 +1429,15 @@ def run(args: argparse.Namespace) -> int:
 
     for file_path in files:
         letpub_index = build_letpub_if_index(
-            base_entries
-            + payload_journal_entries(supplement_payload)
-            + all_reference_entries
-            + reference_payload.get("journals", [])
+            local_catalog_entries
+            + _annotate_catalog_source(
+                payload_journal_entries(supplement_payload),
+                "manual_override",
+            )
         )
         applied, changed = process_data_file(
             path=file_path,
-            base_entries=base_entries,
+            base_entries=local_catalog_entries,
             letpub_index=letpub_index,
             unresolved=unresolved,
             supplement_payload=supplement_payload,
@@ -1186,29 +1451,26 @@ def run(args: argparse.Namespace) -> int:
         total_supplement += changed
         print(f"[OK] IF synced: {file_path} (applied={applied}, letpub_updates={changed})")
 
-    supplement_payload["updated_at"] = now_iso_utc()
-    raw_entries = payload_journal_entries(supplement_payload)
-    if isinstance(raw_entries, list):
-        supplement_payload["raw_total"] = len(raw_entries)
+    manual_entries = payload_journal_entries(supplement_payload)
+    if isinstance(manual_entries, list):
+        manual_entries.sort(
+            key=lambda x: normalize_journal_key(str((x or {}).get("journal_name", "")))
+        )
     ref_journals = reference_payload.get("journals", [])
     if isinstance(ref_journals, list):
         ref_journals.sort(key=lambda x: normalize_journal_key(str((x or {}).get("journal_name", ""))))
-    reference_payload["updated_at"] = now_iso_utc()
     letpub_dir.mkdir(parents=True, exist_ok=True)
     reference_dir.mkdir(parents=True, exist_ok=True)
-    raw_letpub_path.write_text(json.dumps(supplement_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    reference_path.write_text(json.dumps(reference_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    unresolved_path.write_text(json.dumps(unresolved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    if legacy_supplement_path.exists():
-        legacy_supplement_path.unlink()
-        print(f"[INFO] removed legacy file: {legacy_supplement_path}")
+    _write_payload_if_changed(manual_override_path, supplement_payload, manual_before)
+    _write_payload_if_changed(reference_path, reference_payload, reference_before)
+    _write_payload_if_changed(unresolved_path, unresolved, unresolved_before)
 
     unresolved_count = len((unresolved.get("journals") or {}))
     supplement_count = len(payload_journal_entries(supplement_payload))
     reference_count = len((reference_payload.get("journals") or []))
     print(
         f"[DONE] reference={reference}, unresolved={unresolved_count}, "
-        f"letpub_raw={supplement_count}, letpub_reference={reference_count}, "
+        f"manual_overrides={supplement_count}, letpub_reference={reference_count}, "
         f"total_applied={total_applied}, total_letpub_updates={total_supplement}, "
         f"manual_found={manual_found}, manual_unresolved_added={manual_unresolved}"
     )
@@ -1220,7 +1482,7 @@ def main() -> int:
     parser.add_argument(
         "files",
         nargs="*",
-        help="Target data JSON files. If omitted, uses last_file entries from if_unresolved_journals.json.",
+        help="Target data JSON files. If omitted, uses files entries from if_unresolved_journals.json.",
     )
     parser.add_argument("--project-dir", default=".", help="Project root directory")
     parser.add_argument(
