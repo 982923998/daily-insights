@@ -70,23 +70,6 @@
     <script type="text/babel">
         const { useState, useEffect, useMemo, useCallback } = React;
 
-        // --- Constants for AI source grouping ---
-        const SOURCE_ORDER = [
-            'GitHub Trending', 'HN Show HN', 'AI for Science',
-            'HuggingFace Spaces', 'Product Hunt', 'Major Release',
-            'Twitter/X', 'Reddit',
-        ];
-        const SOURCE_ICONS = {
-            'GitHub Trending':    'github',
-            'HN Show HN':         'flame',
-            'AI for Science':     'microscope',
-            'HuggingFace Spaces': 'box',
-            'Product Hunt':       'rocket',
-            'Major Release':      'zap',
-            'Twitter/X':          'twitter',
-            'Reddit':             'message-circle',
-        };
-
         // Convert hex color to rgba string
         const hexToRgba = (hex, alpha) => {
             if (!hex || !hex.startsWith('#')) return `rgba(99,102,241,${alpha})`;
@@ -107,80 +90,11 @@
             }
         };
 
-        const normalizeJournalKey = (value = '') =>
-            String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
-
-        const normalizeIssn = (value = '') =>
-            String(value || '').replace(/[^0-9xX]/g, '').toUpperCase();
-
-        const extractLetpubRows = (payload) => {
-            if (Array.isArray(payload)) return payload;
-            if (payload && Array.isArray(payload.rows)) return payload.rows;
-            if (payload && Array.isArray(payload.journals)) return payload.journals;
-            return [];
-        };
-
-        const buildLetpubIndex = (payload) => {
-            const rows = extractLetpubRows(payload);
-            const byName = {};
-            const byIssn = {};
-            rows.forEach((row) => {
-                if (!row || typeof row !== 'object') return;
-                const ifRaw = row.impact_factor;
-                const ifVal = (typeof ifRaw === 'number')
-                    ? ifRaw
-                    : (typeof ifRaw === 'string' && ifRaw.trim() !== '' ? Number.parseFloat(ifRaw) : null);
-                if (!Number.isFinite(ifVal) || ifVal < 0) return;
-                const impactFactor = ifVal > 0 ? ifVal : null;
-                const ifStatus = ifVal > 0 ? 'available' : 'not_available_yet';
-                const ifYear = Number.isFinite(Number(row.impact_factor_year))
-                    ? Number(row.impact_factor_year)
-                    : (Number.isFinite(Number(row.if_year)) ? Number(row.if_year) : null);
-                const source = String(row.source || 'letpub').trim() || 'letpub';
-                const candidates = [
-                    row.journal_name,
-                    row.journal_name_short,
-                    row.manual_full_name,
-                ];
-                candidates.forEach((name) => {
-                    const key = normalizeJournalKey(name || '');
-                    if (!key) return;
-                    const current = byName[key];
-                    const currentIf = current && Number.isFinite(current.impact_factor) ? current.impact_factor : -1;
-                    if (ifVal > currentIf) {
-                        byName[key] = { impact_factor: impactFactor, impact_factor_year: ifYear, if_status: ifStatus, source };
-                    }
-                });
-                const issnKey = normalizeIssn(row.issn || row.journal_issn || '');
-                if (issnKey) {
-                    const current = byIssn[issnKey];
-                    const currentIf = current && Number.isFinite(current.impact_factor) ? current.impact_factor : -1;
-                    if (ifVal > currentIf) {
-                        byIssn[issnKey] = { impact_factor: impactFactor, impact_factor_year: ifYear, if_status: ifStatus, source };
-                    }
-                }
-            });
-            return { byName, byIssn };
-        };
-
-        const getIfInfoForArticle = (article, letpubIndex) => {
-            if (!article || !letpubIndex) {
-                return { impactFactor: null, impactFactorYear: null, impactFactorStatus: '未查到影响因子' };
-            }
-            const issnKey = normalizeIssn(article.journal_issn || '');
-            let match = issnKey ? letpubIndex.byIssn?.[issnKey] : null;
-            if (!match) {
-                const nameKey = normalizeJournalKey(article.journal || '');
-                match = nameKey ? letpubIndex.byName?.[nameKey] : null;
-            }
-            if (!match) {
-                return { impactFactor: null, impactFactorYear: null, impactFactorStatus: '未查到影响因子' };
-            }
-            if (!match.impact_factor) {
-                return { impactFactor: null, impactFactorYear: match.impact_factor_year || null, impactFactorStatus: '尚无影响因子' };
-            }
-            return { impactFactor: match.impact_factor, impactFactorYear: match.impact_factor_year || null, impactFactorStatus: '已收录影响因子' };
-        };
+        const getIfInfoForArticle = (article = {}) => ({
+            impactFactor: article?.impact_factor ?? null,
+            impactFactorYear: article?.impact_factor_year ?? null,
+            impactFactorStatus: article?.impact_factor_status ?? null,
+        });
 
         const stableHash = (value = '') => {
             let hash = 0;
@@ -336,40 +250,6 @@
             );
         };
 
-        // --- SourceFilterBar (AI subcategory filter) ---
-        const SourceFilterBar = ({ availableSources, selectedSources, onToggle, onSelectAll, accentColor }) => {
-            const allSelected = selectedSources.size === 0;
-            return (
-                <div className="flex flex-wrap gap-2 mb-6 animate-fade-in" style={{ animationDelay: '150ms' }}>
-                    <button
-                        onClick={onSelectAll}
-                        style={allSelected ? { backgroundColor: hexToRgba(accentColor, 1), color: '#fff', boxShadow: `0 4px 14px ${hexToRgba(accentColor, 0.3)}` } : {}}
-                        className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
-                            allSelected ? '' : 'glass-panel text-slate-500 dark:text-slate-400'
-                        }`}
-                    >
-                        All
-                    </button>
-                    {availableSources.map(source => {
-                        const isActive = selectedSources.has(source);
-                        return (
-                            <button
-                                key={source}
-                                onClick={() => onToggle(source)}
-                                style={isActive ? { backgroundColor: hexToRgba(accentColor, 1), color: '#fff', boxShadow: `0 4px 14px ${hexToRgba(accentColor, 0.3)}` } : {}}
-                                className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
-                                    isActive ? '' : 'glass-panel text-slate-500 dark:text-slate-400'
-                                }`}
-                            >
-                                <Icon name={SOURCE_ICONS[source] || 'layers'} size={14} />
-                                {source}
-                            </button>
-                        );
-                    })}
-                </div>
-            );
-        };
-
         // --- SearchBar ---
         const SearchBar = ({ searchQuery, setSearchQuery, className = "" }) => (
             <div className={`relative group animate-fade-in ${className}`} style={{ animationDelay: '200ms' }}>
@@ -387,7 +267,7 @@
         );
 
         // --- DigestPanel ---
-        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null, showFallback = false, letpubIndex }) => {
+        const DigestPanel = ({ digest, color = '#6366f1', domainLabel = '', anchorByUrl = {}, articleByUrl = {}, onJumpToArticle = null, showFallback = false }) => {
             if (!digest) {
                 if (!showFallback) return null;
                 return (
@@ -511,19 +391,16 @@
                                                     }`;
                                                     const matchedArticle = norm ? articleByUrl[norm] : null;
                                                     const journalName = matchedArticle?.journal || '';
-                                                    const ifInfo = getIfInfoForArticle(matchedArticle, letpubIndex);
+                                                    const ifInfo = getIfInfoForArticle(matchedArticle);
                                                     const impactFactor = ifInfo.impactFactor;
                                                     const impactFactorYear = ifInfo.impactFactorYear;
-                                                    const impactFactorStatus = ifInfo.impactFactorStatus || '';
+                                                    const impactFactorStatus = ifInfo.impactFactorStatus === 'not_available_yet'
+                                                        ? '尚无影响因子'
+                                                        : (ifInfo.impactFactorStatus === 'available' ? '已收录影响因子' : '未查到影响因子');
                                                     const impactText = impactFactor !== null && impactFactor !== undefined && impactFactor !== ''
                                                         ? `IF ${impactFactor}${impactFactorYear ? ` (${impactFactorYear})` : ''}`
                                                         : (impactFactorStatus || '未查到影响因子');
                                                     const journalText = journalName || '期刊未知';
-                                                    const isAiArticle = (matchedArticle?._domainId === 'ai')
-                                                        || String(matchedArticle?.category || '').toLowerCase() === 'ai';
-                                                    const sourceBadgeText = matchedArticle?.subcategory || matchedArticle?.source || 'AI News';
-                                                    const showImpactBadge = !isAiArticle;
-                                                    const showJournalBadge = !isAiArticle;
 
                                                     const parsedIfValue = (() => {
                                                         if (typeof impactFactor === 'number') return impactFactor;
@@ -556,27 +433,15 @@
                                                                             {item.title || 'Untitled'}
                                                                         </p>
                                                                         <div className="shrink-0 flex items-center gap-1.5">
-                                                                            {isAiArticle ? (
-                                                                                <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-indigo-800 dark:text-indigo-200 rounded border border-indigo-200/80 dark:border-indigo-700/50 bg-indigo-50/90 dark:bg-indigo-900/25 whitespace-nowrap">
-                                                                                    {sourceBadgeText}
-                                                                                </span>
-                                                                            ) : (
-                                                                                <>
-                                                                                    {showJournalBadge && (
-                                                                                        <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
-                                                                                            {journalText}
-                                                                                        </span>
-                                                                                    )}
-                                                                                    {showImpactBadge && (
-                                                                                        <span 
-                                                                                            className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
-                                                                                            style={currentIfStyle}
-                                                                                        >
-                                                                                            {impactText}
-                                                                                        </span>
-                                                                                    )}
-                                                                                </>
-                                                                            )}
+                                                                            <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
+                                                                                {journalText}
+                                                                            </span>
+                                                                            <span
+                                                                                className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
+                                                                                style={currentIfStyle}
+                                                                            >
+                                                                                {impactText}
+                                                                            </span>
                                                                         </div>
                                                                     </div>
                                                                     <span className="shrink-0 text-[10px] font-medium text-slate-400 whitespace-nowrap">
@@ -599,27 +464,15 @@
                                                                         {item.title || 'Untitled'}
                                                                     </p>
                                                                     <div className="shrink-0 flex items-center gap-1.5">
-                                                                        {isAiArticle ? (
-                                                                            <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-indigo-800 dark:text-indigo-200 rounded border border-indigo-200/80 dark:border-indigo-700/50 bg-indigo-50/90 dark:bg-indigo-900/25 whitespace-nowrap">
-                                                                                {sourceBadgeText}
-                                                                            </span>
-                                                                        ) : (
-                                                                            <>
-                                                                                {showJournalBadge && (
-                                                                                    <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
-                                                                                        {journalText}
-                                                                                    </span>
-                                                                                )}
-                                                                                {showImpactBadge && (
-                                                                                    <span 
-                                                                                        className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
-                                                                                        style={currentIfStyle}
-                                                                                    >
-                                                                                        {impactText}
-                                                                                    </span>
-                                                                                )}
-                                                                            </>
-                                                                        )}
+                                                                        <span className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none text-sky-800 dark:text-sky-200 rounded border border-sky-200/80 dark:border-sky-700/50 bg-sky-50/90 dark:bg-sky-900/25 whitespace-nowrap">
+                                                                            {journalText}
+                                                                        </span>
+                                                                        <span
+                                                                            className="h-6 inline-flex items-center px-2 text-[10px] font-bold leading-none rounded border whitespace-nowrap"
+                                                                            style={currentIfStyle}
+                                                                        >
+                                                                            {impactText}
+                                                                        </span>
                                                                     </div>
                                                                 </div>
                                                                 <span className="shrink-0 text-[10px] font-medium text-slate-400 whitespace-nowrap">
@@ -692,15 +545,17 @@
         };
 
         // --- NewsCard ---
-        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1', articleId = '', highlight = '', letpubIndex }) => {
+        const NewsCard = ({ article, index, isFavorited, onToggleFavorite, color = '#6366f1', articleId = '', highlight = '' }) => {
             const [isExpanded, setIsExpanded] = useState(false);
-            const source = article.subcategory || article.source || 'Research';
-            const sourceText = article.source || article.subcategory || 'Unknown Source';
+            const source = article.source || 'Research';
+            const sourceText = article.source || 'Unknown Source';
             const journalText = article.journal || '';
-            const ifInfo = getIfInfoForArticle(article, letpubIndex);
+            const ifInfo = getIfInfoForArticle(article);
             const rawIfValue = ifInfo.impactFactor;
             const ifYear = ifInfo.impactFactorYear;
-            const ifStatus = ifInfo.impactFactorStatus;
+            const ifStatus = ifInfo.impactFactorStatus === 'not_available_yet'
+                ? '尚无影响因子'
+                : (ifInfo.impactFactorStatus === 'available' ? '已收录影响因子' : '未查到影响因子');
             
             const parsedIfValue = (() => {
                 if (typeof rawIfValue === 'number') return rawIfValue;
@@ -727,11 +582,6 @@
                 return { color: '#e11d48', borderColor: '#fb718540', backgroundColor: '#fff1f290' };
             };
             const ifStyle = getIfStyle(parsedIfValue);
-
-            const isAiArticle = (article._domainId === 'ai')
-                || String(article.category || '').toLowerCase() === 'ai';
-            const showImpact = !isAiArticle;
-            const showJournal = !isAiArticle && Boolean(journalText);
 
             return (
                 <article
@@ -774,7 +624,7 @@
                     </h3>
 
                     <div className="flex flex-wrap items-center gap-y-2 gap-x-3 mb-6 text-xs font-mono text-slate-400 relative z-10 border-b border-slate-100 dark:border-slate-800 pb-6 w-full">
-                        {showJournal && (
+                        {journalText && (
                             <>
                                 <span className="flex items-center gap-1.5 max-w-[200px]">
                                     <Icon name="book-open" size={14} />
@@ -788,18 +638,14 @@
                             {sourceText}
                         </span>
                         <span className="text-slate-300">&bull;</span>
-                        {showImpact && (
-                            <>
-                                <span 
-                                    className={`flex items-center gap-1.5 px-2 py-0.5 rounded-md border ${hasIf ? '' : 'text-slate-300 border-transparent'}`}
-                                    style={ifStyle}
-                                >
-                                    <Icon name="bar-chart-3" size={14} />
-                                    {ifText}
-                                </span>
-                                <span className="text-slate-300">&bull;</span>
-                            </>
-                        )}
+                        <span
+                            className={`flex items-center gap-1.5 px-2 py-0.5 rounded-md border ${hasIf ? '' : 'text-slate-300 border-transparent'}`}
+                            style={ifStyle}
+                        >
+                            <Icon name="bar-chart-3" size={14} />
+                            {ifText}
+                        </span>
+                        <span className="text-slate-300">&bull;</span>
                         <span className="flex items-center gap-1.5">
                             <Icon name="calendar" size={14} />
                             {article.published_date || '\u2014'}
@@ -836,35 +682,6 @@
                 </article>
             );
         };
-
-        // --- ArticleGroup ---
-        const ArticleGroup = ({ source, articles, isFavorite, onToggleFavorite, color, highlight, letpubIndex }) => (
-            <section className="mb-12">
-                <div className="flex items-center gap-3 mb-5">
-                    <div className="p-1.5 rounded-lg" style={{ backgroundColor: hexToRgba(color, 0.1) }}>
-                        <Icon name={SOURCE_ICONS[source] || 'layers'} size={16} style={{ color }} className="" />
-                    </div>
-                    <h2 className="font-bold text-slate-800 dark:text-slate-100 text-lg tracking-tight">{source}</h2>
-                    <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700/50"></div>
-                    <span className="text-xs font-mono text-slate-400 glass-panel px-2.5 py-1 rounded-full">{articles.length}</span>
-                </div>
-                <div className="flex flex-col gap-4">
-                    {articles.map((article, idx) => (
-                        <NewsCard
-                            key={`${article.url}-${idx}`}
-                            article={article}
-                            index={idx}
-                            isFavorited={isFavorite(article.url)}
-                            onToggleFavorite={onToggleFavorite}
-                            color={color}
-                            articleId={article._anchorId || buildArticleAnchorId(article)}
-                            highlight={highlight}
-                            letpubIndex={letpubIndex}
-                        />
-                    ))}
-                </div>
-            </section>
-        );
 
         // --- SkeletonCard ---
         const SkeletonCard = () => (
@@ -904,17 +721,14 @@
         const App = () => {
             const today = new Date().toLocaleDateString('en-CA');
             const [currentDate, setCurrentDate] = useState(today);
-            const [refreshTrigger, setRefreshTrigger] = useState(0);
             const [activeDomain, setActiveDomain] = useState('all');
             const [searchQuery, setSearchQuery] = useState('');
             const [articles, setArticles] = useState([]);
             const [loading, setLoading] = useState(true);
             const [error, setError] = useState(null);
-            const [selectedSources, setSelectedSources] = useState(new Set());
             const [domains, setDomains] = useState([]);
             const [domainsLoaded, setDomainsLoaded] = useState(false);
             const [digestByDomain, setDigestByDomain] = useState({});
-            const [letpubIndex, setLetpubIndex] = useState({ byName: {}, byIssn: {} });
 
             const [favorites, setFavorites] = useState(() => {
                 try {
@@ -988,33 +802,6 @@
                     });
             }, []);
 
-            useEffect(() => {
-                let cancelled = false;
-                const t = Date.now();
-                const safeFetch = (path) =>
-                    fetch(path).then(r => r.ok ? r.json() : null).catch(() => null);
-
-                Promise.all([
-                    safeFetch(`/data/letpub/letpub_life_med_unique.json?t=${t}`),
-                    safeFetch(`/data/letpub/letpub_life_med_raw.json?t=${t}`),
-                ]).then(([uniquePayload, rawPayload]) => {
-                    if (cancelled) return;
-                    if (!uniquePayload && !rawPayload) {
-                        setTimeout(() => {
-                            if (!cancelled) setRefreshTrigger(x => x + 1);
-                        }, 1500);
-                        return;
-                    }
-                    const mergedRows = [
-                        ...extractLetpubRows(uniquePayload),
-                        ...extractLetpubRows(rawPayload),
-                    ];
-                    setLetpubIndex(buildLetpubIndex(mergedRows));
-                });
-
-                return () => { cancelled = true; };
-            }, [refreshTrigger]);
-
             // Load articles once domains are ready
             useEffect(() => {
                 if (!domainsLoaded) return;
@@ -1054,16 +841,7 @@
                     }
                     setLoading(false);
                 });
-            }, [currentDate, refreshTrigger, domainsLoaded, domains]);
-
-            const toggleSource = (source) => {
-                setSelectedSources(prev => {
-                    const next = new Set(prev);
-                    if (next.has(source)) next.delete(source);
-                    else next.add(source);
-                    return next;
-                });
-            };
+            }, [currentDate, domainsLoaded, domains]);
 
             // Active domain's color
             const activeDomainColor = useMemo(() => {
@@ -1071,46 +849,9 @@
                 return d?.color || '#6366f1';
             }, [activeDomain, domains]);
 
-            // Grouped articles for AI-style views (subcategory grouping)
-            const { availableSources, groupedArticles } = useMemo(() => {
-                const activeDomainObj = domains.find(d => d.id === activeDomain);
-                if (!activeDomainObj || activeDomainObj.skill !== 'daily-ai-news') {
-                    return { availableSources: [], groupedArticles: {} };
-                }
-
-                const domainArticles = articles.filter(a => a._domainId === activeDomain);
-                const presentSources = new Set(domainArticles.map(a => a.subcategory || a.source).filter(Boolean));
-                const avail = [
-                    ...SOURCE_ORDER.filter(s => presentSources.has(s)),
-                    ...[...presentSources].filter(s => !SOURCE_ORDER.includes(s)),
-                ];
-
-                const q = searchQuery.toLowerCase();
-                const filtered = domainArticles.filter(a => {
-                    const src = a.subcategory || a.source;
-                    const srcMatch = selectedSources.size === 0 || selectedSources.has(src);
-                    const qMatch = !searchQuery ||
-                        (a.title || '').toLowerCase().includes(q) ||
-                        (a.summary || '').toLowerCase().includes(q);
-                    return srcMatch && qMatch;
-                });
-
-                const grouped = {};
-                avail.forEach(src => {
-                    const items = filtered.filter(a => (a.subcategory || a.source) === src);
-                    if (items.length > 0) grouped[src] = items;
-                });
-                const ungrouped = filtered.filter(a => !a.subcategory && !a.source);
-                if (ungrouped.length > 0) grouped['Other'] = ungrouped;
-
-                return { availableSources: avail, groupedArticles: grouped };
-            }, [activeDomain, domains, articles, selectedSources, searchQuery]);
-
-            // Flat filtered articles for non-grouped views
+            // Flat filtered articles
             const filteredArticles = useMemo(() => {
                 const activeDomainObj = domains.find(d => d.id === activeDomain);
-                if (activeDomainObj?.skill === 'daily-ai-news') return [];
-
                 const source = activeDomain === 'saved' ? favorites : articles;
                 const q = searchQuery.toLowerCase();
                 return source.filter(article => {
@@ -1148,7 +889,6 @@
             const jumpToArticle = useCallback((anchorId) => {
                 if (!anchorId) return;
                 setSearchQuery('');
-                setSelectedSources(new Set());
                 window.setTimeout(() => {
                     const el = document.getElementById(anchorId);
                     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1157,8 +897,6 @@
 
             const activeDomainObj = domains.find(d => d.id === activeDomain);
             const activeDigest = activeDomainObj ? digestByDomain[activeDomainObj.id] : null;
-            const isGroupedView = activeDomainObj?.skill === 'daily-ai-news';
-            const totalGrouped = Object.values(groupedArticles).reduce((s, a) => s + a.length, 0);
 
             return (
                 <div className="flex min-h-screen">
@@ -1198,16 +936,6 @@
                                     />
                                 </div>
 
-                                {/* Source filter — only for daily-ai-news domains */}
-                                {isGroupedView && !loading && !error && availableSources.length > 0 && (
-                                    <SourceFilterBar
-                                        availableSources={availableSources}
-                                        selectedSources={selectedSources}
-                                        onToggle={toggleSource}
-                                        onSelectAll={() => setSelectedSources(new Set())}
-                                        accentColor={activeDomainColor}
-                                    />
-                                )}
                             </div>
 
                             {!loading && activeDomain !== 'saved' && activeDomain === 'all' && !error && (
@@ -1226,7 +954,6 @@
                                     anchorByUrl={anchorByUrl}
                                     articleByUrl={articleByUrl}
                                     onJumpToArticle={jumpToArticle}
-                                    letpubIndex={letpubIndex}
                                     showFallback={Boolean(
                                         activeDomainObj &&
                                         articles.some(article =>
@@ -1247,23 +974,6 @@
                                     type="error"
                                     message={`No data for ${currentDate}. Try selecting a different date.`}
                                 />
-                            ) : isGroupedView ? (
-                                totalGrouped === 0 ? (
-                                    <EmptyState message="No updates found matching your filters." />
-                                ) : (
-                                    Object.entries(groupedArticles).map(([source, items]) => (
-                                        <ArticleGroup
-                                            key={source}
-                                            source={source}
-                                            articles={items}
-                                            isFavorite={isFavorite}
-                                            onToggleFavorite={toggleFavorite}
-                                            color={activeDomainColor}
-                                            highlight={searchQuery}
-                                            letpubIndex={letpubIndex}
-                                        />
-                                    ))
-                                )
                             ) : (
                                 filteredArticles.length === 0 ? (
                                     <EmptyState
@@ -1281,7 +991,6 @@
                                                 color={getDomainColor(article)}
                                                 articleId={article._anchorId || buildArticleAnchorId(article)}
                                                 highlight={searchQuery}
-                                                letpubIndex={letpubIndex}
                                             />
                                         ))}
                                     </div>
