@@ -1,11 +1,9 @@
 #!/bin/bash
 # fetch.sh — Wrapper for codex daily literature fetching
-# Usage: ./scripts/fetch.sh [brainmri|all|if|test|{domain-id}]
-#   brainmri    — 抓取 Brain MRI，并分流到疾病领域
-#   all         — 同 brainmri
+# Usage: ./scripts/fetch.sh [all|autism|depression|tms|if|test]
+#   all         — 抓取 Autism + MRI、Depression + MRI 和全部 TMS 研究
 #   if          — 仅同步期刊 IF（不抓论文/新闻）
-#   test        — 写入测试数据并分流
-#   {domain-id} — 指定学术领域；疾病领域会映射到 brainmri 分流
+#   test        — 离线写入并验证三个领域的测试数据
 
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 TODAY=$(date +%Y-%m-%d)
@@ -15,15 +13,14 @@ SYNC_IF_SCRIPT="$PROJECT_DIR/scripts/sync_impact_factors.py"
 FILTER_IF_SCRIPT="$PROJECT_DIR/scripts/filter_impact_factor.py"
 VALIDATE_DATA_SCRIPT="$PROJECT_DIR/scripts/validate_data.py"
 RUN_WITH_TIMEOUT_SCRIPT="$PROJECT_DIR/scripts/run_with_timeout.py"
-SPLIT_MRI_SCRIPT="$PROJECT_DIR/scripts/split_brainmri_by_disease.py"
 ACADEMIC_SKILL_DIR="$PROJECT_DIR/.agents/skills/academic-search"
 ACADEMIC_SKILL_FILE="$ACADEMIC_SKILL_DIR/SKILL.md"
+ACTIVE_DOMAINS=(autism depression tms)
 AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-0}"
-AUTO_IF_SYNC="${AUTO_IF_SYNC:-1}"
 
 mkdir -p "$PROJECT_DIR/data"
 
-MODE="${1:-brainmri}"
+MODE="${1:-all}"
 CONFIG_FILE="$PROJECT_DIR/scripts/fetch_config.sh"
 
 export PYTHONUNBUFFERED=1
@@ -42,16 +39,12 @@ if [ -z "${MODEL_ID:-}" ]; then
     echo "[ERROR] MODEL_ID is empty in $CONFIG_FILE"
     exit 1
 fi
-for required in "$ACADEMIC_SKILL_FILE" "$SPLIT_MRI_SCRIPT"; do
+for required in "$ACADEMIC_SKILL_FILE" "$SYNC_IF_SCRIPT" "$FILTER_IF_SCRIPT"; do
     if [ ! -f "$required" ]; then
         echo "[ERROR] Required file not found: $required"
         exit 1
     fi
 done
-if ! command -v codex >/dev/null 2>&1; then
-    echo "[ERROR] codex CLI not found. Please install Codex CLI first."
-    exit 1
-fi
 
 log() {
     echo "[$(date '+%H:%M:%S')] $1"
@@ -108,23 +101,6 @@ generate_digest() {
     return 0
 }
 
-sync_impact_factors() {
-    local file="$1"
-    local sync_output
-    if [ ! -f "$SYNC_IF_SCRIPT" ]; then
-        log "[WARN] IF sync script not found: $SYNC_IF_SCRIPT"
-        return 0
-    fi
-    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" "$file" 2>&1); then
-        log "[WARN] IF sync failed (non-blocking): $file"
-        [ -n "$sync_output" ] && echo "$sync_output"
-        return 0
-    fi
-    [ -n "$sync_output" ] && echo "$sync_output"
-    log "[OK] Impact factors synced: $file"
-    return 0
-}
-
 filter_impact_factors() {
     local file="$1"
     local filter_output
@@ -142,37 +118,6 @@ filter_impact_factors() {
     return 0
 }
 
-run_post_fetch_if_sync() {
-    local mode="$1"
-    local sync_output
-
-    case "$mode" in
-        if|journal-if|impact-factor|brainmri|mri|all|autism|depression|adhd|ad|pd)
-            return 0
-            ;;
-    esac
-
-    if [ "$AUTO_IF_SYNC" != "1" ]; then
-        log "[INFO] AUTO_IF_SYNC is disabled; skip post-fetch IF sync."
-        return 0
-    fi
-
-    if [ ! -f "$SYNC_IF_SCRIPT" ]; then
-        log "[WARN] IF sync script not found: $SYNC_IF_SCRIPT"
-        return 0
-    fi
-
-    log "🔁 Running post-fetch IF sync (reference=auto-unresolved)..."
-    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" --reference auto-unresolved 2>&1); then
-        log "[WARN] Post-fetch IF sync failed (non-blocking)."
-        [ -n "$sync_output" ] && echo "$sync_output"
-        return 0
-    fi
-    [ -n "$sync_output" ] && echo "$sync_output"
-    log "[OK] Post-fetch IF sync finished."
-    return 0
-}
-
 run_codex() {
     local title="$1"
     local prompt="$2"
@@ -180,6 +125,11 @@ run_codex() {
     local provider="${CODEX_PROVIDER:-}"
     local provider_args=()
     local trace_file=""
+
+    if ! command -v codex >/dev/null 2>&1; then
+        log "[ERROR] codex CLI not found. Please install Codex CLI first."
+        return 1
+    fi
 
     log "⚡ [$title] model: $MODEL_ID"
     if [ -n "$provider" ]; then
@@ -443,7 +393,6 @@ get_fm() {
 # Run a single academic domain by ID
 run_academic_domain() {
     local domain_id="$1"
-    local post_process="${2:-1}"
     local config_file="$ACADEMIC_SOURCES_DIR/${domain_id}.md"
 
     if [ ! -f "$config_file" ]; then
@@ -469,84 +418,130 @@ run_academic_domain() {
 
     run_codex_with_fallback "Fetch $label" "$prompt" "$data_file" "$domain_id" || return $?
     validate_data_file "$data_file" "$domain_id" || return $?
-    if [ "$post_process" != "1" ]; then
-        return 0
-    fi
-    sync_impact_factors "$data_file" || return $?
-    generate_digest "$data_file" "$domain_id" || return $?
 }
 
-# Split Brain MRI output into disease domain files and finish each generated file.
-process_mri_split_outputs() {
-    local brainmri_file="$PROJECT_DIR/data/${TODAY}-brainmri.json"
-    local domain_id data_file
+run_domain_batch() {
+    local requested_domains=("$@")
+    local successful_domains=()
+    local successful_files=()
+    local failed_stages=()
+    local domain_id data_file sync_output
 
-    if ! python3 "$SPLIT_MRI_SCRIPT" "$brainmri_file"; then
-        log "[ERROR] Failed to split Brain MRI output."
-        return 1
-    fi
-
-    for domain_id in brainmri autism depression adhd ad pd; do
+    for domain_id in "${requested_domains[@]}"; do
         data_file="$PROJECT_DIR/data/${TODAY}-${domain_id}.json"
-        validate_data_file "$data_file" "$domain_id" "final" || return $?
-        generate_digest "$data_file" "$domain_id" || return $?
+        if run_academic_domain "$domain_id"; then
+            successful_domains+=("$domain_id")
+            successful_files+=("$data_file")
+        else
+            failed_stages+=("${domain_id}:fetch")
+            log "[ERROR] Fetch failed for $domain_id; continuing."
+        fi
     done
-}
 
-# Run the single MRI retrieval and derive disease files locally.
-run_mri_pipeline() {
-    local brainmri_file="$PROJECT_DIR/data/${TODAY}-brainmri.json"
-    local sync_output
-
-    run_academic_domain "brainmri" "0" || return $?
-    if [ ! -f "$SYNC_IF_SCRIPT" ]; then
-        log "[ERROR] IF sync script not found: $SYNC_IF_SCRIPT"
+    if [ "${#successful_files[@]}" -eq 0 ]; then
+        log "[ERROR] No domain produced a valid raw data file."
+        log "[ERROR] Failed stages: ${failed_stages[*]}"
         return 1
     fi
-    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" "$brainmri_file" --no-crawl 2>&1); then
-        log "[ERROR] IF sync failed: $brainmri_file"
+
+    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" "${successful_files[@]}" --reference auto-unresolved 2>&1); then
+        failed_stages+=("if-sync")
+        log "[ERROR] Shared IF sync failed; final files were not generated."
         [ -n "$sync_output" ] && echo "$sync_output"
+        log "[ERROR] Failed stages: ${failed_stages[*]}"
         return 1
     fi
     [ -n "$sync_output" ] && echo "$sync_output"
-    log "[OK] Impact factors synced locally: $brainmri_file"
-    filter_impact_factors "$brainmri_file" || return $?
-    validate_data_file "$brainmri_file" "brainmri" "final" || return $?
-    process_mri_split_outputs || return $?
+    log "[OK] Shared impact-factor lookup finished."
+
+    for domain_id in "${successful_domains[@]}"; do
+        data_file="$PROJECT_DIR/data/${TODAY}-${domain_id}.json"
+        if ! filter_impact_factors "$data_file"; then
+            failed_stages+=("${domain_id}:filter")
+            continue
+        fi
+        if ! generate_digest "$data_file" "$domain_id"; then
+            failed_stages+=("${domain_id}:digest")
+            continue
+        fi
+        if ! validate_data_file "$data_file" "$domain_id" "final"; then
+            failed_stages+=("${domain_id}:validate")
+        fi
+    done
+
+    if [ "${#failed_stages[@]}" -gt 0 ]; then
+        log "[ERROR] Failed stages: ${failed_stages[*]}"
+        return 1
+    fi
+    return 0
 }
 
-# Historical helper: all academic disease views now come from Brain MRI split.
-run_all_academic_domains() {
-    run_mri_pipeline
+run_test_mode() {
+    local domain_id data_file category test_dir rc=0
+
+    test_dir=$(mktemp -d "${TMPDIR:-/tmp}/daily-insights-test.XXXXXX") || return 1
+
+    for domain_id in "${ACTIVE_DOMAINS[@]}"; do
+        category=$(get_fm "$ACADEMIC_SOURCES_DIR/${domain_id}.md" "category")
+        data_file="$test_dir/${TODAY}-${domain_id}.json"
+        python3 - "$data_file" "$TODAY" "$domain_id" "$category" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path, today, domain_id, category = sys.argv[1:]
+payload = {
+    "date": today,
+    "articles": [{
+        "title": f"{category} pipeline test",
+        "summary": "Offline test entry for pipeline validation.",
+        "url": f"https://example.com/{domain_id}-pipeline-test",
+        "category": category,
+        "source": "test",
+        "journal": "Test Journal",
+        "published_date": today,
+        "date": today,
+        "impact_factor": 8.0,
+        "impact_factor_year": 2024,
+        "impact_factor_status": "available",
+        "impact_factor_source": "test",
+        "impact_factor_match_method": "test",
+        "impact_factor_matched_journal": "Test Journal",
+    }],
+}
+Path(path).write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+PY
+        if ! generate_digest "$data_file" "$domain_id" \
+            || ! validate_data_file "$data_file" "$domain_id" "final"; then
+            rc=1
+            break
+        fi
+    done
+    rm -rf -- "$test_dir"
+    return "$rc"
 }
 
-if [ -z "${ACADEMIC_PROMPT_TEMPLATE:-}" ] || [ -z "${TEST_PROMPT_TEMPLATE:-}" ]; then
+if [ -z "${ACADEMIC_PROMPT_TEMPLATE:-}" ]; then
     echo "[ERROR] Prompt templates are missing in $CONFIG_FILE"
     exit 1
 fi
-
-TEST_DATA_FILE="$PROJECT_DIR/data/${TODAY}-brainmri.json"
-TEST_PROMPT="${TEST_PROMPT_TEMPLATE//__TODAY__/$TODAY}"
-TEST_PROMPT="${TEST_PROMPT//__DATA_FILE__/$TEST_DATA_FILE}"
 
 log "🚀 Starting task: $MODE"
 
 cd "$PROJECT_DIR"
 
 case "$MODE" in
-    ai)
-        log "[ERROR] AI fetch is disabled for this project."
-        exit 1
+    all)
+        run_domain_batch "${ACTIVE_DOMAINS[@]}" || exit $?
         ;;
-    brainmri|mri|all|autism|depression|adhd|ad|pd)
-        run_mri_pipeline || exit $?
+    autism|depression|tms)
+        run_domain_batch "$MODE" || exit $?
         ;;
     test)
-        run_codex_with_fallback "Test Write" "$TEST_PROMPT" "$TEST_DATA_FILE" "brainmri" || exit $?
-        validate_data_file "$TEST_DATA_FILE" "brainmri" || exit $?
-        process_mri_split_outputs || exit $?
+        AUTO_GIT_SYNC=0
+        run_test_mode || exit $?
         ;;
-    if|journal-if|impact-factor)
+    if)
         if [ ! -f "$SYNC_IF_SCRIPT" ]; then
             log "[ERROR] IF sync script not found: $SYNC_IF_SCRIPT"
             exit 1
@@ -556,26 +551,13 @@ case "$MODE" in
             exit 1
         fi
         ;;
+    brainmri|mri|adhd|ad|pd|mefmri|ai)
+        log "[ERROR] Retired mode: $MODE. Use all, autism, depression, or tms."
+        exit 1
+        ;;
     *)
-        # Treat all positional args as academic domain IDs
-        needs_mri=0
-        for domain_id in "$@"; do
-            case "$domain_id" in
-                ai)
-                    log "[ERROR] AI fetch is disabled for this project."
-                    exit 1
-                    ;;
-                brainmri|mri|autism|depression|adhd|ad|pd)
-                    needs_mri=1
-                    ;;
-                *)
-                    run_academic_domain "$domain_id" || exit $?
-                    ;;
-            esac
-        done
-        if [ "$needs_mri" -eq 1 ]; then
-            run_mri_pipeline || exit $?
-        fi
+        log "[ERROR] Unsupported mode: $MODE"
+        exit 1
         ;;
 esac
 

@@ -17,18 +17,18 @@ def available(value, **extra):
 
 class FilterArticlesTests(unittest.TestCase):
     def test_minimum_is_inclusive(self):
-        articles = [available(5.999), available(6.0), available(6.001)]
+        articles = [available(7.999), available(8.0), available(8.001)]
 
         filtered, stats = filter_articles_by_if(articles)
 
-        self.assertEqual([article["impact_factor"] for article in filtered], [6.0, 6.001])
+        self.assertEqual([article["impact_factor"] for article in filtered], [8.0, 8.001])
         self.assertEqual(stats, {"kept": 2, "removed": 1, "unresolved": 0})
 
     def test_available_with_null_impact_factor_is_invalid(self):
         with self.assertRaisesRegex(ValueError, "available.*impact_factor"):
             filter_articles_by_if([available(None)])
 
-    def test_not_available_yet_and_unresolved_null_values_are_kept(self):
+    def test_not_available_yet_is_removed_but_lookup_failures_are_kept(self):
         articles = [
             {
                 "title": "Future",
@@ -41,15 +41,21 @@ class FilterArticlesTests(unittest.TestCase):
                 "impact_factor_status": "unresolved",
                 "impact_factor_reason": "no_match",
             },
+            {
+                "title": "Lookup failed",
+                "impact_factor": None,
+                "impact_factor_status": "lookup_error",
+                "impact_factor_reason": "timeout",
+            },
         ]
 
         filtered, stats = filter_articles_by_if(articles)
 
-        self.assertEqual(filtered, articles)
-        self.assertEqual(stats, {"kept": 2, "removed": 0, "unresolved": 2})
+        self.assertEqual(filtered, articles[1:])
+        self.assertEqual(stats, {"kept": 2, "removed": 1, "unresolved": 2})
 
     def test_filter_does_not_modify_input_or_unrelated_fields(self):
-        article = available(6.0, custom={"nested": True})
+        article = available(8.0, custom={"nested": True})
         original = json.dumps(article, sort_keys=True)
 
         filtered, _ = filter_articles_by_if([article])
@@ -64,8 +70,8 @@ class FilterFileTests(unittest.TestCase):
             "date": "2026-07-23",
             "metadata": {"untouched": True},
             "articles": [
-                available(5.9, custom="remove"),
-                available(6.0, custom="keep"),
+                available(7.9, custom="remove"),
+                available(8.0, custom="keep"),
                 {
                     "title": "Unresolved",
                     "impact_factor": None,

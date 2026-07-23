@@ -13,7 +13,7 @@
 | 项目目录 | `/projects/daily-insights` |
 | 公网入口 | <http://139.9.67.96/daily-insights/> |
 | Web 服务 | `daily-insights.service` |
-| 每日任务定时器 | `daily-insights-fetch-brainmri.timer` |
+| 每日任务定时器 | `daily-insights-fetch-all.timer` |
 | 每日任务时间 | 每天 08:30（Asia/Shanghai） |
 | 后端监听 | `127.0.0.1:8080`，由 Nginx 反向代理 |
 
@@ -76,6 +76,29 @@ rsync -az --no-owner --no-group \
 
 该命令会更新同名文件，但不会删除服务器独有文件。若本次明确不应覆盖某类服务器数据，应在同步前增加对应的 `--exclude`。
 
+本次三领域迁移还需在完成备份后，定点删除服务器上的退役代码；不要删除任何 `data/*.json`：
+
+```bash
+rm -f \
+  /projects/daily-insights/.agents/skills/academic-search/sources/{brainmri,adhd,ad,pd,mefmri}.md \
+  /projects/daily-insights/scripts/split_brainmri_by_disease.py \
+  /projects/daily-insights/tests/test_split_brainmri_by_disease.py
+```
+
+随后把服务器定时器从 `brainmri` 切换到 `all`：
+
+```bash
+cp /etc/systemd/system/daily-insights-fetch-brainmri.timer \
+  /etc/systemd/system/daily-insights-fetch-all.timer
+sed -i \
+  -e 's/BrainMRI/Autism Depression TMS/' \
+  -e 's/@brainmri/@all/' \
+  /etc/systemd/system/daily-insights-fetch-all.timer
+systemctl daemon-reload
+systemctl disable --now daily-insights-fetch-brainmri.timer
+systemctl enable --now daily-insights-fetch-all.timer
+```
+
 ### 4. 远端测试与重启
 
 ```bash
@@ -88,8 +111,8 @@ nginx -t
 systemctl restart daily-insights.service
 systemctl is-active daily-insights.service
 systemctl is-enabled daily-insights.service
-systemctl is-active daily-insights-fetch-brainmri.timer
-systemctl is-enabled daily-insights-fetch-brainmri.timer
+systemctl is-active daily-insights-fetch-all.timer
+systemctl is-enabled daily-insights-fetch-all.timer
 ss -ltnp | grep ':8080'
 exit
 ```
@@ -103,7 +126,7 @@ curl -fsS -o /dev/null -w '%{http_code}\n' http://139.9.67.96/daily-insights/
 curl -fsS -o /dev/null -w '%{http_code}\n' http://139.9.67.96/api/domains
 curl -sS -o /dev/null -w '%{http_code}\n' \
   -X POST -H 'Content-Type: application/json' \
-  -d '{"mode":"brainmri"}' \
+  -d '{"mode":"all"}' \
   http://139.9.67.96/api/fetch
 ```
 

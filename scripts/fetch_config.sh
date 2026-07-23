@@ -45,22 +45,3 @@ __DOMAIN_CONFIG_PATH__
 
 不写文件 = 任务失败。
 '
-
-TEST_PROMPT_TEMPLATE='Create a JSON file at "__DATA_FILE__" and exit immediately.
-Required exact structure:
-{
-  "date":"__TODAY__",
-  "articles":[
-    {
-      "title":"Brain MRI Pipeline Testing",
-      "summary":"Dummy Brain MRI entry for pipeline validation.",
-      "url":"https://example.com/brain-mri-pipeline-testing",
-      "category":"Brain MRI",
-      "source":"pubmed",
-      "journal":"Test Journal",
-      "published_date":"__TODAY__",
-      "date":"__TODAY__"
-    }
-  ]
-}
-Do not include extra fields. Write valid UTF-8 JSON only.'

@@ -18,69 +18,55 @@ class MinimalIfPipelineContractTests(unittest.TestCase):
     def setUpClass(cls):
         cls.source = FETCH_SCRIPT.read_text(encoding="utf-8")
 
-    def test_filter_and_stage_aware_validator_helpers_are_blocking(self):
-        self.assertIn('FILTER_IF_SCRIPT="$PROJECT_DIR/scripts/filter_impact_factor.py"', self.source)
+    def test_only_three_active_domains_are_declared(self):
+        self.assertIn('ACTIVE_DOMAINS=(autism depression tms)', self.source)
+        self.assertIn('MODE="${1:-all}"', self.source)
 
+    def test_domain_fetch_is_raw_and_batch_syncs_once_before_finalization(self):
+        academic_body = function_body(self.source, "run_academic_domain")
+        self.assertIn('validate_data_file "$data_file" "$domain_id"', academic_body)
+        self.assertNotIn("sync_impact", academic_body)
+        self.assertNotIn("generate_digest", academic_body)
+
+        batch_body = function_body(self.source, "run_domain_batch")
+        sync_call = 'python3 "$SYNC_IF_SCRIPT" "${successful_files[@]}" --reference auto-unresolved'
+        self.assertEqual(batch_body.count(sync_call), 1)
+        self.assertLess(batch_body.index(sync_call), batch_body.index('filter_impact_factors "$data_file"'))
+        self.assertLess(
+            batch_body.index('filter_impact_factors "$data_file"'),
+            batch_body.index('generate_digest "$data_file" "$domain_id"'),
+        )
+        self.assertLess(
+            batch_body.index('generate_digest "$data_file" "$domain_id"'),
+            batch_body.index('validate_data_file "$data_file" "$domain_id" "final"'),
+        )
+        self.assertIn("failed_stages", batch_body)
+
+    def test_filter_and_final_validator_use_if_8(self):
         filter_body = function_body(self.source, "filter_impact_factors")
         self.assertIn('python3 "$FILTER_IF_SCRIPT" "$file" --minimum 8', filter_body)
-        self.assertIn("return 1", filter_body)
-        self.assertNotIn("non-blocking", filter_body)
-
         validator_body = function_body(self.source, "validate_data_file")
-        self.assertIn('local stage="${3:-}"', validator_body)
-        self.assertIn('--stage "$stage"', validator_body)
         self.assertIn('--minimum-impact-factor 8', validator_body)
-        self.assertIn("return 1", validator_body)
 
-    def test_brain_mri_pipeline_runs_local_if_and_filter_once_before_split(self):
-        academic_body = function_body(self.source, "run_academic_domain")
-        self.assertLess(
-            academic_body.index('validate_data_file "$data_file" "$domain_id"'),
-            academic_body.index('if [ "$post_process" != "1" ]'),
-        )
-
-        pipeline = function_body(self.source, "run_mri_pipeline")
-        sync_call = 'python3 "$SYNC_IF_SCRIPT" "$brainmri_file" --no-crawl'
-        filter_call = 'filter_impact_factors "$brainmri_file"'
-        final_validation = 'validate_data_file "$brainmri_file" "brainmri" "final"'
-        split_call = "process_mri_split_outputs"
-
-        self.assertEqual(pipeline.count(sync_call), 1)
-        self.assertEqual(pipeline.count(filter_call), 1)
-        self.assertIn('if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" "$brainmri_file" --no-crawl', pipeline)
-        self.assertIn('log "[ERROR] IF sync failed: $brainmri_file"', pipeline)
-        self.assertIn("return 1", pipeline)
-        self.assertLess(pipeline.index(sync_call), pipeline.index(filter_call))
-        self.assertLess(pipeline.index(filter_call), pipeline.index(final_validation))
-        self.assertLess(pipeline.index(final_validation), pipeline.index(split_call))
-
-    def test_six_split_outputs_are_final_validated_and_digested_without_sync(self):
-        split_body = function_body(self.source, "process_mri_split_outputs")
-
-        self.assertIn("for domain_id in brainmri autism depression adhd ad pd; do", split_body)
-        self.assertIn('validate_data_file "$data_file" "$domain_id" "final"', split_body)
-        self.assertIn('generate_digest "$data_file" "$domain_id"', split_body)
-        self.assertNotIn("sync_impact_factors", split_body)
-
-    def test_mri_modes_skip_global_sync_and_explicit_if_command_remains(self):
-        post_fetch = function_body(self.source, "run_post_fetch_if_sync")
-        skip_case = post_fetch.split('if [ "$AUTO_IF_SYNC"', 1)[0]
-
-        for mode in ("brainmri", "mri", "all", "autism", "depression", "adhd", "ad", "pd"):
-            self.assertRegex(skip_case, rf"\b{mode}\b")
-        self.assertIsNotNone(
-            re.search(r"^    if\|journal-if\|impact-factor\)$", self.source, re.MULTILINE)
-        )
-        self.assertIn('python3 "$SYNC_IF_SCRIPT" "$@"', self.source)
-
-    def test_mixed_domain_route_has_no_global_sync_after_mri_pipeline(self):
+    def test_retired_modes_are_rejected_and_explicit_if_command_remains(self):
         main_case = self.source.split('case "$MODE" in', 1)[1]
-        task_tail = main_case.rsplit("esac", 1)[1]
+        self.assertIn("brainmri|mri|adhd|ad|pd|mefmri|ai)", main_case)
+        self.assertIn('run_domain_batch "${ACTIVE_DOMAINS[@]}"', main_case)
+        self.assertIn('autism|depression|tms)', main_case)
+        self.assertIn('run_domain_batch "$MODE"', main_case)
+        self.assertIn('python3 "$SYNC_IF_SCRIPT" "$@"', main_case)
+        self.assertNotIn("journal-if|impact-factor", main_case)
 
-        self.assertIn('run_academic_domain "$domain_id" || exit $?', main_case)
-        self.assertIn("needs_mri=1", main_case)
-        self.assertIn("run_mri_pipeline || exit $?", main_case)
-        self.assertNotIn("run_post_fetch_if_sync", task_tail)
+    def test_test_mode_is_offline_and_writes_all_three_domains(self):
+        body = function_body(self.source, "run_test_mode")
+        self.assertIn('for domain_id in "${ACTIVE_DOMAINS[@]}"', body)
+        self.assertIn('"impact_factor": 8.0', body)
+        self.assertIn("mktemp -d", body)
+        self.assertNotIn('$PROJECT_DIR/data/', body)
+        self.assertNotIn("run_codex", body)
+        self.assertNotIn("sync_impact", body)
+        test_case = self.source.split('    test)', 1)[1].split('        ;;', 1)[0]
+        self.assertIn('AUTO_GIT_SYNC=0', test_case)
 
 
 if __name__ == "__main__":

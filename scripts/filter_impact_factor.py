@@ -11,10 +11,10 @@ import tempfile
 from pathlib import Path
 
 
-UNKNOWN_STATUSES = {"not_available_yet", "unresolved", "lookup_error"}
+RETAINED_UNKNOWN_STATUSES = {"unresolved", "lookup_error"}
 
 
-def filter_articles_by_if(articles, minimum=6.0):
+def filter_articles_by_if(articles, minimum=8.0):
     if not isinstance(articles, list):
         raise ValueError("articles must be an array")
     if isinstance(minimum, bool) or not isinstance(minimum, (int, float)) or not math.isfinite(minimum):
@@ -40,7 +40,14 @@ def filter_articles_by_if(articles, minimum=6.0):
             if impact_factor < minimum:
                 removed += 1
                 continue
-        elif status in UNKNOWN_STATUSES:
+        elif status == "not_available_yet":
+            if impact_factor is not None:
+                raise ValueError(
+                    f'article #{index}: {status} status requires null impact_factor'
+                )
+            removed += 1
+            continue
+        elif status in RETAINED_UNKNOWN_STATUSES:
             if impact_factor is not None:
                 raise ValueError(
                     f'article #{index}: {status} status requires null impact_factor'
@@ -74,7 +81,7 @@ def _atomic_write(path: Path, payload: dict) -> None:
         raise
 
 
-def filter_file(path, minimum=6.0):
+def filter_file(path, minimum=8.0):
     path = Path(path)
     payload = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(payload, dict):
@@ -88,7 +95,7 @@ def filter_file(path, minimum=6.0):
 def main() -> int:
     parser = argparse.ArgumentParser(description="Filter enriched articles by impact factor")
     parser.add_argument("file", type=Path, help="Article JSON file")
-    parser.add_argument("--minimum", type=float, default=6.0, help="Inclusive minimum IF")
+    parser.add_argument("--minimum", type=float, default=8.0, help="Inclusive minimum IF")
     args = parser.parse_args()
     stats = filter_file(args.file, minimum=args.minimum)
     print(json.dumps(stats, sort_keys=True))

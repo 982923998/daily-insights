@@ -32,6 +32,7 @@ DOMAIN_CATEGORIES = {
     "depression": "Depression",
     "mefmri": "Multi-Echo fMRI",
     "pd": "Parkinson",
+    "tms": "TMS",
 }
 ENRICHED_STAGES = {"enriched", "final"}
 UNKNOWN_IF_STATUSES = {"not_available_yet", "unresolved", "lookup_error"}

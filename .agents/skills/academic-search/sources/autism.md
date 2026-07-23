@@ -6,7 +6,7 @@ color: "#14b8a6"
 icon: activity
 skill: academic-search
 platforms: pubmed
-order: 2
+order: 1
 ---
 
 ## PubMed 检索（Entrez E-utilities）

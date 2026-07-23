@@ -1,12 +1,12 @@
 # 每日资讯 · Daily Insights
 
-每日自动抓取 Brain MRI 相关学术内容，生成可浏览的本地仪表盘（含疾病分流、推荐摘要、期刊与影响因子信息）。
+每日自动抓取 Autism + MRI、Depression + MRI 和 TMS 学术内容，生成可浏览的本地仪表盘。
 
 ## 主要功能
 
-- 单次 MRI 检索：每天只执行 `brainmri` PubMed 检索
-- 疾病分流：按关键词复制到 Autism / Depression / ADHD / Alzheimer's / Parkinson's；未命中疾病的保留在 Brain MRI
+- 三个独立检索：Autism + MRI、Depression + MRI、全部 TMS 研究
 - 自动增强学术条目：补全期刊、ISSN、影响因子状态
+- IF 过滤：保留 IF ≥ 8；删除 IF < 8 和明确无 IF 的条目；查询失败项暂存到 unresolved 清单
 - Digest 推荐：每个数据文件自动生成 `digest`（优先级与推荐项）
 - 数据质量门禁：抓取后执行 schema/字段/去重校验（不通过即中止后续处理）
 - 前端可视化：推荐项保留 `Jump to card`，并用高亮标签展示“期刊名 / IF”
@@ -22,7 +22,7 @@ Daily Insights/
 │   └── index.html                    # 前端（React + Tailwind 单文件）
 ├── scripts/
 │   ├── server.py                     # 本地 HTTP 服务（页面 + API + SSE）
-│   ├── fetch.sh                      # 抓取入口（brainmri/all/指定领域）
+│   ├── fetch.sh                      # 抓取入口（all/autism/depression/tms）
 │   ├── fetch_config.sh               # 模型与 prompt、自动 git 同步开关
 │   ├── sync_impact_factors.py        # LetPub IF 同步（含 unresolved 在线补抓）
 │   ├── generate_digest.py            # 生成 digest 推荐
@@ -63,27 +63,26 @@ python3 scripts/server.py
 3. 抓取数据
 
 ```bash
-./scripts/fetch.sh brainmri           # Brain MRI + 疾病分流
-./scripts/fetch.sh autism depression  # 等价于 brainmri：不会分别检索疾病
-./scripts/fetch.sh all                # 等价于 brainmri
+./scripts/fetch.sh                    # 默认抓取全部三个领域
+./scripts/fetch.sh all                # Autism + MRI、Depression + MRI、TMS
+./scripts/fetch.sh autism             # 只抓 Autism + MRI
+./scripts/fetch.sh depression         # 只抓 Depression + MRI
+./scripts/fetch.sh tms                # 只抓全部 TMS 研究
 ./scripts/fetch.sh if                 # 仅同步期刊 IF（不抓论文/新闻）
 ./scripts/fetch.sh if --reference user-manual-20260228 --journal "J Alzheimers Dis"
 ```
 
 ## 可抓取领域（当前）
 
-- `brainmri`（Brain MRI；未命中疾病的 MRI 文献）
-- `autism`
-- `depression`
-- `adhd`
-- `ad`（Alzheimer's）
-- `pd`（Parkinson's）
+- `autism`（Autism + MRI）
+- `depression`（Depression + MRI）
+- `tms`（不限定疾病或 MRI）
 
 领域配置位于：`.agents/skills/academic-search/sources/*.md`
 
 ## 抓取链路
 
-`fetch.sh brainmri` → `split_brainmri_by_disease.py`（疾病分流）→ `sync_impact_factors.py`（LetPub IF 同步 + unresolved 维护）→ `generate_digest.py`（推荐摘要）
+三个领域独立抓取 → 一次共享 `sync_impact_factors.py` 查询 → IF ≥ 8 过滤 → 最终校验 → `generate_digest.py`
 
 IF 同步逻辑要点：
 
@@ -92,7 +91,7 @@ IF 同步逻辑要点：
 - 若本地未命中，按 `if_unresolved_journals.json` 的 `manual_full_name` / ISSN 在线补抓并写入 `data/letpub/letpub_life_med_raw.json`
 - IF 状态区分为：
   - `已收录影响因子`
-  - `尚无影响因子`
+  - `尚无影响因子`（删除）
   - `未查到影响因子`
 - 未匹配到 IF 的期刊会进入 `data/if_unresolved_journals.json`
 
@@ -154,13 +153,13 @@ CODEX_TIMEOUT_SECONDS="600"
 ```bash
 ./scripts/schedule.sh install
 ./scripts/schedule.sh status
-./scripts/schedule.sh run-now brainmri
+./scripts/schedule.sh run-now all
 ./scripts/schedule.sh uninstall
 ```
 
 当前计划：
 
-- Brain MRI：每天 `08:30`，抓取后自动分流到疾病标签
+- 三个活动领域：每天 `08:30` 抓取
 
 日志目录：`logs/`
 
@@ -175,7 +174,7 @@ CODEX_TIMEOUT_SECONDS="600"
 - `GET /api/dates`：可用日期
 - `GET /api/domains`：领域元数据
 - `GET /api/status`：抓取任务状态
-- `POST /api/fetch`：触发抓取（body: `{"mode":"brainmri"}` 等）
+- `POST /api/fetch`：触发抓取（body: `{"mode":"all"}` 等）
 - `GET /api/events?mode=<id>`：SSE 日志流
 
 ## 数据格式
@@ -188,13 +187,13 @@ CODEX_TIMEOUT_SECONDS="600"
       "title": "...",
       "summary": "...",
       "url": "https://...",
-      "category": "Brain MRI",
+      "category": "TMS",
       "source": "pubmed",
       "journal": "J Neural Eng",
       "journal_issn": "1741-2552",
-      "impact_factor": 3.8,
+      "impact_factor": 8.2,
       "impact_factor_year": 2024,
-      "impact_factor_status": "已收录影响因子",
+      "impact_factor_status": "available",
       "published_date": "2026-02-26",
       "date": "2026-02-26"
     }
@@ -224,7 +223,7 @@ CODEX_TIMEOUT_SECONDS="600"
 
 4. 抓取长时间无响应
 - 默认单次抓取 10 分钟超时（`CODEX_TIMEOUT_SECONDS="600"`）
-- 可临时调小超时快速失败排查，例如：`CODEX_TIMEOUT_SECONDS=120 ./scripts/fetch.sh brainmri`
+- 可临时调小超时快速失败排查，例如：`CODEX_TIMEOUT_SECONDS=120 ./scripts/fetch.sh all`
 - 设为 `0` 可关闭超时限制（不推荐）
 
 ## License

@@ -14,14 +14,18 @@ DATA_DIR = os.path.join(PROJECT_DIR, "data")
 WEB_DIR = os.path.join(PROJECT_DIR, "web")
 FETCH_SCRIPT = os.path.join(PROJECT_DIR, "scripts", "fetch.sh")
 ACADEMIC_SOURCES_DIR = os.path.join(PROJECT_DIR, ".agents", "skills", "academic-search", "sources")
-SKILLS_DIR = os.path.join(PROJECT_DIR, ".agents", "skills")
-HIDDEN_DOMAIN_IDS = {"ai", "mefmri"}
+ACTIVE_DOMAIN_IDS = ("autism", "depression", "tms")
+ALLOWED_FETCH_MODES = {"all", *ACTIVE_DOMAIN_IDS}
 
 # Global state for task logs
 task_logs = {}
 active_processes = {}
 log_queues = {}
 log_lock = threading.Lock()
+
+
+def has_active_fetch():
+    return any(proc.poll() is None for proc in active_processes.values())
 
 
 def parse_frontmatter(filepath):
@@ -43,76 +47,16 @@ def parse_frontmatter(filepath):
 
 
 def load_domains():
-    """Load domain configs and auto-discover from data files.
-
-    Priority: academic-search/sources/{id}.md > skill SKILL.md (domain_* fields) > minimal fallback.
-    Any domain ID found in data/ but missing a config gets a default entry.
-    """
-    # Step 1: explicit configs from academic-search/sources/*.md
+    """Load the explicit active domain configs in stable UI order."""
     explicit = {}
     if os.path.isdir(ACADEMIC_SOURCES_DIR):
         for fname in sorted(os.listdir(ACADEMIC_SOURCES_DIR)):
             if not fname.endswith('.md'):
                 continue
             domain = parse_frontmatter(os.path.join(ACADEMIC_SOURCES_DIR, fname))
-            if domain.get('id') and domain.get('id') not in HIDDEN_DOMAIN_IDS:
+            if domain.get('id') in ACTIVE_DOMAIN_IDS:
                 explicit[domain['id']] = domain
-
-    # Step 2: skill-level domain configs (skills that declare domain_id in SKILL.md)
-    skill_domains = {}
-    if os.path.isdir(SKILLS_DIR):
-        for skill_name in os.listdir(SKILLS_DIR):
-            skill_md = os.path.join(SKILLS_DIR, skill_name, 'SKILL.md')
-            if not os.path.isfile(skill_md):
-                continue
-            meta = parse_frontmatter(skill_md)
-            domain_id = meta.get('domain_id')
-            if not domain_id or domain_id in HIDDEN_DOMAIN_IDS:
-                continue
-            skill_domains[domain_id] = {
-                'id': domain_id,
-                'label': meta.get('domain_label', domain_id.upper()),
-                'category': meta.get('domain_category', domain_id.upper()),
-                'color': meta.get('domain_color', '#6366f1'),
-                'icon': meta.get('domain_icon', 'layers'),
-                'skill': meta.get('name', skill_name),
-                'order': meta.get('domain_order', '0'),
-            }
-
-    # Step 3: discover domain IDs from data files
-    discovered = set()
-    if os.path.isdir(DATA_DIR):
-        for f in os.listdir(DATA_DIR):
-            if not f.endswith('.json'):
-                continue
-            name = f[:-5]
-            parts = name.rsplit('-', 1)
-            if len(parts) == 2 and re.match(r'^\d{4}-\d{2}-\d{2}$', parts[0]):
-                domain_id = parts[1]
-                if domain_id not in HIDDEN_DOMAIN_IDS:
-                    discovered.add(domain_id)
-
-    # Step 4: merge — explicit wins, then skill_domains, then minimal fallback
-    all_domains = dict(explicit)
-    for domain_id in discovered:
-        if domain_id in all_domains:
-            continue
-        if domain_id in skill_domains:
-            all_domains[domain_id] = skill_domains[domain_id]
-        else:
-            all_domains[domain_id] = {
-                'id': domain_id,
-                'label': domain_id.upper(),
-                'category': domain_id.upper(),
-                'color': '#6366f1',
-                'icon': 'layers',
-                'skill': 'academic-search',
-                'order': '0',
-            }
-
-    domains = list(all_domains.values())
-    domains.sort(key=lambda d: int(d.get('order', 99)))
-    return domains
+    return [explicit[domain_id] for domain_id in ACTIVE_DOMAIN_IDS if domain_id in explicit]
 
 
 class DailyNewsHandler(http.server.SimpleHTTPRequestHandler):
@@ -180,7 +124,7 @@ class DailyNewsHandler(http.server.SimpleHTTPRequestHandler):
     def _handle_events(self, parsed):
         # SSE endpoint
         query = parse_qs(parsed.query)
-        mode = query.get("mode", ["brainmri"])[0]
+        mode = query.get("mode", ["all"])[0]
         task_key = f"fetch_{mode}"
 
         self.send_response(200)
@@ -245,19 +189,19 @@ class DailyNewsHandler(http.server.SimpleHTTPRequestHandler):
         except json.JSONDecodeError:
             params = {}
 
-        mode = params.get("mode", "brainmri")
+        mode = params.get("mode", "all")
 
         # Validate: alphanumeric, hyphens, underscores only
         if not re.match(r'^[a-zA-Z0-9_-]+$', mode):
             self._json_response({"error": "invalid mode"}, 400)
             return
-        if mode in HIDDEN_DOMAIN_IDS:
+        if mode not in ALLOWED_FETCH_MODES:
             self._json_response({"error": "mode disabled", "mode": mode}, 400)
             return
 
         task_key = f"fetch_{mode}"
         with log_lock:
-            if task_key in active_processes and active_processes[task_key].poll() is None:
+            if has_active_fetch():
                 self._json_response({"status": "already_running", "mode": mode})
                 return
 

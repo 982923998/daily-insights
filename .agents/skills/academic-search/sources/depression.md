@@ -6,7 +6,7 @@ color: "#f59e0b"
 icon: cloud
 skill: academic-search
 platforms: pubmed
-order: 3
+order: 2
 ---
 
 ## PubMed 检索（Entrez E-utilities）
