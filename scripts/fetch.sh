@@ -1,24 +1,21 @@
 #!/bin/bash
-# fetch.sh — Wrapper for codex daily news fetching
-# Usage: ./scripts/fetch.sh [ai|all|if|test|{domain-id}]
-#   ai          — 抓取 AI 新闻（daily-ai-news 技能）
-#   all         — 抓取 AI 新闻 + 全部学术领域
+# fetch.sh — Wrapper for codex daily literature fetching
+# Usage: ./scripts/fetch.sh [brainmri|all|if|test|{domain-id}]
+#   brainmri    — 抓取 Brain MRI，并分流到疾病领域
+#   all         — 同 brainmri
 #   if          — 仅同步期刊 IF（不抓论文/新闻）
-#   test        — 写入测试数据
-#   {domain-id} — 抓取指定学术领域（如 autism）
+#   test        — 写入测试数据并分流
+#   {domain-id} — 指定学术领域；疾病领域会映射到 brainmri 分流
 
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 TODAY=$(date +%Y-%m-%d)
-AI_DATA_FILE="$PROJECT_DIR/data/${TODAY}-ai.json"
 ACADEMIC_SOURCES_DIR="$PROJECT_DIR/.agents/skills/academic-search/sources"
 DIGEST_SCRIPT="$PROJECT_DIR/scripts/generate_digest.py"
 SYNC_IF_SCRIPT="$PROJECT_DIR/scripts/sync_impact_factors.py"
+FILTER_IF_SCRIPT="$PROJECT_DIR/scripts/filter_impact_factor.py"
 VALIDATE_DATA_SCRIPT="$PROJECT_DIR/scripts/validate_data.py"
 RUN_WITH_TIMEOUT_SCRIPT="$PROJECT_DIR/scripts/run_with_timeout.py"
-AI_SKILL_DIR="$PROJECT_DIR/.agents/skills/daily-ai-news"
-AI_SKILL_FILE="$AI_SKILL_DIR/SKILL.md"
-AI_OUTPUT_SPEC_FILE="$AI_SKILL_DIR/sources/output.md"
-AI_SOURCES_DIR="$AI_SKILL_DIR/sources"
+SPLIT_MRI_SCRIPT="$PROJECT_DIR/scripts/split_brainmri_by_disease.py"
 ACADEMIC_SKILL_DIR="$PROJECT_DIR/.agents/skills/academic-search"
 ACADEMIC_SKILL_FILE="$ACADEMIC_SKILL_DIR/SKILL.md"
 AUTO_GIT_SYNC="${AUTO_GIT_SYNC:-0}"
@@ -26,7 +23,7 @@ AUTO_IF_SYNC="${AUTO_IF_SYNC:-1}"
 
 mkdir -p "$PROJECT_DIR/data"
 
-MODE="${1:-ai}"
+MODE="${1:-brainmri}"
 CONFIG_FILE="$PROJECT_DIR/scripts/fetch_config.sh"
 
 export PYTHONUNBUFFERED=1
@@ -45,9 +42,9 @@ if [ -z "${MODEL_ID:-}" ]; then
     echo "[ERROR] MODEL_ID is empty in $CONFIG_FILE"
     exit 1
 fi
-for required in "$AI_SKILL_FILE" "$AI_OUTPUT_SPEC_FILE" "$ACADEMIC_SKILL_FILE"; do
+for required in "$ACADEMIC_SKILL_FILE" "$SPLIT_MRI_SCRIPT"; do
     if [ ! -f "$required" ]; then
-        echo "[ERROR] Required skill file not found: $required"
+        echo "[ERROR] Required file not found: $required"
         exit 1
     fi
 done
@@ -63,6 +60,7 @@ log() {
 validate_data_file() {
     local file="$1"
     local domain_id="${2:-}"
+    local stage="${3:-}"
     if [ ! -f "$file" ]; then
         log "[ERROR] Data file was not created: $file"
         return 1
@@ -75,8 +73,11 @@ validate_data_file() {
         log "[ERROR] Data validator script not found: $VALIDATE_DATA_SCRIPT"
         return 1
     fi
-    local validate_output
-    if ! validate_output=$(python3 "$VALIDATE_DATA_SCRIPT" "$file" "$domain_id" 2>&1); then
+    local validate_output validator_args=("$file" "$domain_id")
+    if [ -n "$stage" ]; then
+        validator_args+=(--stage "$stage")
+    fi
+    if ! validate_output=$(python3 "$VALIDATE_DATA_SCRIPT" "${validator_args[@]}" 2>&1); then
         log "[ERROR] Data quality check failed: $file"
         [ -n "$validate_output" ] && echo "$validate_output"
         return 1
@@ -121,12 +122,29 @@ sync_impact_factors() {
     return 0
 }
 
+filter_impact_factors() {
+    local file="$1"
+    local filter_output
+    if [ ! -f "$FILTER_IF_SCRIPT" ]; then
+        log "[ERROR] IF filter script not found: $FILTER_IF_SCRIPT"
+        return 1
+    fi
+    if ! filter_output=$(python3 "$FILTER_IF_SCRIPT" "$file" --minimum 6 2>&1); then
+        log "[ERROR] IF filter failed: $file"
+        [ -n "$filter_output" ] && echo "$filter_output"
+        return 1
+    fi
+    [ -n "$filter_output" ] && echo "$filter_output"
+    log "[OK] Articles below IF 6 filtered: $file"
+    return 0
+}
+
 run_post_fetch_if_sync() {
     local mode="$1"
     local sync_output
 
     case "$mode" in
-        if|journal-if|impact-factor)
+        if|journal-if|impact-factor|brainmri|mri|all|autism|depression|adhd|ad|pd)
             return 0
             ;;
     esac
@@ -422,6 +440,7 @@ get_fm() {
 # Run a single academic domain by ID
 run_academic_domain() {
     local domain_id="$1"
+    local post_process="${2:-1}"
     local config_file="$ACADEMIC_SOURCES_DIR/${domain_id}.md"
 
     if [ ! -f "$config_file" ]; then
@@ -447,47 +466,65 @@ run_academic_domain() {
 
     run_codex_with_fallback "Fetch $label" "$prompt" "$data_file" "$domain_id" || return $?
     validate_data_file "$data_file" "$domain_id" || return $?
+    if [ "$post_process" != "1" ]; then
+        return 0
+    fi
     sync_impact_factors "$data_file" || return $?
     generate_digest "$data_file" "$domain_id" || return $?
 }
 
-# Run all academic domains (skip domains with skill: daily-ai-news)
-run_all_academic_domains() {
-    if [ ! -d "$ACADEMIC_SOURCES_DIR" ]; then
-        log "[WARN] Academic sources directory not found: $ACADEMIC_SOURCES_DIR"
-        return 0
+# Split Brain MRI output into disease domain files and finish each generated file.
+process_mri_split_outputs() {
+    local brainmri_file="$PROJECT_DIR/data/${TODAY}-brainmri.json"
+    local domain_id data_file
+
+    if ! python3 "$SPLIT_MRI_SCRIPT" "$brainmri_file"; then
+        log "[ERROR] Failed to split Brain MRI output."
+        return 1
     fi
 
-    local ran=0
-    for config_file in "$ACADEMIC_SOURCES_DIR"/*.md; do
-        [ -f "$config_file" ] || continue
-        local skill domain_id
-        skill=$(get_fm "$config_file" "skill")
-        domain_id=$(get_fm "$config_file" "id")
-        [ "$skill" = "daily-ai-news" ] && continue
-        [ -z "$domain_id" ] && continue
-        run_academic_domain "$domain_id" || return $?
-        ran=$((ran + 1))
+    for domain_id in brainmri autism depression adhd ad pd; do
+        data_file="$PROJECT_DIR/data/${TODAY}-${domain_id}.json"
+        validate_data_file "$data_file" "$domain_id" "final" || return $?
+        generate_digest "$data_file" "$domain_id" || return $?
     done
-
-    [ "$ran" -eq 0 ] && log "[WARN] No academic domains found in $ACADEMIC_SOURCES_DIR"
-    return 0
 }
 
-if [ -z "${AI_PROMPT_TEMPLATE:-}" ] || [ -z "${ACADEMIC_PROMPT_TEMPLATE:-}" ] || [ -z "${TEST_PROMPT_TEMPLATE:-}" ]; then
+# Run the single MRI retrieval and derive disease files locally.
+run_mri_pipeline() {
+    local brainmri_file="$PROJECT_DIR/data/${TODAY}-brainmri.json"
+    local sync_output
+
+    run_academic_domain "brainmri" "0" || return $?
+    if [ ! -f "$SYNC_IF_SCRIPT" ]; then
+        log "[ERROR] IF sync script not found: $SYNC_IF_SCRIPT"
+        return 1
+    fi
+    if ! sync_output=$(python3 "$SYNC_IF_SCRIPT" "$brainmri_file" --no-crawl 2>&1); then
+        log "[ERROR] IF sync failed: $brainmri_file"
+        [ -n "$sync_output" ] && echo "$sync_output"
+        return 1
+    fi
+    [ -n "$sync_output" ] && echo "$sync_output"
+    log "[OK] Impact factors synced locally: $brainmri_file"
+    filter_impact_factors "$brainmri_file" || return $?
+    validate_data_file "$brainmri_file" "brainmri" "final" || return $?
+    process_mri_split_outputs || return $?
+}
+
+# Historical helper: all academic disease views now come from Brain MRI split.
+run_all_academic_domains() {
+    run_mri_pipeline
+}
+
+if [ -z "${ACADEMIC_PROMPT_TEMPLATE:-}" ] || [ -z "${TEST_PROMPT_TEMPLATE:-}" ]; then
     echo "[ERROR] Prompt templates are missing in $CONFIG_FILE"
     exit 1
 fi
 
-# Render AI prompt
-AI_PROMPT="${AI_PROMPT_TEMPLATE//__TODAY__/$TODAY}"
-AI_PROMPT="${AI_PROMPT//__DATA_FILE__/$AI_DATA_FILE}"
-AI_PROMPT="${AI_PROMPT//__AI_SKILL_PATH__/$AI_SKILL_FILE}"
-AI_PROMPT="${AI_PROMPT//__AI_SOURCES_DIR__/$AI_SOURCES_DIR}"
-AI_PROMPT="${AI_PROMPT//__AI_OUTPUT_SPEC_PATH__/$AI_OUTPUT_SPEC_FILE}"
-
+TEST_DATA_FILE="$PROJECT_DIR/data/${TODAY}-brainmri.json"
 TEST_PROMPT="${TEST_PROMPT_TEMPLATE//__TODAY__/$TODAY}"
-TEST_PROMPT="${TEST_PROMPT//__DATA_FILE__/$AI_DATA_FILE}"
+TEST_PROMPT="${TEST_PROMPT//__DATA_FILE__/$TEST_DATA_FILE}"
 
 log "🚀 Starting task: $MODE"
 
@@ -495,22 +532,16 @@ cd "$PROJECT_DIR"
 
 case "$MODE" in
     ai)
-        log "📂 AI data file: $AI_DATA_FILE"
-        run_codex_with_fallback "Fetch AI News" "$AI_PROMPT" "$AI_DATA_FILE" "ai" || exit $?
-        validate_data_file "$AI_DATA_FILE" "ai" || exit $?
-        generate_digest "$AI_DATA_FILE" "ai" || exit $?
+        log "[ERROR] AI fetch is disabled for this project."
+        exit 1
         ;;
-    all)
-        log "📂 AI data file: $AI_DATA_FILE"
-        run_codex_with_fallback "Fetch AI News" "$AI_PROMPT" "$AI_DATA_FILE" "ai" || exit $?
-        validate_data_file "$AI_DATA_FILE" "ai" || exit $?
-        generate_digest "$AI_DATA_FILE" "ai" || exit $?
-        run_all_academic_domains || exit $?
+    brainmri|mri|all|autism|depression|adhd|ad|pd)
+        run_mri_pipeline || exit $?
         ;;
     test)
-        run_codex_with_fallback "Test Write" "$TEST_PROMPT" "$AI_DATA_FILE" "ai" || exit $?
-        validate_data_file "$AI_DATA_FILE" "ai" || exit $?
-        generate_digest "$AI_DATA_FILE" "ai" || exit $?
+        run_codex_with_fallback "Test Write" "$TEST_PROMPT" "$TEST_DATA_FILE" "brainmri" || exit $?
+        validate_data_file "$TEST_DATA_FILE" "brainmri" || exit $?
+        process_mri_split_outputs || exit $?
         ;;
     if|journal-if|impact-factor)
         if [ ! -f "$SYNC_IF_SCRIPT" ]; then
@@ -524,9 +555,24 @@ case "$MODE" in
         ;;
     *)
         # Treat all positional args as academic domain IDs
+        needs_mri=0
         for domain_id in "$@"; do
-            run_academic_domain "$domain_id" || exit $?
+            case "$domain_id" in
+                ai)
+                    log "[ERROR] AI fetch is disabled for this project."
+                    exit 1
+                    ;;
+                brainmri|mri|autism|depression|adhd|ad|pd)
+                    needs_mri=1
+                    ;;
+                *)
+                    run_academic_domain "$domain_id" || exit $?
+                    ;;
+            esac
         done
+        if [ "$needs_mri" -eq 1 ]; then
+            run_mri_pipeline || exit $?
+        fi
         ;;
 esac
 
