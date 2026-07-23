@@ -155,3 +155,6 @@ tar -xzf /projects/backups/daily-insights-<时间戳>.tar.gz -C "$restore_dir"
 - 部署前备份：`/projects/backups/daily-insights-20260723-200454.tar.gz`。
 - 备份 SHA256：`b570307eef091114ef0f8058be52e22122e6c19062b160eceefed00687a10b11`。
 - 验收结果：远端 49 项测试通过；Nginx 配置通过；页面、API 和六类最新数据均可访问；公网触发抓取被禁止；`8080` 未对公网开放。
+- 部署三领域迁移提交 `99f8dea`：仅保留 Autism + MRI、Depression + MRI、TMS，统一执行 IF ≥ 8 过滤。
+- 三领域迁移备份：`/projects/backups/daily-insights-20260723-214118.tar.gz`；SHA256：`f64bdb094622ecd6167dd9244c06503875ee154da868e5d8a01b2c5f7a6c262b`。
+- 三领域迁移验收：远端 49 项测试通过；`/api/domains` 精确返回 `autism/depression/tms`；`daily-insights-fetch-all.timer` 已启用，旧 `brainmri` timer 已禁用；历史 Brain MRI JSON 保留。
