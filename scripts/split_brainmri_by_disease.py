@@ -55,7 +55,7 @@ DISEASE_PATTERNS = {
 def article_text(article: dict) -> str:
     return " ".join(
         str(article.get(key, ""))
-        for key in ("title", "summary", "category", "source", "journal")
+        for key in ("title", "summary")
     )
 
 

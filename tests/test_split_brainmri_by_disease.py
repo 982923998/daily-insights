@@ -20,6 +20,41 @@ def article(title, summary):
 
 
 class SplitBrainMriByDiseaseTests(unittest.TestCase):
+    def test_matches_disease_terms_only_in_title_or_summary(self):
+        metadata_only = article(
+            "Healthy adult connectome mapping",
+            "Resting-state networks in healthy volunteers.",
+        )
+        metadata_only.update(
+            category="Autism",
+            source="Autism registry",
+            journal="Autism Research",
+        )
+        title_match = article(
+            "Autism network organization",
+            "A brain MRI study.",
+        )
+        summary_match = article(
+            "Developmental network organization",
+            "Participants with autism spectrum disorder received MRI.",
+        )
+
+        result = split_payload(
+            {
+                "date": "2026-05-12",
+                "articles": [metadata_only, title_match, summary_match],
+            }
+        )
+
+        self.assertEqual(
+            [item["title"] for item in result["autism"]["articles"]],
+            [title_match["title"], summary_match["title"]],
+        )
+        self.assertEqual(
+            [item["title"] for item in result["brainmri"]["articles"]],
+            [metadata_only["title"]],
+        )
+
     def test_copies_articles_to_every_matching_disease_and_leaves_unmatched_in_mri(self):
         payload = {
             "date": "2026-05-12",
