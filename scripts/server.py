@@ -343,13 +343,14 @@ class DailyNewsHandler(http.server.SimpleHTTPRequestHandler):
 
 
 def main():
-    port = 8080
+    host = os.environ.get("DAILY_INSIGHTS_HOST", "127.0.0.1")
+    port = int(os.environ.get("DAILY_INSIGHTS_PORT", "8080"))
     os.makedirs(DATA_DIR, exist_ok=True)
-    server = http.server.ThreadingHTTPServer(("", port), DailyNewsHandler)
-    print(f"Server running at http://localhost:{port}")
-    print(f"  Web UI:   http://localhost:{port}/")
-    print(f"  Domains:  http://localhost:{port}/api/domains")
-    print(f"  Data:     http://localhost:{port}/data/")
+    server = http.server.ThreadingHTTPServer((host, port), DailyNewsHandler)
+    print(f"Server running at http://{host}:{port}")
+    print(f"  Web UI:   http://{host}:{port}/")
+    print(f"  Domains:  http://{host}:{port}/api/domains")
+    print(f"  Data:     http://{host}:{port}/data/")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
