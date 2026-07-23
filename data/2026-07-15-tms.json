@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-15",
+  "articles": [
+    {
+      "title": "Optimizing brain functional-structural architecture with cTBS to reduce relapse in alcohol use disorder: a randomized controlled trial.",
+      "summary": "Alcohol use disorder (AUD) is characterized by high relapse rates, necessitating novel interventions. Continuous theta-burst stimulation (cTBS) targeting the right dorsolateral prefrontal cortex (rDLPFC) has been proposed to reduce relapse risk by modulating prefrontal control networks implicated in craving and self-regulation, but its efficacy and mechanisms remain to be established. In a randomized, double-blind, sham-controlled trial at the First Special Hospital of Harbin, 50 AUD patients (aged 18-60 years) received active cTBS or sham stimulation over 2 weeks (10 treatment days; two applications/day). Alcohol Use Disorders Identification Test (AUDIT) scores were assessed before and after intervention, and relapse status was monitored during the 1-year follow-up. Resting-state fMRI data were analyzed using non-negative matrix factorization (NMF) and Tabular Prior-data Fitted Network (TabPFN) to identify relapse-associated neural patterns. Network control theory (NCT) was used to quantify the control energy required to regulate frontoparietal network (FPN) to subcortical network (SUB) transitions, constrained by structural connectomes. Transcriptomic analysis and TransBrain-based cross-species phenotype mapping were used to link control energy changes to gene expression and investigate the evolutionary conservation of the identified network-control targets. Compared with sham treatment, active cTBS was associated with a lower risk of relapse over one year (hazard ratio = 0.426, 95% CI [0.189, 0.964], p = 0.041). NMF revealed an abstinence-associated pattern in the prefrontal-subcortical regions, enhanced by cTBS (p = 0.042). NCT showed a reduction in FPN-to-SUB control energy (p = 0.003), mediating changes in AUDIT-assessed alcohol-use severity (95% CI [-0.302, -0.014]). Changes in the control energy correlated with gene expression profiles enriched for genes related to neuroplasticity (p < 0.001, FDR corrected) and mapped specifically to the murine infralimbic and prelimbic areas. rDLPFC-targeted cTBS may be associated with lower relapse risk through modulation of FPN-to-SUB regulation, a network-level effect linked to neuroplasticity-related gene expression and evolutionarily conserved prefrontal circuits. These findings support further evaluation of network-informed neuromodulation strategies for AUD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42457860/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-15",
+      "date": "2026-07-15",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ]
+}

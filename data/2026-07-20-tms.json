@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-20",
+  "articles": [
+    {
+      "title": "Brain contrastive modeling reveals depression subtypes with distinct treatment response and progression.",
+      "summary": "Major Depressive Disorder (MDD) is highly heterogeneous, limiting treatment efficacy. Despite efforts to delineate patient heterogeneity through subtyping, current approaches remain limited by noise, lack of clinical applicability, and insufficient external validation. Crucially, they focus on subtyping while neglecting staging information (e.g., illness duration). We developed BrainCVAE, a contrastive variational autoencoder, to disentangle MDD-specific neural features. Applying BrainCVAE to fALFF-derived resting-state fMRI from 1590 patients and 1308 controls identified two subtypes: Subtype 1 with hyperactivity in visual, attention, and default mode networks, and Subtype 2 with hypoactivity. Subtypes were validated in 1276 patients across independent centers. Subtype 1 showed superior responsiveness to pharmacological (SSRIs, SNRIs) and non-pharmacological (rTMS) interventions. Cross-sectional analyses revealed subtype-specific differences in DMN profiles across illness duration: Subtype 1 shifted from hyper- to hypoactivity, whereas Subtype 2 remained consistently hypoactive. In an independent dataset, illness duration correlated negatively with symptom reduction (r = -0.5565, 95% CI = (-0.8123, -0.1210), p = 0.0165). Datasets were ethically approved and registered on ClinicalTrials.gov: XJ_QG (NCT05577481, May 24, 2023), SAINT (NCT04653337, Oct 21, 2020), XJ_KG (NCT05544071, May 24, 2023). Integrating subtyping with illness staging bridges neurobiological heterogeneity and disease progression, providing a clinically actionable framework for precision treatment in MDD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477489/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "NPJ Digit Med",
+      "journal_issn": "2398-6352",
+      "published_date": "2026-07-20",
+      "date": "2026-07-20",
+      "impact_factor": 18.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Digital Medicine"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-25",
+  "articles": [
+    {
+      "title": "Connectivity- vs Scalp-Based Targeting of Accelerated Transcranial Magnetic Stimulation for Depression: A Randomized Clinical Trial.",
+      "summary": "IMPORTANCE: Neuroimaging is prevalent in psychiatric research, but there is limited evidence that it improves clinical outcomes. Functional connectivity neuroimaging was recently used to target individualized brain circuits with accelerated transcranial magnetic stimulation (aTMS), with rapid antidepressant effects and US Food and Drug Administration clearance, but the importance of connectivity-based targeting remains unclear. OBJECTIVE: To estimate the effect size of connectivity- vs scalp-based targeting of aTMS for treatment-resistant depression. DESIGN, SETTING, AND PARTICIPANTS: This randomized clinical trial comparing connectivity- to scalp-based aTMS treatment was conducted between July 2023 and March 2025 with the primary outcome assessed at 1 month posttreatment and follow-up every 3 months for 1 year. Participants, TMS technicians, and study physicians were blinded. The study took place at the Center for Brain Circuit Therapeutics at Mass General Brigham and Harvard Medical School in Boston, Massachusetts. Forty adults aged 22 to 80 years with a primary diagnosis of major depressive disorder with moderate to severe depression per Montgomery-Åsberg Depression Rating Scale (MADRS) score and moderate to severe treatment resistance per Maudsley Staging Method were included. Key exclusion criteria included contraindications to TMS or magnetic resonance imaging, primary psychiatric diagnoses other than major depressive disorder or anxiety disorders, recent rapid-acting antidepressant treatments, and significant neurological or substance use disorders. INTERVENTIONS: All participants underwent a 41-minute multiecho resting-state functional connectivity scan prior to aTMS, and half of them received treatment guided by these data. The connectivity-based target was defined as the left dorsolateral prefrontal cortex region with the greatest correlation to a published and publicly available convergent depression circuit. This circuit includes multiple brain regions linked to depression, including negative connectivity to the subgenual cingulate cortex. The scalp-based target was identified with the Beam F3 method. MAIN OUTCOMES AND MEASURES: MADRS score 1 month after treatment, adjusted for baseline. RESULTS: In total, 40 participants (22 female [55%]; mean [SD] age, 45.7 [15.2] years) were randomized and treated. The median (IQR) MADRS score reduction was 24 (19-28) vs 18 (10-23) points with connectivity- vs scalp-based targeting, respectively (P = .02). Connectivity-based targeting had an effect size of 0.8 (Cohen d analog) and 95% CI of 0.26-1.54, with a number needed to scan of 5 individuals. Individualized targets were reproducible within an individual (4.47 mm split-half distance) and different between individuals (12.97 mm) (P < .001). CONCLUSIONS AND RELEVANCE: In this randomized clinical trial, individualized, connectivity-based targeting of the convergent depression circuit enhanced the antidepressant effects of high-dose aTMS. These results could facilitate cost-effectiveness analyses and help to power a confirmatory efficacy trial. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT05680727.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42340706/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "JAMA Psychiatry",
+      "journal_issn": "2168-6238",
+      "published_date": "2026-06-24",
+      "date": "2026-06-25",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Affect and self-control outcomes following DLPFC and medial orbitofrontal rTMS in tobacco use disorder: Secondary analyses from a randomized sham-controlled trial.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42341922/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-24",
+      "date": "2026-06-25",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    },
+    {
+      "title": "Novel approaches in depression treatment: from rapid-acting antidepressants to personalized interventions.",
+      "summary": "Major depressive disorder (MDD) and treatment-resistant depression (TRD) are prevalent and debilitating conditions. Over 50% of patients have inadequate response to first-line serotonergic antidepressants and are left with suboptimal treatment options. Rapid-acting and individually tailored treatments for MDD remain major unmet needs. This review discusses promising rapid-acting treatments, including psychedelic and neuroplastogen compounds, currently under investigation for the treatment of MDD and TRD. Among these, psilocybin has advanced to late-stage trials. In addition, we examine the emerging role of repetitive transcranial magnetic stimulation (rTMS), including novel personalized interventions, such as the Stanford Accelerated Intelligent Neuromodulation Therapy (SAINT) protocol, which has demonstrated rapid antidepressant effects and is now FDA-cleared for TRD, positioning it closest to clinical translation. We also highlight the ongoing ALTO-300 trial, which is evaluating an adjunctive treatment for MDD in patients identified by an EEG biomarker-representing another promising step toward personalized treatment. Finally, we review the results of a Phase 2 study reporting outcomes that vary by a specific genotype sequence, underscoring the potential for genetically guided personalized interventions. Despite these advances, key limitations, including unblinding in psychedelic trials, scalability challenges of intensive neuromodulation protocols, and the need for validated biomarkers, pose ongoing challenges for real-world implementation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42350785/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-25",
+      "date": "2026-06-25",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    }
+  ]
+}

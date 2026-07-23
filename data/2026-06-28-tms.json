@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-28",
+  "articles": [
+    {
+      "title": "40 Hz biparietal transcranial alternating current stimulation for Alzheimer's disease: a prospective study.",
+      "summary": "BACKGROUND: Alzheimer's disease (AD) is characterized by dysfunction in multiple cognitive domains. Patients with AD demonstrate a relative attenuation and dysregulation of theta and gamma oscillations in the temporal and parietal lobes at an early stage. Transcranial alternating current stimulation (tACS) has been shown to modulate neural oscillations in different regions of the brain, affecting higher cognitive functions such as motor function, memory, and learning. OBJECTIVE: To observe the clinical efficacy and after-effects of biparietal 40 Hz tACS in treating AD patients, to analyze its safety and feasibility, and to deeply explore the effects of tACS on time-varying brain networks and dynamic functional connectivity. METHODS: In the study, patients with mild AD who were treated in the First Hospital of Hebei Medical University from October 2022 to August 2023 were recruited, randomly divided into tACS group or Sham group, and then respectively received either biparietal 40 Hz tACS or sham stimulation for 15 consecutive days, each lasting 30 min. Neuropsychological assessment scales were collected to assess the efficacy at three time points: pre-stimulation, post-stimulation, and 10-week follow-up. Additionally, transcranial magnetic stimulation with electroencephalography (TMS-EEG) and functional magnetic resonance imaging (fMRI) were collected to explore time-varying brain networks and functional connectivity. RESULTS: Patients with AD exhibited improvements in global cognition, memory, language, attention, and executive functions following tACS treatment compared with those before treatment. Additionally, the neuropsychiatric inventory scores were decreased significantly after tACS treatment. The clinical efficacies were not obvious in Sham group. These results indicated that tACS treatment had significant short-term efficacy and good stability. The brain time-varying EEG network patterns were analyzed using the adaptive directed transfer function. The analysis showed enhanced information flows from the temporal and prefrontal regions and from the posterior to anterior regions after tACS treatment. In contrast, decreased information flow was observed from the left to right frontal regions. The fMRI analysis revealed enhanced connectivity within default mode network and between default mode network and Frontoparietal network after active treatment. CONCLUSIONS: The 40 Hz biparietal tACS is a potentially safe and effective treatment for AD with certain long-term efficacy by modulating dynamic functional connectivity. TRIAL REGISTRATION: The trial was retrospectively registered at the Chinese Clinical Trial Registry (registration number: ChiCTR2500115019).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42363162/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-26",
+      "date": "2026-06-28",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    }
+  ]
+}

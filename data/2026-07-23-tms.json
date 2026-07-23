@@ -1,0 +1,41 @@
+{
+  "date": "2026-07-23",
+  "articles": [
+    {
+      "title": "Motor cortical excitability is differentially modulated by HIIT and strength exercise.",
+      "summary": "High-intensity interval training (HIIT) and strength exercise (SE) induce corticospinal plasticity in exercised and non-exercised muscles. While HIIT's systemic neuromodulatory effects are well-established, SE's comparable remote responses remain unclear. This study investigated changes in corticospinal, intracortical, and spinal excitability, as well as motor performance, in non-exercised flexor carpi radialis following single-session HIIT and plantar flexion SE. Using a randomised crossover design, eighteen participants completed: (1) 20-minute high-intensity interval cycling, (2) high-intensity resistive plantar flexion, and (3) control. Corticospinal responses were assessed using transcranial magnetic stimulation and peripheral nerve stimulation; motor performance through reaction time tasks and maximum voluntary force at baseline and post-exercise. Only HIIT significantly increased motor-evoked potential amplitude (p = 0.002) and reduced short-interval intracortical inhibition (p = 0.04). HIIT reduced silent period duration compared to baseline and control (p <0.001), while SE showed reduction only versus control (p <0.001). Both HIIT and SE improved reaction time compared to baseline and control (p <0.05). These findings highlight differential corticospinal responses in a remote, non-exercised muscle, with HIIT inducing distributed excitability enhancements compared to SE. Unilateral, small-muscle SE may be insufficient to induce widespread corticospinal excitability changes, with implications for neurorehabilitation strategies targeting remote muscle groups.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42483809/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "J Sports Sci",
+      "journal_issn": "1466-447X",
+      "published_date": "2026-07-22",
+      "date": "2026-07-23",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Comparative efficacy and safety of photobiomodulation, transcranial direct current stimulation, and repetitive transcranial magnetic stimulation in Alzheimer's disease: a network meta-analysis of randomized controlled trials.",
+      "summary": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder for which current pharmacological therapies provide only modest and transient benefits, underscoring the need for effective non-pharmacological interventions. Non-invasive brain stimulation (NIBS), including photobiomodulation (PBM), transcranial direct current stimulation (tDCS), and repetitive transcranial magnetic stimulation (rTMS), is a promising approach. This study compared the efficacy, feasibility, and safety of PBM, tDCS, and rTMS in AD. We conducted a Bayesian network meta-analysis (NMA) of randomized controlled trials (RCTs), prospectively registered in PROSPERO (CRD420251006868) and reported according to PRISMA-NMA. The primary outcome was global cognitive performance, assessed by the Mini-Mental State Examination (MMSE) and the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog). Secondary outcomes were feasibility and safety, evaluated by dropout rates and adverse events, respectively. A total of 34 studies, comprising 35 RCTs (n = 1,559), were included, with one study contributing two independent randomized controlled trials. All three interventions improved global cognitive performance compared with control. PBM showed the highest estimated effects on both MMSE (MD = 3.14, 95% CrI: 1.71 to 4.60) and ADAS-Cog (MD = - 8.01, 95% CrI: -12.82 to - 3.13). In indirect comparisons, PBM was superior to rTMS for ADAS-Cog (MD = - 5.24, 95% CrI: -10.23 to - 0.12), while the MMSE comparison narrowly missed statistical significance (MD = 1.57, 95% CrI: -0.02 to 3.18). These findings were generally consistent across subgroups stratified by baseline cognition and intervention duration. PBM tended to rank highest for cognitive improvement with feasibility and safety comparable to tDCS and rTMS in AD. These findings support the therapeutic potential of PBM, and large-scale RCTs are needed to guide individualized treatment strategies, with implications for clinical decision-making in geriatric care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42487022/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Lasers Med Sci",
+      "journal_issn": "1435-604X",
+      "published_date": "2026-07-23",
+      "date": "2026-07-23",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ]
+}

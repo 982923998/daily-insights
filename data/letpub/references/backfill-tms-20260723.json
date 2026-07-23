@@ -1,7 +1,8 @@
 {
   "schema_version": 1,
-  "source": "manual_override",
-  "updated_at": "2026-07-23T15:44:05+00:00",
+  "reference": "backfill-tms-20260723",
+  "source": "letpub_reference_task",
+  "updated_at": "2026-07-23T15:34:21+00:00",
   "journals": [
     {
       "field": "manual_supplement",
@@ -35,78 +36,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1600-0447",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:29:19+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0001-6918",
-      "journal_name": "ACTA PSYCHOLOGICA",
-      "journal_name_short": "Acta Psychol (Amst)",
-      "journal_id": 11512,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=11512&page=journalapp&view=detail",
-      "overall_score": 5.3,
-      "impact_factor": 3.8,
-      "impact_factor_year": null,
-      "h_index": 0,
-      "citescore": 3.4,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=11512&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Acta psychologica",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1873-6297",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:05+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0044-605X",
-      "journal_name": "ACTA VETERINARIA SCANDINAVICA",
-      "journal_name_short": "Acta Vet Scand",
-      "journal_id": 182,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=182&page=journalapp&view=detail",
-      "overall_score": 5.9,
-      "impact_factor": 2.0,
-      "impact_factor_year": null,
-      "h_index": 45,
-      "citescore": 3.2,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=182&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Acta Vet Scand",
-      "reference": "backfill-brainmri-20260524-20260723-online",
-      "references": [
-        "backfill-brainmri-20260524-20260723-online"
-      ],
-      "matched_query": "issn:1751-0147",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T12:42:41+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:29:19+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -140,43 +72,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2150-7759",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:44+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1552-4833",
-      "journal_name": "American Journal of Medical Genetics Part A",
-      "journal_name_short": "Am J Med Genet A",
-      "journal_id": null,
-      "detail_url": "https://onlinelibrary.wiley.com/journal/15524833",
-      "overall_score": null,
-      "impact_factor": 1.7,
-      "impact_factor_year": null,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://onlinelibrary.wiley.com/journal/15524833",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "American Journal of Medical Genetics Part A",
-      "reference": "backfill-brainmri-20260723-official",
-      "references": [
-        "backfill-brainmri-20260723-official"
-      ],
-      "matched_query": "official:https://onlinelibrary.wiley.com/journal/15524833",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:33:21+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:44+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -210,8 +108,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1535-7228",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:52+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:52+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -245,43 +144,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1520-6882",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:46+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1381-3455",
-      "journal_name": "ARCHIVES OF PHYSIOLOGY AND BIOCHEMISTRY",
-      "journal_name_short": "Arch Physiol Biochem",
-      "journal_id": 9703,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=9703&page=journalapp&view=detail",
-      "overall_score": 5.4,
-      "impact_factor": 3.2,
-      "impact_factor_year": null,
-      "h_index": 44,
-      "citescore": 8.7,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=9703&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "",
-      "reference": "backfill-brainmri-20260723-3day",
-      "references": [
-        "backfill-brainmri-20260723-3day"
-      ],
-      "matched_query": "name:Arch Physiol Biochem",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:27:37+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:46+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -315,8 +180,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1440-1665",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:24+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:24+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -350,8 +216,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1440-1614",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:27+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:27+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -385,43 +252,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1471-2318",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:13+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1757-790X",
-      "journal_name": "BMJ Case Reports",
-      "journal_name_short": "BMJ Case Rep",
-      "journal_id": 23789,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=23789&page=journalapp&view=detail",
-      "overall_score": 3.8,
-      "impact_factor": 0.4,
-      "impact_factor_year": null,
-      "h_index": 0,
-      "citescore": 0.7,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=23789&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "BMJ case reports",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1757-790X",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:05+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:13+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -455,8 +288,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2632-1297",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:25+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:25+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -490,8 +324,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2158-0022",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:08+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:08+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -525,8 +360,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1873-2747",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:26+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:26+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -560,8 +396,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1876-4754",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:13+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:13+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -595,8 +432,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1365-2125",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:31+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:31+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -630,8 +468,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1497-0015",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:29:57+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:29:57+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -665,8 +504,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1538-7755",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:29:25+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:29:25+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -700,8 +540,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1097-4172",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:51+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:51+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -735,43 +576,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1976-8710",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:32:34+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1551-7144",
-      "journal_name": "Contemporary Clinical Trials",
-      "journal_name_short": "Contemp Clin Trials",
-      "journal_id": 2038,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=2038&page=journalapp&view=detail",
-      "overall_score": 5.2,
-      "impact_factor": 1.9,
-      "impact_factor_year": null,
-      "h_index": 51,
-      "citescore": 3.6,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2038&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Contemporary Clinical Trials",
-      "reference": "backfill-tms-20260723-fullnames",
-      "references": [
-        "backfill-tms-20260723-fullnames"
-      ],
-      "matched_query": "issn:1559-2030",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:44:00+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:32:34+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -805,8 +612,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1535-1645",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:31+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:31+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -840,8 +648,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1958-5969",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:32+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:32+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -875,8 +684,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1464-5165",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:32:18+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:32:18+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -910,8 +720,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1536-8386",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:47+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:47+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -945,8 +756,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1931-1516",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:34:06+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:34:06+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -980,8 +792,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1520-5851",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:23+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:23+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1015,43 +828,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1872-6844",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:59+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "2055-5822",
-      "journal_name": "ESC Heart Failure",
-      "journal_name_short": "ESC Heart Fail",
-      "journal_id": 10658,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=10658&page=journalapp&view=detail",
-      "overall_score": 7.0,
-      "impact_factor": 3.8,
-      "impact_factor_year": null,
-      "h_index": 0,
-      "citescore": 7.0,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=10658&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "ESC heart failure",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:2055-5822",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:05+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:59+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1085,78 +864,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1433-8491",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:58+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1619-7070",
-      "journal_name": "EUROPEAN JOURNAL OF NUCLEAR MEDICINE AND MOLECULAR IMAGING",
-      "journal_name_short": "Eur J Nucl Med Mol Imaging",
-      "journal_id": 2679,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=2679&page=journalapp&view=detail",
-      "overall_score": 8.7,
-      "impact_factor": 7.6,
-      "impact_factor_year": null,
-      "h_index": 153,
-      "citescore": 13.5,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2679&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "European journal of nuclear medicine and molecular imaging",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1619-7089",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:05+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0340-6199",
-      "journal_name": "EUROPEAN JOURNAL OF PEDIATRICS",
-      "journal_name_short": "Eur J Pediatr",
-      "journal_id": 2694,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=2694&page=journalapp&view=detail",
-      "overall_score": 5.7,
-      "impact_factor": 2.9,
-      "impact_factor_year": null,
-      "h_index": 86,
-      "citescore": 5.1,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2694&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "",
-      "reference": "backfill-brainmri-20260723-3day",
-      "references": [
-        "backfill-brainmri-20260723-3day"
-      ],
-      "matched_query": "name:Eur J Pediatr",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:27:09+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:58+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1190,8 +900,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1873-7862",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:34:00+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:34:00+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1225,43 +936,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1880-8026",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:56+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1875-595X",
-      "journal_name": "International Dental Journal",
-      "journal_name_short": "Int Dent J",
-      "journal_id": null,
-      "detail_url": "https://www.sciencedirect.com/journal/international-dental-journal",
-      "overall_score": null,
-      "impact_factor": 3.7,
-      "impact_factor_year": 2024,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://www.sciencedirect.com/journal/international-dental-journal",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "International Dental Journal",
-      "reference": "backfill-brainmri-20260723-official",
-      "references": [
-        "backfill-brainmri-20260723-official"
-      ],
-      "matched_query": "official:https://www.sciencedirect.com/journal/international-dental-journal",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:33:21+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:56+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1295,43 +972,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2194-7511",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:28+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "2211-4599",
-      "journal_name": "International Journal of Spine Surgery",
-      "journal_name_short": "Int J Spine Surg",
-      "journal_id": 24438,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=24438&page=journalapp&view=detail",
-      "overall_score": 4.1,
-      "impact_factor": 2.1,
-      "impact_factor_year": null,
-      "h_index": 0,
-      "citescore": 3.4,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=24438&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "International journal of spine surgery",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:2211-4599",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:07+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:28+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1365,8 +1008,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1741-203X",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:53+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:53+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1400,8 +1044,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1369-1627",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:49+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:49+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1435,78 +1080,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1929-0748",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:47+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0165-0327",
-      "journal_name": "JOURNAL OF AFFECTIVE DISORDERS",
-      "journal_name_short": "J Affect Disord",
-      "journal_id": null,
-      "detail_url": "",
-      "overall_score": null,
-      "impact_factor": 4.9,
-      "impact_factor_year": null,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Journal of affective disorders",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "local-index",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:03+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1308-5727",
-      "journal_name": "Journal of Clinical Research in Pediatric Endocrinology",
-      "journal_name_short": "J Clin Res Pediatr Endocrinol",
-      "journal_id": 9815,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=9815&page=journalapp&view=detail",
-      "overall_score": 5.0,
-      "impact_factor": 1.9,
-      "impact_factor_year": null,
-      "h_index": 30,
-      "citescore": 3.1,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=9815&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Journal of clinical research in pediatric endocrinology",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1308-5735",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:06+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:47+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1540,8 +1116,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1533-4112",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:59+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:59+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1575,78 +1152,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1756-5391",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:55+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0954-6820",
-      "journal_name": "JOURNAL OF INTERNAL MEDICINE",
-      "journal_name_short": "J Intern Med",
-      "journal_id": 4702,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=4702&page=journalapp&view=detail",
-      "overall_score": 7.6,
-      "impact_factor": 7.6,
-      "impact_factor_year": null,
-      "h_index": 143,
-      "citescore": 19.0,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=4702&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Journal of internal medicine",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1365-2796",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:06+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1090-7807",
-      "journal_name": "JOURNAL OF MAGNETIC RESONANCE",
-      "journal_name_short": "J Magn Reson",
-      "journal_id": 4747,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=4747&page=journalapp&view=detail",
-      "overall_score": 6.2,
-      "impact_factor": 2.1,
-      "impact_factor_year": null,
-      "h_index": 112,
-      "citescore": 4.4,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=4747&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Journal of magnetic resonance",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1096-0856",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:06+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:55+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1680,8 +1188,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1743-0003",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:14+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:14+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1715,8 +1224,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2150-1327",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:13+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:13+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1750,8 +1260,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1095-8673",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:51+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:51+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1785,8 +1296,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1097-6787",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:42+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:42+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1820,78 +1332,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1531-4995",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:07+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0730-725X",
-      "journal_name": "MAGNETIC RESONANCE IMAGING",
-      "journal_name_short": "Magn Reson Imaging",
-      "journal_id": 5631,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=5631&page=journalapp&view=detail",
-      "overall_score": 5.7,
-      "impact_factor": 2.1,
-      "impact_factor_year": null,
-      "h_index": 102,
-      "citescore": 3.9,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=5631&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "",
-      "reference": "backfill-brainmri-20260723-3day",
-      "references": [
-        "backfill-brainmri-20260723-3day"
-      ],
-      "matched_query": "name:Magn Reson Imaging",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:28:29+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1059-910X",
-      "journal_name": "MICROSCOPY RESEARCH AND TECHNIQUE",
-      "journal_name_short": "Microsc Res Tech",
-      "journal_id": null,
-      "detail_url": "",
-      "overall_score": null,
-      "impact_factor": 2.1,
-      "impact_factor_year": null,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Microscopy research and technique",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "local-index",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:03+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:07+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1925,8 +1368,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1744-8069",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:19+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:19+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1960,8 +1404,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1748-3395",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:12+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:12+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -1995,8 +1440,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1687-5443",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:29:41+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:29:41+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2030,43 +1476,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1526-632X",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:32:40+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1523-5866",
-      "journal_name": "Neuro-Oncology",
-      "journal_name_short": "Neuro Oncol",
-      "journal_id": null,
-      "detail_url": "https://academic.oup.com/neuro-oncology/pages/About",
-      "overall_score": null,
-      "impact_factor": 13.1,
-      "impact_factor_year": 2025,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://academic.oup.com/neuro-oncology/pages/About",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Neuro-Oncology",
-      "reference": "backfill-brainmri-20260723-official",
-      "references": [
-        "backfill-brainmri-20260723-official"
-      ],
-      "matched_query": "official:https://academic.oup.com/neuro-oncology/pages/About",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:33:21+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:32:40+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2100,8 +1512,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1769-7131",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:26+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:26+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2135,78 +1548,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1573-6660",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:34+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1545-9683",
-      "journal_name": "NEUROREHABILITATION AND NEURAL REPAIR",
-      "journal_name_short": "Neurorehabil Neural Repair",
-      "journal_id": 6186,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=6186&page=journalapp&view=detail",
-      "overall_score": 7.4,
-      "impact_factor": 4.0,
-      "impact_factor_year": null,
-      "h_index": 92,
-      "citescore": 6.9,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=6186&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Neurorehabilitation and neural repair",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "name:Neurorehabilitation and neural repair",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:24+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0149-7634",
-      "journal_name": "NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS",
-      "journal_name_short": "Neurosci Biobehav Rev",
-      "journal_id": 6189,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=6189&page=journalapp&view=detail",
-      "overall_score": 8.9,
-      "impact_factor": 8.5,
-      "impact_factor_year": null,
-      "h_index": 209,
-      "citescore": 15.7,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=6189&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Neuroscience and biobehavioral reviews",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1873-7528",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:05+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:34+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2240,8 +1584,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1878-7479",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:45+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:45+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2275,8 +1620,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1502-4725",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:32:23+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:32:23+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2310,8 +1656,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2398-6352",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:58+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:58+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2345,8 +1692,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:2193-8237",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:33:13+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:33:13+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2380,8 +1728,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1758-1877",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:33+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:33+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2415,8 +1764,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1526-4637",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:15+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:15+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2450,8 +1800,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1873-5177",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:21+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:21+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2485,8 +1836,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1471-2865",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:32:07+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:32:07+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2520,43 +1872,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1934-1563",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:04+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1474-7758",
-      "journal_name": "PRACTICAL NEUROLOGY",
-      "journal_name_short": "Pract Neurol",
-      "journal_id": 23241,
-      "detail_url": "https://letpub.com.cn/index.php?journalid=23241&page=journalapp&view=detail",
-      "overall_score": 4.1,
-      "impact_factor": 2.5,
-      "impact_factor_year": null,
-      "h_index": 0,
-      "citescore": 3.2,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=23241&xuanxiangk_id=2#xuanxk_3",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Practical neurology",
-      "reference": "backfill-brainmri-20260723-precise",
-      "references": [
-        "backfill-brainmri-20260723-precise"
-      ],
-      "matched_query": "issn:1474-7766",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:31:05+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:04+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2590,78 +1908,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1091-6490",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:15+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1873-5118",
-      "journal_name": "Progress in Neurobiology",
-      "journal_name_short": "Prog Neurobiol",
-      "journal_id": null,
-      "detail_url": "https://www.sciencedirect.com/journal/progress-in-neurobiology",
-      "overall_score": null,
-      "impact_factor": 6.1,
-      "impact_factor_year": null,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://www.sciencedirect.com/journal/progress-in-neurobiology",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Progress in Neurobiology",
-      "reference": "backfill-brainmri-20260723-official",
-      "references": [
-        "backfill-brainmri-20260723-official"
-      ],
-      "matched_query": "official:https://www.sciencedirect.com/journal/progress-in-neurobiology",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:33:21+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "1878-4216",
-      "journal_name": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
-      "journal_name_short": "Prog Neuropsychopharmacol Biol Psychiatry",
-      "journal_id": null,
-      "detail_url": "https://www.sciencedirect.com/journal/progress-in-neuro-psychopharmacology-and-biological-psychiatry",
-      "overall_score": null,
-      "impact_factor": 3.9,
-      "impact_factor_year": null,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://www.sciencedirect.com/journal/progress-in-neuro-psychopharmacology-and-biological-psychiatry",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
-      "reference": "backfill-brainmri-20260723-official",
-      "references": [
-        "backfill-brainmri-20260723-official"
-      ],
-      "matched_query": "official:https://www.sciencedirect.com/journal/progress-in-neuro-psychopharmacology-and-biological-psychiatry",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:33:21+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:15+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2695,8 +1944,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1432-2072",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:28:40+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:28:40+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2730,43 +1980,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1878-3627",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:16+00:00"
-    },
-    {
-      "field": "manual_supplement",
-      "field_tag": -1,
-      "page": 0,
-      "issn": "0035-3787",
-      "journal_name": "Revue Neurologique",
-      "journal_name_short": "Rev Neurol (Paris)",
-      "journal_id": null,
-      "detail_url": "https://www.sciencedirect.com/journal/revue-neurologique",
-      "overall_score": null,
-      "impact_factor": 2.3,
-      "impact_factor_year": null,
-      "h_index": null,
-      "citescore": null,
-      "cas_quartile": "",
-      "big_category": "",
-      "sub_category": "",
-      "sci_indexed": "",
-      "oa_status": "",
-      "acceptance_rate": "",
-      "review_cycle": "",
-      "article_url": "https://www.sciencedirect.com/journal/revue-neurologique",
-      "views": 0,
-      "fields": [
-        "manual_supplement"
-      ],
-      "manual_full_name": "Revue Neurologique",
-      "reference": "backfill-brainmri-20260723-official",
-      "references": [
-        "backfill-brainmri-20260723-official"
-      ],
-      "matched_query": "official:https://www.sciencedirect.com/journal/revue-neurologique",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T10:33:21+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:16+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2800,8 +2016,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1432-2129",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:27+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:27+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2835,8 +2052,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1945-5119",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:30:46+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:30:46+00:00",
+      "audit_role": "reference_only"
     },
     {
       "field": "manual_supplement",
@@ -2870,8 +2088,9 @@
         "backfill-tms-20260723"
       ],
       "matched_query": "issn:1868-601X",
-      "source": "manual_override",
-      "updated_at": "2026-07-23T15:31:48+00:00"
+      "source": "reference_audit",
+      "updated_at": "2026-07-23T15:31:48+00:00",
+      "audit_role": "reference_only"
     }
   ]
 }

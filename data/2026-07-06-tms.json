@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-06",
+  "articles": [
+    {
+      "title": "Stroke-related ipsilateral haemiparesis: a single-centre case series and literature review.",
+      "summary": "INTRODUCTION: Ipsilateral haemiparesis (ILH) in stroke is rare and challenges the conventional understanding of motor system organisation. We aim to describe ILH strokes from our academic stroke centre, complemented by a literature review. PATIENTS AND METHODS: All patients with haemiparesis and an acute ischaemic lesion on neuroimaging were selected from 2003 to 2023 in our stroke registry. Ipsilateral haemiparesis cases were identified, and all their investigations were reviewed, including MRI tractography, functional MRI and transcranial magnetic stimulation (if performed). We also performed a review of the literature of ILH cases in ischaemic and haemorrhagic strokes. We compared selected cases with patients with contralateral haemiparesis in our local registry. RESULTS: Among 2433 acute ischaemic stroke patients with haemiparesis and unilateral, MRI-confirmed supratentorial lesions, we identified 4 ILH cases (0.16%). All 4 showed normal corticospinal tract (CST) decussation on neuroimaging, while functional MRI revealed bilateral motor activation in at least 1 upper limb. Our literature review identified 61 additional ILH cases meeting inclusion criteria. In exploratory analyses of the assembled dataset, ILH appeared more frequently reported in younger patients and those with prior stroke. Additional investigations were consistent with multiple potential mechanisms, including CST reorganisation, bilateral motor representation and CST anatomical variation. CONCLUSION: Ipsilateral haemiparesis is a rare manifestation of acute stroke that appeared more frequently reported among younger patients and those with prior strokes. However, these findings should be interpreted cautiously given the heterogeneous nature of the data sources. Some ILH may involve corticospinal reorganisation, potentially highlighting the importance of neuroplasticity in post-stroke motor control.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42406906/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Eur Stroke J",
+      "journal_issn": "2396-9881",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Role of the Upper Motor Neuron in the Generation of Fasciculations in Early Disease Stages of Amyotrophic Lateral Sclerosis.",
+      "summary": "BACKGROUND AND OBJECTIVES: The origin of fasciculation potentials (FPs) in the early stages of amyotrophic lateral sclerosis (ALS) remains a subject of debate. We investigated the role of the motor cortex in FP generation by comparing resting FP frequency in the first dorsal interosseous (FDI) muscle before and after motor cortex inhibition induced by continuous theta-burst stimulation (cTBS). METHODS: We studied patients with early-stage ALS (G1) and a disease-control group (G2) comprising individuals with chronic lower motor neuron (LMN) disorders or benign fasciculation syndrome without upper motor neuron (UMN) involvement. Inclusion required a right FDI strength of MRC grade 4+ or 5. At baseline, we recorded FP frequency and amplitude in the right FDI (3 replicates) and the motor evoked potential (MEP) amplitude. These measures were repeated immediately after cTBS-induced corticomotor inhibition. Statistical significance was set at p < 0.05. RESULTS: Twenty-two patients with ALS (14 men; median age 65.5 years; 72.7% spinal onset) were included, with a median disease duration of 6.4 months and a mean ALSFRS-R score of 44. The control group (G2) consisted of 11 participants. Notably, 50% of the ALS cohort showed no neurogenic features on needle EMG of the right FDI at enrollment. Baseline peripheral and cortical amplitudes and left hemisphere motor thresholds were comparable between groups. After cTBS, MEP amplitudes decreased significantly in both G1 (0.93 vs 0.50 mV, p = 0.02) and G2 (1.23 vs 0.38 mV, p = 0.02). However, a significant reduction in FP frequency (39.5%) occurred only in the ALS group (0.43 vs 0.26 Hz, p < 0.001), whereas no change was observed in G2 (0.60 vs 0.77 Hz, p = 0.14). Patients with ALS with a normal FDI EMG demonstrated an even greater reduction in FP frequency (54.5%). FP amplitudes remained stable across both groups after cTBS. DISCUSSION: Our findings indicate that in early ALS, LMN excitability is significantly modulated by descending corticospinal input. The reduction in FP frequency after cortical inhibition suggests that FPs in early ALS are driven by a combination of both UMN and LMN hyperexcitability, distinguishing them from fasciculations in other neurogenic disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42407013/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Neurology",
+      "journal_issn": "1526-632X",
+      "published_date": "2026-07-06",
+      "date": "2026-07-06",
+      "impact_factor": 8.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NEUROLOGY"
+    }
+  ]
+}

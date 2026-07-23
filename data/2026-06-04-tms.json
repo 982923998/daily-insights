@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-04",
+  "articles": [
+    {
+      "title": "Cerebellar rTMS ameliorates cognitive impairment in Alzheimer's disease: A randomized trial.",
+      "summary": "BACKGROUND: Developing effective neuromodulatory therapies for Alzheimer's disease (AD) is a critical unmet need. While repetitive transcranial magnetic stimulation (rTMS) shows promise, its optimal targets and mechanisms remain incompletely understood. The cerebellum, a key modulator of large-scale brain network dynamics, represents a novel therapeutic target for addressing the distributed cognitive network dysfunction in AD. OBJECTIVE: This study aimed to evaluate the cognitive efficacy and safety of cerebellar rTMS in AD and to elucidate its potential mechanism of action through the lens of structural network topology. METHODS: In this randomized, double-blind, sham-controlled trial, patients with AD were assigned to receive active or sham rTMS targeting the bilateral cerebellar Crus II region. Cognitive assessments were conducted at baseline, post-treatment (4 weeks), and at a 12-week follow-up. Diffusion tensor imaging (DTI) was employed to analyze changes in whole-brain structural network topology. RESULTS: Compared to the sham group, the active rTMS group demonstrated significantly greater improvement in global and domain-specific cognitive function at 4 weeks, with benefits sustained at the 12-week follow-up. Response rates on the MMSE and MoCA were also significantly higher in the active group. Neuroimaging revealed that active rTMS enhanced global network efficiency, indicated by significant increases in global/local efficiency and clustering coefficient, alongside a decreased characteristic path length, signifying an optimization toward small-world topology. Furthermore, treatment selectively enhanced nodal efficiency within core hubs of the default mode, frontoparietal, and salience networks. Critically, these structural improvements correlated with cognitive gains; increased nodal efficiency in the precuneus and posterior cingulate cortex was associated with improved episodic memory and visuospatial function. CONCLUSION: Cerebellar rTMS is a safe and effective intervention that confers sustained cognitive benefits in AD. Its therapeutic mechanism likely involves the reinforcement of structural connectivity and enhanced integrative capacity within supraordinate cognitive networks, particularly the default mode network, via cerebello-cortical pathways.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229579/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-02",
+      "date": "2026-06-04",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    },
+    {
+      "title": "Convergence of TMS Sites and Lesion Locations Associated With Nicotine Addiction Improvement on a Common Brain Circuit.",
+      "summary": "OBJECTIVE: Transcranial magnetic stimulation (TMS) is cleared by the U.S. Food and Drug Administration for smoking cessation, yet the optimal neuroanatomical stimulation target remains unclear. Lesion locations causally linked to nicotine addiction remission have recently been used to identify a candidate brain circuit; however, this circuit has not yet been tested in relation to TMS outcomes. The authors evaluated whether TMS sites more connected to this lesion-derived brain circuit are associated with greater reductions in nicotine addiction. METHODS: Seventy-two participants with tobacco use disorder abstained from smoking for ≥12 hours and received TMS targeting four neuroanatomical regions in the left hemisphere (the dorsolateral prefrontal cortex, superior frontal gyrus, posterior parietal cortex, and visual cortex) across separate sessions, yielding a total of 243 stimulation sites. Nicotine withdrawal was assessed before and after each session using the Shiffman-Jarvik Withdrawal Scale. Functional connectivity between each TMS site and the lesion-based addiction remission circuit was estimated using a normative connectome derived from 1,000 healthy individuals. The authors examined whether TMS site connectivity to this circuit predicted improvements in withdrawal symptoms. RESULTS: TMS site connectivity to the lesion-based addiction remission circuit was significantly associated with percentage improvement in withdrawal symptoms. This relationship remained significant after adjusting for sex, baseline nicotine dependence scores, or both covariates simultaneously. A data-driven TMS circuit for withdrawal improvement closely matched the topography of the lesion-based remission circuit (Pearson's r=-0.74). Integration of lesion and TMS data identified neuroanatomical targets in the frontopolar cortex, posterior parietal cortex, lateral temporal lobe, and superior frontal gyrus. CONCLUSIONS: TMS sites and lesion locations associated with nicotine addiction improvement converge on a common brain circuit. This circuit offers a testable target that may enhance therapeutic outcomes in future TMS interventions for nicotine addiction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42231081/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Am J Psychiatry",
+      "journal_issn": "1535-7228",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": 15.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "AMERICAN JOURNAL OF PSYCHIATRY"
+    },
+    {
+      "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+      "summary": "BACKGROUND: Repetitive transcranial magnetic stimulation (rTMS) is widely used to modulate brain activity and treat neurological and psychiatric disorders, yet how diverse stimulation protocols shape cortical function-and whether they share common principles-remains unclear. METHODS: We combined resting-state fMRI acquired before and after single-session rTMS across nine distinct protocols targeting specific cortical regions to comprehensively map changes in the local amplitude of hemodynamic fluctuations. RESULTS: We found that after-effects co-varied across protocols, with similarity patterns constrained by structural and functional connectivity. Strikingly, a shared spatial pattern emerged across all protocols, closely aligned with the brain's sensory-association hierarchy. Both shared and protocol-specific effects exhibited significant correspondence with the distribution of neurotransmitter systems. Mapping to the Neurosynth cognitive atlas revealed many-to-many correspondences between rTMS effects and cognitive domains, primarily driven by stimulation of parietal and motor regions. These rTMS-induced changes also overlapped with functional abnormalities in major depressive disorder and Parkinson's disease, highlighting the parietal cortex as a potential transdiagnostic target. Key results were independently replicated in two datasets of multi-session rTMS. CONCLUSIONS: These findings reveal a unified organizational framework for rTMS after-effects, grounded in cortical hierarchy, neurochemistry, and cognitive activations, offering potential guidance for neuromodulations of brain disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-03",
+      "date": "2026-06-04",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    }
+  ]
+}

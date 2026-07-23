@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-05",
+  "articles": [
+    {
+      "title": "Efficacy of non-invasive brain stimulation in Alzheimer's disease: An umbrella review of meta-analyses.",
+      "summary": "This umbrella review integrates systematic reviews and meta-analyses to evaluate the efficacy of non-invasive brain stimulation (NIBS) in Alzheimer's disease (AD). We searched seven databases from inception to 20 June 2025 for relevant literature. Effect sizes and 95% confidence intervals were extracted using a structured approach and visualized through effect size heatmaps and evidence mapping. Methodological quality and evidence certainty were assessed using AMSTAR 2 and GRADE, respectively. A total of 42 publications, encompassing 130 primary studies and 5771 patients, were included. NIBS yielded significant immediate improvements in global cognition, daily living, neuropsychiatric symptoms, memory, language, executive function, global impression, visuospatial function, and cholinergic transmission. Among 119 outcome associations, 57.1% were statistically significant (p < 0.05). Long-term benefits were sustained only in global cognition. Moreover, these techniques exhibited modality-specific effects on cognitive and clinical outcomes. Subgroup analysis identified repetitive transcranial magnetic stimulation (rTMS) as the most effective technique, supported by 16 moderate- to high-quality associations. Transcranial direct current stimulation (tDCS) showed inconsistent results with only three moderate-quality associations, while transcranial alternating current stimulation (tACS) demonstrated potential but limited evidence. Intermittent theta burst stimulation (iTBS) showed no significant cognitive benefits in the limited available evidence. Available safety evidence, though limited, suggests generally mild and transient adverse effects. NIBS, particularly rTMS, shows therapeutic potential for AD, though this is based on preliminary evidence. Future multicenter long-term studies and standardized protocols are needed to facilitate the precise application of NIBS in AD treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398685/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Neurosci Biobehav Rev",
+      "journal_issn": "1873-7528",
+      "published_date": "2026-07-03",
+      "date": "2026-07-05",
+      "impact_factor": 8.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS"
+    }
+  ]
+}

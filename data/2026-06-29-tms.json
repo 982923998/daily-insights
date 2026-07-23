@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-29",
+  "articles": [
+    {
+      "title": "Inducing physiological polarity and performing gene editing using CRISPR-Cas9 in human trophoblast organoids.",
+      "summary": "Human trophoblast organoids (TOs) are three-dimensional ex vivo culture models that enable the study of placental development, physiology and pathology. A major limitation of TOs grown in Matrigel or other extracellular matrices is their apical-inward polarity, in which cytotrophoblasts (CTBs) line the outer surface and the multinucleated syncytiotrophoblast (STB) forms the interior layer, opposite to their orientation in vivo. Here we present a detailed protocol to reverse TO polarity, producing organoids that recapitulate the cellular orientation of human chorionic villi. Standard TOs with inward-facing STBs (STBin) undergo polarity reversal during suspension culture to generate outward-facing STBs (STBout). In parallel, we describe a complementary protocol for CRISPR-Cas9-mediated gene editing in TOs and illustrate its application in generating CGA (hCG) knockout organoids, which disrupt placental hormone secretion, and MAVS knockouts, which impair antiviral signaling. The outward-facing STB protocol can be completed in ~2 weeks, whereas the establishment of stable gene-edited TO lines requires 2-3 months. Successful implementation requires experience in TO culture, lentiviral transduction and CRISPR-Cas9-based genome editing. Together, these protocols provide versatile and reproducible methods for modeling placental architecture and studying gene function in vitro, enabling functional interrogation of trophoblast biology within physiologically oriented organoids.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42373862/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Nat Protoc",
+      "journal_issn": "1750-2799",
+      "published_date": "2026-06-29",
+      "date": "2026-06-29",
+      "impact_factor": 16.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Protocols"
+    }
+  ]
+}

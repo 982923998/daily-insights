@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-24",
+  "articles": [
+    {
+      "title": "Dose-response associations of total pulse dose and intersession interval with clinical outcomes in accelerated rTMS for major depressive episodes: A systematic review and meta-analysis.",
+      "summary": "OBJECTIVE: To quantify dose-response associations of total pulse dose and intersession interval with antidepressant outcomes in accelerated repetitive transcranial magnetic stimulation (rTMS), with more than one treatment session per day, for major depressive episodes. METHODS: A systematic review and dose-response meta-analysis of total pulses and intersession interval was conducted, stratified by sham-controlled randomized controlled trials (RCTs) versus non-sham-controlled trials/observational studies, using linear, quadratic, and restricted cubic spline models. Fifty-nine studies (2908 participants) were included. Outcomes were symptom change (standardized mean difference; Hedges' g), response, and remission. RESULTS: Among the included accelerated rTMS protocols, total pulses ranged from 10,800 to 120,000 (median 36,000), and intersession intervals ranged from 10 to 480 min (median 50). Across sham-controlled RCTs, higher total pulses showed a consistent positive association with efficacy, response, and remission. In non-sham-controlled trials and observational studies, the association was clearer for response and remission than for continuous symptom improvement. In sham-controlled RCTs, intersession interval showed a non-linear (bell-shaped) association, with intermediate spacing (roughly 30-75 min) generally outperforming shorter or longer intervals; findings in non-sham-controlled evidence were mixed. Compared with session number or pulses per session, total pulses appeared to be a more informative dose metric. CONCLUSIONS: Total pulse count generally appears to follow a \"more is better\" pattern, and intersession interval may show a non-linear association with outcomes. This meta-analysis offers a quantitative framework that may help inform parameter optimization and guide future trials aimed at refining and standardizing accelerated protocols for clinical implementation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42173311/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-05-22",
+      "date": "2026-05-24",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    },
+    {
+      "title": "Prior Expectations Bias Confidence Judgments Through Parietal Alpha-Band Modulation.",
+      "summary": "Humans possess the metacognitive ability to estimate the likely accuracy of their own decisions through confidence judgments. Yet, whether prior information shapes confidence and the neural mechanisms mediating such influence, remain to be determined. Here, two complementary studies identify parietal alpha modulation as an oscillatory mechanism linking prior expectations to selective shifts in metacognitive bias. In Study 1, 75 participants performed a visual detection task with symbolic cues signaling target probability. Within the Type II Signal Detection Theory framework, probabilistic cues induce a congruence-dependent metacognitive bias: confidence increases when perceptual responses align with expectations and decreases when they diverge. Importantly, metacognitive sensitivity is unaffected. Critically, electroencephalography shows that cue-induced right-parietal alpha modulation predicts interindividual differences in the magnitude of this bias. In Study 2 (N = 88), right-parietal continuous Theta-Burst Stimulation (cTBS) disrupts cue-induced alpha modulation, relative to sham stimulation. This oscillatory change, in turn, drives the selective reduction in metacognitive bias. Together, these findings demonstrate that parietal alpha modulation causally and selectively shapes metacognitive bias, revealing an oscillatory mechanism for predictive metacognition.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42175740/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Adv Sci (Weinh)",
+      "journal_issn": "2198-3844",
+      "published_date": "2026-05-23",
+      "date": "2026-05-24",
+      "impact_factor": 14.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Advanced Science"
+    }
+  ]
+}

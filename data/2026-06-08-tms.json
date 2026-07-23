@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-08",
+  "articles": [
+    {
+      "title": "Creating High Plasticity in Hard Ceramics via Coherent Twin Boundary Migration-Driven Detwinning.",
+      "summary": "Lacking plasticity at room temperature is a critical limiting factor preventing the widespread use of hard ceramics, which exhibit many superior qualities but are brittle and susceptible to catastrophic failure. Coherent twin boundaries (CTBs) hold the potential to solve this difficult problem, but challenges remain. Here, we unveil a radically contrasting twin boundary migration (TBM)-driven detwinning mechanism that creates high plasticity in hard ceramics via collective motion and eventual annihilation of CTBs. Translational crystal symmetry breaking induced by CTBs allows strain concentration and energy-efficient segmented sequential local bond flipping to drive the TBM process while maintaining the intrinsic ultimate strength. Electronic structure analysis further reveals that CTBs enhance electron delocalization and weaken local bonding, thus enabling bond flipping and structural rearrangement. This work provides a conceptual breakthrough in understanding plastic deformation in hard and brittle crystals and opens a new pathway for overcoming the long-standing strength-toughness trade-off in transition-metal nitrides.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42253022/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Nano Lett",
+      "journal_issn": "1530-6992",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": 9.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NANO LETTERS"
+    },
+    {
+      "title": "How Standardized Is Transcranial Magnetic Stimulation Treatment for Depression? Large-Cohort Modeling Reveals Systematic Dosimetric Variability.",
+      "summary": "INTRODUCTION: Repetitive transcranial magnetic stimulation (rTMS) is a widely utilized, noninvasive brain stimulation technique for treating neurological and psychiatric disorders worldwide. The efficacy of rTMS is influenced by individual head morphology, which shapes the induced electric field (E-field) in the brain. The standard practice for dosing rTMS involves adjusting the intensity to a defined percentage of the motor threshold (MT), a method exemplified by the globally adopted, US FDA-approved protocol of using 120% MT for depression. Since head morphology varies systematically across ethnic groups, current dosing protocols may lead to inconsistent cortical dosing. METHODS: Here, we used large-scale computational modeling (N = 1,085) to systematically evaluate TMS dosage across \"White,\" \"Han Chinese,\" and \"Black or African Am.\" RESULTS: Our findings reveal striking ethnic disparities in the E-field ratio between the therapeutic target (left dorsolateral prefrontal cortex, DLPFC) and the calibration site (left primary motor cortex, M1). \"Han Chinese\" individuals exhibited a significantly higher E-field ratio (E-fieldDLPFC/E-fieldM1 = 1.226) compared to \"White\" individuals (E-fieldDLPFC/E-fieldM1 = 1.096). These differences are primarily driven by variations in scalp-to-cortex distance (SCD). Based on these findings, we derived both simplified population-level adjustment formulas and individualized SCD-based dosing equations and implemented them in a web-based tool for practical use. CONCLUSION: Our results suggest that applying a uniform multiplier of MT to DLPFC stimulation may introduce systematic differences in delivered cortical dose across ethnic populations, highlighting that universal dosing conventions derived predominantly from specific demographic cohorts may embed bias, such that established safety and efficacy profiles may not be uniformly applicable across diverse global populations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42258597/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Psychother Psychosom",
+      "journal_issn": "1423-0348",
+      "published_date": "2026-06-08",
+      "date": "2026-06-08",
+      "impact_factor": 18.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "PSYCHOTHERAPY AND PSYCHOSOMATICS"
+    }
+  ]
+}

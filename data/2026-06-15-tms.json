@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "articles": [
+    {
+      "title": "Effect of pulse width and shape on transcranial magnetic stimulation induced heart-brain coupling.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42288252/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-13",
+      "date": "2026-06-15",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    }
+  ]
+}

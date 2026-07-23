@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-14",
+  "articles": [
+    {
+      "title": "Personalized Network-Guided Neuromodulation Enhances Human Working Memory.",
+      "summary": "The next frontier in cognitive neuromodulation is defined by personalized and adaptive protocols, necessitating approaches tailored to individual functional neuroanatomy and brain-state fluctuations. Here, we introduce an adaptive neuromodulation framework that integrates individualized network targeting with real-time decoding of brain states to precisely target working memory functional networks. Using concurrent transcranial magnetic stimulation (TMS) and functional magnetic resonance imaging (fMRI), we first mapped participant-specific networks and identified personalized targets. A real-time decoder then tracked stimulation-evoked neural dynamics to empirically determine the optimal frequency (i.e., the best-performing within a tested set of 5, 10, and 20 Hz) and a corresponding suboptimal frequency for each individual. In a multi-session crossover study, only the optimal-frequency stimulation significantly improved working memory, with the decoder's output predicting behavioral gains. A key finding is the substantial inter-individual variability in the optimal frequency, providing evidence against the notion of a universal \"best\" frequency. Our results demonstrate that cognitive enhancement is governed by the precise interaction between stimulation target and frequency. This work provides a causal demonstration of personalized, network-based neuromodulation and offers proof of concept for a generalizable, biomarker-driven framework, representing a step toward advancing cognitive therapeutics. Trial Registration: This study is registered at ClinicalTrials.gov (identifier: NCT04402294).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42284508/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Adv Sci (Weinh)",
+      "journal_issn": "2198-3844",
+      "published_date": "2026-06-12",
+      "date": "2026-06-14",
+      "impact_factor": 14.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Advanced Science"
+    },
+    {
+      "title": "Personalized high-dose accelerated intermittent theta-burst stimulation improves cognitive function in mild Alzheimer's disease: A randomized sham-controlled trial.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42285404/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-12",
+      "date": "2026-06-14",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    },
+    {
+      "title": "Effect of pulse width and shape on transcranial magnetic stimulation induced heart-brain coupling.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42288252/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-13",
+      "date": "2026-06-14",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-13",
+  "articles": [
+    {
+      "title": "Development and validation of the transcranial magnetic stimulation reporting assessment tool (TMS-RAT).",
+      "summary": "BACKGROUND: A standardised tool for comprehensive reporting can improve transparency, support consistent documentation, and enable comparison across transcranial magnetic stimulation (TMS) studies. To date, the most used reporting checklist lacks definitions of full reporting and was not initially evaluated for usability or reliability. METHODS: We developed the TMS Reporting Assessment Tool (TMS-RAT), a comprehensive reporting framework that provides clear definitions and examples for its items. We tested the usability and reliability of the TMS-RAT by rating all studies published between 1987 and 31st January 2025 using afferent conditioning (n = 333), protocols that encompass many reporting categories identified during tool development. Seventeen independent raters contributed across three development phases, a validation phase, and a retest phase, with naïve raters introduced in each phase. Iterative refinements of the tool were informed by inter-rater reliability, qualitative rater feedback, and consultation with external TMS experts. RESULTS: We present two versions of the tool: the 72-item TMS-RAT v1.0, designed to guide comprehensive reporting, and the TMS-RAT v1.1, a subset of 50 items with the highest inter-rater (overall AC1 = 0.78, range = [0.60-0.99]) and test-retest reliability (overall AC1 = 0.82, range = [0.65-1.0]), intended for retrospective evaluation of reporting in systematic reviews and meta-analyses. The tool has not been validated outside the afferent conditioning literature or on studies not recording motor evoked potentials. CONCLUSION: The TMS-RAT is a comprehensive, reliable tool that seeks to improve transparency and reproducibility in TMS research. We aim to extend the tool to cover additional TMS protocols.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435937/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-07-11",
+      "date": "2026-07-13",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    }
+  ]
+}

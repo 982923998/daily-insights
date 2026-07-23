@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-05",
+  "articles": [
+    {
+      "title": "Convergence of TMS Sites and Lesion Locations Associated With Nicotine Addiction Improvement on a Common Brain Circuit.",
+      "summary": "OBJECTIVE: Transcranial magnetic stimulation (TMS) is cleared by the U.S. Food and Drug Administration for smoking cessation, yet the optimal neuroanatomical stimulation target remains unclear. Lesion locations causally linked to nicotine addiction remission have recently been used to identify a candidate brain circuit; however, this circuit has not yet been tested in relation to TMS outcomes. The authors evaluated whether TMS sites more connected to this lesion-derived brain circuit are associated with greater reductions in nicotine addiction. METHODS: Seventy-two participants with tobacco use disorder abstained from smoking for ≥12 hours and received TMS targeting four neuroanatomical regions in the left hemisphere (the dorsolateral prefrontal cortex, superior frontal gyrus, posterior parietal cortex, and visual cortex) across separate sessions, yielding a total of 243 stimulation sites. Nicotine withdrawal was assessed before and after each session using the Shiffman-Jarvik Withdrawal Scale. Functional connectivity between each TMS site and the lesion-based addiction remission circuit was estimated using a normative connectome derived from 1,000 healthy individuals. The authors examined whether TMS site connectivity to this circuit predicted improvements in withdrawal symptoms. RESULTS: TMS site connectivity to the lesion-based addiction remission circuit was significantly associated with percentage improvement in withdrawal symptoms. This relationship remained significant after adjusting for sex, baseline nicotine dependence scores, or both covariates simultaneously. A data-driven TMS circuit for withdrawal improvement closely matched the topography of the lesion-based remission circuit (Pearson's r=-0.74). Integration of lesion and TMS data identified neuroanatomical targets in the frontopolar cortex, posterior parietal cortex, lateral temporal lobe, and superior frontal gyrus. CONCLUSIONS: TMS sites and lesion locations associated with nicotine addiction improvement converge on a common brain circuit. This circuit offers a testable target that may enhance therapeutic outcomes in future TMS interventions for nicotine addiction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42231081/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Am J Psychiatry",
+      "journal_issn": "1535-7228",
+      "published_date": "2026-06-03",
+      "date": "2026-06-05",
+      "impact_factor": 15.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "AMERICAN JOURNAL OF PSYCHIATRY"
+    },
+    {
+      "title": "Mapping shared and specific cortical after-effects of repetitive TMS on brain function.",
+      "summary": "BACKGROUND: Repetitive transcranial magnetic stimulation (rTMS) is widely used to modulate brain activity and treat neurological and psychiatric disorders, yet how diverse stimulation protocols shape cortical function-and whether they share common principles-remains unclear. METHODS: We combined resting-state fMRI acquired before and after single-session rTMS across nine distinct protocols targeting specific cortical regions to comprehensively map changes in the local amplitude of hemodynamic fluctuations. RESULTS: We found that after-effects co-varied across protocols, with similarity patterns constrained by structural and functional connectivity. Strikingly, a shared spatial pattern emerged across all protocols, closely aligned with the brain's sensory-association hierarchy. Both shared and protocol-specific effects exhibited significant correspondence with the distribution of neurotransmitter systems. Mapping to the Neurosynth cognitive atlas revealed many-to-many correspondences between rTMS effects and cognitive domains, primarily driven by stimulation of parietal and motor regions. These rTMS-induced changes also overlapped with functional abnormalities in major depressive disorder and Parkinson's disease, highlighting the parietal cortex as a potential transdiagnostic target. Key results were independently replicated in two datasets of multi-session rTMS. CONCLUSIONS: These findings reveal a unified organizational framework for rTMS after-effects, grounded in cortical hierarchy, neurochemistry, and cognitive activations, offering potential guidance for neuromodulations of brain disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42237355/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "BMC Med",
+      "journal_issn": "1741-7015",
+      "published_date": "2026-06-03",
+      "date": "2026-06-05",
+      "impact_factor": 8.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "BMC Medicine"
+    }
+  ]
+}

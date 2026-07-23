@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-09",
+  "articles": [
+    {
+      "title": "Mapping the Intervention Landscape for Methamphetamine Use Disorder: A Scoping Review of Integrated Pharmacological, Behavioral, and Neuromodulation Approaches.",
+      "summary": "BACKGROUND: The global resurgence of methamphetamine use disorder (MUD) represents a critical public health challenge, characterized by high morbidity and a lack of approved pharmacotherapies. Treatment research spans diverse domains, but a comprehensive synthesis of the scope, efficacy, and interrelationships of these approaches is lacking. OBJECTIVE: To systematically map and synthesize the available evidence on interventions for MUD, including their efficacy, mechanisms, and the overall structure of the research landscape. METHODS: Following the Arksey and O'Malley framework and PRISMA-ScR guidelines, we conducted a systematic search of 5 electronic databases (MEDLINE, Embase, CENTRAL, PsycINFO, CINAHL) from inception to October 2025. We included studies of any design evaluating interventions for MUD in human populations. RESULTS: From 6852 screened records, 62 studies were included. Our synthesis reveals a tripartite intervention landscape: (1) Behavioral interventions, particularly contingency management (CM), demonstrate the most robust efficacy, increasing abstinence rates by 40% to 60%. (2) Pharmacological approaches show promise with combination therapy (naltrexone-bupropion and Wellbutrin), significantly increasing methamphetamine-negative urine samples versus placebo (11.4% vs 5.7%), though effect sizes are generally modest. (3) Neuromodulation, specifically repetitive transcranial magnetic stimulation targeting the dorsolateral prefrontal cortex, consistently reduces cue-induced craving by 25% to 35%. Critical moderators of treatment response were identified, including the OPRM1 A118G polymorphism and high rates of polydrug use (up to 42% in opioid use disorder cohorts), which predicts poorer outcomes. Implementation feasibility and intervention fidelity are critical considerations, particularly for CM and pharmacotherapy adherence. CONCLUSION: Effective MUD management requires a multimodal, personalized framework. While CM remains a foundational behavioral strategy, advances in combination pharmacotherapy and neuromodulation offer new avenues for targeting core neurobiological deficits. Future research must prioritize integrated treatment platforms, implementation science to scale effective interventions like CM, and personalized strategies informed by genetics and neuroimaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42411348/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Subst Use Addctn J",
+      "journal_issn": "2976-7350",
+      "published_date": "2026-07-07",
+      "date": "2026-07-09",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Convergent Network Localization of Brain Stimulation Targets for Trait Anxiety.",
+      "summary": "OBJECTIVE: Transcranial magnetic stimulation (TMS) and deep brain stimulation (DBS) can modulate brain circuits, and certain stimulation targets may relieve or exacerbate anxiety. The objective of this study was to localize circuit-based stimulation targets that modify anxiety by integrating causal sources of information, including lesion, TMS, and DBS datasets. METHODS: The authors leveraged a series of natural experiments across multiple datasets (N=936). First, patients with incidental brain lesions (N=451) and TMS-treated individuals with incidental variability in stimulation location for depression (N=111) were analyzed. Functional connectivity of these sites was estimated using a normative connectome. Next, a TMS dataset (N=300) with a common set of stimulation coordinates but individual variability in brain connectivity was analyzed. Finally, the authors examined subthalamic DBS locations in patients with Parkinson's disease (N=74). RESULTS: Similar brain circuits were derived from lesions associated with greater anxiety and TMS sites that decreased anxiety (spatial r=0.68). In an independent TMS dataset (N=300), individualized TMS site connectivity to this circuit was significantly correlated with treatment-induced anxiety change. In Parkinson's disease, overlap of subthalamic DBS (N=74) sites with the anxiety circuit significantly predicted greater anxiety increases, confirming network involvement despite the circuit being derived independently of DBS. The circuit was associated significantly with trait anxiety versus state anxiety in two datasets that measured both. The peak proposed TMS target for anxiety was in the right superior frontal gyrus. CONCLUSIONS: This study identified a convergent anxiety circuit across lesions, TMS, and DBS. This provides a potential therapeutic target for brain stimulation and represents a generalizable approach for identifying stimulation targets across neuropsychiatric conditions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42415252/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Am J Psychiatry",
+      "journal_issn": "1535-7228",
+      "published_date": "2026-07-08",
+      "date": "2026-07-09",
+      "impact_factor": 15.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "AMERICAN JOURNAL OF PSYCHIATRY"
+    },
+    {
+      "title": "Radial extracorporeal shock wave therapy improves upper limb function in chronic stroke patients: a randomized sham-controlled trial.",
+      "summary": "CONTEXT: Stroke causes upper limb disability. The literature shows the effectiveness of radial Extracorporeal Shock Wave Therapy (rESWT) in reducing spasticity and promoting functional recovery of the upper limb of patients with stroke. OBJECTIVE: Demonstrate the effect of rESWT on functional recovery of the upper extremity after ischemic stroke in the middle cerebral artery territory. METHODS: Randomized, doubleblind, sham-controlled trial. INTERVENTIONS: Weekly sessions of 5,000 rESWs (3.5 to 4.0 bar, 15 Hz), diffusely over the elbow and wrist flexors in the forearm and hand interosseous muscles for four weeks, delivered with a 36 mm device. A control treatment was conducted by a sham handpiece that did not emit the rESWs. OUTCOMES: Changes in Fugl-Meyer Assessment for upper limb function (FMA-UE) at four weeks after the end of the treatment was the primary outcome. Spasticity, strength, and cortical integrity by transcranial magnetic stimulation were also assessed before and four weeks after the end of the treatment . RESULTS: 23 patients were randomized, and 16 were included in the per-protocol analysis. Baseline measures were were balanced. FMA-UE was significantly different between the groups for proximal muscles (p = 0.004) and overall score (p = 0.038). Muscle strength by the Medical Research Council (MRC) score was also significantly different between both groups (p = 0.012). Three patients of the rESWT group and four patients of the sham rESWT group were excluded due to the use of Botulinum toxin, declined participation soon after they were randomized, or did not return four weeks after the end of treatment to follow-up. A limitation of this study is its small sample size, which limits the statistical power and the generalizability of our findings. CONCLUSION: Four weekly sessions of rESWT improved the functional recovery of patients with chronic ischemic stroke and absent MEPs at baseline. This suggests rESWT may act via peripheral mechanisms to improve proximal muscle function, reflected in the overall improvement of the global measure of FMA-UE.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42424664/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Clinics (Sao Paulo)",
+      "journal_issn": "1980-5322",
+      "published_date": "2026-07-09",
+      "date": "2026-07-09",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ]
+}

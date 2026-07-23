@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-27",
+  "articles": [
+    {
+      "title": "Transition of the presynaptic vesicle cluster from a compact to dispersed organization during long-term potentiation.",
+      "summary": "Long-term potentiation (LTP) is a lasting form of synaptic plasticity that can persist for hours or even days. It is associated with structural changes in both the presynaptic terminal and the postsynaptic spine. Presynaptically, the number and distribution of synaptic vesicles (SVs) affect synaptic efficacy. How the functional changes in synaptic efficacy after the induction of LTP are mirrored by identifiable structural alterations in the SV cluster is not fully understood. Here, we interrogated presynaptic terminals in 3DEM reconstructions from CA3-to-CA1 synapses in stratum radiatum of adult rats that had undergone control stimulation, or theta-burst stimulation to produce LTP. An increase was observed in the dispersion of SVs at 2 h after LTP induction. This dispersion resulted in greater distances between neighboring SVs, longer distances to the center of the SV cluster, and an increased variance in SV position relative to the cluster's center. Analysis of the SV clusters distinguished terminals that were potentiated based on their degree of dispersion, distances to neighboring SVs, and SV cluster densities. Our analysis demonstrates that the density of SVs is a property independent of the bouton or SV cluster volumes and is subject to strong regulation. Comparing the spatial distribution of SVs to randomized distributions revealed increased SV mobility following LTP induction. Moreover, theoretical calculations informed by the measured SV cluster densities suggest an increase in the mobility of SVs within the cluster during LTP. These findings provide evidence that the SV cluster undergoes a transition from tight to dispersed, making SVs more mobile during LTP.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42190006/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Proc Natl Acad Sci U S A",
+      "journal_issn": "1091-6490",
+      "published_date": "2026-05-26",
+      "date": "2026-05-27",
+      "impact_factor": 9.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA"
+    },
+    {
+      "title": "A generic, rapid and robust platform for personalized functional circuit-guided neuromodulation targeting.",
+      "summary": "Neuromodulation approaches can target specific brain functional circuits to treat various brain disorders, and resting-state functional magnetic resonance imaging is increasingly being used to map functional circuits in individual patients for target localization. However, this strategy faces three major hurdles for clinical translation: time-intensive resting-state functional magnetic resonance imaging processing, insufficient robustness for clinical use and a lack of automated targeting solutions. Here we cover the use of a generic, rapid, robust and automated platform for personalized functional circuit-guided target planning across different neuromodulation techniques, termed Unified Platform for Neuromodulation with Individualized Target Estimation (UNITE). UNITE is computationally efficiency and robust and uses DeepPrep, a recently developed end-to-end preprocessing pipeline that achieves a tenfold speedup and improved robustness compared with state-of-the-art clinical pipeline. Using DeepPrep's preprocessed data, UNITE maps functional circuits and localizes personalized targets through automated targeting algorithms. Currently, UNITE offers three built-in transcranial magnetic stimulation-targeting algorithms for post-stroke functional rehabilitation and one focused ultrasound stimulation-targeting algorithm for Parkinson's disease. Notably, it is designed to be adapted for other brain disorders and neuromodulation applications. To ensure quality and usability, UNITE generates a data quality control report and a visual verification report of the identified targets, with target coordinates exported in multiple formats for compatibility with different neuronavigation systems. Overall, this platform enables personalized neuromodulation target localization within 30 min on a local graphics processing unit-equipped workstation. A basic level of computer science proficiency, along with neuroimaging experience, is sufficient for its use.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204340/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Nat Protoc",
+      "journal_issn": "1750-2799",
+      "published_date": "2026-05-27",
+      "date": "2026-05-27",
+      "impact_factor": 16.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Nature Protocols"
+    }
+  ]
+}

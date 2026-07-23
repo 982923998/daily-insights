@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-19",
+  "articles": [
+    {
+      "title": "Acute and post-acute neurobehavioral responses to lysergic acid diethylamide in healthy subjects: a randomized controlled study.",
+      "summary": "Preclinical studies suggest that lysergic acid diethylamide (LSD) may induce lasting changes in brain function and learning ability, but evidence in humans is uncertain. Motor learning, in particular, has clinical relevance but has not been investigated in human studies of psychedelics. Forty-five healthy subjects (24 women) participated in this randomized crossover trial comparing 100 µg LSD with a placebo. For up to one week after dosing, we investigated LSD's post-acute neurophysiological effects using auditory tetanization with electroencephalography (EEG), paired associative stimulation (PAS) with transcranial magnetic stimulation (TMS), peripheral levels of brain-derived neurotrophic factor (BDNF). Additionally, online and offline motor learning were assessed one day after dosing with a sequence typing task. Questionnaires assessed perceived stress and cognitive flexibility one week after dosing. We found that offline motor learning significantly improved the day after LSD. One week after LSD, perceived stress was reduced and aspects of cognitive flexibility were increased. EEG data showed that LSD acutely decreased amplitudes of N1 and P2 auditory event-related potentials and still modulated P2 one week later. Motor-evoked potentials measured with TMS showed increased amplitude and faster latency under LSD. LSD did not alter BDNF levels. Our findings encourage future studies on LSD and learning and additionally highlight important challenges in the measurement of long-term potentiation in humans. The observed acute and lasting changes in neural signals provide insight into LSD's effects on the auditory and motor systems.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42315644/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Neuropsychopharmacology",
+      "journal_issn": "1740-634X",
+      "published_date": "2026-06-18",
+      "date": "2026-06-19",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "NEUROPSYCHOPHARMACOLOGY; Neuropsychopharmacology",
+      "impact_factor_reason": "conflict"
+    }
+  ]
+}

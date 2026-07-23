@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-18",
+  "articles": [
+    {
+      "title": "Emerging pharmacological and neuromodulation interventions for suicidal ideation and behaviour.",
+      "summary": "Suicide remains a leading cause of premature mortality worldwide. Current treatments are limited by delayed onset, durability, or poor tolerability. This narrative review, informed by a structured literature search, summarises the last decade of evidence on pharmacological and neuromodulation interventions for suicidal ideation (SI) or suicide attempt (SA) that are not approved for these indications. We searched PubMed for studies enrolling adults with SI or SA, including controlled trials and naturalistic/observational studies. Thirty-four studies were included: 22 pharmacological (13 efficacy, nine effectiveness) and 12 using neuromodulation (nine efficacy, three effectiveness). Across controlled trials, SI commonly improved within days to weeks. Some trials reported SI reduction beyond concurrent depression score changes, suggesting partial independence, but evidence remains inconsistent and method-dependent. Encouraging results were reported for NMDA-related drugs (NRX-101 and high-dose d-cycloserine; amantadine in Borna disease virus-1-positive depression), opioid-system modulation (buprenorphine at ultra-low and high doses in distinct populations), ayahuasca in major and treatment-resistant depression, and adjunctive pimavanserin. Smaller effects were observed for vortioxetine augmentation and insomnia-targeted zolpidem. Large observational datasets reported associations between lower suicidality and folic acid, benztropine, testosterone initiation in transgender adults, and non-vitamin K oral anticoagulants versus warfarin, whereas non-medical cannabis use was associated with worse SI trajectories. Neuromodulation evidence implicated accelerated or targeted repetitive transcranial magnetic stimulation, theta-burst stimulation, and magnetic seizure therapy for SI reduction, with longer-term observational support for vagus nerve stimulation. Future trials should prespecify suicide-related outcomes, test independence from mood change, and assess durability and high-risk transition periods to advance suicide-specific treatment development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42468074/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Eur Neuropsychopharmacol",
+      "journal_issn": "1873-7862",
+      "published_date": "2026-07-17",
+      "date": "2026-07-18",
+      "impact_factor": 8.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "EUROPEAN NEUROPSYCHOPHARMACOLOGY"
+    },
+    {
+      "title": "Efficacy and safety of inhibitory magnetic stimulation in the treatment of refractory erythema of rosacea: a prospective, randomized, controlled clinical trial.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42468666/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "J Am Acad Dermatol",
+      "journal_issn": "1097-6787",
+      "published_date": "2026-07-17",
+      "date": "2026-07-18",
+      "impact_factor": 12.3,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "JOURNAL OF THE AMERICAN ACADEMY OF DERMATOLOGY"
+    },
+    {
+      "title": "Repetitive neuronal activation regulates cellular maturation state via nuclear reprogramming.",
+      "summary": "Neural stimulation, such as electroconvulsive therapy (ECT) and repetitive transcranial magnetic stimulation (rTMS), is highly effective clinical intervention for a broad spectrum of psychiatric disorders, including depression and schizophrenia. However, their mechanism of action at the cellular level remains poorly understood. Here, we model ECT with repeated optogenetic neuronal stimulation in the mouse dentate gyrus, and observe ECT-relevant behavioral changes, including decreased depression-like behavior and increased locomotor activity. At the cellular level, we identify dematuration to a long-term stable state, persisting for more than one month, defined by changes in nuclear structure, gene expression patterns resembling the G2/M phase of the cell cycle, and altered neural coding of navigational information. Moreover, knockout of the G2/M master regulator Cyclin B attenuates some of behavioral and cellular effects. These findings demonstrate that chronically-repeated brain stimulation triggers plasticity of the cellular state, revealing a form of stimulus-regulated nuclear reprogramming with potential clinical utility.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42469214/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-07-17",
+      "date": "2026-07-18",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    },
+    {
+      "title": "Individualized prediction of heroin cue-induced craving using task-based EEG functional connectivity.",
+      "summary": "Cue-induced craving is a core driver of addiction and relapse, and its significant heterogeneity represents a major barrier to precision intervention. Currently, there remains a lack of objective, quantifiable, and individualized neurobiological biomarkers. Here, we employed task-based electroencephalography (EEG) to capture the dynamic neural signatures underlying cue-induced craving in patients with heroin use disorder (HUD) and developed an individualized functional connectivity (FC)-based prediction model. We identified β-band power envelope connectivity (PEC) as a reliable biomarker capable of estimating subjective craving severity at the individual level. Notably, even after FC reconfiguration induced by intermittent theta burst stimulation (iTBS) over the left dorsolateral prefrontal cortex (L-DLPFC) or precuneus (PCu), the PEC-based framework's prediction of immediate craving levels following these perturbed states remained effective. Crucially, baseline β-band PEC demonstrated strong prognostic value for improvements in craving scores (L-DLPFC-iTBS: r = 0.856, P < 0.001; PCu-iTBS: r = 0.675, P = 0.008). This individualized predictive model was further validated in an independent dot-probe task dataset, demonstrating its generalizability across distinct cue-induced craving paradigms. Together, our study demonstrates that EEG FC features predict individual cue-induced craving levels and intervention outcomes, facilitating the advancement of digital biomarker-driven precision medicine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42469381/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "NPJ Digit Med",
+      "journal_issn": "2398-6352",
+      "published_date": "2026-07-17",
+      "date": "2026-07-18",
+      "impact_factor": 18.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Digital Medicine"
+    }
+  ]
+}

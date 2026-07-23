@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-22",
+  "articles": [
+    {
+      "title": "Brain contrastive modeling reveals depression subtypes with distinct treatment response and progression.",
+      "summary": "Major Depressive Disorder (MDD) is highly heterogeneous, limiting treatment efficacy. Despite efforts to delineate patient heterogeneity through subtyping, current approaches remain limited by noise, lack of clinical applicability, and insufficient external validation. Crucially, they focus on subtyping while neglecting staging information (e.g., illness duration). We developed BrainCVAE, a contrastive variational autoencoder, to disentangle MDD-specific neural features. Applying BrainCVAE to fALFF-derived resting-state fMRI from 1590 patients and 1308 controls identified two subtypes: Subtype 1 with hyperactivity in visual, attention, and default mode networks, and Subtype 2 with hypoactivity. Subtypes were validated in 1276 patients across independent centers. Subtype 1 showed superior responsiveness to pharmacological (SSRIs, SNRIs) and non-pharmacological (rTMS) interventions. Cross-sectional analyses revealed subtype-specific differences in DMN profiles across illness duration: Subtype 1 shifted from hyper- to hypoactivity, whereas Subtype 2 remained consistently hypoactive. In an independent dataset, illness duration correlated negatively with symptom reduction (r = -0.5565, 95% CI = (-0.8123, -0.1210), p = 0.0165). Datasets were ethically approved and registered on ClinicalTrials.gov: XJ_QG (NCT05577481, May 24, 2023), SAINT (NCT04653337, Oct 21, 2020), XJ_KG (NCT05544071, May 24, 2023). Integrating subtyping with illness staging bridges neurobiological heterogeneity and disease progression, providing a clinically actionable framework for precision treatment in MDD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42477489/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "NPJ Digit Med",
+      "journal_issn": "2398-6352",
+      "published_date": "2026-07-20",
+      "date": "2026-07-22",
+      "impact_factor": 18.0,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "npj Digital Medicine"
+    },
+    {
+      "title": "Motor cortical excitability is differentially modulated by HIIT and strength exercise.",
+      "summary": "High-intensity interval training (HIIT) and strength exercise (SE) induce corticospinal plasticity in exercised and non-exercised muscles. While HIIT's systemic neuromodulatory effects are well-established, SE's comparable remote responses remain unclear. This study investigated changes in corticospinal, intracortical, and spinal excitability, as well as motor performance, in non-exercised flexor carpi radialis following single-session HIIT and plantar flexion SE. Using a randomised crossover design, eighteen participants completed: (1) 20-minute high-intensity interval cycling, (2) high-intensity resistive plantar flexion, and (3) control. Corticospinal responses were assessed using transcranial magnetic stimulation and peripheral nerve stimulation; motor performance through reaction time tasks and maximum voluntary force at baseline and post-exercise. Only HIIT significantly increased motor-evoked potential amplitude (p = 0.002) and reduced short-interval intracortical inhibition (p = 0.04). HIIT reduced silent period duration compared to baseline and control (p <0.001), while SE showed reduction only versus control (p <0.001). Both HIIT and SE improved reaction time compared to baseline and control (p <0.05). These findings highlight differential corticospinal responses in a remote, non-exercised muscle, with HIIT inducing distributed excitability enhancements compared to SE. Unilateral, small-muscle SE may be insufficient to induce widespread corticospinal excitability changes, with implications for neurorehabilitation strategies targeting remote muscle groups.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42483809/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "J Sports Sci",
+      "journal_issn": "1466-447X",
+      "published_date": "2026-07-22",
+      "date": "2026-07-22",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ]
+}

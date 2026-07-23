@@ -1,0 +1,56 @@
+{
+  "date": "2026-05-31",
+  "articles": [
+    {
+      "title": "JUN Specifies the Local Differentiation and Maintenance of Pro-tumoral Monocyte-Derived Macrophages.",
+      "summary": "Tumor-associated macrophages (TAMs) play important roles in cancer progression and resistance to therapy. Recent studies have shown that TAMs include both long-lived resident tissue macrophages (RTMs) and short-lived monocyte-derived macrophages (MDMs) with limited proliferative potential. RTMs and MDMs have been suggested to play divergent roles in tumorigenesis; RTMs are aligned with trophic functions, whereas MDMs are enriched for immune-regulatory pathways. Here we established a specific role for the AP-1 factor JUN in the differentiation and maintenance of MDMs and the specification of pro-tumoral trophic functions during tumor development. Alternatively, the immune-regulatory functions of TAMs remained JUN-independent. JUN was required for the specification and maintenance of pro-tumoral TAMs that support blood vessel maturation and tumor growth. Single-cell transcriptomics analysis uncovered the alternative fates for tumor-infiltrating monocytes and the development of distinct TAM states associated with trophic functions and immune-regulation. These studies demonstrate an important role for JUN in the specification of pro-tumoral monocyte-derived TAMs that could offer opportunities for selective TAM-targeted therapies for cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42212681/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Cancer Res",
+      "journal_issn": "1538-7445",
+      "published_date": "2026-05-29",
+      "date": "2026-05-31",
+      "impact_factor": 16.6,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "CANCER RESEARCH"
+    },
+    {
+      "title": "Fronto-insular circuit mechanisms of accelerated intermittent theta burst stimulation.",
+      "summary": "No abstract available in source.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42214340/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Cell",
+      "journal_issn": "1097-4172",
+      "published_date": "2026-05-29",
+      "date": "2026-05-31",
+      "impact_factor": 45.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "CELL"
+    },
+    {
+      "title": "OFC-induced network modularity improves positive symptoms and attentional alertness in schizophrenia: a combined rTMS-fMRI study.",
+      "summary": "Repetitive Transcranial Magnetic Stimulation (rTMS) targeting the orbitofrontal cortex (OFC) has emerged as a promisingerapeutic option for drug-naïve people with schizophrenia (SCZ). However, the putative underlying mechanisms of OFC-induced physiological effects remain unknown. In this completed randomized, double-blind, placebo-controlled trial (ChiCTR2000041106), we delivered 4 weeks of low-frequency rTMS to the right OFC in SCZ, with participants receiving either active or sham stimulation, and followed a network neuroscience framework to explore the alteration of dynamic modularity induced by the OFC. The trial met its pre-specificized primary endpoint following active treatment. Neuroimaging analysis reported here were secondary outcomes. We found that the modularization between OFC and the default mode network (DMN) across time windows supported improvements in symptoms and cognitive function. This dynamics pattern was spatially constrained, with stronger rTMS modulation observed in DMN regions centered on the ventromedial prefrontal cortex (vmPFC). The spatial topography of this pattern was correlated with the expression of schizophrenia-related genes and markers of excitatory neurotransmission, supporting its biological relevance. Crucially, such cascade of physiological effects was specifically linked to improvements in cognitive attention/vigilance and were modulated by their positive symptoms. Exploratory analyses showed that OFC-induced modularity weakened the DMN's causality over the downstream attention network. These findings reveal the important role for the dynamic modularity of the OFC as an \"intermediate phenotype\" mediating the pathway from genetic variation to behavioral manifestations, highlighting the potential of low-frequency stimulation of the OFC as a therapeutic strategy for specific subgroups of SCZ, especially those with positive symptoms and attention deficits.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42218138/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Nat Commun",
+      "journal_issn": "2041-1723",
+      "published_date": "2026-05-30",
+      "date": "2026-05-31",
+      "impact_factor": 15.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "unique_base",
+      "impact_factor_match_method": "exact_issn",
+      "impact_factor_matched_journal": "Nature Communications"
+    }
+  ]
+}

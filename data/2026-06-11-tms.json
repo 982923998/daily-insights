@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-11",
+  "articles": [
+    {
+      "title": "Anxiety influences the addictive feature of non-suicidal self-injury behavior via somatic symptom in adolescents with major depressive disorder.",
+      "summary": "Adolescents with major depressive disorder (MDD) frequently engage in repetitive non-suicidal self-injury (NSSI), with a subset developing addictive patterns; however, the underlying mechanisms remain unclear. In this present study, 363 hospitalized adolescents with MDD and NSSI were assessed using graphical Gaussian and Bayesian networks to explore relationships among clinical symptoms, impulsivity, and the addictive feature of NSSI. The results revealed an anxiety-somatic-addictive NSSI pathway (anxiety-somatic: 1.00/0.79, edge strength/ directionality; somatic-addictive NSSI: 0.82/0.84) and identified motor impulsivity as an independent predictor (0.80/0.57). To further validate this pathway, a clinical trial was conducted in 58 adolescents with MDD and NSSI receiving accelerated intermittent theta-burst stimulation (a-iTBS) targeting the left dorsolateral prefrontal cortex. Participants were stratified into high- and low-response groups, and mediation analyses were performed. At baseline, anxiety exerted a significant indirect effect on addictive NSSI via somatic symptom in both groups (high-response: β = 0.51,95% CI = [0.15, 1.19]; low-response: β = 0.24, 95% CI = [0.07, 0.45]), indicating a fully mediated pathway. Notably, this mediation effect was no longer significant following intervention (high-response: β = -0.02, 95% CI = [-0.17, 0.19]; low-response: β = 0.09, 95% CI = [-0.05, 0.30]). However, in the low-response group, regression analyses further confirmed somatic symptom as a predictor of NSSI addictive feature (β = 0.18, 95% CI = [0.03, 0.34]). These findings suggest that anxiety drives the addictive feature of NSSI via somatic symptom in MDD adolescents with repetitive NSSI. A-iTBS is a positive intervention for addictive NSSI.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42265226/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-06-09",
+      "date": "2026-06-11",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "Rural-Urban Disparities in Access to Interventional Psychiatry Treatments among VA Patients.",
+      "summary": "OBJECTIVE: While tele-mental health has improved access to standard medication management and psychotherapy for rural Veterans, implementation of interventional psychiatry treatments will require in-person care, potentially leading to the exacerbation of rural-urban disparities in access to mental health care. We studied the availability of interventional psychiatry treatments, delivered clinically or in the context of a research trial, to rural and urban Veterans. METHODS: We used VA electronic medical record data to measure the use of electroconvulsive therapy (ECT), magnetic seizure therapy (MST), repetitive transcranial magnetic stimulation (rTMS), vagus nerve stimulation (VNS), deep brain stimulation (DBS), ketamine (infusion or nasal spray), stellate ganglion block (SGB), and medication-assisted psychotherapy (AP) protocols including 3,4-methylenedioxy-methamphetamine (MDMA)-AP and psilocybin-AP, as appropriate, for VA patients with major depressive disorder (MDD) and posttraumatic stress disorder (PTSD) from 2017 through 2024. We compared treatment use in rural and micropolitan locations to use in urban locations. RESULTS: Few patients received any interventional psychiatry treatment across strata. The most common modalities were rTMS, ECT, SGB, DBS, and ketamine. The numbers receiving MST, VNS, MDMA-AP, and psilocybin-AP were too small to report in the micropolitan or rural cells. Micropolitan and rural patients had lower odds of receiving rTMS, ECT, SGB, DBS, and ketamine than urban patients. The largest disparities were for rTMS and ketamine. CONCLUSIONS: There appear to be rural-urban disparities in the emerging field of interventional psychiatry, and the disparities are most pronounced for treatments that require repeated in-person visits such as rTMS and ketamine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267190/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Rural Ment Health",
+      "journal_issn": "1935-942X",
+      "published_date": "2026-06-10",
+      "date": "2026-06-11",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Integrative Proteomic and In Silico Analysis of Perfluorooctanoic Acid Exposures in Primary Human Placental Cytotrophoblasts.",
+      "summary": "Perfluorooctanoic acid (PFOA), a major persistent per- and polyfluoroalkyl substance (PFAS), remains ubiquitous in humans, including pregnant women, despite regulatory actions to limit its production and use. The placenta has been proposed as a target of PFOA, however, the underlying mechanisms remain poorly defined. We exposed primary human placental cytotrophoblasts (CTBs) isolated from three second-trimester placentas to PFOA (0.1-25 μM) for 48 h. SWATH-MS identified 3,240 proteins, 274 of which were differentially expressed. Proteins involved in lipid and amino acid metabolism and innate immunity pathways were significantly enriched among these targets. Integration of protein and mRNA data sets revealed key molecules linking PFOA exposure to altered immune defense and placental dysfunction. Molecular docking and dynamic simulations predicted that PFOA and other PFAS directly interact with master regulators, including peroxisome proliferator-activated receptors α and γ (PPARα, PPARγ) and novel targets such as signal transducer and activator of transcription 1/2 (STAT1, STAT2) and interferon regulatory factor 1/3 (IRF1, IRF3). Benchmark modeling indicated that significant protein-level changes can occur at concentrations relative to reported serum concentrations and associated with placental toxicity in rodents. We propose that PFOA and other PFAS directly interact with these candidate regulators, contributing to placental dysfunction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267722/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Environ Sci Technol",
+      "journal_issn": "1520-5851",
+      "published_date": "2026-06-10",
+      "date": "2026-06-11",
+      "impact_factor": 12.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "ENVIRONMENTAL SCIENCE & TECHNOLOGY"
+    }
+  ]
+}

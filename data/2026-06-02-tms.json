@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-02",
+  "articles": [
+    {
+      "title": "An Update on Somatic Treatments for Suicide Risk.",
+      "summary": "OBJECTIVE: Suicide is a major cause of death worldwide and a key public health challenge. Pharmacologic and neuromodulatory interventions are central to suicide prevention. This review summarizes evidence for these interventions with potential antisuicidal effects across major psychiatric disorders and, where possible, distinguishes their direct effects on suicide diathesis from those mediated by psychiatric symptom improvement. METHODS: This scoping review synthesized evidence from randomized controlled trials (RCTs), meta-analyses, national registry studies, and large pharmacoepidemiologic and cohort studies to examine associations between pharmacologic and neuromodulatory treatments and suicide deaths, suicide attempts, or suicidal ideation as outcomes. Studies were appraised based on design, sample size, population, and outcome definitions. RESULTS: Lithium and clozapine were associated with reductions in suicidal behavior in bipolar disorder and schizophrenia spectrum disorders, respectively, mediated by mechanisms beyond disease stabilization. Intravenous ketamine rapidly reduced suicidal ideation in RCTs, partially independent of antidepressant effects. Benefit was generally transient, and studies were not powered for suicidal behavior. Antidepressants reduced suicidal ideation primarily through improvement in depressive symptoms in RCTs that were generally underpowered to determine effects on suicidal behavior. Observational and patient-level RCT meta-analyses generally found reduced suicidal behavior risk. Opioid use disorder medications were associated with lowered suicide and overdose mortality in observational studies. Electroconvulsive therapy rapidly reduced suicidal ideation and suicide mortality, and transcranial magnetic stimulation appeared to reduce suicidal ideation primarily via antidepressant effects. CONCLUSIONS: Somatic treatments reduce suicidal ideation and, in some cases, suicidal behavior risk, with effects mostly mediated by antidepressant or mood-stabilizing mechanisms. Clozapine and lithium may prevent suicidal behavior, and intravenous ketamine may reduce suicidal ideation through additional effects on suicide diathesis. Targeting the diathesis for suicidal behavior is a largely unexplored therapeutic strategy. Adequately powered RCTs to test somatic treatment effects on suicidal behavior are essential for evidence-based suicide prevention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42219565/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Am J Psychiatry",
+      "journal_issn": "1535-7228",
+      "published_date": "2026-06-01",
+      "date": "2026-06-02",
+      "impact_factor": 15.9,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "AMERICAN JOURNAL OF PSYCHIATRY"
+    },
+    {
+      "title": "Efficacy and safety of repetitive transcranial magnetic stimulation in anorexia and bulimia nervosa: a systematic review and meta-analysis.",
+      "summary": "OBJECTIVE: This systematic review and meta-analysis aimed to evaluate the efficacy and safety of repetitive transcranial magnetic stimulation (rTMS) in patients with anorexia nervosa (AN) and bulimia nervosa (BN), focusing on its impact on psychological, psychopathological, neurocognitive, and behavioral outcomes. METHODS: A comprehensive literature search was conducted in PubMed, Scopus, Web of Science, and Cochrane CENTRAL from inception to May 2025. Eligible studies included clinical trials involving adult patients with AN or BN treated with rTMS. Data were pooled using fixed or random-effects models depending on heterogeneity. Mean differences (MD) or standardized mean differences (SMD) with 95% confidence intervals (CI) were calculated. Risk of bias was assessed using Cochrane RoB 2.0 and NIH tools. RESULTS: Thirteen studies were included, yielding a total of n = 195 active rTMS treatments and n = 132 sham treatments. Compared to sham, rTMS did not significantly improve BMI in AN patients (MD: 0.19; 95% CI: -0.50, 0.88; P = 0.59). A significant moderate reduction in eating disorder severity was found in single-arm analysis (31 patients, SMD: -0.50, 95% CI [-0.90, -0.10], p = 0.01). Depression improved with rTMS over sham (105 patients, SMD: -0.41, 95% CI [-0.81, -0.02], p = 0.04), while anxiety, binge frequency, and vomiting frequency did not. Urge to eat increased in AN (30 patients, MD: 1.20, 95% CI [0.20, 2.21], p = 0.02) and decreased in BN (25 patients, MD: -10.25, 95% CI [-15.88, -4.62], p = 0.0004). No serious adverse events were reported. CONCLUSIONS: rTMS shows potential in improving eating disorder severity and depressive symptoms in AN, with disorder-specific modulation of food-related urges. Its effects on BMI and behavioral symptoms remain inconclusive. rTMS was well tolerated.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42226264/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Ann Gen Psychiatry",
+      "journal_issn": "1744-859X",
+      "published_date": "2026-06-01",
+      "date": "2026-06-02",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Cerebellar rTMS ameliorates cognitive impairment in Alzheimer's disease: A randomized trial.",
+      "summary": "BACKGROUND: Developing effective neuromodulatory therapies for Alzheimer's disease (AD) is a critical unmet need. While repetitive transcranial magnetic stimulation (rTMS) shows promise, its optimal targets and mechanisms remain incompletely understood. The cerebellum, a key modulator of large-scale brain network dynamics, represents a novel therapeutic target for addressing the distributed cognitive network dysfunction in AD. OBJECTIVE: This study aimed to evaluate the cognitive efficacy and safety of cerebellar rTMS in AD and to elucidate its potential mechanism of action through the lens of structural network topology. METHODS: In this randomized, double-blind, sham-controlled trial, patients with AD were assigned to receive active or sham rTMS targeting the bilateral cerebellar Crus II region. Cognitive assessments were conducted at baseline, post-treatment (4 weeks), and at a 12-week follow-up. Diffusion tensor imaging (DTI) was employed to analyze changes in whole-brain structural network topology. RESULTS: Compared to the sham group, the active rTMS group demonstrated significantly greater improvement in global and domain-specific cognitive function at 4 weeks, with benefits sustained at the 12-week follow-up. Response rates on the MMSE and MoCA were also significantly higher in the active group. Neuroimaging revealed that active rTMS enhanced global network efficiency, indicated by significant increases in global/local efficiency and clustering coefficient, alongside a decreased characteristic path length, signifying an optimization toward small-world topology. Furthermore, treatment selectively enhanced nodal efficiency within core hubs of the default mode, frontoparietal, and salience networks. Critically, these structural improvements correlated with cognitive gains; increased nodal efficiency in the precuneus and posterior cingulate cortex was associated with improved episodic memory and visuospatial function. CONCLUSION: Cerebellar rTMS is a safe and effective intervention that confers sustained cognitive benefits in AD. Its therapeutic mechanism likely involves the reinforcement of structural connectivity and enhanced integrative capacity within supraordinate cognitive networks, particularly the default mode network, via cerebello-cortical pathways.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42229579/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-06-02",
+      "date": "2026-06-02",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    }
+  ]
+}

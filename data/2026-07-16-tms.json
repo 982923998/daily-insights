@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-16",
+  "articles": [
+    {
+      "title": "Optimizing brain functional-structural architecture with cTBS to reduce relapse in alcohol use disorder: a randomized controlled trial.",
+      "summary": "Alcohol use disorder (AUD) is characterized by high relapse rates, necessitating novel interventions. Continuous theta-burst stimulation (cTBS) targeting the right dorsolateral prefrontal cortex (rDLPFC) has been proposed to reduce relapse risk by modulating prefrontal control networks implicated in craving and self-regulation, but its efficacy and mechanisms remain to be established. In a randomized, double-blind, sham-controlled trial at the First Special Hospital of Harbin, 50 AUD patients (aged 18-60 years) received active cTBS or sham stimulation over 2 weeks (10 treatment days; two applications/day). Alcohol Use Disorders Identification Test (AUDIT) scores were assessed before and after intervention, and relapse status was monitored during the 1-year follow-up. Resting-state fMRI data were analyzed using non-negative matrix factorization (NMF) and Tabular Prior-data Fitted Network (TabPFN) to identify relapse-associated neural patterns. Network control theory (NCT) was used to quantify the control energy required to regulate frontoparietal network (FPN) to subcortical network (SUB) transitions, constrained by structural connectomes. Transcriptomic analysis and TransBrain-based cross-species phenotype mapping were used to link control energy changes to gene expression and investigate the evolutionary conservation of the identified network-control targets. Compared with sham treatment, active cTBS was associated with a lower risk of relapse over one year (hazard ratio = 0.426, 95% CI [0.189, 0.964], p = 0.041). NMF revealed an abstinence-associated pattern in the prefrontal-subcortical regions, enhanced by cTBS (p = 0.042). NCT showed a reduction in FPN-to-SUB control energy (p = 0.003), mediating changes in AUDIT-assessed alcohol-use severity (95% CI [-0.302, -0.014]). Changes in the control energy correlated with gene expression profiles enriched for genes related to neuroplasticity (p < 0.001, FDR corrected) and mapped specifically to the murine infralimbic and prelimbic areas. rDLPFC-targeted cTBS may be associated with lower relapse risk through modulation of FPN-to-SUB regulation, a network-level effect linked to neuroplasticity-related gene expression and evolutionarily conserved prefrontal circuits. These findings support further evaluation of network-informed neuromodulation strategies for AUD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42457860/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Mol Psychiatry",
+      "journal_issn": "1476-5578",
+      "published_date": "2026-07-15",
+      "date": "2026-07-16",
+      "impact_factor": 10.1,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "legacy_crawler_supplement",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Molecular Psychiatry"
+    },
+    {
+      "title": "Frontoparietal control-default mode connectivity predicts TMS effects on cognitive control.",
+      "summary": "Transcranial Magnetic Stimulation (TMS) is a promising tool to probe and enhance cognitive control, yet effects are often inconsistent across individuals. These inconsistencies may arise from individual differences in Lateral Frontoparietal (Control) Network (L-FPN) and Medial Frontoparietal (Default) Network (M-FPN) interactions, essential for suppressing internal distraction and facilitating cognitive control. We tested whether baseline connectivity between the L-FPN and M-FPN moderates TMS outcomes in cognitive control tasks. We used the generalized drift rate as a task-general behavioral index of cognitive control, as it overcomes the reliability and interpretability limitations of standard difference measures. Participants completed inhibition (Stroop), working memory (n-back), and flexibility (Navon) tasks before and after intermittent theta-burst stimulation (iTBS) to the L-FPN, dorsal frontoparietal (attention) network (D-FPN), or cranial vertex. Stimulation targets were defined using individualized resting-state parcellations to maximize precision. We found that baseline connectivity moderated stimulation outcomes: individuals with more integrated L-FPN/M-FPN networks benefited most from L-FPN stimulation, whereas those with more segregated networks showed greater improvements from D-FPN stimulation. Notably, stimulation of a single site did not uniformly enhance performance, underscoring the importance of individual network profiles. These findings highlight L-FPN/M-FPN interactions as a basis for individualized TMS interventions and the utility of combining precise network mapping with robust behavioral modeling to optimize neuromodulation interventions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42459500/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Imaging Neurosci (Camb)",
+      "journal_issn": "2837-6056",
+      "published_date": "2026-07-14",
+      "date": "2026-07-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    },
+    {
+      "title": "Feasibility of Interleaving Computerized Cognitive Training With Repetitive Transcranial Magnetic Stimulation: Pilot Studies in Mild Cognitive Impairment Due to Alzheimer's Disease and Stroke.",
+      "summary": "BACKGROUND: Repetitive transcranial magnetic stimulation induces neural plasticity, which may be maximized via adjunctive interventions. OBJECTIVE: This study aimed to examine the feasibility and acceptability of interleaving computerized cognitive training (CCT) with accelerated intermittent theta burst (iTBS) repetitive transcranial magnetic stimulation in 2 open-label phase I trials of amnestic mild cognitive impairment (aMCI; NCT04503096) and poststroke mild cognitive impairment (psMCI; NCT04655963). METHODS: Participants (aMCI: n=21; and psMCI: n=14) received 24 sessions of accelerated iTBS over 3 days (8 sessions per day). During the 10- to 15-minute intervals between iTBS sessions, participants engaged in CCT via the BrainHQ platform. During the 4-week follow-up period, participants were asked to complete 20 minutes daily of BrainHQ. Both studies offered identical compensation for daily practice, but the aMCI group received weekly reminders, whereas the psMCI group did not. Study-specific questionnaires assessed BrainHQ acceptability (administered post-treatment and at follow-up). RESULTS: During in-laboratory treatment, the groups completed similar amounts of BrainHQ (aMCI: median 107, IQR 92-121 min; and psMCI: median 111, IQR 93-137 min; P=.51). However, engagement differed during the unmonitored follow-up (aMCI: median 450, IQR 167-581 min,; and psMCI: median 142, IQR 0-477 min); practice time increased in the aMCI group but decreased in the psMCI group over the 4 weeks (P=.001). Both groups generally rated BrainHQ positively at both time points in terms of their experience with the platform, exercises, and perceived benefit for their mood and functioning. CONCLUSIONS: Combined treatment with CCT and accelerated iTBS is feasible and acceptable in people with mild cognitive impairment. Standardized dosing of CCT is feasibly achieved when interleaved with iTBS sessions and completed in-laboratory, but ecological adherence to CCT in an unmonitored, self-directed context likely requires additional supports and may be influenced by patient characteristics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42459821/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "JMIR Neurotechnol",
+      "journal_issn": "2817-092X",
+      "published_date": "2026-07-15",
+      "date": "2026-07-16",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ]
+}

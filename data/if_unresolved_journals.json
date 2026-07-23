@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T12:43:40+00:00",
+  "updated_at": "2026-07-23T15:44:37+00:00",
   "journals": {
     "A A Pract": {
       "journal_name": "A A Pract",
@@ -126,13 +126,15 @@
       "journal_name": "Alcohol Clin Exp Res (Hoboken)",
       "journal_issn": "2993-7175",
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-02",
-      "seen_count": 2,
+      "last_seen": "2026-07-23",
+      "seen_count": 4,
       "files": [
         "2026-07-01-brainmri.json",
-        "2026-07-02-brainmri.json"
+        "2026-07-01-tms.json",
+        "2026-07-02-brainmri.json",
+        "2026-07-02-tms.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "Alcohol, Clinical and Experimental Research",
       "notes": "impact_factor_reason=no_match"
     },
     "Alzheimer Dis Assoc Disord": {
@@ -245,6 +247,19 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "Am J Phys Med Rehabil": {
+      "journal_name": "Am J Phys Med Rehabil",
+      "journal_issn": "1537-7385",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-23",
+      "seen_count": 2,
+      "files": [
+        "2026-07-07-tms.json",
+        "2026-07-08-tms.json"
+      ],
+      "manual_full_name": "American Journal of Physical Medicine & Rehabilitation",
+      "notes": "impact_factor_reason=no_match"
+    },
     "Am J Physiol Regul Integr Comp Physiol": {
       "journal_name": "Am J Physiol Regul Integr Comp Physiol",
       "journal_issn": "1522-1490",
@@ -255,29 +270,6 @@
         "2026-06-15-brainmri.json",
         "2026-06-16-brainmri.json",
         "2026-06-17-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Am J Psychiatry": {
-      "journal_name": "Am J Psychiatry",
-      "journal_issn": "1535-7228",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-07-10",
-      "seen_count": 12,
-      "files": [
-        "2026-06-03-brainmri.json",
-        "2026-06-04-brainmri.json",
-        "2026-06-05-brainmri.json",
-        "2026-06-10-brainmri.json",
-        "2026-06-11-brainmri.json",
-        "2026-06-12-brainmri.json",
-        "2026-06-24-brainmri.json",
-        "2026-06-25-brainmri.json",
-        "2026-06-26-brainmri.json",
-        "2026-07-08-brainmri.json",
-        "2026-07-09-brainmri.json",
-        "2026-07-10-brainmri.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
@@ -397,6 +389,19 @@
         "2026-07-17-brainmri.json"
       ],
       "manual_full_name": "",
+      "notes": "impact_factor_reason=no_match"
+    },
+    "Ann Gen Psychiatry": {
+      "journal_name": "Ann Gen Psychiatry",
+      "journal_issn": "1744-859X",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-07-23",
+      "seen_count": 2,
+      "files": [
+        "2026-06-02-tms.json",
+        "2026-06-03-tms.json"
+      ],
+      "manual_full_name": "Annals of General Psychiatry",
       "notes": "impact_factor_reason=no_match"
     },
     "Ann Hematol": {
@@ -821,20 +826,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "BMC Geriatr": {
-      "journal_name": "BMC Geriatr",
-      "journal_issn": "1471-2318",
-      "first_seen": "2026-06-27",
-      "last_seen": "2026-06-29",
-      "seen_count": 3,
-      "files": [
-        "2026-06-27-brainmri.json",
-        "2026-06-28-brainmri.json",
-        "2026-06-29-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "BMC Med Inform Decis Mak": {
       "journal_name": "BMC Med Inform Decis Mak",
       "journal_issn": "1472-6947",
@@ -960,6 +951,19 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "BME Front": {
+      "journal_name": "BME Front",
+      "journal_issn": "2765-8031",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-23",
+      "seen_count": 2,
+      "files": [
+        "2026-07-03-tms.json",
+        "2026-07-04-tms.json"
+      ],
+      "manual_full_name": "BME Frontiers",
+      "notes": "impact_factor_reason=no_match"
+    },
     "BMJ Paediatr Open": {
       "journal_name": "BMJ Paediatr Open",
       "journal_issn": "2399-9772",
@@ -1074,41 +1078,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Brain Commun": {
-      "journal_name": "Brain Commun",
-      "journal_issn": "2632-1297",
-      "first_seen": "2026-05-26",
-      "last_seen": "2026-07-22",
-      "seen_count": 5,
-      "files": [
-        "2026-05-26-brainmri.json",
-        "2026-05-27-brainmri.json",
-        "2026-06-04-brainmri.json",
-        "2026-06-19-brainmri.json",
-        "2026-07-22-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Brain Connect": {
-      "journal_name": "Brain Connect",
-      "journal_issn": "2158-0022",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-15",
-      "seen_count": 8,
-      "files": [
-        "2026-06-05-brainmri.json",
-        "2026-06-06-brainmri.json",
-        "2026-06-07-brainmri.json",
-        "2026-06-11-brainmri.json",
-        "2026-06-12-brainmri.json",
-        "2026-06-13-brainmri.json",
-        "2026-06-14-brainmri.json",
-        "2026-06-15-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Brain Dev": {
       "journal_name": "Brain Dev",
       "journal_issn": "1872-7131",
@@ -1168,65 +1137,6 @@
         "2026-06-30-brainmri.json",
         "2026-07-01-brainmri.json",
         "2026-07-02-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Brain Res Bull": {
-      "journal_name": "Brain Res Bull",
-      "journal_issn": "1873-2747",
-      "first_seen": "2026-05-26",
-      "last_seen": "2026-07-18",
-      "seen_count": 29,
-      "files": [
-        "2026-05-26-brainmri.json",
-        "2026-05-27-brainmri.json",
-        "2026-05-28-brainmri.json",
-        "2026-05-29-brainmri.json",
-        "2026-05-31-brainmri.json",
-        "2026-06-01-brainmri.json",
-        "2026-06-02-brainmri.json",
-        "2026-06-03-brainmri.json",
-        "2026-06-04-brainmri.json",
-        "2026-06-06-brainmri.json",
-        "2026-06-07-brainmri.json",
-        "2026-06-13-brainmri.json",
-        "2026-06-14-brainmri.json",
-        "2026-06-15-brainmri.json",
-        "2026-06-23-brainmri.json",
-        "2026-06-24-brainmri.json",
-        "2026-06-25-brainmri.json",
-        "2026-06-26-brainmri.json",
-        "2026-06-27-brainmri.json",
-        "2026-06-28-brainmri.json",
-        "2026-06-29-brainmri.json",
-        "2026-07-07-brainmri.json",
-        "2026-07-08-brainmri.json",
-        "2026-07-09-brainmri.json",
-        "2026-07-10-brainmri.json",
-        "2026-07-15-brainmri.json",
-        "2026-07-16-brainmri.json",
-        "2026-07-17-brainmri.json",
-        "2026-07-18-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Brain Stimul": {
-      "journal_name": "Brain Stimul",
-      "journal_issn": "1876-4754",
-      "first_seen": "2026-05-30",
-      "last_seen": "2026-07-04",
-      "seen_count": 8,
-      "files": [
-        "2026-05-30-brainmri.json",
-        "2026-05-31-brainmri.json",
-        "2026-06-02-brainmri.json",
-        "2026-06-03-brainmri.json",
-        "2026-06-04-brainmri.json",
-        "2026-07-02-brainmri.json",
-        "2026-07-03-brainmri.json",
-        "2026-07-04-brainmri.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
@@ -1421,20 +1331,6 @@
       "seen_count": 1,
       "files": [
         "2026-07-01-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Cell": {
-      "journal_name": "Cell",
-      "journal_issn": "1097-4172",
-      "first_seen": "2026-06-26",
-      "last_seen": "2026-06-28",
-      "seen_count": 3,
-      "files": [
-        "2026-06-26-brainmri.json",
-        "2026-06-27-brainmri.json",
-        "2026-06-28-brainmri.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
@@ -1809,6 +1705,20 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "Clinics (Sao Paulo)": {
+      "journal_name": "Clinics (Sao Paulo)",
+      "journal_issn": "1980-5322",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-23",
+      "seen_count": 3,
+      "files": [
+        "2026-07-09-tms.json",
+        "2026-07-10-tms.json",
+        "2026-07-11-tms.json"
+      ],
+      "manual_full_name": "Clinics",
+      "notes": "impact_factor_reason=no_match"
+    },
     "CNS Neurosci Ther": {
       "journal_name": "CNS Neurosci Ther",
       "journal_issn": "1755-5949",
@@ -2159,19 +2069,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Dialogues Clin Neurosci": {
-      "journal_name": "Dialogues Clin Neurosci",
-      "journal_issn": "1958-5969",
-      "first_seen": "2026-06-19",
-      "last_seen": "2026-06-20",
-      "seen_count": 2,
-      "files": [
-        "2026-06-19-brainmri.json",
-        "2026-06-20-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Digit Health": {
       "journal_name": "Digit Health",
       "journal_issn": "2055-2076",
@@ -2461,13 +2358,15 @@
       "journal_name": "Eur J Neurosci",
       "journal_issn": "1460-9568",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-03",
-      "seen_count": 2,
+      "last_seen": "2026-07-23",
+      "seen_count": 4,
       "files": [
         "2026-07-02-brainmri.json",
-        "2026-07-03-brainmri.json"
+        "2026-07-02-tms.json",
+        "2026-07-03-brainmri.json",
+        "2026-07-03-tms.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "European Journal of Neuroscience",
       "notes": "impact_factor_reason=no_match"
     },
     "Eur J Paediatr Neurol": {
@@ -2511,20 +2410,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Eur Neuropsychopharmacol": {
-      "journal_name": "Eur Neuropsychopharmacol",
-      "journal_issn": "1873-7862",
-      "first_seen": "2026-06-13",
-      "last_seen": "2026-06-15",
-      "seen_count": 3,
-      "files": [
-        "2026-06-13-brainmri.json",
-        "2026-06-14-brainmri.json",
-        "2026-06-15-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Eur Psychiatry": {
       "journal_name": "Eur Psychiatry",
       "journal_issn": "1778-3585",
@@ -2556,12 +2441,15 @@
       "journal_name": "Eur Stroke J",
       "journal_issn": "2396-9881",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-08",
-      "seen_count": 1,
+      "last_seen": "2026-07-23",
+      "seen_count": 4,
       "files": [
-        "2026-07-08-brainmri.json"
+        "2026-07-06-tms.json",
+        "2026-07-07-tms.json",
+        "2026-07-08-brainmri.json",
+        "2026-07-08-tms.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "European Stroke Journal",
       "notes": "impact_factor_reason=no_match"
     },
     "Exp Gerontol": {
@@ -2910,16 +2798,17 @@
       "journal_name": "Imaging Neurosci (Camb)",
       "journal_issn": "2837-6056",
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-22",
-      "seen_count": 5,
+      "last_seen": "2026-07-23",
+      "seen_count": 6,
       "files": [
         "2026-07-01-brainmri.json",
         "2026-07-08-brainmri.json",
         "2026-07-15-brainmri.json",
         "2026-07-16-brainmri.json",
+        "2026-07-16-tms.json",
         "2026-07-22-brainmri.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "Imaging Neuroscience",
       "notes": "impact_factor_reason=no_match"
     },
     "Immunotherapy": {
@@ -3458,20 +3347,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "J ECT": {
-      "journal_name": "J ECT",
-      "journal_issn": "1533-4112",
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-06-06",
-      "seen_count": 3,
-      "files": [
-        "2026-06-04-brainmri.json",
-        "2026-06-05-brainmri.json",
-        "2026-06-06-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "J Endocrinol Invest": {
       "journal_name": "J Endocrinol Invest",
       "journal_issn": "1720-8386",
@@ -3775,22 +3650,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "J Neuroeng Rehabil": {
-      "journal_name": "J Neuroeng Rehabil",
-      "journal_issn": "1743-0003",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-14",
-      "seen_count": 5,
-      "files": [
-        "2026-06-05-brainmri.json",
-        "2026-06-06-brainmri.json",
-        "2026-06-07-brainmri.json",
-        "2026-06-13-brainmri.json",
-        "2026-06-14-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "J Neuroimaging": {
       "journal_name": "J Neuroimaging",
       "journal_issn": "1552-6569",
@@ -3875,8 +3734,8 @@
       "journal_name": "J Neurophysiol",
       "journal_issn": "1522-1598",
       "first_seen": "2026-05-24",
-      "last_seen": "2026-07-01",
-      "seen_count": 12,
+      "last_seen": "2026-07-23",
+      "seen_count": 15,
       "files": [
         "2026-05-24-brainmri.json",
         "2026-05-25-brainmri.json",
@@ -3885,13 +3744,16 @@
         "2026-06-12-brainmri.json",
         "2026-06-13-brainmri.json",
         "2026-06-21-brainmri.json",
+        "2026-06-21-tms.json",
         "2026-06-22-brainmri.json",
+        "2026-06-22-tms.json",
         "2026-06-23-brainmri.json",
+        "2026-06-23-tms.json",
         "2026-06-29-brainmri.json",
         "2026-06-30-brainmri.json",
         "2026-07-01-brainmri.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "Journal of Neurophysiology",
       "notes": "impact_factor_reason=no_match"
     },
     "J Neuroradiol": {
@@ -4095,6 +3957,19 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "J Sports Sci": {
+      "journal_name": "J Sports Sci",
+      "journal_issn": "1466-447X",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-23",
+      "seen_count": 2,
+      "files": [
+        "2026-07-22-tms.json",
+        "2026-07-23-tms.json"
+      ],
+      "manual_full_name": "Journal of Sports Sciences",
+      "notes": "impact_factor_reason=no_match"
+    },
     "J Stroke Cerebrovasc Dis": {
       "journal_name": "J Stroke Cerebrovasc Dis",
       "journal_issn": "1532-8511",
@@ -4254,17 +4129,20 @@
       "journal_name": "JAMA Psychiatry",
       "journal_issn": "2168-6238",
       "first_seen": "2026-06-10",
-      "last_seen": "2026-06-26",
-      "seen_count": 6,
+      "last_seen": "2026-07-23",
+      "seen_count": 9,
       "files": [
         "2026-06-10-brainmri.json",
         "2026-06-11-brainmri.json",
         "2026-06-12-brainmri.json",
         "2026-06-24-brainmri.json",
+        "2026-06-24-tms.json",
         "2026-06-25-brainmri.json",
-        "2026-06-26-brainmri.json"
+        "2026-06-25-tms.json",
+        "2026-06-26-brainmri.json",
+        "2026-06-26-tms.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "JAMA Psychiatry",
       "notes": "impact_factor_reason=no_match"
     },
     "JIMD Rep": {
@@ -4308,21 +4186,17 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "JMIR Res Protoc": {
-      "journal_name": "JMIR Res Protoc",
-      "journal_issn": "1929-0748",
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-07-10",
-      "seen_count": 6,
+    "JMIR Neurotechnol": {
+      "journal_name": "JMIR Neurotechnol",
+      "journal_issn": "2817-092X",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-23",
+      "seen_count": 2,
       "files": [
-        "2026-06-04-brainmri.json",
-        "2026-06-05-brainmri.json",
-        "2026-06-06-brainmri.json",
-        "2026-07-08-brainmri.json",
-        "2026-07-09-brainmri.json",
-        "2026-07-10-brainmri.json"
+        "2026-07-16-tms.json",
+        "2026-07-17-tms.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "JMIR Neurotechnology",
       "notes": "impact_factor_reason=no_match"
     },
     "Jpn J Infect Dis": {
@@ -4413,6 +4287,18 @@
         "2026-06-30-brainmri.json"
       ],
       "manual_full_name": "",
+      "notes": "impact_factor_reason=no_match"
+    },
+    "Lasers Med Sci": {
+      "journal_name": "Lasers Med Sci",
+      "journal_issn": "1435-604X",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "seen_count": 1,
+      "files": [
+        "2026-07-23-tms.json"
+      ],
+      "manual_full_name": "Lasers in Medical Science",
       "notes": "impact_factor_reason=no_match"
     },
     "Light Sci Appl": {
@@ -4760,30 +4646,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Neural Plast": {
-      "journal_name": "Neural Plast",
-      "journal_issn": "1687-5443",
-      "first_seen": "2026-05-24",
-      "last_seen": "2026-07-22",
-      "seen_count": 13,
-      "files": [
-        "2026-05-24-brainmri.json",
-        "2026-05-25-brainmri.json",
-        "2026-05-26-brainmri.json",
-        "2026-05-27-brainmri.json",
-        "2026-06-01-brainmri.json",
-        "2026-06-02-brainmri.json",
-        "2026-06-03-brainmri.json",
-        "2026-06-23-brainmri.json",
-        "2026-06-24-brainmri.json",
-        "2026-06-25-brainmri.json",
-        "2026-07-20-brainmri.json",
-        "2026-07-21-brainmri.json",
-        "2026-07-22-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Neurobiol Aging": {
       "journal_name": "Neurobiol Aging",
       "journal_issn": "1558-1497",
@@ -4971,49 +4833,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Neurology": {
-      "journal_name": "Neurology",
-      "journal_issn": "1526-632X",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-07-22",
-      "seen_count": 32,
-      "files": [
-        "2026-05-29-brainmri.json",
-        "2026-05-30-brainmri.json",
-        "2026-05-31-brainmri.json",
-        "2026-06-01-brainmri.json",
-        "2026-06-02-brainmri.json",
-        "2026-06-03-brainmri.json",
-        "2026-06-12-brainmri.json",
-        "2026-06-13-brainmri.json",
-        "2026-06-14-brainmri.json",
-        "2026-06-17-brainmri.json",
-        "2026-06-18-brainmri.json",
-        "2026-06-19-brainmri.json",
-        "2026-06-20-brainmri.json",
-        "2026-06-21-brainmri.json",
-        "2026-06-22-brainmri.json",
-        "2026-06-23-brainmri.json",
-        "2026-06-24-brainmri.json",
-        "2026-06-25-brainmri.json",
-        "2026-06-26-brainmri.json",
-        "2026-06-27-brainmri.json",
-        "2026-06-28-brainmri.json",
-        "2026-07-01-brainmri.json",
-        "2026-07-02-brainmri.json",
-        "2026-07-03-brainmri.json",
-        "2026-07-10-brainmri.json",
-        "2026-07-11-brainmri.json",
-        "2026-07-12-brainmri.json",
-        "2026-07-14-brainmri.json",
-        "2026-07-15-brainmri.json",
-        "2026-07-16-brainmri.json",
-        "2026-07-21-brainmri.json",
-        "2026-07-22-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Neuromolecular Med": {
       "journal_name": "Neuromolecular Med",
       "journal_issn": "1559-1174",
@@ -5048,20 +4867,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Neuropsychol Rev": {
-      "journal_name": "Neuropsychol Rev",
-      "journal_issn": "1573-6660",
-      "first_seen": "2026-05-28",
-      "last_seen": "2026-05-30",
-      "seen_count": 3,
-      "files": [
-        "2026-05-28-brainmri.json",
-        "2026-05-29-brainmri.json",
-        "2026-05-30-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Neuropsychology": {
       "journal_name": "Neuropsychology",
       "journal_issn": "1931-1559",
@@ -5086,8 +4891,8 @@
       "journal_name": "Neuropsychopharmacology",
       "journal_issn": "1740-634X",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-07-22",
-      "seen_count": 16,
+      "last_seen": "2026-07-23",
+      "seen_count": 19,
       "files": [
         "2026-05-30-brainmri.json",
         "2026-05-31-brainmri.json",
@@ -5095,6 +4900,9 @@
         "2026-06-02-brainmri.json",
         "2026-06-03-brainmri.json",
         "2026-06-04-brainmri.json",
+        "2026-06-18-tms.json",
+        "2026-06-19-tms.json",
+        "2026-06-20-tms.json",
         "2026-06-25-brainmri.json",
         "2026-06-26-brainmri.json",
         "2026-06-27-brainmri.json",
@@ -5106,7 +4914,7 @@
         "2026-07-21-brainmri.json",
         "2026-07-22-brainmri.json"
       ],
-      "manual_full_name": "",
+      "manual_full_name": "Neuropsychopharmacology",
       "notes": "impact_factor_reason=conflict"
     },
     "Neuroradiol J": {
@@ -5153,26 +4961,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Neurotherapeutics": {
-      "journal_name": "Neurotherapeutics",
-      "journal_issn": "1878-7479",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-07-19",
-      "seen_count": 9,
-      "files": [
-        "2026-06-03-brainmri.json",
-        "2026-06-04-brainmri.json",
-        "2026-06-05-brainmri.json",
-        "2026-06-08-brainmri.json",
-        "2026-06-09-brainmri.json",
-        "2026-06-10-brainmri.json",
-        "2026-07-17-brainmri.json",
-        "2026-07-18-brainmri.json",
-        "2026-07-19-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Neurotoxicology": {
       "journal_name": "Neurotoxicology",
       "journal_issn": "1872-9711",
@@ -5198,31 +4986,6 @@
         "2026-06-03-brainmri.json",
         "2026-06-04-brainmri.json",
         "2026-06-05-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "NPJ Digit Med": {
-      "journal_name": "NPJ Digit Med",
-      "journal_issn": "2398-6352",
-      "first_seen": "2026-06-13",
-      "last_seen": "2026-07-22",
-      "seen_count": 14,
-      "files": [
-        "2026-06-13-brainmri.json",
-        "2026-06-14-brainmri.json",
-        "2026-06-15-brainmri.json",
-        "2026-06-19-brainmri.json",
-        "2026-06-20-brainmri.json",
-        "2026-06-21-brainmri.json",
-        "2026-06-25-brainmri.json",
-        "2026-06-26-brainmri.json",
-        "2026-06-27-brainmri.json",
-        "2026-06-30-brainmri.json",
-        "2026-07-01-brainmri.json",
-        "2026-07-20-brainmri.json",
-        "2026-07-21-brainmri.json",
-        "2026-07-22-brainmri.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
@@ -5313,6 +5076,20 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "Open Med (Wars)": {
+      "journal_name": "Open Med (Wars)",
+      "journal_issn": "2391-5463",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-23",
+      "seen_count": 3,
+      "files": [
+        "2026-07-02-tms.json",
+        "2026-07-03-tms.json",
+        "2026-07-04-tms.json"
+      ],
+      "manual_full_name": "Open Medicine",
+      "notes": "impact_factor_reason=no_match"
+    },
     "Ophthalmic Surg Lasers Imaging Retina": {
       "journal_name": "Ophthalmic Surg Lasers Imaging Retina",
       "journal_issn": "2325-8179",
@@ -5393,6 +5170,18 @@
         "2026-07-09-brainmri.json"
       ],
       "manual_full_name": "",
+      "notes": "impact_factor_reason=no_match"
+    },
+    "Parkinsonism Relat Disord": {
+      "journal_name": "Parkinsonism Relat Disord",
+      "journal_issn": "1873-5126",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-07-23",
+      "seen_count": 1,
+      "files": [
+        "2026-06-24-tms.json"
+      ],
+      "manual_full_name": "Parkinsonism & Related Disorders",
       "notes": "impact_factor_reason=no_match"
     },
     "PCN Rep": {
@@ -5607,45 +5396,6 @@
         "2026-06-01-brainmri.json",
         "2026-06-02-brainmri.json",
         "2026-06-03-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Proc Natl Acad Sci U S A": {
-      "journal_name": "Proc Natl Acad Sci U S A",
-      "journal_issn": "1091-6490",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-15",
-      "seen_count": 28,
-      "files": [
-        "2026-05-27-brainmri.json",
-        "2026-05-28-brainmri.json",
-        "2026-05-29-brainmri.json",
-        "2026-06-08-brainmri.json",
-        "2026-06-09-brainmri.json",
-        "2026-06-10-brainmri.json",
-        "2026-06-15-brainmri.json",
-        "2026-06-16-brainmri.json",
-        "2026-06-17-brainmri.json",
-        "2026-06-18-brainmri.json",
-        "2026-06-19-brainmri.json",
-        "2026-06-22-brainmri.json",
-        "2026-06-23-brainmri.json",
-        "2026-06-24-brainmri.json",
-        "2026-06-29-brainmri.json",
-        "2026-06-30-brainmri.json",
-        "2026-07-01-brainmri.json",
-        "2026-07-02-brainmri.json",
-        "2026-07-03-brainmri.json",
-        "2026-07-04-brainmri.json",
-        "2026-07-06-brainmri.json",
-        "2026-07-07-brainmri.json",
-        "2026-07-08-brainmri.json",
-        "2026-07-09-brainmri.json",
-        "2026-07-10-brainmri.json",
-        "2026-07-13-brainmri.json",
-        "2026-07-14-brainmri.json",
-        "2026-07-15-brainmri.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
@@ -5916,6 +5666,20 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "Rural Ment Health": {
+      "journal_name": "Rural Ment Health",
+      "journal_issn": "1935-942X",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-07-23",
+      "seen_count": 3,
+      "files": [
+        "2026-06-10-tms.json",
+        "2026-06-11-tms.json",
+        "2026-06-12-tms.json"
+      ],
+      "manual_full_name": "Journal of Rural Mental Health",
+      "notes": "impact_factor_reason=no_match"
+    },
     "Sci Adv": {
       "journal_name": "Sci Adv",
       "journal_issn": "2375-2548",
@@ -6106,6 +5870,20 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
+    "Subst Use Addctn J": {
+      "journal_name": "Subst Use Addctn J",
+      "journal_issn": "2976-7350",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-23",
+      "seen_count": 3,
+      "files": [
+        "2026-07-07-tms.json",
+        "2026-07-08-tms.json",
+        "2026-07-09-tms.json"
+      ],
+      "manual_full_name": "Substance Use & Addiction Journal",
+      "notes": "impact_factor_reason=no_match"
+    },
     "Surv Ophthalmol": {
       "journal_name": "Surv Ophthalmol",
       "journal_issn": "1879-3304",
@@ -6169,26 +5947,6 @@
       "files": [
         "2026-05-29-brainmri.json",
         "2026-05-30-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Transl Stroke Res": {
-      "journal_name": "Transl Stroke Res",
-      "journal_issn": "1868-601X",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-07-20",
-      "seen_count": 9,
-      "files": [
-        "2026-06-08-brainmri.json",
-        "2026-06-09-brainmri.json",
-        "2026-06-10-brainmri.json",
-        "2026-06-17-brainmri.json",
-        "2026-06-18-brainmri.json",
-        "2026-06-19-brainmri.json",
-        "2026-07-18-brainmri.json",
-        "2026-07-19-brainmri.json",
-        "2026-07-20-brainmri.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
