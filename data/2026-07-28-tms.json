@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-28",
+  "articles": [
+    {
+      "title": "Intrinsic connectivity networks during fear and safety learning in youth.",
+      "summary": "BACKGROUND: Recent studies have focused on characterising the brain's intrinsic connectivity networks during fear learning, going beyond traditional brain activation analyses, to study the acquisition of fearful associations as a model for clinical anxiety onset. AIMS: Given the sharp increase in prevalence of affective disorders during puberty, a period marked by heightened affective sensitivity and fronto-amygdala circuitry development, the current study compares the connectivity within and between the salience network, executive control network and default mode network throughout fear learning, between young adults with and without mild mixed affective complaints. We hereby aim to identify potential neural targets for promising novel treatment options, such as functional magnetic resonance imaging (fMRI)-guided neurofeedback or transcranial magnetic stimulation. METHOD: Generalised psychophysiological interaction analysis was used to assess connectivity changes within and between the salience network, executive control network and default mode network during an fMRI fear-conditioning paradigm (habituation, early, mid and late acquisition phase). Results were compared between healthy controls (n = 44), spider phobics (n = 44) and a group with subclinical mixed psychopathology (n = 52; 21 males), all aged 16-25 years. RESULTS: Task-induced changes in functional connectivity were specifically found in the default mode network (F(6, 792) = 4.170, p < 0.001). Overall, the default mode network showed less functional connectivity during conditioned threat stimulus than neutral 'safe' stimulus trials. Notably, a subset of connections within the default mode network of the subclinical mixed psychopathology group failed to differentiate between the stimuli (F(27, 377.39) = 2.01, false discovery rate-adjusted p-value = 0.014), which is in line with fear-conditioning research showing impaired (behavioural) stimuli differentiation in affective disorders. CONCLUSIONS: Stimulus-specific temporal dynamics of the default mode network during fear learning differentiated young adults with and without mild psychopathology. These results add up to a growing body of research identifying deficient default mode network functionality in affective disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42504105/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Br J Psychiatry",
+      "journal_issn": "1472-1465",
+      "published_date": "2026-07-27",
+      "date": "2026-07-28",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-28T03:02:53+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Intrinsic connectivity networks during fear and safety learning in youth.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42504105/",
+        "published_date": "2026-07-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

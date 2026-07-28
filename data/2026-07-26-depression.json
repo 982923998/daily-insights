@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-26",
+  "articles": [
+    {
+      "title": "Transdiagnostic MRI-derived Features of Psychopathology Following Traumatic Brain Injury: A Systematic Review.",
+      "summary": "The biological basis of psychopathology outcomes in moderate-severe traumatic brain injury (TBI) remains poorly understood. Previous reviews have found limited convergence in associations between brain regions or functions and specific psychopathology categories (e.g., anxiety, depression). The current systematic review aimed to evaluate MRI-derived features of psychopathology transdiagnostically across available diagnostic categories in moderate-severe TBI. Eligible studies investigated associations between MRI-derived features (macro-, micro-structure, function) and psychopathology in adults with closed-moderate-severe TBI. We searched English literature from Embase, PsycINFO, and MEDLINE via Ovid SP, and the review was last assessed as up to date on 2nd November 2023. Risk of bias was assessed using a customised tool based on the Joanna Brigg's Institute Critical Appraisal Tools. The total number of records screened was 7,777 articles, with 18 meeting eligibility criteria. Studies predominantly investigated hippocampal morphology (n = 7) and depression (n = 9). The average risk of bias fell within the \"intermediate\" range, associated with sampling, measurement, and statistical bias. Findings were heterogeneous and inconsistent within specific psychopathology categories, yet some morphological features converged transdiagnostically (e.g., hippocampus, thalamus, fronto-temporal regions). Notably, lower hippocampal volume was associated with higher depression (n = 2), anxiety (n = 1), apathy (n = 1), and psychosis (n = 1). No consistent microstructural and functional features converged across studies. This review provides a comprehensive evaluation of the current evidence regarding transdiagnostic MRI-derived features of psychopathology and critiques common limitations across the literature, including the focus on structural MRI, lack of appropriate comparators, and the narrow focus on specific psychopathology categories. We propose that transdiagnostic-dimensional frameworks may help address these gaps and advance the understanding of shared and distinct biological features of psychopathology in moderate-severe TBI.Review Registration: prospectively registered on 6/9/2022 in PROSPERO (CRD42022358358).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42501195/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Neuropsychol Rev",
+      "journal_issn": "1573-6660",
+      "published_date": "2026-07-25",
+      "date": "2026-07-26",
+      "impact_factor": 8.2,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NEUROPSYCHOLOGY REVIEW"
+    },
+    {
+      "title": "Proximity to an SGC-DLPFC Individualized Functional Target and Electric-Field Modeling Do Not Predict Clinical Outcomes of rTMS for Treatment-Resistant Depression.",
+      "summary": "BACKGROUND: Targeting methods for repetitive transcranial magnetic stimulation (rTMS) in patients with depression now include individual functional magnetic resonance imaging (fMRI) scans to target specific functional connectivity (FC) patterns. Potential biomarkers of rTMS response include target FC with the subgenual anterior cingulate cortex (SGC) or the causal depression circuit (CDC), each of which may be candidates for individualized functional targets (iFTs). We retrospectively assessed the relationship of these two approaches to outcomes in secondary analyses of two large rTMS clinical trials. METHODS: 501 subjects with moderate to severe depression underwent 4-6 weeks of daily rTMS to the left dorsolateral prefrontal cortex (DLPFC), targeted using neuronavigation to an optimized DLPFC-SGC-FC group-based functional target. Baseline resting-state scans were used to retrospectively compute iFTs using either SGC-DLPFC or CDC-DLPFC FC. Proximity (Euclidean distance) of the stimulated target to iFTs were correlated with outcomes. Electric field magnitude at iFTs was computed to capture non-linear stimulation propagation. RESULTS: Most iFTs were within 2cm of their group-target. Proximity to either an SGC- or CDC-iFT was not associated with better outcomes. Sensitivity analyses accounting for treatment target FC, methodology, data quality, or treatment parameters did not change results. Electric field-based measures were highly similar to Euclidean distance and likewise showed no association with outcomes. CONCLUSIONS: Under the specific fMRI acquisition parameters used, proximity to optimized DLPFC-SGC-iFTs was not associated with better outcomes in patients receiving neuronavigated rTMS to an optimized DLPFC-SGC group-target. Prospective randomized clinical trials definitively assessing the clinical utility of iFTs are warranted. .",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42501968/",
+      "category": "Depression",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-07-25",
+      "date": "2026-07-26",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-28T03:02:52+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Proximity to an SGC-DLPFC Individualized Functional Target and Electric-Field Modeling Do Not Predict Clinical Outcomes of rTMS for Treatment-Resistant Depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42501968/",
+        "published_date": "2026-07-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Transdiagnostic MRI-derived Features of Psychopathology Following Traumatic Brain Injury: A Systematic Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42501195/",
+        "published_date": "2026-07-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

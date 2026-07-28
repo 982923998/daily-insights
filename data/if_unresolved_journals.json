@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T15:44:37+00:00",
+  "updated_at": "2026-07-28T03:02:52+00:00",
   "journals": {
     "A A Pract": {
       "journal_name": "A A Pract",
@@ -614,35 +614,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "Biol Psychiatry Cogn Neurosci Neuroimaging": {
-      "journal_name": "Biol Psychiatry Cogn Neurosci Neuroimaging",
-      "journal_issn": "2451-9030",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-07-19",
-      "seen_count": 18,
-      "files": [
-        "2026-05-27-brainmri.json",
-        "2026-05-28-brainmri.json",
-        "2026-05-29-brainmri.json",
-        "2026-05-30-brainmri.json",
-        "2026-05-31-brainmri.json",
-        "2026-06-05-brainmri.json",
-        "2026-06-06-brainmri.json",
-        "2026-06-17-brainmri.json",
-        "2026-06-18-brainmri.json",
-        "2026-06-19-brainmri.json",
-        "2026-06-20-brainmri.json",
-        "2026-06-21-brainmri.json",
-        "2026-06-22-brainmri.json",
-        "2026-07-15-brainmri.json",
-        "2026-07-16-brainmri.json",
-        "2026-07-17-brainmri.json",
-        "2026-07-18-brainmri.json",
-        "2026-07-19-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "Biol Rev Camb Philos Soc": {
       "journal_name": "Biol Rev Camb Philos Soc",
       "journal_issn": "1469-185X",
@@ -1007,6 +978,19 @@
         "2026-06-20-brainmri.json"
       ],
       "manual_full_name": "British journal of neurosurgery",
+      "notes": "impact_factor_reason=no_match"
+    },
+    "Br J Psychiatry": {
+      "journal_name": "Br J Psychiatry",
+      "journal_issn": "1472-1465",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "seen_count": 2,
+      "files": [
+        "2026-07-27-tms.json",
+        "2026-07-28-tms.json"
+      ],
+      "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
     "Br J Radiol": {
@@ -3477,32 +3461,6 @@
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
     },
-    "J Int Med Res": {
-      "journal_name": "J Int Med Res",
-      "journal_issn": "1473-2300",
-      "first_seen": "2026-06-19",
-      "last_seen": "2026-07-22",
-      "seen_count": 15,
-      "files": [
-        "2026-06-19-brainmri.json",
-        "2026-06-20-brainmri.json",
-        "2026-06-26-brainmri.json",
-        "2026-06-27-brainmri.json",
-        "2026-06-28-brainmri.json",
-        "2026-06-29-brainmri.json",
-        "2026-06-30-brainmri.json",
-        "2026-07-01-brainmri.json",
-        "2026-07-03-brainmri.json",
-        "2026-07-04-brainmri.json",
-        "2026-07-05-brainmri.json",
-        "2026-07-09-brainmri.json",
-        "2026-07-10-brainmri.json",
-        "2026-07-11-brainmri.json",
-        "2026-07-22-brainmri.json"
-      ],
-      "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
     "J Intensive Care": {
       "journal_name": "J Intensive Care",
       "journal_issn": "2052-0492",
@@ -3620,8 +3578,8 @@
       "journal_name": "J Neural Transm (Vienna)",
       "journal_issn": "1435-1463",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-07-04",
-      "seen_count": 11,
+      "last_seen": "2026-07-28",
+      "seen_count": 13,
       "files": [
         "2026-06-13-brainmri.json",
         "2026-06-14-brainmri.json",
@@ -3633,7 +3591,9 @@
         "2026-06-21-brainmri.json",
         "2026-07-02-brainmri.json",
         "2026-07-03-brainmri.json",
-        "2026-07-04-brainmri.json"
+        "2026-07-04-brainmri.json",
+        "2026-07-27-autism.json",
+        "2026-07-28-autism.json"
       ],
       "manual_full_name": "",
       "notes": "impact_factor_reason=no_match"
@@ -3961,11 +3921,12 @@
       "journal_name": "J Sports Sci",
       "journal_issn": "1466-447X",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-07-23",
-      "seen_count": 2,
+      "last_seen": "2026-07-24",
+      "seen_count": 3,
       "files": [
         "2026-07-22-tms.json",
-        "2026-07-23-tms.json"
+        "2026-07-23-tms.json",
+        "2026-07-24-tms.json"
       ],
       "manual_full_name": "Journal of Sports Sciences",
       "notes": "impact_factor_reason=no_match"
@@ -4287,18 +4248,6 @@
         "2026-06-30-brainmri.json"
       ],
       "manual_full_name": "",
-      "notes": "impact_factor_reason=no_match"
-    },
-    "Lasers Med Sci": {
-      "journal_name": "Lasers Med Sci",
-      "journal_issn": "1435-604X",
-      "first_seen": "2026-07-23",
-      "last_seen": "2026-07-23",
-      "seen_count": 1,
-      "files": [
-        "2026-07-23-tms.json"
-      ],
-      "manual_full_name": "Lasers in Medical Science",
       "notes": "impact_factor_reason=no_match"
     },
     "Light Sci Appl": {

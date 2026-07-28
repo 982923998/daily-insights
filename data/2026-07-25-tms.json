@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-25",
+  "articles": [
+    {
+      "title": "Insights into neuropathic pain: From disease models to therapeutic interventions.",
+      "summary": "Neuropathic pain (NP) is a debilitating clinical condition arising from lesions or diseases of the somatosensory nervous system, affecting an estimated 3-17% of the global population and imposing a substantial burden on quality of life. Despite advances in understanding peripheral and central sensitization, neuroinflammation, and neuroimmune interactions, effective translation of preclinical findings into clinical therapies remains inadequate. This review offers a comprehensive and critical overview of NP pathophysiology, outlining the regulatory roles of key pain mediators and systematically assessing mainstream preclinical NP models, including nerve injury-based models (chronic constriction injury, spinal nerve ligation, spared nerve injury), drug-induced neuropathy models (oxaliplatin-, paclitaxel- and streptozotocin-induced neuropathy), and disease-related neuropathy models linked to diabetes and brachial plexus damage. Additionally, it discusses both conventional and emerging therapeutic strategies for NP management, covering pharmacological and non-pharmacological interventions, alongside advanced neuromodulation techniques such as spinal cord stimulation, transcranial magnetic stimulation and deep brain stimulation. This review emphasises the need for more clinically representative model systems, robust biomarker development, interdisciplinary collaboration, and patient-centred therapeutic strategies to bridge the translational gap and improve outcomes for patients with NP.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42498091/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Neurosci Biobehav Rev",
+      "journal_issn": "1873-7528",
+      "published_date": "2026-07-24",
+      "date": "2026-07-25",
+      "impact_factor": 8.5,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS"
+    },
+    {
+      "title": "Proximity to an SGC-DLPFC Individualized Functional Target and Electric-Field Modeling Do Not Predict Clinical Outcomes of rTMS for Treatment-Resistant Depression.",
+      "summary": "BACKGROUND: Targeting methods for repetitive transcranial magnetic stimulation (rTMS) in patients with depression now include individual functional magnetic resonance imaging (fMRI) scans to target specific functional connectivity (FC) patterns. Potential biomarkers of rTMS response include target FC with the subgenual anterior cingulate cortex (SGC) or the causal depression circuit (CDC), each of which may be candidates for individualized functional targets (iFTs). We retrospectively assessed the relationship of these two approaches to outcomes in secondary analyses of two large rTMS clinical trials. METHODS: 501 subjects with moderate to severe depression underwent 4-6 weeks of daily rTMS to the left dorsolateral prefrontal cortex (DLPFC), targeted using neuronavigation to an optimized DLPFC-SGC-FC group-based functional target. Baseline resting-state scans were used to retrospectively compute iFTs using either SGC-DLPFC or CDC-DLPFC FC. Proximity (Euclidean distance) of the stimulated target to iFTs were correlated with outcomes. Electric field magnitude at iFTs was computed to capture non-linear stimulation propagation. RESULTS: Most iFTs were within 2cm of their group-target. Proximity to either an SGC- or CDC-iFT was not associated with better outcomes. Sensitivity analyses accounting for treatment target FC, methodology, data quality, or treatment parameters did not change results. Electric field-based measures were highly similar to Euclidean distance and likewise showed no association with outcomes. CONCLUSIONS: Under the specific fMRI acquisition parameters used, proximity to optimized DLPFC-SGC-iFTs was not associated with better outcomes in patients receiving neuronavigated rTMS to an optimized DLPFC-SGC group-target. Prospective randomized clinical trials definitively assessing the clinical utility of iFTs are warranted. .",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42501968/",
+      "category": "TMS",
+      "source": "pubmed",
+      "journal": "Brain Stimul",
+      "journal_issn": "1876-4754",
+      "published_date": "2026-07-25",
+      "date": "2026-07-25",
+      "impact_factor": 9.7,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "abbreviation",
+      "impact_factor_matched_journal": "Brain Stimulation"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-28T03:02:52+00:00",
+    "version": 1,
+    "summary": "Captured 2 research items. Preference focus is brain-imaging analysis and disease mechanisms: 2 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 2; analysis-method items: 2.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 2,
+      "high_priority": 2,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 2
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 2
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Proximity to an SGC-DLPFC Individualized Functional Target and Electric-Field Modeling Do Not Predict Clinical Outcomes of rTMS for Treatment-Resistant Depression.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42501968/",
+        "published_date": "2026-07-25",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      },
+      {
+        "title": "Insights into neuropathic pain: From disease models to therapeutic interventions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42498091/",
+        "published_date": "2026-07-24",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}

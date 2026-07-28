@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-28",
+  "articles": [
+    {
+      "title": "Transdiagnostic monoamine-based subtyping for attention-deficit/hyperactivity disorder and autism spectrum disorder via unsupervised machine learning.",
+      "summary": "Neuroimaging and molecular studies have examined the etiology of attention-deficit/hyperactivity disorder (ADHD) and autism spectrum disorder (ASD). However, their findings remain inconsistent because of within-disorder heterogeneity and cross-disorder phenotypic overlap. We sought to identify monoamine-based subtypes across ADHD and ASD and clarify their brain structural characteristics. In 83 children with ADHD and/or ASD, we applied unsupervised machine learning (NbClust with K-means) to identify neurodevelopmental disorder (NDD) phenotypes using urinary monoamine metabolite (MM) profiles. Behavioral symptoms, cognitive performance, cortical surface area, and gray matter volume (GMV) were evaluated for each NDD phenotype and for 83 typically developing (TD) children as controls. Clustering identified two urinary MM-defined NDD phenotypes: NDD-A (n = 18, including 5 ADHD, 2 ASD, and 11 ADHD + ASD cases), characterized by high levels of 4-hydroxy-3-methoxyphenylglycol, 5-hydroxyindoleacetic acid, and homovanillic acid, and NDD-B (n = 65, including 16 ADHD, 19 ASD, and 30 ADHD + ASD cases), characterized by low levels of these metabolites. Urinary 4-hydroxy-3-methoxyphenylglycol levels correlated positively with social communication difficulties in NDD-A. NDD-B showed significantly lower cognitive control, cognitive flexibility, and inhibitory control than TD. Structurally, compared with TD, NDD-A showed significant surface area enlargement in the isthmus cingulate gyrus, whereas NDD-B exhibited significant GMV reductions primarily in fronto-opercular/orbitofrontal regions, with additional reductions in the superior parietal lobule and supramarginal gyrus. These findings suggest that urinary MM-defined NDD-A and NDD-B phenotypes are associated with distinct cognitive and brain structural characteristics. Such phenotype specificity may provide a novel framework for understanding within-disorder heterogeneity and cross-disorder phenotypic overlaps.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42507172/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "J Neural Transm (Vienna)",
+      "journal_issn": "1435-1463",
+      "published_date": "2026-07-27",
+      "date": "2026-07-28",
+      "impact_factor": null,
+      "impact_factor_year": null,
+      "impact_factor_status": "unresolved",
+      "impact_factor_source": null,
+      "impact_factor_match_method": "none",
+      "impact_factor_matched_journal": null,
+      "impact_factor_reason": "no_match"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-07-28T03:02:53+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Transdiagnostic monoamine-based subtyping for attention-deficit/hyperactivity disorder and autism spectrum disorder via unsupervised machine learning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42507172/",
+        "published_date": "2026-07-27",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}
