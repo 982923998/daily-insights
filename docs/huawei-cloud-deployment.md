@@ -13,13 +13,14 @@
 | 项目目录 | `/projects/daily-insights` |
 | 公网入口 | <http://139.9.67.96/daily-insights/> |
 | Web 服务 | `daily-insights.service` |
-| 每日任务定时器 | `daily-insights-fetch-all.timer` |
-| 每日任务时间 | 每天 08:30（Asia/Shanghai） |
-| IF 补查定时器 | `daily-insights-if-maintenance.timer` |
-| IF 补查时间 | 每天 11:00（Asia/Shanghai） |
+| 每日任务定时器 | `daily-insights-fetch-all.timer`（已禁用） |
+| IF 补查定时器 | `daily-insights-if-maintenance.timer`（已禁用） |
+| 当前抓取位置 | 本机 launchd，每天 08:30（Asia/Shanghai） |
 | 后端监听 | `127.0.0.1:8080`，由 Nginx 反向代理 |
 
-公网只提供页面和只读数据接口。`POST /api/fetch` 在 Nginx 层返回 `403`；每日抓取由 systemd 定时器触发。
+公网只提供页面和只读数据接口。`POST /api/fetch` 在 Nginx 层返回 `403`。
+
+自 2026-07-28 起，华为云不再执行自动抓取或 IF 补查，仅保留 Web 服务和历史数据。每日抓取由本机 `com.dailyinsights.fetch.all` LaunchAgent 执行，服务器数据按需手动同步。
 
 ## 同步原则
 
@@ -175,3 +176,4 @@ tar -xzf /projects/backups/daily-insights-<时间戳>.tar.gz -C "$restore_dir"
 - 三领域迁移备份：`/projects/backups/daily-insights-20260723-214118.tar.gz`；SHA256：`f64bdb094622ecd6167dd9244c06503875ee154da868e5d8a01b2c5f7a6c262b`。
 - 三领域迁移验收：远端 49 项测试通过；`/api/domains` 精确返回 `autism/depression/tms`；`daily-insights-fetch-all.timer` 已启用，旧 `brainmri` timer 已禁用；历史 Brain MRI JSON 保留。
 - 增加 `daily-insights-if-maintenance.timer`：每天 11:00 复查三个活动领域的 unresolved IF，并在回填后重新执行 IF ≥ 8 过滤和最终校验。
+- 2026-07-28：停用华为云 `daily-insights-fetch-all.timer` 和 `daily-insights-if-maintenance.timer`；后续仅在本机每天 08:30 抓取，华为云保留 Web 展示。
