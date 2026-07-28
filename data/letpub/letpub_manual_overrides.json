@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "manual_override",
-  "updated_at": "2026-07-28T03:02:38+00:00",
+  "updated_at": "2026-07-28T03:06:28+00:00",
   "journals": [
     {
       "field": "manual_supplement",
@@ -182,6 +182,41 @@
       "field": "manual_supplement",
       "field_tag": -1,
       "page": 0,
+      "issn": "0894-9115",
+      "journal_name": "AMERICAN JOURNAL OF PHYSICAL MEDICINE & REHABILITATION",
+      "journal_name_short": "Am J Phys Med Rehabil",
+      "journal_id": 450,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=450&page=journalapp&view=detail",
+      "overall_score": 5.5,
+      "impact_factor": 2.3,
+      "impact_factor_year": null,
+      "h_index": 89,
+      "citescore": 3.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=450&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "American Journal of Physical Medicine & Rehabilitation",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1537-7385",
+      "source": "manual_override",
+      "updated_at": "2026-07-25T03:00:04+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
       "issn": "0002-953X",
       "journal_name": "AMERICAN JOURNAL OF PSYCHIATRY",
       "journal_name_short": "Am J Psychiatry",
@@ -247,6 +282,41 @@
       "matched_query": "issn:1520-6882",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:30:46+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "1744-859X",
+      "journal_name": "Annals of General Psychiatry",
+      "journal_name_short": "Ann Gen Psychiatry",
+      "journal_id": 8741,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=8741&page=journalapp&view=detail",
+      "overall_score": 4.9,
+      "impact_factor": 5.8,
+      "impact_factor_year": null,
+      "h_index": 40,
+      "citescore": 6.1,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=8741&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Annals of General Psychiatry",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1744-859X",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:11+00:00"
     },
     {
       "field": "manual_supplement",
@@ -422,6 +492,41 @@
       "matched_query": "issn:1471-2318",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:28:13+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2765-8031",
+      "journal_name": "BME Frontiers",
+      "journal_name_short": "BME Front",
+      "journal_id": 30426,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=30426&page=journalapp&view=detail",
+      "overall_score": 3.4,
+      "impact_factor": 9.1,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 12.4,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=30426&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "BME Frontiers",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:2765-8031",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:16+00:00"
     },
     {
       "field": "manual_supplement",
@@ -847,6 +952,41 @@
       "field": "manual_supplement",
       "field_tag": -1,
       "page": 0,
+      "issn": "1807-5932",
+      "journal_name": "Clinics",
+      "journal_name_short": "Clinics (Sao Paulo)",
+      "journal_id": 1859,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=1859&page=journalapp&view=detail",
+      "overall_score": 5.1,
+      "impact_factor": 2.4,
+      "impact_factor_year": null,
+      "h_index": 51,
+      "citescore": 3.0,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=1859&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Clinics",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1980-5322",
+      "source": "manual_override",
+      "updated_at": "2026-07-25T03:00:06+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
       "issn": "1551-7144",
       "journal_name": "Contemporary Clinical Trials",
       "journal_name_short": "Contemp Clin Trials",
@@ -1197,6 +1337,41 @@
       "field": "manual_supplement",
       "field_tag": -1,
       "page": 0,
+      "issn": "0953-816X",
+      "journal_name": "EUROPEAN JOURNAL OF NEUROSCIENCE",
+      "journal_name_short": "Eur J Neurosci",
+      "journal_id": 2678,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=2678&page=journalapp&view=detail",
+      "overall_score": 6.9,
+      "impact_factor": 2.5,
+      "impact_factor_year": null,
+      "h_index": 191,
+      "citescore": 5.0,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2678&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "European Journal of Neuroscience",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1460-9568",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:16+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
       "issn": "1619-7070",
       "journal_name": "EUROPEAN JOURNAL OF NUCLEAR MEDICINE AND MOLECULAR IMAGING",
       "journal_name_short": "Eur J Nucl Med Mol Imaging",
@@ -1297,6 +1472,76 @@
       "matched_query": "issn:1873-7862",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:34:00+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2396-9873",
+      "journal_name": "European Stroke Journal",
+      "journal_name_short": "Eur Stroke J",
+      "journal_id": 13769,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=13769&page=journalapp&view=detail",
+      "overall_score": 6.3,
+      "impact_factor": 5.2,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 7.5,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=13769&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "European Stroke Journal",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:2396-9881",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:17+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2837-6056",
+      "journal_name": "Imaging Neuroscience",
+      "journal_name_short": "Imaging Neurosci (Camb)",
+      "journal_id": 40469,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=40469&page=journalapp&view=detail",
+      "overall_score": 0.0,
+      "impact_factor": 3.0,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 1.8,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=40469&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Imaging Neuroscience",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:2837-6056",
+      "source": "manual_override",
+      "updated_at": "2026-07-25T03:00:06+00:00"
     },
     {
       "field": "manual_supplement",
@@ -1507,6 +1752,41 @@
       "matched_query": "issn:1369-1627",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:31:49+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2168-622X",
+      "journal_name": "JAMA Psychiatry",
+      "journal_name_short": "JAMA Psychiatry",
+      "journal_id": 9572,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=9572&page=journalapp&view=detail",
+      "overall_score": 9.4,
+      "impact_factor": 18.0,
+      "impact_factor_year": null,
+      "h_index": 335,
+      "citescore": 28.6,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=9572&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "JAMA Psychiatry",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:2168-6238",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:13+00:00"
     },
     {
       "field": "manual_supplement",
@@ -1862,6 +2142,41 @@
       "field": "manual_supplement",
       "field_tag": -1,
       "page": 0,
+      "issn": "0022-3077",
+      "journal_name": "Journal of Neurophysiology",
+      "journal_name_short": "J Neurophysiol",
+      "journal_id": 4905,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=4905&page=journalapp&view=detail",
+      "overall_score": 6.4,
+      "impact_factor": 2.3,
+      "impact_factor_year": null,
+      "h_index": 228,
+      "citescore": 3.7,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=4905&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Journal of Neurophysiology",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1522-1598",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:13+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
       "issn": "2150-1319",
       "journal_name": "Journal of Primary Care and Community Health",
       "journal_name_short": "J Prim Care Community Health",
@@ -1892,6 +2207,41 @@
       "matched_query": "issn:2150-1327",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:33:13+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "0264-0414",
+      "journal_name": "JOURNAL OF SPORTS SCIENCES",
+      "journal_name_short": "J Sports Sci",
+      "journal_id": 5176,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=5176&page=journalapp&view=detail",
+      "overall_score": 6.4,
+      "impact_factor": 3.1,
+      "impact_factor_year": null,
+      "h_index": 117,
+      "citescore": 4.4,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=5176&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Journal of Sports Sciences",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1466-447X",
+      "source": "manual_override",
+      "updated_at": "2026-07-25T03:00:08+00:00"
     },
     {
       "field": "manual_supplement",
@@ -2027,6 +2377,7 @@
       "manual_full_name": "Lasers in Medical Science",
       "reference": "backfill-missed-20260724-28",
       "references": [
+        "auto-unresolved-daily",
         "backfill-missed-20260724-28"
       ],
       "matched_query": "issn:1435-604X",
@@ -2562,6 +2913,41 @@
       "field": "manual_supplement",
       "field_tag": -1,
       "page": 0,
+      "issn": "2391-5463",
+      "journal_name": "Open Medicine",
+      "journal_name_short": "Open Med (Wars)",
+      "journal_id": 10184,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=10184&page=journalapp&view=detail",
+      "overall_score": 4.8,
+      "impact_factor": 1.8,
+      "impact_factor_year": null,
+      "h_index": 24,
+      "citescore": 3.1,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=10184&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Open Medicine",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:2391-5463",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:15+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
       "issn": "2193-8237",
       "journal_name": "Pain and Therapy",
       "journal_name_short": "Pain Ther",
@@ -2662,6 +3048,41 @@
       "matched_query": "issn:1526-4637",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:31:15+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "1353-8020",
+      "journal_name": "PARKINSONISM & RELATED DISORDERS",
+      "journal_name_short": "Parkinsonism Relat Disord",
+      "journal_id": 6499,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=6499&page=journalapp&view=detail",
+      "overall_score": 7.4,
+      "impact_factor": 4.3,
+      "impact_factor_year": null,
+      "h_index": 84,
+      "citescore": 5.9,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=6499&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Parkinsonism & Related Disorders",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:1873-5126",
+      "source": "manual_override",
+      "updated_at": "2026-07-24T03:00:14+00:00"
     },
     {
       "field": "manual_supplement",
@@ -3082,6 +3503,41 @@
       "matched_query": "issn:1432-2129",
       "source": "manual_override",
       "updated_at": "2026-07-23T15:30:27+00:00"
+    },
+    {
+      "field": "manual_supplement",
+      "field_tag": -1,
+      "page": 0,
+      "issn": "2976-7342",
+      "journal_name": "Substance Use & Addiction Journal",
+      "journal_name_short": "Subst Use Addctn J",
+      "journal_id": 44706,
+      "detail_url": "https://letpub.com.cn/index.php?journalid=44706&page=journalapp&view=detail",
+      "overall_score": 0.0,
+      "impact_factor": 2.4,
+      "impact_factor_year": null,
+      "h_index": 0,
+      "citescore": 5.4,
+      "cas_quartile": "",
+      "big_category": "",
+      "sub_category": "",
+      "sci_indexed": "",
+      "oa_status": "",
+      "acceptance_rate": "",
+      "review_cycle": "",
+      "article_url": "https://letpub.com.cn/index.php?page=journalapp&view=detail&journalid=44706&xuanxiangk_id=2#xuanxk_3",
+      "views": 0,
+      "fields": [
+        "manual_supplement"
+      ],
+      "manual_full_name": "Substance Use & Addiction Journal",
+      "reference": "auto-unresolved-daily",
+      "references": [
+        "auto-unresolved-daily"
+      ],
+      "matched_query": "issn:2976-7350",
+      "source": "manual_override",
+      "updated_at": "2026-07-25T03:00:05+00:00"
     },
     {
       "field": "manual_supplement",
