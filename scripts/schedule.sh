@@ -97,9 +97,8 @@ do_uninstall() {
 
 do_status() {
     echo "=== Daily Insights ($LABEL_ALL) ==="
-    result=$(launchctl list 2>/dev/null | grep "$LABEL_ALL")
-    if [ -n "$result" ]; then
-        green "已加载：$result"
+    if launchctl print "gui/$(id -u)/$LABEL_ALL" >/dev/null 2>&1; then
+        green "已加载"
     else
         yellow "未加载（定时任务未安装）"
     fi
@@ -117,7 +116,7 @@ do_run_now() {
         echo "用法: $(basename "$0") run-now all"
         exit 1
     fi
-    if ! launchctl list 2>/dev/null | grep -q "$LABEL_ALL"; then
+    if ! launchctl print "gui/$(id -u)/$LABEL_ALL" >/dev/null 2>&1; then
         red "[ERROR] 定时任务未安装，请先运行 install"
         exit 1
     fi
