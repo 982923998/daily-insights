@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-01",
+  "articles": [
+    {
+      "title": "GeoMind: Dancing with Geometric Brain Rhythm on Symmetric Positive Definite Manifolds.",
+      "summary": "State space model (SSM) is a powerful tool in neuroscience field to characterize the dynamic nature of brain functions by elucidating the mechanism of how brain system transits between brain states and how underlying states give rise to the observed neural activities. Although tremendous efforts have been made to lend the power of deep learning and mathematical insight of SSM in various functional neuroimaging studies, current state-of-the-art methods lack a holistic view of brain state evolution as a self-organized dynamical system where each part of the brain is functionally inter-connected. Since the topological co-activation of functional fluctuations exhibits an intrinsic geometric pattern (symmetric and positive definite, SPD) on the Riemannian manifold, the call for understanding how a selective set of functional connectivities in the brain supports diverse behavior and cognition emerge a new machine learning scenario of manifold-based SSM for largescale functional neuroimages. To that end, we propose a geometric neural network of SSM, coined GeoMind, designed to uncover evolving brain states by tracking the trajectory of functional dynamics on a high-dimensional Riemannian manifold of SPD matrices.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42955763/",
+      "category": "Autism",
+      "source": "pubmed",
+      "journal": "IEEE transactions on medical imaging",
+      "published_date": "2026-10-29",
+      "date": "2026-11-01",
+      "impact_factor": 9.8,
+      "impact_factor_year": null,
+      "impact_factor_status": "available",
+      "impact_factor_source": "manual_override",
+      "impact_factor_match_method": "canonical_name",
+      "impact_factor_matched_journal": "IEEE TRANSACTIONS ON MEDICAL IMAGING"
+    }
+  ],
+  "digest": {
+    "generated_at": "2026-11-01T08:04:28+00:00",
+    "version": 1,
+    "summary": "Captured 1 research items. Preference focus is brain-imaging analysis and disease mechanisms: 1 high-priority, 0 medium-priority, 0 low-priority. Mechanism-related items: 1; analysis-method items: 1.",
+    "preference": {
+      "focus": [
+        "brain imaging data analysis",
+        "disease brain mechanisms"
+      ],
+      "deprioritize": [
+        "non-mechanism/non-analysis updates"
+      ]
+    },
+    "stats": {
+      "total": 1,
+      "high_priority": 1,
+      "medium_priority": 0,
+      "low_priority": 0
+    },
+    "focus_topics": [
+      {
+        "topic": "disease mechanism",
+        "count": 1
+      },
+      {
+        "topic": "imaging analysis",
+        "count": 1
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "GeoMind: Dancing with Geometric Brain Rhythm on Symmetric Positive Definite Manifolds.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42955763/",
+        "published_date": "2026-10-29",
+        "priority": "high",
+        "reason": "has disease/neural mechanism relevance; has imaging analysis/method relevance"
+      }
+    ]
+  }
+}
